@@ -1,0 +1,65 @@
+.main {
+    /* display: grid;
+    grid-template-columns: auto; */
+    background: green;
+}
+.main h2{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.cube,
+.cube div,
+.cube div img {
+  height: 200px;
+  width: 200px;
+}
+.cube {
+  transition: opacity .40s ease-in-out;
+  position: relative;
+  margin: 0 auto;
+  animation:giro 45s infinite linear;
+  transform-style:preserve-3d;
+}
+.cube div {
+  position: absolute;
+  -moz-cube-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5); /* Firefox anti aliasing */
+  animation:rotate 15s infinite linear;
+}
+.cube div img {
+  margin: 0;
+  padding: 0;
+  border: 0 none transparent;
+  animation:rot 5s infinite linear;
+}
+.cube div {opacity: 0.8;}
+.cube div.cara1 {background:rgba(255,255,255,.5);}
+.cube div.cara2 {background:rgba(255,255,255,.8);}
+.cube div.cara3 {background:rgba(255,255,255,.5);}
+.cube div.cara4 {background:rgba(255,255,255,.7);}
+.cube div.cara5 {background:rgba(255,255,255,.5);}
+.cube div.cara6 {background:rgba(255,255,255,.6);}
+.cube div.cara1 {transform:translateZ(100px);}
+.cube div.cara2 {transform:rotateY(90deg) translateZ(100px);}
+.cube div.cara3 {transform:rotateY(180deg) translateZ(100px);}
+.cube div.cara4 {transform:rotateY(-90deg) translateZ(100px);}
+.cube div.cara5 {transform:rotateX(-90deg) translateZ(100px) rotate(180deg);}
+.cube div.cara6 {transform:rotateX(90deg) translateZ(100px);}
+@keyframes giro {
+	0% { transform: rotateX(0deg) rotateY(0deg);}
+	50% { transform: rotateX(780deg) rotateY(780deg);}
+  100% { transform: rotateX(1080deg) rotateY(360deg);}
+}
+/* Mobile 320px  */
+@media screen and (min-width: 30em) {}
+/* Table */
+@media screen and (min-width: 40em) {}
+/* Desktop 980px to 1280px  */
+@media screen and (min-width: 57em) {
+  .main {
+    background: red;
+    /* grid-template-columns: auto auto auto auto;
+    grid-gap: 110px; */
+  }
+}
+/* Desktop 1920px */
+@media screen and (min-width: 120em) {}

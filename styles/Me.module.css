@@ -1,0 +1,25 @@
+.main {
+    width: 100vw;
+}
+.artwork{
+    width: 300px;
+    height: 300px;
+}
+
+/* Mobile 320px  */
+@media screen and (min-width: 30em) {}
+/* Table 768px */
+@media screen and (min-width: 48em) {}
+/* Desktop 980px to 1280px  */
+@media screen and (min-width: 57em) {
+    .main {
+        width: 1200px;
+    }
+    .artwork{
+        width: 600px;
+        height: 400px;
+    }
+    .description{
+        width: 100%;
+    }
+}

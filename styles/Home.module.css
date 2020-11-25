@@ -1,0 +1,74 @@
+.main {
+    width: 100vw;
+}
+
+/* https://codepen.io/edwinchen26/pen/daoZqd */
+.main img {
+    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+    transition: all 1s ease;
+    animation: movingBlob 25s ease-in-out alternate infinite;
+}
+@keyframes movingBlob {
+    0%{border-radius: 18% 82% 37% 70% / 44% 40% 14% 40%}
+    25%{border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%}
+    50%{border-radius: 76% 90% 87% 67% / 71% 77% 63% 82%}
+    75%{border-radius: 70% 30% 30% 70% / 60% 40% 20% 40%}
+    100%{border-radius: 18% 82% 37% 70% / 44% 40% 54% 40%}
+}
+.main h1 {
+    color:white;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    width: 290px;
+    text-align: center;
+    font-style: italic;
+    line-height: 33px;
+    letter-spacing: 1px;
+    filter: var(--box-shadow);
+    transition: all 1s ease;
+    animation: backgroundColorPalette 5s;
+    animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear; 
+}
+@keyframes backgroundColorPalette {
+    0% {color: #FFF;}
+    25% {color: #eaeaea;}
+    50% {color: #FFF;}
+    75% {color: yellow;}
+    100% {color: #FFF;}
+  }
+
+.main h1 span{
+    font-weight: 100;
+}
+.main p {
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 0.15em;
+    filter: var(--box-shadow);
+}
+/* Mobile 320px  */
+@media screen and (min-width: 30em) {}
+/* Table */
+@media screen and (min-width: 40em) {}
+/* Desktop 980px to 1280px  */
+@media screen and (min-width: 57em) {
+    .main {
+        width: 1200px;
+    }
+    .main div{
+        /* border: 1px solid red; */
+    }
+    .main p {
+        line-height: 35px;
+        font-size: 17px;
+        font-weight: lighter;
+        letter-spacing: 0.15em;
+        filter: var(--box-shadow);
+    }
+}
+/* Desktop 1920px */
+@media screen and (min-width: 120em) {}

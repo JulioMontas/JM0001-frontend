@@ -19,14 +19,12 @@ function Me() {
       breakpoints={{ 
         320: {
           slidesPerView: 1,
-          spaceBetween: 30,
-          width: 300
+          spaceBetween: 30
         },
         1200: {
           slidesPerView: 2,
           spaceBetween: 150,
-          width: 1200,
-          centeredSlides: "false"
+          width: 1200
         }
       }}
     >

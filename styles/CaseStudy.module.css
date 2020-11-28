@@ -1,7 +1,5 @@
 .main {
-    /* display: grid;
-    grid-template-columns: auto; */
-    background: green;
+
 }
 .main h2{
     text-transform: uppercase;
@@ -16,9 +14,14 @@
 .cube {
   transition: opacity .40s ease-in-out;
   position: relative;
-  margin: 0 auto;
+  margin: 72px auto;
   animation:giro 45s infinite linear;
   transform-style:preserve-3d;
+}
+@keyframes giro {
+	0% { transform: rotateX(0deg) rotateY(0deg);}
+	50% { transform: rotateX(780deg) rotateY(780deg);}
+  100% { transform: rotateX(1080deg) rotateY(360deg);}
 }
 .cube div {
   position: absolute;
@@ -44,11 +47,28 @@
 .cube div.cara4 {transform:rotateY(-90deg) translateZ(100px);}
 .cube div.cara5 {transform:rotateX(-90deg) translateZ(100px) rotate(180deg);}
 .cube div.cara6 {transform:rotateX(90deg) translateZ(100px);}
-@keyframes giro {
-	0% { transform: rotateX(0deg) rotateY(0deg);}
-	50% { transform: rotateX(780deg) rotateY(780deg);}
-  100% { transform: rotateX(1080deg) rotateY(360deg);}
+
+
+.title{
+  font-family: Roboto Condensed;
+font-weight: bold;
+font-size: 26px;
+line-height: 30px;
+letter-spacing: 1px;
+text-transform: uppercase;
+margin: 25px 0 -10px 0;
+height: 66px;
 }
+
+.description{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+
 /* Mobile 320px  */
 @media screen and (min-width: 30em) {}
 /* Table */
@@ -56,9 +76,10 @@
 /* Desktop 980px to 1280px  */
 @media screen and (min-width: 57em) {
   .main {
-    background: red;
-    /* grid-template-columns: auto auto auto auto;
-    grid-gap: 110px; */
+    
+  }
+  .title{
+    margin: 25px 0 0 0;
   }
 }
 /* Desktop 1920px */

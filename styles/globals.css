@@ -9,8 +9,8 @@
   --line-height: 1.5;
 
   --background-color: linear-gradient(45deg,#72c602 0,#1cafeb 50%,#f1551d);
-  --background-color-light:;
-  --background-color-dark:;
+  --background-color-light: ;
+  --background-color-dark: linear-gradient(45deg,#333 0,#000 50%,#333);
 
   --fonts-title:'Roboto Condensed', Helvetica Neue, sans-serif; 
   --fonts-summary:'Roboto', Helvetica Neue, sans-serif; 
@@ -62,4 +62,18 @@ ul{
 li svg{
   padding: 0 5px 0 0;
   filter: var(--box-shadow);
+}
+
+footer a{
+  font-size: 14px;
+  font-weight: bold;
+  color: #F8E71C;
+  width: 100px;
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  margin: 15px 10px 20px;
+  border: 2px solid #F8E71C;
+  filter: var(--box-shadow);
+  border-radius: 5px;
 }

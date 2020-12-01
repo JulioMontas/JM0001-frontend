@@ -21,8 +21,8 @@ function HomePage() {
       breakpoints={{ 
         320: {
           slidesPerView: 1,
-          spaceBetween: 20,
-          width: 320
+          spaceBetween: 0,
+          width: 310
         },
         1200: {
           slidesPerView: 2,
@@ -40,13 +40,13 @@ function HomePage() {
               width={200}
               height={200}
             />
-            <h1>Product Designer <span>with</span> Coding Ability</h1>
+            <h1>Designer <span>with</span> Coding Ability</h1>
           </div>
         </div>
       </SwiperSlide>
       <SwiperSlide>
-      <div>
-        <p>Interested in the evolution of technology in our daily lives and how it’s affecting our behavior. Currently working as a <b>UI/UX Designer</b> with some <b>Front-end Development</b> based in NYC, experience with startup, private companies and creative agency.<br/><br/> Alumnus from <b>Altos de Chavón</b>, <a><b>Parsons</b> / <b>The New School</b></a> and <b>General Assembly</b> coding bootcamp.<br/> <br/>  In my free time, I like to explore the other side of the internet and mixed minimal house / techno for others to relax and dance.</p>
+      <div  className={styles.sectionDos}>
+        <p>Interested in the evolution of technology in our daily lives and how it’s affecting our behavior. Currently working as a <b>UI/UX Designer</b> with some <b>Front-end Development</b> based in NYC, experience with startup, private companies and creative agency.<br/><br/> Alumnus from <b>Altos de Chavón</b>,<b>Parsons</b> / <b>The New School</b> and <b>General Assembly</b> coding bootcamp.<br/> <br/>  In my free time, I like to explore the other side of the internet and mixed minimal house / techno for others to relax and dance.</p>
       </div>
       </SwiperSlide>
     </Swiper>

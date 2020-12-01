@@ -1,54 +1,8 @@
-
-.header{
-  grid-area: header;
-}
-.main{
-    /* grid-area: main;
-    display: grid;
-    place-items: center; */
-}
-/*.footer{
-    grid-area: footer;
-}
-
-.footer div{
-    place-items: center;
-}
-.footer ul{
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: auto; 
-}
-.footer li{
-    border: 2px solid #f8e71c;
-    text-align: center;
-    padding: 15px 40px;
-    margin: 0 15px 15px 0;
-    border-radius: 10px;
-}
-.footer a{
-    text-transform: uppercase;
-    font-size: 0.9em;
-    letter-spacing: 1px;
-    filter: var(--box-shadow);
-} */
-/* .container {
-    padding: 20px;
-    height: 100vh;
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: auto 1fr;
-    grid-template-areas: 
-    "main"
-    "footer";
-} */
 /* Mobile 320px  */
 @media screen and (min-width: 30em) {}
 /* Table */
 @media screen and (min-width: 40em) {}
 /* Desktop 980px to 1280px  */
-@media screen and (min-width: 57em) {
-    
-}
+@media screen and (min-width: 57em) {}
 /* Desktop 1920px */
 @media screen and (min-width: 120em) {}

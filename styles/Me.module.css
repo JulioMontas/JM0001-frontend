@@ -1,9 +1,27 @@
 .main {
-    width: 100vw;
+    margin: 0 0 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
 }
 .artwork{
     width: 300px;
     height: 300px;
+}
+.title{
+    font-family: var(--fonts-title);
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 29px;
+    letter-spacing: 1px ;
+    text-transform: uppercase; 
+    margin: 0 0 -15px 0;
+}
+.description{
+    font-size: 14px;
+    line-height: 22px;
+    filter: var(--box-shadow);
 }
 
 /* Mobile 320px  */
@@ -16,8 +34,8 @@
         width: 1200px;
     }
     .artwork{
-        width: 600px;
-        height: 400px;
+        width: 400px;
+        height: 330px;
     }
     .description{
         width: 100%;

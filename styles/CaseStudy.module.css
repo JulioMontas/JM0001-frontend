@@ -5,6 +5,9 @@
   justify-content: center;
   height: 500px;
 }
+.mainIndex img{
+  border-radius: 0 0.8em 0.8em 0.8em;
+}
 .mainIndex h2{
   font-family: var(--fonts-title);
   font-weight: bold;
@@ -25,17 +28,7 @@
   background: var(--background-color-dark);
   animation: MoveBG 60s ease infinite;
   transition: all 1s ease;
-  padding: 10px;
-}
-@-webkit-keyframes MoveBG {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
-}
-@-moz-keyframes MoveBG {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
+  padding: 10px 10px 4em;
 }
 @keyframes MoveBG {
   0%{background-position:0% 50%}
@@ -122,29 +115,128 @@
 .secOverview{
   margin: 90px 0 0 0;
 }
-.SecImgOne,
-.SecImgTwo,
-.SecImgThree,
-.SecImgFour{
+.shortCurve,
+.longCurve,
+.longFlat,
+.longButNo,
+.injectionCircle,
+.halfCurveUpRight,
+.halfCurveBottomLeft{
   width: 100%;
   margin-bottom: 10px;
 }
-.SecImgOne{
+
+
+.shortCurve img{
   background: #777777;
   height: 125px;
+  border-radius: 100% 0% 40% 0%;
+  transition: all 1s ease;
+  animation: shortCurve 5s ease-in-out alternate infinite;
 }
-.SecImgTwo{
+@keyframes shortCurve {
+  0%{border-radius:  100% 0% 40% 0%}
+  25%{border-radius:  40% 0% 80% 0%}
+  100%{border-radius: 100% 0% 40% 0%}
+}
+
+
+
+
+
+
+.longCurve img{
+  background: #C4C4C4;
+  height: 365px;
+  border-radius: 0% 30% 0% 100%;
+  transition: all 1s ease;
+  animation: longCurve 5s ease-in-out alternate infinite;
+}
+@keyframes longCurve {
+  0%{border-radius:  0% 30% 0% 100%}
+  25%{border-radius:  0% 10% 0% 50%}
+  100%{border-radius: 0% 30% 0% 100%}
+}
+
+
+
+
+.longFlat img{
+  border-radius: 0 0 100% 0;
+  transition: all 1s ease;
+  animation: longFlat 5s ease-in-out alternate infinite;
+}
+@keyframes longFlat {
+  0%{border-radius:  0 0 100% 0 }
+  25%{border-radius:  0 0 10% 0}
+  100%{border-radius: 0 0 100% 0}
+}
+
+
+.longButNo img{
+  border-radius: 0 0 20% 20%;
+  transition: all 1s ease;
+  animation: longButNo 5s ease-in-out alternate infinite;
+}
+@keyframes longButNo {
+  0%{border-radius:  0 0 20% 20% }
+  25%{border-radius:  0 0 50% 50%}
+  100%{border-radius: 0 0 20% 20%}
+}
+
+
+.injectionCircle{
+  /* background: #777; */
+  height: 225px;
+  width: 225px;
+  bottom: -10px;
+  left: 13px;
+  position: absolute;
+  border-radius: 100% 100% 100% 100%;
+}
+
+.injectionCircle img{
+  border-radius: 100% 100% 100% 100%;
+  transition: all 1s ease;
+  animation: injectionCircle 5s ease-in-out alternate infinite;
+}
+@keyframes injectionCircle {
+  0%{border-radius:  100% 100% 100% 100%  }
+  25%{border-radius:  100% 100% 10% 10% }
+  100%{border-radius: 100% 100% 100% 100%} 
+}
+
+.halfCurveUpRight img{
   background: #C4C4C4;
   height: 250px;
+  border-radius: 0 100% 0 0;
+  transition: all 1s ease;
+  animation: halfCurveUpRight 5s ease-in-out alternate infinite;
 }
-.SecImgThree{
+@keyframes halfCurveUpRight {
+  0%{border-radius:  0 100% 0 0}
+  25%{border-radius:  0 60% 0 0}
+  100%{border-radius: 0 100% 0 0} 
+}
+
+
+
+.halfCurveBottomLeft img{
   background: #C4C4C4;
-  height: 370px;
+  height: 250px;
+  border-radius: 100% 0 60% 100%;
+  transition: all 1s ease;
+  animation: halfCurveBottomLeft 5s ease-in-out alternate infinite;
 }
-.SecImgFour{
-  background:#777;
-  height: 500px;
+@keyframes halfCurveBottomLeft {
+  0%{border-radius:  100% 0 60% 100%}
+  25%{border-radius:  10% 0 20% 60%}
+  100%{border-radius: 100% 0 60% 100%} 
 }
+
+
+
+
 .SecFont svg{
   margin-top: 15px;
   width: 320px;
@@ -171,6 +263,12 @@
 .secPaletteFour{background: #CE7946;}
 .secPaletteFive{background: #000001;}
 
+
+
+
+.secSoundcloud div{
+  width: 300px !important;
+}
 /* Mobile 320px  */
 @media screen and (min-width: 30em) {}
 /* Table */

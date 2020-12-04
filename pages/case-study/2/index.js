@@ -119,7 +119,7 @@ function CaseStudyIndex() {
           </div>
           <div className={styles.SecBackground}>
             <h2>Background</h2>
-            <p>I came into the project to design the entire look and feel of their existeing eCommerce that was put together in shopify by their marketing team. I plan out their customer journey, User experience (UX), skit the wireframe process because of the limitation of time, create all the UI mockup and interaction animation.</p>
+            <p>I came into the project to redesign their existeing eCommerce that was put together by their marketing team. I plan out their customer journey, User experience (UX), skit the wireframe process because of the limitation of time, create all the UI mockup and interaction animation.</p>
           </div>
           <div className={styles.secColorPalette}>
             <h2>Palette</h2>

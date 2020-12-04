@@ -165,6 +165,23 @@ function ProjectIndex() {
             </div>
           </div>
         </SwiperSlide>
+        <SwiperSlide>
+          <div className={styles.main}>
+            <div>
+            <Image
+                src="/img/processing_04.gif"
+                alt="Picture of the author"
+                width={200}
+                height={200}
+                />
+              <p className={styles.blgDate}>May 2021</p>
+              <Link href={`/project/2`}>
+                <a><h2 className={styles.blgTitle}>VR RIP</h2></a>
+              </Link>
+              <p className={styles.blgSummery}>Virtual cemetery to remember our love ones.</p>
+            </div>
+          </div>
+        </SwiperSlide>
       </Swiper>
     </motion.div>
   </Layout>

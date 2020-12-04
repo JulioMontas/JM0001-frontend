@@ -209,30 +209,6 @@ function CaseStudy({ posts }) {
           </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className={styles.main}>
-          <div>
-            <div className={styles.cube}>
-              <div className={styles.cara1}>Private Collection</div>
-              <div className={styles.cara2}></div>
-              <div className={styles.cara3}></div>
-              <div className={styles.cara4}></div>
-              <div className={styles.cara5}></div>
-              <div className={styles.cara6}></div>
-            </div>
-            <Link href={`/case-study/4`}>
-              <a><h2 className={styles.title}>Private Collection</h2></a>
-            </Link>
-            <p className={styles.description}>Custom content management system for independent artist to manage and keep their fan loyalty.</p>
-          </div>
-          </div>
-        </SwiperSlide>
-
-
-
-
-
-
       </Swiper>
     </motion.div>
   </Layout>

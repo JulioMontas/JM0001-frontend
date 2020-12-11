@@ -640,7 +640,7 @@ function CaseStudyIndex() {
               </SwiperSlide>
               <SwiperSlide>
                 <Image
-                src="/img/cms/musicCMS_Mockup_LandingPage.png"
+                src="/img/cms/musicCMS_Mockup_LandingPage.jpg"
                 alt="Landing Page"
                 width={1440}
                 height={5839}
@@ -745,7 +745,7 @@ function CaseStudyIndex() {
               </SwiperSlide>
               <SwiperSlide>
                 <Image
-                src="/img/cms/musicCMS_Mockup_Biography.png"
+                src="/img/cms/musicCMS_Mockup_Biography.jpg"
                 alt="Biography"
                 width={1440}
                 height={3228}
@@ -785,7 +785,7 @@ function CaseStudyIndex() {
               </SwiperSlide>
               <SwiperSlide>
                 <Image
-                src="/img/cms/musicCMS_Mockup_Gallery.png"
+                src="/img/cms/musicCMS_Mockup_Gallery.jpg"
                 alt="Gallery Mockup"
                 width={1440}
                 height={2272}
@@ -834,7 +834,7 @@ function CaseStudyIndex() {
               </SwiperSlide>
               <SwiperSlide>
                 <Image
-                src="/img/cms/musicCMS_Mockup_Event.png"
+                src="/img/cms/musicCMS_Mockup_Event.jpg"
                 alt="Mockup"
                 width={1440}
                 height={1771}
@@ -846,7 +846,7 @@ function CaseStudyIndex() {
                 src="/img/cms/sectionEvents_Mobile.jpg"
                 alt="Wireframe"
                 width={749}
-                height={1115}
+                height={1115} 
                 />
                 <small>Mobile</small>
               </SwiperSlide>
@@ -893,8 +893,8 @@ function CaseStudyIndex() {
               </SwiperSlide>
               <SwiperSlide>
                 <Image
-                src="/img/cms/musicCMS_Mockup_Blog.png"
-                alt="Picture of the author"
+                src="/img/cms/musicCMS_Mockup_Blog.jpg"
+                alt="Mockup"
                 width={1440}
                 height={3223}
                 />
@@ -909,8 +909,6 @@ function CaseStudyIndex() {
                 />
                 <small>Screenshot</small>
               </SwiperSlide>
-
-
               <SwiperSlide>
                 <Image
                 src="/img/cms/musicCMS_Wireframe_BlogArticle_01A.png"
@@ -922,8 +920,8 @@ function CaseStudyIndex() {
               </SwiperSlide>
               <SwiperSlide>
                 <Image
-                src="/img/cms/musicCMS_Mockup_BlogArtical.png"
-                alt="Picture of the author"
+                src="/img/cms/musicCMS_Mockup_BlogArtical.jpg"
+                alt="Mockup"
                 width={1440}
                 height={3401}
                 />
@@ -962,7 +960,7 @@ function CaseStudyIndex() {
               </SwiperSlide>
               <SwiperSlide>
                 <Image
-                src="/img/cms/musicCMS_Mockup_Contact.png"
+                src="/img/cms/musicCMS_Mockup_Contact.jpg"
                 alt="Picture of the author"
                 width={1440}
                 height={1421}
@@ -976,7 +974,7 @@ function CaseStudyIndex() {
                 width={746}
                 height={1115}
                 />
-                <small>Mobile</small>
+                <small>Mobile screenshot</small>
               </SwiperSlide>
              
             </Swiper>

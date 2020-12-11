@@ -62,8 +62,8 @@ function CaseStudyIndex() {
                <Image
               src="/img/pendulum/untitled_01.jpg"
               alt="Picture of the author"
-              width={400}
-              height={500}
+              width={500}
+              height={649}
             />
                </div>
              </div>
@@ -74,8 +74,8 @@ function CaseStudyIndex() {
                <Image
               src="/img/pendulum/untitled_02.jpg"
               alt="Picture of the author"
-              width={400}
-              height={500}
+              width={500}
+              height={649}
             />
                </div>
              </div>
@@ -105,18 +105,18 @@ function CaseStudyIndex() {
              <div>
                <div className={styles.shortCurve}>
                <Image
-              src="/img/pendulum/space.png"
+              src="/img/pendulum/space.jpg"
               alt="Picture of the author"
-              width={300}
-              height={125}
+              width={399}
+              height={202}
             />
                </div>
                <div className={styles.longCurve}>
                <Image
-              src="/img/pendulum/pij77ougdwr01.png"
+              src="/img/pendulum/pij77ougdwr01.jpg"
               alt="Picture of the author"
-              width={300}
-              height={365}
+              width={598}
+              height={522}
             />
                </div>
              </div>
@@ -125,10 +125,10 @@ function CaseStudyIndex() {
             <div>
             <div className={styles.longFlat}>
             <Image
-              src="/img/pendulum/energy.png"
+              src="/img/pendulum/energy.jpg"
               alt="Picture of the author"
-              width={250}
-              height={500}
+              width={496}
+              height={826}
             />
             </div>
              </div>
@@ -157,7 +157,7 @@ function CaseStudyIndex() {
             <div>
             <div className={styles.halfCurveUpRight}>
             <Image
-              src="/img/pendulum/02d.png"
+              src="/img/pendulum/02d.jpg"
               alt="Picture of the author"
               width={300}
               height={250}
@@ -165,10 +165,10 @@ function CaseStudyIndex() {
             </div>
             <div className={styles.halfCurveBottomLeft}>
             <Image
-              src="/img/pendulum/shape.png"
+              src="/img/pendulum/shape.jpg"
               alt="Picture of the author"
-              width={300}
-              height={250}
+              width={599}
+              height={596}
             />
             </div>
              </div>

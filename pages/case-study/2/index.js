@@ -66,10 +66,10 @@ function CaseStudyIndex() {
             <div>
             <div className={styles.longFlat}>
             <Image
-              src="/img/ecommerce/swimming.png"
+              src="/img/ecommerce/swimming.jpg"
               alt="Picture of the author"
-              width={250}
-              height={500}
+              width={462}
+              height={624}
             />
             </div>
              </div>
@@ -80,16 +80,16 @@ function CaseStudyIndex() {
                <Image
               src="/img/ecommerce/i491478.jpg"
               alt="Picture of the author"
-              width={300}
-              height={125}
+              width={885}
+              height={498}
             />
                </div>
                <div className={styles.longCurve}>
                <Image
               src="/img/ecommerce/il_794xN.2360012702_c83e.jpg"
               alt="Picture of the author"
-              width={300}
-              height={365}
+              width={794}
+              height={794}
             />
                </div>
              </div>

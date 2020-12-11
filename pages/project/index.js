@@ -91,6 +91,23 @@ function ProjectIndex() {
             />
               <p className={styles.blgDate}>Dec 2020</p>
               <Link href={`/project/1`}>
+                <a><h2 className={styles.blgTitle}>Becoming a personal brand</h2></a>
+              </Link>
+              <p className={styles.blgSummery}>How to stream like a PRO</p>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className={styles.main}>
+            <div>
+            <Image
+              src="/img/IMG_1259.jpg"
+              alt="Picture of the author"
+              width={200}
+              height={200}
+            />
+              <p className={styles.blgDate}>Dec 2020</p>
+              <Link href={`/project/1`}>
                 <a><h2 className={styles.blgTitle}>Fake Views</h2></a>
               </Link>
               <p className={styles.blgSummery}>Grow your perception on social media</p>

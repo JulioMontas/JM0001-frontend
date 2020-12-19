@@ -46,15 +46,15 @@ function CaseStudyIndex() {
             <div>
                <div className={styles.longButNo}>
                <Image
-              src="/img/ecommerce/tumblr_e65d99cbe324f595c1f0925fa6d55204_65730c70_400.webp"
+              src="/img/ecommerce/632d61_eb21d17268c9452eb1209f8f9bcc5bc7~mv2_d_2801_4461_s_4_2.jpg"
               alt="Picture of the author"
-              width={250}
-              height={500}
+              width={600}
+              height={955}
             />
                </div>
                <div className={styles.injectionCircle}>
                <Image
-              src="/img/ecommerce/tumblr_e65d99cbe324f595c1f0925fa6d55204_65730c70_400.webp"
+              src="/img/ecommerce/282329eefc02fba1ca4935c8b6efcb27-l.jpg"
               alt="Picture of the author"
               width={225}
               height={225}
@@ -98,10 +98,10 @@ function CaseStudyIndex() {
             <div>
             <div className={styles.halfCurveUpRight}>
             <Image
-              src="/img/ecommerce/tumblr_licelpVslZ1qcgu4io1_500.webp"
+              src="/img/ecommerce/1e541f7155272657639c29e5f9038f0c-l.jpg"
               alt="Picture of the author"
-              width={300}
-              height={250}
+              width={601}
+              height={800}
             />
             </div>
             <div className={styles.halfCurveBottomLeft}>
@@ -756,10 +756,14 @@ function CaseStudyIndex() {
               </SwiperSlide>
             </Swiper>
           </div>
+          <div className={styles.SecBackground}>
+          <h2>&#127968; Landing Page</h2>
+          <p>The first page I started designing to establish the design style architecture of the brand lifestyle with a main focus to direct the users to the <b>Product Detail Page</b> (<b>PDP</b>) and later on to improve the tunnels directions from analytic data receiving from each channel.</p>
+          </div>
           <div className={styles.secLandingPage}>
-            <h2>&#127968; Landing Page</h2>
+            <h2>&#128065; Mockup: Landing Page</h2>
             <Swiper
-            speed={400}
+            speed={400}            
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
             breakpoints={{ 
@@ -775,9 +779,6 @@ function CaseStudyIndex() {
               }
             }}
             >
-              <SwiperSlide>
-                <p>The first page I started designing stablising the style design all around the eCommerce. </p>
-              </SwiperSlide>
               <SwiperSlide>
                 <Image
                 src="/img/ecommerce/mockup_LandingPage_H01.jpg"
@@ -825,8 +826,14 @@ function CaseStudyIndex() {
               </SwiperSlide>
             </Swiper>
           </div>
+          <div className={styles.SecBackground}>
+          <h2>&#128065; Product Listing Pages (PLPs)</h2>
+          <p>Coming up with the <b>User Interface</b> (UI) + animation for the <b>Fragrance Finder</b> section was one of the most favorite part of the project. Collaborating with their in house fashion photographer <b>Beheshteh Zebhi</b> to come up with a collection of image that cause a sensation of smell as an guide for shopper to find their signature scent.</p>
+              <p>-</p>
+              <p>For the rest of the other collection, <b>Home Fragrances</b>, <b>Skincare</b>, <b>Bath & Body</b> and <b>Haircare</b> I keep the same design consistency having them look and behave the same way no matter the possibility of the collection or gender.</p>
+          </div>
           <div className={styles.secTextImg}>
-            <h2>&#128065; Product Listing Pages (PLPs)</h2>
+            <h2>&#128065; Mockup: Product Listing Pages (PLPs)</h2>
             <Swiper
             speed={400}
             onSlideChange={() => console.log('slide change')}
@@ -845,10 +852,14 @@ function CaseStudyIndex() {
             }}
             >
               <SwiperSlide>
-              <p>Coming up with the <b>User Interface</b> (UI) + animation for the <b>Fragrance Finder</b> section was one of the most favorite part of the project. Collaborating with their in house fashion photographer <b>Beheshteh Zebhi</b> to come up with a collection of image that cause a sensation of smell as an guide for shopper to find their signature scent.</p>
-              <p>-</p>
-              <p>For the rest of the other collection, <b>Home Fragrances</b>, <b>Skincare</b>, <b>Bath & Body</b> and <b>Haircare</b> I keep the same design consistency having them look and behave the same way no matter the possibility of the collection or gender.</p>
-              </SwiperSlide>
+              <Image
+              src="/img/ecommerce/mockupFragrance_A01.jpg"
+              alt="Home Fragrance mockup"
+              width={1440}
+              height={2147}
+              />
+              <small>Mockup A01: Home Fragrance</small>
+            </SwiperSlide>
             <SwiperSlide>
               <Image
               src="/img/ecommerce/MockupFragranceFinder_A01.jpg"
@@ -883,19 +894,14 @@ function CaseStudyIndex() {
               />
               <small>Mockup A03: Fragrance Finder final design</small>
             </SwiperSlide>
-            <SwiperSlide>
-              <Image
-              src="/img/ecommerce/mockupFragrance_A01.jpg"
-              alt="Home Fragrance mockup"
-              width={1440}
-              height={2147}
-              />
-              <small>Mockup A01: Home Fragrance</small>
-            </SwiperSlide>
             </Swiper>
+          </div>
+          <div className={styles.SecBackground}>
+            <h2>&#128065; Product Detail Page (PDP)</h2>
+            <p>A minimalist approach for each component parts to focus the users within each section that  allowed them to read and analysis the product with a calm consuming perspective.</p>
           </div> 
           <div className={styles.secTextImg}>
-            <h2>&#128065; Product Detail Page (PDP)</h2>
+            <h2>&#128065; Mockup: Product Detail Page (PDP)</h2>
             <Swiper
             speed={400}
             onSlideChange={() => console.log('slide change')}
@@ -913,9 +919,6 @@ function CaseStudyIndex() {
               }
             }}
             >
-              <SwiperSlide>
-              <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-              </SwiperSlide>
             <SwiperSlide>
               <Image
               src="/img/ecommerce/mockup_PDP_B01.jpg"
@@ -945,8 +948,14 @@ function CaseStudyIndex() {
             </SwiperSlide>
             </Swiper>
           </div>
+          <div className={styles.SecBackground}>
+            <h2>&#128065; Press & Contact</h2>
+            <p>The Press page was design with a archive gathering in mind. Simple components of horizonal width rectangle with a minimal height of 50px, containing the name of the publication with any extra information in the form of a Icons link for simple direction if multiple.</p>
+              <p>-</p>
+              <p>The Contact page was actually the return page first version to later on improve the system around if there were any abuse by a savy user.</p>
+          </div> 
           <div className={styles.secTextImg}>
-            <h2>&#128065; Press & Contact Page</h2>
+            <h2>&#128065;Mockup: Press & Contact</h2>
             <Swiper
             speed={400}
             onSlideChange={() => console.log('slide change')}
@@ -965,8 +974,14 @@ function CaseStudyIndex() {
             }}
             >
               <SwiperSlide>
-              <p>Archive style with some visual icons</p>
-              </SwiperSlide>
+              <Image
+              src="/img/ecommerce/mockupContact_Empty.gif"
+              alt="Picture of the author"
+              width={3000}
+              height={1975}
+              />
+              <small>Contact: Empty or Fill form</small>
+            </SwiperSlide>
             <SwiperSlide>
               <Image
               src="/img/ecommerce/mockupPress_A02.jpg"
@@ -985,32 +1000,21 @@ function CaseStudyIndex() {
               />
               <small>Mockup: Press mobile A02</small>
             </SwiperSlide>
-            <SwiperSlide>
-              <Image
-              src="/img/ecommerce/mockupContact_Empty.gif"
-              alt="Picture of the author"
-              width={3000}
-              height={1975}
-              />
-              <small>Contact: Empty or Fill form</small>
-            </SwiperSlide>
             </Swiper>
           </div>
           <div className={styles.secTextList}>
             <h2>&#128736; Development</h2>
-            <p>I coded the entire eCommerce after their inhouse web developer left the company leaving me to put my coding hat on.</p>
+            <p>It’s turns out that I also coded the entire eCommecer after their inhouse web developer left the company just 2 weeks into the the project.</p>
             <ul>
-              <li>Local development environment with Slate toolkit for developing Shopify (deprecated in January 2020)</li>
-              <li>Liquid template language to load dynamic content on Shopify storefronts</li>
-              <li>Sass styling (css) for a module system architecture</li>
-              <li>Responsiveness cross devices</li>
-              <li>Seamless CMS editor </li>
-              <li>Manage their inventory data to wearhouse shipping</li>
+              <li>The Front-end was develope locally using the  Slate toolkit for <b>Shopify</b> (deprecated in January 2020) in liquid syntax script.</li>
+              <li>Responsiveness cross devices with Sass styling architecture.</li>
+              <li><b>Google Tag Manager</b> was used to target any dead links and measure traffic </li>
+              <li><b><a>Hotjar</a></b> was used to study the website headmaps and their behavior mixed with <b>Google Analytics</b> to compare the data collected.</li>
             </ul>
           </div>
           <div className={styles.secTextImg}>
             <h2>&#127919; Results</h2>
-            <p>Conversion Rate Optimization (CRO), Key Performance Indicator (KPI), Keyword Stuffing, Long-Tail Keyword, Monthly Recurring Revenue (MRR)</p>
+            <p>Their website was finally merge for B2C giving them a extra solution of capital that attrative their new digital consumer.  </p>
           </div>
         </div>
     </motion.div>

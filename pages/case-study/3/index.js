@@ -42,6 +42,38 @@ function CaseStudyIndex() {
               }
             }}
             >
+              <SwiperSlide>
+            <div>
+            <div className={styles.halfCurveUpRight}>
+            <Image
+              src="/img/ecommerce/tumblr_licelpVslZ1qcgu4io1_500.webp"
+              alt="Picture of the author"
+              width={300}
+              height={250}
+            />
+            </div>
+            <div className={styles.halfCurveBottomLeft}>
+            <Image
+              src="/img/ecommerce/tumblr_o3vpsi6iGK1qapuajo1_500.jpg"
+              alt="Picture of the author"
+              width={300}
+              height={250}
+            />
+            </div>
+             </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div>
+            <div className={styles.longFlat}>
+            <Image
+              src="/img/ecommerce/7098009419_53a190a4cd_c.jpg"
+              alt="Picture of the author"
+              width={250}
+              height={500}
+            />
+            </div>
+             </div>
+            </SwiperSlide>
             <SwiperSlide>
             <div>
                <div className={styles.longButNo}>
@@ -60,18 +92,6 @@ function CaseStudyIndex() {
               height={225}
             />
                </div>
-             </div>
-            </SwiperSlide>
-            <SwiperSlide>
-            <div>
-            <div className={styles.longFlat}>
-            <Image
-              src="/img/ecommerce/7098009419_53a190a4cd_c.jpg"
-              alt="Picture of the author"
-              width={250}
-              height={500}
-            />
-            </div>
              </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -94,26 +114,6 @@ function CaseStudyIndex() {
                </div>
              </div>
           </SwiperSlide>
-            <SwiperSlide>
-            <div>
-            <div className={styles.halfCurveUpRight}>
-            <Image
-              src="/img/ecommerce/tumblr_licelpVslZ1qcgu4io1_500.webp"
-              alt="Picture of the author"
-              width={300}
-              height={250}
-            />
-            </div>
-            <div className={styles.halfCurveBottomLeft}>
-            <Image
-              src="/img/ecommerce/tumblr_o3vpsi6iGK1qapuajo1_500.jpg"
-              alt="Picture of the author"
-              width={300}
-              height={250}
-            />
-            </div>
-             </div>
-            </SwiperSlide>
             </Swiper>
           </div>
           <div className={styles.SecBackground}>
@@ -548,6 +548,45 @@ function CaseStudyIndex() {
             </Swiper>
           </div>
           <div className={styles.SecBackground}>
+            <h2>&#127968; Lanind Page</h2>
+            <Swiper
+            speed={400}
+            onSlideChange={() => console.log('slide change')}
+            onSwiper={(swiper) => console.log(swiper)}
+            breakpoints={{ 
+              320: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+                width: 300
+              },
+              1200: {
+                slidesPerView: 4,
+                spaceBetween: 10,
+                width: 1200
+              }
+            }}
+            >
+              <SwiperSlide>
+                <Image
+                src="/img/cms/musicCMS_Wireframe_LandingPage__01A.png"
+                alt="Wireframe"
+                width={1440}
+                height={6353}
+                />
+                <small>Wireframe</small>
+              </SwiperSlide>
+              <SwiperSlide>
+                <Image
+                src="/img/cms/musicCMS_Mockup_LandingPage.jpg"
+                alt="Landing Page"
+                width={1440}
+                height={5839}
+                />
+                <small>Mockup</small>
+              </SwiperSlide>
+            </Swiper>
+          </div>
+          <div className={styles.SecBackground}>
             <h2>&#127968; Intro</h2>
             <Swiper
             speed={400}
@@ -607,45 +646,6 @@ function CaseStudyIndex() {
                 height={1117}
                 />
                 <small>No Intergalactic background for mobile</small>
-              </SwiperSlide>
-            </Swiper>
-          </div>
-          <div className={styles.SecBackground}>
-            <h2>&#127968; Lanind Page</h2>
-            <Swiper
-            speed={400}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
-            breakpoints={{ 
-              320: {
-                slidesPerView: 1,
-                spaceBetween: 10,
-                width: 300
-              },
-              1200: {
-                slidesPerView: 4,
-                spaceBetween: 10,
-                width: 1200
-              }
-            }}
-            >
-              <SwiperSlide>
-                <Image
-                src="/img/cms/musicCMS_Wireframe_LandingPage__01A.png"
-                alt="Wireframe"
-                width={1440}
-                height={6353}
-                />
-                <small>Wireframe</small>
-              </SwiperSlide>
-              <SwiperSlide>
-                <Image
-                src="/img/cms/musicCMS_Mockup_LandingPage.jpg"
-                alt="Landing Page"
-                width={1440}
-                height={5839}
-                />
-                <small>Mockup</small>
               </SwiperSlide>
             </Swiper>
           </div>

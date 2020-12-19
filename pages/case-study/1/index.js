@@ -328,7 +328,7 @@ function CaseStudyIndex() {
             }}
             >
               <SwiperSlide>
-              <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat.</p>
+              <p>I hunted and ask around for a display san serif font family that capture a melting abstration. The reference painting remaining me of the Salvador Dali Surrealism work combine with the meaning around “Pendulum” of time with force.</p>
               </SwiperSlide>
               <SwiperSlide>
             <svg width="320" height="55" viewBox="0 0 345 55" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -408,7 +408,7 @@ function CaseStudyIndex() {
           
           <div className={styles.secTextImg}>
             <h2>&#127919; Results</h2>
-            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat.</p>
+            <p>You can find ERR002 for vinyl record at <b><a>Discogs</a></b>, <b><a>Deejay.de</a></b> or digital at <b><a>Bandcamp</a></b> and <b><a>Beatport</a></b>.</p>
           </div>
       </div>
     </motion.div>

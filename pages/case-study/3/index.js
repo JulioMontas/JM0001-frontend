@@ -14,16 +14,16 @@ function CaseStudyIndex() {
     animate={{ y: 0, opacity: 1 }}
     exit={{ y: -600, opacity: 0 }}>
       <div className={styles.mainIndex}>
-          <div className={styles.secExit}>
-            <Link href="/case-study">
-              <a></a>
-            </Link>
-          </div>
-          <div className={styles.secOverview}>
-            <h2>&#128466; Overview</h2>
-            <p>A multi-talented Korean-American EDM / Pop artist, songwriter and producer. With more than 60 track release, a few live shows and event part of the #SubwayTour in NYC.</p>
-          </div>
-          <div className={styles.SecMoodboard}>
+        <div className={styles.secExit}>
+          <Link href="/case-study">
+            <a></a>
+          </Link>
+        </div>
+        <div>
+          <h2>&#128466; Overview</h2>
+          <p>A multi-talented Korean-American EDM / Pop artist, songwriter and producer. With more than 60 track release, a few live shows and event part of the #SubwayTour in NYC.</p>
+        </div>
+          <div>
             <h2>&#128444; Moodboard</h2>
             <Swiper
             speed={400}
@@ -116,11 +116,11 @@ function CaseStudyIndex() {
           </SwiperSlide>
             </Swiper>
           </div>
-          <div className={styles.SecBackground}>
+          <div>
             <h2>&#128640; Background</h2>
             <p>After a few converstion with the artist about her vision of music, how frequently she perform and what she wanted to get from having a custom website for anyone to edit and make quick changes.</p>
           </div>
-          <div className={styles.SecFont}>
+          <div>
             <h2>&#9997; Roboto / Roboto Condensed By Christian Robertson</h2>
             <Swiper
             speed={400}
@@ -170,7 +170,7 @@ function CaseStudyIndex() {
             <span style={{backgroundImage:'linear-gradient(269.89deg, rgb(42, 69, 132) 0%, rgb(122, 84, 121) 100%), none'}}></span>
             </div>
           </div>
-          <div className={styles.SecBackground}>
+          <div>
             <h2>&#128736; Sidemap</h2>
             <Swiper
             speed={400}
@@ -547,8 +547,9 @@ function CaseStudyIndex() {
               </SwiperSlide>
             </Swiper>
           </div>
-          <div className={styles.SecBackground}>
-            <h2>&#127968; Lanind Page</h2>
+          <div>
+            <h2>&#127968; Landing Page</h2>
+            <p>Text text text text text text text text text text</p>
             <Swiper
             speed={400}
             onSlideChange={() => console.log('slide change')}
@@ -584,38 +585,30 @@ function CaseStudyIndex() {
                 />
                 <small>Mockup</small>
               </SwiperSlide>
-            </Swiper>
-          </div>
-          <div className={styles.SecBackground}>
-            <h2>&#127968; Intro</h2>
-            <Swiper
-            speed={400}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
-            breakpoints={{ 
-              320: {
-                slidesPerView: 1,
-                spaceBetween: 10,
-                width: 300
-              },
-              1200: {
-                slidesPerView: 4,
-                spaceBetween: 10,
-                width: 1200
-              }
-            }}
-            >
               <SwiperSlide>
-              <p>The Intergalactic background animation was build around <b>Three.js</b> with a 360 infinnity loop.</p>
+                <Image
+                src="/img/cms/SectionBiography.jpg"
+                alt="Biography Wireframe"
+                width={1437}
+                height={834}
+                />
+                <small>A section of the Landing page</small>
+                <Image
+                src="/img/cms/SectionBiography_CMS.jpg"
+                alt="Biography Wireframe"
+                width={1437}
+                height={834}
+                />
+                <small>CMS: Landing page section part</small>
+              </SwiperSlide>
+              <SwiperSlide>
               <Image
                 src="/img/cms/musicCMS_BG.gif"
                 alt="Picture of the author"
                 width={600}
                 height={338}
                 />
-                <small>360 Animation</small>
-              </SwiperSlide>
-              <SwiperSlide>
+                <small>The Intergalactic background animation was build around <b>Three.js</b> with a 360 infinnity loop.</small>
                 <Image
                 src="/img/cms/musicCMS_IntroSection_DesktopLarge.jpg"
                 alt="Picture of the author"
@@ -649,7 +642,7 @@ function CaseStudyIndex() {
               </SwiperSlide>
             </Swiper>
           </div>
-          <div className={styles.SecBackground}>
+          <div>
             <h2>&#127968; Global UI</h2>
             <Swiper
             speed={400}
@@ -668,9 +661,6 @@ function CaseStudyIndex() {
               }
             }}
             >
-              <SwiperSlide>
-              <p>Text</p>
-              </SwiperSlide>
               <SwiperSlide>
                 <Image
                 src="/img/cms/musicCMS_GlobalCTA.jpg"
@@ -694,13 +684,13 @@ function CaseStudyIndex() {
                 width={2160}
                 height={2058}
                 />
-                <small>Widget Social Media</small>
+                <small>CMS: Widget Social Media</small>
               </SwiperSlide>
             </Swiper>
           </div>
-
-          <div className={styles.SecBackground}>
-            <h2>&#128736; Biography</h2>
+          <div>
+            <h2>&#128736; Biography / Gallery</h2>
+            <p>Text text text text text text text text text text</p>
             <Swiper
             speed={400}
             onSlideChange={() => console.log('slide change')}
@@ -718,22 +708,6 @@ function CaseStudyIndex() {
               }
             }}
             >
-              <SwiperSlide>
-                <Image
-                src="/img/cms/SectionBiography.jpg"
-                alt="Biography Wireframe"
-                width={1437}
-                height={834}
-                />
-                <small>A section of the Landing page</small>
-                <Image
-                src="/img/cms/SectionBiography_CMS.jpg"
-                alt="Biography Wireframe"
-                width={1437}
-                height={834}
-                />
-                <small>CMS Edit</small>
-              </SwiperSlide>
               <SwiperSlide>
                 <Image
                 src="/img/cms/musicCMS_Wireframe_Biography_01A.png"
@@ -752,28 +726,6 @@ function CaseStudyIndex() {
                 />
                 <small>Mockup</small>
               </SwiperSlide>
-            </Swiper>
-          </div>
-
-          <div className={styles.SecBackground}>
-            <h2>&#128736; Gallery</h2>
-            <Swiper
-            speed={400}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
-            breakpoints={{ 
-              320: {
-                slidesPerView: 1,
-                spaceBetween: 10,
-                width: 300
-              },
-              1200: {
-                slidesPerView: 4,
-                spaceBetween: 10,
-                width: 1200
-              }
-            }}
-            >
               <SwiperSlide>
                 <Image
                 src="/img/cms/musicCMS_Wireframe_Gallery_Taps_01A.png"
@@ -799,13 +751,13 @@ function CaseStudyIndex() {
                 width={1440}
                 height={793}
                 />
-                 <small>Screenshot</small>
+                 <small>Desktop: Screenshot</small>
               </SwiperSlide>
             </Swiper>
           </div>
-
           <div>
-            <h2>&#128736; Events / Post</h2>
+            <h2>&#128736; Events / Event Post</h2>
+            <p>Text text text text text text text text text text</p>
             <Swiper
             speed={400}
             onSlideChange={() => console.log('slide change')}
@@ -848,7 +800,7 @@ function CaseStudyIndex() {
                 width={749}
                 height={1115} 
                 />
-                <small>Mobile</small>
+                <small>Mobile: Screenshot</small>
               </SwiperSlide>
               <SwiperSlide>
                 <Image
@@ -857,14 +809,13 @@ function CaseStudyIndex() {
                 width={1440}
                 height={817}
                 />
-                <small>Screenshot</small>
+                <small>Desktop: Screenshot</small>
               </SwiperSlide>
             </Swiper>
           </div>
-
-
           <div>
-            <h2>&#128736; Blog / Article</h2>
+            <h2>&#128736; Blog / Blog Article</h2>
+            <p>Text text text text text text text text text text</p>
             <Swiper
             speed={400}
             onSlideChange={() => console.log('slide change')}
@@ -907,7 +858,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={827}
                 />
-                <small>Screenshot</small>
+                <small>Desktop: Screenshot</small>
               </SwiperSlide>
               <SwiperSlide>
                 <Image
@@ -929,9 +880,9 @@ function CaseStudyIndex() {
               </SwiperSlide>
             </Swiper>
           </div>
-
           <div>
             <h2>&#128736; Contact</h2>
+            <p>Text text text text text text text text text text</p>
             <Swiper
             speed={400}
             onSlideChange={() => console.log('slide change')}
@@ -974,18 +925,22 @@ function CaseStudyIndex() {
                 width={746}
                 height={1115}
                 />
-                <small>Mobile screenshot</small>
+                <small>Mobile: Screenshot</small>
               </SwiperSlide>
-             
             </Swiper>
           </div>
-
-          
-          <div className={styles.SecBackground}>
+          <div className={styles.secTextList}>
             <h2>&#128736; Development</h2>
             <p>I made a few sketches and it became more clear that it was best to build a custom CMS in Wordpress, I already had basic understating of PHP and knowing about Custom Post Type was the key for my development speed.</p>
+            <ul>
+              <li>One</li>
+            </ul>
           </div>
-        </div>
+          <div>
+            <h2>&#127919; Results</h2>
+            <p>Text text text</p>
+          </div>
+      </div>
     </motion.div>
   </Layout>
 }

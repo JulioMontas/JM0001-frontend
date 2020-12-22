@@ -19,11 +19,11 @@ function CaseStudyIndex() {
               <a></a>
             </Link>
           </div>
-          <div className={styles.secOverview}>
+          <div>
             <h2>&#128466; Overview</h2>
             <p>A colombian world class DJ, producer and sound engineering based in New York, spanning numerous genres, for both well-established and break-out artists.</p>
           </div>
-          <div className={styles.secTextImg}>
+          <div>
             <h2>&#128248; Photography exploration</h2>
             <SwiperSlide>
             <Image
@@ -34,7 +34,7 @@ function CaseStudyIndex() {
             />
             </SwiperSlide>
           </div> 
-          <div className={styles.SecBackground}>
+          <div>
             <h2>&#128173; Concept</h2>
             <Swiper
             speed={400}
@@ -82,7 +82,7 @@ function CaseStudyIndex() {
             </SwiperSlide>
             </Swiper>
           </div>
-          <div className={styles.SecMoodboard}>
+          <div>
             <h2>&#128444; Moodboard: Enless motion of energy</h2>
             <Swiper
             speed={400}
@@ -175,11 +175,11 @@ function CaseStudyIndex() {
             </SwiperSlide>
             </Swiper>
           </div>
-          <div className={styles.secOverview}>
+          <div>
           <h2>&#128640; Background</h2>
             <p>I met alexander in the underground music scene in brooklyn, NYC when he remixing “Scumdolly ‎– Making Ends Meet” a double-vinyl release. In that same time he was working on he’s own vinyl record of four tracks for he’s label ERRANT Recordings Inc. I soon join him to become part of he’s vision.</p>
           </div>
-          <div className={styles.SecFont}>
+          <div>
             <h2>&#9997; LIQUIDO Fluid By Alessandro Comotti</h2>
             <Swiper
             speed={400}
@@ -215,7 +215,7 @@ function CaseStudyIndex() {
               <span style={{background:'#000001'}}></span>
             </div>
           </div>
-          <div className={styles.secTextImg}>
+          <div>
             <h2>&#128065; Mockups</h2>
             <Swiper
             speed={400}
@@ -308,7 +308,7 @@ function CaseStudyIndex() {
           </SwiperSlide>
           </Swiper>
         </div>
-        <div className={styles.SecMockup}>
+        <div>
             <h2>&#128083; EP Title</h2>
             <Swiper
             speed={400}
@@ -337,11 +337,7 @@ function CaseStudyIndex() {
 </SwiperSlide>
           </Swiper>
           </div> 
-
-
-
-
-          <div className={styles.secTextImg}>
+          <div>
             <h2>&#128065; Vinyl Cover</h2>
             <Swiper
             speed={400}
@@ -376,7 +372,7 @@ function CaseStudyIndex() {
             </SwiperSlide>
             </Swiper>
           </div>      
-          <div className={styles.secTextImg}>
+          <div>
             <h2>&#128065; Bandcamp Cover</h2>
             <Swiper
             speed={400}
@@ -406,9 +402,9 @@ function CaseStudyIndex() {
             </Swiper>
           </div> 
           
-          <div className={styles.secTextImg}>
+          <div>
             <h2>&#127919; Results</h2>
-            <p>You can find ERR002 for vinyl record at <b><a>Discogs</a></b>, <b><a>Deejay.de</a></b> or digital at <b><a>Bandcamp</a></b> and <b><a>Beatport</a></b>.</p>
+            <p>You can find ERR002 for vinyl record at <b><a>Discogs</a></b>, <b><a>Deejay.de</a></b> or the digital version at <b><a>Bandcamp</a></b> and <b><a>Beatport</a></b>.</p>
           </div>
       </div>
     </motion.div>

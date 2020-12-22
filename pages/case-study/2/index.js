@@ -756,12 +756,9 @@ function CaseStudyIndex() {
               </SwiperSlide>
             </Swiper>
           </div>
-          <div className={styles.SecBackground}>
-          <h2>&#127968; Landing Page</h2>
-          <p>The first page I started designing to establish the design style architecture of the brand lifestyle with a main focus to direct the users to the <b>Product Detail Page</b> (<b>PDP</b>) and later on to improve the tunnels directions from analytic data receiving from each channel.</p>
-          </div>
           <div className={styles.secLandingPage}>
-            <h2>&#128065; Mockup: Landing Page</h2>
+            <h2>&#127968; Mockup: Landing Page</h2>
+            <p>The first page I started designing to establish the design style architecture of the brand lifestyle with a main focus to direct the users to the <b>Product Detail Page</b> (<b>PDP</b>) and later on to improve the tunnels directions from analytic data receiving from each channel.</p>
             <Swiper
             speed={400}            
             onSlideChange={() => console.log('slide change')}
@@ -826,14 +823,11 @@ function CaseStudyIndex() {
               </SwiperSlide>
             </Swiper>
           </div>
-          <div className={styles.SecBackground}>
-          <h2>&#128065; Product Listing Pages (PLPs)</h2>
-          <p>Coming up with the <b>User Interface</b> (UI) + animation for the <b>Fragrance Finder</b> section was one of the most favorite part of the project. Collaborating with their in house fashion photographer <b>Beheshteh Zebhi</b> to come up with a collection of image that cause a sensation of smell as an guide for shopper to find their signature scent.</p>
-              <p>-</p>
-              <p>For the rest of the other collection, <b>Home Fragrances</b>, <b>Skincare</b>, <b>Bath & Body</b> and <b>Haircare</b> I keep the same design consistency having them look and behave the same way no matter the possibility of the collection or gender.</p>
-          </div>
           <div className={styles.secTextImg}>
             <h2>&#128065; Mockup: Product Listing Pages (PLPs)</h2>
+            <p>Coming up with the <b>User Interface</b> (UI) + animation for the <b>Fragrance Finder</b> section was one of the most favorite part of the project. Collaborating with their in house fashion photographer <b>Beheshteh Zebhi</b> to come up with a collection of image that cause a sensation of smell as an guide for shopper to find their signature scent.</p>
+              <p>-</p>
+              <p>For the rest of the other collection, <b>Home Fragrances</b>, <b>Skincare</b>, <b>Bath & Body</b> and <b>Haircare</b> I keep the same design consistency having them look and behave the same way no matter the possibility of the collection or gender.</p>
             <Swiper
             speed={400}
             onSlideChange={() => console.log('slide change')}
@@ -896,12 +890,9 @@ function CaseStudyIndex() {
             </SwiperSlide>
             </Swiper>
           </div>
-          <div className={styles.SecBackground}>
-            <h2>&#128065; Product Detail Page (PDP)</h2>
-            <p>A minimalist approach for each component parts to focus the users within each section that  allowed them to read and analysis the product with a calm consuming perspective.</p>
-          </div> 
           <div className={styles.secTextImg}>
             <h2>&#128065; Mockup: Product Detail Page (PDP)</h2>
+            <p>A minimalist approach for each component parts to focus the users within each section that  allowed them to read and analysis the product with a calm consuming perspective.</p>
             <Swiper
             speed={400}
             onSlideChange={() => console.log('slide change')}
@@ -948,14 +939,11 @@ function CaseStudyIndex() {
             </SwiperSlide>
             </Swiper>
           </div>
-          <div className={styles.SecBackground}>
-            <h2>&#128065; Press & Contact</h2>
+          <div className={styles.secTextImg}>
+            <h2>&#128065;Mockup: Press & Contact</h2>
             <p>The Press page was design with a archive gathering in mind. Simple components of horizonal width rectangle with a minimal height of 50px, containing the name of the publication with any extra information in the form of a Icons link for simple direction if multiple.</p>
               <p>-</p>
               <p>The Contact page was actually the return page first version to later on improve the system around if there were any abuse by a savy user.</p>
-          </div> 
-          <div className={styles.secTextImg}>
-            <h2>&#128065;Mockup: Press & Contact</h2>
             <Swiper
             speed={400}
             onSlideChange={() => console.log('slide change')}

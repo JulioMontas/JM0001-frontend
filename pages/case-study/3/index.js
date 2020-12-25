@@ -21,7 +21,7 @@ function CaseStudyIndex() {
         </div>
         <div>
           <h2>&#128466; Overview</h2>
-          <p>A multi-talented Korean-American EDM / Pop artist, songwriter and producer. With more than 60 track release, a few live shows and event part of the #SubwayTour in NYC.</p>
+          <p>A multi-talented EDM / Pop artist, songwriter and producer with more than 50+ songs release.</p>
         </div>
           <div>
             <h2>&#128444; Moodboard</h2>
@@ -44,81 +44,81 @@ function CaseStudyIndex() {
             >
               <SwiperSlide>
             <div>
-            <div className={styles.halfCurveUpRight}>
-            <Image
-              src="/img/ecommerce/tumblr_licelpVslZ1qcgu4io1_500.webp"
-              alt="Picture of the author"
-              width={300}
-              height={250}
-            />
-            </div>
             <div className={styles.halfCurveBottomLeft}>
             <Image
-              src="/img/ecommerce/tumblr_o3vpsi6iGK1qapuajo1_500.jpg"
+              src="/img/cms/miguel-wildheart-560x560.jpg"
               alt="Picture of the author"
-              width={300}
-              height={250}
+              width={560}
+              height={560}
             />
             </div>
+            <div className={styles.halfCurveUpRight}>
+            <Image
+              src="/img/cms/tumblr_static_tumblr_static_8ctif1c8h20wsk8ck4404oc4k_640.gif"
+              alt="Picture of the author"
+              width={500}
+              height={282}
+            />
+            </div>
+             </div>
+            </SwiperSlide>
+            <SwiperSlide>
+             <div>
+               <div className={styles.longCurve}>
+               <Image
+              src="/img/cms/abstract-neon-background-light-design-bright.jpg"
+              alt="Picture of the author"
+              width={480}
+              height={531}
+            />
+               </div>
+               <div className={styles.shortCurve}>
+               <Image
+              src="/img/cms/JohnNichols.png"
+              alt="Picture of the author"
+              width={1442}
+              height={802}
+            />
+               </div>
+             </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+               <div className={styles.longButNo}>
+               <Image
+              src="/img/cms/aurora-borealis-in-winter-sky.jpg"
+              alt="Picture of the author"
+              width={400}
+              height={700}
+            />
+               </div>
+               <div className={styles.injectionCircle}>
+               <Image
+              src="/img/cms/hands-light-color-dark-room-neon-night-two.jpg"
+              alt="Picture of the author"
+              width={450}
+              height={533}
+            />
+               </div>
              </div>
             </SwiperSlide>
             <SwiperSlide>
             <div>
             <div className={styles.longFlat}>
             <Image
-              src="/img/ecommerce/7098009419_53a190a4cd_c.jpg"
+              src="/img/cms/23577577492_c83cda4736_c.jpg"
               alt="Picture of the author"
-              width={250}
-              height={500}
+              width={400}
+              height={728}
             />
             </div>
              </div>
             </SwiperSlide>
-            <SwiperSlide>
-            <div>
-               <div className={styles.longButNo}>
-               <Image
-              src="/img/ecommerce/tumblr_e65d99cbe324f595c1f0925fa6d55204_65730c70_400.webp"
-              alt="Picture of the author"
-              width={250}
-              height={500}
-            />
-               </div>
-               <div className={styles.injectionCircle}>
-               <Image
-              src="/img/ecommerce/tumblr_e65d99cbe324f595c1f0925fa6d55204_65730c70_400.webp"
-              alt="Picture of the author"
-              width={225}
-              height={225}
-            />
-               </div>
-             </div>
-            </SwiperSlide>
-            <SwiperSlide>
-             <div>
-               <div className={styles.shortCurve}>
-               <Image
-              src="/img/ecommerce/i491478.jpg"
-              alt="Picture of the author"
-              width={300}
-              height={125}
-            />
-               </div>
-               <div className={styles.longCurve}>
-               <Image
-              src="/img/ecommerce/il_794xN.2360012702_c83e.jpg"
-              alt="Picture of the author"
-              width={300}
-              height={365}
-            />
-               </div>
-             </div>
-          </SwiperSlide>
             </Swiper>
           </div>
           <div>
             <h2>&#128640; Background</h2>
-            <p>After a few converstion with the artist about her vision of music, how frequently she perform and what she wanted to get from having a custom website for anyone to edit and make quick changes.</p>
+            <p>A space for the #trueFanUsers to know the artist to strengthen the connection of loyalty.</p>
           </div>
           <div>
             <h2>&#9997; Roboto / Roboto Condensed By Christian Robertson</h2>
@@ -549,7 +549,7 @@ function CaseStudyIndex() {
           </div>
           <div>
             <h2>&#127968; Landing Page</h2>
-            <p>Text text text text text text text text text text</p>
+            <p>A micro site design style in case the visitor only visit the homepage, each section describe each page info.</p>
             <Swiper
             speed={400}
             onSlideChange={() => console.log('slide change')}
@@ -644,6 +644,7 @@ function CaseStudyIndex() {
           </div>
           <div>
             <h2>&#127968; Global UI</h2>
+            <p>The CTA of the latest EP as a global component in every page to impact awareness. The newsletter signup form with the social media icons is the actual footer with the ability to add or remove in the CMS dashboard.</p>
             <Swiper
             speed={400}
             onSlideChange={() => console.log('slide change')}
@@ -690,7 +691,7 @@ function CaseStudyIndex() {
           </div>
           <div>
             <h2>&#128736; Biography / Gallery</h2>
-            <p>Text text text text text text text text text text</p>
+            <p>Both pages are design to influence the user on behind the scene on the latest project.</p>
             <Swiper
             speed={400}
             onSlideChange={() => console.log('slide change')}
@@ -757,7 +758,7 @@ function CaseStudyIndex() {
           </div>
           <div>
             <h2>&#128736; Events / Event Post</h2>
-            <p>Text text text text text text text text text text</p>
+            <p>Archive of past and upcoming show with ticket URL icon link.</p>
             <Swiper
             speed={400}
             onSlideChange={() => console.log('slide change')}
@@ -815,7 +816,7 @@ function CaseStudyIndex() {
           </div>
           <div>
             <h2>&#128736; Blog / Blog Article</h2>
-            <p>Text text text text text text text text text text</p>
+            <p>To inspire other aspiring musicians or who are already in the industry.</p>
             <Swiper
             speed={400}
             onSlideChange={() => console.log('slide change')}
@@ -881,8 +882,7 @@ function CaseStudyIndex() {
             </Swiper>
           </div>
           <div>
-            <h2>&#128736; Contact</h2>
-            <p>Text text text text text text text text text text</p>
+            <h2>&#128736; Contact / Booking</h2>
             <Swiper
             speed={400}
             onSlideChange={() => console.log('slide change')}
@@ -931,9 +931,11 @@ function CaseStudyIndex() {
           </div>
           <div className={styles.secTextList}>
             <h2>&#128736; Development</h2>
-            <p>I made a few sketches and it became more clear that it was best to build a custom CMS in Wordpress, I already had basic understating of PHP and knowing about Custom Post Type was the key for my development speed.</p>
             <ul>
-              <li>One</li>
+              <li>A custom Content Management System (CMS) to edit any page section, custom plugin and a few of the css components.</li>
+              <li>Album or single song download.</li>
+              <li>Responsive website that changes based on the screen size of the device.</li>
+              <li>Three.js was used for the moving background</li>
             </ul>
           </div>
           <div>

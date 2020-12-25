@@ -19,11 +19,11 @@ function CaseStudyIndex() {
               <a></a>
             </Link>
           </div>
-          <div className={styles.secOverview}>
+          <div>
             <h2>&#128466; Overview</h2>
             <p>The Fragrance Group which distributes European fragrance lines in the U.S with retail partners like Bloomingdale’s, Bergdorf Goodman and Barneys with a exclusive distributor for Christian Siriano fragrances, Thalia Sodi fragrances, and Banana Republic fragrances.</p>
           </div>
-          <div className={styles.SecMoodboard}>
+          <div>
             <h2>&#128444; Moodboard: Deep stages of relaxation</h2>
             <Swiper 
             speed={400}
@@ -42,38 +42,6 @@ function CaseStudyIndex() {
               }
             }}
             >
-            <SwiperSlide>
-            <div>
-               <div className={styles.longButNo}>
-               <Image
-              src="/img/ecommerce/632d61_eb21d17268c9452eb1209f8f9bcc5bc7~mv2_d_2801_4461_s_4_2.jpg"
-              alt="Picture of the author"
-              width={600}
-              height={955}
-            />
-               </div>
-               <div className={styles.injectionCircle}>
-               <Image
-              src="/img/ecommerce/282329eefc02fba1ca4935c8b6efcb27-l.jpg"
-              alt="Picture of the author"
-              width={225}
-              height={225}
-            />
-               </div>
-             </div>
-            </SwiperSlide>
-            <SwiperSlide>
-            <div>
-            <div className={styles.longFlat}>
-            <Image
-              src="/img/ecommerce/swimming.jpg"
-              alt="Picture of the author"
-              width={462}
-              height={624}
-            />
-            </div>
-             </div>
-            </SwiperSlide>
             <SwiperSlide>
              <div>
                <div className={styles.shortCurve}>
@@ -110,6 +78,38 @@ function CaseStudyIndex() {
               alt="Picture of the author"
               width={300}
               height={250}
+            />
+            </div>
+             </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div>
+               <div className={styles.longButNo}>
+               <Image
+              src="/img/ecommerce/632d61_eb21d17268c9452eb1209f8f9bcc5bc7~mv2_d_2801_4461_s_4_2.jpg"
+              alt="Picture of the author"
+              width={600}
+              height={955}
+            />
+               </div>
+               <div className={styles.injectionCircle}>
+               <Image
+              src="/img/ecommerce/282329eefc02fba1ca4935c8b6efcb27-l.jpg"
+              alt="Picture of the author"
+              width={225}
+              height={225}
+            />
+               </div>
+             </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div>
+            <div className={styles.longFlat}>
+            <Image
+              src="/img/ecommerce/swimming.jpg"
+              alt="Picture of the author"
+              width={462}
+              height={624}
             />
             </div>
              </div>

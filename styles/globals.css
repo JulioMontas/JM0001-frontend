@@ -43,6 +43,9 @@ body {
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
+svg{
+  width: 100%;
+}
 
 li{
   list-style-type: none;
@@ -76,4 +79,18 @@ footer a{
   border: 2px solid #F8E71C;
   filter: var(--box-shadow);
   border-radius: 5px;
+}
+
+
+
+/* Mobile 320px  */
+@media screen and (min-width: 30em) {}
+/* Table */
+@media screen and (min-width: 40em) {}
+/* Desktop 980px to 1280px  */
+@media screen and (min-width: 57em) {
+
+}
+/* Desktop 1920px */
+@media screen and (min-width: 120em) {
 }

@@ -14,7 +14,7 @@
   font-size: 12px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  margin-top: 60px;
+  margin-top: 80px;
 }
 .mainIndex p {
   font-family: var(--fonts-summary);
@@ -95,11 +95,13 @@
   filter: var(--box-shadow);
 }
 .secExit{
-  position: fixed;
+  /* position: fixed;
   width: 100vw;
   text-align: right;
+  margin: 8px 0 0 0; */
   z-index: 9999;
-  margin: 8px 0 0 0;
+  margin: -50px -20px 0 0;
+  padding-bottom: 10px;
 }
 .secExit a{
   content: "";
@@ -213,7 +215,7 @@
   25%{border-radius:  10% 0 20% 60%}
   100%{border-radius: 100% 0 60% 100%} 
 }
-.secColorPalette div{
+.secColorPalette{
   display: flex;
   justify-content: space-between;
 }
@@ -232,27 +234,66 @@
   height: 45px;
   border-radius: 10px;
 }
-.secTextList ul{
+.secTextList{
   margin-top: 1em;
   font-size: 14px;
   line-height: 25px;
   margin-left: 10px;
+}
+.secTextList li{
+  margin-bottom: 15px;
+  line-height: 25px;
+}
+.secTextList li:last-child{
+  margin-bottom: 0;
 }
 .secTextList li::before {
   content: "•";
   color: #f8e71c;
   position: absolute;
   margin-left: -12px;
+  margin-top: 1px;
   font-size: 1.5em;
 }
 .secSoundcloud div{
   width: 300px !important;
+}
+.flipSwitch{
+  margin-bottom: 10px;
 }
 /* Mobile 320px  */
 @media screen and (min-width: 30em) {}
 /* Table */
 @media screen and (min-width: 40em) {}
 /* Desktop 980px to 1280px  */
-@media screen and (min-width: 57em) {}
+@media screen and (min-width: 57em) {
+  .secExit{
+    margin: 31px 0px 0 0;
+  }
+  .secColorPalette span{
+    border: 3px solid #FFF;
+  }
+  .mainCenterCont{
+    width: 1024px;
+    margin: 0 auto;
+  }
+  .mainIndex p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .flipSwitch{
+    display: grid;
+    grid-template-columns: auto 420px;
+    margin-top: 60px;
+    margin-bottom: 15px;
+  }
+  .flipSwitch h2{
+    margin-top: 0;
+  }
+  .secTextList li{
+    font-size: 16px;
+  }
+}
 /* Desktop 1920px */
-@media screen and (min-width: 120em) {}
+@media screen and (min-width: 120em) {
+}

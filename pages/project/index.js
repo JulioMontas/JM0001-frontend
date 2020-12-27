@@ -39,7 +39,7 @@ function ProjectIndex() {
                 height={200}
                 />
               <p className={styles.blgDate}>2013</p>
-              <Link href={`/project/2`}>
+              <Link href={`/project/hellocode`}>
                 <a><h2 className={styles.blgTitle}>HelloCo.de</h2></a>
               </Link>
               <p className={styles.blgSummery}>The home for programming languages.</p>

@@ -1,4 +1,5 @@
 import { motion, AnimatePresence } from "framer-motion"
+import Head from 'next/head'
 
 // import Swiper core and required components
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
@@ -17,6 +18,9 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 function MyApp({ Component, pageProps }) {
   return <AnimatePresence exitBeforeEnter>
+    <Head>
+      <meta name='viewport' content='minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover' key="viewport" />
+    </Head>
     <Component {...pageProps} />
   </AnimatePresence>
 }

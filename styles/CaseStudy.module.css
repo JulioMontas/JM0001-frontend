@@ -8,6 +8,9 @@
 .mainIndex img{
   border-radius: 0 0.8em 0.8em 0.8em;
 }
+.mainIndex h1{
+  margin-bottom: 10px;
+}
 .mainIndex h2{
   font-family: var(--fonts-title);
   font-weight: bold;

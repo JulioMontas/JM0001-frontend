@@ -19,14 +19,9 @@
     75%{border-radius: 70% 30% 30% 70% / 60% 40% 20% 40%}
     100%{border-radius: 18% 82% 37% 70% / 44% 40% 54% 40%}
 }
-.main .blgDate,
 .main .blgTitle{
     font-family: var(--fonts-title);
     filter: var(--box-shadow);
-}
-.main .blgDate{
-    font-size: 14px;
-    font-weight: bold;
 }
 .main .blgTitle{
     font-size: 22px;

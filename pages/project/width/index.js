@@ -10,7 +10,7 @@ import styles from '../../../styles/CaseStudy.module.css'
 function ProjectIndex() {
   return <Layout>
       <Head>
-          <title>Web Project | HelloCo.de: The Home For Programming Languages</title>
+          <title>WIDTH Protect Your Side to Take Over the Screen.</title>
           <meta name="author" content="Julio Montas"/>
           <meta name="keywords" content="App Project, CSS, JavaScript"/>
           <meta name="description" content="La la la la la"/>
@@ -23,8 +23,8 @@ function ProjectIndex() {
             <div className={styles.mainCenterCont}>
                 <div className={styles.flipSwitch}>
                     <div>
-                        <h1>HelloCo.de: The Home for Programming Languages</h1>
-                        <p>2012-2014, Collective Memory, Education</p>
+                        <h1>WIDTH: Protect Your Side to Take Over The Screen</h1>
+                        <p>2016, Web Game, Vanilla JavaScript</p>
                     </div>
                     <div className={styles.secExit}>
                         <Link href="/project">
@@ -34,35 +34,44 @@ function ProjectIndex() {
                 </div>
                 <div className={styles.flipSwitch}>
                     <h2>&#128173; Concept</h2>
-                    <p>Helloco.de is an archive of the expansive list of programming languages that have been developed from 1950–1979, 1980– 1999, and 2000 to the present. It is meant for users to be able to explore the relationship between past and present programming languages and how they are all connected with one another.</p>
+                    <p>A two-player game in which you must defeat your opponents by clicking to take over the screen.
+</p>
                 </div>
                 <div>
                     <h2>&#127968; Design Visual</h2>
                     <p>Landing Page</p>
                     <Image
-                    src="/img/project/hc/hc01.gif"
+                    src="/img/project/width/width_Landing_Page_1080.png"
                     alt="Mockup of python page"
-                    width={1422}
-                    height={768}
-                    />
-                    <p>Language Page</p>
+                    width={1080}
+                    height={629}
+                    />                    
+                    <p>Wireframe</p>
                     <Image
-                    src="/img/project/hc/CABulM1UwAAPf4a.png"
+                    src="/img/project/width/width_Sketch_Iphone.png"
                     alt="Mockup of python page"
-                    width={1421}
-                    height={1897}
+                    width={1280}
+                    height={735}
                     />
-                    <p>Listing Component</p>
+                    <p>Mockup</p>
                     <Image
-                    src="/img/project/hc/hc02.gif"
+                    src="/img/project/width/width_Wireframe_01_1280.png"
                     alt="Mockup of python page"
-                    width={940}
-                    height={718}
+                    width={1280}
+                    height={800}
+                    />
+                    
+                    <p>Game Play</p>
+                    <Image
+                    src="/img/project/width/Width_BothPlayer_1080.gif"
+                    alt="Mockup of python page"
+                    width={1080}
+                    height={629}
                     />
                 </div>
                 <div className={styles.flipSwitch}>
-                    <h2>&#128173; Text</h2>
-                    <p>Text</p>
+                    <h2>&#128173; Demo</h2>
+                    <a href="https://width.herokuapp.com">Click Here!</a>
                 </div>
             </div>
         </div>          

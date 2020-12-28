@@ -10,7 +10,7 @@ import styles from '../../../styles/CaseStudy.module.css'
 function ProjectIndex() {
   return <Layout>
       <Head>
-          <title>WIDTH Protect Your Side to Take Over the Screen.</title>
+          <title>MELIOREM Reward task to stimulate your existence | App Project</title>
           <meta name="author" content="Julio Montas"/>
           <meta name="keywords" content="App Project, CSS, JavaScript"/>
           <meta name="description" content="La la la la la"/>
@@ -23,8 +23,8 @@ function ProjectIndex() {
             <div className={styles.mainCenterCont}>
                 <div className={styles.flipSwitch}>
                     <div>
-                        <h1>Meliorem: Reward task to stimulate your existence</h1>
-                        <p>Web App, JavaScript, 2021</p>
+                        <h1>MELIOREM Cultivate Your Passion</h1>
+                        <p>Productivity App, Dopamine Stimulator, 2016</p>
                     </div>
                     <div className={styles.secExit}>
                         <Link href="/project">
@@ -34,17 +34,61 @@ function ProjectIndex() {
                 </div>
                 <div className={styles.flipSwitch}>
                     <h2>&#128173; Concept</h2>
-                    <p>Text Text Text Text Text</p>
+                    <p>Reward self task manager to stimulate your existence</p>
                 </div>
                 <div>
-                    <h2>&#127968; Design Visual</h2>
-                    <p>Landing Page</p>
+                    <h2>&#127968; UI Design</h2>
                     <Image
-                    src="/img/project/meliorem/"
+                    src="/img/project/meliorem/projectManagementTracker-Mockup00A.jpg"
                     alt="Mockup of python page"
-                    width={1080}
-                    height={629}
-                    />                    
+                    width={1440}
+                    height={1267}
+                    />
+                    <Swiper
+                    speed={400}
+                    onSlideChange={() => console.log('slide change')}
+                    onSwiper={(swiper) => console.log(swiper)}
+                    breakpoints={{ 
+                        320: {
+                            slidesPerView: 1,
+                            spaceBetween: 15,
+                            width: 300
+                        },
+                        1200: {
+                            slidesPerView: 1,
+                            spaceBetween: 10,
+                            width: 970
+                        }
+                    }}
+                    >
+                        <SwiperSlide>
+                            <Image
+                            src="/img/project/meliorem/meliorem-01.png"
+                            alt="Mockup of python page"
+                            width={1080}
+                            height={1080}
+                            />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <Image
+                            src="/img/project/meliorem/meliorem-02.png"
+                            alt="Mockup of python page"
+                            width={1080}
+                            height={1080}
+                            />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <Image
+                            src="/img/project/meliorem/meliorem-03.png"
+                            alt="Mockup of python page"
+                            width={1080}
+                            height={1080}
+                            />
+                        </SwiperSlide>
+                    </Swiper>
+
+
+
                 </div>
                 <div className={styles.flipSwitch}>
                     <h2>&#128173; Demo</h2>

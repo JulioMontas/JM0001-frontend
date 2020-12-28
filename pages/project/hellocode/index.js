@@ -10,7 +10,7 @@ import styles from '../../../styles/CaseStudy.module.css'
 function ProjectIndex() {
   return <Layout>
       <Head>
-          <title>Web Project | HelloCo.de: The Home For Programming Languages</title>
+          <title>HELLOCO.DE The Home For Programming Languages | App Project</title>
           <meta name="author" content="Julio Montas"/>
           <meta name="keywords" content="App Project, CSS, JavaScript"/>
           <meta name="description" content="La la la la la"/>
@@ -23,8 +23,8 @@ function ProjectIndex() {
             <div className={styles.mainCenterCont}>
                 <div className={styles.flipSwitch}>
                     <div>
-                        <h1>HelloCo.de: The Home for Programming Languages</h1>
-                        <p>2012-2014, Collective Memory, Education</p>
+                        <h1>HELLOCO.DE The Home for Programming Languages</h1>
+                        <p>Collective Memory, Education, 2012</p>
                     </div>
                     <div className={styles.secExit}>
                         <Link href="/project">
@@ -34,35 +34,60 @@ function ProjectIndex() {
                 </div>
                 <div className={styles.flipSwitch}>
                     <h2>&#128173; Concept</h2>
-                    <p>Helloco.de is an archive of the expansive list of programming languages that have been developed from 1950–1979, 1980– 1999, and 2000 to the present. It is meant for users to be able to explore the relationship between past and present programming languages and how they are all connected with one another.</p>
+                    <p>List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present.</p>
                 </div>
                 <div>
-                    <h2>&#127968; Design Visual</h2>
-                    <p>Landing Page</p>
-                    <Image
-                    src="/img/project/hc/hc01.gif"
-                    alt="Mockup of python page"
-                    width={1422}
-                    height={768}
-                    />
-                    <p>Language Page</p>
+                    <h2>&#127968; UI Design</h2>
                     <Image
                     src="/img/project/hc/CABulM1UwAAPf4a.png"
                     alt="Mockup of python page"
                     width={1421}
                     height={1897}
                     />
-                    <p>Listing Component</p>
-                    <Image
-                    src="/img/project/hc/hc02.gif"
-                    alt="Mockup of python page"
-                    width={940}
-                    height={718}
-                    />
+                    <Swiper
+                    speed={400}
+                    onSlideChange={() => console.log('slide change')}
+                    onSwiper={(swiper) => console.log(swiper)}
+                    breakpoints={{ 
+                        320: {
+                            slidesPerView: 1,
+                            spaceBetween: 15,
+                            width: 300
+                        },
+                        1200: {
+                            slidesPerView: 1,
+                            spaceBetween: 20,
+                            width: 950
+                        }
+                    }}
+                    >
+                        <SwiperSlide>
+                            <Image
+                            src="/img/project/hc/hc01.gif"
+                            alt="Mockup of python page"
+                            width={1422}
+                            height={768}
+                            />
+                            <p><b>Landing page</b> the background was build using Processing.js</p>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <Image
+                            src="/img/project/hc/hc02.gif"
+                            alt="Mockup of python page"
+                            width={940}
+                            height={718}
+                            />
+                        </SwiperSlide>
+                    </Swiper>
                 </div>
                 <div className={styles.flipSwitch}>
-                    <h2>&#128173; Text</h2>
-                    <p>Text</p>
+                    <h2>&#128173; URL</h2>
+                    <div>
+                        <ul>
+                            <li><a href="https://bfacd.parsons.edu/2013/helloco-de">The New School BFA Thesis 2013</a></li>
+                            <li><a href="https://twitter.com/msdev/status/485951332105195520">Microsoft Developer Tweet</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>          

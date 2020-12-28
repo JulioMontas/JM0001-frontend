@@ -10,7 +10,7 @@ import styles from '../../../styles/CaseStudy.module.css'
 function ProjectIndex() {
   return <Layout>
       <Head>
-          <title>Web Project | HelloCo.de: The Home For Programming Languages</title>
+          <title>COLORS Learn The Basic Colors | App Project</title>
           <meta name="author" content="Julio Montas"/>
           <meta name="keywords" content="App Project, CSS, JavaScript"/>
           <meta name="description" content="La la la la la"/>
@@ -23,8 +23,8 @@ function ProjectIndex() {
             <div className={styles.mainCenterCont}>
                 <div className={styles.flipSwitch}>
                     <div>
-                        <h1>Colors: Learn The Basic Colors</h1>
-                        <p>Memory Game, Education, 2016</p>
+                        <h1>COLORS Learn the Basic</h1>
+                        <p>Toddler App Game, Education, 2016</p>
                     </div>
                     <div className={styles.secExit}>
                         <Link href="/project">
@@ -34,10 +34,16 @@ function ProjectIndex() {
                 </div>
                 <div className={styles.flipSwitch}>
                     <h2>&#128173; Concept</h2>
-                    <p>Text</p>
+                    <p>Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory</p>
                 </div>
                 <div>
                     <h2>&#127968; UI Design</h2>
+                    <Image
+                    src="/img/project/colors/Slide 03.png"
+                    alt="Mockup of python page"
+                    width={1080}
+                    height={1080}
+                    />
                     <Swiper
                     speed={400}
                     onSlideChange={() => console.log('slide change')}
@@ -55,14 +61,6 @@ function ProjectIndex() {
                         }
                     }}
                     >
-                        <SwiperSlide>
-                            <Image
-                            src="/img/project/colors/Slide 03.png"
-                            alt="Mockup of python page"
-                            width={1080}
-                            height={1080}
-                            />
-                        </SwiperSlide>
                         <SwiperSlide>
                             <Image
                             src="/img/project/colors/Slide 04.png"

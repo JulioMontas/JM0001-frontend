@@ -21,9 +21,9 @@ function Me() {
             width: 300
           },
           1200: {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 150,
-            width: 1200
+            width: 400
           }
         }}
         >

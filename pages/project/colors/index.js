@@ -10,19 +10,22 @@ import styles from '../../../styles/CaseStudy.module.css'
 function ProjectIndex() {
   return <Layout>
       <Head>
-          <title>Colors: Learn The Basic | Full Stack Designer</title>
-          <meta name="author" content="Julio Montas"/>
-          <meta name="description" content="Toddler App | Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory" key="description"/>
+          <title>Colors: Learn The Basic</title>          
 
-          <meta property='og:url' content='https://llegojulio.com/project/colors' />
-          <meta property='og:title' content='Julio Montas | COLORS Learn The Basic' />
-          <meta property='og:description' content='Toddler App | Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory' />
-          <meta property='og:image' content='https://llegojulio.com/img/project/colors/slide_03.png' />
-          
           <meta name='twitter:url' content='https://llegojulio.com/project/colors' />
-          <meta name='twitter:title' content='Julio Montas | COLORS Learn The Basic' />
-          <meta name='twitter:description' content='Toddler App | Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory' />
+          <meta property='og:url' content='https://llegojulio.com/project/colors' />
+
+          <meta property='og:image' content='https://llegojulio.com/img/project/colors/slide_03.png' />
           <meta name='twitter:image' content='https://llegojulio.com/img/project/colors/slide_03.png' />
+
+          <meta property='og:title' content='Julio Montas | Colors: Learn The Basic' />
+          <meta name='twitter:title' content='Julio Montas | Colors: Learn The Basic' />
+
+          <meta name="description" content="Toddler App | Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory" key="description"/>
+          <meta property='og:description' content='Toddler App | Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory' />
+          <meta name='twitter:description' content='Toddler App | Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory' />
+
+          <link rel="canonical" href="https://llegojulio.com/project/colors" />
       </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}
@@ -32,8 +35,8 @@ function ProjectIndex() {
             <div className={styles.mainCenterCont}>
                 <div className={styles.flipSwitch}>
                     <div>
-                        <h1>Colors: Learn the Basic</h1>
-                        <p>Toddler App, Education, 2016</p>
+                        <h1>Basic Color App Fundamentals - Simple Fun for Toddlers</h1>
+                        <p>Teaching kids, Education, 2016</p>
                     </div>
                     <div className={styles.secExit}>
                         <Link href="/project">
@@ -42,7 +45,7 @@ function ProjectIndex() {
                     </div>
                 </div>
                 <div className={styles.flipSwitch}>
-                    <h2>&#128173; App Concept</h2>
+                    <h2>&#128173; The App Concept</h2>
                     <p>Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory</p>
                 </div>
                 <div>

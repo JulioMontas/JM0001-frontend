@@ -26,7 +26,7 @@ class MyDocument extends Document {
           <link rel='shortcut icon' href='/static/icons/favicon.ico' />
           <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' />
           <meta name='twitter:card' content='summary' />
-          <meta name='twitter:url' content='https://llegojulio.com' />
+          {/* <meta name='twitter:url' content='https://llegojulio.com' /> */}
           {/* <meta name='twitter:title' content='Julio Montas | UI Developer • Interaction Designer' /> */}
           {/* <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' /> */}
           {/* <meta name='twitter:image' content='https://llegojulio.com/static/icons/android-chrome-192x192.png' /> */}
@@ -35,7 +35,7 @@ class MyDocument extends Document {
           {/* <meta property='og:title' content='Julio Montas | UI Developer • Interaction Designer' key="title"/> */}
           {/* <meta property='og:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' /> */}
           <meta property='og:site_name' content='Llegó Julio' />
-          <meta property='og:url' content='https://llegojulio.com' />
+          {/* <meta property='og:url' content='https://llegojulio.com' /> */}
           {/* <meta property='og:image' content='https://llegojulio.com/static/icons/apple-touch-icon.png' /> */}
         </Head>
         <body>

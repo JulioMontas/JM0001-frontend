@@ -10,13 +10,13 @@ import styles from '../../../styles/CaseStudy.module.css'
 function ProjectIndex() {
   return <Layout>
       <Head>
-          <title>COLORS Learn The Basic | Full Stack Designer</title>
+          <title>Colors: Learn The Basic | Full Stack Designer</title>
           <meta name="author" content="Julio Montas"/>
           <meta name="description" content="Toddler App | Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory" key="description"/>
+
           <meta property='og:title' content='Julio Montas | COLORS Learn The Basic' />
           <meta property='og:description' content='Toddler App | Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory' />
           <meta property='og:image' content='https://llegojulio.com/img/project/colors/slide_03.png' />
-
 
           <meta name='twitter:title' content='Julio Montas | COLORS Learn The Basic' />
           <meta name='twitter:description' content='Toddler App | Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory' />
@@ -30,7 +30,7 @@ function ProjectIndex() {
             <div className={styles.mainCenterCont}>
                 <div className={styles.flipSwitch}>
                     <div>
-                        <h1>COLORS Learn the Basic</h1>
+                        <h1>Colors: Learn the Basic</h1>
                         <p>Toddler App, Education, 2016</p>
                     </div>
                     <div className={styles.secExit}>

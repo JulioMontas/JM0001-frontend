@@ -25,7 +25,7 @@ class MyDocument extends Document {
           <link rel='manifest' href='/static/manifest.json' />
           <link rel='mask-icon' href='/static/icons/safari-pinned-tab.svg' color='#5bbad5' />
           <link rel='shortcut icon' href='/static/icons/favicon.ico' />
-          <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' />
+          {/* <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' /> */}
           <meta name='twitter:card' content='summary' />
           {/* <meta name='twitter:url' content='https://llegojulio.com' /> */}
           {/* <meta name='twitter:title' content='Julio Montas | UI Developer • Interaction Designer' /> */}

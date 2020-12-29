@@ -10,10 +10,21 @@ import styles from '../../../styles/CaseStudy.module.css'
 function ProjectIndex() {
   return <Layout>
       <Head>
-          <title>MELIOREM Reward task to stimulate your existence | App Project</title>
-          <meta name="author" content="Julio Montas"/>
-          <meta name="keywords" content="App Project, CSS, JavaScript"/>
-          <meta name="description" content="La la la la la"/>
+          <title>Meliorem: Cultivate Your Passion | Llegó Julio</title>
+          <meta name='twitter:url' content='https://llegojulio.com/project/meliorem' />
+          <meta property='og:url' content='https://llegojulio.com/project/meliorem' />
+
+          <meta property='og:image' content='https://llegojulio.com/img/project/meliorem/meliorem-02.png' />
+          <meta name='twitter:image' content='https://llegojulio.com/img/project/meliorem/meliorem-02.png' />
+
+          <meta property='og:title' content='Meliorem: Cultivate Your Passion | Llegó Julio' />
+          <meta name='twitter:title' content='Meliorem: Cultivate Your Passion | Llegó Julio' />
+
+          <meta name="description" content="Reward self task manager to stimulate your existence" key="description"/>
+          <meta property='og:description' content='Reward self task manager to stimulate your existence' />
+          <meta name='twitter:description' content='Reward self task manager to stimulate your existence' />
+
+          <link rel="canonical" href="https://llegojulio.com/project/meliorem" />
       </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}
@@ -23,7 +34,7 @@ function ProjectIndex() {
             <div className={styles.mainCenterCont}>
                 <div className={styles.flipSwitch}>
                     <div>
-                        <h1>MELIOREM Cultivate Your Passion</h1>
+                        <h1>Meliorem: Cultivate Your Passion</h1>
                         <p>Productivity App, Dopamine Stimulator, 2016</p>
                     </div>
                     <div className={styles.secExit}>
@@ -43,6 +54,9 @@ function ProjectIndex() {
                     alt="Mockup of python page"
                     width={1440}
                     height={1267}
+                    quality={50}
+                    layout="responsive"
+                    loading="eager"
                     />
                     <p>First Concept UI</p>
                     <Swiper
@@ -68,6 +82,9 @@ function ProjectIndex() {
                             alt="Mockup of python page"
                             width={1080}
                             height={1080}
+                            quality={20}
+                            layout="responsive"
+                            loading="lazy"
                             />
                             <p>Mobile: Login</p>
                         </SwiperSlide>
@@ -77,6 +94,9 @@ function ProjectIndex() {
                             alt="Mockup of python page"
                             width={1080}
                             height={1080}
+                            quality={50}
+                            layout="responsive"
+                            loading="lazy"
                             />
                              <p>Mobile: Task Dashboard</p>
                         </SwiperSlide>
@@ -86,15 +106,14 @@ function ProjectIndex() {
                             alt="Mockup of python page"
                             width={1080}
                             height={1080}
+                            quality={50}
+                            layout="responsive"
+                            loading="lazy"
                             />
                              <p>Mobile: List of Task</p>
                         </SwiperSlide>
                     </Swiper>
                 </div>
-                {/* <div className={styles.flipSwitch}>
-                    <h2>&#128173; Demo</h2>
-                    <a href="https://width.herokuapp.com">Click Here!</a>
-                </div> */}
             </div>
         </div>          
     </motion.div>

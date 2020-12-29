@@ -10,10 +10,21 @@ import styles from '../../../styles/CaseStudy.module.css'
 function ProjectIndex() {
   return <Layout>
       <Head>
-          <title>SURVEILLANCE CULTURE | Social Experiment</title>
-          <meta name="author" content="Julio Montas"/>
-          <meta name="keywords" content="App Project, CSS, JavaScript"/>
-          <meta name="description" content="La la la la la"/>
+          <title>Surveillance Culture Exposure - Digital Modernity, Identity and Security | Llegó Julio</title>
+          <meta name='twitter:url' content='https://llegojulio.com/project/surveillance' />
+          <meta property='og:url' content='https://llegojulio.com/project/surveillance' />
+
+          <meta property='og:image' content='https://llegojulio.com/img/project/surveillance/jessieNguyen-Moodboard.jpg' />
+          <meta name='twitter:image' content='https://llegojulio.com/img/project/surveillance/jessieNguyen-Moodboard.jpg' />
+
+          <meta property='og:title' content='Surveillance Culture Exposure Digital Modernity, Identity and Security| Llegó Julio' />
+          <meta name='twitter:title' content='Surveillance Culture Exposure Digital Modernity, Identity and Security | Llegó Julio' />
+
+          <meta name="description" content="A social experiment using the top social media channels to farm users sensitive data" key="description"/>
+          <meta property='og:description' content='A social experiment using the top social media channels to farm users sensitive data' />
+          <meta name='twitter:description' content='A social experiment using the top social media channels to farm users sensitive data' />
+
+          <link rel="canonical" href="https://llegojulio.com/project/surveillance" />
       </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}
@@ -23,8 +34,8 @@ function ProjectIndex() {
             <div className={styles.mainCenterCont}>
                 <div className={styles.flipSwitch}>
                     <div>
-                        <h1>SURVEILLANCE CULTURE @ Art-A-Hack</h1>
-                        <p>Social Experiment, Data Collection, 2015</p>
+                        <h1>Surveillance Culture Exposure - Digital Modernity, Identity and Security</h1>
+                        <p>Deepfake, Data Collection, 2015</p>
                     </div>
                     <div className={styles.secExit}>
                         <Link href="/project">
@@ -33,11 +44,11 @@ function ProjectIndex() {
                     </div>
                 </div>
                 <div className={styles.flipSwitch}>
-                    <h2>&#128173; Concept</h2>
-                    <p>Using the top social media channels to farm users sensitive data</p>
+                    <h2>Fake it till you make it</h2>
+                    <p>A social experiment using the top social media channels to farm users sensitive data</p>
                 </div>
                 <div>
-                    <h2>&#127968; Intro</h2>
+                    <h2>The butterfly effect</h2>
                     <Swiper
                     speed={400}
                     onSlideChange={() => console.log('slide change')}
@@ -61,6 +72,9 @@ function ProjectIndex() {
                             alt="Mockup of python page"
                             width={1080}
                             height={629}
+                            quality={20}
+                            layout="responsive"
+                            loading="eager"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
@@ -69,6 +83,9 @@ function ProjectIndex() {
                             alt="Mockup of python page"
                             width={1080}
                             height={629}
+                            quality={30}
+                            layout="responsive"
+                            loading="eager"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
@@ -77,6 +94,9 @@ function ProjectIndex() {
                             alt="Mockup of python page"
                             width={1080}
                             height={629}
+                            quality={50}
+                            layout="responsive"
+                            loading="lazy"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
@@ -85,13 +105,16 @@ function ProjectIndex() {
                             alt="Mockup of python page"
                             width={1080}
                             height={629}
+                            quality={50}
+                            layout="responsive"
+                            loading="lazy"
                             />
                         </SwiperSlide>
                     </Swiper>                    
                 </div>
                 
                 <div className={styles.flipSwitch}>
-                    <h2>&#128173; About Jessie Nguyen</h2>
+                    <h2>How to go from a nobody to a somebody</h2>
                     <div>
                     <Swiper
                     speed={400}
@@ -217,7 +240,7 @@ function ProjectIndex() {
                 </div>
 
                 <div className={styles.flipSwitch}>
-                    <h2>&#128173; Social Proof User Journey</h2>
+                    <h2>User Journey Social Proof</h2>
                     <div>
                         <p>Texttttt</p>
                     </div>
@@ -247,6 +270,9 @@ function ProjectIndex() {
                             alt="Mockup of python page"
                             width={1080}
                             height={629}
+                            quality={20}
+                            layout="responsive"
+                            loading="lazy"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
@@ -255,21 +281,24 @@ function ProjectIndex() {
                             alt="Mockup of python page"
                             width={1080}
                             height={629}
+                            quality={20}
+                            layout="responsive"
+                            loading="lazy"
                             />
                         </SwiperSlide>
                     </Swiper>
                 </div>
 
                 <div className={styles.flipSwitch}>
-                    <h2>&#128173; Social Engineering by asking questions</h2>
+                    <h2>Social Engineering by asking questions</h2>
                     <div>
                         <p>List of Question</p>
                     </div>
                 </div>
                 
                 <div className={styles.flipSwitch}>
-                    <h2>&#128173; URL</h2>
-                    <a href="https://www.youtube.com/watch?v=ZTbdu-VR59U">Youtube - Art-A-Hack 2015 - Final Presentations - Surveillance Culture </a>
+                    <h2>URL</h2>
+                    <a href="https://www.youtube.com/watch?v=ZTbdu-VR59U" target="_blank">Art-A-Hack 2015 - Final Presentations - Surveillance Culture - Youtube</a>
                 </div>
             </div>
         </div>          

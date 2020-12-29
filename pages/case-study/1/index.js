@@ -1,14 +1,33 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from "framer-motion"
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react'
 import ReactPlayer from "react-player"
+import Head from 'next/head'
 
 import Layout from '../../../components/Layout/Layout'
 import styles from '../../../styles/CaseStudy.module.css'
 
 function CaseStudyIndex() {
   return <Layout>
+    <Head>
+      <title>Vinyl Label Design Pendulum EP | Llegó Julio</title>
+      <meta name='twitter:url' content='https://llegojulio.com/case-study/1' />
+      <meta property='og:url' content='https://llegojulio.com/case-study/1' />
+
+      <meta property='og:image' content='https://llegojulio.com/img/pendulum/pendulum_instagram.jpg' />
+      <meta name='twitter:image' content='https://llegojulio.com/img/pendulum/pendulum_instagram.jpg' />
+
+      <meta property='og:title' content='Vinyl Label Design Pendulum EP | Llegó Julio' />
+      <meta name='twitter:title' content='Vinyl Label Design Pendulum EP | Llegó Julio' />
+
+      <meta name="description" content="The second EP of ERRANT Recordings with a style of ambient and minimal tech house" key="description"/>
+      <meta property='og:description' content='The second EP of ERRANT Recordings with a style of ambient and minimal tech house' />
+      <meta name='twitter:description' content='The second EP of ERRANT Recordings with a style of ambient and minimal tech house' />
+
+      <link rel="canonical" href="https://llegojulio.com/case-study/1" />
+      <link rel="alternate" href="https://llegojulio.com/case-study/1" hreflang="en-us" />
+      </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}
     animate={{ y: 0, opacity: 1 }}
@@ -53,6 +72,9 @@ function CaseStudyIndex() {
               alt="Picture of the author"
               width={399}
               height={202}
+              quality={50}
+              layout="responsive"
+              loading="eager"
             />
                </div>
                <div className={styles.longCurve}>
@@ -61,6 +83,9 @@ function CaseStudyIndex() {
               alt="Picture of the author"
               width={598}
               height={522}
+              quality={50}
+              layout="responsive"
+              loading="eager"
             />
                </div>
              </div>
@@ -73,6 +98,9 @@ function CaseStudyIndex() {
               alt="Picture of the author"
               width={496}
               height={826}
+              quality={50}
+              layout="responsive"
+              loading="eager"
             />
             </div>
              </div>
@@ -85,6 +113,9 @@ function CaseStudyIndex() {
               alt="Picture of the author"
               width={250}
               height={500}
+              quality={10}
+              layout="responsive"
+              loading="eager"
             />
                </div>
                <div className={styles.injectionCircle}>
@@ -93,6 +124,9 @@ function CaseStudyIndex() {
               alt="Picture of the author"
               width={225}
               height={225}
+              quality={20}
+              layout="responsive"
+              loading="eager"
             />
                </div>
              </div>
@@ -105,6 +139,9 @@ function CaseStudyIndex() {
               alt="Picture of the author"
               width={300}
               height={250}
+              quality={20}
+              layout="responsive"
+              loading="eager"
             />
             </div>
             <div className={styles.halfCurveBottomLeft}>
@@ -113,15 +150,15 @@ function CaseStudyIndex() {
               alt="Picture of the author"
               width={599}
               height={596}
+              quality={20}
+              layout="responsive"
+              loading="eager"
             />
             </div>
              </div>
             </SwiperSlide>
             </Swiper>
           </div>
-
-          
-
           <div>
 
             <div className={styles.flipSwitch}>
@@ -153,6 +190,9 @@ function CaseStudyIndex() {
               alt="Picture of the author"
               width={500}
               height={649}
+              quality={20}
+              layout="responsive"
+              loading="lazy"
             />
                </div>
              </div>
@@ -165,6 +205,9 @@ function CaseStudyIndex() {
               alt="Picture of the author"
               width={500}
               height={649}
+              quality={20}
+              layout="responsive"
+              loading="lazy"
             />
                </div>
              </div>
@@ -182,6 +225,9 @@ function CaseStudyIndex() {
               alt="Picture of the author"
               width={1080}
               height={722}
+              quality={50}
+              layout="responsive"
+              loading="lazy"
             />
             </SwiperSlide>
           </div> 
@@ -232,9 +278,9 @@ function CaseStudyIndex() {
                 width: 300
               },
               1200: {
-                slidesPerView: 4,
+                slidesPerView: 2,
                 spaceBetween: 10,
-                width: 1200
+                width: 700
               }
             }}
             >
@@ -246,6 +292,9 @@ function CaseStudyIndex() {
                 alt="Picture of the author"
                 width={770}
                 height={800}
+                quality={20}
+                layout="responsive"
+                loading="lazy"
                 />
               </div>
             </div>
@@ -258,6 +307,9 @@ function CaseStudyIndex() {
                 alt="Picture of the author"
                 width={770}
                 height={800}
+                quality={20}
+                layout="responsive"
+                loading="lazy"
                 />
               </div>
             </div>
@@ -270,6 +322,9 @@ function CaseStudyIndex() {
                 alt="Picture of the author"
                 width={770}
                 height={800}
+                quality={20}
+                layout="responsive"
+                loading="lazy"
                 />
               </div>
             </div>
@@ -282,6 +337,9 @@ function CaseStudyIndex() {
                 alt="Picture of the author"
                 width={770}
                 height={800}
+                quality={20}
+                layout="responsive"
+                loading="lazy"
                 />
               </div>
             </div>
@@ -294,6 +352,9 @@ function CaseStudyIndex() {
                 alt="Picture of the author"
                 width={770}
                 height={800}
+                quality={20}
+                layout="responsive"
+                loading="lazy"
                 />
               </div>
             </div>
@@ -306,6 +367,9 @@ function CaseStudyIndex() {
                 alt="Picture of the author"
                 width={770}
                 height={800}
+                quality={20}
+                layout="responsive"
+                loading="lazy"
                 />
               </div>
             </div>
@@ -325,9 +389,9 @@ function CaseStudyIndex() {
                 width: 300
               },
               1200: {
-                slidesPerView: 4,
+                slidesPerView: 2,
                 spaceBetween: 10,
-                width: 1200
+                width: 1080
               }
             }}
             >
@@ -337,6 +401,9 @@ function CaseStudyIndex() {
               alt="Picture of the author"
               width={580}
               height={580}
+              quality={20}
+              layout="responsive"
+              loading="lazy"
             />
             </SwiperSlide>
             <SwiperSlide>
@@ -349,32 +416,15 @@ function CaseStudyIndex() {
           </div>      
           <div>
             <h2>&#128065; Bandcamp Cover</h2>
-            <Swiper
-            speed={400}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
-            breakpoints={{ 
-              320: {
-                slidesPerView: 1,
-                spaceBetween: 10,
-                width: 300
-              },
-              1200: {
-                slidesPerView: 4,
-                spaceBetween: 10,
-                width: 1200
-              }
-            }}
-            >
-            <SwiperSlide>
             <Image
               src="/img/pendulum/pendulum_instagram.jpg"
               alt="Picture of the author"
               width={770}
               height={800}
+              quality={20}
+              layout="responsive"
+              loading="lazy"
             />
-            </SwiperSlide>
-            </Swiper>
           </div> 
           
           <div className={styles.flipSwitch}>

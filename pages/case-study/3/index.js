@@ -1,14 +1,33 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from "framer-motion"
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react'
 import ReactPlayer from "react-player"
+import Head from 'next/head'
 
 import Layout from '../../../components/Layout/Layout'
 import styles from '../../../styles/CaseStudy.module.css'
 
 function CaseStudyIndex() {
   return <Layout>
+    <Head>
+      <title>Website CMS for Musicians & Bands</title>
+      <meta name='twitter:url' content='https://llegojulio.com/case-study/3' />
+      <meta property='og:url' content='https://llegojulio.com/case-study/3' />
+      
+      <meta property='og:image' content='https://llegojulio.com/img/ecommerce/mockupFragrance_A01.jpg' />
+      <meta name='twitter:image' content='https://llegojulio.com/img/ecommerce/mockupFragrance_A01.jpg' />
+
+      <meta property='og:title' content='Website CMS for Musicians & Bands | Llegó Julio' />
+      <meta name='twitter:title' content='Website CMS for Musicians & Bands | Llegó Julio' />
+
+      <meta name="description" content="A multi-talented EDM / Pop artist, songwriter and producer with more than 50+ songs release, looking for a space to connected with her #trueFan" key="description"/>
+      <meta property='og:description' content='A multi-talented EDM / Pop artist, songwriter and producer with more than 50+ songs release, looking for a space to connected with her #trueFan' />
+      <meta name='twitter:description' content='A multi-talented EDM / Pop artist, songwriter and producer with more than 50+ songs release, looking for a space to connected with her #trueFan' />
+
+      <link rel="canonical" href="https://llegojulio.com/case-study/3" />
+      <link rel="alternate" href="https://llegojulio.com/case-study/3" hreflang="en-us" />
+    </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}
     animate={{ y: 0, opacity: 1 }}
@@ -52,6 +71,9 @@ function CaseStudyIndex() {
               alt="Picture of the author"
               width={560}
               height={560}
+              quality={50}
+              layout="responsive"
+              loading="eager"
             />
             </div>
             <div className={styles.halfCurveUpRight}>
@@ -60,6 +82,9 @@ function CaseStudyIndex() {
               alt="Picture of the author"
               width={500}
               height={282}
+              quality={50}
+              layout="responsive"
+              loading="eager"
             />
             </div>
              </div>
@@ -72,6 +97,9 @@ function CaseStudyIndex() {
               alt="Picture of the author"
               width={480}
               height={531}
+              quality={50}
+              layout="responsive"
+              loading="eager"
             />
                </div>
                <div className={styles.shortCurve}>
@@ -80,6 +108,9 @@ function CaseStudyIndex() {
               alt="Picture of the author"
               width={1442}
               height={802}
+              quality={50}
+              layout="responsive"
+              loading="eager"
             />
                </div>
              </div>
@@ -92,6 +123,9 @@ function CaseStudyIndex() {
               alt="Picture of the author"
               width={400}
               height={700}
+              quality={50}
+              layout="responsive"
+              loading="eager"
             />
                </div>
                <div className={styles.injectionCircle}>
@@ -100,6 +134,9 @@ function CaseStudyIndex() {
               alt="Picture of the author"
               width={450}
               height={533}
+              quality={50}
+              layout="responsive"
+              loading="eager"
             />
                </div>
              </div>
@@ -112,6 +149,9 @@ function CaseStudyIndex() {
               alt="Picture of the author"
               width={400}
               height={728}
+              quality={50}
+              layout="responsive"
+              loading="eager"
             />
             </div>
              </div>
@@ -542,9 +582,9 @@ function CaseStudyIndex() {
                 width: 300
               },
               1200: {
-                slidesPerView: 4,
+                slidesPerView: 1,
                 spaceBetween: 10,
-                width: 1024
+                width: 800
               }
             }}
             >
@@ -554,6 +594,9 @@ function CaseStudyIndex() {
                 alt="Wireframe"
                 width={1440}
                 height={6353}
+                quality={20}
+                layout="responsive"
+                loading="lazy"
                 />
                 <small>Wireframe</small>
               </SwiperSlide>
@@ -563,6 +606,9 @@ function CaseStudyIndex() {
                 alt="Landing Page"
                 width={1440}
                 height={5839}
+                quality={20}
+                layout="responsive"
+                loading="lazy"
                 />
                 <small>Mockup</small>
               </SwiperSlide>
@@ -572,6 +618,9 @@ function CaseStudyIndex() {
                 alt="Biography Wireframe"
                 width={1437}
                 height={834}
+                quality={75}
+                layout="responsive"
+                loading="lazy"
                 />
                 <small>The biography section</small>
                 <Image
@@ -579,6 +628,9 @@ function CaseStudyIndex() {
                 alt="Biography Wireframe"
                 width={1437}
                 height={834}
+                quality={75}
+                layout="responsive"
+                loading="lazy"
                 />
                 <small>Section CMS edit</small>
               </SwiperSlide>
@@ -588,6 +640,9 @@ function CaseStudyIndex() {
                 alt="Picture of the author"
                 width={600}
                 height={338}
+                quality={20}
+                layout="responsive"
+                loading="lazy"
                 />
                 <small>The Intergalactic background animation in render using <b>Three.js</b>.</small>
                 <Image
@@ -595,6 +650,9 @@ function CaseStudyIndex() {
                 alt="Picture of the author"
                 width={3360}
                 height={1978}
+                quality={20}
+                layout="responsive"
+                loading="lazy"
                 />
                 <small>1920x1200</small>
                 <Image
@@ -602,6 +660,9 @@ function CaseStudyIndex() {
                 alt="Picture of the author"
                 width={571}
                 height={345}
+                quality={75}
+                layout="responsive"
+                loading="lazy"
                 />
                  <small>1280x800</small>
                  <Image
@@ -609,6 +670,9 @@ function CaseStudyIndex() {
                 alt="Picture of the author"
                 width={608}
                 height={348}
+                quality={75}
+                layout="responsive"
+                loading="lazy"
                 />
                 <small>CMS Edit</small>
               </SwiperSlide>
@@ -618,6 +682,9 @@ function CaseStudyIndex() {
                 alt="Picture of the author"
                 width={748}
                 height={1117}
+                quality={20}
+                layout="responsive"
+                loading="lazy"
                 />
                 <small>No Intergalactic background for mobile</small>
               </SwiperSlide>
@@ -639,9 +706,9 @@ function CaseStudyIndex() {
                 width: 300
               },
               1200: {
-                slidesPerView: 4,
+                slidesPerView: 1,
                 spaceBetween: 10,
-                width: 1200
+                width: 900
               }
             }}
             >
@@ -651,6 +718,9 @@ function CaseStudyIndex() {
                 alt="Picture of the author"
                 width={1437}
                 height={263}
+                quality={20}
+                layout="responsive"
+                loading="lazy"
                 />
                 <small>Shop CTA</small>
               </SwiperSlide>
@@ -660,6 +730,9 @@ function CaseStudyIndex() {
                 alt="Footer: Newsletter + Social Media"
                 width={1438}
                 height={194}
+                quality={20}
+                layout="responsive"
+                loading="lazy"
                 />
                 <small>Newsletter + Social Media</small>
               </SwiperSlide>
@@ -669,6 +742,9 @@ function CaseStudyIndex() {
                 alt="Footer: Newsletter + Social Media"
                 width={2160}
                 height={2058}
+                quality={20}
+                layout="responsive"
+                loading="lazy"
                 />
                 <small>CMS: Widget Social Media</small>
               </SwiperSlide>
@@ -690,9 +766,9 @@ function CaseStudyIndex() {
                 width: 300
               },
               1200: {
-                slidesPerView: 4,
+                slidesPerView: 1,
                 spaceBetween: 10,
-                width: 1200
+                width: 800
               }
             }}
             >
@@ -702,6 +778,9 @@ function CaseStudyIndex() {
                 alt="Biography Wireframe"
                 width={1440}
                 height={4565}
+                quality={20}
+                layout="responsive"
+                loading="lazy"
                 />
                 <small>Wireframe</small>
               </SwiperSlide>
@@ -711,6 +790,9 @@ function CaseStudyIndex() {
                 alt="Biography"
                 width={1440}
                 height={3228}
+                quality={20}
+                layout="responsive"
+                loading="lazy"
                 />
                 <small>Mockup</small>
               </SwiperSlide>
@@ -720,6 +802,9 @@ function CaseStudyIndex() {
                 alt="Gallery Wireframe"
                 width={1440}
                 height={2132}
+                quality={20}
+                layout="responsive"
+                loading="lazy"
                 />
                 <small>Wireframe</small>
               </SwiperSlide>
@@ -729,6 +814,9 @@ function CaseStudyIndex() {
                 alt="Gallery Mockup"
                 width={1440}
                 height={2272}
+                quality={20}
+                layout="responsive"
+                loading="lazy"
                 />
                  <small>Mockup</small>
               </SwiperSlide>
@@ -738,6 +826,9 @@ function CaseStudyIndex() {
                 alt="Screenshot"
                 width={1440}
                 height={793}
+                quality={20}
+                layout="responsive"
+                loading="lazy"
                 />
                  <small>Desktop: Screenshot</small>
               </SwiperSlide>
@@ -759,9 +850,9 @@ function CaseStudyIndex() {
                 width: 300
               },
               1200: {
-                slidesPerView: 4,
+                slidesPerView: 1,
                 spaceBetween: 10,
-                width: 1200
+                width: 800
               }
             }}
             >
@@ -771,6 +862,9 @@ function CaseStudyIndex() {
                 alt="Wireframe"
                 width={1440}
                 height={1606}
+                quality={20}
+                layout="responsive"
+                loading="lazy"
                 />
                 <small>Wireframe</small>
               </SwiperSlide>
@@ -780,6 +874,9 @@ function CaseStudyIndex() {
                 alt="Mockup"
                 width={1440}
                 height={1771}
+                quality={20}
+                layout="responsive"
+                loading="lazy"
                 />
                 <small>Mockup</small>
               </SwiperSlide>
@@ -788,7 +885,10 @@ function CaseStudyIndex() {
                 src="/img/cms/sectionEvents_Mobile.jpg"
                 alt="Wireframe"
                 width={749}
-                height={1115} 
+                height={1115}
+                quality={75}
+                layout="responsive"
+                loading="lazy"
                 />
                 <small>Mobile: Screenshot</small>
               </SwiperSlide>
@@ -798,6 +898,9 @@ function CaseStudyIndex() {
                 alt="Wireframe"
                 width={1440}
                 height={817}
+                quality={75}
+                layout="responsive"
+                loading="lazy"
                 />
                 <small>Desktop: Screenshot</small>
               </SwiperSlide>
@@ -819,9 +922,9 @@ function CaseStudyIndex() {
                 width: 300
               },
               1200: {
-                slidesPerView: 4,
+                slidesPerView: 1,
                 spaceBetween: 10,
-                width: 1200
+                width: 800
               }
             }}
             >
@@ -831,6 +934,9 @@ function CaseStudyIndex() {
                 alt="Blog"
                 width={1440}
                 height={2089}
+                quality={20}
+                layout="responsive"
+                loading="lazy"
                 />
                 <small>Wireframe</small>
               </SwiperSlide>
@@ -840,6 +946,9 @@ function CaseStudyIndex() {
                 alt="Mockup"
                 width={1440}
                 height={3223}
+                quality={75}
+                layout="responsive"
+                loading="lazy"
                 />
                 <small>Mockup</small>
               </SwiperSlide>
@@ -849,6 +958,9 @@ function CaseStudyIndex() {
                 alt="Picture of the author"
                 width={1440}
                 height={827}
+                quality={75}
+                layout="responsive"
+                loading="lazy"
                 />
                 <small>Desktop: Screenshot</small>
               </SwiperSlide>
@@ -858,6 +970,9 @@ function CaseStudyIndex() {
                 alt="Blog Article"
                 width={1440}
                 height={3468}
+                quality={20}
+                layout="responsive"
+                loading="lazy"
                 />
                 <small>Wireframe</small>
               </SwiperSlide>
@@ -867,6 +982,9 @@ function CaseStudyIndex() {
                 alt="Mockup"
                 width={1440}
                 height={3401}
+                quality={75}
+                layout="responsive"
+                loading="lazy"
                 />
                 <small>Mockup</small>
               </SwiperSlide>
@@ -885,9 +1003,9 @@ function CaseStudyIndex() {
                 width: 300
               },
               1200: {
-                slidesPerView: 4,
+                slidesPerView: 1,
                 spaceBetween: 10,
-                width: 1200
+                width: 800
               }
             }}
             >
@@ -897,6 +1015,9 @@ function CaseStudyIndex() {
                 alt="Contact"
                 width={1440}
                 height={1368}
+                quality={20}
+                layout="responsive"
+                loading="lazy"
                 />
                 <small>Wireframe</small>
               </SwiperSlide>
@@ -906,6 +1027,9 @@ function CaseStudyIndex() {
                 alt="Picture of the author"
                 width={1440}
                 height={1421}
+                quality={20}
+                layout="responsive"
+                loading="lazy"
                 />
                 <small>Mockup</small>
               </SwiperSlide>
@@ -915,6 +1039,9 @@ function CaseStudyIndex() {
                 alt="Picture of the author"
                 width={746}
                 height={1115}
+                quality={20}
+                layout="responsive"
+                loading="lazy"
                 />
                 <small>Mobile: Screenshot</small>
               </SwiperSlide>

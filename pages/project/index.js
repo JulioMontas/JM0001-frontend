@@ -1,13 +1,32 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from "framer-motion"
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react'
+import Head from 'next/head'
 
 import Layout from '../../components/Layout/Layout'
 import styles from '../../styles/Project.module.css'
 
 function ProjectIndex() {
   return <Layout>
+    <Head>
+      <title>Project | UI Developer • Interaction Designer</title>
+      <meta name='twitter:url' content='https://llegojulio.com/project/' />
+      <meta property='og:url' content='https://llegojulio.com/project/' />
+      
+      <meta property='og:image' content='https://llegojulio.com/img/ecommerce/mockupFragrance_A01.jpg' />
+      <meta name='twitter:image' content='https://llegojulio.com/img/ecommerce/mockupFragrance_A01.jpg' />
+
+      <meta property='og:title' content='Project | UI Developer • Interaction Designer' />
+      <meta name='twitter:title' content='Project | UI Developer • Interaction Designer' />
+
+      <meta name="description" content="Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC." key="description"/>
+      <meta property='og:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
+      <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
+
+      <link rel="canonical" href="https://llegojulio.com/project/" />
+      <link rel="alternate" href="https://llegojulio.com/project/" hreflang="en-us" />
+    </Head>
     <motion.div 
        initial={{ x: 600, opacity: 0 }}
        animate={{ x: 0, opacity: 1 }}

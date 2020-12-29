@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from "framer-motion"
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
 
 import Layout from '../../../components/Layout/Layout'

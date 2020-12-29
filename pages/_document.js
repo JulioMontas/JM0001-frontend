@@ -11,7 +11,7 @@ class MyDocument extends Document {
           <meta name='apple-mobile-web-app-status-bar-style' content='default' />
           <meta name='apple-mobile-web-app-title' content='Julio Montas | UI Developer • Interaction Designer' />
           <meta name="keywords" content="App, CSS, JavaScript, UX Design, UI Design"/>
-          <meta name='description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' key="description" />
+          {/* <meta name='description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' key="description" /> */}
           <meta name='format-detection' content='telephone=no' />
           <meta name='mobile-web-app-capable' content='yes' />
           <meta name='msapplication-config' content='/static/icons/browserconfig.xml' />

@@ -13,8 +13,8 @@ function ProjectIndex() {
           <title>COLORS Learn The Basic | Full Stack Designer</title>
           <meta name="author" content="Julio Montas"/>
           <meta name="description" content="Toddler App | Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory" key="description"/>
-          <meta property='og:title' content='Julio Montas | COLORS Learn the Basic' />
-          <meta name='twitter:image' content='https://llegojulio.com/_next/image?url=%2Fimg%2Fproject%2Fcolors%2FSlide%2003.png&w=1080&q=75' />
+          <meta property='og:title' content='Julio Montas | COLORS Learn The Basic' />
+          <meta name='twitter:image' content='https://api.zeit.co/now/files/5e951c60bea0abd15cb050d1fd7d73bb818e774e2fcaefb378cc998bf6f4adcd/slide_03.png' />
       </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}

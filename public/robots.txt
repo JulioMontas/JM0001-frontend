@@ -1,2 +1,4 @@
-User-agent: *
-Allow: /*
+User-agent: Twitterbot
+Disallow: *
+
+Allow: /img

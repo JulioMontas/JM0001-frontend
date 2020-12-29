@@ -14,7 +14,7 @@ function ProjectIndex() {
           <meta name="author" content="Julio Montas"/>
           <meta name="description" content="Toddler App | Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory" key="description"/>
           <meta property='og:title' content='Julio Montas | COLORS Learn The Basic' />
-          <meta name='twitter:image' content='https://api.zeit.co/now/files/5e951c60bea0abd15cb050d1fd7d73bb818e774e2fcaefb378cc998bf6f4adcd/slide_03.png' />
+          <meta name='twitter:image' content='https://llegojulio.com/img/project/colors/slide_03.png' />
       </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}

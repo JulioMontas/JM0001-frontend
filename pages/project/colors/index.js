@@ -45,11 +45,11 @@ function ProjectIndex() {
                     </div>
                 </div>
                 <div className={styles.flipSwitch}>
-                    <h2>&#128173; The new generations of students for eLearning</h2>
+                    <h2>The new generations of students for eLearning</h2>
                     <p>Teaching toddler how to learn the basic of colors pronunciation and visual recognition memory</p>
                 </div>
                 <div>
-                    <h2>&#127968; Mobile App Concept designs</h2>
+                    <h2>Mobile App Concept designs</h2>
                     <Image
                     src="/img/project/colors/slide_03.png"
                     alt="Choose a color to learn"

@@ -1,9 +1,10 @@
 .main {
-    margin: 0 0 0 10px;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     height: 500px;
+}
+.main:first-child{
+    margin: 0 0 0 10px;
 }
 .main img {
     width: 270px;
@@ -28,7 +29,7 @@
     font-weight: bold;
     text-transform: capitalize;
     letter-spacing: 1px;
-    margin: -9px 0px -10px 0;
+    margin: 12px 0 -13px 0;
 }
 .main .blgSummery{
     font-size: 14px;
@@ -41,6 +42,16 @@
 /* Table */
 @media screen and (min-width: 40em) {}
 /* Desktop 980px to 1280px  */
-@media screen and (min-width: 57em) {}
+@media screen and (min-width: 57em) {
+    .main a{
+        transition: all 1s ease-in-out;
+        opacity: 0.6;
+    }
+    .main a:hover,
+    .swiper-slide.swiper-slide-active a {
+        opacity: 1;
+        z-index: 9999;
+    }
+}
 /* Desktop 1920px */
 @media screen and (min-width: 120em) {}

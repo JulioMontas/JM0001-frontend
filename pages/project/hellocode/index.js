@@ -45,11 +45,11 @@ function ProjectIndex() {
                     </div>
                 </div>
                 <div className={styles.flipSwitch}>
-                    <h2>&#128173; Concept</h2>
+                    <h2>Concept</h2>
                     <p>List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present.</p>
                 </div>
                 <div>
-                    <h2>&#127968; UI Design</h2>
+                    <h2>UI Design</h2>
                     <Image
                     src="/img/project/hc/CABulM1UwAAPf4a.png"
                     alt="Mockup of python page"
@@ -104,7 +104,7 @@ function ProjectIndex() {
                     </Swiper>
                 </div>
                 <div className={styles.flipSwitch}>
-                    <h2>&#128173; URL</h2>
+                    <h2>URL</h2>
                     <div>
                         <ul>
                             <li><a href="https://bfacd.parsons.edu/2013/helloco-de" target="_blank">The New School BFA Thesis 2013</a></li>

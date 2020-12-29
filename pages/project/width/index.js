@@ -49,12 +49,15 @@ function ProjectIndex() {
                     <p>A two-player game in which you must defeat your opponents by clicking to take over the screen.</p>
                 </div>
                 <div>
-                    <h2>&#127968; UI Design</h2>          
+                    <h2>UI Design</h2>          
                     <Image
                     src="/img/project/width/width_Sketch_Iphone.png"
                     alt="Mockup of python page"
                     width={1280}
                     height={735}
+                    quality={70}
+                    layout="responsive"
+                    loading="eager"
                     />
                     <p>iPhone Sketch</p>
                     <Swiper
@@ -76,52 +79,67 @@ function ProjectIndex() {
                     >
                         <SwiperSlide>
                             <Image
-                            src="/img/project/width/width_Wireframe_01_1280.png"
-                            alt="Mockup of python page"
+                            src="/img/project/width/width_Wireframe_levelOne.png"
+                            alt="Wireframe level one design"
                             width={1280}
                             height={800}
+                            quality={20}
+                            layout="responsive"
+                            loading="lazy"
                             />
                             <p>Mockup: Level One</p>
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
-                            src="/img/project/width/width_Wireframe_02_1280.png"
-                            alt="Mockup of python page"
+                            src="/img/project/width/width_Wireframe_levelThree.png"
+                            alt="Wireframe level three design"
                             width={1280}
                             height={800}
+                            quality={20}
+                            layout="responsive"
+                            loading="lazy"
                             />
                             <p>Level Three</p>
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
-                            src="/img/project/width/width_Wireframe_03_1280.png"
-                            alt="Mockup of python page"
+                            src="/img/project/width/width_Wireframe_levelSix.png"
+                            alt="Wireframe level six design"
                             width={1280}
                             height={800}
+                            quality={20}
+                            layout="responsive"
+                            loading="lazy"
                             />
                             <p>Level Six</p>
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
-                            src="/img/project/width/width_Wireframe_04_1280.png"
-                            alt="Mockup of python page"
+                            src="/img/project/width/width_Wireframe_levelTwelve.png"
+                            alt="Wireframe level twelve design"
                             width={1280}
                             height={800}
+                            quality={20}
+                            layout="responsive"
+                            loading="lazy"
                             />
                             <p>Level Twelve</p>
                         </SwiperSlide>
                     </Swiper>
                     <Image
-                    src="/img/project/width/width_BothPlayer_1080.gif"
-                    alt="Mockup of python page"
+                    src="/img/project/width/width_Landing_Page.png"
+                    alt="Main page for width"
                     width={1080}
                     height={629}
+                    quality={70}
+                    layout="responsive"
+                    loading="lazy"
                     />
-                    <p>Gameplay</p>
+                    <p>Main Page</p>
                 </div>
                 <div className={styles.flipSwitch}>
                     <h2>URL</h2>
-                    <a href="https://width.herokuapp.com" target="_blank">Prototype</a>
+                    <a href="https://width.herokuapp.com" target="_blank">Prototype Demo</a>
                 </div>
             </div>
         </div>          

@@ -35,7 +35,7 @@ function ProjectIndex() {
             <div className={styles.mainCenterCont}>
                 <div className={styles.flipSwitch}>
                     <div>
-                        <h1>Surveillance Culture Exposure - Digital Modernity, Identity and Security</h1>
+                        <h1>Surveillance Culture Modernity, Identity and Security</h1>
                         <p>Deepfake, Data Collection, 2015</p>
                     </div>
                     <div className={styles.secExit}>
@@ -91,7 +91,7 @@ function ProjectIndex() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
-                            src="/img/project/surveillance/JessieNguyen-socialProof.jpg"
+                            src="/img/project/surveillance/jessieNguyen-socialProof.jpg"
                             alt="Mockup of python page"
                             width={1080}
                             height={629}

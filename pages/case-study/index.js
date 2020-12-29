@@ -42,22 +42,25 @@ function CaseStudy({ posts }) {
           width: 300
         },
         1200: {
-          slidesPerView: 4,
-          spaceBetween: 50,
-          width: 1200
+          slidesPerView: 3,
+          spaceBetween: 60,
+          width: 1080
         }
       }}
     >
         <SwiperSlide>
         <div className={styles.main}>
-          <div>
-            <div className={styles.cube}>
+            <Link href={`/case-study/1`}>
+              <a>
+              <div className={styles.cube}>
               <div className={styles.cara1}>
               <Image
                 src="/img/Pendulum-3D-Box-Face-01.jpg"
                 alt="Picture of the author"
                 width={200}
                 height={200}
+                quality={1}
+                loading="eager"
                 />
               </div>
               <div className={styles.cara2}>
@@ -66,6 +69,8 @@ function CaseStudy({ posts }) {
                 alt="Picture of the author"
                 width={200}
                 height={200}
+                quality={1}
+                loading="eager"
                 />
               </div>
               <div className={styles.cara3}>
@@ -74,6 +79,8 @@ function CaseStudy({ posts }) {
                 alt="Picture of the author"
                 width={200}
                 height={200}
+                quality={1}
+                loading="eager"
                 />
               </div>
               <div className={styles.cara4}>
@@ -82,6 +89,8 @@ function CaseStudy({ posts }) {
                 alt="Picture of the author"
                 width={200}
                 height={200}
+                quality={1}
+                loading="eager"
                 />
               </div>
               <div className={styles.cara5}>
@@ -90,6 +99,8 @@ function CaseStudy({ posts }) {
                 alt="Picture of the author"
                 width={200}
                 height={200}
+                quality={1}
+                loading="eager"
                 />
               </div>
               <div className={styles.cara6}>
@@ -98,86 +109,102 @@ function CaseStudy({ posts }) {
                 alt="Picture of the author"
                 width={200}
                 height={200}
+                quality={1}
+                loading="eager"
                 />
               </div>
             </div>
-            <Link href={`/case-study/1`}>
-              <a><h2 className={styles.title}>Vinyl Label Design Pendulum EP</h2></a>
+                <h2 className={styles.title}>Vinyl Label Design Pendulum EP</h2>
+                <h3 className={styles.description}>The second EP of ERRANT Recordings with a style of ambient and minimal tech house</h3>
+              </a>
             </Link>
-            <p className={styles.description}>The second EP of ERRANT Recordings with a style of ambient and minimal tech house</p>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-        <div className={styles.main}>
-          <div>
-            <div className={styles.cube}>
-              <div className={styles.cara1}>
-              <Image
-                src="/img/ecommerce.png"
-                alt="Picture of the author"
-                width={200}
-                height={200}
-                />
-              </div>
-              <div className={styles.cara2}>
-              <Image
-                src="/img/ecommerce.png"
-                alt="Picture of the author"
-                width={200}
-                height={200}
-                />
-              </div>
-              <div className={styles.cara3}>
-              <Image
-                src="/img/ecommerce.png"
-                alt="Picture of the author"
-                width={200}
-                height={200}
-                />
-              </div>
-              <div className={styles.cara4}>
-              <Image
-                src="/img/ecommerce.png"
-                alt="Picture of the author"
-                width={200}
-                height={200}
-                />
-              </div>
-              <div className={styles.cara5}>
-              <Image
-                src="/img/ecommerce.png"
-                alt="Picture of the author"
-                width={200}
-                height={200}
-                />
-              </div>
-              <div className={styles.cara6}>
-              <Image
-                src="/img/ecommerce.png"
-                alt="Picture of the author"
-                width={200}
-                height={200}
-                />
-              </div>
-            </div>
-            <Link href={`/case-study/2`}>
-              <a><h2 className={styles.title}>So-Avant-Garde.com A Discovery In Scent</h2></a>
-            </Link>
-            <p className={styles.description}>A luxury fragrances distribution company going B2C with their first shofity eCommerce online store</p>
-          </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className={styles.main}>
-          <div>
-            <div className={styles.cube}>
+            <Link href={`/case-study/2`}>
+              <a>
+              <div className={styles.cube}>
+              <div className={styles.cara1}>
+              <Image
+                src="/img/ecommerce.png"
+                alt="Picture of the author"
+                width={200}
+                height={200}
+                quality={1}
+                loading="eager"
+                />
+              </div>
+              <div className={styles.cara2}>
+              <Image
+                src="/img/ecommerce.png"
+                alt="Picture of the author"
+                width={200}
+                height={200}
+                quality={1}
+                loading="eager"
+                />
+              </div>
+              <div className={styles.cara3}>
+              <Image
+                src="/img/ecommerce.png"
+                alt="Picture of the author"
+                width={200}
+                height={200}
+                quality={1}
+                loading="eager"
+                />
+              </div>
+              <div className={styles.cara4}>
+              <Image
+                src="/img/ecommerce.png"
+                alt="Picture of the author"
+                width={200}
+                height={200}
+                quality={1}
+                loading="eager"
+                />
+              </div>
+              <div className={styles.cara5}>
+              <Image
+                src="/img/ecommerce.png"
+                alt="Picture of the author"
+                width={200}
+                height={200}
+                quality={1}
+                loading="eager"
+                />
+              </div>
+              <div className={styles.cara6}>
+              <Image
+                src="/img/ecommerce.png"
+                alt="Picture of the author"
+                width={200}
+                height={200}
+                quality={1}
+                loading="eager"
+                />
+              </div>
+            </div>
+                <h2 className={styles.title}>So-Avant-Garde.com A Discovery In Scent</h2>
+                <h3 className={styles.description}>A luxury fragrances distribution company going B2C with their first shofity eCommerce online store</h3>
+              </a>
+            </Link>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className={styles.main}>
+            <Link href={`/case-study/3`}>
+              <a>
+              <div className={styles.cube}>
               <div className={styles.cara1}>
               <Image
                 src="/img/music_3D_Top.png"
                 alt="Picture of the author"
                 width={200}
                 height={200}
+                quality={1}
+                loading="eager"
                 />
               </div>
               <div className={styles.cara2}>
@@ -186,6 +213,8 @@ function CaseStudy({ posts }) {
                 alt="Picture of the author"
                 width={200}
                 height={200}
+                quality={1}
+                loading="eager"
                 />
               </div>
               <div className={styles.cara3}>
@@ -194,6 +223,8 @@ function CaseStudy({ posts }) {
                 alt="Picture of the author"
                 width={200}
                 height={200}
+                quality={1}
+                loading="eager"
                 />
               </div>
               <div className={styles.cara4}>
@@ -202,6 +233,8 @@ function CaseStudy({ posts }) {
                 alt="Picture of the author"
                 width={200}
                 height={200}
+                quality={1}
+                loading="eager"
                 />
               </div>
               <div className={styles.cara5}>
@@ -210,6 +243,8 @@ function CaseStudy({ posts }) {
                 alt="Picture of the author"
                 width={200}
                 height={200}
+                quality={1}
+                loading="eager"
                 />
               </div>
               <div className={styles.cara6}>
@@ -218,14 +253,15 @@ function CaseStudy({ posts }) {
                 alt="Picture of the author"
                 width={200}
                 height={200}
+                quality={1}
+                loading="eager"
                 />
               </div>
             </div>
-            <Link href={`/case-study/3`}>
-              <a><h2 className={styles.title}>Website CMS for Musicians & Bands</h2></a>
+                <h2 className={styles.title}>Website CMS for Musicians & Bands</h2>
+                <h3 className={styles.description}>Custom content management system for independent artist to manage and keep their fan loyalty.</h3>
+              </a>
             </Link>
-            <p className={styles.description}>Custom content management system for independent artist to manage and keep their fan loyalty.</p>
-          </div>
           </div>
         </SwiperSlide>
       </Swiper>

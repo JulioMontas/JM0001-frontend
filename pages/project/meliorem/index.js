@@ -35,7 +35,7 @@ function ProjectIndex() {
             <div className={styles.mainCenterCont}>
                 <div className={styles.flipSwitch}>
                     <div>
-                        <h1>Meliorem: Cultivate Your Passion</h1>
+                        <h1>Meliorem Cultivating Your Passion to Level Up</h1>
                         <p>Productivity App, Dopamine Stimulator, 2016</p>
                     </div>
                     <div className={styles.secExit}>
@@ -45,11 +45,11 @@ function ProjectIndex() {
                     </div>
                 </div>
                 <div className={styles.flipSwitch}>
-                    <h2>&#128173; Concept</h2>
+                    <h2>Concept</h2>
                     <p>Reward self task manager to stimulate your existence</p>
                 </div>
                 <div>
-                    <h2>&#127968; UI Design</h2>
+                    <h2>UI Design</h2>
                     <Image
                     src="/img/project/meliorem/projectManagementTracker-Mockup00A.jpg"
                     alt="Mockup of python page"

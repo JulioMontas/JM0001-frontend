@@ -10,15 +10,15 @@ import styles from '../../styles/Project.module.css'
 function ProjectIndex() {
   return <Layout>
     <Head>
-      <title>Project | UI Developer • Interaction Designer</title>
+      <title>UI Developer • Interaction Designer</title>
       <meta name='twitter:url' content='https://llegojulio.com/project/' />
       <meta property='og:url' content='https://llegojulio.com/project/' />
       
-      <meta property='og:image' content='https://llegojulio.com/img/ecommerce/mockupFragrance_A01.jpg' />
-      <meta name='twitter:image' content='https://llegojulio.com/img/ecommerce/mockupFragrance_A01.jpg' />
+      <meta property='og:image' content='https://llegojulio.com/me.png' />
+      <meta name='twitter:image' content='https://llegojulio.com/me.png' />
 
-      <meta property='og:title' content='Project | UI Developer • Interaction Designer' />
-      <meta name='twitter:title' content='Project | UI Developer • Interaction Designer' />
+      <meta property='og:title' content='UI Developer • Interaction Designer' />
+      <meta name='twitter:title' content='UI Developer • Interaction Designer' />
 
       <meta name="description" content="Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC." key="description"/>
       <meta property='og:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />

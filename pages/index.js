@@ -14,8 +14,8 @@ function HomePage() {
       <meta name='twitter:url' content='https://llegojulio.com/' />
       <meta property='og:url' content='https://llegojulio.com/' />
       
-      <meta property='og:image' content='https://llegojulio.com/img/ecommerce/mockupFragrance_A01.jpg' />
-      <meta name='twitter:image' content='https://llegojulio.com/img/ecommerce/mockupFragrance_A01.jpg' />
+      <meta property='og:image' content='https://llegojulio.com/me.png' />
+      <meta name='twitter:image' content='https://llegojulio.com/me.png' />
 
       <meta property='og:title' content='UI Developer • Interaction Designer' />
       <meta name='twitter:title' content='UI Developer • Interaction Designer' />

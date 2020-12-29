@@ -14,6 +14,9 @@ function ProjectIndex() {
           <meta name="author" content="Julio Montas"/>
           <meta name="description" content="Toddler App | Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory" key="description"/>
           <meta property='og:title' content='Julio Montas | COLORS Learn The Basic' />
+          <meta property='og:description' content='Toddler App | Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory' />
+          <meta property='og:image' content='https://llegojulio.com/img/project/colors/slide_03.png' />
+
 
           <meta name='twitter:title' content='Julio Montas | COLORS Learn The Basic' />
           <meta name='twitter:description' content='Toddler App | Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory' />

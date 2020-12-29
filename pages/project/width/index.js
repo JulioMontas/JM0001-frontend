@@ -45,6 +45,7 @@ function ProjectIndex() {
                     width={1280}
                     height={735}
                     />
+                    <p>iPhone Sketch</p>
                     <Swiper
                     speed={400}
                     onSlideChange={() => console.log('slide change')}
@@ -57,8 +58,8 @@ function ProjectIndex() {
                         },
                         1200: {
                             slidesPerView: 1,
-                            spaceBetween: 20,
-                            width: 950
+                            spaceBetween: 10,
+                            width: 800
                         }
                     }}
                     >
@@ -69,6 +70,7 @@ function ProjectIndex() {
                             width={1280}
                             height={800}
                             />
+                            <p>Mockup: Level One</p>
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
@@ -77,6 +79,7 @@ function ProjectIndex() {
                             width={1280}
                             height={800}
                             />
+                            <p>Level Three</p>
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
@@ -85,6 +88,7 @@ function ProjectIndex() {
                             width={1280}
                             height={800}
                             />
+                            <p>Level Six</p>
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
@@ -93,6 +97,7 @@ function ProjectIndex() {
                             width={1280}
                             height={800}
                             />
+                            <p>Level Twelve</p>
                         </SwiperSlide>
                     </Swiper>
                     <Image
@@ -101,10 +106,11 @@ function ProjectIndex() {
                     width={1080}
                     height={629}
                     />
+                    <p>Gameplay</p>
                 </div>
                 <div className={styles.flipSwitch}>
-                    <h2>&#128173; Demo</h2>
-                    <a href="https://width.herokuapp.com">Click Here!</a>
+                    <h2>&#128173; URL</h2>
+                    <a href="https://width.herokuapp.com" target="_blank">Prototype</a>
                 </div>
             </div>
         </div>          

@@ -44,6 +44,7 @@ function ProjectIndex() {
                     width={1440}
                     height={1267}
                     />
+                    <p>First Concept UI</p>
                     <Swiper
                     speed={400}
                     onSlideChange={() => console.log('slide change')}
@@ -57,7 +58,7 @@ function ProjectIndex() {
                         1200: {
                             slidesPerView: 1,
                             spaceBetween: 10,
-                            width: 970
+                            width: 700
                         }
                     }}
                     >
@@ -68,6 +69,7 @@ function ProjectIndex() {
                             width={1080}
                             height={1080}
                             />
+                            <p>Mobile: Login</p>
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
@@ -76,6 +78,7 @@ function ProjectIndex() {
                             width={1080}
                             height={1080}
                             />
+                             <p>Mobile: Task Dashboard</p>
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
@@ -84,16 +87,14 @@ function ProjectIndex() {
                             width={1080}
                             height={1080}
                             />
+                             <p>Mobile: List of Task</p>
                         </SwiperSlide>
                     </Swiper>
-
-
-
                 </div>
-                <div className={styles.flipSwitch}>
+                {/* <div className={styles.flipSwitch}>
                     <h2>&#128173; Demo</h2>
                     <a href="https://width.herokuapp.com">Click Here!</a>
-                </div>
+                </div> */}
             </div>
         </div>          
     </motion.div>

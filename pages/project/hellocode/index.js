@@ -44,6 +44,7 @@ function ProjectIndex() {
                     width={1421}
                     height={1897}
                     />
+                    <p>Language Page</p>
                     <Swiper
                     speed={400}
                     onSlideChange={() => console.log('slide change')}
@@ -57,19 +58,10 @@ function ProjectIndex() {
                         1200: {
                             slidesPerView: 1,
                             spaceBetween: 20,
-                            width: 950
+                            width: 800
                         }
                     }}
                     >
-                        <SwiperSlide>
-                            <Image
-                            src="/img/project/hc/hc01.gif"
-                            alt="Mockup of python page"
-                            width={1422}
-                            height={768}
-                            />
-                            <p><b>Landing page</b> the background was build using Processing.js</p>
-                        </SwiperSlide>
                         <SwiperSlide>
                             <Image
                             src="/img/project/hc/hc02.gif"
@@ -77,6 +69,16 @@ function ProjectIndex() {
                             width={940}
                             height={718}
                             />
+                            <p>List of programming languages</p>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <Image
+                            src="/img/project/hc/hc01.gif"
+                            alt="Mockup of python page"
+                            width={1422}
+                            height={768}
+                            />
+                            <p>Landing page: The background was animated using Processing.js to show how past languages are distance but still connected</p>
                         </SwiperSlide>
                     </Swiper>
                 </div>

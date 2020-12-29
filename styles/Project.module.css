@@ -1,8 +1,8 @@
 .main {
-    margin: 0 0 0 50px;
+    margin: 0 0 0 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     height: 500px;
 }
 .main img {
@@ -28,7 +28,7 @@
     font-weight: bold;
     text-transform: capitalize;
     letter-spacing: 1px;
-    margin: -12px 0px -10px 0;
+    margin: -9px 0px -10px 0;
 }
 .main .blgSummery{
     font-size: 14px;

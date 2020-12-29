@@ -10,7 +10,8 @@ class MyDocument extends Document {
           <meta name='apple-mobile-web-app-capable' content='yes' />
           <meta name='apple-mobile-web-app-status-bar-style' content='default' />
           <meta name='apple-mobile-web-app-title' content='Julio Montas | UI Developer • Interaction Designer' />
-          <meta name='description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
+          <meta name="keywords" content="App, CSS, JavaScript, UX Design, UI Design"/>
+          <meta name='description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' key="description" />
           <meta name='format-detection' content='telephone=no' />
           <meta name='mobile-web-app-capable' content='yes' />
           <meta name='msapplication-config' content='/static/icons/browserconfig.xml' />
@@ -28,10 +29,10 @@ class MyDocument extends Document {
           <meta name='twitter:url' content='https://llegojulio.com' />
           <meta name='twitter:title' content='Julio Montas | UI Developer • Interaction Designer' />
           <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
-          <meta name='twitter:image' content='https://llegojulio.com/static/icons/android-chrome-192x192.png' />
+          {/* <meta name='twitter:image' content='https://llegojulio.com/static/icons/android-chrome-192x192.png' /> */}
           <meta name='twitter:creator' content='@juliomontas' />
           <meta property='og:type' content='website' />
-          <meta property='og:title' content='Julio Montas | UI Developer • Interaction Designer' />
+          <meta property='og:title' content='Julio Montas | UI Developer • Interaction Designer' key="title"/>
           <meta property='og:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
           <meta property='og:site_name' content='Llegó Julio' />
           <meta property='og:url' content='https://llegojulio.com' />

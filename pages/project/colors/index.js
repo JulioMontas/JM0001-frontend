@@ -10,10 +10,11 @@ import styles from '../../../styles/CaseStudy.module.css'
 function ProjectIndex() {
   return <Layout>
       <Head>
-          <title>COLORS Learn The Basic Colors | App Project</title>
+          <title>COLORS Learn The Basic | Full Stack Designer</title>
           <meta name="author" content="Julio Montas"/>
-          <meta name="keywords" content="App Project, CSS, JavaScript"/>
-          <meta name="description" content="La la la la la"/>
+          <meta name="description" content="Toddler App | Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory" key="description"/>
+          <meta property='og:title' content='Julio Montas | COLORS Learn the Basic' />
+          <meta name='twitter:image' content='https://llegojulio.com/_next/image?url=%2Fimg%2Fproject%2Fcolors%2FSlide%2003.png&w=1080&q=75' />
       </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}
@@ -24,7 +25,7 @@ function ProjectIndex() {
                 <div className={styles.flipSwitch}>
                     <div>
                         <h1>COLORS Learn the Basic</h1>
-                        <p>Toddler App Game, Education, 2016</p>
+                        <p>Toddler App, Education, 2016</p>
                     </div>
                     <div className={styles.secExit}>
                         <Link href="/project">
@@ -33,13 +34,13 @@ function ProjectIndex() {
                     </div>
                 </div>
                 <div className={styles.flipSwitch}>
-                    <h2>&#128173; Concept</h2>
+                    <h2>&#128173; App Concept</h2>
                     <p>Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory</p>
                 </div>
                 <div>
                     <h2>&#127968; UI Design</h2>
                     <Image
-                    src="/img/project/colors/Slide 03.png"
+                    src="/img/project/colors/slide_03.png"
                     alt="Mockup of python page"
                     width={1080}
                     height={1080}
@@ -63,7 +64,7 @@ function ProjectIndex() {
                     >
                         <SwiperSlide>
                             <Image
-                            src="/img/project/colors/Slide 04.png"
+                            src="/img/project/colors/slide_04.png"
                             alt="Mockup of python page"
                             width={1080}
                             height={1080}
@@ -71,7 +72,7 @@ function ProjectIndex() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
-                            src="/img/project/colors/Slide 05.png"
+                            src="/img/project/colors/slide_05.png"
                             alt="Mockup of python page"
                             width={1080}
                             height={1080}
@@ -79,7 +80,7 @@ function ProjectIndex() {
                         </SwiperSlide>
                     </Swiper>
                 </div>
-                <div className={styles.flipSwitch}>
+                {/* <div className={styles.flipSwitch}>
                     <h2>&#128173; Demo</h2>
                     <div>
                         <ul>
@@ -88,7 +89,7 @@ function ProjectIndex() {
                             <li><a href="https://width.herokuapp.com">WebVR</a></li>
                         </ul>    
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>          
     </motion.div>

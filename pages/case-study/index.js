@@ -25,7 +25,7 @@ function CaseStudy({ posts }) {
       <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
 
       <link rel="canonical" href="https://llegojulio.com/case-study/" />
-      <link rel="alternate" href="https://llegojulio.com/case-study/" hreflang="en-us" />
+      <link rel="alternate" href="https://llegojulio.com/case-study/" hrefLang="en-us" />
     </Head>
     <motion.div 
        initial={{ x: 600, opacity: 0 }}

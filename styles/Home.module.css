@@ -54,7 +54,6 @@
 .main .sectionDos{
     display: flex;
     align-items: center;
-    justify-content: center;
     height: 495px;
 }
 .main .sectionUno div{
@@ -73,8 +72,9 @@
     .main {
         width: 1200px;
     }
-    .main div{
-        /* border: 1px solid red; */
+    .main .sectionDos{
+        width: 500px;
+        padding-left: 10px;
     }
     .main p {
         line-height: 35px;

@@ -23,7 +23,7 @@ function Me() {
       <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
 
       <link rel="canonical" href="https://llegojulio.com/" />
-      <link rel="alternate" href="https://llegojulio.com/" hreflang="en-us" />
+      <link rel="alternate" href="https://llegojulio.com/" hrefLang="en-us" />
     </Head>
     <motion.div 
     initial={{ x: 600, opacity: 0 }}
@@ -41,8 +41,8 @@ function Me() {
           },
           1200: {
             slidesPerView: 1,
-            spaceBetween: 150,
-            width: 400
+            spaceBetween: 10,
+            width: 700
           }
         }}
         >

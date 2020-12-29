@@ -26,7 +26,7 @@ function CaseStudyIndex() {
       <meta name='twitter:description' content='The second EP of ERRANT Recordings with a style of ambient and minimal tech house' />
 
       <link rel="canonical" href="https://llegojulio.com/case-study/1" />
-      <link rel="alternate" href="https://llegojulio.com/case-study/1" hreflang="en-us" />
+      <link rel="alternate" href="https://llegojulio.com/case-study/1" hrefLang="en-us" />
       </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}

@@ -25,7 +25,7 @@ function HomePage() {
       <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
 
       <link rel="canonical" href="https://llegojulio.com/" />
-      <link rel="alternate" href="https://llegojulio.com/" hreflang="en-us" />
+      <link rel="alternate" href="https://llegojulio.com/" hrefLang="en-us" />
     </Head>
     <motion.div 
     initial={{ x: 300, opacity: 0 }}
@@ -44,9 +44,9 @@ function HomePage() {
           width: 310
         },
         1200: {
-          slidesPerView: 2,
+          slidesPerView: 1,
           spaceBetween: 10,
-          width: 1000
+          width: 450
         }
       }}
     >

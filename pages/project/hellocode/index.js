@@ -17,7 +17,7 @@ function ProjectIndex() {
           <meta property='og:image' content='https://llegojulio.com/img/project/hc/hc01.gif' />
           <meta name='twitter:image' content='https://llegojulio.com/img/project/hc/hc01.gif' />
 
-          <meta property='og:title' content='Helloco.de The Home For Programming Languages| Llegó Julio' />
+          <meta property='og:title' content='Helloco.de The Home For Programming Languages | Llegó Julio' />
           <meta name='twitter:title' content='Helloco.de The Home For Programming Languages | Llegó Julio' />
 
           <meta name="description" content="List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present" key="description"/>
@@ -25,6 +25,7 @@ function ProjectIndex() {
           <meta name='twitter:description' content='List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present' />
 
           <link rel="canonical" href="https://llegojulio.com/project/hellocode" />
+          <link rel="alternate" href="https://llegojulio.com/project/hellocode" hreflang="en-us" />
       </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}

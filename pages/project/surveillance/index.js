@@ -17,7 +17,7 @@ function ProjectIndex() {
           <meta property='og:image' content='https://llegojulio.com/img/project/surveillance/jessieNguyen-Moodboard.jpg' />
           <meta name='twitter:image' content='https://llegojulio.com/img/project/surveillance/jessieNguyen-Moodboard.jpg' />
 
-          <meta property='og:title' content='Surveillance Culture Exposure Digital Modernity, Identity and Security| Llegó Julio' />
+          <meta property='og:title' content='Surveillance Culture Exposure Digital Modernity, Identity and Security | Llegó Julio' />
           <meta name='twitter:title' content='Surveillance Culture Exposure Digital Modernity, Identity and Security | Llegó Julio' />
 
           <meta name="description" content="A social experiment using the top social media channels to farm users sensitive data" key="description"/>
@@ -25,7 +25,8 @@ function ProjectIndex() {
           <meta name='twitter:description' content='A social experiment using the top social media channels to farm users sensitive data' />
 
           <link rel="canonical" href="https://llegojulio.com/project/surveillance" />
-      </Head>
+          <link rel="alternate" href="https://llegojulio.com/project/surveillance" hreflang="en-us" />
+          </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}
     animate={{ y: 0, opacity: 1 }}

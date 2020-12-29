@@ -35,7 +35,7 @@ function ProjectIndex() {
             <div className={styles.mainCenterCont}>
                 <div className={styles.flipSwitch}>
                     <div>
-                        <h1>Basic Color Fundamentals App - Simple Fun for Toddlers</h1>
+                        <h1>Basic Color Fundamentals - Simple Fun App for Toddlers</h1>
                         <p>Teaching kids, Education, 2016</p>
                     </div>
                     <div className={styles.secExit}>
@@ -55,7 +55,7 @@ function ProjectIndex() {
                     alt="Mockup of python page"
                     width={1080}
                     height={1080}
-                    quality={25}
+                    layout="responsive"
                     />
                     <Swiper
                     speed={400}
@@ -80,7 +80,7 @@ function ProjectIndex() {
                             alt="Mockup of python page"
                             width={1080}
                             height={1080}
-                            quality={25}
+                            layout="responsive"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
@@ -89,7 +89,7 @@ function ProjectIndex() {
                             alt="Mockup of python page"
                             width={1080}
                             height={1080}
-                            quality={25}
+                            layout="responsive"
                             />
                         </SwiperSlide>
                     </Swiper>

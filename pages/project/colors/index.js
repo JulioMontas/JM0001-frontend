@@ -55,6 +55,7 @@ function ProjectIndex() {
                     alt="Mockup of python page"
                     width={1080}
                     height={1080}
+                    quality={35}
                     />
                     <Swiper
                     speed={400}
@@ -79,6 +80,7 @@ function ProjectIndex() {
                             alt="Mockup of python page"
                             width={1080}
                             height={1080}
+                            quality={35}
                             />
                         </SwiperSlide>
                         <SwiperSlide>
@@ -87,6 +89,7 @@ function ProjectIndex() {
                             alt="Mockup of python page"
                             width={1080}
                             height={1080}
+                            quality={35}
                             />
                         </SwiperSlide>
                     </Swiper>

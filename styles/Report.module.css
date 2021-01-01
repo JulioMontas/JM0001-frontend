@@ -1,0 +1,338 @@
+  .main{
+    height: var(--screen-height);
+    background: rgba(255, 0, 0, 0.475);
+  }
+  .mainIndex img{
+    border-radius: 0 0.8em 0.8em 0.8em;
+  }
+  .mainIndex h2{
+    margin-bottom: 10px;
+  }
+  .mainIndex h3{
+    font-family: var(--fonts-title);
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-top: 80px;
+  }
+  .mainIndex p {
+    font-family: var(--fonts-summary);
+    font-size: 14px;
+    line-height: 22px;
+    margin: -5px 0 0 0;
+  } 
+  .mainIndex{
+    margin: 15px 10px 10px 10px;
+    border-radius: 15px;
+    background: var(--background-color-dark);
+    animation: MoveBG 60s ease infinite;
+    transition: all 1s ease;
+    padding: 10px 10px 4em;
+  }
+  @keyframes MoveBG {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+  .cube,
+  .cube div,
+  .cube div img {
+    height: 200px;
+    width: 200px;
+  }
+  .cube {
+    transition: opacity .40s ease-in-out;
+    position: relative;
+    margin: 70px auto 60px auto;
+    animation:giro 45s infinite linear;
+    transform-style:preserve-3d;
+  }
+  @keyframes giro {
+      0% { transform: rotateX(0deg) rotateY(0deg);}
+      50% { transform: rotateX(780deg) rotateY(780deg);}
+    100% { transform: rotateX(1080deg) rotateY(360deg);}
+  }
+  .cube div {
+    position: absolute;
+    -moz-cube-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5); /* Firefox anti aliasing */
+    animation:rotate 15s infinite linear;
+  }
+  .cube div img {
+    margin: 0;
+    padding: 0;
+    border: 0 none transparent;
+    animation:rot 5s infinite linear;
+  }
+  .cube div {opacity: 0.8;}
+  .cube div.cara1 {background:rgba(255,255,255,.5);}
+  .cube div.cara2 {background:rgba(255,255,255,.8);}
+  .cube div.cara3 {background:rgba(255,255,255,.5);}
+  .cube div.cara4 {background:rgba(255,255,255,.7);}
+  .cube div.cara5 {background:rgba(255,255,255,.5);}
+  .cube div.cara6 {background:rgba(255,255,255,.6);}
+  .cube div.cara1 {transform:translateZ(100px);}
+  .cube div.cara2 {transform:rotateY(90deg) translateZ(100px);}
+  .cube div.cara3 {transform:rotateY(180deg) translateZ(100px);}
+  .cube div.cara4 {transform:rotateY(-90deg) translateZ(100px);}
+  .cube div.cara5 {transform:rotateX(-90deg) translateZ(100px) rotate(180deg);}
+  .cube div.cara6 {transform:rotateX(90deg) translateZ(100px);}
+  
+  .cubeWrapper{
+    transform: scale(0.6);
+    margin-bottom: -25px;
+    transition: all 1s ease-in-out;
+  }
+  .title{
+    font-family: var(--fonts-title);
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 21px;
+  }
+  .description{
+    color: #FFF;
+    font-size: 13px;
+    margin: 0 0 -70px 0;
+    transition: all 1s ease;
+  }
+  .secExit{
+    /* position: fixed;
+    width: 100vw;
+    text-align: right;
+    margin: 8px 0 0 0; */
+    z-index: 9999;
+    margin: -50px -20px 0 0;
+    padding-bottom: 10px;
+  }
+  .secExit span{
+    font-size: 0.5em;
+    opacity: 0;
+  }
+  .secExit a{
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    border: 4px solid #F8E71C;
+    border-radius: 15px;
+    margin: 0 40px 0 0;
+    float: right;
+  }
+  .secOverview{
+    margin: 90px 0 0 0;
+  }
+  .shortCurve,
+  .longCurve,
+  .longFlat,
+  .longButNo,
+  .injectionCircle,
+  .halfCurveUpRight,
+  .halfCurveBottomLeft{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .shortCurve img{
+    background: #777777;
+    height: 125px;
+    border-radius: 100% 0% 40% 0%;
+    transition: all 1s ease;
+    animation: shortCurve 5s ease-in-out alternate infinite;
+  }
+  @keyframes shortCurve {
+    0%{border-radius:  100% 0% 40% 0%}
+    25%{border-radius:  40% 0% 80% 0%}
+    100%{border-radius: 100% 0% 40% 0%}
+  }
+  .longCurve img{
+    background: #C4C4C4;
+    height: 365px;
+    border-radius: 0% 30% 0% 100%;
+    transition: all 1s ease;
+    animation: longCurve 5s ease-in-out alternate infinite;
+  }
+  @keyframes longCurve {
+    0%{border-radius:  0% 30% 0% 100%}
+    25%{border-radius:  0% 10% 0% 50%}
+    100%{border-radius: 0% 30% 0% 100%}
+  }
+  .longFlat img{
+    background: #FFF;
+    border-radius: 0 0 100% 0;
+    transition: all 1s ease;
+    animation: longFlat 5s ease-in-out alternate infinite;
+  }
+  @keyframes longFlat {
+    0%{border-radius:  0 0 100% 0 }
+    25%{border-radius:  0 0 10% 0}
+    100%{border-radius: 0 0 100% 0}
+  }
+  .longButNo img{
+    background: #FFF;
+    border-radius: 0 0 20% 20%;
+    transition: all 1s ease;
+    animation: longButNo 5s ease-in-out alternate infinite;
+  }
+  @keyframes longButNo {
+    0%{border-radius:  0 0 20% 20% }
+    25%{border-radius:  0 0 50% 50%}
+    100%{border-radius: 0 0 20% 20%}
+  }
+  .injectionCircle{
+    height: 225px;
+    width: 225px;
+    bottom: -10px;
+    left: 13px;
+    position: absolute;
+    border-radius: 100% 100% 100% 100%;
+  }
+  .injectionCircle img{
+    background: #777;
+    border-radius: 100% 100% 100% 100%;
+    transition: all 1s ease;
+    animation: injectionCircle 5s ease-in-out alternate infinite;
+  }
+  @keyframes injectionCircle {
+    0%{border-radius:  100% 100% 100% 100%  }
+    25%{border-radius:  100% 100% 10% 10% }
+    100%{border-radius: 100% 100% 100% 100%} 
+  }
+  .halfCurveUpRight img{
+    background: #C4C4C4;
+    height: 250px;
+    border-radius: 0 100% 0 0;
+    transition: all 1s ease;
+    animation: halfCurveUpRight 5s ease-in-out alternate infinite;
+  }
+  @keyframes halfCurveUpRight {
+    0%{border-radius:  0 100% 0 0}
+    25%{border-radius:  0 60% 0 0}
+    100%{border-radius: 0 100% 0 0} 
+  }
+  .halfCurveBottomLeft img{
+    background: #C4C4C4;
+    height: 250px;
+    border-radius: 100% 0 60% 100%;
+    transition: all 1s ease;
+    animation: halfCurveBottomLeft 5s ease-in-out alternate infinite;
+  }
+  @keyframes halfCurveBottomLeft {
+    0%{border-radius:  100% 0 60% 100%}
+    25%{border-radius:  10% 0 20% 60%}
+    100%{border-radius: 100% 0 60% 100%} 
+  }
+  .secColorPalette{
+    display: flex;
+    justify-content: space-between;
+  }
+  .secColorPalette span{
+    content: ;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+  }
+  .secColorGradient span{
+    content: ;
+    display: block;
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+  }
+  .secTextList{
+    margin-top: 1em;
+    font-size: 14px;
+    line-height: 25px;
+    margin-left: 10px;
+  }
+  .secTextList li{
+    margin-bottom: 10px;
+    line-height: 25px;
+  }
+  .secTextList li:last-child{
+    margin-bottom: 0;
+  }
+  .secTextList li::before {
+    content: "•";
+    color: #f8e71c;
+    position: absolute;
+    margin-left: -12px;
+    margin-top: 1px;
+    font-size: 1.5em;
+  }
+  .secSoundcloud div{
+    width: 300px !important;
+  }
+  .flipSwitch{
+    margin-bottom: 10px;
+  }
+  /* Mobile 320px  */
+  @media screen and (min-width: 30em) {}
+  /* Table */
+  @media screen and (min-width: 40em) {}
+  /* Desktop 980px to 1280px  */
+  @media screen and (min-width: 57em) {
+    .container{
+      display: flex;
+      align-content:center;
+      justify-content:center;
+    }
+    .main a{
+      opacity: 0.6;
+      filter: none;
+      transition: all 1s ease;
+      display: inline-block;
+    }
+    .main a:hover{
+      opacity: 1;
+      filter: var(--box-shadow);
+    }
+    .main a:hover .cube {
+      animation:giroFast 15s infinite linear;
+    }
+    @keyframes giroFast {
+      0% { transform: rotateX(780deg) rotateY(780deg);}
+      50% { transform: rotateX(0deg) rotateY(0deg);}
+      100% { transform: rotateX(1080deg) rotateY(360deg);}
+    }
+    .main a:hover .cubeWrapper{
+      transform: scale(0.8);
+      /* margin-bottom: -25px; */
+    }
+    .main a:hover .description{
+      margin: 0 0 -50px 0;
+  }
+  
+  
+  
+    .secExit{
+      margin: 31px 0px 0 0;
+    }
+    .secColorPalette span{
+      border: 3px solid #FFF;
+    }
+    .mainCenterCont{
+      width: 1024px;
+      margin: 0 auto;
+    }
+    .mainIndex p {
+      font-size: 16px;
+      line-height: 25px;
+    }
+    .flipSwitch{
+      display: grid;
+      grid-template-columns: auto 420px;
+      margin-top: 60px;
+      margin-bottom: 15px;
+    }
+    .flipSwitch h3{
+      margin-top: 0;
+    }
+    .secTextList li{
+      font-size: 16px;
+    }
+  }
+  /* Desktop 1920px */
+  @media screen and (min-width: 120em) {
+  }

@@ -1,67 +1,52 @@
-.main {
-    height: 500px;
+.main h2,
+.main p{
+    filter: var(--box-shadow);
 }
-/* https://codepen.io/edwinchen26/pen/daoZqd */
-/* https://9elements.github.io/fancy-border-radius/ */
-.main img {
-    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
-    transition: all 1s ease;
-    animation: movingBlob 25s ease-in-out alternate infinite;
-}
-@keyframes movingBlob {
-    0%{border-radius: 100% 0% 100% 0% / 100% 0% 100% 0% }
-    25%{border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%}
-    50%{border-radius: 76% 90% 87% 67% / 71% 77% 63% 82%}
-    75%{border-radius: 70% 30% 30% 70% / 60% 40% 20% 40%}
-    100%{border-radius: 18% 82% 37% 70% / 44% 40% 54% 40%}
-}
-.main h1 {
-    color:white;
-    font-size: 1.6em;
+.main h2 {
+    color:#FFF;
+    font-size: 1.3em;
     transform: scale(0.85);
     text-transform: uppercase;
-    width: 290px;
     text-align: center;
     font-style: italic;
     line-height: 33px;
     letter-spacing: 1px;
-    filter: var(--box-shadow);
-    transition: all 1s ease;
-    animation: backgroundColorPalette 5s;
-    animation-duration: 5s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-	animation-timing-function: linear; 
-}
-@keyframes backgroundColorPalette {
-    0% {color: #FFF;}
-    25% {color: #eaeaea;}
-    50% {color: #FFF;}
-    75% {color: yellow;}
-    100% {color: #FFF;}
-}
-.main h1 span{
-    font-weight: 100;
+    margin-top: 10px;
 }
 .main p {
     font-size: 14px;
-    line-height: 26px;
+    line-height: 28px;
     font-weight: normal;
     letter-spacing: 0.15em;
-    filter: var(--box-shadow);
 }
-.main .sectionUno,
-.main .sectionDos{
+.main{
+    height: var(--screen-height);
+}
+.main img {
+    border-radius: 70% 30% 30% 70% / 60% 40% 20% 40%;
+    transition: all 1s ease;
+    animation: movingBlob 25s ease-in-out alternate infinite;
+}
+/* https://codepen.io/edwinchen26/pen/daoZqd */
+/* https://9elements.github.io/fancy-border-radius/ */ 
+@keyframes movingBlob {
+    0%{border-radius: 100% 0% 100% 0% / 100% 0% 100% 0% }
+    25%{border-radius: 70% 30% 30% 70% / 60% 40% 20% 40%}
+    50%{border-radius: 76% 90% 87% 67% / 71% 77% 63% 82%}
+    75%{border-radius: 70% 30% 30% 70% / 60% 40% 20% 40%}
+    100%{border-radius: 18% 82% 37% 70% / 44% 40% 54% 40%}
+}
+.sectionUno,
+.sectionDos{
     display: flex;
-    align-items: center;
-    height: 495px;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-content:center;
+    height: var(--screen-height);
 }
-.main .sectionUno div{
-    text-align: center;
-}
-.main .sectionDos{
-    width: 99vw;
+.sectionDos{
     padding-left: 10px;
+    width: 95vw;
 }
 /* Mobile 320px  */
 @media screen and (min-width: 30em) {}
@@ -69,23 +54,23 @@
 @media screen and (min-width: 40em) {}
 /* Desktop 980px to 1280px  */
 @media screen and (min-width: 57em) {
-    .main {
-        width: 1200px;
+    .container{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        height: 100%;
     }
-    .main .sectionDos{
-        width: 500px;
+    .sectionDos{
         padding-left: 10px;
+        width: 100%;
     }
+    .main h2 {
+        width: 290px;
+    }  
     .main p {
-        line-height: 35px;
-        font-size: 17px;
+        line-height: 33px;
+        font-size: 16px;
         font-weight: lighter;
-        letter-spacing: 0.15em;
-        filter: var(--box-shadow);
-    }
-    .main h1 {
-        font-size: 1.6em;
-        transform: scale(1);
     }
 }
 /* Desktop 1920px */

@@ -1,14 +1,11 @@
 .main {
     display: flex;
     align-items: center;
-    height: 500px;
-}
-.main:first-child{
-    margin: 0 0 0 10px;
+    height: var(--screen-height);
 }
 .main img {
-    width: 270px;
-    height: 245px;
+    width: 210px;
+    height: 210px;
     border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
     transition: all 1s ease;
     animation: movingBlob 25s ease-in-out alternate infinite;
@@ -21,12 +18,9 @@
     100%{border-radius: 18% 82% 37% 70% / 44% 40% 54% 40%}
 }
 .main .blgTitle{
-    font-family: var(--fonts-title);
-    filter: var(--box-shadow);
-}
-.main .blgTitle{
     font-size: 22px;
     font-weight: bold;
+    font-family: var(--fonts-title);
     text-transform: capitalize;
     letter-spacing: 1px;
     margin: 12px 0 -13px 0;
@@ -34,8 +28,9 @@
 .main .blgSummery{
     font-size: 14px;
     line-height: 22px;
-    filter: var(--box-shadow);
+    letter-spacing: 0.5px;
     width: 330px;
+    color: #FFF;
 }
 /* Mobile 320px  */
 @media screen and (min-width: 30em) {}
@@ -43,14 +38,49 @@
 @media screen and (min-width: 40em) {}
 /* Desktop 980px to 1280px  */
 @media screen and (min-width: 57em) {
-    .main a{
-        transition: all 1s ease-in-out;
-        opacity: 0.6;
+    .container{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        height: 100%;
     }
-    .main a:hover,
-    .swiper-slide.swiper-slide-active a {
+    .main .blgTitle,
+    .main .blgSummery{
+        width: 210px;
+        height: 66px;
+    }
+    .main .blgTitle{ 
+        font-size: 16px;
+        line-height: 21px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .main .blgSummery{
+        font-size: 13px;
+        line-height: 18px;
+        margin: 0 0 -40px 0;
+        transition: all 1s ease;
+    }
+    .main a{
+        opacity: 0.6;
+        filter: none;
+        transition: all 1s ease;
+        display: inline-block;
+    }
+    .main a:hover{
         opacity: 1;
-        z-index: 9999;
+        filter: var(--box-shadow);
+    }
+    .main img{
+        transform: scale(0.8);
+    }
+    .main a:hover img{
+        transform: scale(1);
+        opacity: 1;
+        animation: movingBlob 2s ease-in-out alternate infinite;
+    }
+    .main a:hover .blgSummery{
+        margin: 0 0 -20px 0;
     }
 }
 /* Desktop 1920px */

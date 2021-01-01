@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
 
 import Layout from '../../../components/Layout/Layout'
-import styles from '../../../styles/CaseStudy.module.css'
+import styles from '../../../styles/Report.module.css'
 
 function ProjectIndex() {
   return <Layout>
@@ -35,7 +35,7 @@ function ProjectIndex() {
             <div className={styles.mainCenterCont}>
                 <div className={styles.flipSwitch}>
                     <div>
-                        <h1>Basic Color Fundamentals - Simple Fun App for Toddlers</h1>
+                        <h2>Basic Color Fundamentals - Simple Fun App for Toddlers</h2>
                         <p>Teaching kids, Education, 2016</p>
                     </div>
                     <div className={styles.secExit}>
@@ -45,11 +45,11 @@ function ProjectIndex() {
                     </div>
                 </div>
                 <div className={styles.flipSwitch}>
-                    <h2>The new generations of students for eLearning</h2>
+                    <h3>The new generations of students for eLearning</h3>
                     <p>Teaching toddler how to learn the basic of colors pronunciation and visual recognition memory</p>
                 </div>
                 <div>
-                    <h2>Mobile App Concept designs</h2>
+                    <h3>Mobile App Concept designs</h3>
                     <Image
                     src="/img/project/colors/slide_03.png"
                     alt="Choose a color to learn"

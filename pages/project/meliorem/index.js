@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
 
 import Layout from '../../../components/Layout/Layout'
-import styles from '../../../styles/CaseStudy.module.css'
+import styles from '../../../styles/Report.module.css'
 
 function ProjectIndex() {
   return <Layout>
@@ -35,7 +35,7 @@ function ProjectIndex() {
             <div className={styles.mainCenterCont}>
                 <div className={styles.flipSwitch}>
                     <div>
-                        <h1>Meliorem Cultivating Your Passion to Level Up</h1>
+                        <h2>Meliorem Cultivating Your Passion to Level Up</h2>
                         <p>Productivity App, Dopamine Stimulator, 2016</p>
                     </div>
                     <div className={styles.secExit}>
@@ -45,11 +45,11 @@ function ProjectIndex() {
                     </div>
                 </div>
                 <div className={styles.flipSwitch}>
-                    <h2>Concept</h2>
+                    <h3>Concept</h3>
                     <p>Reward self task manager to stimulate your existence</p>
                 </div>
                 <div>
-                    <h2>UI Design</h2>
+                    <h3>UI Design</h3>
                     <Image
                     src="/img/project/meliorem/projectManagementTracker-Mockup00A.jpg"
                     alt="Mockup of python page"

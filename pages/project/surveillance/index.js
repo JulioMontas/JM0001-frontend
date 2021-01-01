@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
 
 import Layout from '../../../components/Layout/Layout'
-import styles from '../../../styles/CaseStudy.module.css'
+import styles from '../../../styles/Report.module.css'
 
 function ProjectIndex() {
   return <Layout>
@@ -35,7 +35,7 @@ function ProjectIndex() {
             <div className={styles.mainCenterCont}>
                 <div className={styles.flipSwitch}>
                     <div>
-                        <h1>Surveillance Culture Modernity, Identity and Security</h1>
+                        <h2>Surveillance Culture Modernity, Identity and Security</h2>
                         <p>Deepfake, Data Collection, 2015</p>
                     </div>
                     <div className={styles.secExit}>
@@ -45,11 +45,11 @@ function ProjectIndex() {
                     </div>
                 </div>
                 <div className={styles.flipSwitch}>
-                    <h2>Fake it till you make it</h2>
+                    <h3>Fake it till you make it</h3>
                     <p>A social experiment using the top social media channels to farm users sensitive data</p>
                 </div>
                 <div>
-                    <h2>The butterfly effect</h2>
+                    <h3>The butterfly effect</h3>
                     <Swiper
                     speed={400}
                     onSlideChange={() => console.log('slide change')}
@@ -115,7 +115,7 @@ function ProjectIndex() {
                 </div>
                 
                 <div className={styles.flipSwitch}>
-                    <h2>How to go from a nobody to a somebody</h2>
+                    <h3>How to go from a nobody to a somebody</h3>
                     <div>
                     <Swiper
                     speed={400}
@@ -241,7 +241,7 @@ function ProjectIndex() {
                 </div>
 
                 <div className={styles.flipSwitch}>
-                    <h2>User Journey Social Proof</h2>
+                    <h3>User Journey Social Proof</h3>
                     <div>
                         <p>Texttttt</p>
                     </div>
@@ -291,14 +291,14 @@ function ProjectIndex() {
                 </div>
 
                 <div className={styles.flipSwitch}>
-                    <h2>Social Engineering by asking questions</h2>
+                    <h3>Social Engineering by asking questions</h3>
                     <div>
                         <p>List of Question</p>
                     </div>
                 </div>
                 
                 <div className={styles.flipSwitch}>
-                    <h2>URL</h2>
+                    <h3>URL</h3>
                     <a href="https://www.youtube.com/watch?v=ZTbdu-VR59U" target="_blank">Art-A-Hack 2015 - Final Presentations - Surveillance Culture - Youtube</a>
                 </div>
             </div>

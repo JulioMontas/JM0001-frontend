@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import Head from 'next/head'
 
 import Layout from '../../../components/Layout/Layout'
-import styles from '../../../styles/CaseStudy.module.css'
+import styles from '../../../styles/Report.module.css'
 
 function ProjectIndex() {
   return <Layout>
@@ -35,7 +35,7 @@ function ProjectIndex() {
             <div className={styles.mainCenterCont}>
                 <div className={styles.flipSwitch}>
                     <div>
-                        <h1>Width Take Over The Screen</h1>
+                        <h2>Width Take Over The Screen</h2>
                         <p>Web Game, Vanilla JavaScript, 2016</p>
                     </div>
                     <div className={styles.secExit}>
@@ -45,11 +45,11 @@ function ProjectIndex() {
                     </div>
                 </div>
                 <div className={styles.flipSwitch}>
-                    <h2>Concept</h2>
+                    <h3>Concept</h3>
                     <p>A two-player game in which you must defeat your opponents by clicking to take over the screen.</p>
                 </div>
                 <div>
-                    <h2>UI Design</h2>          
+                    <h3>UI Design</h3>          
                     <Image
                     src="/img/project/width/width_Sketch_Iphone.png"
                     alt="Mockup of python page"
@@ -138,7 +138,7 @@ function ProjectIndex() {
                     <p>Main Page</p>
                 </div>
                 <div className={styles.flipSwitch}>
-                    <h2>URL</h2>
+                    <h3>URL</h3>
                     <a href="https://width.herokuapp.com" target="_blank">Prototype Demo</a>
                 </div>
             </div>

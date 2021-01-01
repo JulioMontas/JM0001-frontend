@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
 
 import Layout from '../../../components/Layout/Layout'
-import styles from '../../../styles/CaseStudy.module.css'
+import styles from '../../../styles/Report.module.css'
 
 function ProjectIndex() {
   return <Layout>
@@ -35,7 +35,7 @@ function ProjectIndex() {
             <div className={styles.mainCenterCont}>
                 <div className={styles.flipSwitch}>
                     <div>
-                        <h1>Helloco.de The Home For Programming Languages</h1>
+                        <h2>Helloco.de The Home For Programming Languages</h2>
                         <p>Collective Memory, Education, 2012</p>
                     </div>
                     <div className={styles.secExit}>
@@ -45,11 +45,11 @@ function ProjectIndex() {
                     </div>
                 </div>
                 <div className={styles.flipSwitch}>
-                    <h2>Concept</h2>
+                    <h3>Concept</h3>
                     <p>List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present.</p>
                 </div>
                 <div>
-                    <h2>UI Design</h2>
+                    <h3>UI Design</h3>
                     <Image
                     src="/img/project/hc/CABulM1UwAAPf4a.png"
                     alt="Mockup of python page"
@@ -99,12 +99,12 @@ function ProjectIndex() {
                             layout="responsive"
                             loading="lazy"
                             />
-                            <p>Landing page: The background was animated using Processing.js to show how past languages are distance but still connected</p>
+                            <p>The background was animated using Processing.js of how languages are distance but still connected.</p>
                         </SwiperSlide>
                     </Swiper>
                 </div>
                 <div className={styles.flipSwitch}>
-                    <h2>URL</h2>
+                    <h3>URL</h3>
                     <div>
                         <ul>
                             <li><a href="https://bfacd.parsons.edu/2013/helloco-de" target="_blank">The New School BFA Thesis 2013</a></li>

@@ -27,6 +27,7 @@ function CaseStudy({ posts }) {
       <link rel="canonical" href="https://llegojulio.com/case-study/" />
       <link rel="alternate" href="https://llegojulio.com/case-study/" hrefLang="en-us" />
     </Head>
+    <div className={styles.container}>
     <motion.div 
        initial={{ x: 600, opacity: 0 }}
        animate={{ x: 0, opacity: 1 }}
@@ -43,8 +44,8 @@ function CaseStudy({ posts }) {
         },
         1200: {
           slidesPerView: 3,
-          spaceBetween: 60,
-          width: 1080
+          spaceBetween: 20,
+          width: 800
         }
       }}
     >
@@ -52,27 +53,29 @@ function CaseStudy({ posts }) {
         <div className={styles.main}>
             <Link href={`/case-study/1`}>
               <a>
-              <div className={styles.cube}>
-              <div className={styles.cara1}>
-              <Image
-                src="/img/Pendulum-3D-Box-Face-01.jpg"
-                alt="Picture of the author"
-                width={200}
-                height={200}
-                quality={1}
-                loading="eager"
-                />
-              </div>
-              <div className={styles.cara2}>
-              <Image
-                src="/img/Pendulum-3D-Box-Right-02.jpg"
-                alt="Picture of the author"
-                width={200}
-                height={200}
-                quality={1}
-                loading="eager"
-                />
-              </div>
+                  <h3 className={styles.description}>Visual Design, 2019</h3>
+                  <div className={styles.cubeWrapper}>
+                    <div className={styles.cube}>
+                      <div className={styles.cara1}>
+                        <Image
+                        src="/img/Pendulum-3D-Box-Face-01.jpg"
+                        alt="Picture of the author"
+                        width={200}
+                        height={200}
+                        quality={1}
+                        loading="eager"
+                        />
+                      </div>
+                      <div className={styles.cara2}>
+                        <Image
+                        src="/img/Pendulum-3D-Box-Right-02.jpg"
+                        alt="Picture of the author"
+                        width={200}
+                        height={200}
+                        quality={1}
+                        loading="eager"
+                        />
+                      </div>
               <div className={styles.cara3}>
               <Image
                 src="/img/Pendulum-3D-Box-Back-03.jpg"
@@ -113,9 +116,9 @@ function CaseStudy({ posts }) {
                 loading="eager"
                 />
               </div>
-            </div>
-                <h2 className={styles.title}>Vinyl Label Design Pendulum EP</h2>
-                <h3 className={styles.description}>The second EP of ERRANT Recordings with a style of ambient and minimal tech house</h3>
+              </div>
+                  </div>
+                <h2 className={styles.title}>Pendulum EP - Vinyl Record Label Design</h2>
               </a>
             </Link>
           </div>
@@ -124,6 +127,8 @@ function CaseStudy({ posts }) {
           <div className={styles.main}>
             <Link href={`/case-study/2`}>
               <a>
+              <h3 className={styles.description}>Full Stack Designer, 2018-2017</h3>
+              <div className={styles.cubeWrapper}>
               <div className={styles.cube}>
               <div className={styles.cara1}>
               <Image
@@ -186,8 +191,8 @@ function CaseStudy({ posts }) {
                 />
               </div>
             </div>
-                <h2 className={styles.title}>So-Avant-Garde.com A Discovery In Scent</h2>
-                <h3 className={styles.description}>A luxury fragrances distribution company going B2C with their first shofity eCommerce online store</h3>
+              </div>
+              <h2 className={styles.title}>Shopify Fragrance eCommerce - A Discovery In Scent</h2>
               </a>
             </Link>
           </div>
@@ -196,7 +201,9 @@ function CaseStudy({ posts }) {
           <div className={styles.main}>
             <Link href={`/case-study/3`}>
               <a>
-              <div className={styles.cube}>
+                <h3 className={styles.description}>Full Stack Designer, 2017</h3>
+                <div className={styles.cubeWrapper}>
+                  <div className={styles.cube}>
               <div className={styles.cara1}>
               <Image
                 src="/img/music_3D_Top.png"
@@ -258,14 +265,15 @@ function CaseStudy({ posts }) {
                 />
               </div>
             </div>
-                <h2 className={styles.title}>Website CMS for Musicians & Bands</h2>
-                <h3 className={styles.description}>Custom content management system for independent artist to manage and keep their fan loyalty.</h3>
+                </div>
+                <h2 className={styles.title}>Custom Wordpress Theme - for Musicians and Bands</h2>
               </a>
             </Link>
           </div>
         </SwiperSlide>
       </Swiper>
     </motion.div>
+    </div>
   </Layout>
 }
 

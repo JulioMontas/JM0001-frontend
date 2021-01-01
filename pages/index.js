@@ -27,6 +27,7 @@ function HomePage() {
       <link rel="canonical" href="https://llegojulio.com/" />
       <link rel="alternate" href="https://llegojulio.com/" hrefLang="en-us" />
     </Head>
+    <div className={styles.container}>
     <motion.div 
     initial={{ x: 300, opacity: 0 }}
     animate={{ x: 0, opacity: 1 }}
@@ -44,33 +45,32 @@ function HomePage() {
           width: 310
         },
         1200: {
-          slidesPerView: 1,
+          slidesPerView: 2,
           spaceBetween: 10,
-          width: 450
+          width: 900
         }
       }}
     >
       <SwiperSlide>
         <div className={styles.sectionUno}>
-          <div>
             <Image
               src="/me.png"
               alt="Picture of the author"
               width={200}
               height={200}
             />
-            <h1>Designer <span>with</span> Coding Ability</h1>
-          </div>
+            <h2>UI Developer / Interaction Designer</h2>
         </div>
       </SwiperSlide>
       <SwiperSlide>
       <div  className={styles.sectionDos}>
-        <p>Interested in the evolution of technology in our daily lives and how it’s affecting our behavior. Currently working as a <b>UI/UX Designer</b> with some <b>Front-end Development</b> based in NYC, experience with startup, private companies and creative agency.<br/><br/> Alumnus from <b>Altos de Chavón</b>,<b>Parsons</b> / <b>The New School</b> and <b>General Assembly</b> coding bootcamp.<br/> <br/>  In my free time, I like to explore the other side of the internet and mixed minimal house / techno for others to relax and dance.</p>
+        <p>Interested in the evolution of technology in our daily lives and how it’s affecting our behavior. Currently working as a <b>UI/UX Designer</b> with some <b>Front-end Development</b> based in NYC, experience with startup, private companies and creative agency.<br/><br/> Alumnus from <b>Altos de Chavón</b>, <b>Parsons</b> / <b>The New School</b> and <b>General Assembly</b> coding bootcamp.<br/> <br/>  In my free time, I like to explore the other side of the internet and mixed minimal house / techno for others to relax and dance.</p>
       </div>
       </SwiperSlide>
     </Swiper>
     </div>
     </motion.div>
+    </div>
   </Layout>
 }
 export default HomePage

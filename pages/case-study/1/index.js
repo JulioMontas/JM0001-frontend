@@ -11,15 +11,15 @@ import styles from '../../../styles/Report.module.css'
 function CaseStudyIndex() {
   return <Layout>
     <Head>
-      <title>Vinyl Label Design Pendulum EP | Llegó Julio</title>
+      <title>Pendulum EP - Vinyl Record Label Design | Llegó Julio</title>
       <meta name='twitter:url' content='https://llegojulio.com/case-study/1' />
       <meta property='og:url' content='https://llegojulio.com/case-study/1' />
 
       <meta property='og:image' content='https://llegojulio.com/img/pendulum/pendulum_instagram.jpg' />
       <meta name='twitter:image' content='https://llegojulio.com/img/pendulum/pendulum_instagram.jpg' />
 
-      <meta property='og:title' content='Vinyl Label Design Pendulum EP | Llegó Julio' />
-      <meta name='twitter:title' content='Vinyl Label Design Pendulum EP | Llegó Julio' />
+      <meta property='og:title' content='Pendulum EP - Vinyl Record Label Design | Llegó Julio' />
+      <meta name='twitter:title' content='Pendulum EP - Vinyl Record Label Design | Llegó Julio' />
 
       <meta name="description" content="The second EP of ERRANT Recordings with a style of ambient and minimal tech house" key="description"/>
       <meta property='og:description' content='The second EP of ERRANT Recordings with a style of ambient and minimal tech house' />
@@ -35,7 +35,7 @@ function CaseStudyIndex() {
       <div className={styles.mainIndex}>
         <div className={styles.mainCenterCont}>
           <div className={styles.flipSwitch}>
-            <h2>Vinyl Label Design Pendulum EP</h2>
+            <h2>Pendulum EP - Vinyl Record Label Design</h2>
             <div className={styles.secExit}>
               <Link href="/case-study"><a></a></Link>
             </div>

@@ -10,15 +10,15 @@ import styles from '../styles/Home.module.css'
 function HomePage() {
   return <Layout>
     <Head>
-      <title>UI Developer • Interaction Designer</title>
+      <title>Llegó Julio - UI Developer • Interaction Designer</title>
       <meta name='twitter:url' content='https://llegojulio.com/' />
       <meta property='og:url' content='https://llegojulio.com/' />
       
       <meta property='og:image' content='https://llegojulio.com/me.png' />
       <meta name='twitter:image' content='https://llegojulio.com/me.png' />
 
-      <meta property='og:title' content='UI Developer • Interaction Designer' />
-      <meta name='twitter:title' content='UI Developer • Interaction Designer' />
+      <meta property='og:title' content='Llegó Julio - UI Developer • Interaction Designer' />
+      <meta name='twitter:title' content='Llegó Julio - UI Developer • Interaction Designer' />
 
       <meta name="description" content="Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC." key="description"/>
       <meta property='og:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
@@ -59,7 +59,7 @@ function HomePage() {
               width={200}
               height={200}
             />
-            <h2>UI Developer / Interaction Designer</h2>
+            <h2>UI Developer • Interaction Designer</h2>
         </div>
       </SwiperSlide>
       <SwiperSlide>

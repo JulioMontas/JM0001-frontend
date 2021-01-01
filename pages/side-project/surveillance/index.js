@@ -10,22 +10,22 @@ import styles from '../../../styles/Report.module.css'
 function ProjectIndex() {
   return <Layout>
       <Head>
-          <title>Surveillance Culture Exposure - Digital Modernity, Identity and Security | Llegó Julio</title>
-          <meta name='twitter:url' content='https://llegojulio.com/project/surveillance' />
-          <meta property='og:url' content='https://llegojulio.com/project/surveillance' />
+          <title>Side Project | Surveillance Culture - Modernity Identity and Security | Llegó Julio</title>
+          <meta name='twitter:url' content='https://llegojulio.com/side-project/surveillance' />
+          <meta property='og:url' content='https://llegojulio.com/side-project/surveillance' />
 
-          <meta property='og:image' content='https://llegojulio.com/img/project/surveillance/jessieNguyen-Moodboard.jpg' />
-          <meta name='twitter:image' content='https://llegojulio.com/img/project/surveillance/jessieNguyen-Moodboard.jpg' />
+          <meta property='og:image' content='https://llegojulio.com/img/side-project/surveillance/jessieNguyen-Moodboard.jpg' />
+          <meta name='twitter:image' content='https://llegojulio.com/img/side-project/surveillance/jessieNguyen-Moodboard.jpg' />
 
-          <meta property='og:title' content='Surveillance Culture Exposure Digital Modernity, Identity and Security | Llegó Julio' />
-          <meta name='twitter:title' content='Surveillance Culture Exposure Digital Modernity, Identity and Security | Llegó Julio' />
+          <meta property='og:title' content='Surveillance Culture - Modernity Identity and Security | Llegó Julio' />
+          <meta name='twitter:title' content='Surveillance Culture - Modernity Identity and Security | Llegó Julio' />
 
           <meta name="description" content="A social experiment using the top social media channels to farm users sensitive data" key="description"/>
           <meta property='og:description' content='A social experiment using the top social media channels to farm users sensitive data' />
           <meta name='twitter:description' content='A social experiment using the top social media channels to farm users sensitive data' />
 
-          <link rel="canonical" href="https://llegojulio.com/project/surveillance" />
-          <link rel="alternate" href="https://llegojulio.com/project/surveillance" hrefLang="en-us" />
+          <link rel="canonical" href="https://llegojulio.com/side-project/surveillance" />
+          <link rel="alternate" href="https://llegojulio.com/side-project/surveillance" hrefLang="en-us" />
           </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}
@@ -35,11 +35,11 @@ function ProjectIndex() {
             <div className={styles.mainCenterCont}>
                 <div className={styles.flipSwitch}>
                     <div>
-                        <h2>Surveillance Culture Modernity, Identity and Security</h2>
+                        <h2>Surveillance Culture - Modernity Identity and Security</h2>
                         <p>Deepfake, Data Collection, 2015</p>
                     </div>
                     <div className={styles.secExit}>
-                        <Link href="/project">
+                        <Link href="/side-project">
                             <a><span>Close page</span></a>
                         </Link>
                     </div>
@@ -69,7 +69,7 @@ function ProjectIndex() {
                     >
                         <SwiperSlide>
                             <Image
-                            src="/img/project/surveillance/intro.jpg"
+                            src="/img/side-project/surveillance/intro.jpg"
                             alt="Mockup of python page"
                             width={1080}
                             height={629}
@@ -80,7 +80,7 @@ function ProjectIndex() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
-                            src="/img/project/surveillance/jessieNguyen-Moodboard.jpg"
+                            src="/img/side-project/surveillance/jessieNguyen-Moodboard.jpg"
                             alt="Mockup of python page"
                             width={1080}
                             height={629}
@@ -91,7 +91,7 @@ function ProjectIndex() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
-                            src="/img/project/surveillance/jessieNguyen-socialProof.jpg"
+                            src="/img/side-project/surveillance/jessieNguyen-socialProof.jpg"
                             alt="Mockup of python page"
                             width={1080}
                             height={629}
@@ -102,7 +102,7 @@ function ProjectIndex() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
-                            src="/img/project/surveillance/jessieNguyen-Ig.jpg"
+                            src="/img/side-project/surveillance/jessieNguyen-Ig.jpg"
                             alt="Mockup of python page"
                             width={1080}
                             height={629}
@@ -267,7 +267,7 @@ function ProjectIndex() {
                     >
                         <SwiperSlide>
                             <Image
-                            src="/img/project/surveillance/jessieNguyen-socialMedia.jpg"
+                            src="/img/side-project/surveillance/jessieNguyen-socialMedia.jpg"
                             alt="Mockup of python page"
                             width={1080}
                             height={629}
@@ -278,7 +278,7 @@ function ProjectIndex() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
-                            src="/img/project/surveillance/jessieNguyen-Journey.jpg"
+                            src="/img/side-project/surveillance/jessieNguyen-Journey.jpg"
                             alt="Mockup of python page"
                             width={1080}
                             height={629}

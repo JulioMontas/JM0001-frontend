@@ -3,20 +3,20 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
 
 import Layout from '../components/Layout/Layout'
-import styles from '../styles/Me.module.css'
+import styles from '../styles/AboutMe.module.css'
 
-function Me() {
+function AboutMe() {
   return <Layout>
     <Head>
-      <title>About me | UI Developer • Interaction Designer</title>
+      <title>About Me - UI Developer • Interaction Designer | Llegó Julio</title>
       <meta name='twitter:url' content='https://llegojulio.com/' />
       <meta property='og:url' content='https://llegojulio.com/' />
       
       <meta property='og:image' content='https://llegojulio.com/me.png' />
       <meta name='twitter:image' content='https://llegojulio.com/me.png' />
 
-      <meta property='og:title' content='UI Developer • Interaction Designer' />
-      <meta name='twitter:title' content='UI Developer • Interaction Designer' />
+      <meta property='og:title' content='About Me - UI Developer • Interaction Designer | Llegó Julio' />
+      <meta name='twitter:title' content='About Me - UI Developer • Interaction Designer | Llegó Julio' />
 
       <meta name="description" content="Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC." key="description"/>
       <meta property='og:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
@@ -872,4 +872,4 @@ function Me() {
   </Layout>
 }
 
-export default Me
+export default AboutMe

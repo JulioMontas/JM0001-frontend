@@ -10,12 +10,12 @@ import styles from '../../../styles/Report.module.css'
 function ProjectIndex() {
   return <Layout>
       <Head>
-          <title>Helloco.de The Home For Programming Languages | Llegó Julio</title>
-          <meta name='twitter:url' content='https://llegojulio.com/project/hellocode' />
-          <meta property='og:url' content='https://llegojulio.com/project/hellocode' />
+          <title>Side Project | Helloco.de - The Home For Programming Languages | Llegó Julio</title>
+          <meta name='twitter:url' content='https://llegojulio.com/side-project/hellocode' />
+          <meta property='og:url' content='https://llegojulio.com/side-project/hellocode' />
 
-          <meta property='og:image' content='https://llegojulio.com/img/project/hc/hc01.gif' />
-          <meta name='twitter:image' content='https://llegojulio.com/img/project/hc/hc01.gif' />
+          <meta property='og:image' content='https://llegojulio.com/img/side-project/hc/hc01.gif' />
+          <meta name='twitter:image' content='https://llegojulio.com/img/side-project/hc/hc01.gif' />
 
           <meta property='og:title' content='Helloco.de The Home For Programming Languages | Llegó Julio' />
           <meta name='twitter:title' content='Helloco.de The Home For Programming Languages | Llegó Julio' />
@@ -24,8 +24,8 @@ function ProjectIndex() {
           <meta property='og:description' content='List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present' />
           <meta name='twitter:description' content='List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present' />
 
-          <link rel="canonical" href="https://llegojulio.com/project/hellocode" />
-          <link rel="alternate" href="https://llegojulio.com/project/hellocode" hrefLang="en-us" />
+          <link rel="canonical" href="https://llegojulio.com/side-project/hellocode" />
+          <link rel="alternate" href="https://llegojulio.com/side-project/hellocode" hrefLang="en-us" />
       </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}
@@ -35,11 +35,11 @@ function ProjectIndex() {
             <div className={styles.mainCenterCont}>
                 <div className={styles.flipSwitch}>
                     <div>
-                        <h2>Helloco.de The Home For Programming Languages</h2>
+                        <h2>Helloco.de - The Home For Programming Languages</h2>
                         <p>Collective Memory, Education, 2012</p>
                     </div>
                     <div className={styles.secExit}>
-                        <Link href="/project">
+                        <Link href="/side-project">
                             <a><span>Close page</span></a>
                         </Link>
                     </div>
@@ -51,7 +51,7 @@ function ProjectIndex() {
                 <div>
                     <h3>UI Design</h3>
                     <Image
-                    src="/img/project/hc/CABulM1UwAAPf4a.png"
+                    src="/img/side-project/hc/CABulM1UwAAPf4a.png"
                     alt="Mockup of python page"
                     width={1421}
                     height={1897}
@@ -79,7 +79,7 @@ function ProjectIndex() {
                     >
                         <SwiperSlide>
                             <Image
-                            src="/img/project/hc/hc02.gif"
+                            src="/img/side-project/hc/hc02.gif"
                             alt="Mockup of python page"
                             width={940}
                             height={718}
@@ -91,7 +91,7 @@ function ProjectIndex() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
-                            src="/img/project/hc/hc01.gif"
+                            src="/img/side-project/hc/hc01.gif"
                             alt="Mockup of python page"
                             width={1422}
                             height={768}

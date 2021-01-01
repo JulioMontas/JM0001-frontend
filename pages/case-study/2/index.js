@@ -11,15 +11,15 @@ import styles from '../../../styles/Report.module.css'
 function CaseStudyIndex() {
   return <Layout>
     <Head>
-      <title>So-Avant-Garde.com A Discovery In Scent</title>
+      <title>Shopify Fragrance eCommerce - A Discovery In Scent | Llegó Julio</title>
       <meta name='twitter:url' content='https://llegojulio.com/case-study/2' />
       <meta property='og:url' content='https://llegojulio.com/case-study/2' />
       
       <meta property='og:image' content='https://llegojulio.com/img/ecommerce/mockupFragrance_A01.jpg' />
       <meta name='twitter:image' content='https://llegojulio.com/img/ecommerce/mockupFragrance_A01.jpg' />
 
-      <meta property='og:title' content='So-Avant-Garde.com A Discovery In Scent | Llegó Julio' />
-      <meta name='twitter:title' content='So-Avant-Garde.com A Discovery In Scent | Llegó Julio' />
+      <meta property='og:title' content='Shopify Fragrance eCommerce - A Discovery In Scent | Llegó Julio' />
+      <meta name='twitter:title' content='Shopify Fragrance eCommerce - A Discovery In Scent | Llegó Julio' />
 
       <meta name="description" content="A luxury fragrances distribution company going B2C with their first shofity eCommerce online store" key="description"/>
       <meta property='og:description' content='A luxury fragrances distribution company going B2C with their first shofity eCommerce online store' />
@@ -35,7 +35,7 @@ function CaseStudyIndex() {
       <div className={styles.mainIndex}>
         <div className={styles.mainCenterCont}>
           <div className={styles.flipSwitch}>
-            <h2>So-Avant-Garde.com A Discovery In Scent</h2>
+            <h2>Shopify Fragrance eCommerce - A Discovery In Scent</h2>
             <div className={styles.secExit}>
               <Link href="/case-study"><a></a></Link>
             </div>

@@ -10,12 +10,12 @@ import styles from '../../../styles/Report.module.css'
 function ProjectIndex() {
   return <Layout>
       <Head>
-          <title>Width Take Over the Screen | Llegó Julio</title>
-          <meta name='twitter:url' content='https://llegojulio.com/project/width' />
-          <meta property='og:url' content='https://llegojulio.com/project/width' />
+          <title>Side Project | Width - Take Over the Screen | Llegó Julio</title>
+          <meta name='twitter:url' content='https://llegojulio.com/side-project/width' />
+          <meta property='og:url' content='https://llegojulio.com/side-project/width' />
 
-          <meta property='og:image' content='https://llegojulio.com/img/project/width/width_BothPlayer_1080.gif' />
-          <meta name='twitter:image' content='https://llegojulio.com/img/project/width/width_BothPlayer_1080.gif' />
+          <meta property='og:image' content='https://llegojulio.com/img/side-project/width/width_BothPlayer_1080.gif' />
+          <meta name='twitter:image' content='https://llegojulio.com/img/side-project/width/width_BothPlayer_1080.gif' />
 
           <meta property='og:title' content='Width Take Over the Screen | Llegó Julio' />
           <meta name='twitter:title' content='Width Take Over the Screen | Llegó Julio' />
@@ -24,8 +24,8 @@ function ProjectIndex() {
           <meta property='og:description' content='A two-player game in which you must defeat your opponents by clicking to take over the screen' />
           <meta name='twitter:description' content='A two-player game in which you must defeat your opponents by clicking to take over the screen' />
 
-          <link rel="canonical" href="https://llegojulio.com/project/width" />
-          <link rel="alternate" href="https://llegojulio.com/project/width" hrefLang="en-us" />
+          <link rel="canonical" href="https://llegojulio.com/side-project/width" />
+          <link rel="alternate" href="https://llegojulio.com/side-project/width" hrefLang="en-us" />
       </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}
@@ -35,11 +35,11 @@ function ProjectIndex() {
             <div className={styles.mainCenterCont}>
                 <div className={styles.flipSwitch}>
                     <div>
-                        <h2>Width Take Over The Screen</h2>
+                        <h2>Width - Take Over The Screen</h2>
                         <p>Web Game, Vanilla JavaScript, 2016</p>
                     </div>
                     <div className={styles.secExit}>
-                        <Link href="/project">
+                        <Link href="/side-project">
                             <a><span>Close page</span></a>
                         </Link>
                     </div>
@@ -51,7 +51,7 @@ function ProjectIndex() {
                 <div>
                     <h3>UI Design</h3>          
                     <Image
-                    src="/img/project/width/width_Sketch_Iphone.png"
+                    src="/img/side-project/width/width_Sketch_Iphone.png"
                     alt="Mockup of python page"
                     width={1280}
                     height={735}
@@ -79,7 +79,7 @@ function ProjectIndex() {
                     >
                         <SwiperSlide>
                             <Image
-                            src="/img/project/width/width_Wireframe_levelOne.png"
+                            src="/img/side-project/width/width_Wireframe_levelOne.png"
                             alt="Wireframe level one design"
                             width={1280}
                             height={800}
@@ -91,7 +91,7 @@ function ProjectIndex() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
-                            src="/img/project/width/width_Wireframe_levelThree.png"
+                            src="/img/side-project/width/width_Wireframe_levelThree.png"
                             alt="Wireframe level three design"
                             width={1280}
                             height={800}
@@ -103,7 +103,7 @@ function ProjectIndex() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
-                            src="/img/project/width/width_Wireframe_levelSix.png"
+                            src="/img/side-project/width/width_Wireframe_levelSix.png"
                             alt="Wireframe level six design"
                             width={1280}
                             height={800}
@@ -115,7 +115,7 @@ function ProjectIndex() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
-                            src="/img/project/width/width_Wireframe_levelTwelve.png"
+                            src="/img/side-project/width/width_Wireframe_levelTwelve.png"
                             alt="Wireframe level twelve design"
                             width={1280}
                             height={800}
@@ -127,7 +127,7 @@ function ProjectIndex() {
                         </SwiperSlide>
                     </Swiper>
                     <Image
-                    src="/img/project/width/width_Landing_Page.png"
+                    src="/img/side-project/width/width_Landing_Page.png"
                     alt="Main page for width"
                     width={1080}
                     height={629}

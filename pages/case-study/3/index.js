@@ -11,15 +11,15 @@ import styles from '../../../styles/Report.module.css'
 function CaseStudyIndex() {
   return <Layout>
     <Head>
-      <title>Website CMS for Musicians & Bands</title>
+      <title>Custom Wordpress - Theme For Musicians and Bands | Llegó Julio</title>
       <meta name='twitter:url' content='https://llegojulio.com/case-study/3' />
       <meta property='og:url' content='https://llegojulio.com/case-study/3' />
       
       <meta property='og:image' content='https://llegojulio.com/img/ecommerce/mockupFragrance_A01.jpg' />
       <meta name='twitter:image' content='https://llegojulio.com/img/ecommerce/mockupFragrance_A01.jpg' />
 
-      <meta property='og:title' content='Website CMS for Musicians & Bands | Llegó Julio' />
-      <meta name='twitter:title' content='Website CMS for Musicians & Bands | Llegó Julio' />
+      <meta property='og:title' content='Custom Wordpress - Theme For Musicians and Bands | Llegó Julio' />
+      <meta name='twitter:title' content='Custom Wordpress - Theme For Musicians and Bands | Llegó Julio' />
 
       <meta name="description" content="A multi-talented EDM / Pop artist, songwriter and producer with more than 50+ songs release, looking for a space to connected with her #trueFan" key="description"/>
       <meta property='og:description' content='A multi-talented EDM / Pop artist, songwriter and producer with more than 50+ songs release, looking for a space to connected with her #trueFan' />
@@ -35,7 +35,7 @@ function CaseStudyIndex() {
       <div className={styles.mainIndex}>
         <div className={styles.mainCenterCont}>
           <div className={styles.flipSwitch}>
-            <h2>Website CMS for Musicians & Bands</h2>
+            <h2>Custom Wordpress - Theme For Musicians and Bands</h2>
             <div className={styles.secExit}>
               <Link href="/case-study"><a></a></Link>
             </div>

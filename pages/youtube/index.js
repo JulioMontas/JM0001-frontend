@@ -5,27 +5,27 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
 
 import Layout from '../../components/Layout/Layout'
-import styles from '../../styles/Blog.module.css'
+import styles from '../../styles/Youtube.module.css'
 
-function CaseStudy({ posts }) {
+function Youtube({ posts }) {
   return <Layout>
     <Head>
-      <title>Blog | UI Developer • Interaction Designer</title>
-      <meta name='twitter:url' content='https://llegojulio.com/case-study/' />
-      <meta property='og:url' content='https://llegojulio.com/case-study/' />
+      <title>Youtube (Coming Soon) | UI Developer • Interaction Designer | Llegó Julio</title>
+      <meta name='twitter:url' content='https://llegojulio.com/youtube/' />
+      <meta property='og:url' content='https://llegojulio.com/youtube/' />
       
       <meta property='og:image' content='https://llegojulio.com/me.png' />
       <meta name='twitter:image' content='https://llegojulio.com/me.png' />
 
-      <meta property='og:title' content='Blog | UI Developer • Interaction Designer' />
-      <meta name='twitter:title' content='Blog | UI Developer • Interaction Designer' />
+      <meta property='og:title' content='Youtube | UI Developer • Interaction Designer | Llegó Julio' />
+      <meta name='twitter:title' content='Youtube | UI Developer • Interaction Designer | Llegó Julio' />
 
       <meta name="description" content="Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC." key="description"/>
       <meta property='og:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
       <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
 
-      <link rel="canonical" href="https://llegojulio.com/case-study/" />
-      <link rel="alternate" href="https://llegojulio.com/case-study/" hrefLang="en-us" />
+      <link rel="canonical" href="https://llegojulio.com/youtube/" />
+      <link rel="alternate" href="https://llegojulio.com/youtube/" hrefLang="en-us" />
     </Head>
     <div className={styles.container}>
         <motion.div 
@@ -51,7 +51,7 @@ function CaseStudy({ posts }) {
             >
                 <SwiperSlide>
                     <div className={styles.articleList}>
-                        <h2>Coming Soon / Late Jan 2021</h2>
+                        <h2>Coming Soon - February 2021</h2>
                     </div>
                 </SwiperSlide>     
             </Swiper>
@@ -60,4 +60,4 @@ function CaseStudy({ posts }) {
   </Layout>
 }
 
-export default CaseStudy
+export default Youtube

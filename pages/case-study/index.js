@@ -10,7 +10,7 @@ import styles from '../../styles/CaseStudy.module.css'
 function CaseStudy({ posts }) {
   return <Layout>
     <Head>
-      <title>Case Study | UI Developer • Interaction Designer</title>
+      <title>Case Study - UI Developer • Interaction Designer | Llegó Julio</title>
       <meta name='twitter:url' content='https://llegojulio.com/case-study/' />
       <meta property='og:url' content='https://llegojulio.com/case-study/' />
       
@@ -33,29 +33,29 @@ function CaseStudy({ posts }) {
        animate={{ x: 0, opacity: 1 }}
        exit={{ x: -600, opacity: 0 }}>
           <Swiper
-      speed={400}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
-      breakpoints={{ 
-        320: {
-          slidesPerView: 1,
-          spaceBetween: 20,
-          width: 300
-        },
-        1200: {
-          slidesPerView: 3,
-          spaceBetween: 20,
-          width: 800
-        }
-      }}
-    >
-        <SwiperSlide>
-        <div className={styles.main}>
-            <Link href={`/case-study/1`}>
-              <a>
-                  <h3 className={styles.description}>Visual Design, 2019</h3>
-                  <div className={styles.cubeWrapper}>
-                    <div className={styles.cube}>
+          speed={400}
+          onSlideChange={() => console.log('slide change')}
+          onSwiper={(swiper) => console.log(swiper)}
+          breakpoints={{ 
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+              width: 300
+            },
+            1200: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+              width: 800
+            }
+          }}
+          >
+            <SwiperSlide>
+              <div className={styles.main}>
+                <Link href={`/case-study/1`}>
+                  <a>
+                    <h3 className={styles.description}>Visual Design, 2019</h3>
+                    <div className={styles.cubeWrapper}>
+                      <div className={styles.cube}>
                       <div className={styles.cara1}>
                         <Image
                         src="/img/Pendulum-3D-Box-Face-01.jpg"
@@ -117,7 +117,7 @@ function CaseStudy({ posts }) {
                 />
               </div>
               </div>
-                  </div>
+                    </div>
                 <h2 className={styles.title}>Pendulum EP - Vinyl Record Label Design</h2>
               </a>
             </Link>

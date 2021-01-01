@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
 
 import Layout from '../../components/Layout/Layout'
-import styles from '../../styles/blog.module.css'
+import styles from '../../styles/Blog.module.css'
 
 function CaseStudy({ posts }) {
   return <Layout>

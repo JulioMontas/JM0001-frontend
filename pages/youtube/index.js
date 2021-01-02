@@ -49,11 +49,15 @@ function Youtube({ posts }) {
                 }
             }}
             >
-                <SwiperSlide>
-                    <div className={styles.articleList}>
-                        <h2>Coming Soon - February 2021</h2>
+                <div className={styles.container}>
+                    <div className={styles.main}>
+                        <SwiperSlide>
+                            <div className={styles.articleList}>
+                                <h2>Coming Soon - February 2021</h2>
+                            </div>
+                        </SwiperSlide>
                     </div>
-                </SwiperSlide>     
+                </div>
             </Swiper>
         </motion.div>
     </div>

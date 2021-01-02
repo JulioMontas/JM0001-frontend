@@ -52,7 +52,7 @@ function CaseStudy({ posts }) {
             <SwiperSlide>
               <div className={styles.main}>
                 <Link href={`/case-study/1`}>
-                  <a>
+                  <a alt="Pendulum EP - Vinyl Record Label Design" rel="alternate" hreflang="en">
                     <h3 className={styles.description}>Visual Design, 2019</h3>
                     <div className={styles.cubeWrapper}>
                       <div className={styles.cube}>
@@ -126,7 +126,7 @@ function CaseStudy({ posts }) {
         <SwiperSlide>
           <div className={styles.main}>
             <Link href={`/case-study/2`}>
-              <a>
+              <a alt="Shopify Fragrance eCommerce - A Discovery In Scent" rel="alternate" hreflang="en">
               <h3 className={styles.description}>Full Stack Designer, 2018-2017</h3>
               <div className={styles.cubeWrapper}>
               <div className={styles.cube}>
@@ -200,7 +200,7 @@ function CaseStudy({ posts }) {
         <SwiperSlide>
           <div className={styles.main}>
             <Link href={`/case-study/3`}>
-              <a>
+              <a alt="Custom Wordpress Theme - for Musicians and Bands" rel="alternate" hreflang="en">
                 <h3 className={styles.description}>Full Stack Designer, 2017</h3>
                 <div className={styles.cubeWrapper}>
                   <div className={styles.cube}>

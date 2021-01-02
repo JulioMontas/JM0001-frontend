@@ -37,7 +37,11 @@ function CaseStudyIndex() {
           <div className={styles.flipSwitch}>
             <h2>Shopify Fragrance eCommerce - A Discovery In Scent</h2>
             <div className={styles.secExit}>
-              <Link href="/case-study"><a></a></Link>
+              <Link href="/case-study">
+                <a alt="Page Exit" rel="alternate" hreflang="en">
+                  <span>Close page</span>
+                </a>
+              </Link>
             </div>
           </div>
           <div className={styles.flipSwitch}>

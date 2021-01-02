@@ -37,7 +37,11 @@ function CaseStudyIndex() {
           <div className={styles.flipSwitch}>
             <h2>Pendulum EP - Vinyl Record Label Design</h2>
             <div className={styles.secExit}>
-              <Link href="/case-study"><a></a></Link>
+              <Link href="/case-study">
+                <a alt="Page Exit" rel="alternate" hreflang="en">
+                  <span>Close page</span>
+                </a>
+              </Link>
             </div>
           </div>
           <div className={styles.flipSwitch}>
@@ -429,7 +433,7 @@ function CaseStudyIndex() {
           
           <div className={styles.flipSwitch}>
             <h3>&#127919; Results</h3>
-            <p>You can find ERR002 for vinyl record at <b><a>Discogs</a></b>, <b><a>Deejay.de</a></b> or the digital version at <b><a>Bandcamp</a></b> and <b><a>Beatport</a></b>.</p>
+            <p>You can find ERR002 for vinyl record at <b><a href="https://www.discogs.com/Alexander-Gentil-Pendulum/release/14167116" target="_blank" alt="Discogs" rel="alternate" hreflang="en">Discogs</a></b>, <b><a href="https://www.deejay.de/Alexander_Gentil_Pendulum_ERR002_Vinyl__939197" target="_blank" alt="Deejay.de" rel="alternate" hreflang="en">Deejay.de</a></b> or the digital version at <b><a href="https://alexandergentil.bandcamp.com/album/pendulum" target="_blank" alt="Bandcamp" rel="alternate" hreflang="en">Bandcamp</a></b> and <b><a href="https://www.beatport.com/release/pendulum/2705824" target="_blank" alt="Beatport" rel="alternate" hreflang="en">Beatport</a></b>.</p>
           </div>
         </div>
       </div>

@@ -40,7 +40,9 @@ function ProjectIndex() {
                     </div>
                     <div className={styles.secExit}>
                         <Link href="/side-project">
-                            <a><span>the new generations of students for eLearning</span></a>
+                            <a alt="Page Exit" rel="alternate" hreflang="en">
+                                <span>Close page</span>
+                            </a>
                         </Link>
                     </div>
                 </div>

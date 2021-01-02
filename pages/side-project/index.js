@@ -52,7 +52,7 @@ function Project({ posts }) {
            <SwiperSlide>
              <div className={styles.main}>
                <Link href={`/side-project/hellocode`}>
-                 <a>
+                 <a alt="Helloco.de - The Home For Programming Languages" rel="alternate" hreflang="en">
                    <h3 className={styles.blgSummery}>Collective Memory, Education, 2012</h3>
                    <Image
                    src="/img/side-project/hc/hc02.gif"
@@ -68,7 +68,7 @@ function Project({ posts }) {
         <SwiperSlide>
           <div className={styles.main}>
             <Link href={`/side-project/surveillance`}>
-              <a>
+              <a alt="Surveillance Culture - Modernity Identity and Security" rel="alternate" hreflang="en">
               <h3 className={styles.blgSummery}>Deepfake, Data Collection, 2015</h3>
                 <Image
                 src="/img/side-project/surveillance/jessieNguyen-socialProof.jpg"
@@ -86,7 +86,7 @@ function Project({ posts }) {
         <SwiperSlide>
           <div className={styles.main}>
               <Link href={`/side-project/width`}>
-                <a>
+                <a alt="Width - Take Over the Screen" rel="alternate" hreflang="en">
                 <h3 className={styles.blgSummery}>JavaScript Web Game, 2016</h3>
                   <Image
                   src="/img/side-project/width/width_Landing_Page.png"
@@ -104,7 +104,7 @@ function Project({ posts }) {
         <SwiperSlide>
           <div className={styles.main}>
             <Link href={`/side-project/meliorem`}>
-              <a>
+              <a alt="Meliorem - Cultivating Your Passion to Level Up" rel="alternate" hreflang="en">
               <h3 className={styles.blgSummery}>Productivity App, Dopamine Stimulator, 2016</h3>
                 <Image
                 src="/img/side-project/meliorem/meliorem-02.png"
@@ -122,7 +122,7 @@ function Project({ posts }) {
         <SwiperSlide>
           <div className={styles.main}>
             <Link href={`/side-project/colors`}>
-              <a>
+              <a alt="Basic Color Fundamentals - Simple Fun App for Toddlers" rel="alternate" hreflang="en">
               <h3 className={styles.blgSummery}>eLearning, New Memories, 2016</h3>
                 <Image
                 src="/img/colorView_01.jpg"

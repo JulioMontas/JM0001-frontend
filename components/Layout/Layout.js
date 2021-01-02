@@ -2,8 +2,11 @@ import Head from "next/head"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import styles from '../../styles/Layout.module.css'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 const Layout = ({children}) => {
+  let router = useRouter()
+    
     return (
         <div className={styles.container}>
             <header className={styles.header}>
@@ -12,6 +15,15 @@ const Layout = ({children}) => {
                   <h1>Llegó Julio | Designer with Coding Ability</h1>
                 </a>
               </Link>
+              <div>
+                <Link locate="es" href="/">Español</Link>
+                <Link locate="en-US" href="/">English</Link>
+              </div>
+              {/* <ul>
+                {router.locales.map((locale) => (
+                  <li key={locate}>{locate}</li>
+                ))}
+              </ul> */}
             </header>
 
             <main className={styles.main}>{children}</main>

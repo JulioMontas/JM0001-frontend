@@ -1,6 +1,7 @@
+import useTranslation from 'next-translate/useTranslation'
 import Image from 'next/image'
 import Link from 'next/link'
-import { motion } from "framer-motion"
+import { motion, useTransform } from "framer-motion"
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
 
@@ -8,6 +9,8 @@ import Layout from '../components/Layout/Layout'
 import styles from '../styles/Home.module.css'
 
 function HomePage() {
+  const { t } = useTranslation('home')
+
   return <Layout>
     <Head>
       <title>Llegó Julio - UI Developer • Interaction Designer</title>
@@ -26,6 +29,7 @@ function HomePage() {
 
       <link rel="canonical" href="https://llegojulio.com/" />
       <link rel="alternate" href="https://llegojulio.com/" hrefLang="en-us" />
+      
     </Head>
     <div className={styles.container}>
     <motion.div 
@@ -59,7 +63,7 @@ function HomePage() {
               width={200}
               height={200}
             />
-            <h2>UI Developer • Interaction Designer</h2>
+            <h2>{t('title')}</h2>
         </div>
       </SwiperSlide>
       <SwiperSlide>
@@ -72,5 +76,9 @@ function HomePage() {
     </motion.div>
     </div>
   </Layout>
+}
+
+export function getServerSideProps(){
+  return { props: {} }
 }
 export default HomePage

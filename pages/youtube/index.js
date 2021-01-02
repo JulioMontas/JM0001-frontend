@@ -3,14 +3,17 @@ import Link from 'next/link'
 import { motion } from "framer-motion"
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
+import useTranslation from 'next-translate/useTranslation'
 
 import Layout from '../../components/Layout/Layout'
 import styles from '../../styles/Youtube.module.css'
 
 function Youtube({ posts }) {
+    const { t } = useTranslation('youtube')
+
   return <Layout>
     <Head>
-      <title>Youtube (Coming Soon) | UI Developer • Interaction Designer | Llegó Julio</title>
+      <title>{t('title')} | UI Developer • Interaction Designer | Llegó Julio</title>
       <meta name='twitter:url' content='https://llegojulio.com/youtube/' />
       <meta property='og:url' content='https://llegojulio.com/youtube/' />
       
@@ -26,6 +29,7 @@ function Youtube({ posts }) {
 
       <link rel="canonical" href="https://llegojulio.com/youtube/" />
       <link rel="alternate" href="https://llegojulio.com/youtube/" hrefLang="en-us" />
+      <link rel="alternate" href="https://llegojulio.com/es/youtube" hrefLang="es" />
     </Head>
     <div className={styles.container}>
         <motion.div 
@@ -49,19 +53,20 @@ function Youtube({ posts }) {
                 }
             }}
             >
-                <div className={styles.container}>
                     <div className={styles.main}>
                         <SwiperSlide>
                             <div className={styles.articleList}>
-                                <h2>Coming Soon - February 2021</h2>
+                                <h2>{t('title')}</h2>
                             </div>
                         </SwiperSlide>
-                    </div>
                 </div>
             </Swiper>
         </motion.div>
     </div>
   </Layout>
+}
+export function getServerSideProps(){
+    return { props: {} }
 }
 
 export default Youtube

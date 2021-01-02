@@ -1,9 +1,12 @@
 {
-    "locales":["en-US","es"],
-    "defaultLocale": "en-US",
+    "locales":["en","es"],
+    "defaultLocale": "en",
     "pages": {
         "*": ["common"],
         "/": ["home"],
-        "/youtube": ["youtube"]
+        "/youtube": ["youtube"],
+        "/about-me":["aboutMe"],
+        "/side-project":["sideProject"],
+        "/case-study":["caseStudy"]
     }
 }

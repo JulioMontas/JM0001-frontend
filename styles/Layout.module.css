@@ -2,6 +2,11 @@
 .footer{
     padding-left: 10px;
 }
+.changeLang{
+    grid-area: changeLang;
+    color: white;
+    font-size: 2em;
+}
 /* Mobile 320px  */
 @media screen and (min-width: 30em) {}
 /* Table */
@@ -10,7 +15,12 @@
 @media screen and (min-width: 57em) {
     .header{
         grid-area: header;
+        display: flex;
+        justify-content: space-between;
     }
+    /* .changeLang{
+        grid-area: changeLang;
+    } */
     .main{
         grid-area: main;
     }
@@ -26,7 +36,7 @@
         grid-template-rows: auto 1fr auto;
         grid-template-columns: 1fr 1fr auto 1fr 1fr;
         grid-template-areas:
-        "header header header . ."
+        "header header header header header"
         "main main main main main"
         ". . footer . .";
     }    

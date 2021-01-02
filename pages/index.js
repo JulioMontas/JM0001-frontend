@@ -8,7 +8,7 @@ import Head from 'next/head'
 import Layout from '../components/Layout/Layout'
 import styles from '../styles/Home.module.css'
 
-function HomePage() {
+function HomePage({ props }) {
   const { t } = useTranslation('home')
 
   return <Layout>
@@ -68,7 +68,8 @@ function HomePage() {
       </SwiperSlide>
       <SwiperSlide>
       <div  className={styles.sectionDos}>
-        <p>Interested in the evolution of technology in our daily lives and how it’s affecting our behavior. Currently working as a <b>UI/UX Designer</b> with some <b>Front-end Development</b> based in NYC, experience with startup, private companies and creative agency.<br/><br/> Alumnus from <b>Altos de Chavón</b>, <b>Parsons</b> / <b>The New School</b> and <b>General Assembly</b> coding bootcamp.<br/> <br/>  In my free time, I like to explore the other side of the internet and mixed minimal house / techno for others to relax and dance.</p>
+        <p>{t('description')}</p>
+        {/* <p>Interested in the evolution of technology in our daily lives and how it’s affecting our behavior. Currently working as a <b>UI/UX Designer</b> with some <b>Front-end Development</b> based in NYC, experience with startup, private companies and creative agency.<br/><br/> Alumnus from <b>Altos de Chavón</b>, <b>Parsons</b> / <b>The New School</b> and <b>General Assembly</b> coding bootcamp.<br/> <br/>  In my free time, I like to explore the other side of the internet and mixed minimal house / techno for others to relax and dance.</p> */}
       </div>
       </SwiperSlide>
     </Swiper>
@@ -78,7 +79,10 @@ function HomePage() {
   </Layout>
 }
 
-export function getServerSideProps(){
-  return { props: {} }
-}
+export const getStaticProps = async () => ({
+
+  props: {
+    namespacesRequired: ['home'],
+  }
+})
 export default HomePage

@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import useTranslation from 'next-translate/useTranslation'
-import withTranslation from 'next-translate/withTranslation'
 
 import Layout from '../../components/Layout/Layout'
 import styles from '../../styles/Youtube.module.css'
 
 function Youtube({ posts }) {
+  
     const { t } = useTranslation('youtube')
 
   return <Layout>

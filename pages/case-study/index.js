@@ -3,11 +3,15 @@ import Link from 'next/link'
 import { motion } from "framer-motion"
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
+import useTranslation from 'next-translate/useTranslation'
 
 import Layout from '../../components/Layout/Layout'
 import styles from '../../styles/CaseStudy.module.css'
 
-function CaseStudy({ posts }) {
+function caseStudy({ posts }) {
+
+  const { t } = useTranslation('caseStudy')
+
   return <Layout>
     <Head>
       <title>Case Study - UI Developer • Interaction Designer | Llegó Julio</title>
@@ -25,7 +29,7 @@ function CaseStudy({ posts }) {
       <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
 
       <link rel="canonical" href="https://llegojulio.com/case-study/" />
-      <link rel="alternate" href="https://llegojulio.com/case-study/" hrefLang="en-us" />
+      <link rel="alternate" href="https://llegojulio.com/case-study/" hrefLang="en" />
     </Head>
     <div className={styles.container}>
     <motion.div 
@@ -53,7 +57,7 @@ function CaseStudy({ posts }) {
               <div className={styles.main}>
                 <Link href={`/case-study/1`}>
                   <a alt="Pendulum EP - Vinyl Record Label Design" rel="alternate" hreflang="en">
-                    <h3 className={styles.description}>Visual Design, 2019</h3>
+                    <h3 className={styles.description}>{t('content_01')}</h3>
                     <div className={styles.cubeWrapper}>
                       <div className={styles.cube}>
                       <div className={styles.cara1}>
@@ -118,7 +122,7 @@ function CaseStudy({ posts }) {
               </div>
               </div>
                     </div>
-                <h2 className={styles.title}>Pendulum EP - Vinyl Record Label Design</h2>
+                <h2 className={styles.title}>{t('title_01')}</h2>
               </a>
             </Link>
           </div>
@@ -127,7 +131,7 @@ function CaseStudy({ posts }) {
           <div className={styles.main}>
             <Link href={`/case-study/2`}>
               <a alt="Shopify Fragrance eCommerce - A Discovery In Scent" rel="alternate" hreflang="en">
-              <h3 className={styles.description}>Full Stack Designer, 2018-2017</h3>
+              <h3 className={styles.description}>{t('content_02')}</h3>
               <div className={styles.cubeWrapper}>
               <div className={styles.cube}>
               <div className={styles.cara1}>
@@ -192,7 +196,7 @@ function CaseStudy({ posts }) {
               </div>
             </div>
               </div>
-              <h2 className={styles.title}>Shopify Fragrance eCommerce - A Discovery In Scent</h2>
+              <h2 className={styles.title}>{t('title_02')}</h2>
               </a>
             </Link>
           </div>
@@ -201,7 +205,7 @@ function CaseStudy({ posts }) {
           <div className={styles.main}>
             <Link href={`/case-study/3`}>
               <a alt="Custom Wordpress Theme - for Musicians and Bands" rel="alternate" hreflang="en">
-                <h3 className={styles.description}>Full Stack Designer, 2017</h3>
+                <h3 className={styles.description}>{t('content_03')}</h3>
                 <div className={styles.cubeWrapper}>
                   <div className={styles.cube}>
               <div className={styles.cara1}>
@@ -266,7 +270,7 @@ function CaseStudy({ posts }) {
               </div>
             </div>
                 </div>
-                <h2 className={styles.title}>Custom Wordpress Theme - for Musicians and Bands</h2>
+                <h2 className={styles.title}>{t('title_03')}</h2>
               </a>
             </Link>
           </div>
@@ -277,4 +281,10 @@ function CaseStudy({ posts }) {
   </Layout>
 }
 
-export default CaseStudy
+export async function getServerSideProps(context) {
+  return {
+    props: {},
+  }
+}
+
+export default caseStudy

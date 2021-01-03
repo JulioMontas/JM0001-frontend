@@ -46,7 +46,7 @@ function CaseStudyIndex() {
           </div>
           <div className={styles.flipSwitch}>
             <h3>&#128466; Overview</h3>
-            <p>A multi-talented EDM / Pop artist, songwriter and producer with more than 50+ songs release, looking for a space to connected with her #trueFan.</p>
+            <p>A multi-talented <abbr title="Electronic Dance Music">EDM</abbr> / Pop artist, songwriter and producer with more than 50+ songs release, looking for a space to connected with her #trueFan.</p>
           </div>
           <div>
             <h3>&#128444; Moodboard</h3>
@@ -164,7 +164,7 @@ function CaseStudyIndex() {
           </div>
           <div className={styles.flipSwitch}>
             <h3>&#128640; Background</h3>
-            <p>I was responsible for the entire <b>UX/UI Design</b> and also the <b>Web Development</b> writing in PHP using WordPress as the CMS.</p>
+            <p>I was responsible for the entire <b><abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> Design</b> and also the <b>Web Development</b> writing in PHP using WordPress as the <abbr title="Content Management System">CMS</abbr>.</p>
           </div>
           <div className={styles.flipSwitch}>
             <h3>&#9997; Roboto By Christian Robertson</h3>
@@ -636,7 +636,7 @@ function CaseStudyIndex() {
                 layout="responsive"
                 loading="lazy"
                 />
-                <small>Section CMS edit</small>
+                <small>Section <abbr title="Content Management System">CMS</abbr> edit</small>
               </SwiperSlide>
               <SwiperSlide>
               <Image
@@ -697,7 +697,7 @@ function CaseStudyIndex() {
           <div>
             <div className={styles.flipSwitch}>
               <h3>&#127968; Global UI</h3>
-              <p>The CTA of the latest EP as a global component to impact awareness. The newsletter signup form with the social media icons is the actual footer with the ability to add or remove inside the CMS dashboard.</p>
+              <p>The CTA of the latest EP as a global component to impact awareness. The newsletter signup form with the social media icons is the actual footer with the ability to add or remove inside the <abbr title="Content Management System">CMS</abbr> dashboard.</p>
             </div>
             <Swiper
             speed={400}
@@ -750,7 +750,7 @@ function CaseStudyIndex() {
                 layout="responsive"
                 loading="lazy"
                 />
-                <small>CMS: Widget Social Media</small>
+                <small><abbr title="Content Management System">CMS</abbr>: Widget Social Media</small>
               </SwiperSlide>
             </Swiper>
           </div>
@@ -1054,7 +1054,7 @@ function CaseStudyIndex() {
           <div className={styles.flipSwitch}>
             <h3>&#128736; Development</h3>
             <ul className={styles.secTextList}>
-              <li>A custom Content Management System (CMS) to edit any page section, custom plugin and a few of the CSS components.</li>
+              <li>A custom <abbr title="Content Management System">CMS</abbr> to edit any page section, custom plugin and a few of the <abbr title="Cascading Stylesheets">CSS</abbr> components.</li>
               <li>Allow customers to digital download their purchased of any album or single song.</li>
               <li><b>Three.js</b> ( JavaScript 3D library ) was used for the moving background.</li>
               <li>Responsive website that changes based on the screen size of the device.</li>

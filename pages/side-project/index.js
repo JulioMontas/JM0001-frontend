@@ -3,11 +3,13 @@ import Link from 'next/link'
 import { motion } from "framer-motion"
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
+import useTranslation from 'next-translate/useTranslation'
 
 import Layout from '../../components/Layout/Layout'
 import styles from '../../styles/Project.module.css'
 
-function Project({ posts }) {
+function sideProject({ posts }) {
+  const { t } = useTranslation('sideProject')
   return <Layout>
     <Head>
       <title>Side Project - UI Developer • Interaction Designer | Llegó Julio</title>
@@ -52,15 +54,15 @@ function Project({ posts }) {
            <SwiperSlide>
              <div className={styles.main}>
                <Link href={`/side-project/hellocode`}>
-                 <a alt="Helloco.de - The Home For Programming Languages" rel="alternate" hreflang="en">
-                   <h3 className={styles.blgSummery}>Collective Memory, Education, 2012</h3>
+                 <a alt={t('title_01')}>
+                   <h3 className={styles.blgSummery}>{t('content_01')}</h3>
                    <Image
-                   src="/img/side-project/hc/hc02.gif"
-                   alt="Picture of the author"
-                   width={1422}
-                   height={688}
+                     src="/img/side-project/hc/hc02.gif"
+                     alt="Picture of the author"
+                     width={1422}
+                     height={688}
                    />
-                   <h2 className={styles.blgTitle}>Helloco.de - The Home For Programming Languages</h2>
+                   <h2 className={styles.blgTitle}>{t('title_01')}</h2>
                 </a>
                </Link>
           </div>
@@ -68,8 +70,8 @@ function Project({ posts }) {
         <SwiperSlide>
           <div className={styles.main}>
             <Link href={`/side-project/surveillance`}>
-              <a alt="Surveillance Culture - Modernity Identity and Security" rel="alternate" hreflang="en">
-              <h3 className={styles.blgSummery}>Deepfake, Data Collection, 2015</h3>
+              <a alt={t('title_02')}>
+              <h3 className={styles.blgSummery}>{t('content_02')}</h3>
                 <Image
                 src="/img/side-project/surveillance/jessieNguyen-socialProof.jpg"
                 alt="Picture of the author"
@@ -78,7 +80,7 @@ function Project({ posts }) {
                 quality={1}
                 loading="eager"
                 />
-                <h2 className={styles.blgTitle}>Surveillance Culture - Modernity Identity and Security</h2>
+                <h2 className={styles.blgTitle}>{t('title_02')}</h2>
               </a>
             </Link>
           </div>
@@ -86,8 +88,8 @@ function Project({ posts }) {
         <SwiperSlide>
           <div className={styles.main}>
               <Link href={`/side-project/width`}>
-                <a alt="Width - Take Over the Screen" rel="alternate" hreflang="en">
-                <h3 className={styles.blgSummery}>JavaScript Web Game, 2016</h3>
+                <a alt={t('title_03')}>
+                <h3 className={styles.blgSummery}>{t('content_03')}</h3>
                   <Image
                   src="/img/side-project/width/width_Landing_Page.png"
                   alt="Picture of the author"
@@ -96,7 +98,7 @@ function Project({ posts }) {
                   quality={25}
                   loading="eager"
                   />
-                  <h2 className={styles.blgTitle}>Width - Take Over the Screen</h2>
+                  <h2 className={styles.blgTitle}>{t('title_03')}</h2>
                 </a>
               </Link>
           </div>
@@ -104,8 +106,8 @@ function Project({ posts }) {
         <SwiperSlide>
           <div className={styles.main}>
             <Link href={`/side-project/meliorem`}>
-              <a alt="Meliorem - Cultivating Your Passion to Level Up" rel="alternate" hreflang="en">
-              <h3 className={styles.blgSummery}>Productivity App, Dopamine Stimulator, 2016</h3>
+              <a alt={t('title_04')}>
+              <h3 className={styles.blgSummery}>{t('content_04')}</h3>
                 <Image
                 src="/img/side-project/meliorem/meliorem-02.png"
                 alt="Picture of the author"
@@ -114,7 +116,7 @@ function Project({ posts }) {
                 quality={15}
                 loading="eager"
                 />
-                <h2 className={styles.blgTitle}>Meliorem - Cultivating Your Passion to Level Up</h2>
+                <h2 className={styles.blgTitle}>{t('title_04')}</h2>
               </a>
             </Link>
           </div>
@@ -122,8 +124,8 @@ function Project({ posts }) {
         <SwiperSlide>
           <div className={styles.main}>
             <Link href={`/side-project/colors`}>
-              <a alt="Basic Color Fundamentals - Simple Fun App for Toddlers" rel="alternate" hreflang="en">
-              <h3 className={styles.blgSummery}>eLearning, New Memories, 2016</h3>
+              <a alt={t('title_05')}>
+              <h3 className={styles.blgSummery}>{t('content_05')}</h3>
                 <Image
                 src="/img/colorView_01.jpg"
                 alt="Picture of the author"
@@ -132,7 +134,7 @@ function Project({ posts }) {
                 quality={15}
                 loading="eager"
                 />
-                <h2 className={styles.blgTitle}>Basic Color Fundamentals - Simple Fun App for Toddlers</h2>
+                <h2 className={styles.blgTitle}>{t('title_05')}</h2>
               </a>
             </Link>
           </div>
@@ -143,4 +145,10 @@ function Project({ posts }) {
   </Layout>
 }
 
-export default Project
+export async function getServerSideProps(context) {
+  return {
+    props: {},
+  }
+}
+
+export default sideProject

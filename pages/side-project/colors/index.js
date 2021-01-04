@@ -25,7 +25,8 @@ function ProjectIndex() {
           <meta name='twitter:description' content='Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory' />
 
           <link rel="canonical" href="https://llegojulio.com/side-project/colors" />
-          <link rel="alternate" href="https://llegojulio.com/side-project/colors" hrefLang="en-us" />
+          <link rel="alternate" href="https://llegojulio.com/side-project/colors" hrefLang="en" />
+          <link rel="alternate" href="https://llegojulio.com/es/side-project/colors" hrefLang="es" />
       </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}

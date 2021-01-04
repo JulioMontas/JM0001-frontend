@@ -25,7 +25,8 @@ function ProjectIndex() {
           <meta name='twitter:description' content='Reward self task manager to stimulate your existence' />
 
           <link rel="canonical" href="https://llegojulio.com/side-project/meliorem" />
-          <link rel="alternate" href="https://llegojulio.com/side-project/meliorem" hrefLang="en-us" />
+          <link rel="alternate" href="https://llegojulio.com/side-project/meliorem" hrefLang="en" />
+          <link rel="alternate" href="https://llegojulio.com/es/side-project/meliorem" hrefLang="es" />
       </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}

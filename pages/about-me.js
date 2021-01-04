@@ -11,8 +11,8 @@ function AboutMe() {
   return <Layout>
     <Head>
       <title>About Me - UI Developer • Interaction Designer | Llegó Julio</title>
-      <meta name='twitter:url' content='https://llegojulio.com/' />
-      <meta property='og:url' content='https://llegojulio.com/' />
+      <meta name='twitter:url' content='https://llegojulio.com/about-me' />
+      <meta property='og:url' content='https://llegojulio.com/about-me' />
       
       <meta property='og:image' content='https://llegojulio.com/me.png' />
       <meta name='twitter:image' content='https://llegojulio.com/me.png' />
@@ -25,7 +25,8 @@ function AboutMe() {
       <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
 
       <link rel="canonical" href="https://llegojulio.com/" />
-      <link rel="alternate" href="https://llegojulio.com/" hrefLang="en-us" />
+      <link rel="alternate" href="https://llegojulio.com/about-me" hrefLang="en" />
+      <link rel="alternate" href="https://llegojulio.com/es/about-me" hrefLang="es" />
     </Head>
     <div className={styles.container}>
       <div className={styles.wrapper}>

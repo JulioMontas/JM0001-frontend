@@ -13,7 +13,7 @@ function HomePage({ props }) {
 
   return <Layout>
     <Head>
-      <title>Llegó Julio - UI Developer • Interaction Designer</title>
+      <title>Llegó Julio - {t('title')}</title>
       <meta name='twitter:url' content='https://llegojulio.com/' />
       <meta property='og:url' content='https://llegojulio.com/' />
       
@@ -28,7 +28,8 @@ function HomePage({ props }) {
       <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
 
       <link rel="canonical" href="https://llegojulio.com/" />
-      <link rel="alternate" href="https://llegojulio.com/" hrefLang="en-us" />
+      <link rel="alternate" href="https://llegojulio.com/" hrefLang="en" />
+      <link rel="alternate" href="https://llegojulio.com/es/" hrefLang="es" />
       
     </Head>
     <div className={styles.container}>

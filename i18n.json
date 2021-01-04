@@ -7,6 +7,6 @@
         "/youtube": ["youtube"],
         "/about-me":["aboutMe"],
         "/side-project":["sideProject"],
-        "/case-study":["caseStudy"]
+        "rgx:^/case-study":["caseStudy"]
     }
 }

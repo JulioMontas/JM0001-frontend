@@ -9,9 +9,7 @@ import Layout from '../../components/Layout/Layout'
 import styles from '../../styles/CaseStudy.module.css'
 
 function caseStudy({ posts }) {
-
   const { t } = useTranslation('caseStudy')
-
   return <Layout>
     <Head>
       <title>Case Study - UI Developer • Interaction Designer | Llegó Julio</title>
@@ -30,6 +28,7 @@ function caseStudy({ posts }) {
 
       <link rel="canonical" href="https://llegojulio.com/case-study/" />
       <link rel="alternate" href="https://llegojulio.com/case-study/" hrefLang="en" />
+      <link rel="alternate" href="https://llegojulio.com/es/case-study/" hrefLang="es" />
     </Head>
     <div className={styles.container}>
     <motion.div 

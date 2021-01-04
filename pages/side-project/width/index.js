@@ -25,7 +25,8 @@ function ProjectIndex() {
           <meta name='twitter:description' content='A two-player game in which you must defeat your opponents by clicking to take over the screen' />
 
           <link rel="canonical" href="https://llegojulio.com/side-project/width" />
-          <link rel="alternate" href="https://llegojulio.com/side-project/width" hrefLang="en-us" />
+          <link rel="alternate" href="https://llegojulio.com/side-project/width" hrefLang="en" />
+          <link rel="alternate" href="https://llegojulio.com/es/side-project/width" hrefLang="es" />
       </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}

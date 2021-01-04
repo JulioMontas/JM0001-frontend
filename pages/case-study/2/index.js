@@ -4,14 +4,16 @@ import { motion } from "framer-motion"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import ReactPlayer from "react-player"
 import Head from 'next/head'
+import useTranslation from 'next-translate/useTranslation'
 
 import Layout from '../../../components/Layout/Layout'
 import styles from '../../../styles/Report.module.css'
 
 function CaseStudyIndex() {
+  const { t } = useTranslation('caseStudy')
   return <Layout>
     <Head>
-      <title>Shopify Fragrance eCommerce - A Discovery In Scent | Llegó Julio</title>
+      <title>{t('title_02')} | Llegó Julio</title>
       <meta name='twitter:url' content='https://llegojulio.com/case-study/2' />
       <meta property='og:url' content='https://llegojulio.com/case-study/2' />
       
@@ -26,7 +28,8 @@ function CaseStudyIndex() {
       <meta name='twitter:description' content='A luxury fragrances distribution company going B2C with their first shofity eCommerce online store' />
 
       <link rel="canonical" href="https://llegojulio.com/case-study/2" />
-      <link rel="alternate" href="https://llegojulio.com/case-study/2" hrefLang="en-us" />
+      <link rel="alternate" href="https://llegojulio.com/case-study/2" hrefLang="en" />
+      <link rel="alternate" href="https://llegojulio.com/es/case-study/2" hrefLang="es" />
     </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}
@@ -35,7 +38,7 @@ function CaseStudyIndex() {
       <div className={styles.mainIndex}>
         <div className={styles.mainCenterCont}>
           <div className={styles.flipSwitch}>
-            <h2>Shopify Fragrance eCommerce - A Discovery In Scent</h2>
+            <h2>{t('title_02')}</h2>
             <div className={styles.secExit}>
               <Link href="/case-study">
                 <a alt="Page Exit" rel="alternate" hreflang="en">
@@ -45,11 +48,11 @@ function CaseStudyIndex() {
             </div>
           </div>
           <div className={styles.flipSwitch}>
-            <h3>&#128466; Overview</h3>
-            <p>The Fragrance Group which distributes European fragrance lines in the U.S with retail partners like Bloomingdale’s, Bergdorf Goodman and Barneys with a exclusive distributor for Christian Siriano fragrances, Thalia Sodi fragrances, and Banana Republic fragrances.</p>
+            <h3>&#128466; {t('overview')}</h3>
+            <p>{t('overviewContent_02')}</p>
           </div>
           <div>
-            <h3>&#128444; Moodboard: Deep stages of relaxation</h3>
+            <h3>&#128444; {t('moodboard_02')}</h3>
             <Swiper 
             speed={400}
             onSlideChange={() => console.log('slide change')}
@@ -163,8 +166,8 @@ function CaseStudyIndex() {
             </Swiper>
           </div>
           <div className={styles.flipSwitch}>
-            <h3>&#128640; Background</h3>
-            <p>I came into the project to redesign their existing eCommerce that was put together by their marketing team, imagine that &#128561;. RIGHT AWAY! I plan out their <b>Customer journey</b>, <b>User experience</b> (UX), create all the <b>User Interface</b> (UI) and interaction animation. "I had to skit the wireframe process because of the limitation of time" &#128527;.</p>
+            <h3>&#128640; {t('background')}</h3>
+            <p>{t('backgroundContent_02')}</p>
           </div>
           <div className={styles.flipSwitch}>
             <h3>&#9997; Roboto / Roboto Condensed By Christian Robertson</h3>
@@ -182,7 +185,7 @@ function CaseStudyIndex() {
 
           </div>
           <div className={styles.flipSwitch}>
-            <h3>&#127852; Palette</h3>
+            <h3>&#127852; {t('palette')}</h3>
             <div className={styles.secColorPalette}> 
               <span style={{background:'#FFFFFF'}}></span>
               <span style={{background:'#FAFAFA'}}></span>
@@ -192,7 +195,7 @@ function CaseStudyIndex() {
             </div>
           </div> 
           <div className={styles.flipSwitch}>
-            <h3>&#127853; Gradient</h3>
+            <h3>&#127853; {t('gradient')}</h3>
             <div className={styles.secColorGradient}>
               <span style={{backgroundImage:'linear-gradient(267.43deg, rgb(232, 149, 175) 36.72%, rgb(187, 162, 200) 62.93%), none'}}></span>
             </div>
@@ -321,7 +324,7 @@ function CaseStudyIndex() {
 </svg>
           </div>
           <div className={styles.SecBackground}>
-            <h3>&#128736; Sidemap</h3>
+            <h3>&#128736; {t('sitemap')}</h3>
             <Swiper
             speed={400}
             onSlideChange={() => console.log('slide change')}
@@ -785,8 +788,8 @@ function CaseStudyIndex() {
           </div>
           <div className={styles.secLandingPage}>
             <div className={styles.flipSwitch}>
-              <h3>&#127968; Mockup: Landing Page</h3>
-              <p>The first page I started designing to establish the design style architecture of the brand lifestyle with a main focus to direct the users to the <b>Product Detail Page</b> (<b>PDP</b>) and later on to improve the tunnels directions from analytic data receiving from each channel.</p>
+              <h3>&#127968; {t('landingPage')}</h3>
+              <p>{t('landingPageContent_02')}</p>
             </div>
             <Swiper
             speed={400}            
@@ -869,11 +872,10 @@ function CaseStudyIndex() {
           </div>
           <div>
             <div className={styles.flipSwitch}>
-              <h3>&#128065; Mockup: Product Listing Pages (PLPs)</h3>
+              <h3>&#128065; {t('productListingPages_02')}</h3>
               <div>
-                <p>Coming up with the <b>User Interface</b> (UI) + animation for the <b>Fragrance Finder</b> section was one of the most favorite part of the project. Collaborating with their in house fashion photographer <b>Beheshteh Zebhi</b> to come up with a collection of image that cause a sensation of smell as an guide for shopper to find their signature scent.</p>
-                <p>-</p>
-                <p>For the rest of the other collection, <b>Home Fragrances</b>, <b>Skincare</b>, <b>Bath & Body</b> and <b>Haircare</b> I keep the same design consistency having them look and behave the same way no matter the possibility of the collection or gender.</p>
+                <p>{t('productListingPagesContent_02a')}</p>
+                <p>{t('productListingPagesContent_02b')}</p>
               </div>
             </div>
             <Swiper
@@ -955,8 +957,8 @@ function CaseStudyIndex() {
           </div>
           <div>
             <div className={styles.flipSwitch}>
-              <h3>&#128065; Mockup: Product Detail Page (PDP)</h3>
-              <p>A minimalist approach for each component parts to focus the users within each section that  allowed them to read and analysis the product with a calm consuming perspective.</p>
+              <h3>&#128065; {t('productDetailPage_02')}</h3>
+              <p>{t('productDetailPageContent_02')}</p>
             </div>
             <Swiper
             speed={400}
@@ -1015,11 +1017,10 @@ function CaseStudyIndex() {
           </div>
           <div>
             <div className={styles.flipSwitch}>
-              <h3>&#128065;Mockup: Press & Contact</h3>
+              <h3>&#128065; {t('pressAndContact_02')}</h3>
               <div>
-                <p>The Press page was design with a archive gathering in mind. Simple components of horizonal width rectangle with a minimal height of 50px, containing the name of the publication with any extra information in the form of a Icons link for simple direction if multiple.</p>
-                <p>-</p>
-                <p>The Contact page was actually the return page first version to later on improve the system around if there were any abuse by a savy user.</p>
+                <p>{t('pressAndContactContent_02a')}</p>
+                <p>{t('pressAndContactContent_02b')}</p>
               </div>
             </div>  
             <Swiper
@@ -1066,25 +1067,31 @@ function CaseStudyIndex() {
             </Swiper>
           </div>
           <div className={styles.flipSwitch}>
-            <h3>&#128736; Development</h3>
+            <h3>&#128736; {t('development')}</h3>
             <div>
-              <p>It’s turns out that I also coded the entire eCommecer after their inhouse web developer left the company just 2 weeks into the the project.</p>
+              <p>{t('developmentContent_02')}</p>
               <ul className={styles.secTextList}>
-                <li>The Front-end was develope locally using the  Slate toolkit for <b>Shopify</b> (deprecated in January 2020) in liquid syntax script.</li>
-                <li>Responsiveness cross devices with Sass styling architecture.</li>
-                <li><b>Google Tag Manager</b> was used to target any dead links and measure traffic </li>
-                <li><b><a>Hotjar</a></b> was used to study the website headmaps and their behavior mixed with <b>Google Analytics</b> to compare the data collected.</li>
+                <li>{t('developmentContentList_02a')}</li>
+                <li>{t('developmentContentList_02b')}</li>
+                <li>{t('developmentContentList_02c')}</li>
+                <li>{t('developmentContentList_02d')}</li>
               </ul>
             </div>
           </div>
           <div className={styles.flipSwitch}>
-            <h3>&#127919; Results</h3>
-            <p>Their website was finally merge for B2C giving them a extra solution of capital that attrative their new digital consumer.  </p>
+            <h3>&#127919; {t('results')}</h3>
+            <p>{t('resultsContent_02')}</p>
           </div>
           </div>
         </div>
     </motion.div>
   </Layout>
+}
+
+export async function getServerSideProps(context) {
+  return {
+    props: {},
+  }
 }
 
 export default CaseStudyIndex

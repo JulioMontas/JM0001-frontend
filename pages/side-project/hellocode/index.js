@@ -25,7 +25,8 @@ function ProjectIndex() {
           <meta name='twitter:description' content='List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present' />
 
           <link rel="canonical" href="https://llegojulio.com/side-project/hellocode" />
-          <link rel="alternate" href="https://llegojulio.com/side-project/hellocode" hrefLang="en-us" />
+          <link rel="alternate" href="https://llegojulio.com/side-project/hellocode" hrefLang="en" />
+          <link rel="alternate" href="https://llegojulio.com/es/side-project/hellocode" hrefLang="es" />
       </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}

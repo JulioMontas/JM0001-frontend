@@ -3,14 +3,16 @@ import Link from 'next/link'
 import { motion } from "framer-motion"
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
+import useTranslation from 'next-translate/useTranslation'
 
 import Layout from '../../../components/Layout/Layout'
 import styles from '../../../styles/Report.module.css'
 
 function ProjectIndex() {
+    const { t } = useTranslation('sideProject')
   return <Layout>
       <Head>
-          <title>Side Project | Surveillance Culture - Modernity Identity and Security | Llegó Julio</title>
+          <title>Side Project | {t('title_02')} | Llegó Julio</title>
           <meta name='twitter:url' content='https://llegojulio.com/side-project/surveillance' />
           <meta property='og:url' content='https://llegojulio.com/side-project/surveillance' />
 
@@ -36,8 +38,8 @@ function ProjectIndex() {
             <div className={styles.mainCenterCont}>
                 <div className={styles.flipSwitch}>
                     <div>
-                        <h2>Surveillance Culture - Modernity Identity and Security</h2>
-                        <p>Deepfake, Data Collection, 2015</p>
+                        <h2>{t('title_02')}</h2>
+                        <p>{t('content_02')}</p>
                     </div>
                     <div className={styles.secExit}>
                         <Link href="/side-project">
@@ -48,8 +50,8 @@ function ProjectIndex() {
                     </div>
                 </div>
                 <div className={styles.flipSwitch}>
-                    <h3>Fake it till you make it</h3>
-                    <p>A social experiment using the top social media channels to farm users sensitive data</p>
+                    <h3>{t('concept_02')}</h3>
+                    <p>{t('conceptContent_02')}</p>
                 </div>
                 <div>
                     <h3>The butterfly effect</h3>
@@ -118,7 +120,7 @@ function ProjectIndex() {
                 </div>
                 
                 <div className={styles.flipSwitch}>
-                    <h3>How to go from a nobody to a somebody</h3>
+                    <h3>{t('character_02')}</h3>
                     <div>
                     <Swiper
                     speed={400}
@@ -244,10 +246,10 @@ function ProjectIndex() {
                 </div>
 
                 <div className={styles.flipSwitch}>
-                    <h3>User Journey Social Proof</h3>
-                    <div>
-                        <p>Texttttt</p>
-                    </div>
+                    <h3>{t('userJourney_02')}</h3>
+                    {/* <div>
+                        <p>{t('userJourneyContent_02')}</p>
+                    </div> */}
                 </div>
 
                 <div>
@@ -293,12 +295,12 @@ function ProjectIndex() {
                     </Swiper>
                 </div>
 
-                <div className={styles.flipSwitch}>
+                {/* <div className={styles.flipSwitch}>
                     <h3>Social Engineering by asking questions</h3>
                     <div>
                         <p>List of Question</p>
                     </div>
-                </div>
+                </div> */}
                 
                 <div className={styles.flipSwitch}>
                     <h3>URL</h3>
@@ -308,6 +310,12 @@ function ProjectIndex() {
         </div>          
     </motion.div>
   </Layout>
+}
+
+export async function getServerSideProps(context) {
+    return {
+        props: {},
+    }
 }
 
 export default ProjectIndex

@@ -3,14 +3,16 @@ import Link from 'next/link'
 import { motion } from "framer-motion"
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
+import useTranslation from 'next-translate/useTranslation'
 
 import Layout from '../../../components/Layout/Layout'
 import styles from '../../../styles/Report.module.css'
 
 function ProjectIndex() {
+    const { t } = useTranslation('sideProject')
   return <Layout>
       <Head>
-          <title>Side Project | Meliorem - Cultivating Your Passion To Level Up | Llegó Julio</title>
+          <title>Side Project | {t('title_04')} | Llegó Julio</title>
           <meta name='twitter:url' content='https://llegojulio.com/side-project/meliorem' />
           <meta property='og:url' content='https://llegojulio.com/side-project/meliorem' />
 
@@ -36,8 +38,8 @@ function ProjectIndex() {
             <div className={styles.mainCenterCont}>
                 <div className={styles.flipSwitch}>
                     <div>
-                        <h2>Meliorem - Cultivating Your Passion To Level Up</h2>
-                        <p>Productivity App, Dopamine Stimulator, 2016</p>
+                        <h2>{t('title_04')}</h2>
+                        <p>{t('content_04')}</p>
                     </div>
                     <div className={styles.secExit}>
                         <Link href="/side-project">
@@ -49,7 +51,7 @@ function ProjectIndex() {
                 </div>
                 <div className={styles.flipSwitch}>
                     <h3>Concept</h3>
-                    <p>Reward self task manager to stimulate your existence</p>
+                    <p>{t('conceptContent_04')}</p>
                 </div>
                 <div>
                     <h3>UI Design</h3>
@@ -62,7 +64,7 @@ function ProjectIndex() {
                     layout="responsive"
                     loading="eager"
                     />
-                    <p>First Concept UI</p>
+                    <p>{t('uiDesignContent_04a')}</p>
                     <Swiper
                     speed={400}
                     onSlideChange={() => console.log('slide change')}
@@ -90,7 +92,7 @@ function ProjectIndex() {
                             layout="responsive"
                             loading="lazy"
                             />
-                            <p>Mobile: Login</p>
+                            <p>{t('uiDesignContent_04b')}</p>
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
@@ -102,7 +104,7 @@ function ProjectIndex() {
                             layout="responsive"
                             loading="lazy"
                             />
-                             <p>Mobile: Task Dashboard</p>
+                             <p>{t('uiDesignContent_04c')}</p>
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
@@ -114,7 +116,7 @@ function ProjectIndex() {
                             layout="responsive"
                             loading="lazy"
                             />
-                             <p>Mobile: List of Task</p>
+                             <p>{t('uiDesignContent_04d')}</p>
                         </SwiperSlide>
                     </Swiper>
                 </div>
@@ -122,6 +124,12 @@ function ProjectIndex() {
         </div>          
     </motion.div>
   </Layout>
+}
+
+export async function getServerSideProps(context) {
+    return {
+        props: {},
+    }
 }
 
 export default ProjectIndex

@@ -6,7 +6,7 @@
         "/": ["home"],
         "/youtube": ["youtube"],
         "/about-me":["aboutMe"],
-        "/side-project":["sideProject"],
+        "rgx:^/side-project":["sideProject"],
         "rgx:^/case-study":["caseStudy"]
     }
 }

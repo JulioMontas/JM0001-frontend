@@ -49,10 +49,10 @@ function CaseStudyIndex() {
           </div>
           <div className={styles.flipSwitch}>
             <h3>&#128466; {t('overview')}</h3>
-            <p>A multi-talented <abbr title="Electronic Dance Music">EDM</abbr> / Pop artist, songwriter and producer with more than 50+ songs release, looking for a space to connected with her #trueFan.</p>
+            <p>{t('overviewContent_03')}</p>
           </div>
           <div>
-            <h3>&#128444; Moodboard</h3>
+            <h3>&#128444; {t('moodboard_03')}</h3>
             <Swiper
             speed={400}
             onSlideChange={() => console.log('slide change')}
@@ -167,7 +167,7 @@ function CaseStudyIndex() {
           </div>
           <div className={styles.flipSwitch}>
             <h3>&#128640; Background</h3>
-            <p>I was responsible for the entire <b><abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> Design</b> and also the <b>Web Development</b> writing in PHP using WordPress as the <abbr title="Content Management System">CMS</abbr>.</p>
+            <p>{t('backgroundContent_03')}</p>
           </div>
           <div className={styles.flipSwitch}>
             <h3>&#9997; Roboto By Christian Robertson</h3>
@@ -576,7 +576,7 @@ function CaseStudyIndex() {
           <div>
             <div className={styles.flipSwitch}>
               <h3>&#127968; {t('landingPage')}</h3>
-              <p>A micro site design style in case the visitor only visit the homepage, each section describe each page summary.</p>
+              <p>{t('landingPageContent_03')}</p>
             </div>
             <Swiper
             speed={400}
@@ -700,7 +700,7 @@ function CaseStudyIndex() {
           <div>
             <div className={styles.flipSwitch}>
               <h3>&#127968; Global UI</h3>
-              <p>The CTA of the latest EP as a global component to impact awareness. The newsletter signup form with the social media icons is the actual footer with the ability to add or remove inside the <abbr title="Content Management System">CMS</abbr> dashboard.</p>
+              <p>{t('globalUIContent_03')}</p>
             </div>
             <Swiper
             speed={400}
@@ -759,8 +759,8 @@ function CaseStudyIndex() {
           </div>
           <div>
             <div className={styles.flipSwitch}>
-              <h3>&#128736; Biography / Gallery</h3>
-              <p>Both pages are to influence the user on behind the scene on the latest project.</p>
+              <h3>&#128736; {t('biographyAndGallery_03')}</h3>
+              <p>{t('biographyAndGalleryContent_03')}</p>
             </div>
             <Swiper
             speed={400}
@@ -843,8 +843,8 @@ function CaseStudyIndex() {
           </div>
           <div>
             <div className={styles.flipSwitch}>
-              <h3>&#128736; Events / Event Post</h3>
-              <p>Archive of past and upcoming show with ticket URL icon link.</p>
+              <h3>&#128736; {t('eventsAndEventPost_03')}</h3>
+              <p>{t('eventsAndEventPostContent_03')}</p>
             </div>  
             <Swiper
             speed={400}
@@ -915,8 +915,8 @@ function CaseStudyIndex() {
           </div>
           <div>
             <div className={styles.flipSwitch}>
-              <h3>&#128736; Blog / Blog Article</h3>
-              <p>To inspire other aspiring musicians or who are already in the industry.</p>
+              <h3>&#128736; {t('BlogAndBlogArticle_03')}</h3>
+              <p>{t('BlogAndBlogArticleContent_03')}</p>
             </div>  
             <Swiper
             speed={400}
@@ -998,7 +998,7 @@ function CaseStudyIndex() {
             </Swiper>
           </div>
           <div>
-            <h3>&#128736; Contact / Booking</h3>
+            <h3>&#128736; {t('ContactPage_03')}</h3>
             <Swiper
             speed={400}
             onSlideChange={() => console.log('slide change')}
@@ -1057,15 +1057,15 @@ function CaseStudyIndex() {
           <div className={styles.flipSwitch}>
             <h3>&#128736; {t('development')}</h3>
             <ul className={styles.secTextList}>
-              <li>A custom <abbr title="Content Management System">CMS</abbr> to edit any page section, custom plugin and a few of the <abbr title="Cascading Stylesheets">CSS</abbr> components.</li>
-              <li>Allow customers to digital download their purchased of any album or single song.</li>
-              <li><b>Three.js</b> ( JavaScript 3D library ) was used for the moving background.</li>
-              <li>Responsive website that changes based on the screen size of the device.</li>
+              <li>{t('developmentContentList_03a')}</li>
+              <li>{t('developmentContentList_03b')}</li>
+              <li>{t('developmentContentList_03c')}</li>
+              <li>{t('developmentContentList_03d')}</li>
             </ul>
           </div>
           <div className={styles.flipSwitch}>
             <h3>&#127919; {t('results')}</h3>
-            <p>Text text text</p>
+            <p>{t('resultsContent_03')}</p>
           </div>
         </div>
       </div>

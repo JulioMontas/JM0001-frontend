@@ -3,31 +3,33 @@ import Link from 'next/link'
 import { motion } from "framer-motion"
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
+import useTranslation from 'next-translate/useTranslation'
 
 import Layout from '../../../components/Layout/Layout'
 import styles from '../../../styles/Report.module.css'
 
 function ProjectIndex() {
-  return <Layout>
-      <Head>
-          <title>Side Project | Basic Color Fundamentals - Simple Fun App for Toddlers | Llegó Julio</title>          
-          <meta name='twitter:url' content='https://llegojulio.com/side-project/colors' />
-          <meta property='og:url' content='https://llegojulio.com/side-project/colors' />
+    const { t } = useTranslation('sideProject')
+    return <Layout>
+        <Head>
+            <title>Side Project | {t('title_05')} | Llegó Julio</title>          
+            <meta name='twitter:url' content='https://llegojulio.com/side-project/colors' />
+            <meta property='og:url' content='https://llegojulio.com/side-project/colors' />
 
-          <meta property='og:image' content='https://llegojulio.com/img/side-project/colors/slide_03.png' />
-          <meta name='twitter:image' content='https://llegojulio.com/img/side-project/colors/slide_03.png' />
+            <meta property='og:image' content='https://llegojulio.com/img/side-project/colors/slide_03.png' />
+            <meta name='twitter:image' content='https://llegojulio.com/img/side-project/colors/slide_03.png' />
 
-          <meta property='og:title' content='Basic Color Fundamentals - Simple Fun App for Toddlers | Llegó Julio' />
-          <meta name='twitter:title' content='Basic Color Fundamentals - Simple Fun App for Toddlers | Llegó Julio' />
+            <meta property='og:title' content='Basic Color Fundamentals - Simple Fun App for Toddlers | Llegó Julio' />
+            <meta name='twitter:title' content='Basic Color Fundamentals - Simple Fun App for Toddlers | Llegó Julio' />
 
-          <meta name="description" content="Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory" key="description"/>
-          <meta property='og:description' content='Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory' />
-          <meta name='twitter:description' content='Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory' />
+            <meta name="description" content="Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory" key="description"/>
+            <meta property='og:description' content='Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory' />
+            <meta name='twitter:description' content='Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory' />
 
-          <link rel="canonical" href="https://llegojulio.com/side-project/colors" />
-          <link rel="alternate" href="https://llegojulio.com/side-project/colors" hreflang="en" />
-          <link rel="alternate" href="https://llegojulio.com/es/side-project/colors" hreflang="es" />
-      </Head>
+            <link rel="canonical" href="https://llegojulio.com/side-project/colors" />
+            <link rel="alternate" href="https://llegojulio.com/side-project/colors" hreflang="en" />
+            <link rel="alternate" href="https://llegojulio.com/es/side-project/colors" hreflang="es" />
+        </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}
     animate={{ y: 0, opacity: 1 }}
@@ -36,8 +38,8 @@ function ProjectIndex() {
             <div className={styles.mainCenterCont}>
                 <div className={styles.flipSwitch}>
                     <div>
-                        <h2>Basic Color Fundamentals - Simple Fun App for Toddlers</h2>
-                        <p>Teaching kids, Education, 2016</p>
+                        <h2>{t('title_05')}</h2>
+                        <p>{t('content_05')}</p>
                     </div>
                     <div className={styles.secExit}>
                         <Link href="/side-project">
@@ -48,11 +50,11 @@ function ProjectIndex() {
                     </div>
                 </div>
                 <div className={styles.flipSwitch}>
-                    <h3>The new generations of students for eLearning</h3>
-                    <p>Teaching toddler how to learn the basic of colors pronunciation and visual recognition memory</p>
+                    <h3>{t('concept_05')}</h3>
+                    <p>{t('conceptContent_05')}</p>
                 </div>
                 <div>
-                    <h3>Mobile App Concept designs</h3>
+                    <h3>{t('uiDesign_05')}</h3>
                     <Image
                     src="/img/side-project/colors/slide_03.png"
                     alt="Choose a color to learn"
@@ -109,4 +111,10 @@ function ProjectIndex() {
   </Layout>
 }
 
+export async function getServerSideProps(context) {
+    return {
+        props: {},
+    }
+}
+  
 export default ProjectIndex

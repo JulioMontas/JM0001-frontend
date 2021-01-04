@@ -3,14 +3,16 @@ import Link from 'next/link'
 import { motion } from "framer-motion"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Head from 'next/head'
+import useTranslation from 'next-translate/useTranslation'
 
 import Layout from '../../../components/Layout/Layout'
 import styles from '../../../styles/Report.module.css'
 
 function ProjectIndex() {
+    const { t } = useTranslation('sideProject')
   return <Layout>
       <Head>
-          <title>Side Project | Width - Take Over the Screen | Llegó Julio</title>
+          <title>Side Project | {t('title_03')} | Llegó Julio</title>
           <meta name='twitter:url' content='https://llegojulio.com/side-project/width' />
           <meta property='og:url' content='https://llegojulio.com/side-project/width' />
 
@@ -36,20 +38,20 @@ function ProjectIndex() {
             <div className={styles.mainCenterCont}>
                 <div className={styles.flipSwitch}>
                     <div>
-                        <h2>Width - Take Over The Screen</h2>
-                        <p>Web Game, Vanilla JavaScript, 2016</p>
+                        <h2>{t('title_03')}</h2>
+                        <p>{t('content_03')}</p>
                     </div>
                     <div className={styles.secExit}>
                         <Link href="/side-project">
                             <a alt="Page Exit" rel="alternate" hreflang="en">
-                                <span>Close page</span
-                            ></a>
+                                <span>Close page</span>
+                            </a>
                         </Link>
                     </div>
                 </div>
                 <div className={styles.flipSwitch}>
                     <h3>Concept</h3>
-                    <p>A two-player game in which you must defeat your opponents by clicking to take over the screen.</p>
+                    <p>{t('conceptContent_03')}</p>
                 </div>
                 <div>
                     <h3>UI Design</h3>          
@@ -62,7 +64,7 @@ function ProjectIndex() {
                     layout="responsive"
                     loading="eager"
                     />
-                    <p>iPhone Sketch</p>
+                    <p>{t('uiDesignContent_03a')}</p>
                     <Swiper
                     speed={400}
                     onSlideChange={() => console.log('slide change')}
@@ -90,7 +92,7 @@ function ProjectIndex() {
                             layout="responsive"
                             loading="lazy"
                             />
-                            <p>Mockup: Level One</p>
+                            <p>{t('uiDesignContent_03b')}</p>
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
@@ -102,7 +104,7 @@ function ProjectIndex() {
                             layout="responsive"
                             loading="lazy"
                             />
-                            <p>Level Three</p>
+                            <p>{t('uiDesignContent_03c')}</p>
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
@@ -114,7 +116,7 @@ function ProjectIndex() {
                             layout="responsive"
                             loading="lazy"
                             />
-                            <p>Level Six</p>
+                            <p>{t('uiDesignContent_03d')}</p>
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
@@ -126,7 +128,7 @@ function ProjectIndex() {
                             layout="responsive"
                             loading="lazy"
                             />
-                            <p>Level Twelve</p>
+                            <p>{t('uiDesignContent_03e')}</p>
                         </SwiperSlide>
                     </Swiper>
                     <Image
@@ -138,7 +140,7 @@ function ProjectIndex() {
                     layout="responsive"
                     loading="lazy"
                     />
-                    <p>Main Page</p>
+                    <p>{t('uiDesignContent_03f')}</p>
                 </div>
                 <div className={styles.flipSwitch}>
                     <h3>URL</h3>
@@ -148,6 +150,12 @@ function ProjectIndex() {
         </div>          
     </motion.div>
   </Layout>
+}
+
+export async function getServerSideProps(context) {
+    return {
+        props: {},
+    }
 }
 
 export default ProjectIndex

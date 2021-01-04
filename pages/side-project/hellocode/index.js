@@ -3,11 +3,13 @@ import Link from 'next/link'
 import { motion } from "framer-motion"
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
+import useTranslation from 'next-translate/useTranslation'
 
 import Layout from '../../../components/Layout/Layout'
 import styles from '../../../styles/Report.module.css'
 
 function ProjectIndex() {
+    const { t } = useTranslation('sideProject')
   return <Layout>
       <Head>
           <title>Side Project | Helloco.de - The Home For Programming Languages | Llegó Julio</title>
@@ -36,8 +38,8 @@ function ProjectIndex() {
             <div className={styles.mainCenterCont}>
                 <div className={styles.flipSwitch}>
                     <div>
-                        <h2>Helloco.de - The Home For Programming Languages</h2>
-                        <p>Collective Memory, Education, 2012</p>
+                        <h2>{t('title_01')}</h2>
+                        <p>{t('content_01')}</p>
                     </div>
                     <div className={styles.secExit}>
                         <Link href="/side-project">
@@ -49,7 +51,7 @@ function ProjectIndex() {
                 </div>
                 <div className={styles.flipSwitch}>
                     <h3>Concept</h3>
-                    <p>List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present.</p>
+                    <p>{t('conceptContent_01')}</p>
                 </div>
                 <div>
                     <h3>UI Design</h3>
@@ -62,7 +64,7 @@ function ProjectIndex() {
                     layout="responsive"
                     loading="eager"
                     />
-                    <p>Language Page</p>
+                    <p>{t('uiDesignContent_01a')}</p>
                     <Swiper
                     speed={400}
                     onSlideChange={() => console.log('slide change')}
@@ -90,7 +92,7 @@ function ProjectIndex() {
                             layout="responsive"
                             loading="lazy"
                             />
-                            <p>List of programming languages</p>
+                            <p>{t('uiDesignContent_01b')}</p>
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
@@ -102,7 +104,7 @@ function ProjectIndex() {
                             layout="responsive"
                             loading="lazy"
                             />
-                            <p>The background was animated using Processing.js of how languages are distance but still connected.</p>
+                            <p><p>{t('uiDesignContent_01c')}</p></p>
                         </SwiperSlide>
                     </Swiper>
                 </div>
@@ -119,6 +121,12 @@ function ProjectIndex() {
         </div>          
     </motion.div>
   </Layout>
+}
+
+export async function getServerSideProps(context) {
+    return {
+        props: {},
+    }
 }
 
 export default ProjectIndex

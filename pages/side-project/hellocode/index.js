@@ -27,8 +27,8 @@ function ProjectIndex() {
           <meta name='twitter:description' content='List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present' />
 
           <link rel="canonical" href="https://llegojulio.com/side-project/hellocode" />
-          <link rel="alternate" href="https://llegojulio.com/side-project/hellocode" hreflang="en" />
-          <link rel="alternate" href="https://llegojulio.com/es/side-project/hellocode" hreflang="es" />
+          <link rel="alternate" href="https://llegojulio.com/en-us/side-project/hellocode/" hreflang="en-us" />
+          <link rel="alternate" href="https://llegojulio.com/es-us/side-project/hellocode/" hreflang="es-us" />
       </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}
@@ -43,7 +43,7 @@ function ProjectIndex() {
                     </div>
                     <div className={styles.secExit}>
                         <Link href="/side-project">
-                            <a alt="Page Exit" rel="alternate" hreflang="en">
+                            <a alt="Page Exit">
                                 <span>Close page</span>
                             </a>
                         </Link>

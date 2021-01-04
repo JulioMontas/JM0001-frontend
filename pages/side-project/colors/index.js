@@ -27,8 +27,8 @@ function ProjectIndex() {
             <meta name='twitter:description' content='Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory' />
 
             <link rel="canonical" href="https://llegojulio.com/side-project/colors" />
-            <link rel="alternate" href="https://llegojulio.com/side-project/colors" hreflang="en" />
-            <link rel="alternate" href="https://llegojulio.com/es/side-project/colors" hreflang="es" />
+            <link rel="alternate" href="https://llegojulio.com/en-us/side-project/colors/" hreflang="en-us" />
+            <link rel="alternate" href="https://llegojulio.com/es-us/side-project/colors/" hreflang="es-us" />
         </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}
@@ -43,7 +43,7 @@ function ProjectIndex() {
                     </div>
                     <div className={styles.secExit}>
                         <Link href="/side-project">
-                            <a alt="Page Exit" rel="alternate" hreflang="en">
+                            <a alt="Page Exit">
                                 <span>Close page</span>
                             </a>
                         </Link>

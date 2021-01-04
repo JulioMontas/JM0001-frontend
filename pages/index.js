@@ -28,8 +28,8 @@ function HomePage({ props }) {
       <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
 
       <link rel="canonical" href="https://llegojulio.com/" />
-      <link rel="alternate" href="https://llegojulio.com/" hreflang="en" />
-      <link rel="alternate" href="https://llegojulio.com/es/" hreflang="es" />
+      <link rel="alternate" href="https://llegojulio.com/en-us/" hreflang="en-us" />
+      <link rel="alternate" href="https://llegojulio.com/es-us/" hreflang="es-us" />
       
     </Head>
     <div className={styles.container}>

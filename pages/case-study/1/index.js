@@ -28,8 +28,8 @@ function CaseStudyIndex() {
       <meta name='twitter:description' content='The second EP of ERRANT Recordings with a style of ambient and minimal tech house' />
 
       <link rel="canonical" href="https://llegojulio.com/case-study/1" />
-      <link rel="alternate" href="https://llegojulio.com/case-study/1" hreflang="en" />
-      <link rel="alternate" href="https://llegojulio.com/es/case-study/1" hreflang="es" />
+      <link rel="alternate" href="https://llegojulio.com/en-us/case-study/1/" hreflang="en-us" />
+      <link rel="alternate" href="https://llegojulio.com/es-us/case-study/1/" hreflang="es-us" />
       </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}
@@ -41,7 +41,7 @@ function CaseStudyIndex() {
             <h2>{t('title_01')}</h2>
             <div className={styles.secExit}>
               <Link href="/case-study">
-                <a alt="Page Exit" rel="alternate" hreflang="en">
+                <a alt="Page Exit">
                   <span>Close page</span>
                 </a>
               </Link>
@@ -260,8 +260,6 @@ function CaseStudyIndex() {
               </div>
             </div>
           </div>
-
-
           <div className={styles.flipSwitch}>
             <h3>&#127852; Palette</h3>
             <div className={styles.secColorPalette}>
@@ -436,7 +434,7 @@ function CaseStudyIndex() {
           
           <div className={styles.flipSwitch}>
             <h3>&#127919; {t('results')}</h3>
-            <p>You can find ERR002 for vinyl record at <b><a href="https://www.discogs.com/Alexander-Gentil-Pendulum/release/14167116" target="_blank" alt="Discogs" rel="alternate" hreflang="en">Discogs</a></b>, <b><a href="https://www.deejay.de/Alexander_Gentil_Pendulum_ERR002_Vinyl__939197" target="_blank" alt="Deejay.de" rel="alternate" hreflang="en">Deejay.de</a></b> or the digital version at <b><a href="https://alexandergentil.bandcamp.com/album/pendulum" target="_blank" alt="Bandcamp" rel="alternate" hreflang="en">Bandcamp</a></b> and <b><a href="https://www.beatport.com/release/pendulum/2705824" target="_blank" alt="Beatport" rel="alternate" hreflang="en">Beatport</a></b>.</p>
+            <p>You can find ERR002 for vinyl record at <b><a href="https://www.discogs.com/Alexander-Gentil-Pendulum/release/14167116" target="_blank" alt="Discogs">Discogs</a></b>, <b><a href="https://www.deejay.de/Alexander_Gentil_Pendulum_ERR002_Vinyl__939197" target="_blank" alt="Deejay.de">Deejay.de</a></b> or the digital version at <b><a href="https://alexandergentil.bandcamp.com/album/pendulum" target="_blank" alt="Bandcamp">Bandcamp</a></b> and <b><a href="https://www.beatport.com/release/pendulum/2705824" target="_blank" alt="Beatport">Beatport</a></b>.</p>
           </div>
         </div>
       </div>

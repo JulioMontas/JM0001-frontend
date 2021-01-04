@@ -28,8 +28,8 @@ function CaseStudyIndex() {
       <meta name='twitter:description' content='A luxury fragrances distribution company going B2C with their first shofity eCommerce online store' />
 
       <link rel="canonical" href="https://llegojulio.com/case-study/2" />
-      <link rel="alternate" href="https://llegojulio.com/case-study/2" hreflang="en" />
-      <link rel="alternate" href="https://llegojulio.com/es/case-study/2" hreflang="es" />
+      <link rel="alternate" href="https://llegojulio.com/en-us/case-study/2/" hreflang="en-us" />
+      <link rel="alternate" href="https://llegojulio.com/es-us//case-study/2/" hreflang="es-us" />
     </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}
@@ -41,7 +41,7 @@ function CaseStudyIndex() {
             <h2>{t('title_02')}</h2>
             <div className={styles.secExit}>
               <Link href="/case-study">
-                <a alt="Page Exit" rel="alternate" hreflang="en">
+                <a alt="Page Exit">
                   <span>Close page</span>
                 </a>
               </Link>

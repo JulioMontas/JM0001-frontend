@@ -27,8 +27,8 @@ function ProjectIndex() {
           <meta name='twitter:description' content='A two-player game in which you must defeat your opponents by clicking to take over the screen' />
 
           <link rel="canonical" href="https://llegojulio.com/side-project/width" />
-          <link rel="alternate" href="https://llegojulio.com/side-project/width" hreflang="en" />
-          <link rel="alternate" href="https://llegojulio.com/es/side-project/width" hreflang="es" />
+          <link rel="alternate" href="https://llegojulio.com/en-us/side-project/width/" hreflang="en-us" />
+          <link rel="alternate" href="https://llegojulio.com/es-us/side-project/width/" hreflang="es-us" />
       </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}
@@ -43,7 +43,7 @@ function ProjectIndex() {
                     </div>
                     <div className={styles.secExit}>
                         <Link href="/side-project">
-                            <a alt="Page Exit" rel="alternate" hreflang="en">
+                            <a alt="Page Exit">
                                 <span>Close page</span>
                             </a>
                         </Link>

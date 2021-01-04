@@ -27,7 +27,7 @@ function CaseStudyIndex() {
       <meta property='og:description' content='The second EP of ERRANT Recordings with a style of ambient and minimal tech house' />
       <meta name='twitter:description' content='The second EP of ERRANT Recordings with a style of ambient and minimal tech house' />
 
-      <link rel="canonical" href="https://llegojulio.com/case-study/1" />
+      <link rel="canonical" href="https://llegojulio.com/en-us/case-study/1/" />
       <link rel="alternate" href="https://llegojulio.com/en-us/case-study/1/" hreflang="en-us" />
       <link rel="alternate" href="https://llegojulio.com/es-us/case-study/1/" hreflang="es-us" />
       </Head>

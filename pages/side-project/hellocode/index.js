@@ -26,7 +26,7 @@ function ProjectIndex() {
           <meta property='og:description' content='List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present' />
           <meta name='twitter:description' content='List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present' />
 
-          <link rel="canonical" href="https://llegojulio.com/side-project/hellocode" />
+          <link rel="canonical" href="https://llegojulio.com/en-us/side-project/hellocode/" />
           <link rel="alternate" href="https://llegojulio.com/en-us/side-project/hellocode/" hreflang="en-us" />
           <link rel="alternate" href="https://llegojulio.com/es-us/side-project/hellocode/" hreflang="es-us" />
       </Head>

@@ -26,7 +26,7 @@ function ProjectIndex() {
           <meta property='og:description' content='A social experiment using the top social media channels to farm users sensitive data' />
           <meta name='twitter:description' content='A social experiment using the top social media channels to farm users sensitive data' />
 
-          <link rel="canonical" href="https://llegojulio.com/side-project/surveillance" />
+          <link rel="canonical" href="https://llegojulio.com/en-us/side-project/surveillance/" />
           <link rel="alternate" href="https://llegojulio.com/en-us/side-project/surveillance/" hreflang="en-us" />
           <link rel="alternate" href="https://llegojulio.com/es-us/side-project/surveillance/" hreflang="es-us" />
           </Head>

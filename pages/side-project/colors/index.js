@@ -26,7 +26,7 @@ function ProjectIndex() {
             <meta property='og:description' content='Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory' />
             <meta name='twitter:description' content='Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory' />
 
-            <link rel="canonical" href="https://llegojulio.com/side-project/colors" />
+            <link rel="canonical" href="https://llegojulio.com/en-us/side-project/colors/" />
             <link rel="alternate" href="https://llegojulio.com/en-us/side-project/colors/" hreflang="en-us" />
             <link rel="alternate" href="https://llegojulio.com/es-us/side-project/colors/" hreflang="es-us" />
         </Head>

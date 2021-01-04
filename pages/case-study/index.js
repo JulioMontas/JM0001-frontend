@@ -26,7 +26,7 @@ function caseStudy({ posts }) {
       <meta property='og:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
       <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
 
-      <link rel="canonical" href="https://llegojulio.com/case-study/" />
+      <link rel="canonical" href="https://llegojulio.com/en-us/case-study/" />
       <link rel="alternate" href="https://llegojulio.com/en-us/case-study/" hreflang="en-us" />
       <link rel="alternate" href="https://llegojulio.com/es-us/case-study/" hreflang="es-us" />
     </Head>

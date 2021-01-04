@@ -27,7 +27,7 @@ function CaseStudyIndex() {
       <meta property='og:description' content='A multi-talented EDM / Pop artist, songwriter and producer with more than 50+ songs release, looking for a space to connected with her #trueFan' />
       <meta name='twitter:description' content='A multi-talented EDM / Pop artist, songwriter and producer with more than 50+ songs release, looking for a space to connected with her #trueFan' />
 
-      <link rel="canonical" href="https://llegojulio.com/case-study/3" />
+      <link rel="canonical" href="https://llegojulio.com/en-us/case-study/3/" />
       <link rel="alternate" href="https://llegojulio.com/en-us/case-study/3/" hreflang="en-us" />
       <link rel="alternate" href="https://llegojulio.com/es-us/case-study/3/" hreflang="es-us" />
     </Head>

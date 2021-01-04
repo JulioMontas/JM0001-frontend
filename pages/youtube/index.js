@@ -24,7 +24,7 @@ function Youtube({ posts }) {
       <meta property='og:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
       <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
 
-      <link rel="canonical" href="https://llegojulio.com/youtube/" />
+      <link rel="canonical" href="https://llegojulio.com/en-us/youtube/" />
       <link rel="alternate" href="https://llegojulio.com/en-us/youtube/" hreflang="en-us" />
       <link rel="alternate" href="https://llegojulio.com/es-us/youtube/" hreflang="es-us" />
     </Head>

@@ -27,7 +27,7 @@ function CaseStudyIndex() {
       <meta property='og:description' content='A luxury fragrances distribution company going B2C with their first shofity eCommerce online store' />
       <meta name='twitter:description' content='A luxury fragrances distribution company going B2C with their first shofity eCommerce online store' />
 
-      <link rel="canonical" href="https://llegojulio.com/case-study/2" />
+      <link rel="canonical" href="https://llegojulio.com/en-us/case-study/2/" />
       <link rel="alternate" href="https://llegojulio.com/en-us/case-study/2/" hreflang="en-us" />
       <link rel="alternate" href="https://llegojulio.com/es-us//case-study/2/" hreflang="es-us" />
     </Head>

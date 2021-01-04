@@ -26,7 +26,7 @@ function ProjectIndex() {
           <meta property='og:description' content='Reward self task manager to stimulate your existence' />
           <meta name='twitter:description' content='Reward self task manager to stimulate your existence' />
 
-          <link rel="canonical" href="https://llegojulio.com/side-project/meliorem" />
+          <link rel="canonical" href="https://llegojulio.com/en-us/side-project/meliorem/" />
           <link rel="alternate" href="https://llegojulio.com/en-us/side-project/meliorem/" hreflang="en-us" />
           <link rel="alternate" href="https://llegojulio.com/es-us/side-project/meliorem/" hreflang="es-us" />
       </Head>

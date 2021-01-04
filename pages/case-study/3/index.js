@@ -28,8 +28,8 @@ function CaseStudyIndex() {
       <meta name='twitter:description' content='A multi-talented EDM / Pop artist, songwriter and producer with more than 50+ songs release, looking for a space to connected with her #trueFan' />
 
       <link rel="canonical" href="https://llegojulio.com/case-study/3" />
-      <link rel="alternate" href="https://llegojulio.com/case-study/3" hrefLang="en" />
-      <link rel="alternate" href="https://llegojulio.com/es/case-study/3" hrefLang="es" />
+      <link rel="alternate" href="https://llegojulio.com/case-study/3" hreflang="en" />
+      <link rel="alternate" href="https://llegojulio.com/es/case-study/3" hreflang="es" />
     </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}

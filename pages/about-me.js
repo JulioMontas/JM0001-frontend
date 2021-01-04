@@ -25,8 +25,8 @@ function AboutMe() {
       <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
 
       <link rel="canonical" href="https://llegojulio.com/" />
-      <link rel="alternate" href="https://llegojulio.com/about-me" hrefLang="en" />
-      <link rel="alternate" href="https://llegojulio.com/es/about-me" hrefLang="es" />
+      <link rel="alternate" href="https://llegojulio.com/about-me" hreflang="en" />
+      <link rel="alternate" href="https://llegojulio.com/es/about-me" hreflang="es" />
     </Head>
     <div className={styles.container}>
       <div className={styles.wrapper}>

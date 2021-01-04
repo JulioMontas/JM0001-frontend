@@ -25,8 +25,8 @@ function ProjectIndex() {
           <meta name='twitter:description' content='A social experiment using the top social media channels to farm users sensitive data' />
 
           <link rel="canonical" href="https://llegojulio.com/side-project/surveillance" />
-          <link rel="alternate" href="https://llegojulio.com/side-project/surveillance" hrefLang="en" />
-          <link rel="alternate" href="https://llegojulio.com/es/side-project/surveillance" hrefLang="es" />
+          <link rel="alternate" href="https://llegojulio.com/side-project/surveillance" hreflang="en" />
+          <link rel="alternate" href="https://llegojulio.com/es/side-project/surveillance" hreflang="es" />
           </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}

@@ -28,8 +28,8 @@ function CaseStudyIndex() {
       <meta name='twitter:description' content='A luxury fragrances distribution company going B2C with their first shofity eCommerce online store' />
 
       <link rel="canonical" href="https://llegojulio.com/case-study/2" />
-      <link rel="alternate" href="https://llegojulio.com/case-study/2" hrefLang="en" />
-      <link rel="alternate" href="https://llegojulio.com/es/case-study/2" hrefLang="es" />
+      <link rel="alternate" href="https://llegojulio.com/case-study/2" hreflang="en" />
+      <link rel="alternate" href="https://llegojulio.com/es/case-study/2" hreflang="es" />
     </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}

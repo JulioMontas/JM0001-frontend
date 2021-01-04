@@ -27,8 +27,8 @@ function sideProject({ posts }) {
       <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
 
       <link rel="canonical" href="https://llegojulio.com/side-project/" />
-      <link rel="alternate" href="https://llegojulio.com/side-project/" hrefLang="en" />
-      <link rel="alternate" href="https://llegojulio.com/es/side-project/" hrefLang="es" />
+      <link rel="alternate" href="https://llegojulio.com/side-project/" hreflang="en" />
+      <link rel="alternate" href="https://llegojulio.com/es/side-project/" hreflang="es" />
     </Head>
     <div className={styles.container}>
     <motion.div 

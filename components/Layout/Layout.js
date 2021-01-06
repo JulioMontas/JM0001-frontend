@@ -57,7 +57,8 @@ const Layout = ({children}) => {
                   {/* <svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.864 9.43322L7.91659 7.30877C7.8287 7.21289 7.70955 7.15961 7.58454 7.15961H7.26616C7.80526 6.40743 8.1256 5.46134 8.1256 4.43214C8.1256 1.98381 6.3071 0 4.0628 0C1.81849 0 0 1.98381 0 4.43214C0 6.88048 1.81849 8.86428 4.0628 8.86428C5.00623 8.86428 5.87348 8.51483 6.56298 7.92672V8.27404C6.56298 8.41042 6.61181 8.5404 6.69971 8.63628L8.64712 10.7607C8.83072 10.961 9.12762 10.961 9.30927 10.7607L9.86205 10.1577C10.0457 9.95741 10.0457 9.63352 9.864 9.43322ZM4.0628 7.15961C2.68184 7.15961 1.56261 5.94078 1.56261 4.43214C1.56261 2.92564 2.67988 1.70467 4.0628 1.70467C5.44376 1.70467 6.56298 2.92351 6.56298 4.43214C6.56298 5.93864 5.44571 7.15961 4.0628 7.15961Z" fill="#F8E71C"/></svg> */}
                   <Link href="/case-study">
                     <a alt="Case Study">
-                      {t('caseStudy')}
+                      {/* {t('caseStudy')} */}
+                      Case Studies
                     </a>
                   </Link>
                   </div>
@@ -87,13 +88,13 @@ const Layout = ({children}) => {
                   {/* <svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.5 5C5.92031 5 7.07143 3.88086 7.07143 2.5C7.07143 1.11914 5.92031 0 4.5 0C3.07969 0 1.92857 1.11914 1.92857 2.5C1.92857 3.88086 3.07969 5 4.5 5ZM6.3 5.625H5.96451C5.51853 5.82422 5.02232 5.9375 4.5 5.9375C3.97768 5.9375 3.48348 5.82422 3.03549 5.625H2.7C1.20937 5.625 0 6.80078 0 8.25V9.0625C0 9.58008 0.43192 10 0.964286 10H8.03571C8.56808 10 9 9.58008 9 9.0625V8.25C9 6.80078 7.79063 5.625 6.3 5.625Z" fill="#F8E71C"/></svg> */}
                   <Link href="/youtube">
                     <a alt="YouTube">
-                      Youtube
+                      Blog
                     </a>
                   </Link>
                   </div>
                 </SwiperSlide>
               </Swiper>
-            </footer>
+              <div class="cui-embed" data-cui-uid="IBnyOp" data-cui-avatar="https://images.typeform.com/images/5jv4sQjwBhai" data-cui-mode="pill" data-cui-pill-button-color="#F3CD59"></div><script src="https://public-assets.typeform.com/confab/embed.js" async></script>            </footer>
         </div>
     )
 };

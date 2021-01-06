@@ -64,6 +64,7 @@ function ProjectIndex() {
                     layout="responsive"
                     loading="eager"
                     />
+                    <p className={styles.textUnderImg}>Mockup A01</p>
                     <Swiper
                     speed={400}
                     onSlideChange={() => console.log('slide change')}

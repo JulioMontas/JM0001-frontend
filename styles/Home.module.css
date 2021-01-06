@@ -18,6 +18,7 @@
     line-height: 28px;
     font-weight: normal;
     letter-spacing: 0.15em;
+    margin-bottom: 15px;
 }
 .main{
     height: var(--screen-height);

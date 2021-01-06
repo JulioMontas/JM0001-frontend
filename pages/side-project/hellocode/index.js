@@ -64,7 +64,7 @@ function ProjectIndex() {
                     layout="responsive"
                     loading="eager"
                     />
-                    <p>{t('uiDesignContent_01a')}</p>
+                    <p className={styles.textUnderImg}>{t('uiDesignContent_01a')}</p>
                     <Swiper
                     speed={400}
                     onSlideChange={() => console.log('slide change')}
@@ -111,7 +111,7 @@ function ProjectIndex() {
                 <div className={styles.flipSwitch}>
                     <h3>URL</h3>
                     <div>
-                        <ul>
+                        <ul className={styles.secTextList}>
                             <li><a href="https://bfacd.parsons.edu/2013/helloco-de" target="_blank">The New School BFA Thesis 2013</a></li>
                             <li><a href="https://twitter.com/msdev/status/485951332105195520" target="_blank">Microsoft Developer Tweet</a></li>
                         </ul>

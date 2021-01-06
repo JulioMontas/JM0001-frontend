@@ -53,6 +53,20 @@ function AboutMe() {
         >
           <SwiperSlide>
             <div className={styles.main}>
+              <h2 className={styles.title}> Information Technology (IT)</h2>
+              <p>Minimal Designer using Sketch, Figma, or Private Custom Apps I like to Prototype in HTML, CSS, Javascript, and InVision do my Hosting in AWS, Github, Raspberry Pi using any Operating System (OS) Linux (<s>Slackware</s> / Debian), macOS, or Microsoft Windows</p>
+          <ul>
+            <li>Connect with Me:</li>
+            <li><a href={`https://dribbble.com/juliomontas`} alt="Discord - Talk, Chat, Hang Out.">Dribbble</a></li>
+            <li><a href={`https://dribbble.com/juliomontas`} alt="Discord - Talk, Chat, Hang Out.">SoundCloud</a></li>
+            <li><a href={`https://discord.gg/b9gTvyB2Qe`} alt="Discord - Talk, Chat, Hang Out.">Discord - Let's Talk, Chat, Hang Out</a></li>
+            <li><a href={`https://discord.gg/b9gTvyB2Qe`} alt="Sign up as a beta user">Beta Tester - Sign Up</a></li>
+            <li><a href={`https://discord.gg/b9gTvyB2Qe`} alt="Sign up as a beta user">Minecraft Server - Open from 4pm to 11pm</a></li>
+        </ul>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.main}>
               <h2 className={styles.title}>{t('research')}</h2>
               <svg className={styles.artwork} width="487" height="274" viewBox="0 0 487 274" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M25.4056 39.4969H3.28957C2.56746 39.4961 1.87516 39.2095 1.36455 38.7C0.853936 38.1905 0.566719 37.4997 0.565918 36.7792V10.738C0.566719 10.0174 0.853936 9.32662 1.36455 8.81712C1.87516 8.30763 2.56746 8.02106 3.28957 8.02026H25.4056C26.1278 8.02106 26.8201 8.30763 27.3307 8.81712C27.8413 9.32662 28.1285 10.0174 28.1293 10.738V36.7792C28.1285 37.4997 27.8413 38.1905 27.3307 38.7C26.8201 39.2095 26.1278 39.4961 25.4056 39.4969Z" fill="#FFFC00"/>

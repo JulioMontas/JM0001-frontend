@@ -64,7 +64,7 @@ function ProjectIndex() {
                     layout="responsive"
                     loading="eager"
                     />
-                    <p>{t('uiDesignContent_04a')}</p>
+                    <p className={styles.textUnderImg}>{t('uiDesignContent_04a')}</p>
                     <Swiper
                     speed={400}
                     onSlideChange={() => console.log('slide change')}

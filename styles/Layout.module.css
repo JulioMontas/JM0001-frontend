@@ -2,6 +2,11 @@
 .footer{
     padding-left: 10px;
 }
+.header,
+.changeLang{
+    display: flex;
+    justify-content: space-between;
+}
 .changeLang{
     grid-area: changeLang;
     color: white;

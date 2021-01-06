@@ -141,6 +141,7 @@ function sideProject({ posts }) {
           </div>
         </SwiperSlide>
       </Swiper>
+      <a href={`https://discord.gg/b9gTvyB2Qe`} alt="Sign up as a beta user">Sign up as a beta user</a>
     </motion.div>
     </div>
   </Layout>

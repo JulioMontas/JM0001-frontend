@@ -10,7 +10,6 @@ import styles from '../styles/Home.module.css'
 
 function HomePage({ props }) {
   const { t } = useTranslation('home')
-
   return <Layout>
     <Head>
       <title>Llegó Julio - {t('title')}</title>
@@ -69,8 +68,8 @@ function HomePage({ props }) {
       </SwiperSlide>
       <SwiperSlide>
       <div  className={styles.sectionDos}>
-        <p>{t('description')}</p>
-        {/* <p>Interested in the evolution of technology in our daily lives and how it’s affecting our behavior. Currently working as a <b>UI/UX Designer</b> with some <b>Front-end Development</b> based in NYC, experience with startup, private companies and creative agency.<br/><br/> Alumnus from <b>Altos de Chavón</b>, <b>Parsons</b> / <b>The New School</b> and <b>General Assembly</b> coding bootcamp.<br/> <br/>  In my free time, I like to explore the other side of the internet and mixed minimal house / techno for others to relax and dance.</p> */}
+        <p>{t('descriptionA')}</p>
+        <p>{t('descriptionB')}</p>
       </div>
       </SwiperSlide>
     </Swiper>
@@ -81,7 +80,6 @@ function HomePage({ props }) {
 }
 
 export const getStaticProps = async () => ({
-
   props: {
     namespacesRequired: ['home'],
   }

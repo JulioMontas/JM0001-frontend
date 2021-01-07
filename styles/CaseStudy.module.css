@@ -19,7 +19,7 @@
   transition: opacity .40s ease-in-out;
   position: relative;
   margin: 70px auto 60px auto;
-  animation:giro 45s infinite linear;
+  animation: giro 25s infinite linear;
   transform-style:preserve-3d;
 }
 @keyframes giro {
@@ -51,11 +51,6 @@
 .cube div.cara4 {transform:rotateY(-90deg) translateZ(100px);}
 .cube div.cara5 {transform:rotateX(-90deg) translateZ(100px) rotate(180deg);}
 .cube div.cara6 {transform:rotateX(90deg) translateZ(100px);}
-.cubeWrapper{
-  transform: scale(0.6);
-  margin-bottom: -25px;
-  transition: all 1s ease-in-out;
-}
 .title{
   font-family: var(--fonts-title);
   text-transform: uppercase;
@@ -91,13 +86,10 @@
     opacity: 1;
     filter: var(--box-shadow);
   }
-  .main a:hover .cube {
-    animation:giroFast 15s infinite linear;
-  }
-  @keyframes giroFast {
-    0% { transform: rotateX(780deg) rotateY(780deg);}
-    50% { transform: rotateX(0deg) rotateY(0deg);}
-    100% { transform: rotateX(1080deg) rotateY(360deg);}
+  .cubeWrapper{
+    transform: scale(0.6);
+    margin-bottom: -25px;
+    transition: all 1s ease-in-out;
   }
   .main a:hover .cubeWrapper{
     transform: scale(0.8);

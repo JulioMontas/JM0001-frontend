@@ -64,8 +64,6 @@
     .main a{
         opacity: 0.6;
         filter: none;
-        transition: all 1s ease;
-        display: inline-block;
     }
     .main a:hover{
         opacity: 1;

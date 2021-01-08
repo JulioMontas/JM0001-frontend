@@ -30,11 +30,11 @@ function sideProject({ posts }) {
       <link rel="alternate" href="https://llegojulio.com/en-us/side-project/" hreflang="en-us" />
       <link rel="alternate" href="https://llegojulio.com/es-us/side-project/" hreflang="es-us" />
     </Head>
+    <div className={styles.container}>
     <motion.div 
        initial={{ x: 600, opacity: 0 }}
        animate={{ x: 0, opacity: 1 }}
        exit={{ x: -600, opacity: 0 }}>
-         <div className={styles.container}>
          <Swiper
          speed={400}
          onSlideChange={() => console.log('slide change')}
@@ -57,12 +57,14 @@ function sideProject({ posts }) {
                <Link href={`/side-project/hellocode`}>
                  <a alt={t('title_01')}>
                    <h3 className={styles.blgSummery}>{t('content_01')}</h3>
-                   <Image
+                   <div className={styles.foto}>
+                     <Image
                      src="/img/side-project/hc/hc02.gif"
                      alt="Picture of the author"
                      width={1422}
                      height={688}
-                   />
+                     />
+                   </div>
                    <h2 className={styles.blgTitle}>{t('title_01')}</h2>
                 </a>
                </Link>
@@ -141,8 +143,8 @@ function sideProject({ posts }) {
           </div>
         </SwiperSlide>
       </Swiper>
-      </div>
     </motion.div>
+    </div>
   </Layout>
 }
 

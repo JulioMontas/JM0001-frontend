@@ -69,6 +69,7 @@ function HomePage({ props }) {
       <SwiperSlide>
       <div  className={styles.sectionDos}>
         <p>{t('descriptionA')}</p>
+        <p>Minimal Designer using <b>Sketch</b>, <b>Figma</b>, and <b>Private Custom Apps</b> I build my prototypes in <b>HTML</b>, <b>CSS</b>, <b>Javascript</b>, <b>WebVR</b>, and <b>InVision</b> do my cloud stuff at <b>AWS</b>, <b>Github</b>, or any <b>Raspberry Pi</b> I find running <b>Debian Linux</b>.</p>
         <p>{t('descriptionB')}</p>
       </div>
       </SwiperSlide>

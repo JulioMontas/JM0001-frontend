@@ -15,6 +15,27 @@
     line-height: 22px;
     filter: var(--box-shadow);
 }
+.secTextList{
+    margin-top: 1em;
+    font-size: 14px;
+    line-height: 25px;
+    margin-left: 10px;
+  }
+  .secTextList li{
+    margin-bottom: 10px;
+    line-height: 25px;
+  }
+  .secTextList li:last-child{
+    margin-bottom: 0;
+  }
+  .secTextList li::before {
+    content: "•";
+    color: #f8e71c;
+    position: absolute;
+    margin-left: -12px;
+    margin-top: 1px;
+    font-size: 1.5em;
+  }
 /* Mobile 320px  */
 @media screen and (min-width: 30em) {}
 /* Table 768px */

@@ -303,7 +303,9 @@ function ProjectIndex() {
                 
                 <div className={styles.flipSwitch}>
                     <h3>URL</h3>
-                    <a href="https://www.youtube.com/watch?v=ZTbdu-VR59U" target="_blank">Art-A-Hack 2015 - Final Presentations - Surveillance Culture - Youtube</a>
+                    <ul className={styles.secTextList}>
+                      <li><a href="https://www.youtube.com/watch?v=ZTbdu-VR59U" target="_blank">Art-A-Hack 2015 - Final Presentations - Surveillance Culture - Youtube</a></li>
+                    </ul>
                 </div>
                 <div className={styles.flipSwitch}>
                     <h3>More Side Projects</h3>

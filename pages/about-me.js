@@ -53,16 +53,10 @@ function AboutMe() {
         >
           <SwiperSlide>
             <div className={styles.main}>
-              <h2 className={styles.title}> Information Technology (IT)</h2>
-              <p>Minimal Designer using Sketch, Figma, or Private Custom Apps I like to Prototype in HTML, CSS, Javascript, and InVision do my Hosting in AWS, Github, Raspberry Pi using any Operating System (OS) Linux (<s>Slackware</s> / Debian), macOS, or Microsoft Windows</p>
-          <ul>
-            <li>Connect with Me:</li>
-            <li><a href={`https://dribbble.com/juliomontas`} alt="Discord - Talk, Chat, Hang Out.">Dribbble</a></li>
-            <li><a href={`https://dribbble.com/juliomontas`} alt="Discord - Talk, Chat, Hang Out.">SoundCloud</a></li>
-            <li><a href={`https://discord.gg/b9gTvyB2Qe`} alt="Discord - Talk, Chat, Hang Out.">Discord - Let's Talk, Chat, Hang Out</a></li>
-            <li><a href={`https://discord.gg/b9gTvyB2Qe`} alt="Sign up as a beta user">Beta Tester - Sign Up</a></li>
-            <li><a href={`https://discord.gg/b9gTvyB2Qe`} alt="Sign up as a beta user">Minecraft Server - Open from 4pm to 11pm</a></li>
-        </ul>
+              <h2 className={styles.title}>Houses of Wisdom دار الحكمة‎</h2>
+              <p>Alumnus <b> <a href="https://www.youtube.com/watch?v=zmsRNu4KVH8">CHAVÓNERO</a></b>, <b><a href="https://bfacd.parsons.edu/2013/helloco-de">The New School</a></b>, <b><a href="https://generalassemb.ly/education/software-engineering-immersive/new-york-city">General Assembly</a></b> intensive coding bootcamp, <a href="https://artahack.io/about/"><b>Art-A-Hack</b></a>, and <b><a href="https://www.youtube.com/watch?v=_PG2y_ZTGEY">Lehman College</a></b> Virtual Reality (VR).</p>
+              <p>-</p>
+              <p>Next step in my roadmap is to study for the <b>CompTIA PenTest+</b> that is an cybersecurity certification.</p>
           </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -881,7 +875,22 @@ function AboutMe() {
                 <p className={styles.description}>{t('repeatSummary')}</p>
               </div>
               </SwiperSlide>
-              <SwiperSlide></SwiperSlide>
+              <SwiperSlide>
+              <div className={styles.main}>
+                <h2 className={styles.title}>Connect with Me</h2>
+                <ul className={styles.secTextList}>
+                  <li>
+                    <a href={`https://discord.gg/b9gTvyB2Qe`} alt="Discord - Let's Talk, Chat, Hang Out">Discord - Let's Talk, Chat, Hang Out</a>
+                  </li>
+                  <li>
+                    <a href={`#`} alt="Beta Tester - Sign Up">Beta Tester - Sign Up</a>
+                  </li>
+                  <li>
+                    <a href={`#`} alt="Minecraft Server 1.16.5, Close">Minecraft Server 1.16.5 | Close</a>
+                  </li>
+                  </ul>
+                </div>
+              </SwiperSlide>
             </Swiper> 
     </motion.div>
     </div>

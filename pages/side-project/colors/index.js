@@ -106,6 +106,16 @@ function ProjectIndex() {
                         </SwiperSlide>
                     </Swiper>
                 </div>
+
+                {/* URL */}
+          <div className={styles.flipSwitch}>
+            <h3>URL</h3>
+            <ul className={styles.secTextList}>
+              <li>
+                <a href="#" target="_blank">Beta Tester - Sign Up</a>
+              </li>
+            </ul>
+          </div>
                 
                 
                 

@@ -1,3 +1,6 @@
+.activeCTAfooter{
+background: red;
+}
 .container,
 .main{
   height: var(--screen-height);

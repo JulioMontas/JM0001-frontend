@@ -30,11 +30,11 @@ function sideProject({ posts }) {
       <link rel="alternate" href="https://llegojulio.com/en-us/side-project/" hreflang="en-us" />
       <link rel="alternate" href="https://llegojulio.com/es-us/side-project/" hreflang="es-us" />
     </Head>
-    <div className={styles.container}>
     <motion.div 
        initial={{ x: 600, opacity: 0 }}
        animate={{ x: 0, opacity: 1 }}
        exit={{ x: -600, opacity: 0 }}>
+         <div className={styles.container}>
          <Swiper
          speed={400}
          onSlideChange={() => console.log('slide change')}
@@ -68,7 +68,7 @@ function sideProject({ posts }) {
                </Link>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+           <SwiperSlide>
           <div className={styles.main}>
             <Link href={`/side-project/surveillance`}>
               <a alt={t('title_02')}>
@@ -86,7 +86,7 @@ function sideProject({ posts }) {
             </Link>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+           <SwiperSlide>
           <div className={styles.main}>
               <Link href={`/side-project/width`}>
                 <a alt={t('title_03')}>
@@ -104,7 +104,7 @@ function sideProject({ posts }) {
               </Link>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+           <SwiperSlide>
           <div className={styles.main}>
             <Link href={`/side-project/meliorem`}>
               <a alt={t('title_04')}>
@@ -122,7 +122,7 @@ function sideProject({ posts }) {
             </Link>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+           <SwiperSlide>
           <div className={styles.main}>
             <Link href={`/side-project/colors`}>
               <a alt={t('title_05')}>
@@ -141,9 +141,8 @@ function sideProject({ posts }) {
           </div>
         </SwiperSlide>
       </Swiper>
-      {/* <a href={`https://discord.gg/b9gTvyB2Qe`} alt="Sign up as a beta user">Sign up as a beta user</a> */}
+      </div>
     </motion.div>
-    </div>
   </Layout>
 }
 

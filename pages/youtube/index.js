@@ -31,6 +31,7 @@ function Youtube({ posts }) {
     <div className={styles.container}>
         <div className={styles.articleList}>
             <h2>{t('title')}</h2>
+            <a href="" >Sign up</a>
         </div>
     </div>
   </Layout>

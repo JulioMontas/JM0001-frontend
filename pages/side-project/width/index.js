@@ -144,7 +144,9 @@ function ProjectIndex() {
                 </div>
                 <div className={styles.flipSwitch}>
                     <h3>URL</h3>
-                    <a href="https://width.herokuapp.com" target="_blank">Prototype Demo</a>
+                    <ul className={styles.secTextList}>
+                      <li><a href="https://width.herokuapp.com" target="_blank">Prototype Demo</a></li>
+                    </ul>
                 </div>
                 <div className={styles.flipSwitch}>
                     <h3>More Side Projects</h3>

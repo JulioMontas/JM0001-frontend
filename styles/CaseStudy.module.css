@@ -61,7 +61,6 @@
 .description{
   color: #FFF;
   font-size: 13px;
-  /* margin: 0 0 -70px 0; */
   transition: all 1s ease;
 }
 /* Mobile 320px  */
@@ -77,7 +76,7 @@
     height: 100%;
   }
   .main a{
-    /* opacity: 0.6; */
+    opacity: 0.6;
     filter: none;
     transition: all 1s ease;
     display: inline-block;
@@ -87,17 +86,12 @@
     opacity: 1;
   }
   .cubeWrapper{
-    transform: scale(0.9);
-    /* margin-bottom: -25px; */
+    transform: scale(1);
     transition: all 1s ease-in-out;
   }
   .main a:hover .cubeWrapper{
-    transform: scale(0.7);
+    transform: scale(0.8);
  }
-    /*
-  .main a:hover .description{
-    margin: 0 0 -50px 0;
-  } */
 }
 /* Desktop 1920px */
 @media screen and (min-width: 120em) {

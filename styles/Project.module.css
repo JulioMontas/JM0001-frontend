@@ -61,10 +61,10 @@
     filter: var(--box-shadow);
 }
 .main img{
-    transform: scale(0.8);
+    transform: scale(1);
 }
 .main a:hover img{
-    transform: scale(1);
+    transform: scale(0.8);
     opacity: 1;
 }
 .main a:hover .blgSummery{

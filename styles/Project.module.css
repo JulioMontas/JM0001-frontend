@@ -37,7 +37,7 @@
     letter-spacing: 1px;
     /* margin: 12px 0 -13px 0; */
     /* width: 210px; */
-    background: red;
+    background: gold;
     height: 59px;
 }
 
@@ -54,9 +54,10 @@
     transform: scale(0.8);
 }
 
-/* .main a:hover .blgSummery{
+.main a:hover .blgSummery{
     margin: 0 0 -18px 0;
-} */
+    /* height: 35px; */
+}
 
 
 /* Mobile 320px  */

@@ -17,7 +17,7 @@
     75%{border-radius: 70% 30% 30% 70% / 60% 40% 20% 40%}
     100%{border-radius: 18% 82% 37% 70% / 44% 40% 54% 40%}
 }
-.main .blgTitle{
+/* .main .blgTitle{
     font-size: 22px;
     font-weight: bold;
     font-family: var(--fonts-title);
@@ -31,6 +31,44 @@
     letter-spacing: 0.5px;
     width: 330px;
     color: #FFF;
+}
+
+ */
+
+
+
+
+
+
+.main .blgTitle{ 
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.main .blgSummery{
+    font-size: 13px;
+    line-height: 18px;
+    margin: 0 0 -40px 0;
+    transition: all 1s ease;
+}
+.main a{
+    opacity: 0.6;
+    filter: none;
+}
+.main a:hover{
+    opacity: 1;
+    filter: var(--box-shadow);
+}
+.main img{
+    transform: scale(0.8);
+}
+.main a:hover img{
+    transform: scale(1);
+    opacity: 1;
+}
+.main a:hover .blgSummery{
+    margin: 0 0 -20px 0;
 }
 /* Mobile 320px  */
 @media screen and (min-width: 30em) {}
@@ -48,36 +86,6 @@
     .main .blgSummery{
         width: 210px;
         height: 66px;
-    }
-    .main .blgTitle{ 
-        font-size: 16px;
-        line-height: 21px;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-    }
-    .main .blgSummery{
-        font-size: 13px;
-        line-height: 18px;
-        margin: 0 0 -40px 0;
-        transition: all 1s ease;
-    }
-    .main a{
-        opacity: 0.6;
-        filter: none;
-    }
-    .main a:hover{
-        opacity: 1;
-        filter: var(--box-shadow);
-    }
-    .main img{
-        transform: scale(0.8);
-    }
-    .main a:hover img{
-        transform: scale(1);
-        opacity: 1;
-    }
-    .main a:hover .blgSummery{
-        margin: 0 0 -20px 0;
     }
 }
 /* Desktop 1920px */

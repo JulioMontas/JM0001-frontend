@@ -15,36 +15,32 @@ function caseStudy({ posts }) {
       <title>Case Study - UI Developer • Interaction Designer | Llegó Julio</title>
       <meta name='twitter:url' content='https://llegojulio.com/case-study/' />
       <meta property='og:url' content='https://llegojulio.com/case-study/' />
-      
       <meta property='og:image' content='https://llegojulio.com/me.png' />
       <meta name='twitter:image' content='https://llegojulio.com/me.png' />
-
       <meta property='og:title' content='Case Study | UI Developer • Interaction Designer' />
       <meta name='twitter:title' content='Case Study | UI Developer • Interaction Designer' />
-
       <meta name="description" content="Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC." key="description"/>
       <meta property='og:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
       <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
-
       <link rel="canonical" href="https://llegojulio.com/en-us/case-study/" />
       <link rel="alternate" href="https://llegojulio.com/en-us/case-study/" hreflang="en-us" />
       <link rel="alternate" href="https://llegojulio.com/es-us/case-study/" hreflang="es-us" />
     </Head>
     <div className={styles.container}>
-    <motion.div 
-       initial={{ x: 600, opacity: 0 }}
-       animate={{ x: 0, opacity: 1 }}
-       exit={{ x: -600, opacity: 0 }}>
-          <Swiper
-          speed={400}
-          onSlideChange={() => console.log('slide change')}
-          onSwiper={(swiper) => console.log(swiper)}
-          breakpoints={{ 
-            320: {
-              slidesPerView: 1,
-              spaceBetween: 20,
-              width: 300
-            },
+      <motion.div 
+      initial={{ x: 600, opacity: 0 }}
+      animate={{ x: 0, opacity: 1 }}
+      exit={{ x: -600, opacity: 0 }}>
+        <Swiper
+        speed={400}
+        onSlideChange={() => console.log('slide change')}
+        onSwiper={(swiper) => console.log(swiper)}
+        breakpoints={{ 
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            width: 300
+          },
             1200: {
               slidesPerView: 3,
               spaceBetween: 20,

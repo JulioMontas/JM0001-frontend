@@ -57,14 +57,12 @@ function sideProject({ posts }) {
                <Link href={`/side-project/hellocode`}>
                  <a alt={t('title_01')}>
                    <h3 className={styles.blgSummery}>{t('content_01')}</h3>
-                   <div className={styles.foto}>
-                     <Image
+                   <Image
                      src="/img/side-project/hc/hc02.gif"
                      alt="Picture of the author"
                      width={1422}
                      height={688}
-                     />
-                   </div>
+                    />
                    <h2 className={styles.blgTitle}>{t('title_01')}</h2>
                 </a>
                </Link>

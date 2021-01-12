@@ -4,7 +4,6 @@ import Link from 'next/link'
 import { motion, useTransform } from "framer-motion"
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
-
 import Layout from '../components/Layout/Layout'
 import styles from '../styles/Home.module.css'
 
@@ -15,21 +14,16 @@ function HomePage({ props }) {
       <title>Llegó Julio - {t('title')}</title>
       <meta name='twitter:url' content='https://llegojulio.com/' />
       <meta property='og:url' content='https://llegojulio.com/' />
-      
       <meta property='og:image' content='https://llegojulio.com/me.png' />
       <meta name='twitter:image' content='https://llegojulio.com/me.png' />
-
       <meta property='og:title' content='Llegó Julio - UI Developer • Interaction Designer' />
       <meta name='twitter:title' content='Llegó Julio - UI Developer • Interaction Designer' />
-
       <meta name="description" content="Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC." key="description"/>
       <meta property='og:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
       <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
-
       <link rel="canonical" href="https://llegojulio.com/en-us/" />
       <link rel="alternate" href="https://llegojulio.com/en-us/" hreflang="en-us" />
       <link rel="alternate" href="https://llegojulio.com/es-us/" hreflang="es-us" />
-      
     </Head>
     <div className={styles.container}>
     <motion.div 
@@ -69,7 +63,7 @@ function HomePage({ props }) {
       <SwiperSlide>
       <div  className={styles.sectionDos}>
         <p>{t('descriptionA')}</p>
-        <p>Minimal Designer using <b>Sketch</b>, <b>Figma</b>, and <b>Private Custom Apps</b> I build my prototypes in <b>HTML</b>, <b>CSS</b>, <b>Javascript</b>, <b>WebVR</b>, and <b>InVision</b> do my cloud stuff at <b>AWS</b>, <b>Github</b>, or any <b>Raspberry Pi</b> I find running <b>Debian Linux</b>.</p>
+        <p>Minimal Designer using <b>Sketch</b>, <b>Figma</b>, and <b>Private Custom Apps</b>. Building my prototypes in <b>HTML + CSS</b>, <b>Javascript</b>, <b>WebVR</b>, and <b>InVision</b> do my cloud stuff at <b>Amazon Web Services (AWS)</b>, <b>Github</b> or any <b>Raspberry Pi</b> I find running <b>Debian Linux</b>.</p>
         <p>{t('descriptionB')}</p>
       </div>
       </SwiperSlide>

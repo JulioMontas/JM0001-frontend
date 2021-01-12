@@ -4,33 +4,29 @@ import useTranslation from 'next-translate/useTranslation'
 import Layout from '../../components/Layout/Layout'
 import styles from '../../styles/Youtube.module.css'
 
-function Youtube({ posts }) {
+function Shop({ posts }) {
   
-    const { t } = useTranslation('youtube')
+    const { t } = useTranslation('common')
 
   return <Layout>
     <Head>
       <title>{t('title')} | UI Developer • Interaction Designer | Llegó Julio</title>
-      <meta name='twitter:url' content='https://llegojulio.com/youtube/' />
-      <meta property='og:url' content='https://llegojulio.com/youtube/' />
-      
+      <meta name='twitter:url' content='https://llegojulio.com/shop/' />
+      <meta property='og:url' content='https://llegojulio.com/shop/' />
       <meta property='og:image' content='https://llegojulio.com/me.png' />
       <meta name='twitter:image' content='https://llegojulio.com/me.png' />
-
-      <meta property='og:title' content='Youtube | UI Developer • Interaction Designer | Llegó Julio' />
-      <meta name='twitter:title' content='Youtube | UI Developer • Interaction Designer | Llegó Julio' />
-
+      <meta property='og:title' content='Shop | UI Developer • Interaction Designer | Llegó Julio' />
+      <meta name='twitter:title' content='Shop | UI Developer • Interaction Designer | Llegó Julio' />
       <meta name="description" content="Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC." key="description"/>
       <meta property='og:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
       <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
-
-      <link rel="canonical" href="https://llegojulio.com/en-us/youtube/" />
-      <link rel="alternate" href="https://llegojulio.com/en-us/youtube/" hreflang="en-us" />
-      <link rel="alternate" href="https://llegojulio.com/es-us/youtube/" hreflang="es-us" />
+      <link rel="canonical" href="https://llegojulio.com/shop/" />
+      <link rel="alternate" href="https://llegojulio.com/shop/" hreflang="en-us" />
+      <link rel="alternate" href="https://llegojulio.com/es-us/shop/" hreflang="es-us" />
     </Head>
     <div className={styles.container}>
         <div className={styles.articleList}>
-            <h2>{t('title')}</h2>
+            <h2>{t('comingSoon')}</h2>
             <a href="" >Sign up</a>
         </div>
     </div>
@@ -43,4 +39,4 @@ export async function getServerSideProps(context) {
   }
 }
   
-export default Youtube
+export default Shop

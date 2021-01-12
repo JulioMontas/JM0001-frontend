@@ -3,17 +3,14 @@
 
 :root {
   --screen-height: 475px;
-
   --text-color:#FFF;
   --text-secondary:#F8E71C;
   --text-secondary-hover:#FFFC00;
   --primary-color:;
   --line-height: 1.5;
-
   --background-color: linear-gradient(45deg,#72c602 0,#1cafeb 50%,#f1551d);
   --background-color-light: ;
   --background-color-dark: linear-gradient(45deg,#333 0,#000 50%,#333);
-
   --fonts-title:'Roboto Condensed', Helvetica Neue, sans-serif; 
   --fonts-summary:'Roboto', Helvetica Neue, sans-serif; 
   --box-shadow:drop-shadow(-1px 2px 4px rgba(0, 0, 0, 0.25));
@@ -78,11 +75,42 @@ li svg{
 header a{
   font-size: 0.5em;
   padding: 5px;
-  opacity: 0.6;
-  transition: all 1s ease;
 }
-header a:hover{
+/* https://www.tutorialrepublic.com/faq/show-hide-dropdown-menu-on-mouse-hover-using-css.php */
+/* ######################### */
+/* You can change this later */
+/* ######################### */
+header ul {
+  padding: 0;
+  list-style: none;
+}
+header ul li {
+  display: inline-block;
+  position: relative;
+  line-height: 21px;
+  text-align: left;
+}
+header ul li a {
+  font-weight: bold;
+  display: block;
+  padding: 18px 10px 0 0;
+  color: var(--text-secondary);
+  text-decoration: none;
+  opacity: 0.6;
+}
+header ul li ul.dropdown {
+  min-width: 100%; /* Set width of the dropdown */
+  display: none;
+  position: absolute;
+  z-index: 999;
+  left: 0;
   opacity: 1;
+}
+header ul li:hover ul.dropdown {
+  display: block; /* Display the dropdown */
+}
+header ul li ul.dropdown li {
+  display: block;
 }
 footer a{
   font-size: 14px;

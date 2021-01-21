@@ -72,10 +72,6 @@ li svg{
   padding: 0 5px 0 0;
   filter: var(--box-shadow);
 }
-header a{
-  font-size: 0.5em;
-  padding: 5px;
-}
 /* https://www.tutorialrepublic.com/faq/show-hide-dropdown-menu-on-mouse-hover-using-css.php */
 /* ######################### */
 /* You can change this later */
@@ -93,13 +89,13 @@ header ul li {
 header ul li a {
   font-weight: bold;
   display: block;
-  padding: 18px 10px 0 0;
+  /* padding: 18px 10px 0 0; */
   color: var(--text-secondary);
   text-decoration: none;
   opacity: 0.6;
 }
 header ul li ul.dropdown {
-  min-width: 100%; /* Set width of the dropdown */
+  min-width: 100%;
   display: none;
   position: absolute;
   z-index: 999;
@@ -107,7 +103,7 @@ header ul li ul.dropdown {
   opacity: 1;
 }
 header ul li:hover ul.dropdown {
-  display: block; /* Display the dropdown */
+  display: block;
 }
 header ul li ul.dropdown li {
   display: block;

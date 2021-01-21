@@ -15,26 +15,23 @@ function sideProject({ posts }) {
       <title>Side Project - UI Developer • Interaction Designer | Llegó Julio</title>
       <meta name='twitter:url' content='https://llegojulio.com/side-project/' />
       <meta property='og:url' content='https://llegojulio.com/side-project/' />
-      
       <meta property='og:image' content='https://llegojulio.com/me.png' />
       <meta name='twitter:image' content='https://llegojulio.com/me.png' />
-
       <meta property='og:title' content='Projects - UI Developer • Interaction Designer | Llegó Julio' />
       <meta name='twitter:title' content='Projects - UI Developer • Interaction Designer | Llegó Julio' />
-
       <meta name="description" content="Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC." key="description"/>
       <meta property='og:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
       <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
-
-      <link rel="canonical" href="https://llegojulio.com/en-us/side-project/" />
-      <link rel="alternate" href="https://llegojulio.com/en-us/side-project/" hreflang="en-us" />
+      <link rel="canonical" href="https://llegojulio.com/side-project/" />
+      <link rel="alternate" href="https://llegojulio.com/side-project/" hreflang="en-us" />
       <link rel="alternate" href="https://llegojulio.com/es-us/side-project/" hreflang="es-us" />
     </Head>
-    <div className={styles.container}>
+    <div className={styles.wrapper}>
     <motion.div 
        initial={{ x: 600, opacity: 0 }}
        animate={{ x: 0, opacity: 1 }}
        exit={{ x: -600, opacity: 0 }}>
+         <div className={styles.main}>
          <Swiper
          speed={400}
          onSlideChange={() => console.log('slide change')}
@@ -42,7 +39,7 @@ function sideProject({ posts }) {
          breakpoints={{ 
             320: {
               slidesPerView: 1,
-              spaceBetween: 20,
+              spaceBetween: 10,
               width: 300
             },
             1200: {
@@ -53,7 +50,6 @@ function sideProject({ posts }) {
           }}
          >
            <SwiperSlide>
-             <div className={styles.main}>
                <Link href={`/side-project/hellocode`}>
                  <a alt={t('title_01')}>
                    <h3 className={styles.blgSummery}>{t('content_01')}</h3>
@@ -66,10 +62,8 @@ function sideProject({ posts }) {
                    <h2 className={styles.blgTitle}>{t('title_01')}</h2>
                 </a>
                </Link>
-          </div>
         </SwiperSlide>
            <SwiperSlide>
-          <div className={styles.main}>
             <Link href={`/side-project/surveillance`}>
               <a alt={t('title_02')}>
               <h3 className={styles.blgSummery}>{t('content_02')}</h3>
@@ -84,10 +78,8 @@ function sideProject({ posts }) {
                 <h2 className={styles.blgTitle}>{t('title_02')}</h2>
               </a>
             </Link>
-          </div>
         </SwiperSlide>
            <SwiperSlide>
-          <div className={styles.main}>
               <Link href={`/side-project/width`}>
                 <a alt={t('title_03')}>
                 <h3 className={styles.blgSummery}>{t('content_03')}</h3>
@@ -102,10 +94,8 @@ function sideProject({ posts }) {
                   <h2 className={styles.blgTitle}>{t('title_03')}</h2>
                 </a>
               </Link>
-          </div>
         </SwiperSlide>
            <SwiperSlide>
-          <div className={styles.main}>
             <Link href={`/side-project/meliorem`}>
               <a alt={t('title_04')}>
               <h3 className={styles.blgSummery}>{t('content_04')}</h3>
@@ -120,10 +110,8 @@ function sideProject({ posts }) {
                 <h2 className={styles.blgTitle}>{t('title_04')}</h2>
               </a>
             </Link>
-          </div>
         </SwiperSlide>
            <SwiperSlide>
-          <div className={styles.main}>
             <Link href={`/side-project/colors`}>
               <a alt={t('title_05')}>
               <h3 className={styles.blgSummery}>{t('content_05')}</h3>
@@ -138,9 +126,9 @@ function sideProject({ posts }) {
                 <h2 className={styles.blgTitle}>{t('title_05')}</h2>
               </a>
             </Link>
-          </div>
         </SwiperSlide>
       </Swiper>
+      </div>
     </motion.div>
     </div>
   </Layout>

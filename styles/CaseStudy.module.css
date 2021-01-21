@@ -1,13 +1,16 @@
-.container,
+.wrapper,
 .main{
-  height: var(--screen-height);
+    display: flex;
+    align-items: center;
 }
-.main{
-  display: flex;
-  justify-content:center;
-  flex-wrap: wrap;
-  align-content:center;
-  height: var(--screen-height);
+.main {
+    height: 75vh;
+    width: 100vw;
+}
+.main a{
+  padding-left: 10px;
+  width: 100%;
+  display: block;
 }
 .cube,
 .cube div,
@@ -75,6 +78,9 @@
     align-items: center;
     height: 100%;
   }
+  .main{
+    height: 100vh;
+}
   .main a{
     opacity: 0.6;
     filter: none;

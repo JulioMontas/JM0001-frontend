@@ -1,8 +1,14 @@
-.main {
+.wrapper,
+.main{
     display: flex;
     align-items: center;
-    height: var(--screen-height);
-    /* background: rgba(255, 225, 0, 0.475); */
+}
+.wrapper{
+    justify-content:center;
+    height: 90%;
+}
+.main {
+    height: 70vh;
 }
 /* Mobile 320px  */
 @media screen and (min-width: 30em) {}
@@ -10,12 +16,11 @@
 @media screen and (min-width: 40em) {}
 /* Desktop 980px to 1280px  */
 @media screen and (min-width: 57em) {
-    .container{
-        display: flex;
-        justify-content:center;
-        align-items: center;
+    .wrapper{
         height: 100%;
-        /* background: rgba(255, 0, 0, 0.475); */
+    }    
+    .main {
+        height: var(--screen-height);
     }
 }
 /* Desktop 1920px */

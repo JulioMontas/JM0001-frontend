@@ -1,4 +1,6 @@
 {
+    "education": "Education",
+    "educationSummary": "Alumnus from",
     "research": "Research",
     "researchSummary": "Understand the users’ needs, behaviors, and emotions to gather insights that inform product strategy and design thoughtful solutions.",
     "informationArchitecture": "Information Architecture",
@@ -9,6 +11,6 @@
     "developmentSummary": "Take on new problems for using the latest in front-end technologies, familiarity with technical constraints and limitations as they apply to designing for platforms such as desktop, mobile or wearables.",
     "launch": "Launch",
     "launchSummary": "8 years of relevant industry experience. Ability to lead and ideate products from scratch and improve features, all with a user-centered design process.",
-    "repeat": "Launch",
+    "repeat": "Repeat",
     "repeatSummary": "Experience collaborating with multidisciplinary teams of Designers, Researchers, Engineers, Content Strategists and Product Managers throughout the design process, work well both independently and as part of a team."
 }

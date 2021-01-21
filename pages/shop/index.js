@@ -24,10 +24,10 @@ function Shop({ posts }) {
       <link rel="alternate" href="https://llegojulio.com/shop/" hreflang="en-us" />
       <link rel="alternate" href="https://llegojulio.com/es-us/shop/" hreflang="es-us" />
     </Head>
-    <div className={styles.container}>
-        <div className={styles.articleList}>
+    <div className={styles.wrapper}>
+        <div className={styles.main}>
             <h2>{t('comingSoon')}</h2>
-            <a href="" >Sign up</a>
+            {/* <a href="" >Sign up</a> */}
         </div>
     </div>
   </Layout>

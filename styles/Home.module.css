@@ -1,3 +1,22 @@
+.main{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 88vh;
+}
+/* Change it it a bit later, https://coryrylan.com/blog/how-to-center-in-css-with-css-grid */
+.sectionUno,
+.sectionDos{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-content:center;
+    height: 88vh;
+}
+.sectionDos{
+    padding-left: 10px;
+    width: 100%;
+}
 .main h2,
 .main p{
     filter: var(--box-shadow);
@@ -20,9 +39,6 @@
     letter-spacing: 0.15em;
     margin-bottom: 15px;
 }
-.main{
-    height: var(--screen-height);
-}
 .main img {
     border-radius: 70% 30% 30% 70% / 60% 40% 20% 40%;
     transition: all 1s ease;
@@ -37,33 +53,18 @@
     75%{border-radius: 70% 30% 30% 70% / 60% 40% 20% 40%}
     100%{border-radius: 18% 82% 37% 70% / 44% 40% 54% 40%}
 }
-.sectionUno,
-.sectionDos{
-    display: flex;
-    justify-content:center;
-    flex-wrap: wrap;
-    align-content:center;
-    height: var(--screen-height);
-}
-.sectionDos{
-    padding-left: 10px;
-    width: 95vw;
-}
 /* Mobile 320px  */
 @media screen and (min-width: 30em) {}
 /* Table */
 @media screen and (min-width: 40em) {}
 /* Desktop 980px to 1280px  */
 @media screen and (min-width: 57em) {
-    .container{
-        display: flex;
-        justify-content:center;
-        align-items: center;
-        height: 100%;
-    }
+    .sectionUno,
     .sectionDos{
-        padding-left: 10px;
-        width: 100%;
+        height: var(--screen-height);
+    }
+    .main{
+        height: 100vh;
     }
     .main h2 {
         width: 290px;

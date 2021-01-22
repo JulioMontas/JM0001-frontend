@@ -171,7 +171,7 @@ function CaseStudyIndex() {
             <div className={styles.flipSwitch}>
               <h3>&#128173; {t('concept')}</h3>
               <div>
-                <p className={styles.textUnderImg}>{t('conceptContent_01')}</p> 
+                <p>{t('conceptContent_01')}</p> 
                 <Swiper
             speed={400}
             onSlideChange={() => console.log('slide change')}

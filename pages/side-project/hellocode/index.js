@@ -12,22 +12,18 @@ function ProjectIndex() {
     const { t } = useTranslation('sideProject')
   return <Layout>
       <Head>
-          <title>Side Project | Helloco.de - The Home For Programming Languages | Llegó Julio</title>
-          <meta name='twitter:url' content='https://llegojulio.com/side-project/hellocode' />
-          <meta property='og:url' content='https://llegojulio.com/side-project/hellocode' />
-
+          <title>Side Project | {t('title_01')} | Llegó Julio</title>
+          <meta name='twitter:url' content='https://llegojulio.com/side-project/hellocode/' />
+          <meta property='og:url' content='https://llegojulio.com/side-project/hellocode/' />
           <meta property='og:image' content='https://llegojulio.com/img/side-project/hc/hc01.gif' />
           <meta name='twitter:image' content='https://llegojulio.com/img/side-project/hc/hc01.gif' />
-
           <meta property='og:title' content='Helloco.de The Home For Programming Languages | Llegó Julio' />
           <meta name='twitter:title' content='Helloco.de The Home For Programming Languages | Llegó Julio' />
-
           <meta name="description" content="List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present" key="description"/>
           <meta property='og:description' content='List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present' />
           <meta name='twitter:description' content='List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present' />
-
-          <link rel="canonical" href="https://llegojulio.com/en-us/side-project/hellocode/" />
-          <link rel="alternate" href="https://llegojulio.com/en-us/side-project/hellocode/" hreflang="en-us" />
+          <link rel="canonical" href="https://llegojulio.com/side-project/hellocode/" />
+          <link rel="alternate" href="https://llegojulio.com/side-project/hellocode/" hreflang="en-us" />
           <link rel="alternate" href="https://llegojulio.com/es-us/side-project/hellocode/" hreflang="es-us" />
       </Head>
     <motion.div 

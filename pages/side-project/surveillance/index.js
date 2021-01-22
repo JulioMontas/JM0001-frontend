@@ -13,8 +13,8 @@ function ProjectIndex() {
   return <Layout>
       <Head>
           <title>Side Project | {t('title_02')} | Llegó Julio</title>
-          <meta name='twitter:url' content='https://llegojulio.com/side-project/surveillance' />
-          <meta property='og:url' content='https://llegojulio.com/side-project/surveillance' />
+          <meta name='twitter:url' content='https://llegojulio.com/side-project/surveillance/' />
+          <meta property='og:url' content='https://llegojulio.com/side-project/surveillance/' />
 
           <meta property='og:image' content='https://llegojulio.com/img/side-project/surveillance/jessieNguyen-Moodboard.jpg' />
           <meta name='twitter:image' content='https://llegojulio.com/img/side-project/surveillance/jessieNguyen-Moodboard.jpg' />
@@ -26,8 +26,8 @@ function ProjectIndex() {
           <meta property='og:description' content='A social experiment using the top social media channels to farm users sensitive data' />
           <meta name='twitter:description' content='A social experiment using the top social media channels to farm users sensitive data' />
 
-          <link rel="canonical" href="https://llegojulio.com/en-us/side-project/surveillance/" />
-          <link rel="alternate" href="https://llegojulio.com/en-us/side-project/surveillance/" hreflang="en-us" />
+          <link rel="canonical" href="https://llegojulio.com/side-project/surveillance/" />
+          <link rel="alternate" href="https://llegojulio.com/side-project/surveillance/" hreflang="en-us" />
           <link rel="alternate" href="https://llegojulio.com/es-us/side-project/surveillance/" hreflang="es-us" />
           </Head>
     <motion.div 
@@ -246,9 +246,6 @@ function ProjectIndex() {
 
                 <div className={styles.flipSwitch}>
                     <h3>{t('userJourney_02')}</h3>
-                    {/* <div>
-                        <p>{t('userJourneyContent_02')}</p>
-                    </div> */}
                 </div>
 
                 <div>

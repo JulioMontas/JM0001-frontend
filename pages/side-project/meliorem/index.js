@@ -12,8 +12,8 @@ function ProjectIndex() {
   return <Layout>
     <Head>
       <title>Side Project | {t('title_04')} | Llegó Julio</title>
-      <meta name='twitter:url' content='https://llegojulio.com/side-project/meliorem' />
-      <meta property='og:url' content='https://llegojulio.com/side-project/meliorem' />
+      <meta name='twitter:url' content='https://llegojulio.com/side-project/meliorem/' />
+      <meta property='og:url' content='https://llegojulio.com/side-project/meliorem/' />
       <meta property='og:image' content='https://llegojulio.com/img/side-project/meliorem/meliorem-02.png' />
       <meta name='twitter:image' content='https://llegojulio.com/img/side-project/meliorem/meliorem-02.png' />
       <meta property='og:title' content='Meliorem - Cultivating Your Passion to Level Up | Llegó Julio' />
@@ -21,8 +21,8 @@ function ProjectIndex() {
       <meta name="description" content="Reward self task manager to stimulate your existence" key="description"/>
       <meta property='og:description' content='Reward self task manager to stimulate your existence' />
       <meta name='twitter:description' content='Reward self task manager to stimulate your existence' />
-      <link rel="canonical" href="https://llegojulio.com/en-us/side-project/meliorem/" />
-      <link rel="alternate" href="https://llegojulio.com/en-us/side-project/meliorem/" hreflang="en-us" />
+      <link rel="canonical" href="https://llegojulio.com/side-project/meliorem/" />
+      <link rel="alternate" href="https://llegojulio.com/side-project/meliorem/" hreflang="en-us" />
       <link rel="alternate" href="https://llegojulio.com/es-us/side-project/meliorem/" hreflang="es-us" />
     </Head>
     <motion.div 
@@ -87,18 +87,9 @@ function ProjectIndex() {
                 layout="responsive"
                 loading="lazy"
                 />
-                <p>{t('uiDesignContent_04b')}</p>
+                <p className={styles.textUnderImg}>{t('uiDesignContent_04b')}</p>
               </SwiperSlide>
             </Swiper>
-          </div>
-          {/* URL */}
-          <div className={styles.flipSwitch}>
-            <h3>URL</h3>
-            <ul className={styles.secTextList}>
-              <li>
-                <a href="#" target="_blank">Beta Tester - Sign Up</a>
-              </li>
-            </ul>
           </div>
           <div className={styles.flipSwitch}>
             <h3>More Side Projects</h3>

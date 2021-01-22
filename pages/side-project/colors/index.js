@@ -13,21 +13,17 @@ function ProjectIndex() {
     return <Layout>
         <Head>
             <title>Side Project | {t('title_05')} | Llegó Julio</title>          
-            <meta name='twitter:url' content='https://llegojulio.com/side-project/colors' />
-            <meta property='og:url' content='https://llegojulio.com/side-project/colors' />
-
+            <meta name='twitter:url' content='https://llegojulio.com/side-project/colors/' />
+            <meta property='og:url' content='https://llegojulio.com/side-project/colors/' />
             <meta property='og:image' content='https://llegojulio.com/img/side-project/colors/slide_03.png' />
             <meta name='twitter:image' content='https://llegojulio.com/img/side-project/colors/slide_03.png' />
-
             <meta property='og:title' content='Basic Color Fundamentals - Simple Fun App for Toddlers | Llegó Julio' />
             <meta name='twitter:title' content='Basic Color Fundamentals - Simple Fun App for Toddlers | Llegó Julio' />
-
             <meta name="description" content="Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory" key="description"/>
             <meta property='og:description' content='Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory' />
             <meta name='twitter:description' content='Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory' />
-
-            <link rel="canonical" href="https://llegojulio.com/en-us/side-project/colors/" />
-            <link rel="alternate" href="https://llegojulio.com/en-us/side-project/colors/" hreflang="en-us" />
+            <link rel="canonical" href="https://llegojulio.com/side-project/colors/" />
+            <link rel="alternate" href="https://llegojulio.com/side-project/colors/" hreflang="en-us" />
             <link rel="alternate" href="https://llegojulio.com/es-us/side-project/colors/" hreflang="es-us" />
         </Head>
     <motion.div 
@@ -106,19 +102,6 @@ function ProjectIndex() {
                         </SwiperSlide>
                     </Swiper>
                 </div>
-
-                {/* URL */}
-          <div className={styles.flipSwitch}>
-            <h3>URL</h3>
-            <ul className={styles.secTextList}>
-              <li>
-                <a href="#" target="_blank">Beta Tester - Sign Up</a>
-              </li>
-            </ul>
-          </div>
-                
-                
-                
                 <div className={styles.flipSwitch}>
                     <h3>More Side Projects</h3>
                     <ul>

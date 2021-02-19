@@ -4,7 +4,6 @@ import { motion } from "framer-motion"
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
 import useTranslation from 'next-translate/useTranslation'
-
 import Layout from '../../components/Layout/Layout'
 import styles from '../../styles/Project.module.css'
 
@@ -94,22 +93,6 @@ function sideProject({ posts }) {
                   <h2 className={styles.blgTitle}>{t('title_03')}</h2>
                 </a>
               </Link>
-        </SwiperSlide>
-           <SwiperSlide>
-            <Link href={`/side-project/meliorem`}>
-              <a alt={t('title_04')}>
-              <h3 className={styles.blgSummery}>{t('content_04')}</h3>
-                <Image
-                src="/img/side-project/meliorem/meliorem-02.png"
-                alt="Picture of the author"
-                width={1080}
-                height={1080}
-                quality={15}
-                loading="eager"
-                />
-                <h2 className={styles.blgTitle}>{t('title_04')}</h2>
-              </a>
-            </Link>
         </SwiperSlide>
            <SwiperSlide>
             <Link href={`/side-project/colors`}>

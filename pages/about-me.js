@@ -2,7 +2,6 @@ import useTranslation from 'next-translate/useTranslation'
 import { motion } from "framer-motion"
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
-
 import Layout from '../components/Layout/Layout'
 import styles from '../styles/AboutMe.module.css'
 
@@ -714,7 +713,7 @@ function AboutMe() {
 <path d="M222.666 192.288L225.667 198.668C225.667 198.668 232.42 196.416 232.42 195.291C232.42 194.165 229.419 189.285 229.419 189.285L222.666 192.288Z" fill="#A0616A"/>
 <path d="M218.352 107.654C218.352 107.654 209.723 111.407 208.222 126.044C206.722 140.682 213.475 178.213 216.851 184.594C220.227 190.974 222.478 195.478 222.478 195.478L232.607 190.974C232.607 190.974 228.105 178.589 228.481 176.337C228.856 174.085 227.73 169.581 227.73 169.581L226.23 139.18C226.23 139.18 232.607 112.157 218.352 107.654Z" fill="white"/>
 </svg>
-              <p className={styles.description}>{t('educationSummary')} <a href="https://www.youtube.com/watch?v=zmsRNu4KVH8">Altos de CHAVÓN</a>, <a href="https://bfacd.parsons.edu/2013/helloco-de">The New School</a>, <a href="https://generalassemb.ly/education/software-engineering-immersive/new-york-city">General Assembly</a> intensive coding bootcamp, <a href="https://artahack.io/about/">Art-A-Hack</a>, and <a href="https://www.youtube.com/watch?v=_PG2y_ZTGEY">Lehman College</a> Virtual Reality Training Academy & Development Lab</p>
+              <p className={styles.description}>{t('educationSummary')} <a href="https://www.youtube.com/watch?v=zmsRNu4KVH8" target="_blank">Altos de CHAVÓN</a>, <a href="https://bfacd.parsons.edu/2013/helloco-de" target="_blank">The New School</a>, <a href="https://generalassemb.ly/education/software-engineering-immersive/new-york-city" target="_blank">General Assembly</a> intensive coding bootcamp, <a href="https://artahack.io/about/" target="_blank">Art-A-Hack</a>, and <a href="https://www.youtube.com/watch?v=_PG2y_ZTGEY" target="_blank">Lehman College</a> Virtual Reality Training Academy.</p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -1648,6 +1647,7 @@ function AboutMe() {
               </SwiperSlide>
             </Swiper> 
             </div>
+              <p>></p>
             </div>
             </div>
     </motion.div>

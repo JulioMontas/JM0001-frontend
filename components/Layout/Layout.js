@@ -14,7 +14,7 @@ const Layout = ({children}) => {
             <header className={styles.header}>
               <div>
                 <Link href="/">
-                  <a alt="Llegó Julio | Designer with Coding Ability" rel="alternate" hreflang="en">
+                  <a alt="Llegó Julio" rel="alternate" hreflang="en">
                     <h1>{t('title')}</h1>
                   </a>
                 </Link>

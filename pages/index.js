@@ -21,8 +21,8 @@ function HomePage({ props }) {
       <meta name="description" content="Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC." key="description"/>
       <meta property='og:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
       <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
-      <link rel="canonical" href="https://llegojulio.com/en-us/" />
-      <link rel="alternate" href="https://llegojulio.com/en-us/" hreflang="en-us" />
+      <link rel="canonical" href="https://llegojulio.com/" />
+      <link rel="alternate" href="https://llegojulio.com/" hreflang="en-us" />
       <link rel="alternate" href="https://llegojulio.com/es-us/" hreflang="es-us" />
     </Head>
     <div className={styles.container}>
@@ -62,8 +62,7 @@ function HomePage({ props }) {
       </SwiperSlide>
       <SwiperSlide>
       <div  className={styles.sectionDos}>
-        <p>{t('descriptionA')}</p>
-        <p>{t('descriptionB')}</p>
+        <p>{t('descriptionA')} <a href="https://julio62.typeform.com/to/IBnyOp">Let's chat</a>.</p>
       </div>
       </SwiperSlide>
     </Swiper>

@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import useTranslation from 'next-translate/useTranslation'
-
 import Layout from '../../components/Layout/Layout'
 import styles from '../../styles/Youtube.module.css'
 

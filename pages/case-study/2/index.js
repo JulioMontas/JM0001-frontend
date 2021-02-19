@@ -5,7 +5,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import ReactPlayer from "react-player"
 import Head from 'next/head'
 import useTranslation from 'next-translate/useTranslation'
-
 import Layout from '../../../components/Layout/Layout'
 import styles from '../../../styles/Report.module.css'
 
@@ -14,8 +13,8 @@ function CaseStudyIndex() {
   return <Layout>
     <Head>
       <title>{t('title_02')} | Llegó Julio</title>
-      <meta name='twitter:url' content='https://llegojulio.com/case-study/2' />
-      <meta property='og:url' content='https://llegojulio.com/case-study/2' />
+      <meta name='twitter:url' content='https://llegojulio.com/case-study/2/' />
+      <meta property='og:url' content='https://llegojulio.com/case-study/2/' />
       
       <meta property='og:image' content='https://llegojulio.com/img/ecommerce/mockupFragrance_A01.jpg' />
       <meta name='twitter:image' content='https://llegojulio.com/img/ecommerce/mockupFragrance_A01.jpg' />
@@ -27,8 +26,8 @@ function CaseStudyIndex() {
       <meta property='og:description' content='A luxury fragrances distribution company going B2C with their first shofity eCommerce online store' />
       <meta name='twitter:description' content='A luxury fragrances distribution company going B2C with their first shofity eCommerce online store' />
 
-      <link rel="canonical" href="https://llegojulio.com/en-us/case-study/2/" />
-      <link rel="alternate" href="https://llegojulio.com/en-us/case-study/2/" hreflang="en-us" />
+      <link rel="canonical" href="https://llegojulio.com/case-study/2/" />
+      <link rel="alternate" href="https://llegojulio.com/case-study/2/" hreflang="en-us" />
       <link rel="alternate" href="https://llegojulio.com/es-us//case-study/2/" hreflang="es-us" />
     </Head>
     <motion.div 

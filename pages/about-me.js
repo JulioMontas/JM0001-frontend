@@ -1644,10 +1644,11 @@ function AboutMe() {
 </svg>
                 <p className={styles.description}>Test</p>
                 </div>
+                
               </SwiperSlide>
+              <span className={styles.iconArrow}>></span>
             </Swiper> 
             </div>
-              <p>></p>
             </div>
             </div>
     </motion.div>

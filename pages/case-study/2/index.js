@@ -15,17 +15,13 @@ function CaseStudyIndex() {
       <title>{t('title_02')} | Llegó Julio</title>
       <meta name='twitter:url' content='https://llegojulio.com/case-study/2/' />
       <meta property='og:url' content='https://llegojulio.com/case-study/2/' />
-      
       <meta property='og:image' content='https://llegojulio.com/img/ecommerce/mockupFragrance_A01.jpg' />
       <meta name='twitter:image' content='https://llegojulio.com/img/ecommerce/mockupFragrance_A01.jpg' />
-
       <meta property='og:title' content='Shopify Fragrance eCommerce - A Discovery In Scent | Llegó Julio' />
       <meta name='twitter:title' content='Shopify Fragrance eCommerce - A Discovery In Scent | Llegó Julio' />
-
       <meta name="description" content="A luxury fragrances distribution company going B2C with their first shofity eCommerce online store" key="description"/>
       <meta property='og:description' content='A luxury fragrances distribution company going B2C with their first shofity eCommerce online store' />
       <meta name='twitter:description' content='A luxury fragrances distribution company going B2C with their first shofity eCommerce online store' />
-
       <link rel="canonical" href="https://llegojulio.com/case-study/2/" />
       <link rel="alternate" href="https://llegojulio.com/case-study/2/" hreflang="en-us" />
       <link rel="alternate" href="https://llegojulio.com/es-us//case-study/2/" hreflang="es-us" />
@@ -321,6 +317,19 @@ function CaseStudyIndex() {
 <path d="M194.272 214.357C193.549 214.357 192.994 214.143 192.607 213.713C192.221 213.28 192.024 212.646 192.017 211.812V211.108C192.017 210.241 192.205 209.563 192.581 209.072C192.96 208.578 193.488 208.331 194.165 208.331C194.845 208.331 195.354 208.548 195.69 208.981C196.027 209.414 196.199 210.089 196.206 211.006V211.629H192.962V211.763C192.962 212.386 193.078 212.839 193.311 213.122C193.547 213.405 193.886 213.546 194.326 213.546C194.605 213.546 194.851 213.494 195.062 213.391C195.277 213.283 195.477 213.115 195.664 212.886L196.158 213.487C195.746 214.067 195.118 214.357 194.272 214.357ZM194.165 209.147C193.771 209.147 193.479 209.284 193.29 209.556C193.1 209.824 192.992 210.243 192.967 210.812H195.255V210.684C195.23 210.132 195.13 209.738 194.955 209.502C194.783 209.266 194.52 209.147 194.165 209.147Z" fill="#89969F"/>
 <path d="M199.751 209.33C199.618 209.305 199.475 209.292 199.321 209.292C198.834 209.292 198.494 209.559 198.301 210.093V214.25H197.35V208.438H198.274L198.29 209.029C198.544 208.564 198.904 208.331 199.37 208.331C199.52 208.331 199.645 208.356 199.746 208.406L199.751 209.33Z" fill="#89969F"/>
 </svg>
+          </div>
+
+          <div className={styles.flipSwitch}>
+            <h3>&#128736; {t('development')}</h3>
+            <div>
+              <p>{t('developmentContent_02')}</p>
+              <ul className={styles.secTextList}>
+                <li>{t('developmentContentList_02a')}</li>
+                <li>{t('developmentContentList_02b')}</li>
+                <li>{t('developmentContentList_02c')}</li>
+                <li>{t('developmentContentList_02d')}</li>
+              </ul>
+            </div>
           </div>
           <div className={styles.SecBackground}>
             <h3>&#128736; {t('sitemap')}</h3>
@@ -1018,8 +1027,8 @@ function CaseStudyIndex() {
             <div className={styles.flipSwitch}>
               <h3>&#128065; {t('pressAndContact_02')}</h3>
               <div>
-                <p>{t('pressAndContactContent_02a')}</p>
                 <p>{t('pressAndContactContent_02b')}</p>
+                <p>{t('pressAndContactContent_02a')}</p>
               </div>
             </div>  
             <Swiper
@@ -1064,18 +1073,6 @@ function CaseStudyIndex() {
               <small>Mockup: Press A02</small>
             </SwiperSlide>
             </Swiper>
-          </div>
-          <div className={styles.flipSwitch}>
-            <h3>&#128736; {t('development')}</h3>
-            <div>
-              <p>{t('developmentContent_02')}</p>
-              <ul className={styles.secTextList}>
-                <li>{t('developmentContentList_02a')}</li>
-                <li>{t('developmentContentList_02b')}</li>
-                <li>{t('developmentContentList_02c')}</li>
-                <li>{t('developmentContentList_02d')}</li>
-              </ul>
-            </div>
           </div>
           <div className={styles.flipSwitch}>
             <h3>&#127919; {t('results')}</h3>

@@ -56,10 +56,27 @@
     margin-top: 1px;
     font-size: 1.5em;
   }
+  .iconArrow{
+      display: none;
+      animation:blinkingText 1.2s infinite;
+  }
+  @keyframes blinkingText{
+      0%{     color: #fff;    }
+      49%{    color: #fff; }
+      60%{    color: transparent; }
+      99%{    color:transparent;  }
+      100%{   color: #fff;    }
+    }
 /* Mobile 320px  */
 @media screen and (min-width: 30em) {}
 /* Table 768px */
-@media screen and (min-width: 48em) {}
+@media screen and (min-width: 48em) {
+    .iconArrow{
+        display: block;
+        float: right;
+        font-size: 1em;
+    }
+}
 /* Desktop 980px to 1280px  */
 @media screen and (min-width: 57em) {
     .main{

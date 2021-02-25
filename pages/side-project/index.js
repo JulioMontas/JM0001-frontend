@@ -44,7 +44,7 @@ function sideProject({ posts }) {
             1200: {
               slidesPerView: 4,
               spaceBetween: 40,
-              width: 1000
+              width: 1100
             }
           }}
          >

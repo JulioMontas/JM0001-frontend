@@ -42,13 +42,13 @@ function caseStudy({ posts }) {
             spaceBetween: 10,
             width: 300
           },
-            1200: {
-              slidesPerView: 3,
-              spaceBetween: 20,
-              width: 800
-            }
-          }}
-          >
+          1200: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+            width: 1000
+          }
+        }}
+        >
             <SwiperSlide>
               <Link href={`/case-study/1`}>
                 <a alt="Pendulum EP - Vinyl Record Label Design" rel="alternate" hreflang="en">

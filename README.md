@@ -9,19 +9,19 @@ NextJS | Stapi | ?
 ```
 ├── Landing Page
 │   │
-│   ├── Shop (eCommerce)
+│   ├── Case Studies
 │   │   └── Projects
 │   │
-│   ├── Case Study (UX Design)
+│   ├── Side Project
 │   │   └── Projects
+│   │
+│   ├── About Me
 │   │
 │   ├── Blog / Video (Tech Education)
 │   │   └── Articles
 │   │
-│   ├── Me
-│   │
-│   ├── Music Mix
-│   │   └── VR Room (Soundcloud API)
+│   ├── Shop (eCommerce)
+│   │   └── Projects
 │   │
 │   └── Promotion Page (Marketing stuff)
 └──        
@@ -30,15 +30,19 @@ NextJS | Stapi | ?
 ## Task
 - [x] Update User Flow + Sitemap
 - [x] Mockups of new UX/UI Design "`Mobile first`".
-- [ ] Migrate from `Wordpress CMS` in `Heroku` to `Next JS` in `Netlify CMS`.
-- [ ] HTTPS
-- [ ] Implement the new desing to `Next JS`.
-- [ ] A/B testing of the landing page.
-## Understanding of Gatsby JS
-- [x] MDX (JSX markdown)
-- [ ] Image Compress *[Enhance image with Python PIL]
-- [ ] SEO
-- [ ] JSON *[Case Study data]
+- [x] Migrate from `Wordpress CMS` to `Next JS`.
+- [x] HTTPS
+- [x] Implement the new desing to `Next JS`.
+- [x] Breakpoing for `Mobile`
+- [x] Breakpoing for `Desktop`
+- [ ] Breakpoing for `Large screen.`
+- [ ] 404 Page in VR view 
+## Next JS
+- [x] SEO
+      | Meta description
+      | English or Spanish
+      | Image Compress
+- [ ] JSON data for `Case Studies` and `Side Projects`
 ## Progressive web apps (PWAs)
 - [ ] Icons for homescreen
 - [ ] Add to homescreen

@@ -1595,7 +1595,7 @@ function AboutMe() {
 </linearGradient>
 </defs>
 </svg>
-                <p className={styles.description}>Minimal full stack designer using Sketch, Figma and custom apps. I make my prototypes in HTML + CSS, Javascript, WebVR and InVision. All my cloud stuff at Amazon Web Services (AWS), Github or any Raspberry Pi I find running Linux.</p>
+                <p className={styles.description}>Minimal full stack designer using Sketch, Figma and custom apps. Make my prototypes in HTML + CSS, Javascript, WebVR and InVision. All my cloud at Amazon Web Services (AWS), Github or any Raspberry Pi I find running Linux.</p>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
@@ -1642,7 +1642,7 @@ function AboutMe() {
 <path d="M96.2115 152.052H54V155.299H96.2115V152.052Z" fill="white"/>
 <path d="M96.2115 160.169H54V163.416H96.2115V160.169Z" fill="white"/>
 </svg>
-                <p className={styles.description}>key</p>
+                <p className={styles.description}>Test</p>
                 </div>
               </SwiperSlide>
             </Swiper> 

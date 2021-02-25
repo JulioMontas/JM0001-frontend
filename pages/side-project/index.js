@@ -42,9 +42,9 @@ function sideProject({ posts }) {
               width: 300
             },
             1200: {
-              slidesPerView: 5,
-              spaceBetween: 20,
-              width: 1200
+              slidesPerView: 4,
+              spaceBetween: 40,
+              width: 1000
             }
           }}
          >

@@ -55,7 +55,7 @@ function ProjectIndex() {
                     alt="Mockup of python page"
                     width={1421}
                     height={1897}
-                    quality={20}
+                    quality={75}
                     layout="responsive"
                     loading="eager"
                     />
@@ -99,7 +99,7 @@ function ProjectIndex() {
                             layout="responsive"
                             loading="lazy"
                             />
-                            <p><p>{t('uiDesignContent_01c')}</p></p>
+                            <p>{t('uiDesignContent_01c')}</p>
                         </SwiperSlide>
                     </Swiper>
                 </div>

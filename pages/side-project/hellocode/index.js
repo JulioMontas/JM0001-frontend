@@ -87,7 +87,7 @@ function ProjectIndex() {
                             layout="responsive"
                             loading="lazy"
                             />
-                            <p>{t('uiDesignContent_01b')}</p>
+                            <p className={styles.textUnderImg}>{t('uiDesignContent_01b')}</p>
                         </SwiperSlide>
                         <SwiperSlide>
                             <Image
@@ -99,7 +99,7 @@ function ProjectIndex() {
                             layout="responsive"
                             loading="lazy"
                             />
-                            <p>{t('uiDesignContent_01c')}</p>
+                            <p className={styles.textUnderImg}>{t('uiDesignContent_01c')}</p>
                         </SwiperSlide>
                     </Swiper>
                 </div>

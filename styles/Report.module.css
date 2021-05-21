@@ -239,19 +239,12 @@
     width: 16px;
     padding: 0
   }
-
-  /* .mainIndex p {
-    background: red;
-  } */
-
+  .textAbove{
+   padding-bottom: 10px;
+  }
   .textUnderImg{
-    /* border:1px solid red; */
     padding-top: 10px;
   } 
-  .textAboveImg{
-    border:1px solid yellow;
-    padding-top: 10px;
-  }
   /* Mobile 320px  */
   @media screen and (min-width: 30em) {}
   /* Table */

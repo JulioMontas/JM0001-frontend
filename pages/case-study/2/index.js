@@ -177,7 +177,6 @@ function CaseStudyIndex() {
               </g>
             </svg>
             </div>
-
           </div>
           <div className={styles.flipSwitch}>
             <h3>&#127852; {t('palette')}</h3>
@@ -195,7 +194,6 @@ function CaseStudyIndex() {
               <span style={{backgroundImage:'linear-gradient(267.43deg, rgb(232, 149, 175) 36.72%, rgb(187, 162, 200) 62.93%), none'}}></span>
             </div>
           </div>
-         
           <div className={styles.flipSwitch}>
             <h3>&#128506; Customer journey</h3>
             <svg width="320" height="294" viewBox="0 0 345 294" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -318,7 +316,6 @@ function CaseStudyIndex() {
 <path d="M199.751 209.33C199.618 209.305 199.475 209.292 199.321 209.292C198.834 209.292 198.494 209.559 198.301 210.093V214.25H197.35V208.438H198.274L198.29 209.029C198.544 208.564 198.904 208.331 199.37 208.331C199.52 208.331 199.645 208.356 199.746 208.406L199.751 209.33Z" fill="#89969F"/>
 </svg>
           </div>
-
           <div className={styles.flipSwitch}>
             <h3>&#128736; {t('development')}</h3>
             <div>
@@ -717,8 +714,6 @@ function CaseStudyIndex() {
 <path d="M95 316.762L36 316.762L36 314.517L95 314.517L95 316.762Z" fill="white"/>
 <path d="M123.814 311.22C123.814 310.895 123.748 310.639 123.615 310.451C123.482 310.263 123.264 310.087 122.959 309.922C122.361 309.656 121.918 309.401 121.629 309.159C121.344 308.912 121.131 308.632 120.99 308.319C120.85 308.002 120.779 307.626 120.779 307.191C120.779 306.541 120.959 306.005 121.318 305.582C121.678 305.155 122.152 304.903 122.742 304.824V303.567H123.627V304.848C124.213 304.961 124.668 305.259 124.992 305.74C125.32 306.222 125.484 306.833 125.484 307.573H123.826C123.826 307.103 123.758 306.753 123.621 306.522C123.488 306.291 123.314 306.175 123.1 306.175C122.893 306.175 122.73 306.265 122.613 306.445C122.496 306.625 122.438 306.876 122.438 307.197C122.438 307.475 122.498 307.706 122.619 307.89C122.74 308.074 122.971 308.266 123.311 308.466C123.936 308.763 124.385 309.035 124.658 309.282C124.936 309.525 125.141 309.801 125.273 310.11C125.406 310.419 125.473 310.786 125.473 311.208C125.473 311.87 125.297 312.409 124.945 312.824C124.598 313.239 124.115 313.487 123.498 313.57V314.738H122.619V313.57C121.943 313.472 121.422 313.184 121.055 312.706C120.688 312.225 120.504 311.584 120.504 310.786H122.162C122.162 311.248 122.236 311.604 122.385 311.855C122.533 312.101 122.756 312.225 123.053 312.225C123.291 312.225 123.477 312.136 123.609 311.96C123.746 311.78 123.814 311.533 123.814 311.22Z" fill="white"/>
 </svg>
-
-
               </SwiperSlide>
               <SwiperSlide>
               <svg width="300" height="417" viewBox="0 0 300 417" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -790,7 +785,6 @@ function CaseStudyIndex() {
 <rect y="35.3311" width="144" height="65.7302" fill="#2F4960"/>
 <rect x="47" y="54.2534" width="50" height="27.8855" rx="5" fill="white"/>
 </svg>
-
               </SwiperSlide>
             </Swiper>
           </div>
@@ -882,7 +876,7 @@ function CaseStudyIndex() {
             <div className={styles.flipSwitch}>
               <h3>&#128065; {t('productListingPages_02')}</h3>
               <div>
-                <p>{t('productListingPagesContent_02a')}</p>
+                <p className={styles.textAbove}>{t('productListingPagesContent_02a')}</p>
                 <p>{t('productListingPagesContent_02b')}</p>
               </div>
             </div>
@@ -1027,7 +1021,7 @@ function CaseStudyIndex() {
             <div className={styles.flipSwitch}>
               <h3>&#128065; {t('pressAndContact_02')}</h3>
               <div>
-                <p>{t('pressAndContactContent_02b')}</p>
+                <p className={styles.textAbove}>{t('pressAndContactContent_02b')}</p>
                 <p>{t('pressAndContactContent_02a')}</p>
               </div>
             </div>  

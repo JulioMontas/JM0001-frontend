@@ -2,7 +2,8 @@
     display: flex;
     justify-content:center;
     align-items: center;
-    height: 88vh;
+    /* height: 88vh; */
+    /* background: purple; */
 }
 /* Change it it a bit later, https://coryrylan.com/blog/how-to-center-in-css-with-css-grid */
 .sectionUno,
@@ -11,8 +12,10 @@
     justify-content:center;
     flex-wrap: wrap;
     align-content:center;
-    height: 88vh;
+    /* height: 88vh; */
+    height: 80vh;
 }
+
 .sectionDos{
     padding-left: 10px;
     width: 100%;
@@ -37,22 +40,31 @@
     line-height: 28px;
     font-weight: normal;
     letter-spacing: 0.15em;
-    margin-bottom: 15px;
 }
+/* .main p {
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: normal;
+    letter-spacing: 0.15em;
+    margin-bottom: 15px;
+} */
 .main img {
     border-radius: 70% 30% 30% 70% / 60% 40% 20% 40%;
     transition: all 1s ease;
-    animation: movingBlob 25s ease-in-out alternate infinite;
+    /* animation: movingBlob 25s ease-in-out alternate infinite; */
 }
 /* https://codepen.io/edwinchen26/pen/daoZqd */
-/* https://9elements.github.io/fancy-border-radius/ */ 
-@keyframes movingBlob {
+/* https://9elements.github.io/fancy-border-radius/ */
+/* @keyframes movingBlob {
     0%{border-radius: 100% 0% 100% 0% / 100% 0% 100% 0% }
     25%{border-radius: 70% 30% 30% 70% / 60% 40% 20% 40%}
     50%{border-radius: 76% 90% 87% 67% / 71% 77% 63% 82%}
     75%{border-radius: 70% 30% 30% 70% / 60% 40% 20% 40%}
     100%{border-radius: 18% 82% 37% 70% / 44% 40% 54% 40%}
-}
+} */
+
+
+
 /* Mobile 320px  */
 @media screen and (min-width: 30em) {}
 /* Table */
@@ -68,7 +80,7 @@
     }
     .main h2 {
         width: 290px;
-    }  
+    }
     .main p {
         line-height: 33px;
         font-size: 16px;

@@ -26,7 +26,7 @@ function HomePage({ props }) {
       <link rel="alternate" href="https://llegojulio.com/es-us/" hreflang="es-us" />
     </Head>
     <div className={styles.container}>
-    <motion.div 
+    <motion.div
     initial={{ x: 300, opacity: 0 }}
     animate={{ x: 0, opacity: 1 }}
     exit={{ x: -300, opacity: 0 }}>
@@ -36,7 +36,7 @@ function HomePage({ props }) {
       // pagination={{ clickable: true }}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
-      breakpoints={{ 
+      breakpoints={{
         320: {
           slidesPerView: 1,
           spaceBetween: 0,

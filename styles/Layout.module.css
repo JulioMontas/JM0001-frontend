@@ -61,8 +61,10 @@
     .footer{
         margin-left: 20px;
         padding-left: 0;
-        margin: 0 0 3em 0;
-    }    
+        /* margin: 0 0 3em 0; */
+        position: sticky;
+        bottom: 3em;
+    }
 }
 /* Desktop 1920px */
 @media screen and (min-width: 120em) {}

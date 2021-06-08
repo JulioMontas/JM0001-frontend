@@ -23,7 +23,7 @@ function AboutMe() {
       <link rel="alternate" href="https://llegojulio.com/about-me/" hreflang="en-us" />
       <link rel="alternate" href="https://llegojulio.com/es-us/about-me/" hreflang="es-us" />
     </Head>
-    <motion.div 
+    <motion.div
     initial={{ x: 600, opacity: 0 }}
     animate={{ x: 0, opacity: 1 }}
     exit={{ x: -600, opacity: 0 }}>
@@ -34,7 +34,7 @@ function AboutMe() {
         speed={400}
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
-        breakpoints={{ 
+        breakpoints={{
           320: {
             slidesPerView: 1,
             spaceBetween: 10,
@@ -713,7 +713,7 @@ function AboutMe() {
 <path d="M222.666 192.288L225.667 198.668C225.667 198.668 232.42 196.416 232.42 195.291C232.42 194.165 229.419 189.285 229.419 189.285L222.666 192.288Z" fill="#A0616A"/>
 <path d="M218.352 107.654C218.352 107.654 209.723 111.407 208.222 126.044C206.722 140.682 213.475 178.213 216.851 184.594C220.227 190.974 222.478 195.478 222.478 195.478L232.607 190.974C232.607 190.974 228.105 178.589 228.481 176.337C228.856 174.085 227.73 169.581 227.73 169.581L226.23 139.18C226.23 139.18 232.607 112.157 218.352 107.654Z" fill="white"/>
 </svg>
-              <p className={styles.description}>{t('educationSummary')} <a href="https://www.youtube.com/watch?v=zmsRNu4KVH8" target="_blank">Altos de CHAVÓN</a>, <a href="https://bfacd.parsons.edu/2013/helloco-de" target="_blank">The New School</a>, <a href="https://generalassemb.ly/education/software-engineering-immersive/new-york-city" target="_blank">General Assembly</a> intensive coding bootcamp, <a href="https://artahack.io/about/" target="_blank">Art-A-Hack</a>, and <a href="https://www.youtube.com/watch?v=_PG2y_ZTGEY" target="_blank">Lehman College</a> Virtual Reality Training Academy.</p>
+              <p className={styles.description}>{t('educationSummary')} <a href="https://www.youtube.com/watch?v=zmsRNu4KVH8" target="_blank">Altos de CHAVÓN</a>, <a href="https://bfacd.parsons.edu/2013/helloco-de" target="_blank">The New School</a>, <a href="https://generalassemb.ly/education/software-engineering-immersive/new-york-city" target="_blank">General Assembly's</a> intensive coding bootcamp, <a href="https://artahack.io/about/" target="_blank">Art-A-Hack</a>, and <a href="https://www.youtube.com/watch?v=_PG2y_ZTGEY" target="_blank">Lehman college's</a> virtual reality training academy.</p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -770,7 +770,7 @@ function AboutMe() {
 <path d="M113.777 89.0825C111.676 89.3401 109.277 90.0622 108.52 92.04C108.325 92.7975 108.171 93.5652 108.061 94.3397C107.277 97.3662 103.878 98.7736 101.781 101.092C99.9465 103.129 99.1163 105.894 98.5154 108.589C96.7981 116.311 96.3887 124.267 97.3044 132.125C97.9787 137.869 99.3548 143.527 99.7401 149.295C100.125 155.062 99.4236 161.138 96.2769 165.986C94.9008 168.074 93.1394 169.905 92.1807 172.2C94.1623 173.815 96.8962 174.04 99.4466 174.127C102.419 174.229 105.391 174.229 108.364 174.127C109.923 174.072 111.552 173.976 112.896 173.18C113.892 172.544 114.71 171.664 115.272 170.623C116.974 167.73 117.4 164.252 117.331 160.895C117.263 157.537 116.726 154.202 116.666 150.845C116.634 149.005 116.776 147.073 117.822 145.578C118.584 144.493 119.735 143.766 120.721 142.892C124.418 139.604 125.689 134.332 125.813 129.379C125.937 124.425 125.12 119.462 125.538 114.527C125.703 112.595 126.423 110.272 128.317 109.9C128.918 109.78 129.556 109.9 130.125 109.665C131.648 109.081 131.501 106.933 131.932 105.356C132.418 103.585 133.923 102.223 134.349 100.439C135.345 96.2439 130.024 91.2396 126.551 89.7816C122.923 88.2638 117.52 88.6179 113.777 89.0825Z" fill="#35323E"/>
 </svg>
               <p className={styles.description}>{t('researchSummary')}</p>
-            </div>  
+            </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className={styles.dimelo}>
@@ -1172,7 +1172,7 @@ function AboutMe() {
 </defs>
 </svg>
                  <p className={styles.description}>{t('developmentSummary')}</p>
-              </div>  
+              </div>
              </SwiperSlide>
             <SwiperSlide>
               <div className={styles.dimelo}>
@@ -1528,7 +1528,7 @@ function AboutMe() {
 <path d="M215.668 236.501C216.898 236.501 217.895 235.491 217.895 234.245C217.895 232.999 216.898 231.988 215.668 231.988C214.438 231.988 213.44 232.999 213.44 234.245C213.44 235.491 214.438 236.501 215.668 236.501Z" fill="#FFFC00"/>
 </svg>
                 <p className={styles.description}>{t('repeatSummary')}</p>
-              </div>  
+              </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className={styles.dimelo}>
@@ -1595,7 +1595,7 @@ function AboutMe() {
 </linearGradient>
 </defs>
 </svg>
-                <p className={styles.description}>Minimal full stack designer using Sketch, Figma and custom apps. Make my prototypes in HTML + CSS, Javascript, WebVR and InVision. All my cloud at Amazon Web Services (AWS), Github or any Raspberry Pi I find running Linux.</p>
+                <p className={styles.description}>{t('toolsSummary')}</p>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
@@ -1642,12 +1642,12 @@ function AboutMe() {
 <path d="M96.2115 152.052H54V155.299H96.2115V152.052Z" fill="white"/>
 <path d="M96.2115 160.169H54V163.416H96.2115V160.169Z" fill="white"/>
 </svg>
-                <p className={styles.description}>Test</p>
+                <p className={styles.description}><a href="https://julio62.typeform.com/to/IBnyOp">Let's chat</a></p>
                 </div>
-                
+
               </SwiperSlide>
               <span className={styles.iconArrow}>></span>
-            </Swiper> 
+            </Swiper>
             </div>
             </div>
             </div>

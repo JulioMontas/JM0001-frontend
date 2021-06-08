@@ -1,16 +1,17 @@
 {
     "education": "Education",
-    "educationSummary": "Alumnus from",
+    "educationSummary": "Alumnus of",
     "research": "Research",
-    "researchSummary": "Understand the users’ needs, behaviors, and emotions to gather insights that inform product strategy and design thoughtful solutions.",
+    "researchSummary": "Know how users behave, what they want, and feel to gather insights that will inform product strategy and design thoughtful solutions.",
     "informationArchitecture": "Information Architecture",
-    "informationArchitectureSummary": "Passionate about quality, usability, and simplicity. Creating user flows, storyboards and wireframes to building user interface mockups and prototypes.",
+    "informationArchitectureSummary": "Passionate about creating quality, usability and simple interfaces. Creating user flows, storyboards and wireframes to build user interface mock-ups and prototypes.",
     "prototyping": "Prototyping",
     "prototypingSummary": "Explore product concepts to find promising directions that address both human and business needs. Launch new products and features, test their performance.",
     "development": "Development",
     "developmentSummary": "Take on new problems for using the latest in front-end technologies, familiarity with technical constraints and limitations as they apply to designing for platforms such as desktop, mobile or wearables.",
     "launch": "Launch",
-    "launchSummary": "8 years of relevant industry experience. Ability to lead and ideate products from scratch and improve features, all with a user-centered design process.",
+    "launchSummary": "Ability to build, concept and improve on products from scratch with an user-centered design process.",
     "repeat": "Repeat",
-    "repeatSummary": "Experience collaborating with multidisciplinary teams of Designers, Researchers, Engineers, Content Strategists and Product Managers throughout the design process, work well both independently and as part of a team."
+    "repeatSummary": "Experience working alongside multidisciplinary teams of designers, developers, researchers, engineers, content strategists and product managers throughout the design process. Proven ability to work both independently and in collaboration with others in a team.",
+    "toolsSummary": "A full spectrum designer using Sketch, Figma and custom apps. I create my prototypes in HTML + CSS, JavaScript, WebVR and InVision. All my code is hosted on Amazon web services (AWS), GitHub or any Raspberry Pi running Linux."
 }

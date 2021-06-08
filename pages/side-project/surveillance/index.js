@@ -11,19 +11,19 @@ function ProjectIndex() {
     const { t } = useTranslation('sideProject')
   return <Layout>
       <Head>
-          <title>Side Project | {t('title_02')} | Llegó Julio</title>
-          <meta name='twitter:url' content='https://llegojulio.com/side-project/surveillance/' />
-          <meta property='og:url' content='https://llegojulio.com/side-project/surveillance/' />
-          <meta property='og:image' content='https://llegojulio.com/img/side-project/surveillance/jessieNguyen-Moodboard.jpg' />
-          <meta name='twitter:image' content='https://llegojulio.com/img/side-project/surveillance/jessieNguyen-Moodboard.jpg' />
-          <meta property='og:title' content='Surveillance Culture - Modernity Identity and Security | Llegó Julio' />
-          <meta name='twitter:title' content='Surveillance Culture - Modernity Identity and Security | Llegó Julio' />
+          <title>Side Project | {t('title_02')} | Julio Montás</title>
+          <meta name='twitter:url' content='https://juliomontas.com/side-project/surveillance/' />
+          <meta property='og:url' content='https://juliomontas.com/side-project/surveillance/' />
+          <meta property='og:image' content='https://juliomontas.com/img/side-project/surveillance/jessieNguyen-Moodboard.jpg' />
+          <meta name='twitter:image' content='https://juliomontas.com/img/side-project/surveillance/jessieNguyen-Moodboard.jpg' />
+          <meta property='og:title' content='Surveillance Culture - Modernity Identity and Security | Julio Montás' />
+          <meta name='twitter:title' content='Surveillance Culture - Modernity Identity and Security | Julio Montás' />
           <meta name="description" content="A social experiment using the top social media channels to farm users sensitive data" key="description"/>
           <meta property='og:description' content='A social experiment using the top social media channels to farm users sensitive data' />
           <meta name='twitter:description' content='A social experiment using the top social media channels to farm users sensitive data' />
-          <link rel="canonical" href="https://llegojulio.com/side-project/surveillance/" />
-          <link rel="alternate" href="https://llegojulio.com/side-project/surveillance/" hreflang="en-us" />
-          <link rel="alternate" href="https://llegojulio.com/es-us/side-project/surveillance/" hreflang="es-us" />
+          <link rel="canonical" href="https://juliomontas.com/side-project/surveillance/" />
+          <link rel="alternate" href="https://juliomontas.com/side-project/surveillance/" hreflang="en-us" />
+          <link rel="alternate" href="https://juliomontas.com/es-us/side-project/surveillance/" hreflang="es-us" />
           </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}

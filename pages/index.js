@@ -11,19 +11,19 @@ function HomePage({ props }) {
   const { t } = useTranslation('home')
   return <Layout>
     <Head>
-      <title>Llegó Julio - {t('title')}</title>
-      <meta name='twitter:url' content='https://llegojulio.com/' />
-      <meta property='og:url' content='https://llegojulio.com/' />
-      <meta property='og:image' content='https://llegojulio.com/me.png' />
-      <meta name='twitter:image' content='https://llegojulio.com/me.png' />
-      <meta property='og:title' content='Llegó Julio - UI Developer • Interaction Designer' />
-      <meta name='twitter:title' content='Llegó Julio - UI Developer • Interaction Designer' />
+      <title>Julio Montás - {t('title')}</title>
+      <meta name='twitter:url' content='https://juliomontas.com/' />
+      <meta property='og:url' content='https://juliomontas.com/' />
+      <meta property='og:image' content='https://juliomontas.com/me.png' />
+      <meta name='twitter:image' content='https://juliomontas.com/me.png' />
+      <meta property='og:title' content='Julio Montás - UI Developer • Interaction Designer' />
+      <meta name='twitter:title' content='Julio Montás - UI Developer • Interaction Designer' />
       <meta name="description" content="Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC." key="description"/>
       <meta property='og:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
       <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
-      <link rel="canonical" href="https://llegojulio.com/" />
-      <link rel="alternate" href="https://llegojulio.com/" hreflang="en-us" />
-      <link rel="alternate" href="https://llegojulio.com/es-us/" hreflang="es-us" />
+      <link rel="canonical" href="https://juliomontas.com/" />
+      <link rel="alternate" href="https://juliomontas.com/" hreflang="en-us" />
+      <link rel="alternate" href="https://juliomontas.com/es-us/" hreflang="es-us" />
     </Head>
     <div className={styles.container}>
     <motion.div

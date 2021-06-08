@@ -12,19 +12,19 @@ function CaseStudyIndex() {
   const { t } = useTranslation('caseStudy')
   return <Layout>
     <Head>
-      <title>{t('title_02')} | Llegó Julio</title>
-      <meta name='twitter:url' content='https://llegojulio.com/case-study/2/' />
-      <meta property='og:url' content='https://llegojulio.com/case-study/2/' />
-      <meta property='og:image' content='https://llegojulio.com/img/ecommerce/mockupFragrance_A01.jpg' />
-      <meta name='twitter:image' content='https://llegojulio.com/img/ecommerce/mockupFragrance_A01.jpg' />
-      <meta property='og:title' content='Shopify Fragrance eCommerce - A Discovery In Scent | Llegó Julio' />
-      <meta name='twitter:title' content='Shopify Fragrance eCommerce - A Discovery In Scent | Llegó Julio' />
+      <title>{t('title_02')} | Julio Montás</title>
+      <meta name='twitter:url' content='https://juliomontas.com/case-study/2/' />
+      <meta property='og:url' content='https://juliomontas.com/case-study/2/' />
+      <meta property='og:image' content='https://juliomontas.com/img/ecommerce/mockupFragrance_A01.jpg' />
+      <meta name='twitter:image' content='https://juliomontas.com/img/ecommerce/mockupFragrance_A01.jpg' />
+      <meta property='og:title' content='Shopify Fragrance eCommerce - A Discovery In Scent | Julio Montás' />
+      <meta name='twitter:title' content='Shopify Fragrance eCommerce - A Discovery In Scent | Julio Montás' />
       <meta name="description" content="A luxury fragrances distribution company going B2C with their first shofity eCommerce online store" key="description"/>
       <meta property='og:description' content='A luxury fragrances distribution company going B2C with their first shofity eCommerce online store' />
       <meta name='twitter:description' content='A luxury fragrances distribution company going B2C with their first shofity eCommerce online store' />
-      <link rel="canonical" href="https://llegojulio.com/case-study/2/" />
-      <link rel="alternate" href="https://llegojulio.com/case-study/2/" hreflang="en-us" />
-      <link rel="alternate" href="https://llegojulio.com/es-us//case-study/2/" hreflang="es-us" />
+      <link rel="canonical" href="https://juliomontas.com/case-study/2/" />
+      <link rel="alternate" href="https://juliomontas.com/case-study/2/" hreflang="en-us" />
+      <link rel="alternate" href="https://juliomontas.com/es-us//case-study/2/" hreflang="es-us" />
     </Head>
     <motion.div
     initial={{ y: 600, opacity: 0 }}

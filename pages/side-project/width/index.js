@@ -11,19 +11,19 @@ function ProjectIndex() {
     const { t } = useTranslation('sideProject')
   return <Layout>
       <Head>
-          <title>Side Project | {t('title_03')} | Llegó Julio</title>
-          <meta name='twitter:url' content='https://llegojulio.com/side-project/width/' />
-          <meta property='og:url' content='https://llegojulio.com/side-project/width/' />
-          <meta property='og:image' content='https://llegojulio.com/img/side-project/width/width_BothPlayer_1080.gif' />
-          <meta name='twitter:image' content='https://llegojulio.com/img/side-project/width/width_BothPlayer_1080.gif' />
-          <meta property='og:title' content='Width Take Over the Screen | Llegó Julio' />
-          <meta name='twitter:title' content='Width Take Over the Screen | Llegó Julio' />
+          <title>Side Project | {t('title_03')} | Julio Montás</title>
+          <meta name='twitter:url' content='https://juliomontas.com/side-project/width/' />
+          <meta property='og:url' content='https://juliomontas.com/side-project/width/' />
+          <meta property='og:image' content='https://juliomontas.com/img/side-project/width/width_BothPlayer_1080.gif' />
+          <meta name='twitter:image' content='https://juliomontas.com/img/side-project/width/width_BothPlayer_1080.gif' />
+          <meta property='og:title' content='Width Take Over the Screen | Julio Montás' />
+          <meta name='twitter:title' content='Width Take Over the Screen | Julio Montás' />
           <meta name="description" content="A two-player game in which you must defeat your opponents by clicking to take over the screen" key="description"/>
           <meta property='og:description' content='A two-player game in which you must defeat your opponents by clicking to take over the screen' />
           <meta name='twitter:description' content='A two-player game in which you must defeat your opponents by clicking to take over the screen' />
-          <link rel="canonical" href="https://llegojulio.com/side-project/width/" />
-          <link rel="alternate" href="https://llegojulio.com/side-project/width/" hreflang="en-us" />
-          <link rel="alternate" href="https://llegojulio.com/es-us/side-project/width/" hreflang="es-us" />
+          <link rel="canonical" href="https://juliomontas.com/side-project/width/" />
+          <link rel="alternate" href="https://juliomontas.com/side-project/width/" hreflang="en-us" />
+          <link rel="alternate" href="https://juliomontas.com/es-us/side-project/width/" hreflang="es-us" />
       </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}

@@ -11,19 +11,19 @@ function ProjectIndex() {
   const { t } = useTranslation('sideProject')
   return <Layout>
     <Head>
-      <title>Side Project | {t('title_04')} | Llegó Julio</title>
-      <meta name='twitter:url' content='https://llegojulio.com/side-project/meliorem/' />
-      <meta property='og:url' content='https://llegojulio.com/side-project/meliorem/' />
-      <meta property='og:image' content='https://llegojulio.com/img/side-project/meliorem/meliorem-02.png' />
-      <meta name='twitter:image' content='https://llegojulio.com/img/side-project/meliorem/meliorem-02.png' />
-      <meta property='og:title' content='Meliorem - Cultivating Your Passion to Level Up | Llegó Julio' />
-      <meta name='twitter:title' content='Meliorem - Cultivating Your Passion to Level Up | Llegó Julio' />
+      <title>Side Project | {t('title_04')} | Julio Montás</title>
+      <meta name='twitter:url' content='https://juliomontas.com/side-project/meliorem/' />
+      <meta property='og:url' content='https://juliomontas.com/side-project/meliorem/' />
+      <meta property='og:image' content='https://juliomontas.com/img/side-project/meliorem/meliorem-02.png' />
+      <meta name='twitter:image' content='https://juliomontas.com/img/side-project/meliorem/meliorem-02.png' />
+      <meta property='og:title' content='Meliorem - Cultivating Your Passion to Level Up | Julio Montás' />
+      <meta name='twitter:title' content='Meliorem - Cultivating Your Passion to Level Up | Julio Montás' />
       <meta name="description" content="Reward self task manager to stimulate your existence" key="description"/>
       <meta property='og:description' content='Reward self task manager to stimulate your existence' />
       <meta name='twitter:description' content='Reward self task manager to stimulate your existence' />
-      <link rel="canonical" href="https://llegojulio.com/side-project/meliorem/" />
-      <link rel="alternate" href="https://llegojulio.com/side-project/meliorem/" hreflang="en-us" />
-      <link rel="alternate" href="https://llegojulio.com/es-us/side-project/meliorem/" hreflang="es-us" />
+      <link rel="canonical" href="https://juliomontas.com/side-project/meliorem/" />
+      <link rel="alternate" href="https://juliomontas.com/side-project/meliorem/" hreflang="en-us" />
+      <link rel="alternate" href="https://juliomontas.com/es-us/side-project/meliorem/" hreflang="es-us" />
     </Head>
     <motion.div 
     initial={{ y: 600, opacity: 0 }}

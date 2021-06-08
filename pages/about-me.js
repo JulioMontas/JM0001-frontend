@@ -9,19 +9,19 @@ function AboutMe() {
   const { t } = useTranslation('aboutMe')
   return <Layout>
     <Head>
-      <title>About Me - UI Developer • Interaction Designer • Full Stack Designer | Llegó Julio</title>
-      <meta name='twitter:url' content='https://llegojulio.com/about-me/' />
-      <meta property='og:url' content='https://llegojulio.com/about-me/' />
-      <meta property='og:image' content='https://llegojulio.com/me.png' />
-      <meta name='twitter:image' content='https://llegojulio.com/me.png' />
-      <meta property='og:title' content='About Me - UI Developer • Interaction Designer • Full Stack Designer | Llegó Julio' />
-      <meta name='twitter:title' content='About Me - UI Developer • Interaction Designer • Full Stack Designer | Llegó Julio' />
+      <title>About Me - UI Developer • Interaction Designer • Full Stack Designer | Julio Montás</title>
+      <meta name='twitter:url' content='https://juliomontas.com/about-me/' />
+      <meta property='og:url' content='https://juliomontas.com/about-me/' />
+      <meta property='og:image' content='https://juliomontas.com/me.png' />
+      <meta name='twitter:image' content='https://juliomontas.com/me.png' />
+      <meta property='og:title' content='About Me - UI Developer • Interaction Designer • Full Stack Designer | Julio Montás' />
+      <meta name='twitter:title' content='About Me - UI Developer • Interaction Designer • Full Stack Designer | Julio Montás' />
       <meta name="description" content="Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC." key="description"/>
       <meta property='og:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
       <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
-      <link rel="canonical" href="https://llegojulio.com/about-me/" />
-      <link rel="alternate" href="https://llegojulio.com/about-me/" hreflang="en-us" />
-      <link rel="alternate" href="https://llegojulio.com/es-us/about-me/" hreflang="es-us" />
+      <link rel="canonical" href="https://juliomontas.com/about-me/" />
+      <link rel="alternate" href="https://juliomontas.com/about-me/" hreflang="en-us" />
+      <link rel="alternate" href="https://juliomontas.com/es-us/about-me/" hreflang="es-us" />
     </Head>
     <motion.div
     initial={{ x: 600, opacity: 0 }}

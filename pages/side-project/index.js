@@ -11,19 +11,19 @@ function sideProject({ posts }) {
   const { t } = useTranslation('sideProject')
   return <Layout>
     <Head>
-      <title>Side Project - UI Developer • Interaction Designer | Llegó Julio</title>
-      <meta name='twitter:url' content='https://llegojulio.com/side-project/' />
-      <meta property='og:url' content='https://llegojulio.com/side-project/' />
-      <meta property='og:image' content='https://llegojulio.com/me.png' />
-      <meta name='twitter:image' content='https://llegojulio.com/me.png' />
-      <meta property='og:title' content='Projects - UI Developer • Interaction Designer | Llegó Julio' />
-      <meta name='twitter:title' content='Projects - UI Developer • Interaction Designer | Llegó Julio' />
+      <title>Side Project - UI Developer • Interaction Designer | Julio Montás</title>
+      <meta name='twitter:url' content='https://juliomontas.com/side-project/' />
+      <meta property='og:url' content='https://juliomontas.com/side-project/' />
+      <meta property='og:image' content='https://juliomontas.com/me.png' />
+      <meta name='twitter:image' content='https://juliomontas.com/me.png' />
+      <meta property='og:title' content='Projects - UI Developer • Interaction Designer | Julio Montás' />
+      <meta name='twitter:title' content='Projects - UI Developer • Interaction Designer | Julio Montás' />
       <meta name="description" content="Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC." key="description"/>
       <meta property='og:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
       <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
-      <link rel="canonical" href="https://llegojulio.com/side-project/" />
-      <link rel="alternate" href="https://llegojulio.com/side-project/" hreflang="en-us" />
-      <link rel="alternate" href="https://llegojulio.com/es-us/side-project/" hreflang="es-us" />
+      <link rel="canonical" href="https://juliomontas.com/side-project/" />
+      <link rel="alternate" href="https://juliomontas.com/side-project/" hreflang="en-us" />
+      <link rel="alternate" href="https://juliomontas.com/es-us/side-project/" hreflang="es-us" />
     </Head>
     <div className={styles.wrapper}>
     <motion.div 

@@ -12,19 +12,19 @@ function CaseStudyIndex() {
   const { t } = useTranslation('caseStudy')
   return <Layout>
     <Head>
-      <title>{t('title_03')} | Llegó Julio</title>
-      <meta name='twitter:url' content='https://llegojulio.com/case-study/3/' />
-      <meta property='og:url' content='https://llegojulio.com/case-study/3/' />
-      <meta property='og:image' content='https://llegojulio.com/img/ecommerce/mockupFragrance_A01.jpg' />
-      <meta name='twitter:image' content='https://llegojulio.com/img/ecommerce/mockupFragrance_A01.jpg' />
-      <meta property='og:title' content='Custom Wordpress - Theme For Musicians and Bands | Llegó Julio' />
-      <meta name='twitter:title' content='Custom Wordpress - Theme For Musicians and Bands | Llegó Julio' />
+      <title>{t('title_03')} | Julio Montás</title>
+      <meta name='twitter:url' content='https://juliomontas.com/case-study/3/' />
+      <meta property='og:url' content='https://juliomontas.com/case-study/3/' />
+      <meta property='og:image' content='https://juliomontas.com/img/ecommerce/mockupFragrance_A01.jpg' />
+      <meta name='twitter:image' content='https://juliomontas.com/img/ecommerce/mockupFragrance_A01.jpg' />
+      <meta property='og:title' content='Custom Wordpress - Theme For Musicians and Bands | Julio Montás' />
+      <meta name='twitter:title' content='Custom Wordpress - Theme For Musicians and Bands | Julio Montás' />
       <meta name="description" content="A multi-talented EDM / Pop artist, songwriter and producer with more than 50+ songs release, looking for a space to connected with her #trueFan" key="description"/>
       <meta property='og:description' content='A multi-talented EDM / Pop artist, songwriter and producer with more than 50+ songs release, looking for a space to connected with her #trueFan' />
       <meta name='twitter:description' content='A multi-talented EDM / Pop artist, songwriter and producer with more than 50+ songs release, looking for a space to connected with her #trueFan' />
-      <link rel="canonical" href="https://llegojulio.com/case-study/3/" />
-      <link rel="alternate" href="https://llegojulio.com/case-study/3/" hreflang="en-us" />
-      <link rel="alternate" href="https://llegojulio.com/es-us/case-study/3/" hreflang="es-us" />
+      <link rel="canonical" href="https://juliomontas.com/case-study/3/" />
+      <link rel="alternate" href="https://juliomontas.com/case-study/3/" hreflang="en-us" />
+      <link rel="alternate" href="https://juliomontas.com/es-us/case-study/3/" hreflang="es-us" />
     </Head>
     <motion.div
     initial={{ y: 600, opacity: 0 }}

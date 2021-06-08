@@ -12,19 +12,19 @@ function CaseStudyIndex() {
   const { t } = useTranslation('caseStudy')
   return <Layout>
     <Head>
-      <title>{t('title_01')} | Llegó Julio</title>
-      <meta name='twitter:url' content='https://llegojulio.com/case-study/1/' />
-      <meta property='og:url' content='https://llegojulio.com/case-study/1/' />
-      <meta property='og:image' content='https://llegojulio.com/img/pendulum/pendulum_instagram.jpg' />
-      <meta name='twitter:image' content='https://llegojulio.com/img/pendulum/pendulum_instagram.jpg' />
-      <meta property='og:title' content='Pendulum EP - Vinyl Record Label Design | Llegó Julio' />
-      <meta name='twitter:title' content='Pendulum EP - Vinyl Record Label Design | Llegó Julio' />
+      <title>{t('title_01')} | Julio Montás</title>
+      <meta name='twitter:url' content='https://juliomontas.com/case-study/1/' />
+      <meta property='og:url' content='https://juliomontas.com/case-study/1/' />
+      <meta property='og:image' content='https://juliomontas.com/img/pendulum/pendulum_instagram.jpg' />
+      <meta name='twitter:image' content='https://juliomontas.com/img/pendulum/pendulum_instagram.jpg' />
+      <meta property='og:title' content='Pendulum EP - Vinyl Record Label Design | Julio Montás' />
+      <meta name='twitter:title' content='Pendulum EP - Vinyl Record Label Design | Julio Montás' />
       <meta name="description" content="The second EP of ERRANT Recordings with a style of ambient and minimal tech house" key="description"/>
       <meta property='og:description' content='The second EP of ERRANT Recordings with a style of ambient and minimal tech house' />
       <meta name='twitter:description' content='The second EP of ERRANT Recordings with a style of ambient and minimal tech house' />
-      <link rel="canonical" href="https://llegojulio.com/case-study/1/" />
-      <link rel="alternate" href="https://llegojulio.com/case-study/1/" hreflang="en-us" />
-      <link rel="alternate" href="https://llegojulio.com/es-us/case-study/1/" hreflang="es-us" />
+      <link rel="canonical" href="https://juliomontas.com/case-study/1/" />
+      <link rel="alternate" href="https://juliomontas.com/case-study/1/" hreflang="en-us" />
+      <link rel="alternate" href="https://juliomontas.com/es-us/case-study/1/" hreflang="es-us" />
       </Head>
     <motion.div
     initial={{ y: 600, opacity: 0 }}

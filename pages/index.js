@@ -7,11 +7,15 @@ import Head from 'next/head'
 import Layout from '../components/Layout/Layout'
 import styles from '../styles/Home.module.css'
 
-function HomePage({ props }) {
+function HomePage() {
   const { t } = useTranslation('home')
+  const title = t('title')
+  const description = t('descriptionA')
+  // console.log(t('descriptionA'))
+  
   return <Layout>
     <Head>
-      <title>Julio Montás - {t('title')}</title>
+      <title>Julio Montás - {title}</title>
       <meta name='twitter:url' content='https://juliomontas.com/' />
       <meta property='og:url' content='https://juliomontas.com/' />
       <meta property='og:image' content='https://juliomontas.com/me.png' />
@@ -34,8 +38,8 @@ function HomePage({ props }) {
       <Swiper
       speed={400}
       // pagination={{ clickable: true }}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
+      // onSlideChange={() => console.log('slide change')}
+      // onSwiper={(swiper) => console.log(swiper)}
       breakpoints={{
         320: {
           slidesPerView: 1,
@@ -53,16 +57,16 @@ function HomePage({ props }) {
         <div className={styles.sectionUno}>
             <Image
               src="/me.png"
-              alt="Picture of the author"
+              alt="self portrait of me sunglasses indoors"
               width={200}
               height={200}
             />
-            <h2>{t('title')}</h2>
+            <h2>{title}</h2>
         </div>
       </SwiperSlide>
       <SwiperSlide>
-      <div  className={styles.sectionDos}>
-        <p>{t('descriptionA')} <a href="https://julio62.typeform.com/to/IBnyOp">Let's chat</a>.</p>
+      <div className={styles.sectionDos}>
+        <p>{description} <a href="https://julio62.typeform.com/to/IBnyOp">Let's chat</a>.</p>
       </div>
       </SwiperSlide>
     </Swiper>
@@ -72,9 +76,4 @@ function HomePage({ props }) {
   </Layout>
 }
 
-export const getStaticProps = async () => ({
-  props: {
-    namespacesRequired: ['home'],
-  }
-})
 export default HomePage

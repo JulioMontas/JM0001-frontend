@@ -32,8 +32,8 @@ function AboutMe() {
       <div className={styles.container}>
         <Swiper
         speed={400}
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
+        // onSlideChange={() => console.log('slide change')}
+        // onSwiper={(swiper) => console.log(swiper)}
         breakpoints={{
           320: {
             slidesPerView: 1,

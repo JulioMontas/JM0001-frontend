@@ -82,21 +82,17 @@
     height: 100vh;
 }
   .main a{
-    opacity: 0.6;
     filter: none;
     transition: all 1s ease;
     display: inline-block;
     filter: var(--box-shadow);
   }
-  .main a:hover{
-    opacity: 1;
-  }
   .cubeWrapper{
-    transform: scale(1);
+    transform: scale(0.85);
     transition: all 1s ease-in-out;
   }
   .main a:hover .cubeWrapper{
-    transform: scale(0.85);
+    transform: scale(1);
  }
 }
 /* Desktop 1920px */

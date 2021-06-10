@@ -11,8 +11,7 @@ function HomePage() {
   const { t } = useTranslation('home')
   const title = t('title')
   const description = t('descriptionA')
-  // console.log(t('descriptionA'))
-  
+
   return <Layout>
     <Head>
       <title>Julio Montás - {title}</title>
@@ -57,7 +56,7 @@ function HomePage() {
         <div className={styles.sectionUno}>
             <Image
               src="/me.png"
-              alt="self portrait of me sunglasses indoors"
+              alt="self portrait of me wearing sunglasses indoors"
               width={200}
               height={200}
             />

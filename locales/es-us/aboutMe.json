@@ -1,16 +1,17 @@
 {
     "education": "Educación",
-    "educationSummary": "Antiguo alumno de",
+    "educationSummary": "Ex alumno de Altos de Chavón, The New School, bootcamp intensivo de codificación en General Assembly, Art-A-Hack y la academia de entrenamiento de realidad virtual en la universidad de Lehman.",
     "research": "Investigación",
-    "researchSummary": "Comprender las necesidades, los comportamientos y las emociones de los usuarios para recopilar información que informe la estrategia del producto y diseñar soluciones bien pensadas..",
+    "researchSummary": "Saber cómo se comportan los usuarios, qué quieren y qué sienten para recopilar conocimientos que informarán la estrategia del producto y para diseñar soluciones mejor pensadas.",
     "informationArchitecture": "Arquitectura informacional",
-    "informationArchitectureSummary": "Apasionado por la calidad, la usabilidad y la sencillez. Creación de flujos de usuario, guiones gráficos y wireframes para construir prototipos y maquetas de interfaces de usuario.",
+    "informationArchitectureSummary": "Apasionado por crear interfaces de calidad, usabilidad de interfaces simples. Creación de flujos de usuario, guiones gráficos y wireframes para crear prototipos y maquetas de interfaces de usuario.",
     "prototyping": "Creación de prototipos",
-    "prototypingSummary": "Explore conceptos de productos para encontrar direcciones prometedoras que aborden las necesidades tanto humanas como comerciales. Lanzar nuevos productos y funciones, probar su rendimiento.",
+    "prototypingSummary": "Explorar conceptos de productos para encontrar direcciones prometedoras que aborden las necesidades tanto humanas como comerciales. Lanza nuevos productos y funciones, prueba su rendimiento.",
     "development": "Desarrollo",
-    "developmentSummary": "Asumir nuevos problemas para usar lo último en tecnologías de interfaz de usuario, estar familiarizado con las restricciones y limitaciones técnicas que se aplican al diseño de plataformas como computadoras de escritorio, dispositivos móviles o dispositivos portátiles..",
+    "developmentSummary": "Asumir nuevos problemas para usar lo último en tecnologías de interfaz de usuario, estar familiarizado con las restricciones y limitaciones técnicas que se aplican al diseño de plataformas como computadoras de escritorio, dispositivos móviles o dispositivos portátiles.",
     "launch": "Lanzamiento",
-    "launchSummary": "8 años de experiencia relevante en la industria. Capacidad para liderar e idear productos desde cero y mejorar las características, todo con un proceso de diseño centrado en el usuario.",
+    "launchSummary": "Capacidad para construir, concebir y mejorar productos desde cero con un proceso de diseño concentrado en el usuario. ",
     "repeat": "Repetir",
-    "repeatSummary": "Experiencia colaborando con equipos multidisciplinarios de diseñadores, investigadores, ingenieros, estrategas de contenido y gerentes de producto durante todo el proceso de diseño, trabaja bien tanto de forma independiente como como parte de un equipo."
+    "repeatSummary": "Experiencia trabajando junto a equipos multidisciplinarios de diseñadores, desarrolladores, investigadores, ingenieros, estrategas de contenido y gerentes de producto durante todo el proceso de diseño. Capacidad demostrada para trabajar tanto de forma independiente como en colaboración con otros en un equipo.",
+    "toolsSummary": "Un diseñador de espectro completo que utiliza Sketch, Figma y aplicaciones personalizadas. Creo mis prototipos en HTML + CSS, JavaScript, WebVR y InVision. Todo mi código está alojado en Amazon Web Services (AWS), GitHub o cualquier Raspberry Pi con Linux instalado."
 }

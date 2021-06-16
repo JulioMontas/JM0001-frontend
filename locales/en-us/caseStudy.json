@@ -23,7 +23,7 @@
     "overviewContent_02": "The Fragrances Group is an American distributor of European fragrance lines with retail partners like Bloomingdale’s, Bergdorf Goodman and Barneys. It also serves as a sole distributor for Christian Siriano, Thalia Sodi and Banana Republic fragrances.",
     "moodboard_02": "Moodboard: Deep stages of relaxation",
     "backgroundContent_02":"I got on board with the project to redesign their existing eCommerce that was built by their marketing team. I laid out their User Journey first but because of the short timeline for their launch day, I had to skimp on the wireframe process, create all the User Interface (UI) mockups for all pages. I needed to make sure they were getting what they wanted from it.",
-    "developmentContent_02": "Dio la casualidad de que también modifiqué todo el sistema de comercio electrónico después de que su desarrollador web interno abandonara la empresa, solo 2 semanas después del proyecto.",
+    "developmentContent_02": "It just so happened that I also coded the entire eCommerce system after their in-house web developer quit the company, only 2 weeks into the project.",
     "developmentContentList_02a": "The front-end was developed locally using the Shopify slate toolkit (deprecated in January 2020), written in liquid syntax script.",
     "developmentContentList_02b": "Cross-device responsiveness.",
     "developmentContentList_02c": "El administrador de etiquetas de Google se utilizó para apuntar a enlaces muertos y medir el tráfico.",

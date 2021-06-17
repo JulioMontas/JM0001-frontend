@@ -17,11 +17,11 @@ function CaseStudyIndex() {
       <meta property='og:url' content='https://juliomontas.com/case-study/0/' />
       <meta property='og:image' content='https://juliomontas.com/img/pendulum/pendulum_instagram.jpg' />
       <meta name='twitter:image' content='https://juliomontas.com/img/pendulum/pendulum_instagram.jpg' />
-      <meta property='og:title' content='Pendulum EP - Vinyl Record Label Design | Julio Montás' />
-      <meta name='twitter:title' content='Pendulum EP - Vinyl Record Label Design | Julio Montás' />
-      <meta name="description" content="The second EP of ERRANT Recordings with a style of ambient and minimal tech house" key="description"/>
-      <meta property='og:description' content='The second EP of ERRANT Recordings with a style of ambient and minimal tech house' />
-      <meta name='twitter:description' content='The second EP of ERRANT Recordings with a style of ambient and minimal tech house' />
+      <meta property='og:title' content='Retail Store | Julio Montás' />
+      <meta name='twitter:title' content='Retail Store | Julio Montás' />
+      <meta name="description" content="Retail Store" key="description"/>
+      <meta property='og:description' content='Retail Store' />
+      <meta name='twitter:description' content='Retail Store' />
       <link rel="canonical" href="https://juliomontas.com/case-study/0/" />
       <link rel="alternate" href="https://juliomontas.com/case-study/0/" hreflang="en-us" />
       <link rel="alternate" href="https://juliomontas.com/es-us/case-study/0/" hreflang="es-us" />
@@ -114,7 +114,6 @@ function CaseStudyIndex() {
             </div>
 
 
-
             <div className={styles.flipSwitch}>
               <h3>&#128736; {t('development')}</h3>
               <div>
@@ -139,15 +138,6 @@ function CaseStudyIndex() {
                 </ul>
               </div>
             </div>
-
-
-
-
-
-
-
-
-
 
 
           </div>

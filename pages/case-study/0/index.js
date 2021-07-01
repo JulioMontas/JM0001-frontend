@@ -12,16 +12,16 @@ function CaseStudyIndex() {
   const { t } = useTranslation('caseStudy')
   return <Layout>
     <Head>
-      <title>Retail Store | Julio Montás</title>
+      <title>Adorama - eCommerce | Julio Montás</title>
       <meta name='twitter:url' content='https://juliomontas.com/case-study/0/' />
       <meta property='og:url' content='https://juliomontas.com/case-study/0/' />
       <meta property='og:image' content='https://juliomontas.com/img/pendulum/pendulum_instagram.jpg' />
       <meta name='twitter:image' content='https://juliomontas.com/img/pendulum/pendulum_instagram.jpg' />
-      <meta property='og:title' content='Retail Store | Julio Montás' />
-      <meta name='twitter:title' content='Retail Store | Julio Montás' />
-      <meta name="description" content="Retail Store" key="description"/>
-      <meta property='og:description' content='Retail Store' />
-      <meta name='twitter:description' content='Retail Store' />
+      <meta property='og:title' content='Adorama - eCommerce | Julio Montás' />
+      <meta name='twitter:title' content='Adorama - eCommerce | Julio Montás' />
+      <meta name="description" content="Adorama - eCommerce" key="description"/>
+      <meta property='og:description' content='Adorama - eCommerce' />
+      <meta name='twitter:description' content='Adorama - eCommerce' />
       <link rel="canonical" href="https://juliomontas.com/case-study/0/" />
       <link rel="alternate" href="https://juliomontas.com/case-study/0/" hreflang="en-us" />
       <link rel="alternate" href="https://juliomontas.com/es-us/case-study/0/" hreflang="es-us" />
@@ -46,7 +46,7 @@ function CaseStudyIndex() {
 
             <div className={styles.flipSwitch}>
               <h3>&#128466; {t('overview')}</h3>
-              <p>A private American consumer electronics retailer launched in 1975. They offer new and used camera equipment, photography classes, lenses, audio, video, drones, computers and musical instruments in a large multi-floor Chelsea store, located in New York City.</p>
+              <p>US owned and operated electronics retailer founded in 1975. They sell new and used cameras, lenses, audio, video, drones, music instruments, and more in a massive, multi-floored Chelsea store in New York City.</p>
             </div>
             <div>
                 <Image
@@ -72,17 +72,17 @@ function CaseStudyIndex() {
 
             <div className={styles.flipSwitch}>
               <h3>&#128640; Background</h3>
-              <p>Working alongside multidisciplinary teams of designers, developers (overseas and internal), marketers and product managers throughout the design process.
+              <p>Working alongside multidisciplinary teams of designers, developers (outside and in-house), marketers and product managers through the entire design process.
                 <ul className={styles.secTextList}>
                   <li>Designs solutions with Sketch (UI), Balsamiq (Wireframe) and InVision (Prototype).</li>
                   <li>Turn design to HTML/CSS experience cross-device responsiveness front-end.</li>
                   <li>Senior user experience (UX) designer in agile for a team of 4 designers that frequently collaborated.</li>
-                    <li>Utilized user feedback tools such as Google Analytics and Hotjar to make small site accessibility changes that improved the flow of the website and reduced cart abandonment.</li>
+                  <li>We used user feedback tools like Google Analytics and Hotjar to implement tiny accessibility changes that improved the website’s flow and reduced cart abandonment.</li>
                 </ul>
               </p>
             </div>
 
-            <div>
+          {/*<div>
               <Image
                 src="/img/case-study/00/flow.png"
                 alt="Picture of the author"
@@ -92,7 +92,7 @@ function CaseStudyIndex() {
                 layout="responsive"
                 loading="lazy"
                />
-            </div>
+            </div> */}
 
           </div>
         </div>

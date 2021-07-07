@@ -1,0 +1,6 @@
+.container {
+  display: grid;
+  grid-template-columns: auto;
+  margin: 10%;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}

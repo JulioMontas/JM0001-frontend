@@ -52,7 +52,7 @@ export default function post({ post }) {
 }
 
 export async function getStaticPaths() {
-  const res = await fetch('http://62a7072b7017.ngrok.io/articles');
+  const res = await fetch('http://localhost:1337/articles');
   const posts = await res.json();
 
   const paths = posts.map(post => ({
@@ -67,7 +67,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const { slug } = params;
-  const res = await fetch(`http://62a7072b7017.ngrok.io/articles?slug=${slug}`);
+  const res = await fetch(`http://localhost:1337articles?slug=${slug}`);
   const data = await res.json();
   const post = data[0];
   return {

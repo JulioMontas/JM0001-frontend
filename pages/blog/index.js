@@ -49,7 +49,7 @@ export default function Blog({ data }) {
 }
 
 export async function getStaticProps() {
-  const res = await fetch(`http://62a7072b7017.ngrok.io/articles`)
+  const res = await fetch(`http://localhost:1337/articles`)
   const data = await res.json()
 
   if (!data) {

@@ -11,7 +11,6 @@ function HomePage() {
   const { t } = useTranslation('home')
   const title = t('title')
   const description = t('descriptionA')
-
   return <Layout>
     <Head>
       <title>Julio Montás - {title}</title>

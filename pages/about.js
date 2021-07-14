@@ -6,12 +6,17 @@ import Head from 'next/head'
 import Layout from '../components/Layout/Layout'
 import styles from '../styles/Home.module.css'
 import { request } from "../lib/datocms";
+import { StructuredText } from "react-datocms";
 
 const HOMEPAGE_QUERY = `query MyQuery {
-  homePage {
-    id
-    title(locale: en)
-    description(locale: en)
+  aboutMe {
+    _allContentLocales(locale: en) {
+      value {
+        title
+        description(markdown: false)
+        svgCode
+      }
+    }
   }
 }`;
 
@@ -31,7 +36,7 @@ export default function SideProject({ data }) {
   return (
     <Layout>
     <Head>
-      <title>Julio Montás - {data.homePage.title}</title>
+      <title>Julio Montás - </title>
       <meta name='twitter:url' content='https://juliomontas.com/' />
       <meta property='og:url' content='https://juliomontas.com/' />
       <meta property='og:image' content='https://juliomontas.com/me.png' />
@@ -69,22 +74,9 @@ export default function SideProject({ data }) {
         }
       }}
     >
-      <SwiperSlide>
-        <div className={styles.sectionUno}>
-            <Image
-              src="/me.png"
-              alt="self portrait of me wearing sunglasses indoors"
-              width={200}
-              height={200}
-            />
-            <h2>{data.homePage.title}</h2>
-        </div>
-      </SwiperSlide>
-      <SwiperSlide>
-      <div className={styles.sectionDos}>
-        <p>{data.homePage.description} <a href="https://julio62.typeform.com/to/IBnyOp">Let's chat</a>.</p>
-      </div>
-      </SwiperSlide>
+
+    {console.log("Data:" + data)}
+
     </Swiper>
     </div>
     </motion.div>

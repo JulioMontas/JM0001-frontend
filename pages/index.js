@@ -6,6 +6,8 @@ import Head from 'next/head'
 import Layout from '../components/Layout/Layout'
 import styles from '../styles/Home.module.css'
 import { request } from "../lib/datocms";
+import useTranslation from 'next-translate/useTranslation'
+
 
 const HOMEPAGE_QUERY = `query MyQuery {
   homePage {
@@ -28,10 +30,13 @@ export async function getStaticProps() {
 }
 
 export default function SideProject({ data }) {
+  const { t } = useTranslation('home')
+  const title = t('title')
+  const description = t('descriptionA')
   return (
     <Layout>
     <Head>
-      <title>Julio Montás - {data.homePage.title}</title>
+      <title>Julio Montás - {title}</title>
       <meta name='twitter:url' content='https://juliomontas.com/' />
       <meta property='og:url' content='https://juliomontas.com/' />
       <meta property='og:image' content='https://juliomontas.com/me.png' />
@@ -77,12 +82,12 @@ export default function SideProject({ data }) {
               width={200}
               height={200}
             />
-            <h2>{data.homePage.title}</h2>
+            <h2>{title}</h2>
         </div>
       </SwiperSlide>
       <SwiperSlide>
       <div className={styles.sectionDos}>
-        <p>{data.homePage.description} <a href="https://julio62.typeform.com/to/IBnyOp">Let's chat</a>.</p>
+        <p>{description} <a href="https://julio62.typeform.com/to/IBnyOp">Let's chat</a>.</p>
       </div>
       </SwiperSlide>
     </Swiper>

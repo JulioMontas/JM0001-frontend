@@ -1,24 +1,23 @@
-.main{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    /* height: 88vh; */
-    /* background: purple; */
+.container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 0 1em;
 }
-/* Change it it a bit later, https://coryrylan.com/blog/how-to-center-in-css-with-css-grid */
-.sectionUno,
-.sectionDos{
-    display: flex;
-    justify-content:center;
-    flex-wrap: wrap;
-    align-content:center;
-    /* height: 88vh; */
-    height: 80vh;
+.main img {
+    border-radius: 70% 30% 30% 70% / 60% 40% 20% 40%;
+    transition: all 1s ease;
+    animation: movingBlob 25s ease-in-out alternate infinite;
 }
-
-.sectionDos{
-    padding-left: 10px;
-    width: 100%;
+/* https://codepen.io/edwinchen26/pen/daoZqd */
+/* https://9elements.github.io/fancy-border-radius/ */
+@keyframes movingBlob {
+    0%{border-radius: 18% 82% 37% 70% / 44% 40% 54% 40% }
+    25%{border-radius: 70% 30% 30% 70% / 60% 40% 20% 40%}
+    50%{border-radius: 76% 90% 87% 67% / 71% 77% 63% 82%}
+    75%{border-radius: 70% 30% 30% 70% / 60% 40% 20% 40%}
+    100%{border-radius: 18% 82% 37% 70% / 44% 40% 54% 40%}
 }
 .main h2,
 .main p{
@@ -36,56 +35,23 @@
     margin-top: 10px;
 }
 .main p {
-    font-size: 14px;
+    font-size: 1em;
     line-height: 28px;
     font-weight: normal;
     letter-spacing: 0.15em;
+    font-weight: lighter;
 }
-/* .main p {
-    font-size: 14px;
-    line-height: 28px;
-    font-weight: normal;
-    letter-spacing: 0.15em;
-    margin-bottom: 15px;
-} */
-.main img {
-    border-radius: 70% 30% 30% 70% / 60% 40% 20% 40%;
-    transition: all 1s ease;
-    /* animation: movingBlob 25s ease-in-out alternate infinite; */
-}
-/* https://codepen.io/edwinchen26/pen/daoZqd */
-/* https://9elements.github.io/fancy-border-radius/ */
-/* @keyframes movingBlob {
-    0%{border-radius: 100% 0% 100% 0% / 100% 0% 100% 0% }
-    25%{border-radius: 70% 30% 30% 70% / 60% 40% 20% 40%}
-    50%{border-radius: 76% 90% 87% 67% / 71% 77% 63% 82%}
-    75%{border-radius: 70% 30% 30% 70% / 60% 40% 20% 40%}
-    100%{border-radius: 18% 82% 37% 70% / 44% 40% 54% 40%}
-} */
-
-
-
 /* Mobile 320px  */
 @media screen and (min-width: 30em) {}
 /* Table */
 @media screen and (min-width: 40em) {}
 /* Desktop 980px to 1280px  */
 @media screen and (min-width: 57em) {
-    .sectionUno,
-    .sectionDos{
-        height: var(--screen-height);
-    }
-    .main{
-        height: 100vh;
-    }
-    .main h2 {
-        width: 290px;
-    }
-    .main p {
-        line-height: 33px;
-        font-size: 16px;
-        font-weight: lighter;
-    }
+  .container {
+    width: 660px;
+    margin: 0 auto;
+    display: flex;
+  }
 }
 /* Desktop 1920px */
 @media screen and (min-width: 120em) {}

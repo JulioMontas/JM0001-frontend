@@ -25,7 +25,7 @@ function ProjectIndex() {
           <link rel="alternate" href="https://juliomontas.com/side-project/surveillance/" hreflang="en-us" />
           <link rel="alternate" href="https://juliomontas.com/es-us/side-project/surveillance/" hreflang="es-us" />
           </Head>
-    <motion.div 
+    <motion.div
     initial={{ y: 600, opacity: 0 }}
     animate={{ y: 0, opacity: 1 }}
     exit={{ y: -600, opacity: 0 }}>
@@ -39,7 +39,7 @@ function ProjectIndex() {
                     <div className={styles.secExit}>
                         <Link href="/side-project">
                             <a alt="Page Exit">
-                                <span>Close page</span>
+                                <span>&#11093;</span>
                             </a>
                         </Link>
                     </div>
@@ -54,7 +54,7 @@ function ProjectIndex() {
                     speed={400}
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}
-                    breakpoints={{ 
+                    breakpoints={{
                         320: {
                             slidesPerView: 1,
                             spaceBetween: 10,
@@ -111,7 +111,7 @@ function ProjectIndex() {
                             loading="lazy"
                             />
                         </SwiperSlide>
-                    </Swiper>                    
+                    </Swiper>
                 </div>
                 <div className={styles.flipSwitch}>
                     <h3>{t('character_02')}</h3>
@@ -120,7 +120,7 @@ function ProjectIndex() {
                     speed={400}
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}
-                    breakpoints={{ 
+                    breakpoints={{
                         320: {
                             slidesPerView: 1,
                             spaceBetween: 10,
@@ -248,7 +248,7 @@ function ProjectIndex() {
                     speed={400}
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}
-                    breakpoints={{ 
+                    breakpoints={{
                         320: {
                             slidesPerView: 1,
                             spaceBetween: 10,
@@ -292,7 +292,7 @@ function ProjectIndex() {
                         <p>List of Question</p>
                     </div>
                 </div> */}
-                
+
                 <div className={styles.flipSwitch}>
                     <h3>URL</h3>
                     <ul className={styles.secTextList}>
@@ -365,7 +365,7 @@ function ProjectIndex() {
             </ul>
           </div>
             </div>
-        </div>          
+        </div>
     </motion.div>
   </Layout>
 }

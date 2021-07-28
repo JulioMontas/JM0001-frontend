@@ -37,7 +37,7 @@ function CaseStudyIndex() {
             <div className={styles.secExit}>
               <Link href="/case-study">
                 <a alt="Page Exit">
-                  <span>Close page</span>
+                  <span>&#11093;</span>
                 </a>
               </Link>
             </div>

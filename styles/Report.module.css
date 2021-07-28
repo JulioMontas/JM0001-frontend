@@ -36,32 +36,10 @@
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
   }
-/*
   .secExit{
-    position: fixed;
-    width: 100vw;
-    text-align: right;
-    margin: 8px 0 0 0;
-    position: fixed;
-    width: 100%;
-    z-index: 9999;
-    margin: -50px -20px 0 0;
-    padding-bottom: 10px;
+    position: absolute;
+    transform: scale(1.4);
   }
-   .secExit span{
-    font-size: 0.5em;
-    opacity: 0;
-  }
-  .secExit a{
-    content: "";
-    display: block;
-    width: 15px;
-    height: 15px;
-    border: 4px solid #F8E71C;
-    border-radius: 15px;
-    margin: 0 40px 0 0;
-    float: right;
-  } */
   .secOverview{
     margin: 90px 0 0 0;
   }
@@ -276,13 +254,13 @@
     }
     .main a:hover .cubeWrapper{
       transform: scale(0.8);
-      /* margin-bottom: -25px; */
     }
     .main a:hover .description{
       margin: 0 0 -50px 0;
     }
     .secExit{
-      margin: 31px 0px 0 0;
+      position: initial;
+      padding-left: 3.6em;
     }
     .secColorPalette span{
       border: 3px solid #FFF;

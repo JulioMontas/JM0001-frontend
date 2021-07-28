@@ -11,7 +11,7 @@ function ProjectIndex() {
     const { t } = useTranslation('sideProject')
     return <Layout>
         <Head>
-            <title>Side Project | {t('title_05')} | Julio Montás</title>          
+            <title>Side Project | {t('title_05')} | Julio Montás</title>
             <meta name='twitter:url' content='https://juliomontas.com/side-project/colors/' />
             <meta property='og:url' content='https://juliomontas.com/side-project/colors/' />
             <meta property='og:image' content='https://juliomontas.com/img/side-project/colors/slide_03.png' />
@@ -25,7 +25,7 @@ function ProjectIndex() {
             <link rel="alternate" href="https://juliomontas.com/side-project/colors/" hreflang="en-us" />
             <link rel="alternate" href="https://juliomontas.com/es-us/side-project/colors/" hreflang="es-us" />
         </Head>
-    <motion.div 
+    <motion.div
     initial={{ y: 600, opacity: 0 }}
     animate={{ y: 0, opacity: 1 }}
     exit={{ y: -600, opacity: 0 }}>
@@ -39,7 +39,7 @@ function ProjectIndex() {
                     <div className={styles.secExit}>
                         <Link href="/side-project">
                             <a alt="Page Exit">
-                                <span>Close page</span>
+                                <span>&#11093;</span>
                             </a>
                         </Link>
                     </div>
@@ -64,7 +64,7 @@ function ProjectIndex() {
                     speed={400}
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}
-                    breakpoints={{ 
+                    breakpoints={{
                         320: {
                             slidesPerView: 1,
                             spaceBetween: 10,
@@ -167,7 +167,7 @@ function ProjectIndex() {
             </ul>
           </div>
           </div>
-        </div>          
+        </div>
     </motion.div>
   </Layout>
 }
@@ -177,5 +177,5 @@ export async function getServerSideProps(context) {
         props: {},
     }
 }
-  
+
 export default ProjectIndex

@@ -25,7 +25,7 @@ function ProjectIndex() {
           <link rel="alternate" href="https://juliomontas.com/side-project/hellocode/" hreflang="en-us" />
           <link rel="alternate" href="https://juliomontas.com/es-us/side-project/hellocode/" hreflang="es-us" />
       </Head>
-    <motion.div 
+    <motion.div
     initial={{ y: 600, opacity: 0 }}
     animate={{ y: 0, opacity: 1 }}
     exit={{ y: -600, opacity: 0 }}>
@@ -39,7 +39,7 @@ function ProjectIndex() {
                     <div className={styles.secExit}>
                         <Link href="/side-project">
                             <a alt="Page Exit">
-                                <span>Close page</span>
+                                <span>&#11093;</span>
                             </a>
                         </Link>
                     </div>
@@ -64,7 +64,7 @@ function ProjectIndex() {
                     speed={400}
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}
-                    breakpoints={{ 
+                    breakpoints={{
                         320: {
                             slidesPerView: 1,
                             spaceBetween: 15,
@@ -178,7 +178,7 @@ function ProjectIndex() {
             </ul>
           </div>
             </div>
-        </div>          
+        </div>
     </motion.div>
   </Layout>
 }

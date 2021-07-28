@@ -8,7 +8,6 @@ import styles from '../styles/Home.module.css'
 import { request } from "../lib/datocms";
 import useTranslation from 'next-translate/useTranslation'
 
-
 const HOMEPAGE_QUERY = `query MyQuery {
   homePage {
     id
@@ -66,7 +65,7 @@ export default function SideProject({ data }) {
       <h2>{title}</h2>
     </section>
     <section>
-      <p>{description} <a href="https://julio62.typeform.com/to/IBnyOp">Let's chat</a>.</p>
+      <p>{description}</p>
     </section>
     </div>
     </motion.div>

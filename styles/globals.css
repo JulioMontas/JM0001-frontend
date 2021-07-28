@@ -11,8 +11,8 @@
   --background-color: linear-gradient(45deg,#72c602 0,#1cafeb 50%,#f1551d);
   --background-color-light: ;
   --background-color-dark: linear-gradient(45deg,#333 0,#000 50%,#333);
-  --fonts-title:'Roboto Condensed', Helvetica Neue, sans-serif; 
-  --fonts-summary:'Roboto', Helvetica Neue, sans-serif; 
+  --fonts-title:'Roboto Condensed', Helvetica Neue, sans-serif;
+  --fonts-summary:'Roboto', Helvetica Neue, sans-serif;
   --box-shadow:drop-shadow(-1px 2px 4px rgba(0, 0, 0, 0.25));
 }
 html,
@@ -32,6 +32,7 @@ body {
   font-family: var(--fonts-summary);
   color: var(--text-color);
   background: var(--background-color);
+  background-color: #72c602;
   transition: all 1s ease;
   background-size: 150% 150%;
   animation: MoveBG 60s ease infinite;
@@ -115,7 +116,7 @@ footer a{
   width: 100px;
   display: block;
   text-align: center;
-  padding: 10px 0;  
+  padding: 10px 0;
   border: 2px solid #F8E71C;
   filter: var(--box-shadow);
   border-radius: 5px;

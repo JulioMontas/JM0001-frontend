@@ -191,8 +191,6 @@ function ProjectIndex() {
                     </Swiper>
                 </div>
 
-
-
                 <div className={styles.flipSwitch}>
                   <h3>&#128736; Features List</h3>
                   <div>
@@ -201,6 +199,13 @@ function ProjectIndex() {
                       <li>Progressive web apps (PWAs)</li>
                     </ul>
                   </div>
+                </div>
+
+                <div className={styles.flipSwitch}>
+                    <h3>URL</h3>
+                    <ul className={styles.secTextList}>
+                      <li><a href="https://juliomontas.github.io/COLORS/" target="_blank">Prototype Demo</a></li>
+                    </ul>
                 </div>
 
                 <div className={styles.flipSwitch}>

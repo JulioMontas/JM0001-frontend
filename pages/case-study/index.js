@@ -42,7 +42,7 @@ function caseStudy({ posts }) {
               <div className={styles.cube}>
                 <div className={styles.cara1}>
                   <Image
-                  src="/img/music_3D_Top.png"
+                  src="/img/blue_box.jpg"
                   alt=""
                   width={200}
                   height={200}
@@ -52,7 +52,7 @@ function caseStudy({ posts }) {
                 </div>
                 <div className={styles.cara2}>
                   <Image
-                  src="/img/music_3D_Top.png"
+                  src="/img/blue_box.jpg"
                   alt=""
                   width={200}
                   height={200}
@@ -62,7 +62,7 @@ function caseStudy({ posts }) {
                 </div>
                 <div className={styles.cara3}>
                   <Image
-                  src="/img/music_3D_Top.png"
+                  src="/img/blue_box.jpg"
                   alt=""
                   width={200}
                   height={200}
@@ -72,7 +72,7 @@ function caseStudy({ posts }) {
                 </div>
                 <div className={styles.cara4}>
                   <Image
-                  src="/img/music_3D_Top.png"
+                  src="/img/blue_box.jpg"
                   alt=""
                   width={200}
                   height={200}
@@ -82,7 +82,7 @@ function caseStudy({ posts }) {
                 </div>
                 <div className={styles.cara5}>
                   <Image
-                  src="/img/music_3D_Top.png"
+                  src="/img/blue_box.jpg"
                   alt=""
                   width={200}
                   height={200}
@@ -92,7 +92,7 @@ function caseStudy({ posts }) {
                 </div>
                 <div className={styles.cara6}>
                   <Image
-                  src="/img/music_3D_Top.png"
+                  src="/img/blue_box.jpg"
                   alt=""
                   width={200}
                   height={200}

@@ -325,6 +325,11 @@
       width: 300px;
       grid-template-columns: 256px 256px 256px 256px;
     }
+    .dosFotos{
+      display: grid;
+      grid-template-columns: 185px auto;
+      grid-column-gap: 1em;
+    }
   }
   /* Desktop 1920px */
   @media screen and (min-width: 120em) { }

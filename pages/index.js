@@ -8,25 +8,25 @@ import styles from '../styles/Home.module.css'
 import { request } from "../lib/datocms";
 import useTranslation from 'next-translate/useTranslation'
 
-const HOMEPAGE_QUERY = `query MyQuery {
-  homePage {
-    id
-    title(locale: en)
-    description(locale: en)
-  }
-}`;
-
-export async function getStaticProps() {
-  const data = await request({
-    query: HOMEPAGE_QUERY,
-    variables: { limit: 10 }
-  });
-  return {
-    props: {
-      data
-    }
-  };
-}
+// const HOMEPAGE_QUERY = `query MyQuery {
+//   homePage {
+//     id
+//     title(locale: en)
+//     description(locale: en)
+//   }
+// }`;
+//
+// export async function getStaticProps() {
+//   const data = await request({
+//     query: HOMEPAGE_QUERY,
+//     variables: { limit: 10 }
+//   });
+//   return {
+//     props: {
+//       data
+//     }
+//   };
+// }
 
 export default function SideProject({ data }) {
   const { t } = useTranslation('home')

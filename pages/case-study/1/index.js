@@ -450,10 +450,4 @@ function CaseStudyIndex() {
   </Layout>
 }
 
-export async function getServerSideProps(context) {
-  return {
-    props: {},
-  }
-}
-
 export default CaseStudyIndex

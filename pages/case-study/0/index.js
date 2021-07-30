@@ -114,7 +114,7 @@ function CaseStudyIndex() {
               </p>
             </div>
 
-            <div>
+            <div className={styles.blurtImages}>
                 <Image
                   src="/img/case-study/00/flow.png"
                   alt="Picture of the author"

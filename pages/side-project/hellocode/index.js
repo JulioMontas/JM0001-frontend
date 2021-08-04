@@ -113,7 +113,7 @@ function ProjectIndex() {
                     </div>
                 </div>
                 <div className={styles.flipSwitch}>
-                    <h3>More Side Projects</h3>
+                    <h3>More Projects</h3>
                     <ul>
               <li className={styles.relatedLink}>
                 <Link href="/side-project/surveillance">

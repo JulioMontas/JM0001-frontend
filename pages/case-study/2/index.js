@@ -1069,6 +1069,12 @@ function CaseStudyIndex() {
             </Swiper>
           </div>
           <div className={styles.flipSwitch}>
+              <h3>URL</h3>
+              <ul className={styles.secTextList}>
+                <li><a href="https://web.archive.org/web/20180827210641/https://so-avant-garde.com/" target="_blank">Demo</a></li>
+              </ul>
+          </div>
+          <div className={styles.flipSwitch}>
             <h3>&#127919; {t('results')}</h3>
             <p>{t('resultsContent_02')}</p>
           </div>

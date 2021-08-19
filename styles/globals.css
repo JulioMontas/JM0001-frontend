@@ -32,7 +32,6 @@ body {
   font-family: var(--fonts-summary);
   color: var(--text-color);
   background: var(--background-color);
-  background-color: #72c602;
   transition: all 1s ease;
   background-size: 150% 150%;
   animation: MoveBG 60s ease infinite;

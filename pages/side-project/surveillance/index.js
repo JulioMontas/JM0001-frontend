@@ -39,7 +39,7 @@ function ProjectIndex() {
                     <div className={styles.secExit}>
                         <Link href="/side-project">
                             <a alt="Page Exit">
-                                <span>&#11093;</span>
+                                <span></span>
                             </a>
                         </Link>
                     </div>

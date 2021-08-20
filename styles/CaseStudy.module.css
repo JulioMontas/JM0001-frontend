@@ -29,28 +29,19 @@
 .cube {
   position: relative;
   margin: 2.5em auto 2em auto;
-  animation: giro 60s infinite linear;
   transform-style: preserve-3d;
-  transform: rotate3d(1, 1, 1, 45deg);
-
+  transform: rotateX(780deg) rotateY(780deg);
+  animation: giro 50s infinite linear;
 }
 @keyframes giro {
 	0% { transform: rotateX(0deg) rotateY(0deg);}
-	50% { transform: rotateX(780deg) rotateY(780deg);}
+	50% { transform: rotateX(380deg) rotateY(380deg);}
   100% { transform: rotateX(0deg) rotateY(0deg);}
 }
 .cube div {
   position: absolute;
   opacity: 0.8;
-  border: 4px solid white;
-  /* animation:rotate 15s infinite linear; */
 }
-.cube div.cara1 {background:rgba(255,255,255,.5);}
-.cube div.cara2 {background:rgba(255,255,255,.8);}
-.cube div.cara3 {background:rgba(255,255,255,.5);}
-.cube div.cara4 {background:rgba(255,255,255,.7);}
-.cube div.cara5 {background:rgba(255,255,255,.5);}
-.cube div.cara6 {background:rgba(255,255,255,.6);}
 .cube div.cara1 {transform:translateZ(100px);}
 .cube div.cara2 {transform:rotateY(90deg) translateZ(100px);}
 .cube div.cara3 {transform:rotateY(180deg) translateZ(100px);}

@@ -43,7 +43,7 @@ function caseStudy({ posts }) {
                 <div className={styles.cara1}>
                   <Image
                   src="/img/blue_box.jpg"
-                  alt=""
+                  alt={t('title_00')}
                   width={200}
                   height={200}
                   quality={1}
@@ -63,7 +63,7 @@ function caseStudy({ posts }) {
                 <div className={styles.cara3}>
                   <Image
                   src="/img/blue_box.jpg"
-                  alt=""
+                  alt={t('title_00')}
                   width={200}
                   height={200}
                   quality={1}
@@ -73,7 +73,7 @@ function caseStudy({ posts }) {
                 <div className={styles.cara4}>
                   <Image
                   src="/img/blue_box.jpg"
-                  alt=""
+                  alt={t('title_00')}
                   width={200}
                   height={200}
                   quality={1}
@@ -83,7 +83,7 @@ function caseStudy({ posts }) {
                 <div className={styles.cara5}>
                   <Image
                   src="/img/blue_box.jpg"
-                  alt=""
+                  alt={t('title_00')}
                   width={200}
                   height={200}
                   quality={1}
@@ -93,7 +93,7 @@ function caseStudy({ posts }) {
                 <div className={styles.cara6}>
                   <Image
                   src="/img/blue_box.jpg"
-                  alt=""
+                  alt={t('title_00')}
                   width={200}
                   height={200}
                   quality={1}

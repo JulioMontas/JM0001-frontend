@@ -70,7 +70,7 @@ function CaseStudyIndex() {
             <div className={styles.halfCurveBottomLeft}>
             <Image
               src="/img/cms/miguel-wildheart-560x560.jpg"
-              alt="Picture of the author"
+              alt="miguel wildheart music cover"
               width={560}
               height={560}
               quality={50}
@@ -81,7 +81,7 @@ function CaseStudyIndex() {
             <div className={styles.halfCurveUpRight}>
             <Image
               src="/img/cms/tumblr_static_tumblr_static_8ctif1c8h20wsk8ck4404oc4k_640.gif"
-              alt="Picture of the author"
+              alt="space gif"
               width={500}
               height={282}
               quality={50}
@@ -96,7 +96,7 @@ function CaseStudyIndex() {
                <div className={styles.longCurve}>
                <Image
               src="/img/cms/abstract-neon-background-light-design-bright.jpg"
-              alt="Picture of the author"
+              alt="general art"
               width={480}
               height={531}
               quality={50}
@@ -107,7 +107,7 @@ function CaseStudyIndex() {
                <div className={styles.shortCurve}>
                <Image
               src="/img/cms/JohnNichols.png"
-              alt="Picture of the author"
+              alt="magazine editorial"
               width={1442}
               height={802}
               quality={50}
@@ -122,7 +122,7 @@ function CaseStudyIndex() {
                <div className={styles.longButNo}>
                <Image
               src="/img/cms/aurora-borealis-in-winter-sky.jpg"
-              alt="Picture of the author"
+              alt="aurora borealis in winter sky"
               width={400}
               height={700}
               quality={50}
@@ -133,7 +133,7 @@ function CaseStudyIndex() {
                <div className={styles.injectionCircle}>
                <Image
               src="/img/cms/hands-light-color-dark-room-neon-night-two.jpg"
-              alt="Picture of the author"
+              alt="dark room neon night"
               width={450}
               height={533}
               quality={50}
@@ -148,7 +148,7 @@ function CaseStudyIndex() {
             <div className={styles.longFlat}>
             <Image
               src="/img/cms/23577577492_c83cda4736_c.jpg"
-              alt="Picture of the author"
+              alt="Woman"
               width={400}
               height={728}
               quality={50}

@@ -70,7 +70,7 @@ function CaseStudyIndex() {
                <div className={styles.shortCurve}>
                <Image
               src="/img/ecommerce/i491478.jpg"
-              alt="Picture of the author"
+              alt="car in the desert"
               width={885}
               height={498}
               quality={50}
@@ -81,7 +81,7 @@ function CaseStudyIndex() {
                <div className={styles.longCurve}>
                <Image
               src="/img/ecommerce/il_794xN.2360012702_c83e.jpg"
-              alt="Picture of the author"
+              alt="silk sheets"
               width={794}
               height={794}
               quality={50}
@@ -96,7 +96,7 @@ function CaseStudyIndex() {
             <div className={styles.halfCurveUpRight}>
             <Image
               src="/img/ecommerce/1e541f7155272657639c29e5f9038f0c-l.jpg"
-              alt="Picture of the author"
+              alt="top hiking view"
               width={601}
               height={800}
               quality={50}
@@ -107,7 +107,7 @@ function CaseStudyIndex() {
             <div className={styles.halfCurveBottomLeft}>
             <Image
               src="/img/ecommerce/tumblr_o3vpsi6iGK1qapuajo1_500.jpg"
-              alt="Picture of the author"
+              alt="clouds"
               width={300}
               height={250}
               quality={50}
@@ -122,7 +122,7 @@ function CaseStudyIndex() {
                <div className={styles.longButNo}>
                <Image
               src="/img/ecommerce/632d61_eb21d17268c9452eb1209f8f9bcc5bc7~mv2_d_2801_4461_s_4_2.jpg"
-              alt="Picture of the author"
+              alt="plants"
               width={600}
               height={955}
               quality={50}
@@ -133,7 +133,7 @@ function CaseStudyIndex() {
                <div className={styles.injectionCircle}>
                <Image
               src="/img/ecommerce/282329eefc02fba1ca4935c8b6efcb27-l.jpg"
-              alt="Picture of the author"
+              alt="woman traveling"
               width={225}
               height={225}
               quality={50}
@@ -148,7 +148,7 @@ function CaseStudyIndex() {
             <div className={styles.longFlat}>
             <Image
               src="/img/ecommerce/swimming.jpg"
-              alt="Picture of the author"
+              alt="the ocean"
               width={462}
               height={624}
               quality={50}
@@ -813,7 +813,7 @@ function CaseStudyIndex() {
               <SwiperSlide>
                 <Image
                 src="/img/ecommerce/mockup_LandingPage_H01.jpg"
-                alt="Picture of the author"
+                alt="Mockup Landing Page H1"
                 width={1440}
                 height={3741}
                 quality={50}
@@ -825,7 +825,7 @@ function CaseStudyIndex() {
               <SwiperSlide>
                 <Image
                 src="/img/ecommerce/mockup_LandingPage_A02.jpg"
-                alt="Picture of the author"
+                alt="Mockup Landing Page A2"
                 width={1440}
                 height={3890}
                 quality={50}
@@ -837,7 +837,7 @@ function CaseStudyIndex() {
               <SwiperSlide>
                 <Image
                 src="/img/ecommerce/mockup_LandingPage_B01.jpg"
-                alt="Picture of the author"
+                alt="Mockup Landing Page B1"
                 width={1440}
                 height={4078}
                 quality={50}
@@ -849,7 +849,7 @@ function CaseStudyIndex() {
               <SwiperSlide>
                 <Image
                 src="/img/ecommerce/mockup_LandingPage_H02.jpg"
-                alt="Picture of the author"
+                alt="Mockup Landing Page H2"
                 width={1440}
                 height={3014}
                 quality={50}
@@ -861,7 +861,7 @@ function CaseStudyIndex() {
               <SwiperSlide>
                 <Image
                 src="/img/ecommerce/mockup_LandingPage_C01.jpg"
-                alt="Picture of the author"
+                alt="Mockup Landing Page C1"
                 width={1440}
                 height={5401}
                 quality={50}
@@ -912,7 +912,7 @@ function CaseStudyIndex() {
             <SwiperSlide>
               <Image
               src="/img/ecommerce/MockupFragranceFinder_A01.jpg"
-              alt="Picture of the author"
+              alt="Mockup Fragrance Finder A1"
               width={1440}
               height={2743}
               quality={50}
@@ -924,7 +924,7 @@ function CaseStudyIndex() {
             <SwiperSlide>
               <Image
               src="/img/ecommerce/MockupFragranceFinder_A02.jpg"
-              alt="Picture of the author"
+              alt="Mockup Fragrance Finder A2"
               width={1440}
               height={2743}
               quality={50}
@@ -934,7 +934,7 @@ function CaseStudyIndex() {
               <small>Mockup A02: Fragrance Finder</small>
               <Image
               src="/img/ecommerce/fragranceFinder_video.jpg"
-              alt="Picture of the author"
+              alt="Mockup Fragrance Finder Video popup"
               width={1440}
               height={823}
               quality={50}
@@ -946,7 +946,7 @@ function CaseStudyIndex() {
             <SwiperSlide>
               <Image
               src="/img/ecommerce/MockupFragranceFinder_A03.jpg"
-              alt="Picture of the author"
+              alt="Mockup Fragrance Finder A3"
               width={1440}
               height={5000}
               quality={50}
@@ -982,7 +982,7 @@ function CaseStudyIndex() {
             <SwiperSlide>
               <Image
               src="/img/ecommerce/mockup_PDP_B01.jpg"
-              alt="Picture of the author"
+              alt="Mockup PDP B1"
               width={1440}
               height={1857}
               quality={50}
@@ -994,7 +994,7 @@ function CaseStudyIndex() {
             <SwiperSlide>
               <Image
               src="/img/ecommerce/mockup_PDP_A01_FirstReview.jpg"
-              alt="Picture of the author"
+              alt="Mockup PDP first review"
               width={1440}
               height={2131}
               quality={50}
@@ -1006,7 +1006,7 @@ function CaseStudyIndex() {
             <SwiperSlide>
               <Image
               src="/img/ecommerce/mockup_PDP_A01_WithPostReview.jpg"
-              alt="Picture of the author"
+              alt="Mockup PDP B1 with post review"
               width={1440}
               height={2157}
               quality={50}
@@ -1045,7 +1045,7 @@ function CaseStudyIndex() {
               <SwiperSlide>
               <Image
               src="/img/ecommerce/mockupContact_Empty.gif"
-              alt="Picture of the author"
+              alt="Mockup Contact Empty"
               width={3000}
               height={1975}
               quality={50}
@@ -1057,7 +1057,7 @@ function CaseStudyIndex() {
             <SwiperSlide>
               <Image
               src="/img/ecommerce/mockupPress_A02.jpg"
-              alt="Picture of the author"
+              alt="Mockup Press A2"
               width={1440}
               height={1610}
               quality={50}

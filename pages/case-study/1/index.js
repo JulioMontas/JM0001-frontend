@@ -74,7 +74,7 @@ function CaseStudyIndex() {
                <div className={styles.shortCurve}>
                <Image
               src="/img/pendulum/space.jpg"
-              alt="Picture of the author"
+              alt="Northern lights"
               width={399}
               height={202}
               quality={50}
@@ -85,7 +85,7 @@ function CaseStudyIndex() {
                <div className={styles.longCurve}>
                <Image
               src="/img/pendulum/pij77ougdwr01.jpg"
-              alt="Picture of the author"
+              alt="air flow in paint"
               width={598}
               height={522}
               quality={50}
@@ -100,7 +100,7 @@ function CaseStudyIndex() {
             <div className={styles.longFlat}>
             <Image
               src="/img/pendulum/energy.jpg"
-              alt="Picture of the author"
+              alt="energy flow"
               width={496}
               height={826}
               quality={50}
@@ -115,7 +115,7 @@ function CaseStudyIndex() {
                <div className={styles.longButNo}>
                <Image
               src="/img/pendulum/2dae05d3bbc7421098364c1a3c13b562.gif"
-              alt="Picture of the author"
+              alt="touching hands"
               width={250}
               height={500}
               quality={10}
@@ -126,7 +126,7 @@ function CaseStudyIndex() {
                <div className={styles.injectionCircle}>
                <Image
               src="/img/pendulum/6b723189d4cbe4b218caa13ce755a1e5.jpg"
-              alt="Picture of the author"
+              alt="space"
               width={225}
               height={225}
               quality={20}
@@ -141,7 +141,7 @@ function CaseStudyIndex() {
             <div className={styles.halfCurveUpRight}>
             <Image
               src="/img/pendulum/02d.jpg"
-              alt="Picture of the author"
+              alt="generate art"
               width={300}
               height={250}
               quality={20}
@@ -152,7 +152,7 @@ function CaseStudyIndex() {
             <div className={styles.halfCurveBottomLeft}>
             <Image
               src="/img/pendulum/shape.jpg"
-              alt="Picture of the author"
+              alt="shapes"
               width={599}
               height={596}
               quality={20}
@@ -174,7 +174,7 @@ function CaseStudyIndex() {
             <SwiperSlide>
             <Image
               src="/img/pendulum/72331518_707625739713327_5112560851764202681_n.jpg"
-              alt="Picture of the author"
+              alt="In the night at the beach"
               width={1080}
               height={722}
               quality={75}
@@ -208,7 +208,7 @@ function CaseStudyIndex() {
               <SwiperSlide>
                <Image
               src="/img/pendulum/untitled_01.jpg"
-              alt="Picture of the author"
+              alt="untitled 01 by Pablo Carpio"
               width={500}
               height={649}
               quality={20}
@@ -219,7 +219,7 @@ function CaseStudyIndex() {
             <SwiperSlide>
                <Image
               src="/img/pendulum/untitled_02.jpg"
-              alt="Picture of the author"
+              alt="untitled 02 by Pablo Carpio"
               width={500}
               height={649}
               quality={20}
@@ -282,7 +282,7 @@ function CaseStudyIndex() {
           <SwiperSlide>
                 <Image
                 src="/img/pendulum/01-Vcover.jpg"
-                alt="Picture of the author"
+                alt="Mockups design 1"
                 width={770}
                 height={800}
                 quality={20}
@@ -293,7 +293,7 @@ function CaseStudyIndex() {
           <SwiperSlide>
                 <Image
                 src="/img/pendulum/02-Vcover.jpg"
-                alt="Picture of the author"
+                alt="Mockups design 2"
                 width={770}
                 height={800}
                 quality={20}
@@ -304,7 +304,7 @@ function CaseStudyIndex() {
           <SwiperSlide>
                 <Image
                 src="/img/pendulum/03-Vcover.jpg"
-                alt="Picture of the author"
+                alt="Mockups design 3"
                 width={770}
                 height={800}
                 quality={20}
@@ -315,7 +315,7 @@ function CaseStudyIndex() {
           <SwiperSlide>
                 <Image
                 src="/img/pendulum/04-Vcover.jpg"
-                alt="Picture of the author"
+                alt="Mockups design 4"
                 width={770}
                 height={800}
                 quality={20}
@@ -326,7 +326,7 @@ function CaseStudyIndex() {
           <SwiperSlide>
                 <Image
                 src="/img/pendulum/05-Vcover.jpg"
-                alt="Picture of the author"
+                alt="Mockups design 5"
                 width={770}
                 height={800}
                 quality={20}
@@ -337,7 +337,7 @@ function CaseStudyIndex() {
           <SwiperSlide>
                 <Image
                 src="/img/pendulum/06-Vcover.jpg"
-                alt="Picture of the author"
+                alt="Mockups design 5"
                 width={770}
                 height={800}
                 quality={20}
@@ -369,7 +369,7 @@ function CaseStudyIndex() {
             <SwiperSlide>
             <Image
               src="/img/pendulum/pendulum_side_b.jpg"
-              alt="Picture of the author"
+              alt="pendulum cover side b"
               width={580}
               height={580}
               quality={20}
@@ -389,7 +389,7 @@ function CaseStudyIndex() {
             <h3>&#128065; Bandcamp Cover</h3>
             <Image
               src="/img/pendulum/pendulum_instagram.jpg"
-              alt="Picture of the author"
+              alt="Instagram artwork"
               width={770}
               height={800}
               quality={40}

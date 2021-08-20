@@ -39,7 +39,7 @@ function sideProject({ posts }) {
                    <span>
                      <Image
                        src="/img/side-project/hc/hc02.gif"
-                       alt="Picture of the author"
+                       alt={t('title_01')}
                        width={1422}
                        height={688}
                       />
@@ -56,7 +56,7 @@ function sideProject({ posts }) {
                 <span>
                   <Image
                   src="/img/side-project/surveillance/jessieNguyen-socialProof.jpg"
-                  alt="Picture of the author"
+                  alt={t('title_02')}
                   width={640}
                   height={640}
                   quality={1}
@@ -75,7 +75,7 @@ function sideProject({ posts }) {
                   <span>
                     <Image
                     src="/img/side-project/width/width_Landing_Page.png"
-                    alt="Picture of the author"
+                    alt={t('title_03')}
                     width={360}
                     height={210}
                     quality={25}
@@ -94,7 +94,7 @@ function sideProject({ posts }) {
                 <span>
                   <Image
                   src="/img/colorView_01.jpg"
-                  alt="Picture of the author"
+                  alt={t('title_05')}
                   width={200}
                   height={200}
                   quality={15}

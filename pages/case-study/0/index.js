@@ -45,7 +45,7 @@ function CaseStudyIndex() {
 
             <div className={styles.flipSwitch}>
               <h3>&#128466; {t('overview')}</h3>
-              <p>US owned and operated electronics retailer founded in 1975 Manhattan. They sell new and used cameras, lenses, audio, video, drones, music instruments, and more in a massive, multi-floored Chelsea store in New York City.</p>
+              <p>{t('overviewContent_00')}</p>
             </div>
             <div>
                 <Image
@@ -61,10 +61,10 @@ function CaseStudyIndex() {
 
             <div className={styles.flipSwitch}>
               <h3>&#128640; Background</h3>
-              <p>Working alongside multidisciplinary teams of designers, developers outside and in-house, marketers and product managers through the entire design process.
+              <p>{t('backgroundContent_00')}
                 <ul className={styles.secTextList}>
-                  <li>Turn mockup design into a responsive front-end.</li>
-                  <li>Used user feedback tools like Google Analytics and Hotjar to implement accessibility changes that improved the website’s flow and reduced cart abandonment.</li>
+                  <li>{t('backgroundContent_00_a')}</li>
+                  <li>{t('backgroundContent_00_b')}</li>
                 </ul>
               </p>
             </div>
@@ -74,7 +74,7 @@ function CaseStudyIndex() {
              <section>
                <Image
                  src="/img/case-study/00/raw_mobile.jpg"
-                 alt="Picture of the author"
+                 alt="Mobile view of raw mockup"
                  width={320}
                  height={3003}
                  quality={100}
@@ -85,7 +85,7 @@ function CaseStudyIndex() {
               <section>
                 <Image
                   src="/img/case-study/00/raw_desktop.jpg"
-                  alt="Picture of the author"
+                  alt="Desktop view of raw mockup"
                   width={1870}
                   height={3871}
                   quality={100}
@@ -97,15 +97,15 @@ function CaseStudyIndex() {
 
             <div className={styles.flipSwitch}>
               <h3>&#128640; Customer Satisfaction</h3>
-              <p>The previous experience require a customer to call customer service to return for any items purchased inside the store or online.
+              <p>{t('customerSatisfaction_00')}
                 <ul className={styles.secTextList}>
-                  <li>Allow customers to process exchanges, returns, and/or replacements of products online, instead of calling customer service.</li>
-                  <li>Improve the experience of single or multiple items selected for exchange.</li>
-                  <li>Allow for return or exchange of products in any category and provide proper user experience (UX) messaging.</li>
-                  <li>Increase awareness of the return policy in checkout and in the account shopping list dashboard.</li>
-                  <li>Provide user flow of multiple scenarios, wireframes, mockups and frontend solution as a guidance for the backend developer.</li>
-                  <li>Improve new account creation in multiple sections of eCommerce</li>
-                  <li>Email verification process for new or existing users.</li>
+                  <li>{t('customerSatisfaction_00_a')}</li>
+                  <li>{t('customerSatisfaction_00_b')}</li>
+                  <li>{t('customerSatisfaction_00_c')}</li>
+                  <li>{t('customerSatisfaction_00_d')}</li>
+                  <li>{t('customerSatisfaction_00_e')}</li>
+                  <li>{t('customerSatisfaction_00_f')}</li>
+                  <li>{t('customerSatisfaction_00_g')}</li>
                 </ul>
               </p>
             </div>
@@ -113,7 +113,7 @@ function CaseStudyIndex() {
             <div className={styles.blurtImages}>
                 <Image
                   src="/img/case-study/00/flow.png"
-                  alt="Picture of the author"
+                  alt="flowchart"
                   width={1600}
                   height={1360}
                   quality={100}
@@ -123,15 +123,14 @@ function CaseStudyIndex() {
               </div>
 
               <div className={styles.flipSwitch}>
-              <h3>&#128466; Products</h3>
+                <h3>&#128466; Products</h3>
                 <ul className={styles.secTextList}>
-                  <li><b>Adorama.com</b> Cameras, lenses, audio, video, drones, and Instruments</li>
-                  <li><b>SunnySports.com</b> Camping, hiking, climbing, cycling, and outdoor equipment</li>
-                  <li><b>AdoramaRentals.com</b> Rent digital cinema cameras, lenses, grips, lighting, photography, and video gear</li>
-                  <li><b>LeisurePro.com</b> Scuba diving, snorkeling, and underwater gear</li>
+                  <li><b>Adorama.com</b> {t('productList_00_a')}</li>
+                  <li><b>SunnySports.com</b> {t('productList_00_b')}</li>
+                  <li><b>AdoramaRentals.com</b> {t('productList_00_c')}</li>
+                  <li><b>LeisurePro.com</b> {t('productList_00_d')}</li>
                 </ul>
               </div>
-
 
               <div className={styles.flipSwitch}>
                 <h3>More Case Study</h3>

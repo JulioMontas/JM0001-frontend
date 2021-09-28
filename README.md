@@ -45,6 +45,6 @@ NextJS | Stapi | ?
 - [x] JSON data for `Case Studies` and `Side Projects`
 ## Progressive web apps (PWAs)
 - [ ] Icons for homescreen
-- [ ] Add to homescreen
+- [x] Add to homescreen
 - [ ] Reliability for Offline status
 - [ ] Push notifications to engage more with mobile users

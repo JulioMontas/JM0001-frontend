@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
 import useTranslation from 'next-translate/useTranslation'
 import Layout from '../../../components/Layout/Layout'
+import ExitButton from '../../../components/ExitButton/ExitButton'
 import styles from '../../../styles/Report.module.css'
 
 function ProjectIndex() {
@@ -32,19 +33,11 @@ function ProjectIndex() {
         <div className={styles.mainIndex}>
             <div className={styles.mainCenterCont}>
                 <div className={styles.flipSwitch}>
-
                     <div>
                         <h2>{t('title_05')}</h2>
                         <p>{t('content_05')}</p>
                     </div>
-
-                    <div className={styles.secExit}>
-                        <Link href="/side-project">
-                            <a alt="Page Exit">
-                                <span></span>
-                            </a>
-                        </Link>
-                    </div>
+                    <ExitButton url="/side-project" />
                 </div>
 
                 <div className={styles.flipSwitch}>

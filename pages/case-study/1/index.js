@@ -6,6 +6,8 @@ import ReactPlayer from "react-player"
 import Head from 'next/head'
 import useTranslation from 'next-translate/useTranslation'
 import Layout from '../../../components/Layout/Layout'
+import ExitButton from '../../../components/ExitButton/ExitButton'
+import Moodboard from '../../../components/Moodboard/Moodboard'
 import styles from '../../../styles/Report.module.css'
 
 function CaseStudyIndex() {
@@ -32,19 +34,12 @@ function CaseStudyIndex() {
     exit={{ y: -600, opacity: 0 }}>
       <div className={styles.mainIndex}>
         <div className={styles.mainCenterCont}>
+
           <div className={styles.flipSwitch}>
             <h2>{t('title_01')}</h2>
-
-            <div className={styles.secExit}>
-              <Link href="/case-study">
-                <a alt="Page Exit">
-                  <span></span>
-                </a>
-              </Link>
-            </div>
-
-
+            <ExitButton url="/case-study" />
           </div>
+
           <div className={styles.flipSwitch}>
             <h3>&#128466; {t('overview')}</h3>
             <p>{t('overviewContent_01')}</p>
@@ -164,6 +159,13 @@ function CaseStudyIndex() {
             </SwiperSlide>
             </Swiper>
           </div>
+
+
+
+
+
+
+
           <div>
           <div className={styles.flipSwitch}>
           <h3>&#128640; Background</h3>

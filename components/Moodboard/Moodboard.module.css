@@ -1,0 +1,36 @@
+.title{
+    grid-area: title;
+}
+.colsFirst{
+    grid-area: colsFirst;
+}
+.colsSecond{
+    grid-area: colsSecond;
+}
+.colsThird{
+    grid-area: colsThird;
+}
+.colsLast{
+    grid-area: colsLast;
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px 550px;
+  gap: 1em;
+  grid-template-areas:
+      "title title . ."
+      "colsFirst colsSecond colsThird colsLast";
+}
+
+/* Mobile 320px  */
+@media screen and (min-width: 30em) {}
+
+/* Table */
+@media screen and (min-width: 40em) {}
+
+/* Desktop 980px to 1280px  */
+@media screen and (min-width: 57em) {}
+
+/* Desktop 1920px */
+@media screen and (min-width: 120em) { }

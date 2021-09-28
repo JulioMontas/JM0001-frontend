@@ -6,6 +6,7 @@ import ReactPlayer from "react-player"
 import Head from 'next/head'
 import useTranslation from 'next-translate/useTranslation'
 import Layout from '../../../components/Layout/Layout'
+import ExitButton from '../../../components/ExitButton/ExitButton'
 import styles from '../../../styles/Report.module.css'
 
 function CaseStudyIndex() {
@@ -34,13 +35,7 @@ function CaseStudyIndex() {
         <div className={styles.mainCenterCont}>
           <div className={styles.flipSwitch}>
             <h2>{t('title_03')}</h2>
-            <div className={styles.secExit}>
-              <Link href="/case-study">
-                <a alt="Page Exit">
-                  <span></span>
-                </a>
-              </Link>
-            </div>
+            <ExitButton url="/case-study" />
           </div>
           <div className={styles.flipSwitch}>
             <h3>&#128466; {t('overview')}</h3>

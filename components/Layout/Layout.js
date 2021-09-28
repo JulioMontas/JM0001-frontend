@@ -1,6 +1,6 @@
 import useTranslation from 'next-translate/useTranslation'
 import Head from "next/head"
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react'
 import styles from '../../styles/Layout.module.css'
 import Link from 'next/link'
 import { useRouter } from 'next/router'

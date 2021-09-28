@@ -2,7 +2,7 @@
 A great **Product Designer** portfolio **PWAs** website that can last until the year 2025.  
 
 ## JAMstack
-Framework | APIs | CMS | 
+Framework | APIs | CMS |
 ---|---|---|
 NextJS | Stapi | ?
 ## Sitemap
@@ -36,13 +36,13 @@ NextJS | Stapi | ?
 - [x] Breakpoing for `Mobile`
 - [x] Breakpoing for `Desktop`
 - [ ] Breakpoing for `Large screen.`
-- [ ] 404 Page in VR view 
+- [ ] 404 Page in VR view
 ## Next JS
 - [x] SEO
       | Meta description
       | English or Spanish
       | Image Compress
-- [ ] JSON data for `Case Studies` and `Side Projects`
+- [x] JSON data for `Case Studies` and `Side Projects`
 ## Progressive web apps (PWAs)
 - [ ] Icons for homescreen
 - [ ] Add to homescreen

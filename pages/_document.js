@@ -21,6 +21,7 @@ class MyDocument extends Document {
           <meta name='msapplication-TileColor' content='#2B5797' />
           <meta name='msapplication-tap-highlight' content='no' />
           <meta name='theme-color' content='#000000' />
+          <link rel='apple-touch-icon' sizes='180x180' href='/icons/icon-192x192.png' />
           {/*
           <link rel='apple-touch-icon' sizes='180x180' href='/static/icons/apple-touch-icon.png' />
           <link rel='icon' type='image/png' sizes='32x32' href='/static/icons/favicon-32x32.png' />
@@ -42,6 +43,7 @@ class MyDocument extends Document {
           <meta property='og:site_name' content='Julio Montás' />
           {/* <meta property='og:url' content='https://juliomontas.com' /> */}
           {/* <meta property='og:image' content='https://juliomontas.com/static/icons/apple-touch-icon.png' /> */}
+          <link rel='manifest' href='/manifest.json' />
         </Head>
         <body>
           <Main />

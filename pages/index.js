@@ -48,6 +48,7 @@ export default function SideProject({ data }) {
       <link rel="canonical" href="https://juliomontas.com/" />
       <link rel="alternate" href="https://juliomontas.com/" hreflang="en-us" />
       <link rel="alternate" href="https://juliomontas.com/es-us/" hreflang="es-us" />
+      <link rel='manifest' href='/manifest.json' />
     </Head>
     <div className={styles.container}>
     <motion.div

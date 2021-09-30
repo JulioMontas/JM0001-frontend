@@ -185,35 +185,6 @@
   .flipSwitch{
     margin-bottom: 10px;
   }
-  /* More Case Study Link */
-  .relatedLink{
-    font-family: var(--fonts-title);
-    border: 2px solid var(--text-secondary);
-    border-radius: 10px;
-    /* padding: 10px; */
-    padding: 24px;
-    margin-bottom: 15px;
-    letter-spacing: 0.5px;
-  }
-  .relatedLink:last-child{
-    margin-bottom: 0;
-  }
-  .relatedLink h4{
-    font-size: 14px;
-    line-height: 20px;
-    text-transform: uppercase;
-  }
-  .relatedLink small{
-    color: #FFF;
-  }
-  .relatedLink span {
-    display: flex;
-    justify-content: space-between;
-  }
-  .relatedLink span svg {
-    width: 16px;
-    padding: 0
-  }
   .textAbove{
    padding-bottom: 10px;
   }

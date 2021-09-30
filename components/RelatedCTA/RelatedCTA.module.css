@@ -1,9 +1,7 @@
-/* More Case Study Link */
 .relatedLink{
   font-family: var(--fonts-title);
   border: 2px solid var(--text-secondary);
   border-radius: 10px;
-  /* padding: 10px; */
   padding: 24px;
   margin-bottom: 15px;
   letter-spacing: 0.5px;
@@ -27,3 +25,14 @@
   width: 16px;
   padding: 0
 }
+/* Mobile 320px  */
+@media screen and (min-width: 30em) {}
+
+/* Table */
+@media screen and (min-width: 40em) {}
+
+/* Desktop 980px to 1280px  */
+@media screen and (min-width: 57em) {}
+
+/* Desktop 1920px */
+@media screen and (min-width: 120em) { }

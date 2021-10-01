@@ -1647,18 +1647,13 @@ function AboutMe() {
                 </div>
 
               </SwiperSlide>
-              <span className={styles.iconArrow}>></span>
+              <span className={styles.iconArrow}></span>
             </Swiper>
             </div>
             </div>
             </div>
     </motion.div>
   </Layout>
-}
-export async function getServerSideProps(context) {
-  return {
-    props: {},
-  }
 }
 
 export default AboutMe

@@ -1,13 +1,8 @@
 import { motion, AnimatePresence } from "framer-motion"
 import Head from 'next/head'
-
-// import Swiper core and required components
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
 import '../styles/globals.css'
-
-// Import Swiper styles
 import 'swiper/swiper.scss';
 import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';

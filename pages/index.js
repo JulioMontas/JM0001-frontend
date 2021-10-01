@@ -8,26 +8,6 @@ import styles from '../styles/Home.module.css'
 import { request } from "../lib/datocms";
 import useTranslation from 'next-translate/useTranslation'
 
-// const HOMEPAGE_QUERY = `query MyQuery {
-//   homePage {
-//     id
-//     title(locale: en)
-//     description(locale: en)
-//   }
-// }`;
-//
-// export async function getStaticProps() {
-//   const data = await request({
-//     query: HOMEPAGE_QUERY,
-//     variables: { limit: 10 }
-//   });
-//   return {
-//     props: {
-//       data
-//     }
-//   };
-// }
-
 export default function SideProject({ data }) {
   const { t } = useTranslation('home')
   const title = t('title')
@@ -48,7 +28,6 @@ export default function SideProject({ data }) {
       <link rel="canonical" href="https://juliomontas.com/" />
       <link rel="alternate" href="https://juliomontas.com/" hreflang="en-us" />
       <link rel="alternate" href="https://juliomontas.com/es-us/" hreflang="es-us" />
-      <link rel='manifest' href='/manifest.json' />
     </Head>
     <div className={styles.container}>
     <motion.div

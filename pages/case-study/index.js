@@ -4,8 +4,7 @@ import { motion } from "framer-motion"
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
 import useTranslation from 'next-translate/useTranslation'
-
-import Layout from '../../components/Layout/Layout'
+import Layout from '../../components/Layout'
 import styles from '../../styles/CaseStudy.module.css'
 
 function caseStudy({ posts }) {

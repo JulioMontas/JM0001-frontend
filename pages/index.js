@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { motion, useTransform } from "framer-motion"
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
-import Layout from '../components/Layout/Layout'
+import Layout from '../components/Layout'
 import styles from '../styles/Home.module.css'
 import { request } from "../lib/datocms";
 import useTranslation from 'next-translate/useTranslation'

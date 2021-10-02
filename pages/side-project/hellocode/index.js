@@ -4,9 +4,9 @@ import { motion } from "framer-motion"
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
 import useTranslation from 'next-translate/useTranslation'
-import Layout from '../../../components/Layout/Layout'
-import ExitButton from '../../../components/ExitButton/ExitButton'
-import RelatedCTA from '../../../components/RelatedCTA/RelatedCTA'
+import Layout from '../../../components/Layout'
+import ExitButton from '../../../components/ExitButton'
+import RelatedCTA from '../../../components/RelatedCTA'
 import styles from '../../../styles/Report.module.css'
 
 function ProjectIndex() {
@@ -33,6 +33,9 @@ function ProjectIndex() {
     exit={{ y: -600, opacity: 0 }}>
         <div className={styles.mainIndex}>
             <div className={styles.mainCenterCont}>
+            <div className={styles.gridContainer}>
+
+
                 <div className={styles.flipSwitch}>
                     <div>
                         <h2>{t('title_01')}</h2>
@@ -55,56 +58,68 @@ function ProjectIndex() {
                     layout="responsive"
                     loading="eager"
                     />
-                    <p className={styles.textUnderImg}>{t('uiDesignContent_01a')}</p>
-                    <Swiper
-                    speed={400}
-                    onSlideChange={() => console.log('slide change')}
-                    onSwiper={(swiper) => console.log(swiper)}
-                    breakpoints={{
-                        320: {
-                            slidesPerView: 1,
-                            spaceBetween: 15,
-                            width: 300
-                        },
-                        1200: {
-                            slidesPerView: 1,
-                            spaceBetween: 20,
-                            width: 800
-                        }
-                    }}
-                    >
-                        <SwiperSlide>
-                            <Image
-                            src="/img/side-project/hc/hc02.gif"
-                            alt="Mockup of python page"
-                            width={940}
-                            height={718}
-                            quality={20}
-                            layout="responsive"
-                            loading="lazy"
-                            />
-                            <p className={styles.textUnderImg}>{t('uiDesignContent_01b')}</p>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <Image
-                            src="/img/side-project/hc/hc01.gif"
-                            alt="Mockup of python page"
-                            width={1422}
-                            height={768}
-                            quality={50}
-                            layout="responsive"
-                            loading="lazy"
-                            />
-                            <p className={styles.textUnderImg}>{t('uiDesignContent_01c')}</p>
-                        </SwiperSlide>
-                    </Swiper>
                 </div>
+
+                <div>
+                <p className={styles.textUnderImg}>{t('uiDesignContent_01a')}</p>
+                <Swiper
+                speed={400}
+                onSlideChange={() => console.log('slide change')}
+                onSwiper={(swiper) => console.log(swiper)}
+                breakpoints={{
+                    320: {
+                        slidesPerView: 1,
+                        spaceBetween: 15,
+                        width: 300
+                    },
+                    1200: {
+                        slidesPerView: 1,
+                        spaceBetween: 20,
+                        width: 800
+                    }
+                }}
+                >
+                    <SwiperSlide>
+                        <Image
+                        src="/img/side-project/hc/hc02.gif"
+                        alt="Mockup of python page"
+                        width={940}
+                        height={718}
+                        quality={20}
+                        layout="responsive"
+                        loading="lazy"
+                        />
+                        <p className={styles.textUnderImg}>{t('uiDesignContent_01b')}</p>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Image
+                        src="/img/side-project/hc/hc01.gif"
+                        alt="Mockup of python page"
+                        width={1422}
+                        height={768}
+                        quality={50}
+                        layout="responsive"
+                        loading="lazy"
+                        />
+                        <p className={styles.textUnderImg}>{t('uiDesignContent_01c')}</p>
+                    </SwiperSlide>
+                </Swiper>
+                </div>
+
                 <div className={styles.flipSwitch}>
                     <h3>URL</h3>
                     <div>
                         <ul className={styles.secTextList}>
-                            <li><a href="https://bfacd.parsons.edu/2013/helloco-de" target="_blank">The New School BFA Thesis 2013</a></li>
-                            <li><a href="https://twitter.com/msdev/status/485951332105195520" target="_blank">Microsoft Developer Tweet</a></li>
+                        <RelatedCTA
+                          url="https://bfacd.parsons.edu/2013/helloco-de"
+                          title="The New School BFA Thesis 2013"
+                          content=""
+                        />
+                        <RelatedCTA
+                          url="https://twitter.com/msdev/status/485951332105195520"
+                          title="Microsoft Developer Tweet"
+                          content=""
+                        />
                         </ul>
                     </div>
                 </div>
@@ -128,6 +143,8 @@ function ProjectIndex() {
                     />
                   </ul>
                 </div>
+
+              </div>
             </div>
         </div>
     </motion.div>

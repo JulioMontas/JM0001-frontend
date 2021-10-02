@@ -1,0 +1,41 @@
+.secColorPalette{
+  display: flex;
+  justify-content: space-between;
+}
+.secColorPalette span{
+  content: ;
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  border: 2px solid #FFF;
+}
+.flipSwitch{
+  margin-bottom: 10px;
+}
+/* Mobile 320px  */
+@media screen and (min-width: 30em) {}
+/* Table */
+@media screen and (min-width: 40em) {}
+/* Desktop 980px to 1280px  */
+@media screen and (min-width: 57em) {
+  .title{
+    grid-area: title;
+    justify-self: start;
+  }
+  .secColorPalette{
+    grid-area: container;
+  }
+  .secColorPalette span{
+    border: 3px solid #FFF;
+  }
+  .flipSwitch{
+    display: grid;
+    grid-template-columns: auto 420px;
+    /* margin-top: 60px; */
+    grid-template-areas:
+    "title container";
+  }
+}
+/* Desktop 1920px */
+@media screen and (min-width: 120em) { }

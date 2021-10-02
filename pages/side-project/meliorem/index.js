@@ -4,8 +4,8 @@ import { motion } from "framer-motion"
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
 import useTranslation from 'next-translate/useTranslation'
-import Layout from '../../../components/Layout/Layout'
-import ExitButton from '../../../components/ExitButton/ExitButton'
+import Layout from '../../../components/Layout'
+import ExitButton from '../../../components/ExitButton'
 import styles from '../../../styles/Report.module.css'
 
 function ProjectIndex() {
@@ -32,6 +32,7 @@ function ProjectIndex() {
     exit={{ y: -600, opacity: 0 }}>
       <div className={styles.mainIndex}>
         <div className={styles.mainCenterCont}>
+        <div className={styles.gridContainer}>
           <div className={styles.flipSwitch}>
             <div>
               <h2>{t('title_04')}</h2>
@@ -171,6 +172,7 @@ function ProjectIndex() {
               </li>
             </ul>
           </div>
+        </div>
         </div>
       </div>
     </motion.div>

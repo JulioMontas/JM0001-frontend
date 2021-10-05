@@ -5,7 +5,6 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
 import Layout from '../components/Layout'
 import styles from '../styles/Home.module.css'
-import { request } from "../lib/datocms";
 import useTranslation from 'next-translate/useTranslation'
 
 export default function SideProject({ data }) {

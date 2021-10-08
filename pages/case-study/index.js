@@ -64,14 +64,14 @@ function caseStudy({ posts }) {
               <div className={styles.cubeWrapper}>
                 <div className={styles.cube}>
                   <div className={styles.cara1}>
-                      <Image
+                    <Image
                       src="/img/blue_box.jpg"
                       alt={t('title_00')}
                       width={200}
                       height={200}
                       quality={1}
                       loading="eager"
-                      />
+                    />
                   </div>
                   <div className={styles.cara2}>
                       <Image
@@ -134,13 +134,13 @@ function caseStudy({ posts }) {
           <section>
             <Link href={`/case-study/1`}>
               <a alt="Pendulum EP - Vinyl Record Label Design" rel="alternate" hreflang="en">
-              <h2 className={styles.title}>{t('title_01')}</h2>
+                <h2 className={styles.title}>{t('title_01')}</h2>
                 <h3 className={styles.description}>{t('content_01')}</h3>
                 <div className={styles.cubeWrapper}>
                   <div className={styles.cube}>
                     <div className={styles.cara1}>
                       <Image
-                      src="/img/Pendulum-3D-Box-Face-01.jpg"
+                      src="/img/Pendulum-3D-Box-Bottom-05.jpg"
                       alt={t('title_01')}
                       width={200}
                       height={200}
@@ -150,7 +150,7 @@ function caseStudy({ posts }) {
                     </div>
                     <div className={styles.cara2}>
                       <Image
-                      src="/img/Pendulum-3D-Box-Right-02.jpg"
+                      src="/img/Pendulum-3D-Box-Bottom-05.jpg"
                       alt={t('title_01')}
                       width={200}
                       height={200}
@@ -160,7 +160,7 @@ function caseStudy({ posts }) {
                     </div>
                     <div className={styles.cara3}>
                       <Image
-                      src="/img/Pendulum-3D-Box-Back-03.jpg"
+                      src="/img/Pendulum-3D-Box-Bottom-05.jpg"
                       alt={t('title_01')}
                       width={200}
                       height={200}
@@ -170,7 +170,7 @@ function caseStudy({ posts }) {
                     </div>
                     <div className={styles.cara4}>
                       <Image
-                      src="/img/Pendulum-3D-Box-Left-04.jpg"
+                      src="/img/Pendulum-3D-Box-Bottom-05.jpg"
                       alt={t('title_01')}
                       width={200}
                       height={200}
@@ -190,7 +190,7 @@ function caseStudy({ posts }) {
                     </div>
                     <div className={styles.cara6}>
                       <Image
-                      src="/img/Pendulum-3D-Box-Top-06.jpg"
+                      src="/img/Pendulum-3D-Box-Bottom-05.jpg"
                       alt={t('title_01')}
                       width={200}
                       height={200}
@@ -208,73 +208,73 @@ function caseStudy({ posts }) {
           <motion.div variants={fadeInUp} className='card'>
           <section>
             <Link href={`/case-study/2`}>
-            <a alt="Shopify Fragrance eCommerce - A Discovery In Scent" rel="alternate" hreflang="en">
-              <h2 className={styles.title}>{t('title_02')}</h2>
-              <h3 className={styles.description}>{t('content_02')}</h3>
-              <div className={styles.cubeWrapper}>
+              <a alt="Shopify Fragrance eCommerce - A Discovery In Scent" rel="alternate" hreflang="en">
+                <h2 className={styles.title}>{t('title_02')}</h2>
+                <h3 className={styles.description}>{t('content_02')}</h3>
+                <div className={styles.cubeWrapper}>
                     <div className={styles.cube}>
                       <div className={styles.cara1}>
                         <Image
-                src="/img/ecommerce.png"
-                alt={t('title_02')}
-                width={200}
-                height={200}
-                quality={1}
-                loading="eager"
-                />
-              </div>
-              <div className={styles.cara2}>
-              <Image
-                src="/img/ecommerce.png"
-                alt={t('title_02')}
-                width={200}
-                height={200}
-                quality={1}
-                loading="eager"
-                />
-              </div>
-              <div className={styles.cara3}>
-              <Image
-                src="/img/ecommerce.png"
-                alt={t('title_02')}
-                width={200}
-                height={200}
-                quality={1}
-                loading="eager"
-                />
-              </div>
-              <div className={styles.cara4}>
-              <Image
-                src="/img/ecommerce.png"
-                alt={t('title_02')}
-                width={200}
-                height={200}
-                quality={1}
-                loading="eager"
-                />
-              </div>
-              <div className={styles.cara5}>
-              <Image
-                src="/img/ecommerce.png"
-                alt={t('title_02')}
-                width={200}
-                height={200}
-                quality={1}
-                loading="eager"
-                />
-              </div>
-              <div className={styles.cara6}>
-              <Image
-                src="/img/ecommerce.png"
-                alt={t('title_02')}
-                width={200}
-                height={200}
-                quality={1}
-                loading="eager"
-                />
-              </div>
-            </div>
-              </div>
+                          src="/img/ecommerce.png"
+                          alt={t('title_02')}
+                          width={200}
+                          height={200}
+                          quality={1}
+                          loading="eager"
+                          />
+                        </div>
+                        <div className={styles.cara2}>
+                        <Image
+                          src="/img/ecommerce.png"
+                          alt={t('title_02')}
+                          width={200}
+                          height={200}
+                          quality={1}
+                          loading="eager"
+                          />
+                        </div>
+                        <div className={styles.cara3}>
+                        <Image
+                          src="/img/ecommerce.png"
+                          alt={t('title_02')}
+                          width={200}
+                          height={200}
+                          quality={1}
+                          loading="eager"
+                          />
+                        </div>
+                        <div className={styles.cara4}>
+                        <Image
+                          src="/img/ecommerce.png"
+                          alt={t('title_02')}
+                          width={200}
+                          height={200}
+                          quality={1}
+                          loading="eager"
+                          />
+                        </div>
+                        <div className={styles.cara5}>
+                        <Image
+                          src="/img/ecommerce.png"
+                          alt={t('title_02')}
+                          width={200}
+                          height={200}
+                          quality={1}
+                          loading="eager"
+                          />
+                        </div>
+                        <div className={styles.cara6}>
+                        <Image
+                          src="/img/ecommerce.png"
+                          alt={t('title_02')}
+                          width={200}
+                          height={200}
+                          quality={1}
+                          loading="eager"
+                          />
+                        </div>
+                    </div>
+                </div>
               </a>
             </Link>
           </section>
@@ -283,10 +283,10 @@ function caseStudy({ posts }) {
           <motion.div variants={fadeInUp} className='card'>
           <section>
             <Link href={`/case-study/3`}>
-            <a alt="Custom Wordpress Theme - for Musicians and Bands" rel="alternate" hreflang="en">
-              <h2 className={styles.title}>{t('title_03')}</h2>
-              <h3 className={styles.description}>{t('content_03')}</h3>
-              <div className={styles.cubeWrapper}>
+              <a alt="Custom Wordpress Theme - for Musicians and Bands" rel="alternate" hreflang="en">
+                <h2 className={styles.title}>{t('title_03')}</h2>
+                <h3 className={styles.description}>{t('content_03')}</h3>
+                <div className={styles.cubeWrapper}>
                 <div className={styles.cube}>
                 <div className={styles.cara1}>
                 <Image
@@ -349,8 +349,8 @@ function caseStudy({ posts }) {
                   />
                 </div>
                 </div>
-              </div>
-            </a>
+                </div>
+              </a>
             </Link>
           </section>
           </motion.div>

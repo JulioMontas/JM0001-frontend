@@ -10,6 +10,32 @@ import ExitButton from '../../../components/ExitButton'
 import RelatedCTA from '../../../components/RelatedCTA'
 import styles from '../../../styles/Report.module.css'
 
+const easing = [.6, -.05, .01, .99];
+
+const fadeInUp = {
+  initial:{
+    y: 60,
+    opacity: 0
+  },
+  animate:{
+    y: 0,
+    opacity: 1,
+    transition:{
+      duration: .6,
+      ease: easing
+    }
+  }
+};
+
+const stagger = {
+  animate: {
+    transition: {
+      staggerChildren: 0.1
+    }
+  }
+};
+
+
 function CaseStudyIndex() {
   const { t } = useTranslation('caseStudy')
   return <Layout>
@@ -28,36 +54,41 @@ function CaseStudyIndex() {
       <link rel="alternate" href="https://juliomontas.com/case-study/0/" hreflang="en-us" />
       <link rel="alternate" href="https://juliomontas.com/es-us/case-study/0/" hreflang="es-us" />
     </Head>
-      <motion.div
-      initial={{ y: 600, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      exit={{ y: -600, opacity: 0 }}>
-        <div className={styles.mainIndex}>
+      <motion.div exit={{y: -300, opacity: 0 }} initial='initial' animate='animate'>
+      <motion.div  variants={stagger}>
+      <div className={styles.mainIndex}>
           <div className={styles.mainCenterCont}>
             <div className={styles.gridContainer}>
 
+            <motion.div variants={fadeInUp}>
             <div className={styles.flipSwitch}>
-              <h2>Adorama - eCommerce</h2>
-              <ExitButton url="/case-study" />
+                <h2>Adorama - eCommerce</h2>
+                <ExitButton url="/case-study" />
             </div>
+            </motion.div>
 
+            <motion.div variants={fadeInUp}>
             <div className={styles.flipSwitch}>
               <h3>&#128466; {t('overview')}</h3>
               <p>{t('overviewContent_00')}</p>
             </div>
+            </motion.div>
 
+            <motion.div variants={fadeInUp}>
             <div>
-                <Image
-                  src="/img/case-study/00/Inventory_management.jpg"
-                  alt="Inventory management"
-                  width={1917}
-                  height={1056}
-                  quality={100}
-                  layout="responsive"
-                  loading="lazy"
-                />
+              <Image
+                src="/img/case-study/00/Inventory_management.jpg"
+                alt="Inventory management"
+                width={1917}
+                height={1056}
+                quality={1}
+                layout="responsive"
+                loading="lazy"
+              />
             </div>
+            </motion.div>
 
+            <motion.div variants={fadeInUp}>
             <div className={styles.flipSwitch}>
               <h3>&#128640; Background</h3>
               <p>{t('backgroundContent_00')}
@@ -67,7 +98,9 @@ function CaseStudyIndex() {
                 </ul>
               </p>
             </div>
+            </motion.div>
 
+            <motion.div variants={fadeInUp}>
             <div className={styles.dosFotos}>
               <h3>Brand promotional educational microsite</h3>
              <section>
@@ -93,7 +126,9 @@ function CaseStudyIndex() {
                  />
               </section>
             </div>
+            </motion.div>
 
+            <motion.div variants={fadeInUp}>
             <div className={styles.flipSwitch}>
               <h3>&#128640; Customer Satisfaction</h3>
               <p>{t('customerSatisfaction_00')}
@@ -108,7 +143,9 @@ function CaseStudyIndex() {
                 </ul>
               </p>
             </div>
+            </motion.div>
 
+            <motion.div variants={fadeInUp}>
             <div className={styles.blurtImages}>
                 <Image
                   src="/img/case-study/00/flow.png"
@@ -120,7 +157,9 @@ function CaseStudyIndex() {
                   loading="lazy"
                  />
             </div>
+            </motion.div>
 
+            <motion.div variants={fadeInUp}>
             <div className={styles.flipSwitch}>
                 <h3>&#128466; Products</h3>
                 <ul className={styles.secTextList}>
@@ -130,7 +169,9 @@ function CaseStudyIndex() {
                   <li><b>LeisurePro.com</b> {t('productList_00_d')}</li>
                 </ul>
             </div>
+            </motion.div>
 
+            <motion.div variants={fadeInUp}>
             <div className={styles.flipSwitch}>
                 <h3>More Case Study</h3>
                 <ul>
@@ -151,11 +192,12 @@ function CaseStudyIndex() {
                   />
                 </ul>
             </div>
+            </motion.div>
 
-
+            </div>
           </div>
-          </div>
-        </div>
+      </div>
+      </motion.div>
       </motion.div>
   </Layout>
 }

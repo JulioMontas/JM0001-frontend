@@ -11,6 +11,31 @@ import PaletteList from '../../../components/PaletteList'
 import RelatedCTA from '../../../components/RelatedCTA'
 import styles from '../../../styles/Report.module.css'
 
+const easing = [.6, -.05, .01, .99];
+
+const fadeInUp = {
+  initial:{
+    y: 60,
+    opacity: 0
+  },
+  animate:{
+    y: 0,
+    opacity: 1,
+    transition:{
+      duration: .6,
+      ease: easing
+    }
+  }
+};
+
+const stagger = {
+  animate: {
+    transition: {
+      staggerChildren: 0.1
+    }
+  }
+};
+
 function CaseStudyIndex() {
   const { t } = useTranslation('caseStudy')
   return <Layout>
@@ -29,27 +54,27 @@ function CaseStudyIndex() {
       <link rel="alternate" href="https://juliomontas.com/case-study/2/" hreflang="en-us" />
       <link rel="alternate" href="https://juliomontas.com/es-us//case-study/2/" hreflang="es-us" />
     </Head>
-    <motion.div
-    initial={{ y: 600, opacity: 0 }}
-    animate={{ y: 0, opacity: 1 }}
-    exit={{ y: -600, opacity: 0 }}>
+    <motion.div exit={{y: -300, opacity: 0 }} initial='initial' animate='animate'>
+    <motion.div variants={stagger}>
       <div className={styles.mainIndex}>
         <div className={styles.mainCenterCont}>
           <div className={styles.gridContainer}>
 
-
+          <motion.div variants={fadeInUp}>
           <div className={styles.flipSwitch}>
             <h2>{t('title_02')}</h2>
             <ExitButton url="/case-study" />
           </div>
+          </motion.div>
 
-
+          <motion.div variants={fadeInUp}>
           <div className={styles.flipSwitch}>
             <h3>&#128466; {t('overview')}</h3>
             <p>{t('overviewContent_02')}</p>
           </div>
+          </motion.div>
 
-
+          <motion.div variants={fadeInUp}>
           <div>
             <h3>&#128444; {t('moodboard_02')}</h3>
             <Swiper
@@ -164,13 +189,16 @@ function CaseStudyIndex() {
             </SwiperSlide>
             </Swiper>
           </div>
+          </motion.div>
 
+          <motion.div variants={fadeInUp}>
           <div className={styles.flipSwitch}>
             <h3>&#128640; {t('background')}</h3>
             <p>{t('backgroundContent_02')}</p>
           </div>
+          </motion.div>
 
-
+          <motion.div variants={fadeInUp}>
           <div className={styles.flipSwitch}>
             <h3>&#9997; Roboto / Roboto Condensed By Christian Robertson</h3>
             <div>
@@ -185,7 +213,9 @@ function CaseStudyIndex() {
             </svg>
             </div>
           </div>
+          </motion.div>
 
+          <motion.div variants={fadeInUp}>
           <PaletteList
             title={t('palette')}
             first="FFFFFF"
@@ -194,14 +224,18 @@ function CaseStudyIndex() {
             fourth="2D2D2D"
             last="493EB6"
           />
+          </motion.div>
 
+          <motion.div variants={fadeInUp}>
           <div className={styles.flipSwitch}>
             <h3>&#127853; {t('gradient')}</h3>
             <div className={styles.secColorGradient}>
               <span style={{backgroundImage:'linear-gradient(267.43deg, rgb(232, 149, 175) 36.72%, rgb(187, 162, 200) 62.93%), none'}}></span>
             </div>
           </div>
+          </motion.div>
 
+          <motion.div variants={fadeInUp}>
           <div className={styles.flipSwitch}>
             <h3>&#128506; Customer journey</h3>
             <svg width="320" height="294" viewBox="0 0 345 294" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -322,9 +356,11 @@ function CaseStudyIndex() {
 <path d="M190.185 207.031V208.438H191.061V209.207H190.185V212.811C190.185 213.04 190.223 213.213 190.298 213.332C190.373 213.45 190.502 213.509 190.685 213.509C190.81 213.509 190.937 213.487 191.066 213.444L191.055 214.25C190.84 214.322 190.62 214.357 190.395 214.357C190.019 214.357 189.732 214.223 189.535 213.955C189.338 213.686 189.24 213.306 189.24 212.816V209.207H188.354V208.438H189.24V207.031H190.185Z" fill="#89969F"/>
 <path d="M194.272 214.357C193.549 214.357 192.994 214.143 192.607 213.713C192.221 213.28 192.024 212.646 192.017 211.812V211.108C192.017 210.241 192.205 209.563 192.581 209.072C192.96 208.578 193.488 208.331 194.165 208.331C194.845 208.331 195.354 208.548 195.69 208.981C196.027 209.414 196.199 210.089 196.206 211.006V211.629H192.962V211.763C192.962 212.386 193.078 212.839 193.311 213.122C193.547 213.405 193.886 213.546 194.326 213.546C194.605 213.546 194.851 213.494 195.062 213.391C195.277 213.283 195.477 213.115 195.664 212.886L196.158 213.487C195.746 214.067 195.118 214.357 194.272 214.357ZM194.165 209.147C193.771 209.147 193.479 209.284 193.29 209.556C193.1 209.824 192.992 210.243 192.967 210.812H195.255V210.684C195.23 210.132 195.13 209.738 194.955 209.502C194.783 209.266 194.52 209.147 194.165 209.147Z" fill="#89969F"/>
 <path d="M199.751 209.33C199.618 209.305 199.475 209.292 199.321 209.292C198.834 209.292 198.494 209.559 198.301 210.093V214.25H197.35V208.438H198.274L198.29 209.029C198.544 208.564 198.904 208.331 199.37 208.331C199.52 208.331 199.645 208.356 199.746 208.406L199.751 209.33Z" fill="#89969F"/>
-</svg>
+            </svg>
           </div>
+          </motion.div>
 
+          <motion.div variants={fadeInUp}>
           <div className={styles.flipSwitch}>
             <h3>&#128736; {t('development')}</h3>
             <div>
@@ -337,7 +373,9 @@ function CaseStudyIndex() {
               </ul>
             </div>
           </div>
+          </motion.div>
 
+          <motion.div variants={fadeInUp}>
           <div className={styles.SecBackground}>
             <h3>&#128736; {t('sitemap')}</h3>
             <Swiper
@@ -798,7 +836,9 @@ function CaseStudyIndex() {
               </SwiperSlide>
             </Swiper>
           </div>
+          </motion.div>
 
+          <motion.div variants={fadeInUp}>
           <div className={styles.secLandingPage}>
             <div className={styles.flipSwitch}>
               <h3>&#127968; {t('landingPage')}</h3>
@@ -883,7 +923,9 @@ function CaseStudyIndex() {
               </SwiperSlide>
             </Swiper>
           </div>
+          </motion.div>
 
+          <motion.div variants={fadeInUp}>
           <div>
             <div className={styles.flipSwitch}>
               <h3>&#128065; {t('productListingPages_02')}</h3>
@@ -969,7 +1011,9 @@ function CaseStudyIndex() {
             </SwiperSlide>
             </Swiper>
           </div>
+          </motion.div>
 
+          <motion.div variants={fadeInUp}>
           <div>
             <div className={styles.flipSwitch}>
               <h3>&#128065; {t('productDetailPage_02')}</h3>
@@ -1030,6 +1074,9 @@ function CaseStudyIndex() {
             </SwiperSlide>
             </Swiper>
           </div>
+          </motion.div>
+
+          <motion.div variants={fadeInUp}>
           <div>
             <div className={styles.flipSwitch}>
               <h3>&#128065; {t('pressAndContact_02')}</h3>
@@ -1081,7 +1128,9 @@ function CaseStudyIndex() {
             </SwiperSlide>
             </Swiper>
           </div>
+          </motion.div>
 
+          <motion.div variants={fadeInUp}>
           <div className={styles.flipSwitch}>
             <h3>URL</h3>
             <ul className={styles.secTextList}>
@@ -1092,12 +1141,16 @@ function CaseStudyIndex() {
               />
             </ul>
           </div>
+          </motion.div>
 
+          <motion.div variants={fadeInUp}>
           <div className={styles.flipSwitch}>
             <h3>&#127919; {t('results')}</h3>
             <p>{t('resultsContent_02')}</p>
           </div>
+          </motion.div>
 
+          <motion.div variants={fadeInUp}>
           <div className={styles.flipSwitch}>
             <h3>More Case Study</h3>
             <ul>
@@ -1118,10 +1171,12 @@ function CaseStudyIndex() {
               />
             </ul>
           </div>
+          </motion.div>
 
           </div>
           </div>
-        </div>
+      </div>
+    </motion.div>
     </motion.div>
   </Layout>
 }

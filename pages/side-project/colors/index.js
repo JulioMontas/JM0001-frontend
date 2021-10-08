@@ -9,32 +9,56 @@ import ExitButton from '../../../components/ExitButton'
 import RelatedCTA from '../../../components/RelatedCTA'
 import styles from '../../../styles/Report.module.css'
 
+const easing = [.6, -.05, .01, .99];
+
+const fadeInUp = {
+  initial:{
+    y: 60,
+    opacity: 0
+  },
+  animate:{
+    y: 0,
+    opacity: 1,
+    transition:{
+      duration: .6,
+      ease: easing
+    }
+  }
+};
+
+const stagger = {
+  animate: {
+    transition: {
+      staggerChildren: 0.1
+    }
+  }
+};
+
 function ProjectIndex() {
   const { t } = useTranslation('sideProject')
   return <Layout>
     <Head>
-            <title>Side Project | {t('title_05')} | Julio Montás</title>
-            <meta name='twitter:url' content='https://juliomontas.com/side-project/colors/' />
-            <meta property='og:url' content='https://juliomontas.com/side-project/colors/' />
-            <meta property='og:image' content='https://juliomontas.com/img/side-project/colors/slide_03.png' />
-            <meta name='twitter:image' content='https://juliomontas.com/img/side-project/colors/slide_03.png' />
-            <meta property='og:title' content='Basic Color Fundamentals - Simple Fun App for Toddlers | Julio Montás' />
-            <meta name='twitter:title' content='Basic Color Fundamentals - Simple Fun App for Toddlers | Julio Montás' />
-            <meta name="description" content="Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory" key="description"/>
-            <meta property='og:description' content='Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory' />
-            <meta name='twitter:description' content='Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory' />
-            <link rel="canonical" href="https://juliomontas.com/side-project/colors/" />
-            <link rel="alternate" href="https://juliomontas.com/side-project/colors/" hreflang="en-us" />
-            <link rel="alternate" href="https://juliomontas.com/es-us/side-project/colors/" hreflang="es-us" />
+      <title>Side Project | {t('title_05')} | Julio Montás</title>
+      <meta name='twitter:url' content='https://juliomontas.com/side-project/colors/' />
+      <meta property='og:url' content='https://juliomontas.com/side-project/colors/' />
+      <meta property='og:image' content='https://juliomontas.com/img/side-project/colors/slide_03.png' />
+      <meta name='twitter:image' content='https://juliomontas.com/img/side-project/colors/slide_03.png' />
+      <meta property='og:title' content='Basic Color Fundamentals - Simple Fun App for Toddlers | Julio Montás' />
+      <meta name='twitter:title' content='Basic Color Fundamentals - Simple Fun App for Toddlers | Julio Montás' />
+      <meta name="description" content="Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory" key="description"/>
+      <meta property='og:description' content='Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory' />
+      <meta name='twitter:description' content='Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory' />
+      <link rel="canonical" href="https://juliomontas.com/side-project/colors/" />
+      <link rel="alternate" href="https://juliomontas.com/side-project/colors/" hreflang="en-us" />
+      <link rel="alternate" href="https://juliomontas.com/es-us/side-project/colors/" hreflang="es-us" />
     </Head>
-    <motion.div
-      initial={{ y: 600, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      exit={{ y: -600, opacity: 0 }}>
+    <motion.div exit={{y: -300, opacity: 0 }} initial='initial' animate='animate'>
+    <motion.div variants={stagger}>
       <div className={styles.mainIndex}>
         <div className={styles.mainCenterCont}>
           <div className={styles.gridContainer}>
 
+                <motion.div variants={fadeInUp}>
                 <div className={styles.flipSwitch}>
                     <div>
                         <h2>{t('title_05')}</h2>
@@ -42,15 +66,21 @@ function ProjectIndex() {
                     </div>
                     <ExitButton url="/side-project" />
                 </div>
+                </motion.div>
 
+                <motion.div variants={fadeInUp}>
                 <div className={styles.flipSwitch}>
                     <h3>Overview</h3>
                     <p>{t('conceptContent_05')}</p>
                 </div>
+                </motion.div>
 
+                <motion.div variants={fadeInUp}>
                 <div className={styles.changeColors}>
                 </div>
+                </motion.div>
 
+                <motion.div variants={fadeInUp}>
                 <div className={styles.flipSwitch}>
                   <h3>User Flow</h3>
                   <svg width="293" height="278" viewBox="0 0 293 278" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -79,7 +109,9 @@ function ProjectIndex() {
 <path d="M179 130.3H283V131.3H179V130.3Z" fill="#EEF2F6"/>
 <path d="M220.275 127.265L222.502 134.226L224.728 127.265H226.111V135.796H225.039V132.474L225.138 129.146L222.906 135.796H222.086L219.865 129.169L219.965 132.474V135.796H218.892V127.265H220.275ZM230.084 135.914C229.295 135.914 228.689 135.679 228.267 135.21C227.846 134.738 227.631 134.046 227.623 133.136V132.369C227.623 131.423 227.828 130.683 228.238 130.148C228.652 129.609 229.228 129.339 229.967 129.339C230.709 129.339 231.263 129.576 231.631 130.048C231.998 130.521 232.185 131.257 232.193 132.257V132.937H228.654V133.083C228.654 133.763 228.781 134.257 229.035 134.566C229.293 134.875 229.662 135.029 230.142 135.029C230.447 135.029 230.715 134.972 230.945 134.859C231.179 134.742 231.398 134.558 231.601 134.308L232.14 134.964C231.691 135.597 231.006 135.914 230.084 135.914ZM229.967 130.23C229.537 130.23 229.219 130.378 229.012 130.675C228.804 130.968 228.687 131.425 228.66 132.046H231.156V131.906C231.129 131.304 231.019 130.875 230.828 130.617C230.64 130.359 230.353 130.23 229.967 130.23ZM234.42 129.457L234.449 130.142C234.851 129.607 235.365 129.339 235.99 129.339C237.111 129.339 237.679 130.087 237.695 131.583V135.796H236.664V131.63C236.664 131.134 236.58 130.783 236.412 130.576C236.248 130.365 236 130.259 235.668 130.259C235.41 130.259 235.178 130.345 234.971 130.517C234.767 130.689 234.603 130.914 234.478 131.191V135.796H233.441V129.457H234.42ZM242.488 135.24C242.144 135.689 241.642 135.914 240.982 135.914C240.408 135.914 239.974 135.716 239.681 135.322C239.388 134.923 239.24 134.345 239.236 133.587V129.457H240.267V133.511C240.267 134.5 240.564 134.994 241.158 134.994C241.787 134.994 242.221 134.712 242.459 134.15V129.457H243.496V135.796H242.512L242.488 135.24Z" fill="#333333"/></svg>
                 </div>
+                </motion.div>
 
+                <motion.div variants={fadeInUp}>
                 <div className={styles.sketchIphone}>
                 <h3>Wireframes</h3>
                   <section>
@@ -131,7 +163,9 @@ function ProjectIndex() {
                     <p>Color: Dashboard</p>
                   </section>
                 </div>
+                </motion.div>
 
+                <motion.div variants={fadeInUp}>
                 <div>
                    <h3>Concept UI Design</h3>
                     <Swiper
@@ -187,7 +221,9 @@ function ProjectIndex() {
                         </SwiperSlide>
                     </Swiper>
                 </div>
+                </motion.div>
 
+                <motion.div variants={fadeInUp}>
                 <div className={styles.flipSwitch}>
                   <h3>&#128736; Features List</h3>
                   <div>
@@ -197,7 +233,9 @@ function ProjectIndex() {
                     </ul>
                   </div>
                 </div>
+                </motion.div>
 
+                <motion.div variants={fadeInUp}>
                 <div className={styles.flipSwitch}>
                   <h3>URL</h3>
                   <ul>
@@ -208,7 +246,9 @@ function ProjectIndex() {
                     />
                   </ul>
                 </div>
+                </motion.div>
 
+                <motion.div variants={fadeInUp}>
                 <div className={styles.flipSwitch}>
                     <h3>More Projects</h3>
                     <ul>
@@ -229,10 +269,12 @@ function ProjectIndex() {
                     />
                 </ul>
                 </div>
+                </motion.div>
 
-            </div>
           </div>
         </div>
+      </div>
+    </motion.div>
     </motion.div>
   </Layout>
 }

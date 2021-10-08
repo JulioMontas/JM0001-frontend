@@ -9,33 +9,56 @@ import ExitButton from '../../../components/ExitButton'
 import RelatedCTA from '../../../components/RelatedCTA'
 import styles from '../../../styles/Report.module.css'
 
+const easing = [.6, -.05, .01, .99];
+
+const fadeInUp = {
+  initial:{
+    y: 60,
+    opacity: 0
+  },
+  animate:{
+    y: 0,
+    opacity: 1,
+    transition:{
+      duration: .6,
+      ease: easing
+    }
+  }
+};
+
+const stagger = {
+  animate: {
+    transition: {
+      staggerChildren: 0.1
+    }
+  }
+};
+
 function ProjectIndex() {
-    const { t } = useTranslation('sideProject')
+  const { t } = useTranslation('sideProject')
   return <Layout>
-      <Head>
-          <title>Side Project | {t('title_01')} | Julio Montás</title>
-          <meta name='twitter:url' content='https://juliomontas.com/side-project/hellocode/' />
-          <meta property='og:url' content='https://juliomontas.com/side-project/hellocode/' />
-          <meta property='og:image' content='https://juliomontas.com/img/side-project/hc/hc01.gif' />
-          <meta name='twitter:image' content='https://juliomontas.com/img/side-project/hc/hc01.gif' />
-          <meta property='og:title' content='Helloco.de The Home For Programming Languages | Julio Montás' />
-          <meta name='twitter:title' content='Helloco.de The Home For Programming Languages | Julio Montás' />
-          <meta name="description" content="List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present" key="description"/>
-          <meta property='og:description' content='List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present' />
-          <meta name='twitter:description' content='List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present' />
-          <link rel="canonical" href="https://juliomontas.com/side-project/hellocode/" />
-          <link rel="alternate" href="https://juliomontas.com/side-project/hellocode/" hreflang="en-us" />
-          <link rel="alternate" href="https://juliomontas.com/es-us/side-project/hellocode/" hreflang="es-us" />
-      </Head>
-    <motion.div
-    initial={{ y: 600, opacity: 0 }}
-    animate={{ y: 0, opacity: 1 }}
-    exit={{ y: -600, opacity: 0 }}>
-        <div className={styles.mainIndex}>
-            <div className={styles.mainCenterCont}>
-            <div className={styles.gridContainer}>
+  <Head>
+    <title>Side Project | {t('title_01')} | Julio Montás</title>
+    <meta name='twitter:url' content='https://juliomontas.com/side-project/hellocode/' />
+    <meta property='og:url' content='https://juliomontas.com/side-project/hellocode/' />
+    <meta property='og:image' content='https://juliomontas.com/img/side-project/hc/hc01.gif' />
+    <meta name='twitter:image' content='https://juliomontas.com/img/side-project/hc/hc01.gif' />
+    <meta property='og:title' content='Helloco.de The Home For Programming Languages | Julio Montás' />
+    <meta name='twitter:title' content='Helloco.de The Home For Programming Languages | Julio Montás' />
+    <meta name="description" content="List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present" key="description"/>
+    <meta property='og:description' content='List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present' />
+    <meta name='twitter:description' content='List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present' />
+    <link rel="canonical" href="https://juliomontas.com/side-project/hellocode/" />
+    <link rel="alternate" href="https://juliomontas.com/side-project/hellocode/" hreflang="en-us" />
+    <link rel="alternate" href="https://juliomontas.com/es-us/side-project/hellocode/" hreflang="es-us" />
+  </Head>
+  <motion.div exit={{y: -300, opacity: 0 }} initial='initial' animate='animate'>
+  <motion.div variants={stagger}>
+  <div className={styles.mainIndex}>
+    <div className={styles.mainCenterCont}>
+      <div className={styles.gridContainer}>
 
-
+                <motion.div variants={fadeInUp}>
                 <div className={styles.flipSwitch}>
                     <div>
                         <h2>{t('title_01')}</h2>
@@ -43,10 +66,16 @@ function ProjectIndex() {
                     </div>
                     <ExitButton url="/side-project" />
                 </div>
+                </motion.div>
+
+                <motion.div variants={fadeInUp}>
                 <div className={styles.flipSwitch}>
                     <h3>Concept</h3>
                     <p>{t('conceptContent_01')}</p>
                 </div>
+                </motion.div>
+
+                <motion.div variants={fadeInUp}>
                 <div>
                     <h3>UI Design</h3>
                     <Image
@@ -59,7 +88,9 @@ function ProjectIndex() {
                     loading="eager"
                     />
                 </div>
+                </motion.div>
 
+                <motion.div variants={fadeInUp}>
                 <div>
                 <p className={styles.textUnderImg}>{t('uiDesignContent_01a')}</p>
                 <Swiper
@@ -105,9 +136,11 @@ function ProjectIndex() {
                     </SwiperSlide>
                 </Swiper>
                 </div>
+                </motion.div>
 
+                <motion.div variants={fadeInUp}>
                 <div className={styles.flipSwitch}>
-                    <h3>URL</h3>
+                <h3>URL</h3>
                     <div>
                         <ul className={styles.secTextList}>
                         <RelatedCTA
@@ -123,6 +156,9 @@ function ProjectIndex() {
                         </ul>
                     </div>
                 </div>
+                </motion.div>
+
+                <motion.div variants={fadeInUp}>
                 <div className={styles.flipSwitch}>
                   <h3>More Projects</h3>
                   <ul>
@@ -143,11 +179,13 @@ function ProjectIndex() {
                     />
                   </ul>
                 </div>
+                </motion.div>
 
-              </div>
-            </div>
-        </div>
-    </motion.div>
+      </div>
+    </div>
+  </div>
+  </motion.div>
+  </motion.div>
   </Layout>
 }
 

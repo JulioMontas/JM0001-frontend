@@ -10,30 +10,30 @@ import RelatedCTA from '../../../components/RelatedCTA'
 import styles from '../../../styles/Report.module.css'
 
 function ProjectIndex() {
-    const { t } = useTranslation('sideProject')
+  const { t } = useTranslation('sideProject')
   return <Layout>
-      <Head>
-          <title>Side Project | {t('title_03')} | Julio Montás</title>
-          <meta name='twitter:url' content='https://juliomontas.com/side-project/width/' />
-          <meta property='og:url' content='https://juliomontas.com/side-project/width/' />
-          <meta property='og:image' content='https://juliomontas.com/img/side-project/width/width_BothPlayer_1080.gif' />
-          <meta name='twitter:image' content='https://juliomontas.com/img/side-project/width/width_BothPlayer_1080.gif' />
-          <meta property='og:title' content='Width Take Over the Screen | Julio Montás' />
-          <meta name='twitter:title' content='Width Take Over the Screen | Julio Montás' />
-          <meta name="description" content="A two-player game in which you must defeat your opponents by clicking to take over the screen" key="description"/>
-          <meta property='og:description' content='A two-player game in which you must defeat your opponents by clicking to take over the screen' />
-          <meta name='twitter:description' content='A two-player game in which you must defeat your opponents by clicking to take over the screen' />
-          <link rel="canonical" href="https://juliomontas.com/side-project/width/" />
-          <link rel="alternate" href="https://juliomontas.com/side-project/width/" hreflang="en-us" />
-          <link rel="alternate" href="https://juliomontas.com/es-us/side-project/width/" hreflang="es-us" />
-      </Head>
-    <motion.div
-    initial={{ y: 600, opacity: 0 }}
-    animate={{ y: 0, opacity: 1 }}
-    exit={{ y: -600, opacity: 0 }}>
-        <div className={styles.mainIndex}>
-            <div className={styles.mainCenterCont}>
-            <div className={styles.gridContainer}>
+  <Head>
+    <title>Side Project | {t('title_03')} | Julio Montás</title>
+    <meta name='twitter:url' content='https://juliomontas.com/side-project/width/' />
+    <meta property='og:url' content='https://juliomontas.com/side-project/width/' />
+    <meta property='og:image' content='https://juliomontas.com/img/side-project/width/width_BothPlayer_1080.gif' />
+    <meta name='twitter:image' content='https://juliomontas.com/img/side-project/width/width_BothPlayer_1080.gif' />
+    <meta property='og:title' content='Width Take Over the Screen | Julio Montás' />
+    <meta name='twitter:title' content='Width Take Over the Screen | Julio Montás' />
+    <meta name="description" content="A two-player game in which you must defeat your opponents by clicking to take over the screen" key="description"/>
+    <meta property='og:description' content='A two-player game in which you must defeat your opponents by clicking to take over the screen' />
+    <meta name='twitter:description' content='A two-player game in which you must defeat your opponents by clicking to take over the screen' />
+    <link rel="canonical" href="https://juliomontas.com/side-project/width/" />
+    <link rel="alternate" href="https://juliomontas.com/side-project/width/" hreflang="en-us" />
+    <link rel="alternate" href="https://juliomontas.com/es-us/side-project/width/" hreflang="es-us" />
+  </Head>
+  <motion.div exit={{y: -300, opacity: 0 }} initial='initial' animate='animate'>
+  <motion.div variants={stagger}>
+  <div className={styles.mainIndex}>
+    <div className={styles.mainCenterCont}>
+      <div className={styles.gridContainer}>
+
+                <motion.div variants={fadeInUp}>
                 <div className={styles.flipSwitch}>
                     <div>
                         <h2>{t('title_03')}</h2>
@@ -41,11 +41,16 @@ function ProjectIndex() {
                     </div>
                     <ExitButton url="/side-project" />
                 </div>
+                </motion.div>
+
+                <motion.div variants={fadeInUp}>
                 <div className={styles.flipSwitch}>
                     <h3>Concept</h3>
                     <p>{t('conceptContent_03')}</p>
                 </div>
+                </motion.div>
 
+                <motion.div variants={fadeInUp}>
                 <div>
                   <h3>UI Design</h3>
                   <Image
@@ -58,7 +63,9 @@ function ProjectIndex() {
                     loading="eager"
                   />
                 </div>
+                </motion.div>
 
+                <motion.div variants={fadeInUp}>
                 <div>
                 <p className={styles.textUnderImg}>{t('uiDesignContent_03a')}</p>
                 <Swiper
@@ -129,7 +136,9 @@ function ProjectIndex() {
                 </Swiper>
 
                 </div>
+                </motion.div>
 
+                <motion.div variants={fadeInUp}>
                 <div>
                     <Image
                     src="/img/side-project/width/width_Landing_Page.png"
@@ -142,8 +151,9 @@ function ProjectIndex() {
                     />
                     <p className={styles.textUnderImg}>{t('uiDesignContent_03f')}</p>
                 </div>
+                </motion.div>
 
-
+                <motion.div variants={fadeInUp}>
                 <div className={styles.flipSwitch}>
                   <h3>URL</h3>
                   <ul>
@@ -154,7 +164,9 @@ function ProjectIndex() {
                     />
                   </ul>
                 </div>
+                </motion.div>
 
+                <motion.div variants={fadeInUp}>
                 <div className={styles.flipSwitch}>
                     <h3>More Projects</h3>
                     <ul>
@@ -175,17 +187,14 @@ function ProjectIndex() {
                     />
                   </ul>
                 </div>
-              </div>
-            </div>
-        </div>
-    </motion.div>
-  </Layout>
-}
+                </motion.div>
 
-export async function getServerSideProps(context) {
-    return {
-        props: {},
-    }
+      </div>
+    </div>
+  </div>
+  </motion.div>
+  </motion.div>
+  </Layout>
 }
 
 export default ProjectIndex

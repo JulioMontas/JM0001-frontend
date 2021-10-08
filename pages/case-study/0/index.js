@@ -35,7 +35,6 @@ const stagger = {
   }
 };
 
-
 function CaseStudyIndex() {
   const { t } = useTranslation('caseStudy')
   return <Layout>
@@ -55,7 +54,7 @@ function CaseStudyIndex() {
       <link rel="alternate" href="https://juliomontas.com/es-us/case-study/0/" hreflang="es-us" />
     </Head>
       <motion.div exit={{y: -300, opacity: 0 }} initial='initial' animate='animate'>
-      <motion.div  variants={stagger}>
+      <motion.div variants={stagger}>
       <div className={styles.mainIndex}>
           <div className={styles.mainCenterCont}>
             <div className={styles.gridContainer}>

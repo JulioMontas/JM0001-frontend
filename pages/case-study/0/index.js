@@ -27,7 +27,7 @@ function CaseStudyIndex() {
       <link rel="canonical" href="https://juliomontas.com/case-study/0/" />
       <link rel="alternate" href="https://juliomontas.com/case-study/0/" hreflang="en-us" />
       <link rel="alternate" href="https://juliomontas.com/es-us/case-study/0/" hreflang="es-us" />
-      </Head>
+    </Head>
       <motion.div
       initial={{ y: 600, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
@@ -45,6 +45,7 @@ function CaseStudyIndex() {
               <h3>&#128466; {t('overview')}</h3>
               <p>{t('overviewContent_00')}</p>
             </div>
+
             <div>
                 <Image
                   src="/img/case-study/00/Inventory_management.jpg"
@@ -118,9 +119,9 @@ function CaseStudyIndex() {
                   layout="responsive"
                   loading="lazy"
                  />
-              </div>
+            </div>
 
-              <div className={styles.flipSwitch}>
+            <div className={styles.flipSwitch}>
                 <h3>&#128466; Products</h3>
                 <ul className={styles.secTextList}>
                   <li><b>Adorama.com</b> {t('productList_00_a')}</li>
@@ -128,9 +129,9 @@ function CaseStudyIndex() {
                   <li><b>AdoramaRentals.com</b> {t('productList_00_c')}</li>
                   <li><b>LeisurePro.com</b> {t('productList_00_d')}</li>
                 </ul>
-              </div>
+            </div>
 
-              <div className={styles.flipSwitch}>
+            <div className={styles.flipSwitch}>
                 <h3>More Case Study</h3>
                 <ul>
                   <RelatedCTA
@@ -149,7 +150,7 @@ function CaseStudyIndex() {
                     content={t('content_03')}
                   />
                 </ul>
-              </div>
+            </div>
 
 
           </div>

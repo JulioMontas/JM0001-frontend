@@ -7,6 +7,31 @@ import useTranslation from 'next-translate/useTranslation'
 import Layout from '../../components/Layout'
 import styles from '../../styles/Project.module.css'
 
+const easing = [.6, -.05, .01, .99];
+
+const fadeInUp = {
+  initial:{
+    y: 60,
+    opacity: 0
+  },
+  animate:{
+    y: 0,
+    opacity: 1,
+    transition:{
+      duration: .6,
+      ease: easing
+    }
+  }
+};
+
+const stagger = {
+  animate: {
+    transition: {
+      staggerChildren: 0.1
+    }
+  }
+};
+
 function sideProject({ posts }) {
   const { t } = useTranslation('sideProject')
   return <Layout>
@@ -25,12 +50,13 @@ function sideProject({ posts }) {
       <link rel="alternate" href="https://juliomontas.com/side-project/" hreflang="en-us" />
       <link rel="alternate" href="https://juliomontas.com/es-us/side-project/" hreflang="es-us" />
     </Head>
-    <div className={styles.wrapper}>
-    <motion.div
-       initial={{ x: 600, opacity: 0 }}
-       animate={{ x: 0, opacity: 1 }}
-       exit={{ x: -600, opacity: 0 }}>
-         <div className={styles.main}>
+    <motion.div exit={{ opacity: 0 }} initial='initial' animate='animate'>
+      <div className={styles.container}>
+        <motion.div  variants={stagger}>
+          <div className={styles.main}>
+
+
+           <motion.div variants={fadeInUp} className='card'>
            <section>
                <Link href={`/side-project/hellocode`}>
                  <a alt={t('title_01')}>
@@ -47,7 +73,9 @@ function sideProject({ posts }) {
                 </a>
                </Link>
                </section>
+               </motion.div>
 
+          <motion.div variants={fadeInUp} className='card'>
            <section>
             <Link href={`/side-project/surveillance`}>
               <a alt={t('title_02')}>
@@ -66,7 +94,9 @@ function sideProject({ posts }) {
               </a>
             </Link>
             </section>
+            </motion.div>
 
+            <motion.div variants={fadeInUp} className='card'>
             <section>
               <Link href={`/side-project/width`}>
                 <a alt={t('title_03')}>
@@ -85,7 +115,9 @@ function sideProject({ posts }) {
                 </a>
               </Link>
               </section>
+              </motion.div>
 
+            <motion.div variants={fadeInUp} className='card'>
             <section>
             <Link href={`/side-project/colors`}>
               <a alt={t('title_05')}>
@@ -104,9 +136,13 @@ function sideProject({ posts }) {
               </a>
             </Link>
             </section>
+            </motion.div>
+
+
+          </div>
+        </motion.div>
       </div>
     </motion.div>
-    </div>
   </Layout>
 }
 

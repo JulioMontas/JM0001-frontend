@@ -2444,6 +2444,11 @@ image-size@1.0.0:
   dependencies:
     queue "6.0.2"
 
+immer@>=8.0.1:
+  version "9.0.6"
+  resolved "https://registry.yarnpkg.com/immer/-/immer-9.0.6.tgz#7a96bf2674d06c8143e327cbf73539388ddf1a73"
+  integrity sha512-G95ivKpy+EvVAnAab4fVa4YGYn24J1SpEktnJX7JJ45Bd7xqME/SCplFzYFmTbrkwZbQ4xJK1xMTUYBkN6pWsQ==
+
 inflight@^1.0.4:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/inflight/-/inflight-1.0.6.tgz#49bd6331d7d02d0c09bc910a1075ba8165b56df9"
@@ -3411,6 +3416,13 @@ react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react-model@^4.1.4:
+  version "4.1.4"
+  resolved "https://registry.yarnpkg.com/react-model/-/react-model-4.1.4.tgz#4289567daf8ac3a8b7ae09f3b6c94f7919e45e0c"
+  integrity sha512-2FIhHtNXzvML8nNMXyunmoCXmYvBxj+MQCFM48XX32b3OcqUKWG9MAGVgB1YFl/r3tGh/xVYDpBrlSC3WkZqlw==
+  dependencies:
+    immer ">=8.0.1"
 
 react-player@^2.7.0:
   version "2.7.0"

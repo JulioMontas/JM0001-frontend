@@ -33,7 +33,7 @@ body {
   color: var(--text-color);
   background: var(--background-color);
   transition: all 1s ease;
-  background-size: 150% 150%;
+  background-size: 210% 210%;
   animation: MoveBG 60s ease infinite;
 }
 @-webkit-keyframes MoveBG {

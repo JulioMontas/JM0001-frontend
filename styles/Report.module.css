@@ -22,6 +22,7 @@
     font-size: 12px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+    margin-bottom: 10px;
   }
   .mainIndex p {
     font-family: var(--fonts-summary);
@@ -30,8 +31,6 @@
     margin: -5px 0 0 0;
   }
   .mainIndex{
-    margin: 2.5em 10px 2em 10px;
-    border-radius: 15px;
     background: var(--background-color-dark);
     animation: MoveBG 60s ease infinite;
     transition: all 1s ease;

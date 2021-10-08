@@ -108,18 +108,6 @@ header ul li:hover ul.dropdown {
 header ul li ul.dropdown li {
   display: block;
 }
-footer a{
-  font-size: 14px;
-  font-weight: bold;
-  color: #F8E71C;
-  width: 100px;
-  display: block;
-  text-align: center;
-  padding: 10px 0;
-  border: 2px solid #F8E71C;
-  filter: var(--box-shadow);
-  border-radius: 5px;
-}
 /* Mobile 320px  */
 @media screen and (min-width: 30em) {}
 /* Table */

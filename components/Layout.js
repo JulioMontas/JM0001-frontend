@@ -90,8 +90,6 @@ const Layout = ({children}) => {
                     </a>
                   </Link>
                   </div>*/}
-
-              <div class="cui-embed" data-cui-uid="IBnyOp" data-cui-avatar="https://images.typeform.com/images/5jv4sQjwBhai" data-cui-mode="pill" data-cui-pill-button-color="#F3CD59"></div><script src="https://public-assets.typeform.com/confab/embed.js" async></script>
               </footer>
         </div>
     )

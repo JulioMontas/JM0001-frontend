@@ -1,0 +1,11 @@
+/* Mobile 320px  */
+@media screen and (min-width: 30em) {}
+
+/* Table */
+@media screen and (min-width: 40em) {}
+
+/* Desktop 980px to 1280px  */
+@media screen and (min-width: 57em) {}
+
+/* Desktop 1920px */
+@media screen and (min-width: 120em) {}

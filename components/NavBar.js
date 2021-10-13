@@ -8,4 +8,4 @@ const NavBar = (props) => {
   )
 };
 
-export default ExitButton;
+export default NavBar;

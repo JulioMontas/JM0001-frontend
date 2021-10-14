@@ -5,7 +5,21 @@
 @media screen and (min-width: 40em) {}
 
 /* Desktop 980px to 1280px  */
-@media screen and (min-width: 57em) {}
+@media screen and (min-width: 57em) {
+  .header{
+    width: 100%;
+    padding:1em 0;
+    grid-area: header;
+    justify-content: space-between;
+    display: flex;
+    position: fixed;
+    z-index: 99999;
+  }
+  .title{
+    font-size: 1em;
+    text-transform: uppercase;
+  }
+}
 
 /* Desktop 1920px */
 @media screen and (min-width: 120em) {}

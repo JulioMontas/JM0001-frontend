@@ -1,19 +1,21 @@
-.container{
-  width: 100%;
-  margin: 0 auto;
-  /* padding: 10px; */
+.main h2{
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
-
 /* Mobile 320px  */
 @media screen and (min-width: 30em) {}
-
 /* Table */
 @media screen and (min-width: 40em) {}
-
 /* Desktop 980px to 1280px  */
 @media screen and (min-width: 57em) {
-  .container{
-    width: 1200px;
+  .main{
+    display: grid;
+    row-gap: 200px;
+    margin-bottom: 200px;
+  }
+  .main h2{
+    font-size: 0.8em;
+    padding-bottom: 40px;
   }
 }
 /* Desktop 1920px */

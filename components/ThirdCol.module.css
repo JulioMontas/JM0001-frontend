@@ -1,0 +1,38 @@
+.title{
+  grid-area: title;
+}
+.firstCol{
+  grid-area: firstCol;
+}
+.secondCol{
+  grid-area: secondCol;
+}
+.lastCol{
+  grid-area: lastCol;
+}
+/* Mobile 320px  */
+@media screen and (min-width: 30em) {}
+
+/* Table */
+@media screen and (min-width: 40em) {}
+
+/* Desktop 980px to 1280px  */
+@media screen and (min-width: 57em) {
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    column-gap: 2em;
+    grid-template-areas:
+        "title title title"
+        "firstCol secondCol lastCol";
+  }
+  .main li {
+      margin-bottom: 25px;
+      line-height: 25px;
+      font-size: 0.9em;
+      filter: var(--box-shadow);
+  }
+}
+
+/* Desktop 1920px */
+@media screen and (min-width: 120em) {}

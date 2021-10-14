@@ -1,7 +1,6 @@
 .main {
   width: 100%;
   text-align: center;
-  border: 1px solid blue;
 }
 .main h2,
 .main p{
@@ -44,10 +43,9 @@
 /* Desktop 980px to 1280px  */
 @media screen and (min-width: 57em) {
   .main {
-    height: 380px;
+    height: 85vh;
     align-items: center;
     text-align: center;
-    border: 1px solid green;
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: 1em;

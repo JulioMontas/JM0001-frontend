@@ -42,23 +42,6 @@ const NavBar = (props) => {
         </Link>
       </motion.div>
 
-
-      <motion.div variants={fadeInUp} className='card'>
-        <ul className={styles.changeLang}>
-          <li>
-            <a href="#">Langs</a>
-            <ul class="dropdown">
-              {router.locales.map((locale) => (
-              <li key={locale}>
-                <Link href={router.asPath} locale={locale}>
-                  <a>{locale}</a>
-                </Link>
-              </li>
-              ))}
-            </ul>
-          </li>
-          </ul>
-      </motion.div>
       </motion.div>
     </motion.div>
   )

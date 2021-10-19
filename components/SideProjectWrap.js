@@ -4,7 +4,6 @@ import Container from '../components/Container'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import useTranslation from 'next-translate/useTranslation'
 
 const easing = [.6, -.05, .01, .99];
 
@@ -31,8 +30,20 @@ const stagger = {
   }
 };
 
+const data = {
+  title_01: "HelloCo.de - The Home For Programming Languages",
+  content_01: "Collective Memory, Education",
+  title_02: "Surveillance Culture",
+  content_02: "Misinformation, Data Collection",
+  title_03: "Width - Take Over the Screen",
+  content_03: "JavaScript Web Game",
+  title_04: "Meliorem - Cultivating Your Passion to Level Up",
+  content_04: "Productivity App, Dopamine Stimulator",
+  title_05: "Basic Color Fundamentals",
+  content_05: "eLearning, New Memories",
+}
+
 const SideProjectWrap = (props) => {
-  const { t } = useTranslation('caseStudy')
   return(
     <Container>
       <motion.div exit={{ opacity: 0 }} initial='initial' animate='animate'>
@@ -62,13 +73,13 @@ const SideProjectWrap = (props) => {
             <motion.div variants={fadeInUp} className='card'>
             <section>
             <Link href={`/side-project/hellocode`}>
-              <a alt={t('title_00')} rel="alternate" hreflang="en">
-                <h3 className={styles.title}>{t('title_00')}</h3>
-                <h4 className={styles.description}>{t('content_00')}</h4>
+              <a alt={data.title_01} rel="alternate" hreflang="en">
+                <h3 className={styles.title}>{data.title_01}</h3>
+                <h4 className={styles.description}>{data.content_01}</h4>
                 <span>
                   <Image
                     src="/img/side-project/hc/hc02.gif"
-                    alt={t('title_01')}
+                    alt={data.title_01}
                     width={1422}
                     height={688}
                    />
@@ -83,13 +94,13 @@ const SideProjectWrap = (props) => {
             <motion.div variants={fadeInUp} className='card'>
             <section>
               <Link href={`/side-project/surveillance`}>
-                <a alt="Pendulum EP - Vinyl Record Label Design" rel="alternate" hreflang="en">
-                  <h3 className={styles.title}>{t('title_01')}</h3>
-                  <h4 className={styles.description}>{t('content_01')}</h4>
+                <a alt={data.title_02} rel="alternate" hreflang="en">
+                  <h3 className={styles.title}>{data.title_02}</h3>
+                  <h4 className={styles.description}>{data.content_02}</h4>
                   <span>
                     <Image
                     src="/img/side-project/surveillance/jessieNguyen-socialProof.jpg"
-                    alt={t('title_02')}
+                    alt={data.title_02}
                     width={640}
                     height={640}
                     quality={1}
@@ -106,13 +117,13 @@ const SideProjectWrap = (props) => {
             <motion.div variants={fadeInUp} className='card'>
             <section>
               <Link href={`/side-project/width`}>
-                <a alt="Shopify Fragrance eCommerce - A Discovery In Scent" rel="alternate" hreflang="en">
-                  <h3 className={styles.title}>{t('title_02')}</h3>
-                  <h4 className={styles.description}>{t('content_02')}</h4>
+                <a alt={data.title_03} rel="alternate" hreflang="en">
+                  <h3 className={styles.title}>{data.title_03}</h3>
+                  <h4 className={styles.description}>{data.content_03}</h4>
                   <span>
                     <Image
                     src="/img/side-project/width/width_Landing_Page.png"
-                    alt={t('title_03')}
+                    alt={data.title_03}
                     width={360}
                     height={210}
                     quality={25}
@@ -129,13 +140,13 @@ const SideProjectWrap = (props) => {
             <motion.div variants={fadeInUp} className='card'>
             <section>
               <Link href={`/side-project/colors`}>
-                <a alt="Custom Wordpress Theme - for Musicians and Bands" rel="alternate" hreflang="en">
-                  <h3 className={styles.title}>{t('title_03')}</h3>
-                  <h4 className={styles.description}>{t('content_03')}</h4>
+                <a alt={data.title_05} rel="alternate" hreflang="en">
+                  <h3 className={styles.title}>{data.title_05}</h3>
+                  <h4 className={styles.description}>{data.content_05}</h4>
                   <span>
                     <Image
                     src="/img/colorView_01.jpg"
-                    alt={t('title_05')}
+                    alt={data.title_05}
                     width={200}
                     height={200}
                     quality={15}

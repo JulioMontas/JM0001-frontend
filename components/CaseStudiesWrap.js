@@ -4,7 +4,6 @@ import Container from '../components/Container'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import useTranslation from 'next-translate/useTranslation'
 
 const easing = [.6, -.05, .01, .99];
 
@@ -31,8 +30,19 @@ const stagger = {
   }
 };
 
+const data = {
+  title_00: "Adorama - eCommerce",
+  content_00: "UI/UX Designer & Front-end Dev, 2019",
+  title_01: "Vinyl Label Design",
+  content_01: "Art Direction, Print Design, 2019",
+  title_02: "Shopify Fragrance eCommerce",
+  content_02: "UI/UX Designer & Front-end Dev, 2018",
+  title_03: "Custom Wordpress Theme",
+  content_03: "UI/UX Designer & Front-end Dev, 2017"
+}
+
 const CaseStudiesWrap = (props) => {
-  const { t } = useTranslation('caseStudy')
+
   return(
     <Container>
       <motion.div exit={{ opacity: 0 }} initial='initial' animate='animate'>
@@ -62,15 +72,15 @@ const CaseStudiesWrap = (props) => {
             <motion.div variants={fadeInUp} className='card'>
             <section>
             <Link href={`/case-study/0`}>
-              <a alt={t('title_00')} rel="alternate" hreflang="en">
-                <h3 className={styles.title}>{t('title_00')}</h3>
-                <h4 className={styles.description}>{t('content_00')}</h4>
+              <a alt={data.title_00} rel="alternate" hreflang="en">
+                <h3 className={styles.title}>{data.title_00}</h3>
+                <h4 className={styles.description}>{data.content_00}</h4>
                 <div className={styles.cubeWrapper}>
                   <div className={styles.cube}>
                     <div className={styles.cara1}>
                       <Image
                         src="/img/blue_box.jpg"
-                        alt={t('title_00')}
+                        alt={data.title_00}
                         width={200}
                         height={200}
                         quality={1}
@@ -80,7 +90,7 @@ const CaseStudiesWrap = (props) => {
                     <div className={styles.cara2}>
                         <Image
                         src="/img/blue_box.jpg"
-                        alt={t('title_00')}
+                        alt={data.title_00}
                         width={200}
                         height={200}
                         quality={1}
@@ -90,7 +100,7 @@ const CaseStudiesWrap = (props) => {
                     <div className={styles.cara3}>
                         <Image
                         src="/img/blue_box.jpg"
-                        alt={t('title_00')}
+                        alt={data.title_00}
                         width={200}
                         height={200}
                         quality={1}
@@ -100,7 +110,7 @@ const CaseStudiesWrap = (props) => {
                     <div className={styles.cara4}>
                         <Image
                         src="/img/blue_box.jpg"
-                        alt={t('title_00')}
+                        alt={data.title_00}
                         width={200}
                         height={200}
                         quality={1}
@@ -110,7 +120,7 @@ const CaseStudiesWrap = (props) => {
                     <div className={styles.cara5}>
                         <Image
                         src="/img/blue_box.jpg"
-                        alt={t('title_00')}
+                        alt={data.title_00}
                         width={200}
                         height={200}
                         quality={1}
@@ -120,7 +130,7 @@ const CaseStudiesWrap = (props) => {
                     <div className={styles.cara6}>
                         <Image
                         src="/img/blue_box.jpg"
-                        alt={t('title_00')}
+                        alt={data.title_00}
                         width={200}
                         height={200}
                         quality={1}
@@ -140,15 +150,15 @@ const CaseStudiesWrap = (props) => {
             <motion.div variants={fadeInUp} className='card'>
             <section>
               <Link href={`/case-study/1`}>
-                <a alt="Pendulum EP - Vinyl Record Label Design" rel="alternate" hreflang="en">
-                  <h3 className={styles.title}>{t('title_01')}</h3>
-                  <h4 className={styles.description}>{t('content_01')}</h4>
+                <a alt="" rel="alternate" hreflang="en">
+                  <h3 className={styles.title}>{data.title_01}}</h3>
+                  <h4 className={styles.description}>{data.content_01}</h4>
                   <div className={styles.cubeWrapper}>
                     <div className={styles.cube}>
                       <div className={styles.cara1}>
                         <Image
                         src="/img/Pendulum-3D-Box-Bottom-05.jpg"
-                        alt={t('title_01')}
+                        alt={data.title_01}
                         width={200}
                         height={200}
                         quality={1}
@@ -158,7 +168,7 @@ const CaseStudiesWrap = (props) => {
                       <div className={styles.cara2}>
                         <Image
                         src="/img/Pendulum-3D-Box-Bottom-05.jpg"
-                        alt={t('title_01')}
+                        alt={data.title_01}
                         width={200}
                         height={200}
                         quality={1}
@@ -168,7 +178,7 @@ const CaseStudiesWrap = (props) => {
                       <div className={styles.cara3}>
                         <Image
                         src="/img/Pendulum-3D-Box-Bottom-05.jpg"
-                        alt={t('title_01')}
+                        alt={data.title_01}
                         width={200}
                         height={200}
                         quality={1}
@@ -178,7 +188,7 @@ const CaseStudiesWrap = (props) => {
                       <div className={styles.cara4}>
                         <Image
                         src="/img/Pendulum-3D-Box-Bottom-05.jpg"
-                        alt={t('title_01')}
+                        alt={data.title_01}
                         width={200}
                         height={200}
                         quality={1}
@@ -188,7 +198,7 @@ const CaseStudiesWrap = (props) => {
                       <div className={styles.cara5}>
                         <Image
                         src="/img/Pendulum-3D-Box-Bottom-05.jpg"
-                        alt={t('title_01')}
+                        alt={data.title_01}
                         width={200}
                         height={200}
                         quality={1}
@@ -198,7 +208,7 @@ const CaseStudiesWrap = (props) => {
                       <div className={styles.cara6}>
                         <Image
                         src="/img/Pendulum-3D-Box-Bottom-05.jpg"
-                        alt={t('title_01')}
+                        alt={data.title_01}
                         width={200}
                         height={200}
                         quality={1}
@@ -218,15 +228,15 @@ const CaseStudiesWrap = (props) => {
             <motion.div variants={fadeInUp} className='card'>
             <section>
               <Link href={`/case-study/2`}>
-                <a alt="Shopify Fragrance eCommerce - A Discovery In Scent" rel="alternate" hreflang="en">
-                  <h3 className={styles.title}>{t('title_02')}</h3>
-                  <h4 className={styles.description}>{t('content_02')}</h4>
+                <a alt={data.title_02} rel="alternate" hreflang="en">
+                  <h3 className={styles.title}>{data.title_02}</h3>
+                  <h4 className={styles.description}>{data.content_02}</h4>
                   <div className={styles.cubeWrapper}>
                       <div className={styles.cube}>
                         <div className={styles.cara1}>
                           <Image
                             src="/img/ecommerce.png"
-                            alt={t('title_02')}
+                            alt={data.title_02}
                             width={200}
                             height={200}
                             quality={1}
@@ -236,7 +246,7 @@ const CaseStudiesWrap = (props) => {
                           <div className={styles.cara2}>
                           <Image
                             src="/img/ecommerce.png"
-                            alt={t('title_02')}
+                            alt={data.title_02}
                             width={200}
                             height={200}
                             quality={1}
@@ -246,7 +256,7 @@ const CaseStudiesWrap = (props) => {
                           <div className={styles.cara3}>
                           <Image
                             src="/img/ecommerce.png"
-                            alt={t('title_02')}
+                            alt={data.title_02}
                             width={200}
                             height={200}
                             quality={1}
@@ -256,7 +266,7 @@ const CaseStudiesWrap = (props) => {
                           <div className={styles.cara4}>
                           <Image
                             src="/img/ecommerce.png"
-                            alt={t('title_02')}
+                            alt={data.title_02}
                             width={200}
                             height={200}
                             quality={1}
@@ -266,7 +276,7 @@ const CaseStudiesWrap = (props) => {
                           <div className={styles.cara5}>
                           <Image
                             src="/img/ecommerce.png"
-                            alt={t('title_02')}
+                            alt={data.title_02}
                             width={200}
                             height={200}
                             quality={1}
@@ -276,7 +286,7 @@ const CaseStudiesWrap = (props) => {
                           <div className={styles.cara6}>
                           <Image
                             src="/img/ecommerce.png"
-                            alt={t('title_02')}
+                            alt={data.title_02}
                             width={200}
                             height={200}
                             quality={1}
@@ -296,15 +306,15 @@ const CaseStudiesWrap = (props) => {
             <motion.div variants={fadeInUp} className='card'>
             <section>
               <Link href={`/case-study/3`}>
-                <a alt="Custom Wordpress Theme - for Musicians and Bands" rel="alternate" hreflang="en">
-                  <h3 className={styles.title}>{t('title_03')}</h3>
-                  <h4 className={styles.description}>{t('content_03')}</h4>
+                <a alt={data.title_03} rel="alternate" hreflang="en">
+                  <h3 className={styles.title}>{data.title_03}</h3>
+                  <h4 className={styles.description}>{data.content_03}</h4>
                   <div className={styles.cubeWrapper}>
                   <div className={styles.cube}>
                   <div className={styles.cara1}>
                   <Image
                     src="/img/music_3D_Top.png"
-                    alt={t('title_03')}
+                    alt={data.title_03}
                     width={200}
                     height={200}
                     quality={1}
@@ -314,7 +324,7 @@ const CaseStudiesWrap = (props) => {
                   <div className={styles.cara2}>
                     <Image
                     src="/img/music_3D_Top.png"
-                    alt={t('title_03')}
+                    alt={data.title_03}
                     width={200}
                     height={200}
                     quality={1}
@@ -324,7 +334,7 @@ const CaseStudiesWrap = (props) => {
                   <div className={styles.cara3}>
                     <Image
                     src="/img/music_3D_Top.png"
-                    alt={t('title_03')}
+                    alt={data.title_03}
                     width={200}
                     height={200}
                     quality={1}
@@ -334,7 +344,7 @@ const CaseStudiesWrap = (props) => {
                   <div className={styles.cara4}>
                     <Image
                     src="/img/music_3D_Top.png"
-                    alt={t('title_03')}
+                    alt={data.title_03}
                     width={200}
                     height={200}
                     quality={1}
@@ -344,7 +354,7 @@ const CaseStudiesWrap = (props) => {
                   <div className={styles.cara5}>
                     <Image
                     src="/img/music_3D_Top.png"
-                    alt={t('title_03')}
+                    alt={data.title_03}
                     width={200}
                     height={200}
                     quality={1}
@@ -354,7 +364,7 @@ const CaseStudiesWrap = (props) => {
                   <div className={styles.cara6}>
                     <Image
                     src="/img/music_3D_Top.png"
-                    alt={t('title_03')}
+                    alt={data.title_03}
                     width={200}
                     height={200}
                     quality={1}

@@ -151,7 +151,7 @@ const CaseStudiesWrap = (props) => {
             <section>
               <Link href={`/case-study/1`}>
                 <a alt="" rel="alternate" hreflang="en">
-                  <h3 className={styles.title}>{data.title_01}}</h3>
+                  <h3 className={styles.title}>{data.title_01}</h3>
                   <h4 className={styles.description}>{data.content_01}</h4>
                   <div className={styles.cubeWrapper}>
                     <div className={styles.cube}>

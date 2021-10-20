@@ -42,14 +42,6 @@ const ThirdCol = (props) => {
         </h2>
 
         <motion.div variants={fadeInUp} className='card'>
-        <img
-          className={styles.firstCol}
-          src={data.firstSVG}
-          alt=""
-        />
-        </motion.div>
-
-        <motion.div variants={fadeInUp} className='card'>
         <div className={styles.secondCol}>
           <ul>
             <li>
@@ -63,6 +55,14 @@ const ThirdCol = (props) => {
             </li>
           </ul>
         </div>
+        </motion.div>
+
+        <motion.div variants={fadeInUp} className='card'>
+        <img
+          className={styles.firstCol}
+          src={data.firstSVG}
+          alt=""
+        />
         </motion.div>
 
         <motion.div variants={fadeInUp} className='card'>

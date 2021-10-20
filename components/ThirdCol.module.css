@@ -20,7 +20,7 @@
 @media screen and (min-width: 57em) {
   .main {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
     column-gap: 2em;
     grid-template-areas:
         "title title title"

@@ -28,34 +28,37 @@ const stagger = {
 };
 
 const svg = {
-  google:"svg/google-analytics.svg",
-  github:"svg/github.svg",
-  datocms:"svg/datocms.svg",
-  wordpress:"svg/wordpress.svg",
-  sketch:"svg/sketch.svg",
-  figma:"svg/figma.svg",
-  docker:"svg/docker.svg",
-  css:"svg/css.svg",
-  linux:"svg/linux.svg",
-  react:"svg/react.svg",
-  html5:"svg/html5.svg",
-  nextjs:"svg/nextjs.svg",
-  jira:"svg/jira.svg",
-  javascript:"svg/javascript.svg",
-  terminal:"svg/terminal.svg",
-  shopify:"svg/shopify.svg",
-  apple:"svg/apple.svg",
-  webxr:"svg/webxr.svg",
-  gatsby:"svg/gatsby.svg",
-  nodejs:"svg/nodejs.svg",
-  p5js:"svg/p5js.svg",
-  invision:"svg/invision.svg",
-  sketch:"svg/sketch.svg",
+  google:"svg/icon/google-analytics.svg",
+  github:"svg/icon/github.svg",
+  datocms:"svg/icon/datocms.svg",
+  wordpress:"svg/icon/wordpress.svg",
+  sketch:"svg/icon/sketch.svg",
+  figma:"svg/icon/figma.svg",
+  docker:"svg/icon/docker.svg",
+  css:"svg/icon/css.svg",
+  linux:"svg/icon/linux.svg",
+  react:"svg/icon/react.svg",
+  html5:"svg/icon/html5.svg",
+  nextjs:"svg/icon/nextjs.svg",
+  jira:"svg/icon/jira.svg",
+  javascript:"svg/icon/javascript.svg",
+  terminal:"svg/icon/terminal.svg",
+  shopify:"svg/icon/shopify.svg",
+  apple:"svg/icon/apple.svg",
+  webxr:"svg/icon/webxr.svg",
+  gatsby:"svg/icon/gatsby.svg",
+  nodejs:"svg/icon/nodejs.svg",
+  p5js:"svg/icon/p5js.svg",
+  invision:"svg/icon/invision.svg",
+  sketch:"svg/icon/sketch.svg",
 }
 
 const TechStack = (props) => {
   return(
     <motion.div exit={{ opacity: 0 }} initial='initial' animate='animate'>
+      <h2 className={styles.title}>
+        My Tech Stack
+      </h2>
       <motion.div variants={stagger} className={styles.main}>
 
       <motion.div variants={fadeInUp} className="card">

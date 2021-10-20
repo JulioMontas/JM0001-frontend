@@ -5,6 +5,7 @@ import HeroSection from '../components/HeroSection'
 import ThirdCol from '../components/ThirdCol'
 import CaseStudiesWrap from '../components/CaseStudiesWrap'
 import SideProjectWrap from '../components/SideProjectWrap'
+import TechStack from '../components/TechStack'
 
 export default function Homepage() {
   return (
@@ -29,6 +30,9 @@ export default function Homepage() {
         <CaseStudiesWrap
           title="Case Studies"
         />
+      </div>
+      <TechStack />
+      <div className={styles.main}>
         <ThirdCol
           title="From Visual To Develoment"
           firstListTitle="Expert at Developing Responsive Websites,"

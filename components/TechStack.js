@@ -1,3 +1,4 @@
+import Container from '../components/Container'
 import styles from './TechStack.module.css'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -56,9 +57,9 @@ const svg = {
 const TechStack = (props) => {
   return(
     <motion.div exit={{ opacity: 0 }} initial='initial' animate='animate'>
-      <h2 className={styles.title}>
+      <h3 className={styles.title}>
         My Tech Stack
-      </h2>
+      </h3>
       <motion.div variants={stagger} className={styles.main}>
 
       <motion.div variants={fadeInUp} className="card">
@@ -382,7 +383,6 @@ const TechStack = (props) => {
           </p>
         </div>
       </motion.div>
-
 
       </motion.div>
     </motion.div>

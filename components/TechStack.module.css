@@ -1,16 +1,17 @@
 .title{
   grid-area: title;
+  padding: 11vh 0 0 10px;
 }
 .icon{
   grid-area: firstCol;
 }
 .main  {
+  padding: 0 0 11vh 0;
   display: grid;
   text-align: center;
   width: 100%;
   grid-template-columns: repeat(4, 25% [col-start]);
-  column-gap: 5px;
-  row-gap: 50px;
+  row-gap: 45px;
 }
 .svg{
   display: flex;
@@ -20,16 +21,10 @@
   align-items: center;
 }
 .text{
+  opacity: 0.8;
   font-size: 0.8em;
   letter-spacing: 1px;
   text-shadow: -1px 2px 4px rgba(0, 0, 0, 0.25);
-}
-.icon{
-  opacity: 0.5;
-  transition: 0.3s;
-}
-.icon:hover{
-  opacity: 1;
 }
 /* Mobile 320px  */
 @media screen and (min-width: 30em) {}
@@ -37,24 +32,20 @@
 @media screen and (min-width: 40em) {}
 /* Desktop 980px to 1280px  */
 @media screen and (min-width: 57em) {
+  .title{
+    padding: 0;
+  }
   .main  {
-    margin: 0 auto;
-    width: 1200px;
-    margin-bottom: 200px;
     grid-template-columns: repeat(7, 146px [col-start]);
     column-gap: 30px;
     row-gap: 90px;
-    grid-template-areas:
-        "title . . . . . ."
-        "firstCol . . . . . ."
-        "firstCol . . . . . ."
-        "firstCol . . . . . .";
   }
-  .title{
-    margin: 0 auto;
-    width: 1200px;
-    font-size: 0.8em;
-    padding-bottom: 10px;
+  .icon{
+    opacity: 0.5;
+    transition: 0.3s;
+  }
+  .icon:hover{
+    opacity: 1;
   }
 }
 

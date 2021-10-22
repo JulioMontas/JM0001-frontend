@@ -1,9 +1,7 @@
 .container{
   width: 100%;
-  margin: 0 auto;
-  /* padding: 10px; */
+    /* padding: 25px 10px 50px 10px; */
 }
-
 /* Mobile 320px  */
 @media screen and (min-width: 30em) {}
 
@@ -14,6 +12,7 @@
 @media screen and (min-width: 57em) {
   .container{
     width: 1200px;
+    margin: 0 auto;
   }
 }
 /* Desktop 1920px */

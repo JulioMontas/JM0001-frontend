@@ -1,17 +1,20 @@
-.title{
-  font-family: var(--fonts-title);
-  text-transform: uppercase;
-  font-size: 16px;
-  letter-spacing: 1px;
+.main{
+  padding: 0 0 11vh 0;
+}
+.title,
+.description,
+.fotos{
+  padding-left: 10px;
 }
 .description{
   color: #FFF;
-  font-size: 13px;
+  font-size: 0.9em;
   transition: all 1s ease;
+  padding: 5px 10px 20px;
 }
 .main img {
-    width: 230px;
-    height: 230px;
+    width: 280px;
+    height: 280px;
     border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
     transition: all 1s ease-in-out;
     animation: movingBlob 10s ease-in-out alternate infinite;
@@ -23,12 +26,27 @@
     75%{border-radius: 70% 30% 30% 70% / 60% 40% 20% 40%}
     100%{border-radius: 18% 82% 37% 70% / 44% 40% 54% 40%}
 }
+
 /* Mobile 320px  */
 @media screen and (min-width: 30em) {}
 /* Table */
 @media screen and (min-width: 40em) {}
 /* Desktop 980px to 1280px  */
-@media screen and (min-width: 57em) {}
+@media screen and (min-width: 57em) {
+  .main,
+  .title,
+  .description,
+  .fotos{
+    padding: 0;
+  }
+  .main{
+    padding: 0 0 200px 0;
+  }
+  .main img {
+      width: 230px;
+      height: 230px;
+  }
+}
 
 /* Desktop 1920px */
 @media screen and (min-width: 120em) {}

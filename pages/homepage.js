@@ -6,16 +6,18 @@ import ThirdCol from '../components/ThirdCol'
 import CaseStudiesWrap from '../components/CaseStudiesWrap'
 import SideProjectWrap from '../components/SideProjectWrap'
 import TechStack from '../components/TechStack'
+import Container from '../components/Container'
 
 export default function Homepage() {
   return (
     <>
       <NavBar />
-      <HeroSection
-        title="Product Designer"
-        description="Building a website or app for your idea? Let's build it together. Creative solutions for every stage of your company's growth - strategy, design, development and management. Based in NYC."
-      />
       <div className={styles.main}>
+      <Container>
+        <HeroSection
+          title="Product Designer"
+          description="Building a website or app for your idea? Let's build it together. Creative solutions for every stage of your company's growth - strategy, design, development and management. Based in NYC."
+        />
         <ThirdCol
           title="Sculpting Your Vision"
           firstListTitle="Product Designer Ability"
@@ -30,9 +32,7 @@ export default function Homepage() {
         <CaseStudiesWrap
           title="Case Studies"
         />
-      </div>
-      <TechStack />
-      <div className={styles.main}>
+        <TechStack />
         <ThirdCol
           title="From Visual To Develoment"
           firstListTitle="Expert at Developing Responsive Websites,"
@@ -47,6 +47,7 @@ export default function Homepage() {
         <SideProjectWrap
           title="Side Projects"
         />
+      </Container>
       </div>
     </>
   );

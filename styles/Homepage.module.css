@@ -1,6 +1,9 @@
-.main h2{
+.main h3{
+  font-size: 0.8em;
   letter-spacing: 1px;
   text-transform: uppercase;
+  margin-bottom: 10px;
+  opacity: 0.5;
 }
 /* Mobile 320px  */
 @media screen and (min-width: 30em) {}
@@ -8,14 +11,8 @@
 @media screen and (min-width: 40em) {}
 /* Desktop 980px to 1280px  */
 @media screen and (min-width: 57em) {
-  .main{
-    display: grid;
-    row-gap: 200px;
-    margin-bottom: 200px;
-  }
-  .main h2{
-    font-size: 0.8em;
-    padding-bottom: 20px;
+  .main h3{
+    opacity: 1;
   }
 }
 /* Desktop 1920px */

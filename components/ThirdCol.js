@@ -33,13 +33,20 @@ const ThirdCol = (props) => {
     secondSVG: props.secondSVG
   }
   return(
-    <Container>
     <motion.div exit={{ opacity: 0 }} initial='initial' animate='animate'>
       <motion.div variants={stagger} className={styles.main}>
 
-        <h2 className={styles.title}>
+        <h3 className={styles.title}>
           {props.title}
-        </h2>
+        </h3>
+
+        <motion.div variants={fadeInUp} className='card'>
+        <img
+          className={styles.firstCol}
+          src={data.firstSVG}
+          alt=""
+        />
+        </motion.div>
 
         <motion.div variants={fadeInUp} className='card'>
         <div className={styles.secondCol}>
@@ -59,23 +66,14 @@ const ThirdCol = (props) => {
 
         <motion.div variants={fadeInUp} className='card'>
         <img
-          className={styles.firstCol}
-          src={data.firstSVG}
-          alt=""
-        />
-        </motion.div>
-
-        <motion.div variants={fadeInUp} className='card'>
-        <img
           className={styles.lastCol}
           src={data.secondSVG}
           alt=""
         />
         </motion.div>
 
-        </motion.div>
       </motion.div>
-    </Container>
+    </motion.div>
   );
 }
 

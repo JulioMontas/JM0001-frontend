@@ -1,14 +1,33 @@
 .title{
   grid-area: title;
 }
-.firstCol{
-  grid-area: firstCol;
-}
 .secondCol{
   grid-area: secondCol;
 }
+.firstCol{
+  grid-area: firstCol;
+  margin: 15px 0;
+}
 .lastCol{
   grid-area: lastCol;
+  display: none;
+}
+.main {
+  padding: 0 10px 11vh 10px;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+  'title'
+  'secondCol';
+}
+.main img{
+  width: 100%;
+}
+.main li {
+    margin-bottom: 25px;
+    line-height: 25px;
+    font-size: 1.1em;
+    filter: var(--box-shadow);
 }
 /* Mobile 320px  */
 @media screen and (min-width: 30em) {}
@@ -18,7 +37,15 @@
 
 /* Desktop 980px to 1280px  */
 @media screen and (min-width: 57em) {
+  .firstCol,
+  .lastCol{
+    display: block;
+  }
+  .firstCol{
+    margin: 0;
+  }
   .main {
+    padding: 0 0 200px 0;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     column-gap: 2em;
@@ -30,7 +57,6 @@
       margin-bottom: 25px;
       line-height: 25px;
       font-size: 0.9em;
-      filter: var(--box-shadow);
   }
 }
 

@@ -1,12 +1,26 @@
-.main {
-  width: 100%;
-  text-align: center;
+.uno{
+    grid-area: uno;
 }
-.main h2,
-.main p{
+.dos{
+    grid-area: dos;
+}
+.main {
+  padding: 10vh 10px 10vh 10px;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  grid-template-columns: auto;
+  grid-template-rows: 250px 1fr;
+  grid-row-gap: 1em;
+  grid-template-areas:
+      "dos"
+      "uno";
+}
+.title,
+.description{
     filter: var(--box-shadow);
 }
-.main h2 {
+.title {
     color:#FFF;
     text-transform: uppercase;
     text-align: center;
@@ -14,10 +28,9 @@
     letter-spacing: 1px;
     margin-top: 5px;
 }
-.main p {
-    line-height: 23px;
-    letter-spacing: 0.15em;
-    font-weight: lighter;
+.description{
+  line-height: 26px;
+  letter-spacing: 0.15em;
 }
 .main img {
     border-radius: 70% 30% 30% 70% / 60% 40% 20% 40%;
@@ -43,20 +56,16 @@
 /* Desktop 980px to 1280px  */
 @media screen and (min-width: 57em) {
   .main {
-    height: 85vh;
+    padding: 0;
+    height: 95vh;
     align-items: center;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 2fr;
+      grid-template-rows: auto;
     column-gap: 1em;
     grid-template-areas:
         "uno dos";
-  }
-  .main section:first-child{
-      grid-area: uno;
-  }
-  .main section:last-child{
-      grid-area: dos;
   }
   .main p {
     line-height: 30px;

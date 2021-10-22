@@ -1,3 +1,25 @@
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  padding: 1em 0;
+  z-index: 9999;
+}
+.title,
+.contact{
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.title{
+  margin-left: 10px;
+  width: 20px;
+}
+.contact{
+  margin-right: 10px;
+}
 /* Mobile 320px  */
 @media screen and (min-width: 30em) {}
 
@@ -9,15 +31,14 @@
   .header{
     width: 100%;
     padding:1em 0;
-    grid-area: header;
     justify-content: space-between;
     display: flex;
     position: fixed;
-    z-index: 99999;
+    z-index: 9999;
+    margin-top: 0px;
   }
   .title{
     font-size: 1em;
-    text-transform: uppercase;
   }
 }
 

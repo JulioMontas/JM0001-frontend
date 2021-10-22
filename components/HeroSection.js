@@ -30,31 +30,33 @@ const stagger = {
 
 const HeroSection = (props) => {
   return(
-    <Container>
     <motion.div exit={{ opacity: 0 }} initial='initial' animate='animate'>
       <motion.div variants={stagger} className={styles.main}>
 
         <motion.div variants={fadeInUp} className='card'>
-        <section>
+        <section className={styles.uno}>
           <Image
             src="/me.png"
             alt="self portrait wearing sunglasses indoors"
             width={200}
             height={200}
           />
-          <h2>{props.title}</h2>
+          <h2 className={styles.title}>
+            {props.title}
+          </h2>
         </section>
         </motion.div>
 
         <motion.div variants={fadeInUp} className='card'>
-        <section>
-          <p>{props.description}</p>
+        <section className={styles.dos}>
+          <p className={styles.description}>
+            {props.description}
+          </p>
         </section>
         </motion.div>
 
-        </motion.div>
       </motion.div>
-    </Container>
+    </motion.div>
   )
 }
 

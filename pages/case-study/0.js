@@ -80,8 +80,8 @@ function CaseStudyIndex() {
                 alt="Inventory management"
                 width={1917}
                 height={1056}
-                quality={1}
-                Container="responsive"
+                quality={25}
+                container="responsive"
                 loading="lazy"
               />
             </div>
@@ -108,8 +108,8 @@ function CaseStudyIndex() {
                  alt="Mobile view of raw mockup"
                  width={320}
                  height={3003}
-                 quality={100}
-                 Container="responsive"
+                 quality={80}
+                 container="responsive"
                  loading="lazy"
                 />
               </section>
@@ -119,8 +119,8 @@ function CaseStudyIndex() {
                   alt="Desktop view of raw mockup"
                   width={1870}
                   height={3871}
-                  quality={100}
-                  Container="responsive"
+                  quality={80}
+                  container="responsive"
                   loading="lazy"
                  />
               </section>

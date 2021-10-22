@@ -13,7 +13,7 @@
     border-radius: 0 0.8em 0.8em 0.8em;
   }
   .mainIndex h2{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     width: 92%;
   }
   .mainIndex h3{
@@ -34,7 +34,7 @@
     background: var(--background-color-dark);
     animation: MoveBG 60s ease infinite;
     transition: all 1s ease;
-    padding: 10px 10px 5em;
+    padding: 30px 10px 1em;
   }
   @keyframes MoveBG {
     0%{background-position:0% 50%}
@@ -59,7 +59,7 @@
     height: 125px;
     border-radius: 100% 0% 40% 0%;
     transition: all 1s ease;
-    animation: shortCurve 5s ease-in-out alternate infinite;
+    /* animation: shortCurve 5s ease-in-out alternate infinite; */
   }
   @keyframes shortCurve {
     0%{border-radius:  100% 0% 40% 0%}
@@ -71,7 +71,7 @@
     height: 365px;
     border-radius: 0% 30% 0% 100%;
     transition: all 1s ease;
-    animation: longCurve 5s ease-in-out alternate infinite;
+    /* animation: longCurve 5s ease-in-out alternate infinite; */
   }
   @keyframes longCurve {
     0%{border-radius:  0% 30% 0% 100%}
@@ -82,7 +82,7 @@
     background: #FFF;
     border-radius: 0 0 100% 0;
     transition: all 1s ease;
-    animation: longFlat 5s ease-in-out alternate infinite;
+    /* animation: longFlat 5s ease-in-out alternate infinite; */
   }
   @keyframes longFlat {
     0%{border-radius:  0 0 100% 0 }
@@ -93,7 +93,7 @@
     background: #FFF;
     border-radius: 0 0 20% 20%;
     transition: all 1s ease;
-    animation: longButNo 5s ease-in-out alternate infinite;
+    /* animation: longButNo 5s ease-in-out alternate infinite; */
   }
   @keyframes longButNo {
     0%{border-radius:  0 0 20% 20% }
@@ -112,7 +112,7 @@
     background: #777;
     border-radius: 100% 100% 100% 100%;
     transition: all 1s ease;
-    animation: injectionCircle 5s ease-in-out alternate infinite;
+    /* animation: injectionCircle 5s ease-in-out alternate infinite; */
   }
   @keyframes injectionCircle {
     0%{border-radius:  100% 100% 100% 100%  }
@@ -124,7 +124,7 @@
     height: 250px;
     border-radius: 0 100% 0 0;
     transition: all 1s ease;
-    animation: halfCurveUpRight 5s ease-in-out alternate infinite;
+    /* animation: halfCurveUpRight 5s ease-in-out alternate infinite; */
   }
   @keyframes halfCurveUpRight {
     0%{border-radius:  0 100% 0 0}
@@ -136,7 +136,7 @@
     height: 250px;
     border-radius: 100% 0 60% 100%;
     transition: all 1s ease;
-    animation: halfCurveBottomLeft 5s ease-in-out alternate infinite;
+    /* animation: halfCurveBottomLeft 5s ease-in-out alternate infinite; */
   }
   @keyframes halfCurveBottomLeft {
     0%{border-radius:  100% 0 60% 100%}
@@ -229,6 +229,9 @@
   filter: blur(5px);
   -webkit-filter: blur(5px);
 }
+.dosFotos{
+  display: grid;
+}
   /* Mobile 320px  */
   @media screen and (min-width: 30em) {}
   /* Table */
@@ -242,10 +245,13 @@
     }
     .gridContainer{
       display: grid;
-      grid-template-columns: 1024px;
+      grid-template-columns: 1200px;
       grid-template-rows: auto;
       row-gap: 80px;
       margin: 80px 0;
+    }
+    .mainIndex{
+      padding: 1px 0;
     }
     .mainIndex h2{
       width: 84%;
@@ -280,10 +286,10 @@
     .secColorPalette span{
       border: 3px solid #FFF;
     }
-    .mainCenterCont{
+    /* .mainCenterCont{
       width: 1024px;
       margin: 0 auto;
-    }
+    } */
     .mainIndex p {
       font-size: 16px;
       line-height: 25px;
@@ -311,6 +317,8 @@
        grid-template-areas:
        "title title title title";
     }
+
+
     .dosFotos h3{
       grid-area: title;
     }
@@ -322,6 +330,9 @@
       grid-template-areas:
       "title title";
     }
+
+
+
   }
   /* Desktop 1920px */
   @media screen and (min-width: 120em) { }

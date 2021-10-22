@@ -64,7 +64,7 @@ function CaseStudyIndex() {
           <motion.div variants={fadeInUp}>
           <div className={styles.flipSwitch}>
             <h2>{t('title_01')}</h2>
-            <ExitButton url="/case-study" />
+            <ExitButton url="/" />
           </div>
           </motion.div>
 
@@ -91,7 +91,7 @@ function CaseStudyIndex() {
               1200: {
                 slidesPerView: 4,
                 spaceBetween: 10,
-                width: 1024
+                width: 1200
               }
             }}
             >
@@ -316,9 +316,9 @@ function CaseStudyIndex() {
                 width: 300
               },
               1200: {
-                slidesPerView: 2,
+                slidesPerView: 6,
                 spaceBetween: 10,
-                width: 700
+                width: 1200
               }
             }}
             >
@@ -408,7 +408,7 @@ function CaseStudyIndex() {
               1200: {
                 slidesPerView: 2,
                 spaceBetween: 10,
-                width: 1080
+                width: 1200
               }
             }}
             >

@@ -5,11 +5,11 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import ReactPlayer from "react-player"
 import Head from 'next/head'
 import useTranslation from 'next-translate/useTranslation'
-import Layout from '../../../components/Layout'
-import ExitButton from '../../../components/ExitButton'
-import PaletteList from '../../../components/PaletteList'
-import RelatedCTA from '../../../components/RelatedCTA'
-import styles from '../../../styles/Report.module.css'
+import Container from '../../components/Container'
+import ExitButton from '../../components/ExitButton'
+import PaletteList from '../../components/PaletteList'
+import RelatedCTA from '../../components/RelatedCTA'
+import styles from '../../styles/Report.module.css'
 
 const easing = [.6, -.05, .01, .99];
 
@@ -38,7 +38,7 @@ const stagger = {
 
 function CaseStudyIndex() {
   const { t } = useTranslation('caseStudy')
-  return <Layout>
+  return <Container>
     <Head>
       <title>{t('title_03')} | Julio Montás</title>
       <meta name='twitter:url' content='https://juliomontas.com/case-study/3/' />
@@ -103,7 +103,7 @@ function CaseStudyIndex() {
               width={560}
               height={560}
               quality={50}
-              layout="responsive"
+              Container="responsive"
               loading="eager"
             />
             </div>
@@ -114,7 +114,7 @@ function CaseStudyIndex() {
               width={500}
               height={282}
               quality={50}
-              layout="responsive"
+              Container="responsive"
               loading="eager"
             />
             </div>
@@ -129,7 +129,7 @@ function CaseStudyIndex() {
               width={480}
               height={531}
               quality={50}
-              layout="responsive"
+              Container="responsive"
               loading="eager"
             />
                </div>
@@ -140,7 +140,7 @@ function CaseStudyIndex() {
               width={1442}
               height={802}
               quality={50}
-              layout="responsive"
+              Container="responsive"
               loading="eager"
             />
                </div>
@@ -155,7 +155,7 @@ function CaseStudyIndex() {
               width={400}
               height={700}
               quality={50}
-              layout="responsive"
+              Container="responsive"
               loading="eager"
             />
                </div>
@@ -166,7 +166,7 @@ function CaseStudyIndex() {
               width={450}
               height={533}
               quality={50}
-              layout="responsive"
+              Container="responsive"
               loading="eager"
             />
                </div>
@@ -181,7 +181,7 @@ function CaseStudyIndex() {
               width={400}
               height={728}
               quality={50}
-              layout="responsive"
+              Container="responsive"
               loading="eager"
             />
             </div>
@@ -637,7 +637,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={6353}
                 quality={20}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
                 />
                 <small>Wireframe</small>
@@ -649,7 +649,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={5839}
                 quality={20}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
                 />
                 <small>Mockup</small>
@@ -661,7 +661,7 @@ function CaseStudyIndex() {
                 width={1437}
                 height={834}
                 quality={75}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
                 />
                 <small>The biography section</small>
@@ -671,7 +671,7 @@ function CaseStudyIndex() {
                 width={1437}
                 height={834}
                 quality={75}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
                 />
                 <small>Section <abbr title="Content Management System">CMS</abbr> edit</small>
@@ -683,7 +683,7 @@ function CaseStudyIndex() {
                 width={600}
                 height={338}
                 quality={20}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
                 />
                 <small>The Intergalactic background animation in render using <b>Three.js</b>.</small>
@@ -693,7 +693,7 @@ function CaseStudyIndex() {
                 width={3360}
                 height={1978}
                 quality={20}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
                 />
                 <small>1920x1200</small>
@@ -703,7 +703,7 @@ function CaseStudyIndex() {
                 width={571}
                 height={345}
                 quality={75}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
                 />
                  <small>1280x800</small>
@@ -713,7 +713,7 @@ function CaseStudyIndex() {
                 width={608}
                 height={348}
                 quality={75}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
                 />
                 <small>CMS Edit</small>
@@ -725,7 +725,7 @@ function CaseStudyIndex() {
                 width={748}
                 height={1117}
                 quality={20}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
                 />
                 <small>No Intergalactic background for mobile</small>
@@ -764,7 +764,7 @@ function CaseStudyIndex() {
                 width={1437}
                 height={263}
                 quality={20}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
                 />
                 <small>Shop CTA</small>
@@ -776,7 +776,7 @@ function CaseStudyIndex() {
                 width={1438}
                 height={194}
                 quality={20}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
                 />
                 <small>Newsletter + Social Media</small>
@@ -788,7 +788,7 @@ function CaseStudyIndex() {
                 width={2160}
                 height={2058}
                 quality={20}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
                 />
                 <small><abbr title="Content Management System">CMS</abbr>: Widget Social Media</small>
@@ -827,7 +827,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={4565}
                 quality={20}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
                 />
                 <small>Wireframe</small>
@@ -839,7 +839,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={3228}
                 quality={20}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
                 />
                 <small>Mockup</small>
@@ -851,7 +851,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={2132}
                 quality={20}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
                 />
                 <small>Wireframe</small>
@@ -863,7 +863,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={2272}
                 quality={20}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
                 />
                  <small>Mockup</small>
@@ -875,7 +875,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={793}
                 quality={20}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
                 />
                  <small>Desktop: Screenshot</small>
@@ -914,7 +914,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={1606}
                 quality={20}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
                 />
                 <small>Wireframe</small>
@@ -926,7 +926,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={1771}
                 quality={20}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
                 />
                 <small>Mockup</small>
@@ -938,7 +938,7 @@ function CaseStudyIndex() {
                 width={749}
                 height={1115}
                 quality={75}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
                 />
                 <small>Mobile: Screenshot</small>
@@ -950,7 +950,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={817}
                 quality={75}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
                 />
                 <small>Desktop: Screenshot</small>
@@ -989,7 +989,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={2089}
                 quality={20}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
                 />
                 <small>Wireframe</small>
@@ -1001,7 +1001,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={3223}
                 quality={75}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
                 />
                 <small>Mockup</small>
@@ -1013,7 +1013,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={827}
                 quality={75}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
                 />
                 <small>Desktop: Screenshot</small>
@@ -1025,7 +1025,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={3468}
                 quality={20}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
                 />
                 <small>Wireframe</small>
@@ -1037,7 +1037,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={3401}
                 quality={75}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
                 />
                 <small>Mockup</small>
@@ -1073,7 +1073,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={1368}
                 quality={20}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
                 />
                 <small>Wireframe</small>
@@ -1085,7 +1085,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={1421}
                 quality={20}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
                 />
                 <small>Mockup</small>
@@ -1097,7 +1097,7 @@ function CaseStudyIndex() {
                 width={746}
                 height={1115}
                 quality={20}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
                 />
                 <small>Mobile: Screenshot</small>
@@ -1146,7 +1146,7 @@ function CaseStudyIndex() {
       </div>
       </motion.div>
       </motion.div>
-  </Layout>
+  </Container>
 }
 
 export default CaseStudyIndex

@@ -5,10 +5,10 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import ReactPlayer from "react-player"
 import Head from 'next/head'
 import useTranslation from 'next-translate/useTranslation'
-import Layout from '../../../components/Layout'
-import ExitButton from '../../../components/ExitButton'
-import RelatedCTA from '../../../components/RelatedCTA'
-import styles from '../../../styles/Report.module.css'
+import Container from '../../components/Container'
+import ExitButton from '../../components/ExitButton'
+import RelatedCTA from '../../components/RelatedCTA'
+import styles from '../../styles/Report.module.css'
 
 const easing = [.6, -.05, .01, .99];
 
@@ -37,7 +37,7 @@ const stagger = {
 
 function CaseStudyIndex() {
   const { t } = useTranslation('caseStudy')
-  return <Layout>
+  return <Container>
     <Head>
       <title>Adorama - eCommerce | Julio Montás</title>
       <meta name='twitter:url' content='https://juliomontas.com/case-study/0/' />
@@ -62,7 +62,7 @@ function CaseStudyIndex() {
             <motion.div variants={fadeInUp}>
             <div className={styles.flipSwitch}>
                 <h2>Adorama - eCommerce</h2>
-                <ExitButton url="/case-study" />
+                <ExitButton url="/" />
             </div>
             </motion.div>
 
@@ -81,7 +81,7 @@ function CaseStudyIndex() {
                 width={1917}
                 height={1056}
                 quality={1}
-                layout="responsive"
+                Container="responsive"
                 loading="lazy"
               />
             </div>
@@ -109,7 +109,7 @@ function CaseStudyIndex() {
                  width={320}
                  height={3003}
                  quality={100}
-                 layout="responsive"
+                 Container="responsive"
                  loading="lazy"
                 />
               </section>
@@ -120,7 +120,7 @@ function CaseStudyIndex() {
                   width={1870}
                   height={3871}
                   quality={100}
-                  layout="responsive"
+                  Container="responsive"
                   loading="lazy"
                  />
               </section>
@@ -152,7 +152,7 @@ function CaseStudyIndex() {
                   width={1600}
                   height={1360}
                   quality={100}
-                  layout="responsive"
+                  Container="responsive"
                   loading="lazy"
                  />
             </div>
@@ -198,7 +198,7 @@ function CaseStudyIndex() {
       </div>
       </motion.div>
       </motion.div>
-  </Layout>
+  </Container>
 }
 
 export default CaseStudyIndex

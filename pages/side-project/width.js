@@ -4,10 +4,10 @@ import { motion } from "framer-motion"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Head from 'next/head'
 import useTranslation from 'next-translate/useTranslation'
-import Layout from '../../../components/Layout'
-import ExitButton from '../../../components/ExitButton'
-import RelatedCTA from '../../../components/RelatedCTA'
-import styles from '../../../styles/Report.module.css'
+import Container from '../../components/Container'
+import ExitButton from '../../components/ExitButton'
+import RelatedCTA from '../../components/RelatedCTA'
+import styles from '../../styles/Report.module.css'
 
 const easing = [.6, -.05, .01, .99];
 
@@ -36,7 +36,7 @@ const stagger = {
 
 function ProjectIndex() {
   const { t } = useTranslation('sideProject')
-  return <Layout>
+  return <Container>
   <Head>
     <title>Side Project | {t('title_03')} | Julio Montás</title>
     <meta name='twitter:url' content='https://juliomontas.com/side-project/width/' />
@@ -64,7 +64,7 @@ function ProjectIndex() {
                         <h2>{t('title_03')}</h2>
                         <p>{t('content_03')}</p>
                     </div>
-                    <ExitButton url="/side-project" />
+                    <ExitButton url="/" />
                 </div>
                 </motion.div>
 
@@ -84,7 +84,7 @@ function ProjectIndex() {
                     width={1280}
                     height={735}
                     quality={70}
-                    layout="responsive"
+                    Container="responsive"
                     loading="eager"
                   />
                 </div>
@@ -117,7 +117,7 @@ function ProjectIndex() {
                         width={1280}
                         height={800}
                         quality={20}
-                        layout="responsive"
+                        Container="responsive"
                         loading="lazy"
                         />
                         <p className={styles.textUnderImg}>{t('uiDesignContent_03b')}</p>
@@ -129,7 +129,7 @@ function ProjectIndex() {
                         width={1280}
                         height={800}
                         quality={20}
-                        layout="responsive"
+                        Container="responsive"
                         loading="lazy"
                         />
                         <p className={styles.textUnderImg}>{t('uiDesignContent_03c')}</p>
@@ -141,7 +141,7 @@ function ProjectIndex() {
                         width={1280}
                         height={800}
                         quality={20}
-                        layout="responsive"
+                        Container="responsive"
                         loading="lazy"
                         />
                         <p className={styles.textUnderImg}>{t('uiDesignContent_03d')}</p>
@@ -153,7 +153,7 @@ function ProjectIndex() {
                         width={1280}
                         height={800}
                         quality={20}
-                        layout="responsive"
+                        Container="responsive"
                         loading="lazy"
                         />
                         <p className={styles.textUnderImg}>{t('uiDesignContent_03e')}</p>
@@ -171,7 +171,7 @@ function ProjectIndex() {
                     width={1080}
                     height={629}
                     quality={70}
-                    layout="responsive"
+                    Container="responsive"
                     loading="lazy"
                     />
                     <p className={styles.textUnderImg}>{t('uiDesignContent_03f')}</p>
@@ -219,7 +219,7 @@ function ProjectIndex() {
   </div>
   </motion.div>
   </motion.div>
-  </Layout>
+  </Container>
 }
 
 export default ProjectIndex

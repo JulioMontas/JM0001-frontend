@@ -250,6 +250,9 @@
     .mainIndex h2{
       width: 84%;
     }
+    .mainIndex{
+      background: none;
+    }
     .main a{
       opacity: 0.6;
       filter: none;

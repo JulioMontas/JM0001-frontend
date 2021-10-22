@@ -1,54 +1,53 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import { motion, useTransform } from "framer-motion"
-import { Swiper, SwiperSlide } from 'swiper/react'
-import Head from 'next/head'
-import Layout from '../components/Layout'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Homepage.module.css'
 import useTranslation from 'next-translate/useTranslation'
+import NavBar from '../components/NavBar'
+import HeroSection from '../components/HeroSection'
+import ThirdCol from '../components/ThirdCol'
+import CaseStudiesWrap from '../components/CaseStudiesWrap'
+import SideProjectWrap from '../components/SideProjectWrap'
+import TechStack from '../components/TechStack'
+import Container from '../components/Container'
 
-export default function SideProject({ data }) {
-  const { t } = useTranslation('home')
-  const title = t('title')
-  const description = t('descriptionA')
+export default function Homepage() {
   return (
-    <Layout>
-    <Head>
-      <title>Julio Montás - {title}</title>
-      <meta name='twitter:url' content='https://juliomontas.com/' />
-      <meta property='og:url' content='https://juliomontas.com/' />
-      <meta property='og:image' content='https://juliomontas.com/me.png' />
-      <meta name='twitter:image' content='https://juliomontas.com/me.png' />
-      <meta property='og:title' content='Julio Montás - UI Developer • Interaction Designer' />
-      <meta name='twitter:title' content='Julio Montás - UI Developer • Interaction Designer' />
-      <meta name="description" content="Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC." key="description"/>
-      <meta property='og:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
-      <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
-      <link rel="canonical" href="https://juliomontas.com/" />
-      <link rel="alternate" href="https://juliomontas.com/" hreflang="en-us" />
-      <link rel="alternate" href="https://juliomontas.com/es-us/" hreflang="es-us" />
-    </Head>
-    <div className={styles.container}>
-    <motion.div
-    initial={{ x: 300, opacity: 0 }}
-    animate={{ x: 0, opacity: 1 }}
-    exit={{ x: -300, opacity: 0 }}>
-    <div className={styles.main}>
-    <section>
-      <Image
-        src="/me.png"
-        alt="self portrait of me wearing sunglasses indoors"
-        width={200}
-        height={200}
-      />
-      <h2>{title}</h2>
-    </section>
-    <section>
-      <p>{description}</p>
-    </section>
-    </div>
-    </motion.div>
-    </div>
-    </Layout>
+    <>
+      <div className={styles.main}>
+      <Container>
+        <HeroSection
+          title="Product Designer"
+          description="Building a website or app for your idea? Let's build it together. Creative solutions for every stage of your company's growth - strategy, design, development and management. Based in NYC."
+        />
+        <ThirdCol
+          title="Sculpting Your Vision"
+          firstListTitle="Product Designer Ability"
+          firstList="to reach your target audience with all-encompassing and human-centered UI design, user experience, and customer-focused UX design research."
+          secondListTitle="E-commerce Best Practices To Scale"
+          secondList="for multiple solution experience of your online business"
+          lastListTitle="Design To Prototype for validating"
+          lastList="product ideas and potential solutions with little investment of time and money in UX services"
+          firstSVG="svg/ux-researcher.svg"
+          secondSVG="svg/designer-task.svg"
+        />
+        <CaseStudiesWrap
+          title="Case Studies"
+        />
+        <TechStack />
+        <ThirdCol
+          title="From Visual To Develoment"
+          firstListTitle="Expert at Developing Responsive Websites,"
+          firstList="with CSS alongside JavaScript and HTML. Consistent colors, fonts, and design to match the organization's branding guidelines."
+          secondListTitle="Design To Code."
+          secondList="Convert PSD, PDF, Adobe or Sketch files into working compile pixel-perfect website or app."
+          lastListTitle="Professional eCommerce and CMS Development"
+          lastList="services for popular CMS platforms such as WordPress, Shopify, and Gatsby."
+          firstSVG="svg/development-researcher.svg"
+          secondSVG="svg/developer-chat.svg"
+        />
+        <SideProjectWrap
+          title="Side Projects"
+        />
+      </Container>
+      </div>
+    </>
   );
 }

@@ -4,10 +4,10 @@ import { motion } from "framer-motion"
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
 import useTranslation from 'next-translate/useTranslation'
-import Layout from '../../../components/Layout'
-import ExitButton from '../../../components/ExitButton'
-import RelatedCTA from '../../../components/RelatedCTA'
-import styles from '../../../styles/Report.module.css'
+import Container from '../../components/Container'
+import ExitButton from '../../components/ExitButton'
+import RelatedCTA from '../../components/RelatedCTA'
+import styles from '../../styles/Report.module.css'
 
 const easing = [.6, -.05, .01, .99];
 
@@ -36,7 +36,7 @@ const stagger = {
 
 function ProjectIndex() {
   const { t } = useTranslation('sideProject')
-  return <Layout>
+  return <Container>
   <Head>
     <title>Side Project | {t('title_01')} | Julio Montás</title>
     <meta name='twitter:url' content='https://juliomontas.com/side-project/hellocode/' />
@@ -64,7 +64,7 @@ function ProjectIndex() {
                         <h2>{t('title_01')}</h2>
                         <p>{t('content_01')}</p>
                     </div>
-                    <ExitButton url="/side-project" />
+                    <ExitButton url="/" />
                 </div>
                 </motion.div>
 
@@ -84,7 +84,7 @@ function ProjectIndex() {
                     width={1421}
                     height={1897}
                     quality={75}
-                    layout="responsive"
+                    Container="responsive"
                     loading="eager"
                     />
                 </div>
@@ -117,7 +117,7 @@ function ProjectIndex() {
                         width={940}
                         height={718}
                         quality={20}
-                        layout="responsive"
+                        Container="responsive"
                         loading="lazy"
                         />
                         <p className={styles.textUnderImg}>{t('uiDesignContent_01b')}</p>
@@ -129,7 +129,7 @@ function ProjectIndex() {
                         width={1422}
                         height={768}
                         quality={50}
-                        layout="responsive"
+                        Container="responsive"
                         loading="lazy"
                         />
                         <p className={styles.textUnderImg}>{t('uiDesignContent_01c')}</p>
@@ -186,7 +186,7 @@ function ProjectIndex() {
   </div>
   </motion.div>
   </motion.div>
-  </Layout>
+  </Container>
 }
 
 export async function getServerSideProps(context) {

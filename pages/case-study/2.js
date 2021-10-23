@@ -857,7 +857,7 @@ function CaseStudyIndex() {
               1200: {
                 slidesPerView: 1,
                 spaceBetween: 10,
-                width: 800
+                width: 1000
               }
             }}
             >
@@ -887,18 +887,6 @@ function CaseStudyIndex() {
               </SwiperSlide>
               <SwiperSlide>
                 <Image
-                src="/img/ecommerce/mockup_LandingPage_B01.jpg"
-                alt="Mockup Landing Page B1"
-                width={1440}
-                height={4078}
-                quality={50}
-                Container="responsive"
-                loading="lazy"
-                />
-                <small>Version B01</small>
-              </SwiperSlide>
-              <SwiperSlide>
-                <Image
                 src="/img/ecommerce/mockup_LandingPage_H02.jpg"
                 alt="Mockup Landing Page H2"
                 width={1440}
@@ -908,18 +896,6 @@ function CaseStudyIndex() {
                 loading="lazy"
                 />
                 <small>Version H02</small>
-              </SwiperSlide>
-              <SwiperSlide>
-                <Image
-                src="/img/ecommerce/mockup_LandingPage_C01.jpg"
-                alt="Mockup Landing Page C1"
-                width={1440}
-                height={5401}
-                quality={50}
-                Container="responsive"
-                loading="lazy"
-                />
-                <small>Version C01</small>
               </SwiperSlide>
             </Swiper>
           </div>
@@ -951,17 +927,17 @@ function CaseStudyIndex() {
               }
             }}
             >
-              <SwiperSlide>
+            <SwiperSlide>
               <Image
-              src="/img/ecommerce/mockupFragrance_A01.jpg"
-              alt="Home Fragrance mockup"
+              src="/img/ecommerce/MockupFragranceFinder_A03.jpg"
+              alt="Mockup Fragrance Finder A3"
               width={1440}
-              height={2147}
+              height={5000}
               quality={50}
               Container="responsive"
               loading="lazy"
               />
-              <small>Mockup A01: Home Fragrance</small>
+              <small>Mockup A03: Fragrance Finder final design</small>
             </SwiperSlide>
             <SwiperSlide>
               <Image
@@ -975,41 +951,20 @@ function CaseStudyIndex() {
               />
               <small>Wireframe A01: Fragrance Finder</small>
             </SwiperSlide>
+
             <SwiperSlide>
               <Image
-              src="/img/ecommerce/MockupFragranceFinder_A02.jpg"
-              alt="Mockup Fragrance Finder A2"
+              src="/img/ecommerce/mockupFragrance_A01.jpg"
+              alt="Home Fragrance mockup"
               width={1440}
-              height={2743}
+              height={2147}
               quality={50}
               Container="responsive"
               loading="lazy"
               />
-              <small>Mockup A02: Fragrance Finder</small>
-              <Image
-              src="/img/ecommerce/fragranceFinder_video.jpg"
-              alt="Mockup Fragrance Finder Video popup"
-              width={1440}
-              height={823}
-              quality={50}
-              Container="responsive"
-              loading="lazy"
-              />
-              <small>Fragrance Finder: Video Influencer popout</small>
+              <small>Mockup A01: Home Fragrance</small>
             </SwiperSlide>
-            <SwiperSlide>
-              <Image
-              src="/img/ecommerce/MockupFragranceFinder_A03.jpg"
-              alt="Mockup Fragrance Finder A3"
-              width={1440}
-              height={5000}
-              quality={50}
-              Container="responsive"
-              loading="lazy"
-              />
-              <small>Mockup A03: Fragrance Finder final design</small>
-            </SwiperSlide>
-            </Swiper>
+          </Swiper>
           </div>
           </motion.div>
 

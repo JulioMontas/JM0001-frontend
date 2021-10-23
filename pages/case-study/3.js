@@ -626,7 +626,7 @@ function CaseStudyIndex() {
                 width: 300
               },
               1200: {
-                slidesPerView: 2,
+                slidesPerView: 1,
                 spaceBetween: 10,
                 width: 1000
               }
@@ -655,82 +655,6 @@ function CaseStudyIndex() {
                 loading="lazy"
                 />
                 <small>Mockup</small>
-              </SwiperSlide>
-              <SwiperSlide>
-                <Image
-                src="/img/cms/SectionBiography.jpg"
-                alt="Biography Wireframe"
-                width={1437}
-                height={834}
-                quality={75}
-                Container="responsive"
-                loading="lazy"
-                />
-                <small>The biography section</small>
-                <Image
-                src="/img/cms/SectionBiography_CMS.jpg"
-                alt="Biography Wireframe"
-                width={1437}
-                height={834}
-                quality={75}
-                Container="responsive"
-                loading="lazy"
-                />
-                <small>Section <abbr title="Content Management System">CMS</abbr> edit</small>
-              </SwiperSlide>
-              <SwiperSlide>
-              <Image
-                src="/img/cms/musicCMS_BG.gif"
-                alt="Picture of the author"
-                width={600}
-                height={338}
-                quality={20}
-                Container="responsive"
-                loading="lazy"
-                />
-                <small>The Intergalactic background animation in render using <b>Three.js</b>.</small>
-                <Image
-                src="/img/cms/musicCMS_IntroSection_DesktopLarge.jpg"
-                alt="Picture of the author"
-                width={3360}
-                height={1978}
-                quality={20}
-                Container="responsive"
-                loading="lazy"
-                />
-                <small>1920x1200</small>
-                <Image
-                src="/img/cms/musicCMS_IntroSection_Table.jpg"
-                alt="Picture of the author"
-                width={571}
-                height={345}
-                quality={75}
-                Container="responsive"
-                loading="lazy"
-                />
-                 <small>1280x800</small>
-                 <Image
-                src="/img/cms/musicCMS_wordpressLandingPage.jpg"
-                alt="Picture of the author"
-                width={608}
-                height={348}
-                quality={75}
-                Container="responsive"
-                loading="lazy"
-                />
-                <small>CMS Edit</small>
-              </SwiperSlide>
-              <SwiperSlide>
-                <Image
-                src="/img/cms/musicCMS_IntroSection_Mobile.jpg"
-                alt="Picture of the author"
-                width={748}
-                height={1117}
-                quality={20}
-                Container="responsive"
-                loading="lazy"
-                />
-                <small>No Intergalactic background for mobile</small>
               </SwiperSlide>
             </Swiper>
           </div>
@@ -804,24 +728,12 @@ function CaseStudyIndex() {
                 width: 300
               },
               1200: {
-                slidesPerView: 2,
+                slidesPerView: 1,
                 spaceBetween: 10,
                 width: 1000
               }
             }}
             >
-              <SwiperSlide>
-                <Image
-                src="/img/cms/musicCMS_Wireframe_Biography_01A.png"
-                alt="Biography Wireframe"
-                width={1440}
-                height={4565}
-                quality={20}
-                Container="responsive"
-                loading="lazy"
-                />
-                <small>Wireframe</small>
-              </SwiperSlide>
               <SwiperSlide>
                 <Image
                 src="/img/cms/musicCMS_Mockup_Biography.jpg"
@@ -879,7 +791,7 @@ function CaseStudyIndex() {
                 width: 300
               },
               1200: {
-                slidesPerView: 2,
+                slidesPerView: 1,
                 spaceBetween: 10,
                 width: 1000
               }
@@ -942,7 +854,7 @@ function CaseStudyIndex() {
                 width: 300
               },
               1200: {
-                slidesPerView: 2,
+                slidesPerView: 1,
                 spaceBetween: 10,
                 width: 1000
               }
@@ -962,18 +874,6 @@ function CaseStudyIndex() {
               </SwiperSlide>
               <SwiperSlide>
                 <Image
-                src="/img/cms/musicCMS_Mockup_Blog.jpg"
-                alt="Mockup"
-                width={1440}
-                height={3223}
-                quality={75}
-                Container="responsive"
-                loading="lazy"
-                />
-                <small>Mockup</small>
-              </SwiperSlide>
-              <SwiperSlide>
-                <Image
                 src="/img/cms/sectionBlogArticle_update.jpg"
                 alt="Picture of the author"
                 width={1440}
@@ -984,30 +884,7 @@ function CaseStudyIndex() {
                 />
                 <small>Desktop: Screenshot</small>
               </SwiperSlide>
-              <SwiperSlide>
-                <Image
-                src="/img/cms/musicCMS_Wireframe_BlogArticle_01A.png"
-                alt="Blog Article"
-                width={1440}
-                height={3468}
-                quality={20}
-                Container="responsive"
-                loading="lazy"
-                />
-                <small>Wireframe</small>
-              </SwiperSlide>
-              <SwiperSlide>
-                <Image
-                src="/img/cms/musicCMS_Mockup_BlogArtical.jpg"
-                alt="Mockup"
-                width={1440}
-                height={3401}
-                quality={75}
-                Container="responsive"
-                loading="lazy"
-                />
-                <small>Mockup</small>
-              </SwiperSlide>
+
             </Swiper>
           </div>
           </motion.div>
@@ -1028,22 +905,10 @@ function CaseStudyIndex() {
               1200: {
                 slidesPerView: 1,
                 spaceBetween: 10,
-                width: 1000
+                width: 1200
               }
             }}
             >
-              <SwiperSlide>
-                <Image
-                src="/img/cms/musicCMS_Wireframe_Contact_01A.png"
-                alt="Contact"
-                width={1440}
-                height={1368}
-                quality={20}
-                Container="responsive"
-                loading="lazy"
-                />
-                <small>Wireframe</small>
-              </SwiperSlide>
               <SwiperSlide>
                 <Image
                 src="/img/cms/musicCMS_Mockup_Contact.jpg"

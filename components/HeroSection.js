@@ -28,6 +28,13 @@ const stagger = {
   }
 };
 
+const svg = {
+  github:"svg/icon/s-github.svg",
+  dribbble:"svg/icon/s-dribbble.svg",
+  instagram:"svg/icon/s-instagram.svg",
+  residentAdvisor:"svg/icon/s-residentadvisor.svg",
+}
+
 const HeroSection = (props) => {
   return(
     <motion.div exit={{ opacity: 0 }} initial='initial' animate='animate'>
@@ -52,6 +59,32 @@ const HeroSection = (props) => {
           <p className={styles.description}>
             {props.description}
           </p>
+          <ul className={styles.socialLinks}>
+            <li>
+              <a href="https://github.com/JulioMontas" target="_blank">
+                <img
+                  src={svg.github}
+                  alt="Github logo"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://dribbble.com/juliomontas" target="_blank">
+                <img
+                  src={svg.dribbble}
+                  alt="dribbble logo"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://ra.co/dj/montas" target="_blank">
+                <img
+                  src={svg.residentAdvisor}
+                  alt="Github logo"
+                />
+              </a>
+            </li>
+          </ul>
         </section>
         </motion.div>
 

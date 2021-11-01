@@ -26,13 +26,13 @@
     text-align: center;
     font-style: italic;
     letter-spacing: 1px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 .description{
   line-height: 26px;
   letter-spacing: 0.15em;
 }
-.main img {
+.uno img {
     border-radius: 70% 30% 30% 70% / 60% 40% 20% 40%;
     transition: all 1s ease;
     animation: movingBlob 25s ease-in-out alternate infinite;
@@ -46,7 +46,23 @@
     75%{border-radius: 70% 30% 30% 70% / 60% 40% 20% 40%}
     100%{border-radius: 18% 82% 37% 70% / 44% 40% 54% 40%}
 }
-
+.socialLinks{
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+.socialLinks li{
+  opacity: 0.8;
+  margin-right: 20px;
+  transform: scale(1.1);
+  transition: all 1s ease;
+}
+.socialLinks li:last-child{
+  margin-right:0;
+}
+.socialLinks li:hover{
+  opacity: 1;
+}
 /* Mobile 320px  */
 @media screen and (min-width: 30em) {}
 
@@ -62,7 +78,7 @@
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 2fr;
-      grid-template-rows: auto;
+    grid-template-rows: auto;
     column-gap: 1em;
     grid-template-areas:
         "uno dos";
@@ -71,6 +87,9 @@
     line-height: 30px;
     text-align: left;
     font-size: 1.1em;
+  }
+  .socialLinks{
+    justify-content: left;
   }
 }
 

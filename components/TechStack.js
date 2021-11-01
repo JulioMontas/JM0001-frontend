@@ -54,6 +54,7 @@ const svg = {
   sketch:"svg/icon/sketch.svg",
   pwa:"svg/icon/Progressive_Web_Apps_Logo.svg",
   mongodb:"svg/icon/mongodb.svg",
+  raspberryPi:"svg/icon/raspberry_pi_logo.svg",
 }
 
 const TechStack = (props) => {
@@ -312,6 +313,20 @@ const TechStack = (props) => {
           </div>
           <p className={styles.text}>
             PWA
+          </p>
+        </div>
+      </motion.div>
+
+      <motion.div variants={fadeInUp} className="card">
+        <div className={styles.icon}>
+          <div className={styles.svg}>
+          <img
+            src={svg.raspberryPi}
+            alt="Raspberry Pi logo"
+          />
+          </div>
+          <p className={styles.text}>
+            Raspberry Pi
           </p>
         </div>
       </motion.div>

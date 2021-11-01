@@ -31,7 +31,7 @@ const stagger = {
 };
 
 const data = {
-  title_01: "HelloCo.de - The Home For Programming Languages",
+  title_01: "HelloCo.de",
   content_01: "Collective Memory, Education",
   title_02: "Surveillance Culture",
   content_02: "Misinformation, Data Collection",

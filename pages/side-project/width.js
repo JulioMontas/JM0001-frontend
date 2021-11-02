@@ -84,7 +84,7 @@ function ProjectIndex() {
                     width={1280}
                     height={735}
                     quality={70}
-                    Container="responsive"
+                    layout="responsive"
                     loading="eager"
                   />
                 </div>
@@ -117,7 +117,7 @@ function ProjectIndex() {
                         width={1280}
                         height={800}
                         quality={20}
-                        Container="responsive"
+                        layout="responsive"
                         loading="lazy"
                         />
                         <p className={styles.textUnderImg}>{t('uiDesignContent_03b')}</p>
@@ -129,7 +129,7 @@ function ProjectIndex() {
                         width={1280}
                         height={800}
                         quality={20}
-                        Container="responsive"
+                        layout="responsive"
                         loading="lazy"
                         />
                         <p className={styles.textUnderImg}>{t('uiDesignContent_03c')}</p>
@@ -141,7 +141,7 @@ function ProjectIndex() {
                         width={1280}
                         height={800}
                         quality={20}
-                        Container="responsive"
+                        layout="responsive"
                         loading="lazy"
                         />
                         <p className={styles.textUnderImg}>{t('uiDesignContent_03d')}</p>
@@ -153,7 +153,7 @@ function ProjectIndex() {
                         width={1280}
                         height={800}
                         quality={20}
-                        Container="responsive"
+                        layout="responsive"
                         loading="lazy"
                         />
                         <p className={styles.textUnderImg}>{t('uiDesignContent_03e')}</p>
@@ -171,7 +171,7 @@ function ProjectIndex() {
                     width={1080}
                     height={629}
                     quality={70}
-                    Container="responsive"
+                    layout="responsive"
                     loading="lazy"
                     />
                     <p className={styles.textUnderImg}>{t('uiDesignContent_03f')}</p>

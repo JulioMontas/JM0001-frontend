@@ -103,7 +103,7 @@ function CaseStudyIndex() {
               width={885}
               height={498}
               quality={50}
-              Container="responsive"
+              layout="responsive"
               loading="eager"
             />
                </div>
@@ -114,7 +114,7 @@ function CaseStudyIndex() {
               width={794}
               height={794}
               quality={50}
-              Container="responsive"
+              layout="responsive"
               loading="eager"
             />
                </div>
@@ -129,7 +129,7 @@ function CaseStudyIndex() {
               width={601}
               height={800}
               quality={50}
-              Container="responsive"
+              layout="responsive"
               loading="eager"
             />
             </div>
@@ -140,7 +140,7 @@ function CaseStudyIndex() {
               width={300}
               height={250}
               quality={50}
-              Container="responsive"
+              layout="responsive"
               loading="eager"
             />
             </div>
@@ -155,7 +155,7 @@ function CaseStudyIndex() {
               width={600}
               height={955}
               quality={50}
-              Container="responsive"
+              layout="responsive"
               loading="eager"
             />
                </div>
@@ -166,7 +166,7 @@ function CaseStudyIndex() {
               width={225}
               height={225}
               quality={50}
-              Container="responsive"
+              layout="responsive"
               loading="eager"
             />
                </div>
@@ -181,7 +181,7 @@ function CaseStudyIndex() {
               width={462}
               height={624}
               quality={50}
-              Container="responsive"
+              layout="responsive"
               loading="eager"
             />
             </div>
@@ -868,7 +868,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={3741}
                 quality={50}
-                Container="responsive"
+                layout="responsive"
                 loading="lazy"
                 />
                 <small>Version H01: Final design</small>
@@ -880,7 +880,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={3890}
                 quality={50}
-                Container="responsive"
+                layout="responsive"
                 loading="lazy"
                 />
                 <small>Version A02</small>
@@ -892,7 +892,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={3014}
                 quality={50}
-                Container="responsive"
+                layout="responsive"
                 loading="lazy"
                 />
                 <small>Version H02</small>
@@ -934,7 +934,7 @@ function CaseStudyIndex() {
               width={1440}
               height={5000}
               quality={50}
-              Container="responsive"
+              layout="responsive"
               loading="lazy"
               />
               <small>Mockup A03: Fragrance Finder final design</small>
@@ -946,7 +946,7 @@ function CaseStudyIndex() {
               width={1440}
               height={2743}
               quality={50}
-              Container="responsive"
+              layout="responsive"
               loading="lazy"
               />
               <small>Wireframe A01: Fragrance Finder</small>
@@ -959,7 +959,7 @@ function CaseStudyIndex() {
               width={1440}
               height={2147}
               quality={50}
-              Container="responsive"
+              layout="responsive"
               loading="lazy"
               />
               <small>Mockup A01: Home Fragrance</small>
@@ -998,7 +998,7 @@ function CaseStudyIndex() {
               width={1440}
               height={1857}
               quality={50}
-              Container="responsive"
+              layout="responsive"
               loading="lazy"
               />
               <small>Default look</small>
@@ -1010,7 +1010,7 @@ function CaseStudyIndex() {
               width={1440}
               height={2131}
               quality={50}
-              Container="responsive"
+              layout="responsive"
               loading="lazy"
               />
               <small>Review form</small>
@@ -1022,7 +1022,7 @@ function CaseStudyIndex() {
               width={1440}
               height={2157}
               quality={50}
-              Container="responsive"
+              layout="responsive"
               loading="lazy"
               />
               <small>Multiple review</small>
@@ -1064,7 +1064,7 @@ function CaseStudyIndex() {
               width={3000}
               height={1975}
               quality={50}
-              Container="responsive"
+              layout="responsive"
               loading="lazy"
               />
               <small>Contact: Empty or Fill form</small>
@@ -1076,7 +1076,7 @@ function CaseStudyIndex() {
               width={1440}
               height={1610}
               quality={50}
-              Container="responsive"
+              layout="responsive"
               loading="lazy"
               />
               <small>Mockup: Press A02</small>

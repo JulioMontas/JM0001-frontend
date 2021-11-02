@@ -81,7 +81,7 @@ function CaseStudyIndex() {
                 width={1917}
                 height={1056}
                 quality={25}
-                container="responsive"
+                layout="responsive"
                 loading="lazy"
               />
             </div>
@@ -109,7 +109,7 @@ function CaseStudyIndex() {
                  width={320}
                  height={3003}
                  quality={80}
-                 container="responsive"
+                 layout="responsive"
                  loading="lazy"
                 />
               </section>
@@ -120,7 +120,7 @@ function CaseStudyIndex() {
                   width={1870}
                   height={3871}
                   quality={80}
-                  container="responsive"
+                  layout="responsive"
                   loading="lazy"
                  />
               </section>
@@ -152,7 +152,7 @@ function CaseStudyIndex() {
                   width={1600}
                   height={1360}
                   quality={100}
-                  Container="responsive"
+                  layout="responsive"
                   loading="lazy"
                  />
             </div>

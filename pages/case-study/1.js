@@ -104,7 +104,7 @@ function CaseStudyIndex() {
               width={399}
               height={202}
               quality={50}
-              Container="responsive"
+              layout="responsive"
               loading="eager"
             />
                </div>
@@ -115,7 +115,7 @@ function CaseStudyIndex() {
               width={598}
               height={522}
               quality={50}
-              Container="responsive"
+              layout="responsive"
               loading="eager"
             />
                </div>
@@ -130,7 +130,7 @@ function CaseStudyIndex() {
               width={496}
               height={826}
               quality={50}
-              Container="responsive"
+              layout="responsive"
               loading="eager"
             />
             </div>
@@ -145,7 +145,7 @@ function CaseStudyIndex() {
               width={250}
               height={500}
               quality={10}
-              Container="responsive"
+              layout="responsive"
               loading="eager"
             />
                </div>
@@ -156,7 +156,7 @@ function CaseStudyIndex() {
               width={225}
               height={225}
               quality={20}
-              Container="responsive"
+              layout="responsive"
               loading="eager"
             />
                </div>
@@ -171,7 +171,7 @@ function CaseStudyIndex() {
               width={300}
               height={250}
               quality={20}
-              Container="responsive"
+              layout="responsive"
               loading="eager"
             />
             </div>
@@ -182,7 +182,7 @@ function CaseStudyIndex() {
               width={599}
               height={596}
               quality={20}
-              Container="responsive"
+              layout="responsive"
               loading="eager"
             />
             </div>
@@ -209,7 +209,7 @@ function CaseStudyIndex() {
               width={1080}
               height={722}
               quality={75}
-              Container="responsive"
+              layout="responsive"
               loading="lazy"
             />
             </SwiperSlide>
@@ -247,7 +247,7 @@ function CaseStudyIndex() {
               width={500}
               height={649}
               quality={20}
-              Container="responsive"
+              layout="responsive"
               loading="lazy"
             />
             </SwiperSlide>
@@ -258,7 +258,7 @@ function CaseStudyIndex() {
               width={500}
               height={649}
               quality={20}
-              Container="responsive"
+              layout="responsive"
               loading="lazy"
             />
             </SwiperSlide>
@@ -329,7 +329,7 @@ function CaseStudyIndex() {
                 width={770}
                 height={800}
                 quality={20}
-                Container="responsive"
+                layout="responsive"
                 loading="lazy"
                 />
           </SwiperSlide>
@@ -340,7 +340,7 @@ function CaseStudyIndex() {
                 width={770}
                 height={800}
                 quality={20}
-                Container="responsive"
+                layout="responsive"
                 loading="lazy"
                 />
           </SwiperSlide>
@@ -351,7 +351,7 @@ function CaseStudyIndex() {
                 width={770}
                 height={800}
                 quality={20}
-                Container="responsive"
+                layout="responsive"
                 loading="lazy"
                 />
           </SwiperSlide>
@@ -362,7 +362,7 @@ function CaseStudyIndex() {
                 width={770}
                 height={800}
                 quality={20}
-                Container="responsive"
+                layout="responsive"
                 loading="lazy"
                 />
           </SwiperSlide>
@@ -373,7 +373,7 @@ function CaseStudyIndex() {
                 width={770}
                 height={800}
                 quality={20}
-                Container="responsive"
+                layout="responsive"
                 loading="lazy"
                 />
           </SwiperSlide>
@@ -384,7 +384,7 @@ function CaseStudyIndex() {
                 width={770}
                 height={800}
                 quality={20}
-                Container="responsive"
+                layout="responsive"
                 loading="lazy"
                 />
           </SwiperSlide>
@@ -419,7 +419,7 @@ function CaseStudyIndex() {
               width={580}
               height={580}
               quality={20}
-              Container="responsive"
+              layout="responsive"
               loading="lazy"
             />
             </SwiperSlide>
@@ -442,7 +442,7 @@ function CaseStudyIndex() {
               width={770}
               height={800}
               quality={40}
-              Container="responsive"
+              layout="responsive"
               loading="lazy"
             />
           </div>

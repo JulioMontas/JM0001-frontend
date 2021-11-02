@@ -102,7 +102,7 @@ function ProjectIndex() {
                   width={1080}
                   height={629}
                   quality={20}
-                  Container="responsive"
+                  layout="responsive"
                   loading="eager"
                   />
               </SwiperSlide>
@@ -113,7 +113,7 @@ function ProjectIndex() {
                   width={1080}
                   height={629}
                   quality={30}
-                  Container="responsive"
+                  layout="responsive"
                   loading="eager"
                   />
               </SwiperSlide>
@@ -124,7 +124,7 @@ function ProjectIndex() {
                   width={1080}
                   height={629}
                   quality={50}
-                  Container="responsive"
+                  layout="responsive"
                   loading="lazy"
                   />
               </SwiperSlide>
@@ -135,7 +135,7 @@ function ProjectIndex() {
                   width={1080}
                   height={629}
                   quality={50}
-                  Container="responsive"
+                  layout="responsive"
                   loading="lazy"
                   />
               </SwiperSlide>
@@ -298,7 +298,7 @@ function ProjectIndex() {
                   width={1080}
                   height={629}
                   quality={20}
-                  Container="responsive"
+                  layout="responsive"
                   loading="lazy"
                   />
               </SwiperSlide>
@@ -309,7 +309,7 @@ function ProjectIndex() {
                   width={1080}
                   height={629}
                   quality={20}
-                  Container="responsive"
+                  layout="responsive"
                   loading="lazy"
                   />
               </SwiperSlide>

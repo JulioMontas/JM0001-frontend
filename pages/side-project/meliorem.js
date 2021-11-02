@@ -84,7 +84,7 @@ function ProjectIndex() {
             width={1440}
             height={1267}
             quality={50}
-            Container="responsive"
+            layout="responsive"
             loading="eager"
             />
             <p className={styles.textUnderImg}>{t('uiDesignContent_04a')}</p>
@@ -112,7 +112,7 @@ function ProjectIndex() {
                 width={1080}
                 height={1080}
                 quality={20}
-                Container="responsive"
+                layout="responsive"
                 loading="lazy"
                 />
                 <p className={styles.textUnderImg}>{t('uiDesignContent_04b')}</p>

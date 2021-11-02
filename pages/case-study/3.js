@@ -103,7 +103,7 @@ function CaseStudyIndex() {
               width={560}
               height={560}
               quality={50}
-              Container="responsive"
+              layout="responsive"
               loading="eager"
             />
             </div>
@@ -114,7 +114,7 @@ function CaseStudyIndex() {
               width={500}
               height={282}
               quality={50}
-              Container="responsive"
+              layout="responsive"
               loading="eager"
             />
             </div>
@@ -129,7 +129,7 @@ function CaseStudyIndex() {
               width={480}
               height={531}
               quality={50}
-              Container="responsive"
+              layout="responsive"
               loading="eager"
             />
                </div>
@@ -140,7 +140,7 @@ function CaseStudyIndex() {
               width={1442}
               height={802}
               quality={50}
-              Container="responsive"
+              layout="responsive"
               loading="eager"
             />
                </div>
@@ -155,7 +155,7 @@ function CaseStudyIndex() {
               width={400}
               height={700}
               quality={50}
-              Container="responsive"
+              layout="responsive"
               loading="eager"
             />
                </div>
@@ -166,7 +166,7 @@ function CaseStudyIndex() {
               width={450}
               height={533}
               quality={50}
-              Container="responsive"
+              layout="responsive"
               loading="eager"
             />
                </div>
@@ -181,7 +181,7 @@ function CaseStudyIndex() {
               width={400}
               height={728}
               quality={50}
-              Container="responsive"
+              layout="responsive"
               loading="eager"
             />
             </div>
@@ -639,7 +639,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={6353}
                 quality={20}
-                Container="responsive"
+                layout="responsive"
                 loading="lazy"
                 />
                 <small>Wireframe</small>
@@ -651,7 +651,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={5839}
                 quality={20}
-                Container="responsive"
+                layout="responsive"
                 loading="lazy"
                 />
                 <small>Mockup</small>
@@ -690,7 +690,7 @@ function CaseStudyIndex() {
                 width={1437}
                 height={263}
                 quality={20}
-                Container="responsive"
+                layout="responsive"
                 loading="lazy"
                 />
                 <small>Shop CTA</small>
@@ -702,7 +702,7 @@ function CaseStudyIndex() {
                 width={1438}
                 height={194}
                 quality={20}
-                Container="responsive"
+                layout="responsive"
                 loading="lazy"
                 />
                 <small>Newsletter + Social Media</small>
@@ -741,7 +741,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={3228}
                 quality={20}
-                Container="responsive"
+                layout="responsive"
                 loading="lazy"
                 />
                 <small>Mockup</small>
@@ -753,7 +753,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={2132}
                 quality={20}
-                Container="responsive"
+                layout="responsive"
                 loading="lazy"
                 />
                 <small>Wireframe</small>
@@ -765,7 +765,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={2272}
                 quality={20}
-                Container="responsive"
+                layout="responsive"
                 loading="lazy"
                 />
                  <small>Mockup</small>
@@ -804,7 +804,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={1606}
                 quality={20}
-                Container="responsive"
+                layout="responsive"
                 loading="lazy"
                 />
                 <small>Wireframe</small>
@@ -816,7 +816,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={1771}
                 quality={20}
-                Container="responsive"
+                layout="responsive"
                 loading="lazy"
                 />
                 <small>Mockup</small>
@@ -828,7 +828,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={817}
                 quality={75}
-                Container="responsive"
+                layout="responsive"
                 loading="lazy"
                 />
                 <small>Desktop: Screenshot</small>
@@ -867,7 +867,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={2089}
                 quality={20}
-                Container="responsive"
+                layout="responsive"
                 loading="lazy"
                 />
                 <small>Wireframe</small>
@@ -879,7 +879,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={827}
                 quality={75}
-                Container="responsive"
+                layout="responsive"
                 loading="lazy"
                 />
                 <small>Desktop: Screenshot</small>
@@ -916,7 +916,7 @@ function CaseStudyIndex() {
                 width={1440}
                 height={1421}
                 quality={20}
-                Container="responsive"
+                layout="responsive"
                 loading="lazy"
                 />
                 <small>Mockup</small>

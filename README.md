@@ -26,6 +26,8 @@ NextJS 11 | GraphQL | DatoCMS | Vercel | HeadlessUI + Tailwind CSS | Commerce.js
 │   ├── Shop (eCommerce)
 │   │   └── Projects
 │   │
+│   ├── Tips
+│   │
 │   └── Promotion Page (Marketing stuff)
 └──        
 ```

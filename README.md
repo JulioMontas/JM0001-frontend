@@ -1,10 +1,13 @@
-# JulioMontas.com | Version: 6.0
-A great **Product Designer** portfolio **PWAs** website that can last until the year 2025.  
+# JulioMontas.com
+A great **Product Designer** portfolio website that can last until the year 2025.  
+
 
 ## JAMstack
-Framework | APIs | CMS |
----|---|---|
-NextJS | Stapi | ?
+Frontend | APIs | CMS | Hosting | CSS | eCommerce
+---|---|---|---|---|---|
+NextJS 11 | GraphQL | DatoCMS | Vercel | HeadlessUI + Tailwind CSS | Commerce.js with Stripe
+
+
 ## Sitemap
 ```
 ├── Landing Page
@@ -23,11 +26,13 @@ NextJS | Stapi | ?
 │   ├── Shop (eCommerce)
 │   │   └── Projects
 │   │
+│   ├── Tips
+│   │
 │   └── Promotion Page (Marketing stuff)
 └──        
 ```
-* Notes
-## Task
+
+## Task List
 - [x] Update User Flow + Sitemap
 - [x] Mockups of new UX/UI Design "`Mobile first`".
 - [x] Migrate from `Wordpress CMS` to `Next JS`.
@@ -37,14 +42,12 @@ NextJS | Stapi | ?
 - [x] Breakpoing for `Desktop`
 - [ ] Breakpoing for `Large screen.`
 - [ ] 404 Page in VR view
-## Next JS
 - [x] SEO
       | Meta description
       | English or Spanish
       | Image Compress
 - [x] JSON data for `Case Studies` and `Side Projects`
-## Progressive web apps (PWAs)
-- [ ] Icons for homescreen
-- [x] Add to homescreen
-- [ ] Reliability for Offline status
-- [ ] Push notifications to engage more with mobile users
+- [ ] PWAs: Icons for homescreen
+- [x] PWAs: Add to homescreen
+- [ ] PWAs: Reliability for Offline status
+- [ ] PWAs: Push notifications to engage more with mobile users

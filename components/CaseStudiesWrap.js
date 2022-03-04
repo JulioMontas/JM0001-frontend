@@ -33,7 +33,7 @@ const stagger = {
 const data = {
   title_00: "Adorama - eCommerce",
   content_00: "UI/UX Designer & Front-end Dev, 2019",
-  title_01: "Vinyl Label Design",
+  title_01: "Vinyl Record Design",
   content_01: "Art Direction, Print Design, 2019",
   title_02: "Shopify Fragrance eCommerce",
   content_02: "UI/UX Designer & Front-end Dev, 2018",
@@ -67,84 +67,6 @@ const CaseStudiesWrap = (props) => {
           }
         }}
         >
-           <SwiperSlide>
-            <motion.div variants={fadeInUp} className='card'>
-            <section>
-            <Link href={`/case-study/0`}>
-              <a alt={data.title_00} rel="alternate" hreflang="en">
-                <h4 className={styles.title}>{data.title_00}</h4>
-                <p className={styles.description}>{data.content_00}</p>
-                <div className={styles.cubeWrapper}>
-                  <div className={styles.cube}>
-                    <div className={styles.cara1}>
-                      <Image
-                        src="/img/blue_box.jpg"
-                        alt={data.title_00}
-                        width={200}
-                        height={200}
-                        quality={1}
-                        loading="eager"
-                      />
-                    </div>
-                    <div className={styles.cara2}>
-                        <Image
-                        src="/img/blue_box.jpg"
-                        alt={data.title_00}
-                        width={200}
-                        height={200}
-                        quality={1}
-                        loading="eager"
-                        />
-                    </div>
-                    <div className={styles.cara3}>
-                        <Image
-                        src="/img/blue_box.jpg"
-                        alt={data.title_00}
-                        width={200}
-                        height={200}
-                        quality={1}
-                        loading="eager"
-                        />
-                    </div>
-                    <div className={styles.cara4}>
-                        <Image
-                        src="/img/blue_box.jpg"
-                        alt={data.title_00}
-                        width={200}
-                        height={200}
-                        quality={1}
-                        loading="eager"
-                        />
-                    </div>
-                    <div className={styles.cara5}>
-                        <Image
-                        src="/img/blue_box.jpg"
-                        alt={data.title_00}
-                        width={200}
-                        height={200}
-                        quality={1}
-                        loading="eager"
-                        />
-                    </div>
-                    <div className={styles.cara6}>
-                        <Image
-                        src="/img/blue_box.jpg"
-                        alt={data.title_00}
-                        width={200}
-                        height={200}
-                        quality={1}
-                        loading="eager"
-                        />
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </Link>
-            </section>
-            </motion.div>
-            </SwiperSlide>
-
-
             <SwiperSlide>
             <motion.div variants={fadeInUp} className='card'>
             <section>

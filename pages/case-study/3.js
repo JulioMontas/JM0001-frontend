@@ -942,11 +942,6 @@ function CaseStudyIndex() {
             <h3>More Case Study</h3>
             <ul>
               <RelatedCTA
-                url="/case-study/0"
-                title={t('title_00')}
-                content={t('content_00')}
-              />
-              <RelatedCTA
                 url="/case-study/1"
                 title={t('title_02')}
                 content={t('content_02')}

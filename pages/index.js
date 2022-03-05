@@ -41,7 +41,7 @@ export default function Homepage({ data }) {
       <Container>
         <HeroSection
           title="Product Designer"
-          description="Building a website or app for your idea? Let's build it together. Creative solutions for every stage of your company's growth - strategy, design, development and management. Based in NYC."
+          description="Building a website or app for your idea? Let's build it together. Creative solutions for every stage of your company's growth - strategy, design and development. Based in NYC."
         />
         <CaseStudiesWrap
           title="Case Studies"

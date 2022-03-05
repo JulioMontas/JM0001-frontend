@@ -45,7 +45,8 @@ const NavBar = (props) => {
           </a>
         </Link>
       </motion.div>
-
+      
+      {/*
       <motion.div variants={fadeInUp} className='card'>
         <Link href="/">
           <a alt="Julio Montás" rel="alternate" hreflang="en">
@@ -55,6 +56,7 @@ const NavBar = (props) => {
           </a>
         </Link>
       </motion.div>
+       */}
 
       </motion.div>
     </motion.div>

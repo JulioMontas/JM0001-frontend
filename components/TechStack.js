@@ -61,23 +61,9 @@ const TechStack = (props) => {
   return(
     <motion.div exit={{ opacity: 0 }} initial='initial' animate='animate'>
       <h3 className={styles.title}>
-        My Tech Stack
+        My JAMstack
       </h3>
       <motion.div variants={stagger} className={styles.main}>
-
-      <motion.div variants={fadeInUp} className="card">
-        <div className={styles.icon}>
-          <div className={styles.svg}>
-          <img
-            src={svg.sketch}
-            alt="Sketch logo"
-          />
-          </div>
-          <p className={styles.text}>
-            Sketch
-          </p>
-        </div>
-      </motion.div>
 
       <motion.div variants={fadeInUp} className="card">
         <div className={styles.icon}>
@@ -89,76 +75,6 @@ const TechStack = (props) => {
           </div>
           <p className={styles.text}>
             Figma
-          </p>
-        </div>
-      </motion.div>
-
-      <motion.div variants={fadeInUp} className="card">
-        <div className={styles.icon}>
-          <div className={styles.svg}>
-          <img
-            src={svg.invision}
-            alt="InVision logo"
-          />
-          </div>
-          <p className={styles.text}>
-            InVision
-          </p>
-        </div>
-      </motion.div>
-
-      <motion.div variants={fadeInUp} className="card">
-        <div className={styles.icon}>
-          <div className={styles.svg}>
-          <img
-            src={svg.html5}
-            alt="HTML5 logo"
-          />
-          </div>
-          <p className={styles.text}>
-            HTML5
-          </p>
-        </div>
-      </motion.div>
-
-      <motion.div variants={fadeInUp} className="card">
-        <div className={styles.icon}>
-          <div className={styles.svg}>
-          <img
-            src={svg.css}
-            alt="CSS3 logo"
-          />
-          </div>
-          <p className={styles.text}>
-            CSS3
-          </p>
-        </div>
-      </motion.div>
-
-      <motion.div variants={fadeInUp} className="card">
-        <div className={styles.icon}>
-          <div className={styles.svg}>
-          <img
-            src={svg.javascript}
-            alt="JavaScript logo"
-          />
-          </div>
-          <p className={styles.text}>
-            JavaScript
-          </p>
-        </div>
-      </motion.div>
-
-      <motion.div variants={fadeInUp} className="card">
-        <div className={styles.icon}>
-          <div className={styles.svg}>
-          <img
-            src={svg.react}
-            alt="ReactJS logo"
-          />
-          </div>
-          <p className={styles.text}>
-            ReactJS
           </p>
         </div>
       </motion.div>
@@ -181,54 +97,12 @@ const TechStack = (props) => {
         <div className={styles.icon}>
           <div className={styles.svg}>
           <img
-            src={svg.github}
-            alt="Github logo"
+            src={svg.gatsby}
+            alt="Gatsby logo"
           />
           </div>
           <p className={styles.text}>
-            Github
-          </p>
-        </div>
-      </motion.div>
-
-      <motion.div variants={fadeInUp} className="card">
-        <div className={styles.icon}>
-          <div className={styles.svg}>
-          <img
-            src={svg.docker}
-            alt="Docker logo"
-          />
-          </div>
-          <p className={styles.text}>
-            Docker
-          </p>
-        </div>
-      </motion.div>
-
-      <motion.div variants={fadeInUp} className="card">
-        <div className={styles.icon}>
-          <div className={styles.svg}>
-          <img
-            src={svg.jira}
-            alt="Jira logo"
-          />
-          </div>
-          <p className={styles.text}>
-            Jira
-          </p>
-        </div>
-      </motion.div>
-
-      <motion.div variants={fadeInUp} className="card">
-        <div className={styles.icon}>
-          <div className={styles.svg}>
-            <img
-              src={svg.google}
-              alt="Google Analytics logo"
-            />
-          </div>
-          <p className={styles.text}>
-            Google Analytics
+            Gatsby
           </p>
         </div>
       </motion.div>
@@ -265,20 +139,6 @@ const TechStack = (props) => {
         <div className={styles.icon}>
           <div className={styles.svg}>
           <img
-            src={svg.mongodb}
-            alt="PWA logo"
-          />
-          </div>
-          <p className={styles.text}>
-            MongoDB
-          </p>
-        </div>
-      </motion.div>
-
-      <motion.div variants={fadeInUp} className="card">
-        <div className={styles.icon}>
-          <div className={styles.svg}>
-          <img
             src={svg.webxr}
             alt="WebXR logo"
           />
@@ -293,40 +153,12 @@ const TechStack = (props) => {
         <div className={styles.icon}>
           <div className={styles.svg}>
           <img
-            src={svg.p5js}
-            alt="P5js logo"
-          />
-          </div>
-          <p className={styles.text}>
-            P5js
-          </p>
-        </div>
-      </motion.div>
-
-      <motion.div variants={fadeInUp} className="card">
-        <div className={styles.icon}>
-          <div className={styles.svg}>
-          <img
             src={svg.pwa}
             alt="PWA logo"
           />
           </div>
           <p className={styles.text}>
             PWA
-          </p>
-        </div>
-      </motion.div>
-
-      <motion.div variants={fadeInUp} className="card">
-        <div className={styles.icon}>
-          <div className={styles.svg}>
-          <img
-            src={svg.raspberryPi}
-            alt="Raspberry Pi logo"
-          />
-          </div>
-          <p className={styles.text}>
-            Raspberry Pi
           </p>
         </div>
       </motion.div>

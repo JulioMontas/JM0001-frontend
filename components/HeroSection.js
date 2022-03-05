@@ -48,9 +48,9 @@ const HeroSection = (props) => {
             width={200}
             height={200}
           />
-          <h2 className={styles.title}>
+          <h1 className={styles.title}>
             {props.title}
-          </h2>
+          </h1>
         </section>
         </motion.div>
 

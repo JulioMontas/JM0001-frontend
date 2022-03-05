@@ -9,13 +9,13 @@ function AboutMe() {
   const { t } = useTranslation('aboutMe')
   return <Layout>
     <Head>
-      <title>About Me - UI Developer • Interaction Designer • Full Stack Designer | Julio Montás</title>
+      <title>About Me - UI Developer • Full Stack Designer | Julio Montás</title>
       <meta name='twitter:url' content='https://juliomontas.com/about-me/' />
       <meta property='og:url' content='https://juliomontas.com/about-me/' />
       <meta property='og:image' content='https://juliomontas.com/me.png' />
       <meta name='twitter:image' content='https://juliomontas.com/me.png' />
-      <meta property='og:title' content='About Me - UI Developer • Interaction Designer • Full Stack Designer | Julio Montás' />
-      <meta name='twitter:title' content='About Me - UI Developer • Interaction Designer • Full Stack Designer | Julio Montás' />
+      <meta property='og:title' content='About Me - UI Developer • Full Stack Designer | Julio Montás' />
+      <meta name='twitter:title' content='About Me - UI Developer • Full Stack Designer | Julio Montás' />
       <meta name="description" content="Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC." key="description"/>
       <meta property='og:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
       <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />

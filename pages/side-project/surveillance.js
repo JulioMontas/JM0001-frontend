@@ -61,7 +61,7 @@ function ProjectIndex() {
       <motion.div variants={fadeInUp}>
       <div className={styles.flipSwitch}>
         <div>
-          <h2>{t('title_02')}</h2>
+          <h1>{t('title_02')}</h1>
           <p>{t('content_02')}</p>
         </div>
         <ExitButton url="/" />

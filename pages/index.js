@@ -23,13 +23,13 @@ export default function Homepage({ data }) {
   return (
     <>
     <Head>
-      <title>Julio Montás - UI Developer • Interaction Designer • Full Stack Designer</title>
+      <title>Julio Montás - UI Developer • Full Stack Designer</title>
       <meta name='twitter:url' content='https://juliomontas.com/blog/' />
       <meta property='og:url' content='https://juliomontas.com/blog/' />
       <meta property='og:image' content='https://juliomontas.com/me.png' />
       <meta name='twitter:image' content='https://juliomontas.com/me.png' />
-      <meta property='og:title' content='Julio Montás - UI Developer • Interaction Designer • Full Stack Designer' />
-      <meta name='twitter:title' content='Julio Montás - UI Developer • Interaction Designer • Full Stack Designer' />
+      <meta property='og:title' content='Julio Montás - UI Developer • Full Stack Designer' />
+      <meta name='twitter:title' content='Julio Montás - UI Developer • Full Stack Designer' />
       <meta name="description" content="Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC." key="description"/>
       <meta property='og:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
       <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />

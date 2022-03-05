@@ -60,7 +60,7 @@ function sideProject({ posts }) {
            <section>
                <Link href={`/side-project/hellocode`}>
                  <a alt={t('title_01')}>
-                   <h2 className={styles.blgTitle}>{t('title_01')}</h2>
+                   <h1 className={styles.blgTitle}>{t('title_01')}</h1>
                    <h3 className={styles.blgSummery}>{t('content_01')}</h3>
                    <span>
                      <Image

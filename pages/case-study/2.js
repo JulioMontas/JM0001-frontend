@@ -62,7 +62,7 @@ function CaseStudyIndex() {
 
           <motion.div variants={fadeInUp}>
           <div className={styles.flipSwitch}>
-            <h2>{t('title_02')}</h2>
+            <h1>{t('title_02')}</h1>
             <ExitButton url="/" />
           </div>
           </motion.div>

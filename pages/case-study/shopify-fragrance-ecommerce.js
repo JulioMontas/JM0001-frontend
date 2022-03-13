@@ -1110,12 +1110,12 @@ function CaseStudyIndex() {
             <h3>More Case Study</h3>
             <ul>
               <RelatedCTA
-                url="/case-study/1"
+                url="/case-study/vinyl-label-design"
                 title={t('title_01')}
                 content={t('content_01')}
               />
               <RelatedCTA
-                url="/case-study/3"
+                url="/case-study/wordpress-artist-theme"
                 title={t('title_03')}
                 content={t('content_03')}
               />

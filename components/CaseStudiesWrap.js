@@ -31,14 +31,14 @@ const stagger = {
 };
 
 const data = {
-  title_00: "Adorama - eCommerce",
-  content_00: "UI/UX Designer & Front-end Dev, 2019",
-  title_01: "Vinyl Record Design",
-  content_01: "Art Direction, Print Design, 2019",
+  title_01: "Wordpress Artist Theme",
+  content_01: "UI/UX Designer & Front-end Dev, 2017",
+
   title_02: "Shopify Fragrance eCommerce",
   content_02: "UI/UX Designer & Front-end Dev, 2018",
-  title_03: "Custom Wordpress Theme",
-  content_03: "UI/UX Designer & Front-end Dev, 2017"
+
+  title_03: "Vinyl Label Design",
+  content_03: "Art Direction, Print Design, 2019",
 }
 
 const CaseStudiesWrap = (props) => {
@@ -68,73 +68,73 @@ const CaseStudiesWrap = (props) => {
             <SwiperSlide>
             <motion.div variants={fadeInUp} className='card'>
             <section>
-              <Link href={`/case-study/1`}>
+              <Link href={`/case-study/wordpress-artist-theme`}>
                 <a alt="" rel="alternate" hreflang="en">
                   <h3 className={styles.title}>{data.title_01}</h3>
                   <h4 className={styles.description}>{data.content_01}</h4>
                   <div className={styles.cubeWrapper}>
-                    <div className={styles.cube}>
-                      <div className={styles.cara1}>
-                        <Image
-                        src="/img/Pendulum-3D-Box-Bottom-05.jpg"
-                        alt={data.title_01}
-                        width={200}
-                        height={200}
-                        quality={1}
-                        loading="eager"
-                        />
-                      </div>
-                      <div className={styles.cara2}>
-                        <Image
-                        src="/img/Pendulum-3D-Box-Bottom-05.jpg"
-                        alt={data.title_01}
-                        width={200}
-                        height={200}
-                        quality={1}
-                        loading="eager"
-                        />
-                      </div>
-                      <div className={styles.cara3}>
-                        <Image
-                        src="/img/Pendulum-3D-Box-Bottom-05.jpg"
-                        alt={data.title_01}
-                        width={200}
-                        height={200}
-                        quality={1}
-                        loading="eager"
-                        />
-                      </div>
-                      <div className={styles.cara4}>
-                        <Image
-                        src="/img/Pendulum-3D-Box-Bottom-05.jpg"
-                        alt={data.title_01}
-                        width={200}
-                        height={200}
-                        quality={1}
-                        loading="eager"
-                        />
-                      </div>
-                      <div className={styles.cara5}>
-                        <Image
-                        src="/img/Pendulum-3D-Box-Bottom-05.jpg"
-                        alt={data.title_01}
-                        width={200}
-                        height={200}
-                        quality={1}
-                        loading="eager"
-                        />
-                      </div>
-                      <div className={styles.cara6}>
-                        <Image
-                        src="/img/Pendulum-3D-Box-Bottom-05.jpg"
-                        alt={data.title_01}
-                        width={200}
-                        height={200}
-                        quality={1}
-                        loading="eager"
-                        />
-                      </div>
-                    </div>
+                  <div className={styles.cube}>
+                  <div className={styles.cara1}>
+                  <Image
+                    src="/img/music_3D_Top.png"
+                    alt={data.title_03}
+                    width={200}
+                    height={200}
+                    quality={1}
+                    loading="eager"
+                    />
+                  </div>
+                  <div className={styles.cara2}>
+                    <Image
+                    src="/img/music_3D_Top.png"
+                    alt={data.title_03}
+                    width={200}
+                    height={200}
+                    quality={1}
+                    loading="eager"
+                    />
+                  </div>
+                  <div className={styles.cara3}>
+                    <Image
+                    src="/img/music_3D_Top.png"
+                    alt={data.title_03}
+                    width={200}
+                    height={200}
+                    quality={1}
+                    loading="eager"
+                    />
+                  </div>
+                  <div className={styles.cara4}>
+                    <Image
+                    src="/img/music_3D_Top.png"
+                    alt={data.title_03}
+                    width={200}
+                    height={200}
+                    quality={1}
+                    loading="eager"
+                    />
+                  </div>
+                  <div className={styles.cara5}>
+                    <Image
+                    src="/img/music_3D_Top.png"
+                    alt={data.title_03}
+                    width={200}
+                    height={200}
+                    quality={1}
+                    loading="eager"
+                    />
+                  </div>
+                  <div className={styles.cara6}>
+                    <Image
+                    src="/img/music_3D_Top.png"
+                    alt={data.title_03}
+                    width={200}
+                    height={200}
+                    quality={1}
+                    loading="eager"
+                    />
+                  </div>
+                  </div>
                   </div>
                 </a>
               </Link>
@@ -146,7 +146,7 @@ const CaseStudiesWrap = (props) => {
             <SwiperSlide>
             <motion.div variants={fadeInUp} className='card'>
             <section>
-              <Link href={`/case-study/2`}>
+              <Link href={`/case-study/shopify-fragrance-ecommerce`}>
                 <a alt={data.title_02} rel="alternate" hreflang="en">
                   <h3 className={styles.title}>{data.title_02}</h3>
                   <h4 className={styles.description}>{data.content_02}</h4>
@@ -224,73 +224,73 @@ const CaseStudiesWrap = (props) => {
             <SwiperSlide>
             <motion.div variants={fadeInUp} className='card'>
             <section>
-              <Link href={`/case-study/3`}>
+              <Link href={`/case-study/vinyl-label-design`}>
                 <a alt={data.title_03} rel="alternate" hreflang="en">
                   <h3 className={styles.title}>{data.title_03}</h3>
                   <h4 className={styles.description}>{data.content_03}</h4>
                   <div className={styles.cubeWrapper}>
-                  <div className={styles.cube}>
-                  <div className={styles.cara1}>
-                  <Image
-                    src="/img/music_3D_Top.png"
-                    alt={data.title_03}
-                    width={200}
-                    height={200}
-                    quality={1}
-                    loading="eager"
-                    />
-                  </div>
-                  <div className={styles.cara2}>
-                    <Image
-                    src="/img/music_3D_Top.png"
-                    alt={data.title_03}
-                    width={200}
-                    height={200}
-                    quality={1}
-                    loading="eager"
-                    />
-                  </div>
-                  <div className={styles.cara3}>
-                    <Image
-                    src="/img/music_3D_Top.png"
-                    alt={data.title_03}
-                    width={200}
-                    height={200}
-                    quality={1}
-                    loading="eager"
-                    />
-                  </div>
-                  <div className={styles.cara4}>
-                    <Image
-                    src="/img/music_3D_Top.png"
-                    alt={data.title_03}
-                    width={200}
-                    height={200}
-                    quality={1}
-                    loading="eager"
-                    />
-                  </div>
-                  <div className={styles.cara5}>
-                    <Image
-                    src="/img/music_3D_Top.png"
-                    alt={data.title_03}
-                    width={200}
-                    height={200}
-                    quality={1}
-                    loading="eager"
-                    />
-                  </div>
-                  <div className={styles.cara6}>
-                    <Image
-                    src="/img/music_3D_Top.png"
-                    alt={data.title_03}
-                    width={200}
-                    height={200}
-                    quality={1}
-                    loading="eager"
-                    />
-                  </div>
-                  </div>
+                    <div className={styles.cube}>
+                      <div className={styles.cara1}>
+                        <Image
+                        src="/img/Pendulum-3D-Box-Bottom-05.jpg"
+                        alt={data.title_01}
+                        width={200}
+                        height={200}
+                        quality={1}
+                        loading="eager"
+                        />
+                      </div>
+                      <div className={styles.cara2}>
+                        <Image
+                        src="/img/Pendulum-3D-Box-Bottom-05.jpg"
+                        alt={data.title_01}
+                        width={200}
+                        height={200}
+                        quality={1}
+                        loading="eager"
+                        />
+                      </div>
+                      <div className={styles.cara3}>
+                        <Image
+                        src="/img/Pendulum-3D-Box-Bottom-05.jpg"
+                        alt={data.title_01}
+                        width={200}
+                        height={200}
+                        quality={1}
+                        loading="eager"
+                        />
+                      </div>
+                      <div className={styles.cara4}>
+                        <Image
+                        src="/img/Pendulum-3D-Box-Bottom-05.jpg"
+                        alt={data.title_01}
+                        width={200}
+                        height={200}
+                        quality={1}
+                        loading="eager"
+                        />
+                      </div>
+                      <div className={styles.cara5}>
+                        <Image
+                        src="/img/Pendulum-3D-Box-Bottom-05.jpg"
+                        alt={data.title_01}
+                        width={200}
+                        height={200}
+                        quality={1}
+                        loading="eager"
+                        />
+                      </div>
+                      <div className={styles.cara6}>
+                        <Image
+                        src="/img/Pendulum-3D-Box-Bottom-05.jpg"
+                        alt={data.title_01}
+                        width={200}
+                        height={200}
+                        quality={1}
+                        loading="eager"
+                        />
+                      </div>
+                    </div>
                   </div>
                 </a>
               </Link>

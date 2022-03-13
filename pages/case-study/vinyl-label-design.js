@@ -513,12 +513,12 @@ export default function CaseStudyIndex({ data: {site} }) {
             <h3>More Case Study</h3>
             <ul>
               <RelatedCTA
-                url="/case-study/2"
+                url="/case-study/shopify-fragrance-ecommerce"
                 title={t('title_02')}
                 content={t('content_02')}
               />
               <RelatedCTA
-                url="/case-study/3"
+                url="/case-study/wordpress-artist-theme"
                 title={t('title_03')}
                 content={t('content_03')}
               />

@@ -1,23 +1,11 @@
 import Head from 'next/head'
 import styles from '../styles/Homepage.module.css'
 import useTranslation from 'next-translate/useTranslation'
-import NavBar from '../components/NavBar'
 import HeroSection from '../components/HeroSection'
-import ThirdCol from '../components/ThirdCol'
 import CaseStudiesWrap from '../components/CaseStudiesWrap'
 import SideProjectWrap from '../components/SideProjectWrap'
 import TechStack from '../components/TechStack'
 import Container from '../components/Container'
-
-const MY_HOMEPAGE = `
-{
-  homePage(locale: en, fallbackLocales: en) {
-    title
-    content {
-      value
-    }
-  }
-}`;
 
 export default function Homepage({ data }) {
   return (

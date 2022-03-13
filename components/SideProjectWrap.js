@@ -47,14 +47,12 @@ const SideProjectWrap = (props) => {
   return(
       <motion.div exit={{ opacity: 0 }} initial='initial' animate='animate'>
         <motion.div variants={stagger} className={styles.main}>
-        <h3 className={styles.title}>
+        <h2 className={styles.title}>
           {props.title}
-        </h3>
+        </h2>
         <div className={styles.boxes}>
         <Swiper
         speed={400}
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
         breakpoints={{
           320: {
             slidesPerView: 1,
@@ -73,8 +71,8 @@ const SideProjectWrap = (props) => {
             <section>
             <Link href={`/side-project/hellocode`}>
               <a alt={data.title_01} rel="alternate" hreflang="en">
-                <h4 className={styles.title}>{data.title_01}</h4>
-                <p className={styles.description}>{data.content_01}</p>
+                <h3 className={styles.title}>{data.title_01}</h3>
+                <h4 className={styles.description}>{data.content_01}</h4>
                 <span className={styles.fotos}>
                   <Image
                     src="/img/side-project/hc/hc02.gif"
@@ -94,8 +92,8 @@ const SideProjectWrap = (props) => {
             <section>
               <Link href={`/side-project/surveillance`}>
                 <a alt={data.title_02} rel="alternate" hreflang="en">
-                  <h4 className={styles.title}>{data.title_02}</h4>
-                  <p className={styles.description}>{data.content_02}</p>
+                  <h3 className={styles.title}>{data.title_02}</h3>
+                  <h4 className={styles.description}>{data.content_02}</h4>
                   <span className={styles.fotos}>
                     <Image
                     src="/img/side-project/surveillance/jessieNguyen-socialProof.jpg"
@@ -117,8 +115,8 @@ const SideProjectWrap = (props) => {
             <section>
               <Link href={`/side-project/width`}>
                 <a alt={data.title_03} rel="alternate" hreflang="en">
-                  <h4 className={styles.title}>{data.title_03}</h4>
-                  <p className={styles.description}>{data.content_03}</p>
+                  <h3 className={styles.title}>{data.title_03}</h3>
+                  <h4 className={styles.description}>{data.content_03}</h4>
                   <span className={styles.fotos}>
                     <Image
                     src="/img/side-project/width/width_Landing_Page.png"
@@ -140,8 +138,8 @@ const SideProjectWrap = (props) => {
             <section>
               <Link href={`/side-project/colors`}>
                 <a alt={data.title_05} rel="alternate" hreflang="en">
-                  <h4 className={styles.title}>{data.title_05}</h4>
-                  <p className={styles.description}>{data.content_05}</p>
+                  <h3 className={styles.title}>{data.title_05}</h3>
+                  <h4 className={styles.description}>{data.content_05}</h4>
                   <span className={styles.fotos}>
                     <Image
                     src="/img/colorView_01.jpg"

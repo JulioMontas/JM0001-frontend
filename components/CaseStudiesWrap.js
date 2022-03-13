@@ -46,14 +46,12 @@ const CaseStudiesWrap = (props) => {
   return(
       <motion.div exit={{ opacity: 0 }} initial='initial' animate='animate'>
         <motion.div variants={stagger} className={styles.main}>
-        <h3 className={styles.title}>
+        <h2 className={styles.title}>
           {props.title}
-        </h3>
+        </h2>
         <div className={styles.boxes}>
         <Swiper
         speed={400}
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
         breakpoints={{
           320: {
             slidesPerView: 1,
@@ -72,8 +70,8 @@ const CaseStudiesWrap = (props) => {
             <section>
               <Link href={`/case-study/1`}>
                 <a alt="" rel="alternate" hreflang="en">
-                  <h4 className={styles.title}>{data.title_01}</h4>
-                  <p className={styles.description}>{data.content_01}</p>
+                  <h3 className={styles.title}>{data.title_01}</h3>
+                  <h4 className={styles.description}>{data.content_01}</h4>
                   <div className={styles.cubeWrapper}>
                     <div className={styles.cube}>
                       <div className={styles.cara1}>
@@ -150,8 +148,8 @@ const CaseStudiesWrap = (props) => {
             <section>
               <Link href={`/case-study/2`}>
                 <a alt={data.title_02} rel="alternate" hreflang="en">
-                  <h4 className={styles.title}>{data.title_02}</h4>
-                  <p className={styles.description}>{data.content_02}</p>
+                  <h3 className={styles.title}>{data.title_02}</h3>
+                  <h4 className={styles.description}>{data.content_02}</h4>
                   <div className={styles.cubeWrapper}>
                       <div className={styles.cube}>
                         <div className={styles.cara1}>
@@ -228,8 +226,8 @@ const CaseStudiesWrap = (props) => {
             <section>
               <Link href={`/case-study/3`}>
                 <a alt={data.title_03} rel="alternate" hreflang="en">
-                  <h4 className={styles.title}>{data.title_03}</h4>
-                  <p className={styles.description}>{data.content_03}</p>
+                  <h3 className={styles.title}>{data.title_03}</h3>
+                  <h4 className={styles.description}>{data.content_03}</h4>
                   <div className={styles.cubeWrapper}>
                   <div className={styles.cube}>
                   <div className={styles.cara1}>

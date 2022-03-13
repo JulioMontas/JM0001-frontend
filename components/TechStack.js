@@ -60,9 +60,9 @@ const svg = {
 const TechStack = (props) => {
   return(
     <motion.div exit={{ opacity: 0 }} initial='initial' animate='animate'>
-      <h3 className={styles.title}>
+      <h2 className={styles.title}>
         My Tech stack: For fast and secure sites
-      </h3>
+      </h2>
       <motion.div variants={stagger} className={styles.main}>
 
       <motion.div variants={fadeInUp} className="card">
@@ -73,9 +73,9 @@ const TechStack = (props) => {
             alt="Figma logo"
           />
           </div>
-          <p className={styles.text}>
+          <h3 className={styles.text}>
             Figma
-          </p>
+          </h3>
         </div>
       </motion.div>
 
@@ -87,9 +87,9 @@ const TechStack = (props) => {
             alt="NextJS logo"
           />
           </div>
-          <p className={styles.text}>
+          <h3 className={styles.text}>
             NextJS
-          </p>
+          </h3>
         </div>
       </motion.div>
 
@@ -101,9 +101,9 @@ const TechStack = (props) => {
             alt="Gatsby logo"
           />
           </div>
-          <p className={styles.text}>
+          <h3 className={styles.text}>
             Gatsby
-          </p>
+          </h3>
         </div>
       </motion.div>
 
@@ -115,9 +115,9 @@ const TechStack = (props) => {
             alt="Data CMS logo"
           />
           </div>
-          <p className={styles.text}>
+          <h3 className={styles.text}>
             Data CMS
-          </p>
+          </h3>
         </div>
       </motion.div>
 
@@ -129,9 +129,9 @@ const TechStack = (props) => {
             alt="Shopify logo"
           />
           </div>
-          <p className={styles.text}>
+          <h3 className={styles.text}>
             Shopify
-          </p>
+          </h3>
         </div>
       </motion.div>
 
@@ -143,9 +143,9 @@ const TechStack = (props) => {
             alt="WebXR logo"
           />
           </div>
-          <p className={styles.text}>
+          <h3 className={styles.text}>
             WebXR
-          </p>
+          </h3>
         </div>
       </motion.div>
 
@@ -157,9 +157,9 @@ const TechStack = (props) => {
             alt="PWA logo"
           />
           </div>
-          <p className={styles.text}>
+          <h3 className={styles.text}>
             PWA
-          </p>
+          </h3>
         </div>
       </motion.div>
 

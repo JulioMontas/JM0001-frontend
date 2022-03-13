@@ -29,7 +29,7 @@ export default function Homepage({ data }) {
       <meta property='og:image' content='https://juliomontas.com/me.png' />
       <meta name='twitter:image' content='https://juliomontas.com/me.png' />
       <meta property='og:title' content='Julio Montás - UI Developer • Full Stack Designer' />
-      <meta name='twitter:title' content='Julio Montás - UI Developer • Full Stack Designer' />
+      <meta name='twitter d:title' content='Julio Montás - UI Developer • Full Stack Designer' />
       <meta name="description" content="Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC." key="description"/>
       <meta property='og:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
       <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
@@ -41,7 +41,6 @@ export default function Homepage({ data }) {
       <Container>
         <HeroSection
           title="Product Designer"
-          description="Building a website or app for your idea? Let's build it together. Creative solutions for every stage of your company's growth - strategy, design and development. Based in NYC."
         />
         <CaseStudiesWrap
           title="Case Studies"

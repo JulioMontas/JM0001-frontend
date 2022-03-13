@@ -4,7 +4,6 @@
     "pages": {
         "*": ["common"],
         "/": ["home"],
-        "/youtube": ["youtube"],
         "/about-me":["aboutMe"],
         "rgx:^/side-project":["sideProject"],
         "rgx:^/case-study":["caseStudy"]

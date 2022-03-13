@@ -61,7 +61,7 @@ const TechStack = (props) => {
   return(
     <motion.div exit={{ opacity: 0 }} initial='initial' animate='animate'>
       <h3 className={styles.title}>
-        Jamstack: For fast and secure sites
+        My Tech stack: For fast and secure sites
       </h3>
       <motion.div variants={stagger} className={styles.main}>
 

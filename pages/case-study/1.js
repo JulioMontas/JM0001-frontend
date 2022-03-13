@@ -11,9 +11,10 @@ import Moodboard from '../../components/Moodboard'
 import PaletteList from '../../components/PaletteList'
 import RelatedCTA from '../../components/RelatedCTA'
 import styles from '../../styles/Report.module.css'
+import { request } from "../../lib/datocms"
+import { StructuredText } from "react-datocms"
 
 const easing = [.6, -.05, .01, .99];
-
 const fadeInUp = {
   initial:{
     y: 60,
@@ -28,7 +29,6 @@ const fadeInUp = {
     }
   }
 };
-
 const stagger = {
   animate: {
     transition: {
@@ -37,7 +37,65 @@ const stagger = {
   }
 };
 
-function CaseStudyIndex() {
+const ALL_CASE_STUDIES = `query MyQuery {
+  site: allCaseStudies(locale: en, fallbackLocales: en) {
+    id
+    slug
+    title
+    allTheData {
+      content {
+        value
+        blocks {
+          ... on ColorBlkRecord {
+            id
+            hexColor {
+              hex
+            }
+          }
+          ... on GalleryBlkRecord {
+            id
+            gallery {
+              responsiveImage {
+                alt
+                bgColor
+                title
+                src
+                srcSet
+                base64
+              }
+            }
+          }
+          ... on ImageBlkRecord {
+            id
+            image {
+              responsiveImage {
+                alt
+                bgColor
+                title
+                src
+                srcSet
+                base64
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}`;
+
+export async function getStaticProps() {
+  const data = await request({
+    query: ALL_CASE_STUDIES,
+    variables: { limit: 10 }
+  });
+  return {
+    props: { data }
+  };
+}
+
+export default function CaseStudyIndex({ data: {site} }) {
+  console.log(site);
   const { t } = useTranslation('caseStudy')
   return <Container>
     <Head>
@@ -55,6 +113,7 @@ function CaseStudyIndex() {
       <link rel="alternate" href="https://juliomontas.com/case-study/1/" hreflang="en-us" />
       <link rel="alternate" href="https://juliomontas.com/es-us/case-study/1/" hreflang="es-us" />
     </Head>
+
     <motion.div exit={{y: -300, opacity: 0 }} initial='initial' animate='animate'>
     <motion.div  variants={stagger}>
       <div className={styles.mainIndex}>
@@ -80,8 +139,6 @@ function CaseStudyIndex() {
             <h3>&#128444; {t('moodboard_01')}</h3>
             <Swiper
             speed={400}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
             breakpoints={{
               320: {
                 slidesPerView: 1,
@@ -225,8 +282,6 @@ function CaseStudyIndex() {
                 <p className={styles.textAbove}>{t('conceptContent_01')}</p>
                 <Swiper
                 speed={400}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
             breakpoints={{
               320: {
                 slidesPerView: 1,
@@ -307,8 +362,6 @@ function CaseStudyIndex() {
             <h3>&#128065; Mockups</h3>
             <Swiper
             speed={400}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
             breakpoints={{
               320: {
                 slidesPerView: 1,
@@ -480,5 +533,3 @@ function CaseStudyIndex() {
     </motion.div>
   </Container>
 }
-
-export default CaseStudyIndex

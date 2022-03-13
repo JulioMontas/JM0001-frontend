@@ -14,6 +14,9 @@ module.exports = withPWA({
     return {
       '/': { page: '/' },
       '/about-me': { page: '/about-me' },
+      '/blog': { page: '/blog' },
+      '/case-study': { page: '/case-study' },
+      '/side-project': { page: '/side-project' },
     }
   },
   eslint: {

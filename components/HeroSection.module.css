@@ -29,8 +29,11 @@
     margin-top: 10px;
 }
 .description{
-  line-height: 26px;
+  line-height: 30px;
   letter-spacing: 0.15em;
+}
+.description p {
+  margin-top: 1.3rem;
 }
 .uno img {
     border-radius: 70% 30% 30% 70% / 60% 40% 20% 40%;
@@ -48,7 +51,7 @@
 }
 .socialLinks{
   display: flex;
-  margin-top: 20px;
+  margin-top: 30px;
   justify-content: center;
 }
 .socialLinks li{
@@ -77,16 +80,16 @@
     align-items: center;
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3fr;
     grid-template-rows: auto;
-    column-gap: 1em;
+    column-gap: 5em;
     grid-template-areas:
         "uno dos";
   }
   .main p {
-    line-height: 30px;
+    line-height: 40px;
     text-align: left;
-    font-size: 1.1em;
+    font-size: 1.2rem;
   }
   .socialLinks{
     justify-content: left;

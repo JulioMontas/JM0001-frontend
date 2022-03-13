@@ -2,6 +2,7 @@ import styles from './HeroSection.module.css'
 import Container from '../components/Container'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 
 const easing = [.6, -.05, .01, .99];
 
@@ -56,9 +57,14 @@ const HeroSection = (props) => {
 
         <motion.div variants={fadeInUp} className='card'>
         <section className={styles.dos}>
-          <p className={styles.description}>
-            {props.description}
-          </p>
+          <div className={styles.description}>
+            <p>Building CMS websites and eCommerce sites, so you don't have to.</p>
+            <p>As your creative partner, we provide an all-inclusive design, development, and website management service tailored specifically to meet your needs.</p>
+            <p>We understand that every business is different and requires its own unique solution to solve its unique problems. Let us be a part of your growth story</p>
+            {/*<Link href={`/contact`}>
+              <a>Start your project today!</a>
+            </Link>*/}
+          </div>
           <ul className={styles.socialLinks}>
             <li>
               <a href="https://github.com/JulioMontas" target="_blank">
@@ -72,7 +78,15 @@ const HeroSection = (props) => {
               <a href="https://dribbble.com/juliomontas" target="_blank">
                 <img
                   src={svg.dribbble}
-                  alt="dribbble logo"
+                  alt="Dribbble logo"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/juliomontas/" target="_blank">
+                <img
+                  src={svg.instagram}
+                  alt="Instagram logo"
                 />
               </a>
             </li>
@@ -80,7 +94,7 @@ const HeroSection = (props) => {
               <a href="https://ra.co/dj/montas" target="_blank">
                 <img
                   src={svg.residentAdvisor}
-                  alt="Github logo"
+                  alt="Resident Advisor logo"
                 />
               </a>
             </li>

@@ -59,9 +59,9 @@ const HeroSection = (props) => {
         <section className={styles.dos}>
           <div className={styles.description}>
             <p>Need a website, eCommerce store, CMS or Mobile App Prototype?</p>
-            <p>I know, designing and developing an entire project from scratch can be overwhelming. That's why our company is your one stop shop for all your design and development needs.</p>
+            <p>Designing and developing an entire project from scratch can be overwhelming. That's why our company is your one stop shop for all your design and development needs.</p>
             <p>From the early design concept stage to final project completion, we will work with you every step of the way to ensure your success.</p>
-            <p>Contact me now for a free consultation!</p>
+            <p>Contact us for a free consultation!</p>
             {/*<Link href={`/contact`}>
               <a>Start your project today!</a>
             </Link>*/}

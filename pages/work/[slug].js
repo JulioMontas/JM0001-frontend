@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Layout from "../../components/layout";
+import Container from '../../components/Container'
 import { request } from "../../lib/datocms";
 
 export async function getStaticPaths() {
@@ -90,13 +90,10 @@ export default function Post({ subscription, preview }) {
   } = useQuerySubscription(subscription);
 
   return (
-    <Layout>
-      <Container>
-        <Header />
-        <article>
-
-        </article>
-      </Container>
-    </Layout>
+    <Container>
+      <Header />
+      <article>
+      </article>
+    </Container>
   );
 }

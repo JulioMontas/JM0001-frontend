@@ -58,9 +58,10 @@ const HeroSection = (props) => {
         <motion.div variants={fadeInUp} className='card'>
         <section className={styles.dos}>
           <div className={styles.description}>
-            <p>Building CMS websites and eCommerce sites, so you don't have to.</p>
-            <p>As your creative partner, we provide an all-inclusive design, development, and website management service tailored specifically to meet your needs.</p>
-            <p>We understand that every business is different and requires its own unique solution to solve its unique problems. Let us be a part of your growth story</p>
+            <p>Need a website, eCommerce store, CMS or Mobile App Prototype?</p>
+            <p>I know, designing and developing an entire project from scratch can be overwhelming. That's why our company is your one stop shop for all your design and development needs.</p>
+            <p>From the early design concept stage to final project completion, we will work with you every step of the way to ensure your success.</p>
+            <p>Contact me now for a free consultation!</p>
             {/*<Link href={`/contact`}>
               <a>Start your project today!</a>
             </Link>*/}

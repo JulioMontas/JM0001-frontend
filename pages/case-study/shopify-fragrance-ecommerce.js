@@ -380,8 +380,6 @@ function CaseStudyIndex() {
             <h3>&#128736; {t('sitemap')}</h3>
             <Swiper
             speed={400}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
             breakpoints={{
               320: {
                 slidesPerView: 1,

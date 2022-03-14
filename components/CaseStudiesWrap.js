@@ -77,7 +77,7 @@ const CaseStudiesWrap = (props) => {
                   <div className={styles.cara1}>
                   <Image
                     src="/img/music_3D_Top.png"
-                    alt={data.title_03}
+                    alt="wordpress front cover"
                     width={200}
                     height={200}
                     quality={1}
@@ -87,7 +87,7 @@ const CaseStudiesWrap = (props) => {
                   <div className={styles.cara2}>
                     <Image
                     src="/img/music_3D_Top.png"
-                    alt={data.title_03}
+                    alt="wordpress right cover"
                     width={200}
                     height={200}
                     quality={1}
@@ -97,7 +97,7 @@ const CaseStudiesWrap = (props) => {
                   <div className={styles.cara3}>
                     <Image
                     src="/img/music_3D_Top.png"
-                    alt={data.title_03}
+                    alt="wordpress left cover"
                     width={200}
                     height={200}
                     quality={1}
@@ -107,7 +107,7 @@ const CaseStudiesWrap = (props) => {
                   <div className={styles.cara4}>
                     <Image
                     src="/img/music_3D_Top.png"
-                    alt={data.title_03}
+                    alt="wordpress side cover"
                     width={200}
                     height={200}
                     quality={1}
@@ -117,7 +117,7 @@ const CaseStudiesWrap = (props) => {
                   <div className={styles.cara5}>
                     <Image
                     src="/img/music_3D_Top.png"
-                    alt={data.title_03}
+                    alt="wordpress top cover"
                     width={200}
                     height={200}
                     quality={1}
@@ -127,7 +127,7 @@ const CaseStudiesWrap = (props) => {
                   <div className={styles.cara6}>
                     <Image
                     src="/img/music_3D_Top.png"
-                    alt={data.title_03}
+                    alt="wordpress bottom cover"
                     width={200}
                     height={200}
                     quality={1}
@@ -155,7 +155,7 @@ const CaseStudiesWrap = (props) => {
                         <div className={styles.cara1}>
                           <Image
                             src="/img/ecommerce.png"
-                            alt={data.title_02}
+                            alt="fragrance front cover"
                             width={200}
                             height={200}
                             quality={1}
@@ -165,7 +165,7 @@ const CaseStudiesWrap = (props) => {
                           <div className={styles.cara2}>
                           <Image
                             src="/img/ecommerce.png"
-                            alt={data.title_02}
+                            alt="fragrance right cover"
                             width={200}
                             height={200}
                             quality={1}
@@ -175,7 +175,7 @@ const CaseStudiesWrap = (props) => {
                           <div className={styles.cara3}>
                           <Image
                             src="/img/ecommerce.png"
-                            alt={data.title_02}
+                            alt="fragrance left cover"
                             width={200}
                             height={200}
                             quality={1}
@@ -185,7 +185,7 @@ const CaseStudiesWrap = (props) => {
                           <div className={styles.cara4}>
                           <Image
                             src="/img/ecommerce.png"
-                            alt={data.title_02}
+                            alt="fragrance side cover"
                             width={200}
                             height={200}
                             quality={1}
@@ -195,7 +195,7 @@ const CaseStudiesWrap = (props) => {
                           <div className={styles.cara5}>
                           <Image
                             src="/img/ecommerce.png"
-                            alt={data.title_02}
+                            alt="fragrance top cover"
                             width={200}
                             height={200}
                             quality={1}
@@ -205,7 +205,7 @@ const CaseStudiesWrap = (props) => {
                           <div className={styles.cara6}>
                           <Image
                             src="/img/ecommerce.png"
-                            alt={data.title_02}
+                            alt="fragrance bottom cover"
                             width={200}
                             height={200}
                             quality={1}
@@ -233,7 +233,7 @@ const CaseStudiesWrap = (props) => {
                       <div className={styles.cara1}>
                         <Image
                         src="/img/Pendulum-3D-Box-Bottom-05.jpg"
-                        alt={data.title_01}
+                        alt="vinyl front cover"
                         width={200}
                         height={200}
                         quality={1}
@@ -243,7 +243,7 @@ const CaseStudiesWrap = (props) => {
                       <div className={styles.cara2}>
                         <Image
                         src="/img/Pendulum-3D-Box-Bottom-05.jpg"
-                        alt={data.title_01}
+                        alt="vinyl left cover"
                         width={200}
                         height={200}
                         quality={1}
@@ -253,7 +253,7 @@ const CaseStudiesWrap = (props) => {
                       <div className={styles.cara3}>
                         <Image
                         src="/img/Pendulum-3D-Box-Bottom-05.jpg"
-                        alt={data.title_01}
+                        alt="vinyl right cover"
                         width={200}
                         height={200}
                         quality={1}
@@ -263,7 +263,7 @@ const CaseStudiesWrap = (props) => {
                       <div className={styles.cara4}>
                         <Image
                         src="/img/Pendulum-3D-Box-Bottom-05.jpg"
-                        alt={data.title_01}
+                        alt="vinyl side cover"
                         width={200}
                         height={200}
                         quality={1}
@@ -273,7 +273,7 @@ const CaseStudiesWrap = (props) => {
                       <div className={styles.cara5}>
                         <Image
                         src="/img/Pendulum-3D-Box-Bottom-05.jpg"
-                        alt={data.title_01}
+                        alt="vinyl top cover"
                         width={200}
                         height={200}
                         quality={1}
@@ -283,7 +283,7 @@ const CaseStudiesWrap = (props) => {
                       <div className={styles.cara6}>
                         <Image
                         src="/img/Pendulum-3D-Box-Bottom-05.jpg"
-                        alt={data.title_01}
+                        alt="vinyl bottom cover"
                         width={200}
                         height={200}
                         quality={1}

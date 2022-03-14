@@ -31,14 +31,33 @@ const stagger = {
 };
 
 const data = {
-  title_01: "Wordpress Artist Theme",
-  content_01: "UI/UX Designer & Front-end Dev, 2017",
+  title_00: "Sebastian Faena: Fashion Photographer Website",
+  content_00: "UX/UI Designer & Develoment, 2013",
+  slug_00: "sebastian-faena-fashion-photographer-website",
 
-  title_02: "Shopify Fragrance eCommerce",
-  content_02: "UI/UX Designer & Front-end Dev, 2018",
+  title_01: "Lancome: Visionnaire Video UI",
+  content_01: "Agency / UX/UI Designer, 2013",
+  slug_01: "lancome-visionnaire-video-ui",
 
-  title_03: "Vinyl Label Design",
-  content_03: "Art Direction, Print Design, 2019",
+  title_02: "Kate Spade: Shoppable Web Video UI",
+  content_02: "Agency / UX/UI Designer, 2014",
+  slug_02: "kate-spade-shoppable-web-video-ui",
+
+  title_03: "Wordpress Theme For Musician",
+  content_03: "UI/UX Designer & Front-end Dev, 2017",
+  slug_03: "wordpress-artist-theme",
+
+  title_04: "Vinyl Label Design",
+  content_04: "Art Direction, Print Design, 2019",
+  slug_04: "vinyl-label-design",
+
+  title_05: "Shopify Fragrance eCommerce",
+  content_05: "UI/UX Designer & Front-end Dev, 2018",
+  slug_05: "shopify-fragrance-ecommerce",
+
+  title_06: "Law Firm Headless CMS",
+  content_06: "Product Designer & Developer, 2021",
+  slug_06: "law-firm-headless-cms",
 }
 
 const CaseStudiesWrap = (props) => {
@@ -70,8 +89,8 @@ const CaseStudiesWrap = (props) => {
             <section>
               <Link href={`/case-study/wordpress-artist-theme`}>
                 <a alt="" rel="alternate" hreflang="en">
-                  <h3 className={styles.title}>{data.title_01}</h3>
-                  <h4 className={styles.description}>{data.content_01}</h4>
+                  <h3 className={styles.title}>{data.title_03}</h3>
+                  <h4 className={styles.description}>{data.content_03}</h4>
                   <div className={styles.cubeWrapper}>
                   <div className={styles.cube}>
                   <div className={styles.cara1}>
@@ -148,8 +167,8 @@ const CaseStudiesWrap = (props) => {
             <section>
               <Link href={`/case-study/shopify-fragrance-ecommerce`}>
                 <a alt={data.title_02} rel="alternate" hreflang="en">
-                  <h3 className={styles.title}>{data.title_02}</h3>
-                  <h4 className={styles.description}>{data.content_02}</h4>
+                  <h3 className={styles.title}>{data.title_05}</h3>
+                  <h4 className={styles.description}>{data.content_05}</h4>
                   <div className={styles.cubeWrapper}>
                       <div className={styles.cube}>
                         <div className={styles.cara1}>
@@ -226,8 +245,8 @@ const CaseStudiesWrap = (props) => {
             <section>
               <Link href={`/case-study/vinyl-label-design`}>
                 <a alt={data.title_03} rel="alternate" hreflang="en">
-                  <h3 className={styles.title}>{data.title_03}</h3>
-                  <h4 className={styles.description}>{data.content_03}</h4>
+                  <h3 className={styles.title}>{data.title_04}</h3>
+                  <h4 className={styles.description}>{data.content_04}</h4>
                   <div className={styles.cubeWrapper}>
                     <div className={styles.cube}>
                       <div className={styles.cara1}>

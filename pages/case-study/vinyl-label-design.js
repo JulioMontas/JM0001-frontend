@@ -13,6 +13,7 @@ import RelatedCTA from '../../components/RelatedCTA'
 import styles from '../../styles/Report.module.css'
 import { request } from "../../lib/datocms"
 import { StructuredText } from "react-datocms"
+import NavBar from '../../components/NavBar'
 
 const easing = [.6, -.05, .01, .99];
 const fadeInUp = {
@@ -116,6 +117,7 @@ export default function CaseStudyIndex({ data: {site} }) {
 
     <motion.div exit={{y: -300, opacity: 0 }} initial='initial' animate='animate'>
     <motion.div  variants={stagger}>
+    <NavBar />
       <div className={styles.mainIndex}>
         <div className={styles.mainCenterCont}>
           <div className={styles.gridContainer}>

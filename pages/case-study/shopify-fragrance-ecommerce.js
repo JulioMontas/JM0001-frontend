@@ -9,6 +9,7 @@ import Container from '../../components/Container'
 import ExitButton from '../../components/ExitButton'
 import PaletteList from '../../components/PaletteList'
 import RelatedCTA from '../../components/RelatedCTA'
+import NavBar from '../../components/NavBar'
 import styles from '../../styles/Report.module.css'
 
 const easing = [.6, -.05, .01, .99];
@@ -56,6 +57,7 @@ function CaseStudyIndex() {
     </Head>
     <motion.div exit={{y: -300, opacity: 0 }} initial='initial' animate='animate'>
     <motion.div variants={stagger}>
+    <NavBar />
       <div className={styles.mainIndex}>
         <div className={styles.mainCenterCont}>
           <div className={styles.gridContainer}>

@@ -10,6 +10,7 @@
     "sitemap": "Sitemap",
     "title": "Title",
 
+
     "title_00": "Adorama - eCommerce",
     "content_00": "UI/UX Designer & Front-end Dev, 2019",
     "overviewContent_00": "US owned and operated electronics retailer founded in 1975. They sell new and used cameras, lenses, audio, video, drones, music instruments, and more in a massive, multi-floored Chelsea store in New York City.",
@@ -28,6 +29,7 @@
     "productList_00_b": "Camping, hiking, climbing, cycling, and outdoor equipment",
     "productList_00_c": "Rent digital cinema cameras, lenses, grips, lighting, photography, and video gear",
     "productList_00_d": "Scuba diving, snorkeling, and underwater gear ",
+
 
     "title_01": "Vinyl Label Design",
     "content_01": "Art Direction, Print Design, 2019",
@@ -59,6 +61,7 @@
     "pressAndContactContent_02a": "The contact page was actually the first version of the page returning users for future improvements in case there was any abuse from a clever user.",
     "pressAndContactContent_02b": "The press release page was designed with an archive in mind. Simple components of a horizontal rectangle with minimal height of 50px, containing the publication name with any extra information in the form of a link icon for easy navigation if there are multiple.",
 
+
     "title_03": "Custom Wordpress Theme",
     "content_03": "UI/UX Designer & Front-end Dev, 2017",
     "overviewContent_03": "A multi-talented EDM/Pop artist, songwriter and producer with over 50+ releases. Searching for a digital space to connect with her fans.",
@@ -79,28 +82,31 @@
     "developmentContentList_03d": "Cross-device responsiveness.",
     "resultsContent_03": "Text",
 
+
     "title_04": "Law Firm Headless CMS",
     "content_04": "Product Designer & Developer, 2021",
     "overviewContent_04": "The redesign of the BTG website to improve user experience, site navigation, follow best practices of SEO and integrate a headless content management system (CMS) for admin users to make edits, deletions, and enter new content in a friendly and simple dashboard.",
     "backgroundContent_04": "text",
     "landingPageContent_04": "Text",
 
-    "title_05": "Lancome Visionnaire: Video UI",
+
+    "title_05": "Lancome: Visionnaire Video UI",
     "content_05": "Agency / UX/UI Designer, 2013",
     "overviewContent_05": "Microsite",
-    "backgroundContent_05": "text",
+    "backgroundContent_05": "The client asked for a visual design of an interactive video player including icons, buttons, sliders, and video player bar.",
     "landingPageContent_05": "Text",
 
-    "title_06": "Kate Spade: Shoppable Web Video",
+
+    "title_06": "Kate Spade: Shoppable Web Video UI",
     "content_06": "Agency / UX/UI Designer, 2014",
     "overviewContent_06": "A visual design of an interactive, shopable video player.",
     "backgroundContent_06": "text",
     "landingPageContent_06": "Text",
 
 
-    "title_07": "Sebastianfaena.com",
+    "title_07": "Sebastian Faena: Fashion Photographer Website",
     "content_07": "UX/UI Designer & Develoment, 2013",
-    "overviewContent_07": "micro-site for fashion photographer Sebastian Faena..",
+    "overviewContent_07": "Micro contact website.",
     "backgroundContent_07": "text",
-    "landingPageContent_07": "Text"
+    "landingPageContent_07": "The landing page image changes to a random image each time it is refreshed."
 }

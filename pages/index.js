@@ -28,7 +28,7 @@ export default function Homepage({ data }) {
       <div className={styles.main}>
       <Container>
         <HeroSection
-          title="Product Designer"
+          title="Hi, I'm Julio - A freelance designer and developer"
         />
         <CaseStudiesWrap
           title="Case Studies"

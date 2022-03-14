@@ -22,11 +22,13 @@
 }
 .title {
     color:#FFF;
+    font-size: 2em;
     text-transform: uppercase;
     text-align: center;
     font-style: italic;
     letter-spacing: 1px;
     margin-top: 10px;
+    line-height: 40px;
 }
 .description{
   line-height: 30px;
@@ -82,17 +84,21 @@
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: auto;
-    column-gap: 5em;
+    column-gap: 4em;
     grid-template-areas:
         "uno dos";
   }
   .main p {
-    line-height: 30px;
     text-align: left;
-    font-size: 1rem;
+    font-size: 1.15rem;
+    line-height: 35px;
   }
   .socialLinks{
     justify-content: left;
+  }
+  .title {
+    text-align: left;
+    line-height: 10px;
   }
 }
 

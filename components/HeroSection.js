@@ -46,25 +46,25 @@ const HeroSection = (props) => {
           <Image
             src="/me.png"
             alt="self portrait wearing sunglasses indoors"
-            width={200}
-            height={200}
+            width={300}
+            height={300}
           />
-          <h1 className={styles.title}>
-            {props.title}
-          </h1>
         </section>
         </motion.div>
 
         <motion.div variants={fadeInUp} className='card'>
         <section className={styles.dos}>
           <div className={styles.description}>
-            <p>Need a website, eCommerce store, CMS or Mobile App Prototype?</p>
+            <h1 className={styles.title}>
+              {props.title}
+            </h1>
             <p>Designing and developing an entire project from scratch can be overwhelming. That's why our company is your one stop shop for all your design and development needs.</p>
-            <p>From the early design concept stage to final project completion, we will work with you every step of the way to ensure your success.</p>
-            <p>Contact us for a free consultation!</p>
-            {/*<Link href={`/contact`}>
-              <a>Start your project today!</a>
-            </Link>*/}
+            <p>From the early design concept stage to final project execution, we will work with you every step of the way to ensure success on your website, eCommerce store, CMS or Mobile App Prototype</p>
+            <p>
+              <Link href={`/contact`}>
+                <a>Contact us</a>
+              </Link> for a free consultation!
+            </p>
           </div>
           <ul className={styles.socialLinks}>
             <li>

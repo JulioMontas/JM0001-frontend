@@ -8,6 +8,7 @@ import Container from '../../components/Container'
 import ExitButton from '../../components/ExitButton'
 import PaletteList from '../../components/PaletteList'
 import RelatedCTA from '../../components/RelatedCTA'
+import NavBar from '../../components/NavBar'
 import styles from '../../styles/Report.module.css'
 
 const easing = [.6, -.05, .01, .99];
@@ -38,6 +39,7 @@ const stagger = {
 function CaseStudyIndex() {
   const { t } = useTranslation('caseStudy')
   return <div className={styles.backgroundColor}>
+  <NavBar />
   <Container>
     <Head>
       <title>{t('title_04')}</title>

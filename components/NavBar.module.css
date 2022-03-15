@@ -1,23 +1,50 @@
 .header{
   width: 100%;
+  position: fixed;
   display: flex;
   justify-content: space-between;
-  position: fixed;
-  padding: 0;
-  z-index: 9999;
+  z-index: 99999;
+  padding-top:1em;
+  margin-top: -30px;
 }
-.title,
-.contact{
-  font-size: 0.8em;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-.title{
-  /* margin-left: 10px; */
+.header ul{
+  padding-right: 20px;
 }
 .contact{
   margin-right: 10px;
+}
+/* https://www.tutorialrepublic.com/faq/show-hide-dropdown-menu-on-mouse-hover-using-css.php */
+.changeLang li {
+  display: inline-block;
+  position: relative;
+  line-height: 21px;
+  text-align: left;
+}
+.changeLang li a {
+  font-weight: bold;
+  display: block;
+  color: var(--text-secondary);
+  text-decoration: none;
+  opacity: 0.6;
+  transition: all 1s ease;
+}
+.changeLang li a:hover{
+    opacity: 1;
+}
+.dropdown {
+  min-width: 100%;
+  display: none;
+  position: absolute;
+  z-index: 9999;
+  left: 0;
+  opacity: 1;
+}
+.changeLang li:hover .dropdown {
+  display: block;
+}
+.changeLang li .dropdown li a:hover{
+  display: block;
+  opacity: 1;
 }
 /* Mobile 320px  */
 @media screen and (min-width: 30em) {}
@@ -28,13 +55,12 @@
 /* Desktop 980px to 1280px  */
 @media screen and (min-width: 57em) {
   .header{
-    width: 50%;
-    padding:1em 0;
+    width: 1200px;
     justify-content: space-between;
-    display: flex;
     position: fixed;
-    z-index: 9999;
-    margin-top: 0px;
+  }
+  .header ul{
+    padding-right: 0;
   }
   .title{
     font-size: 1em;

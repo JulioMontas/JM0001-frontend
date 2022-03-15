@@ -44,8 +44,8 @@ export default function Homepage({ data }) {
             title="Side Projects"
           />
         </div>
-        <div className={stylesHome.spacePadding}>
-          <div data-tf-widget="IBnyOp" data-tf-iframe-props="title=JulioMontas.com" data-tf-medium="snippet" style={{width:`100%`,height:`750px`}}></div><script src="//embed.typeform.com/next/embed.js"></script>
+        <div className={stylesHome.spacePadding} style={{padding:`10px`}}>
+          <div data-tf-widget="IBnyOp" data-tf-iframe-props="title=JulioMontas.com" data-tf-medium="snippet" style={{width:`100%`,height:`750px`}}></div><script src="//embed.typeform.com/next/embed.js" strategy="beforeInteractive"></script>
         </div>
       </Container>
       </div>

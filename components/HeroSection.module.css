@@ -78,7 +78,7 @@
 @media screen and (min-width: 57em) {
   .main {
     padding: 0;
-    height: 95vh;
+    height: 75vh;
     align-items: center;
     text-align: center;
     display: grid;

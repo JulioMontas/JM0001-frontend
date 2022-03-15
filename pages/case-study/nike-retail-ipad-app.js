@@ -39,19 +39,19 @@ function CaseStudyIndex() {
   const { t } = useTranslation('caseStudy')
   return <Container>
     <Head>
-      <title>{t('title_06')}</title>
-      <meta name='twitter:url' content='https://juliomontas.com/case-study/kate-spade-shoppable-web-video-ui/' />
-      <meta property='og:url' content='https://juliomontas.com/case-study/kate-spade-shoppable-web-video-ui/' />
+      <title>{t('title_08')}</title>
+      <meta name='twitter:url' content='https://juliomontas.com/case-study/nike-retail-ipad-app/' />
+      <meta property='og:url' content='https://juliomontas.com/case-study/nike-retail-ipad-app/' />
       <meta property='og:image' content='https://juliomontas.com/img/ecommerce/mockupFragrance_A01.jpg' />
       <meta name='twitter:image' content='https://juliomontas.com/img/ecommerce/mockupFragrance_A01.jpg' />
-      <meta property='og:title' content='Kate Spade: Shoppable Web Video UI' />
-      <meta name='twitter:title' content='Kate Spade: Shoppable Web Video UI' />
-      <meta name="description" content="UI design interactive of a shopable video player" key="description"/>
-      <meta property='og:description' content='UI design interactive of a shopable video player' />
-      <meta name='twitter:description' content='UI design interactive of a shopable video player' />
-      <link rel="canonical" href="https://juliomontas.com/case-study/kate-spade-shoppable-web-video-ui/" />
-      <link rel="alternate" href="https://juliomontas.com/case-study/kate-spade-shoppable-web-video-ui/" hreflang="en-us" />
-      <link rel="alternate" href="https://juliomontas.com/es-us//case-study/kate-spade-shoppable-web-video-ui/" hreflang="es-us" />
+      <meta property='og:title' content='Nike: Retail iPad App Re-skinning' />
+      <meta name='twitter:title' content='Nike: Retail iPad App Re-skinning' />
+      <meta name="description" content="Re-skinning an existing in-store app to match the look and feel of Nike branding for wider store distribution." key="description"/>
+      <meta property='og:description' content='Re-skinning an existing in-store app to match the look and feel of Nike branding for wider store distribution.' />
+      <meta name='twitter:description' content='Re-skinning an existing in-store app to match the look and feel of Nike branding for wider store distribution.' />
+      <link rel="canonical" href="https://juliomontas.com/case-study/nike-retail-ipad-app/" />
+      <link rel="alternate" href="https://juliomontas.com/case-study/nike-retail-ipad-app/" hreflang="en-us" />
+      <link rel="alternate" href="https://juliomontas.com/es-us/case-study/nike-retail-ipad-app/" hreflang="es-us" />
     </Head>
     <motion.div exit={{y: -300, opacity: 0 }} initial='initial' animate='animate'>
     <motion.div variants={stagger}>
@@ -62,8 +62,8 @@ function CaseStudyIndex() {
           <motion.div variants={fadeInUp}>
           <div className={styles.flipSwitch}>
             <div>
-              <h1>{t('title_06')}</h1>
-              <p>{t('content_06')}</p>
+              <h1>{t('title_08')}</h1>
+              <p>{t('content_08')}</p>
             </div>
             <ExitButton url="/" />
           </div>
@@ -72,18 +72,18 @@ function CaseStudyIndex() {
           <motion.div variants={fadeInUp}>
           <div className={styles.flipSwitch}>
             <h2>&#128466; {t('overview')}</h2>
-            <p>{t('overviewContent_06')}</p>
+            <p>{t('overviewContent_08')}</p>
           </div>
           </motion.div>
 
           <motion.div variants={fadeInUp}>
           <div>
-            <h2>&#128248; Actual Website</h2>
+            <h2>&#128248; Video Player</h2>
             <Image
-              src="/img/case-study/ks00.jpg"
+              src="/img/case-study/n01.jpg"
               alt="In the night at the beach"
-              width={1278}
-              height={857}
+              width={1024}
+              height={747}
               quality={75}
               layout="responsive"
               loading="lazy"
@@ -110,17 +110,17 @@ function CaseStudyIndex() {
               },
               1200: {
                 slidesPerView: 1,
-                spaceBetween: 10,
-                width: 1023
+                spaceBetween: 20,
+                width: 1024
               }
             }}
             >
           <SwiperSlide>
                 <Image
-                src="/img/case-study/ks02.jpg"
-                alt="Mockups design 1"
-                width={1023}
-                height={770}
+                src="/img/case-study/n03.jpg"
+                alt="Mockups design 2"
+                width={1024}
+                height={747}
                 quality={20}
                 layout="responsive"
                 loading="lazy"
@@ -128,10 +128,10 @@ function CaseStudyIndex() {
           </SwiperSlide>
           <SwiperSlide>
                 <Image
-                src="/img/case-study/ks03.jpg"
-                alt="Mockups design 2"
-                width={1023}
-                height={770}
+                src="/img/case-study/n02.jpg"
+                alt="Mockups design 3"
+                width={1024}
+                height={747}
                 quality={20}
                 layout="responsive"
                 loading="lazy"
@@ -139,21 +139,10 @@ function CaseStudyIndex() {
           </SwiperSlide>
           <SwiperSlide>
                 <Image
-                src="/img/case-study/ks04.jpg"
-                alt="Mockups design 2"
-                width={1023}
-                height={770}
-                quality={20}
-                layout="responsive"
-                loading="lazy"
-                />
-          </SwiperSlide>
-          <SwiperSlide>
-                <Image
-                src="/img/case-study/ks05.jpg"
-                alt="Mockups design 2"
-                width={1023}
-                height={770}
+                src="/img/case-study/n05.jpg"
+                alt="Mockups design 4"
+                width={1024}
+                height={747}
                 quality={20}
                 layout="responsive"
                 loading="lazy"
@@ -164,15 +153,17 @@ function CaseStudyIndex() {
           </motion.div>
 
           <motion.div variants={fadeInUp}>
-          <div className={styles.flipSwitch}>
-            <h2>URL</h2>
-            <ul>
-              <RelatedCTA
-                url="https://www.fastcompany.com/3021852/kate-spade-new-york-gives-the-banner-a-purpose-with-this-shoppable-video-ad"
-                title="fastcompany.com"
-                content="Kate Spade New York Gives The Banner A Purpose With This Shoppable Video Ad"
-              />
-            </ul>
+          <div>
+            <h2>&#128248; Video Player</h2>
+            <Image
+              src="/img/case-study/n06.jpg"
+              alt="In the night at the beach"
+              width={1024}
+              height={748}
+              quality={75}
+              layout="responsive"
+              loading="lazy"
+            />
           </div>
           </motion.div>
 
@@ -201,9 +192,9 @@ function CaseStudyIndex() {
                 content={t('content_03')}
               />
               <RelatedCTA
-                url={"/case-study/" + t('slug_08')}
-                title={t('title_08')}
-                content={t('content_08')}
+                url={"/case-study/" + t('slug_06')}
+                title={t('title_06')}
+                content={t('content_06')}
               />
               <RelatedCTA
                 url={"/case-study/" + t('slug_05')}

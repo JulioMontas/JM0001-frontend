@@ -3,6 +3,7 @@ import styles from './SideProjectWrap.module.css'
 import Container from '../components/Container'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 const easing = [.6, -.05, .01, .99];
@@ -52,6 +53,12 @@ const SideProjectWrap = (props) => {
         </h2>
         <div className={styles.boxes}>
         <Swiper
+        style={{
+          "--swiper-navigation-color": "#FFFC00",
+          "--swiper-pagination-color": "#FFFC00",
+        }}
+        modules={[Navigation, Pagination, Scrollbar, A11y]}
+       pagination={{ clickable: true }}
         speed={400}
         breakpoints={{
           320: {

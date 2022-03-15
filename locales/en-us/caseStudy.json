@@ -10,8 +10,8 @@
     "sitemap": "Sitemap",
     "title": "Title",
 
-
     "title_00": "Adorama - eCommerce",
+    "slug_00": "adorama-ecommerce",
     "content_00": "UI/UX Designer & Front-end Dev, 2019",
     "overviewContent_00": "US owned and operated electronics retailer founded in 1975. They sell new and used cameras, lenses, audio, video, drones, music instruments, and more in a massive, multi-floored Chelsea store in New York City.",
     "backgroundContent_00": "Working alongside multidisciplinary teams of designers, developers outside and in-house, marketers and product managers through the entire design process.",
@@ -30,8 +30,8 @@
     "productList_00_c": "Rent digital cinema cameras, lenses, grips, lighting, photography, and video gear",
     "productList_00_d": "Scuba diving, snorkeling, and underwater gear ",
 
-
     "title_01": "Vinyl Label Design",
+    "slug_01": "vinyl-label-design",
     "content_01": "Art Direction, Print Design, 2019",
     "overviewContent_01": "World-class Colombian DJ, producer and sound engineer based in New York City. His work spans numerous genres, producing music for both established and breakout artists.",
     "moodboard_01": "Moodboard: Endless Motion of Energy",
@@ -40,7 +40,9 @@
     "photographyExploration": "Photography exploration",
     "titleContent_01": "I spent days doing research and asking around for a minimal sans serif font family that captures a melting abstraction yet also captures the style of artist Pablo Carpio’s paintings.",
     "vinylCover": "Vinyl Cover",
-    "title_02": "Shopify Fragrance eCommerce",
+
+    "title_02": "Custom Shopify Fragrance eCommerce",
+    "slug_02": "custom-shopify-fragrance-ecommerce",
     "content_02": "UI/UX Designer & Front-end Dev, 2018",
     "overviewContent_02": "The Fragrances Group is an American distributor of European fragrance lines with retail partners like Bloomingdale’s, Bergdorf Goodman and Barneys. It also serves as a sole distributor for Christian Siriano, Thalia Sodi and Banana Republic fragrances.",
     "moodboard_02": "Moodboard: Deep stages of relaxation",
@@ -61,8 +63,8 @@
     "pressAndContactContent_02a": "The contact page was actually the first version of the page returning users for future improvements in case there was any abuse from a clever user.",
     "pressAndContactContent_02b": "The press release page was designed with an archive in mind. Simple components of a horizontal rectangle with minimal height of 50px, containing the publication name with any extra information in the form of a link icon for easy navigation if there are multiple.",
 
-
-    "title_03": "Custom Wordpress Theme",
+    "title_03": "Custom Wordpress Theme For Musician",
+    "slug_03": "custom-wordpress-artist-theme",
     "content_03": "UI/UX Designer & Front-end Dev, 2017",
     "overviewContent_03": "A multi-talented EDM/Pop artist, songwriter and producer with over 50+ releases. Searching for a digital space to connect with her fans.",
     "moodboard_03": "Moodboard",
@@ -82,31 +84,38 @@
     "developmentContentList_03d": "Cross-device responsiveness.",
     "resultsContent_03": "Text",
 
-
     "title_04": "Law Firm Headless CMS",
+    "slug_04": "law-firm-headless-cms",
     "content_04": "Product Designer & Developer, 2021",
     "overviewContent_04": "The redesign of the BTG website to improve user experience, site navigation, follow best practices of SEO and integrate a headless content management system (CMS) for admin users to make edits, deletions, and enter new content in a friendly and simple dashboard.",
     "backgroundContent_04": "text",
     "landingPageContent_04": "Text",
 
-
     "title_05": "Lancome: Visionnaire Video UI",
+    "slug_05": "lancome-visionnaire-video-ui",
     "content_05": "Agency / UX/UI Designer, 2013",
-    "overviewContent_05": "Microsite",
-    "backgroundContent_05": "The client asked for a visual design of an interactive video player including icons, buttons, sliders, and video player bar.",
+    "overviewContent_05": "Interactive video player including icons, buttons, sliders, and video player bar.",
+    "backgroundContent_05": "Text",
     "landingPageContent_05": "Text",
 
-
     "title_06": "Kate Spade: Shoppable Web Video UI",
+    "slug_06": "kate-spade-shoppable-web-video-ui",
     "content_06": "Agency / UX/UI Designer, 2014",
-    "overviewContent_06": "A visual design of an interactive, shopable video player.",
+    "overviewContent_06": "The video player features a shoppable interactive feature throughout each frame.",
     "backgroundContent_06": "text",
     "landingPageContent_06": "Text",
 
-
-    "title_07": "Sebastian Faena: Fashion Photographer Website",
+    "title_07": "Sebastian Faena: Fashion Photographer Miscrosite",
+    "slug_07": "sebastian-faena-fashion-photographer-miscrosite",
     "content_07": "UX/UI Designer & Develoment, 2013",
-    "overviewContent_07": "Micro contact website.",
+    "overviewContent_07": "The landing page image changes to a shuffled image each time it is refreshed with a single link for a email contact",
     "backgroundContent_07": "text",
-    "landingPageContent_07": "The landing page image changes to a random image each time it is refreshed."
+    "landingPageContent_07": "The landing page image changes to a random image each time it is refreshed.",
+
+    "title_08": "Nike: Retail iPad App",
+    "slug_08": "nike-retail-ipad-app",
+    "content_08": "Agency / UX/UI Designer, 2014",
+    "overviewContent_08": "Re-skinning an existing in-store app to match the look and feel of Nike branding for wider store distribution.",
+    "backgroundContent_08": "text",
+    "landingPageContent_08": "text"
 }

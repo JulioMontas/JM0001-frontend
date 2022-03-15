@@ -2,7 +2,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from "framer-motion"
 import { Swiper, SwiperSlide } from 'swiper/react';
-import ReactPlayer from "react-player"
 import Head from 'next/head'
 import useTranslation from 'next-translate/useTranslation'
 import Container from '../../components/Container'
@@ -41,18 +40,18 @@ function CaseStudyIndex() {
   return <Container>
     <Head>
       <title>{t('title_04')}</title>
-      <meta name='twitter:url' content='https://juliomontas.com/case-study/2/' />
-      <meta property='og:url' content='https://juliomontas.com/case-study/2/' />
+      <meta name='twitter:url' content='https://juliomontas.com/case-study/law-firm-headless-cms/' />
+      <meta property='og:url' content='https://juliomontas.com/case-study/law-firm-headless-cms/' />
       <meta property='og:image' content='https://juliomontas.com/img/ecommerce/mockupFragrance_A01.jpg' />
       <meta name='twitter:image' content='https://juliomontas.com/img/ecommerce/mockupFragrance_A01.jpg' />
-      <meta property='og:title' content='Shopify Fragrance eCommerce - A Discovery In Scent | Julio Montás' />
-      <meta name='twitter:title' content='Shopify Fragrance eCommerce - A Discovery In Scent | Julio Montás' />
-      <meta name="description" content="A luxury fragrances distribution company going B2C with their first shofity eCommerce online store" key="description"/>
-      <meta property='og:description' content='A luxury fragrances distribution company going B2C with their first shofity eCommerce online store' />
-      <meta name='twitter:description' content='A luxury fragrances distribution company going B2C with their first shofity eCommerce online store' />
-      <link rel="canonical" href="https://juliomontas.com/case-study/2/" />
-      <link rel="alternate" href="https://juliomontas.com/case-study/2/" hreflang="en-us" />
-      <link rel="alternate" href="https://juliomontas.com/es-us//case-study/2/" hreflang="es-us" />
+      <meta property='og:title' content='Law Firm Headless CMS' />
+      <meta name='twitter:title' content='Law Firm Headless CMS' />
+      <meta name="description" content="Redesign website to improve user experience, site navigation, follow best practices of SEO and integrate a headless CMS" key="description"/>
+      <meta property='og:description' content='Redesign website to improve user experience, site navigation, follow best practices of SEO and integrate a headless CMS' />
+      <meta name='twitter:description' content='Redesign website to improve user experience, site navigation, follow best practices of SEO and integrate a headless CMS' />
+      <link rel="canonical" href="https://juliomontas.com/case-study/law-firm-headless-cms/" />
+      <link rel="alternate" href="https://juliomontas.com/case-study/law-firm-headless-cms/" hreflang="en-us" />
+      <link rel="alternate" href="https://juliomontas.com/es-us/case-study/law-firm-headless-cms/" hreflang="es-us" />
     </Head>
     <motion.div exit={{y: -300, opacity: 0 }} initial='initial' animate='animate'>
     <motion.div variants={stagger}>
@@ -72,14 +71,14 @@ function CaseStudyIndex() {
 
           <motion.div variants={fadeInUp}>
           <div className={styles.flipSwitch}>
-            <h3>&#128466; {t('overview')}</h3>
+            <h2>&#128466; {t('overview')}</h2>
             <p>{t('overviewContent_04')}</p>
           </div>
           </motion.div>
 
           <motion.div variants={fadeInUp}>
           <div>
-            <h3>&#128444; {t('moodboard_03')}</h3>
+            <h2>&#128444; {t('moodboard_03')}</h2>
             <Swiper
             speed={400}
             breakpoints={{
@@ -194,14 +193,14 @@ function CaseStudyIndex() {
 
           <motion.div variants={fadeInUp}>
           <div className={styles.flipSwitch}>
-            <h3>&#128640; {t('background')}</h3>
+            <h2>&#128640; {t('background')}</h2>
             <p>{t('backgroundContent_04')}</p>
           </div>
           </motion.div>
 
           <motion.div variants={fadeInUp}>
           <div className={styles.flipSwitch}>
-            <h3>&#9997; Oswald By Vernon Adams, Kalapi Gajjar, Cyreal</h3>
+            <h2>&#9997; Oswald By Vernon Adams, Kalapi Gajjar, Cyreal</h2>
           </div>
           </motion.div>
 
@@ -218,7 +217,7 @@ function CaseStudyIndex() {
 
           <motion.div variants={fadeInUp}>
           <div className={styles.flipSwitch}>
-            <h3>&#127853; {t('gradient')}</h3>
+            <h2>&#127853; {t('gradient')}</h2>
             <div className={styles.secColorGradient}>
               <span style={{backgroundImage:'linear-gradient(#3d586b,rgba(29,56,81,.6))'}}></span>
             </div>
@@ -227,59 +226,52 @@ function CaseStudyIndex() {
 
           <motion.div variants={fadeInUp}>
           <div className={styles.SecBackground}>
-            <h3>&#128736; {t('sitemap')}</h3>
+            <h2>&#128736; {t('sitemap')}</h2>
           </div>
           </motion.div>
 
           <motion.div variants={fadeInUp}>
-          <div className={styles.secLandingPage}>
-            <div className={styles.flipSwitch}>
-              <h3>&#127968; {t('landingPage')}</h3>
-              <p>{t('landingPageContent_04')}</p>
-            </div>
-            <Swiper
-            speed={400}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
-            breakpoints={{
-              320: {
-                slidesPerView: 1,
-                spaceBetween: 10,
-                width: 310
-              },
-              1200: {
-                slidesPerView: 2,
-                spaceBetween: 10,
-                width: 1000
-              }
-            }}
-            >
-              <SwiperSlide>
-                <Image
-                src="/img/ecommerce/"
-                alt="Mockup Landing Before"
-                width={1440}
-                height={800}
-                quality={50}
-                layout="responsive"
-                loading="lazy"
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <Image
-                src="/img/ecommerce/"
-                alt="Mockup Landing After"
-                width={1440}
-                height={800}
-                quality={50}
-                layout="responsive"
-                loading="lazy"
-                />
-              </SwiperSlide>
-            </Swiper>
+          <div className={styles.flipSwitch}>
+            <h2>More Case Study</h2>
+            <ul>
+              <RelatedCTA
+                url={"/case-study/" + t('slug_01')}
+                title={t('title_01')}
+                content={t('content_01')}
+              />
+              <RelatedCTA
+                url={"/case-study/" + t('slug_02')}
+                title={t('title_02')}
+                content={t('content_02')}
+              />
+              <RelatedCTA
+                url={"/case-study/" + t('slug_03')}
+                title={t('title_03')}
+                content={t('content_03')}
+              />
+              <RelatedCTA
+                url={"/case-study/" + t('slug_08')}
+                title={t('title_08')}
+                content={t('content_08')}
+              />
+              <RelatedCTA
+                url={"/case-study/" + t('slug_06')}
+                title={t('title_06')}
+                content={t('content_06')}
+              />
+              <RelatedCTA
+                url={"/case-study/" + t('slug_05')}
+                title={t('title_05')}
+                content={t('content_05')}
+              />
+              <RelatedCTA
+                url={"/case-study/" + t('slug_07')}
+                title={t('title_07')}
+                content={t('content_07')}
+              />
+            </ul>
           </div>
           </motion.div>
-
 
           </div>
           </div>

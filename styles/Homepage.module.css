@@ -22,6 +22,9 @@
   font-weight: bold;
   margin-bottom: 10px;
 }
+.spacePadding{
+    padding: 4rem 0;
+}
 /* Mobile 320px  */
 @media screen and (min-width: 30em) {}
 /* Table */
@@ -30,6 +33,9 @@
 @media screen and (min-width: 57em) {
   .main h2{
     opacity: 1;
+  }
+  .spacePadding{
+      padding: 8rem 0;
   }
 }
 /* Desktop 1920px */

@@ -4,6 +4,7 @@
   align-items: center;
   text-align: center;
   padding: 0 1em;
+  background: red;
 }
 .main h2,
 .main p{

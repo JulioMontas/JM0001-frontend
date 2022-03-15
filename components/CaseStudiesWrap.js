@@ -1,8 +1,10 @@
 import Image from 'next/image'
 import styles from './CaseStudiesWrap.module.css'
 import Container from '../components/Container'
+import ThreeDimCube from '../components/ThreeDimCube'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 const easing = [.6, -.05, .01, .99];
@@ -30,46 +32,72 @@ const stagger = {
   }
 };
 
-const data = {
-  title_00: "Sebastian Faena: Fashion Photographer Website",
-  content_00: "UX/UI Designer & Develoment, 2013",
-  slug_00: "sebastian-faena-fashion-photographer-website",
-
-  title_01: "Lancome: Visionnaire Video UI",
-  content_01: "Agency / UX/UI Designer, 2013",
-  slug_01: "lancome-visionnaire-video-ui",
-
-  title_02: "Kate Spade: Shoppable Web Video UI",
-  content_02: "Agency / UX/UI Designer, 2014",
-  slug_02: "kate-spade-shoppable-web-video-ui",
-
-  title_03: "Wordpress Theme For Musician",
-  content_03: "UI/UX Designer & Front-end Dev, 2017",
-  slug_03: "wordpress-artist-theme",
-
-  title_04: "Vinyl Label Design",
-  content_04: "Art Direction, Print Design, 2019",
-  slug_04: "vinyl-label-design",
-
-  title_05: "Shopify Fragrance eCommerce",
-  content_05: "UI/UX Designer & Front-end Dev, 2018",
-  slug_05: "shopify-fragrance-ecommerce",
-
-  title_06: "Law Firm Headless CMS",
-  content_06: "Product Designer & Developer, 2021",
-  slug_06: "law-firm-headless-cms",
-}
+const data = [
+  {
+    title: "Law Firm Headless CMS",
+    content: "Product Designer & Developer, 2021",
+    slug: "law-firm-headless-cms",
+    cover: ""
+  },
+  {
+    title: "Vinyl Label Design",
+    content: "Art Direction, Print Design, 2019",
+    slug: "vinyl-label-design",
+    cover: "Pendulum-3D-Box-Back-03.jpg"
+  },
+  {
+    title: "Custom Shopify Fragrance eCommerce",
+    content: "UI/UX Designer & Front-end Dev, 2018",
+    slug: "custom-shopify-fragrance-ecommerce",
+    cover: "ecommerce.png"
+  },
+  {
+    title: "Custom Wordpress Theme For Musician",
+    content: "UI/UX Designer & Front-end Dev, 2017",
+    slug: "custom-wordpress-artist-theme",
+    cover: "music_3D_Top.png"
+  },
+  {
+    title: "Nike: Retail iPad App",
+    content: "Agency / UX/UI Designer, 2014",
+    slug: "nike-retail-ipad-app",
+    cover: "Nike_3D_003.jpg"
+  },
+  {
+    title: "Kate Spade: Shoppable Web Video UI",
+    content: "Agency / UX/UI Designer, 2014",
+    slug: "kate-spade-shoppable-web-video-ui",
+    cover: "KateSpade_3D_01.gif"
+  },
+  {
+    title: "Lancome: Visionnaire Video UI",
+    content: "Agency / UX/UI Designer, 2013",
+    slug: "lancome-visionnaire-video-ui",
+    cover: "Lancome_3D_005.jpg"
+  },
+  {
+    title: "Sebastian Faena: Fashion Photographer miscrosite",
+    content: "UX/UI Designer & Develoment, 2013",
+    slug: "sebastian-faena-fashion-photographer-miscrosite",
+    cover: "SebastianFaena_3D_01.gif"
+  }
+]
 
 const CaseStudiesWrap = (props) => {
-
   return(
-      <motion.div exit={{ opacity: 0 }} initial='initial' animate='animate'>
-        <motion.div variants={stagger} className={styles.main}>
+    <motion.div exit={{ opacity: 0 }} initial='initial' animate='animate'>
+      <motion.div variants={stagger} className={styles.main}>
         <h2 className={styles.title}>
           {props.title}
         </h2>
         <div className={styles.boxes}>
         <Swiper
+        style={{
+          "--swiper-navigation-color": "#FFFC00",
+          "--swiper-pagination-color": "#FFFC00",
+        }}
+         modules={[Navigation, Pagination, Scrollbar, A11y]}
+        pagination={{ clickable: true }}
         speed={400}
         breakpoints={{
           320: {
@@ -79,247 +107,27 @@ const CaseStudiesWrap = (props) => {
           },
           1200: {
             slidesPerView: 4,
-            spaceBetween: 50,
+            spaceBetween: 10,
             width: 1200
           }
         }}
         >
-            <SwiperSlide>
+        {data.map(data => (
+          <SwiperSlide>
             <motion.div variants={fadeInUp} className='card'>
-            <section>
-              <Link href={`/case-study/wordpress-artist-theme`}>
-                <a alt="" rel="alternate" hreflang="en">
-                  <h3 className={styles.title}>{data.title_03}</h3>
-                  <h4 className={styles.description}>{data.content_03}</h4>
-                  <div className={styles.cubeWrapper}>
-                  <div className={styles.cube}>
-                  <div className={styles.cara1}>
-                  <Image
-                    src="/img/music_3D_Top.png"
-                    alt="wordpress front cover"
-                    width={200}
-                    height={200}
-                    quality={1}
-                    loading="eager"
-                    />
-                  </div>
-                  <div className={styles.cara2}>
-                    <Image
-                    src="/img/music_3D_Top.png"
-                    alt="wordpress right cover"
-                    width={200}
-                    height={200}
-                    quality={1}
-                    loading="eager"
-                    />
-                  </div>
-                  <div className={styles.cara3}>
-                    <Image
-                    src="/img/music_3D_Top.png"
-                    alt="wordpress left cover"
-                    width={200}
-                    height={200}
-                    quality={1}
-                    loading="eager"
-                    />
-                  </div>
-                  <div className={styles.cara4}>
-                    <Image
-                    src="/img/music_3D_Top.png"
-                    alt="wordpress side cover"
-                    width={200}
-                    height={200}
-                    quality={1}
-                    loading="eager"
-                    />
-                  </div>
-                  <div className={styles.cara5}>
-                    <Image
-                    src="/img/music_3D_Top.png"
-                    alt="wordpress top cover"
-                    width={200}
-                    height={200}
-                    quality={1}
-                    loading="eager"
-                    />
-                  </div>
-                  <div className={styles.cara6}>
-                    <Image
-                    src="/img/music_3D_Top.png"
-                    alt="wordpress bottom cover"
-                    width={200}
-                    height={200}
-                    quality={1}
-                    loading="eager"
-                    />
-                  </div>
-                  </div>
-                  </div>
-                </a>
-              </Link>
-            </section>
+              <ThreeDimCube
+                slug={data.slug}
+                title={data.title}
+                content={data.content}
+                cover={data.cover}
+              />
             </motion.div>
-            </SwiperSlide>
-
-
-            <SwiperSlide>
-            <motion.div variants={fadeInUp} className='card'>
-            <section>
-              <Link href={`/case-study/shopify-fragrance-ecommerce`}>
-                <a alt={data.title_02} rel="alternate" hreflang="en">
-                  <h3 className={styles.title}>{data.title_05}</h3>
-                  <h4 className={styles.description}>{data.content_05}</h4>
-                  <div className={styles.cubeWrapper}>
-                      <div className={styles.cube}>
-                        <div className={styles.cara1}>
-                          <Image
-                            src="/img/ecommerce.png"
-                            alt="fragrance front cover"
-                            width={200}
-                            height={200}
-                            quality={1}
-                            loading="eager"
-                            />
-                          </div>
-                          <div className={styles.cara2}>
-                          <Image
-                            src="/img/ecommerce.png"
-                            alt="fragrance right cover"
-                            width={200}
-                            height={200}
-                            quality={1}
-                            loading="eager"
-                            />
-                          </div>
-                          <div className={styles.cara3}>
-                          <Image
-                            src="/img/ecommerce.png"
-                            alt="fragrance left cover"
-                            width={200}
-                            height={200}
-                            quality={1}
-                            loading="eager"
-                            />
-                          </div>
-                          <div className={styles.cara4}>
-                          <Image
-                            src="/img/ecommerce.png"
-                            alt="fragrance side cover"
-                            width={200}
-                            height={200}
-                            quality={1}
-                            loading="eager"
-                            />
-                          </div>
-                          <div className={styles.cara5}>
-                          <Image
-                            src="/img/ecommerce.png"
-                            alt="fragrance top cover"
-                            width={200}
-                            height={200}
-                            quality={1}
-                            loading="eager"
-                            />
-                          </div>
-                          <div className={styles.cara6}>
-                          <Image
-                            src="/img/ecommerce.png"
-                            alt="fragrance bottom cover"
-                            width={200}
-                            height={200}
-                            quality={1}
-                            loading="eager"
-                            />
-                          </div>
-                      </div>
-                  </div>
-                </a>
-              </Link>
-            </section>
-            </motion.div>
-            </SwiperSlide>
-
-
-            <SwiperSlide>
-            <motion.div variants={fadeInUp} className='card'>
-            <section>
-              <Link href={`/case-study/vinyl-label-design`}>
-                <a alt={data.title_03} rel="alternate" hreflang="en">
-                  <h3 className={styles.title}>{data.title_04}</h3>
-                  <h4 className={styles.description}>{data.content_04}</h4>
-                  <div className={styles.cubeWrapper}>
-                    <div className={styles.cube}>
-                      <div className={styles.cara1}>
-                        <Image
-                        src="/img/Pendulum-3D-Box-Bottom-05.jpg"
-                        alt="vinyl front cover"
-                        width={200}
-                        height={200}
-                        quality={1}
-                        loading="eager"
-                        />
-                      </div>
-                      <div className={styles.cara2}>
-                        <Image
-                        src="/img/Pendulum-3D-Box-Bottom-05.jpg"
-                        alt="vinyl left cover"
-                        width={200}
-                        height={200}
-                        quality={1}
-                        loading="eager"
-                        />
-                      </div>
-                      <div className={styles.cara3}>
-                        <Image
-                        src="/img/Pendulum-3D-Box-Bottom-05.jpg"
-                        alt="vinyl right cover"
-                        width={200}
-                        height={200}
-                        quality={1}
-                        loading="eager"
-                        />
-                      </div>
-                      <div className={styles.cara4}>
-                        <Image
-                        src="/img/Pendulum-3D-Box-Bottom-05.jpg"
-                        alt="vinyl side cover"
-                        width={200}
-                        height={200}
-                        quality={1}
-                        loading="eager"
-                        />
-                      </div>
-                      <div className={styles.cara5}>
-                        <Image
-                        src="/img/Pendulum-3D-Box-Bottom-05.jpg"
-                        alt="vinyl top cover"
-                        width={200}
-                        height={200}
-                        quality={1}
-                        loading="eager"
-                        />
-                      </div>
-                      <div className={styles.cara6}>
-                        <Image
-                        src="/img/Pendulum-3D-Box-Bottom-05.jpg"
-                        alt="vinyl bottom cover"
-                        width={200}
-                        height={200}
-                        quality={1}
-                        loading="eager"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </Link>
-            </section>
-            </motion.div>
-            </SwiperSlide>
-          </Swiper>
+          </SwiperSlide>
+        ))}
+        </Swiper>
         </div>
-        </motion.div>
       </motion.div>
+    </motion.div>
   );
 }
 

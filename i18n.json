@@ -4,7 +4,7 @@
     "pages": {
         "*": ["common"],
         "/": ["home"],
-        "/about-me":["aboutMe"],
+        "/contact-us":["ContactUs"],
         "rgx:^/side-project":["sideProject"],
         "rgx:^/case-study":["caseStudy"]
     }

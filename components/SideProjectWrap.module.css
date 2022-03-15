@@ -1,5 +1,5 @@
 .main{
-  padding: 0 0 11vh 0;
+  /* padding: 0 0 11vh 0; */
 }
 .title,
 .description,
@@ -13,18 +13,18 @@
   padding: 5px 10px 20px;
 }
 .main img {
-    width: 280px;
-    height: 280px;
-    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
-    transition: all 1s ease-in-out;
-    animation: movingBlob 10s ease-in-out alternate infinite;
+  width: 280px;
+  height: 280px;
+  border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+  transition: all 1s ease-in-out;
+  animation: movingBlob 10s ease-in-out alternate infinite;
 }
 @keyframes movingBlob {
-    0%{border-radius: 18% 82% 37% 70% / 44% 40% 14% 40%}
-    25%{border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%}
-    50%{border-radius: 76% 90% 87% 67% / 71% 77% 63% 82%}
-    75%{border-radius: 70% 30% 30% 70% / 60% 40% 20% 40%}
-    100%{border-radius: 18% 82% 37% 70% / 44% 40% 54% 40%}
+  0%{border-radius: 18% 82% 37% 70% / 44% 40% 14% 40%}
+  25%{border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%}
+  50%{border-radius: 76% 90% 87% 67% / 71% 77% 63% 82%}
+  75%{border-radius: 70% 30% 30% 70% / 60% 40% 20% 40%}
+  100%{border-radius: 18% 82% 37% 70% / 44% 40% 54% 40%}
 }
 
 /* Mobile 320px  */
@@ -33,14 +33,13 @@
 @media screen and (min-width: 40em) {}
 /* Desktop 980px to 1280px  */
 @media screen and (min-width: 57em) {
-  .main,
   .title,
   .description,
   .fotos{
     padding: 0;
   }
   .main{
-    padding: 0 0 200px 0;
+    /* padding: 0 0 200px 0; */
   }
   .main img {
       width: 230px;

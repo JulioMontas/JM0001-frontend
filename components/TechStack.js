@@ -57,6 +57,59 @@ const svg = {
   raspberryPi:"svg/icon/raspberry_pi_logo.svg",
 }
 
+const data = [
+  {
+    svg:"svg/icon/figma.svg",
+    alt:"Figma logo",
+    title:"Figma"
+  },
+  {
+    svg:"svg/icon/datocms.svg",
+    alt:"datocms logo",
+    title:"DatoCMS"
+  },
+  {
+    svg:"svg/icon/nextjs.svg",
+    alt:"nextjs logo",
+    title:"NextJS"
+  },
+  {
+    svg:"svg/icon/css.svg",
+    alt:"css logo",
+    title:"CSS"
+  },
+  {
+    svg:"svg/icon/html5.svg",
+    alt:"html5 logo",
+    title:"html5"
+  },
+  {
+    svg:"svg/icon/javascript.svg",
+    alt:"javascript logo",
+    title:"javaScript"
+  },
+  {
+    svg:"svg/icon/shopify.svg",
+    alt:"shopify logo",
+    title:"shopify"
+  },
+  {
+    svg:"svg/icon/webxr.svg",
+    alt:"webxr logo",
+    title:"webxr"
+  },
+  {
+    svg:"svg/icon/gatsby.svg",
+    alt:"gatsby logo",
+    title:"gatsby"
+  },
+  {
+    svg:"svg/icon/Progressive_Web_Apps_Logo.svg",
+    alt:"pwa logo",
+    title:"PWA"
+  },
+]
+
 const TechStack = (props) => {
   return(
     <motion.div exit={{ opacity: 0 }} initial='initial' animate='animate'>
@@ -65,103 +118,21 @@ const TechStack = (props) => {
       </h2>
       <motion.div variants={stagger} className={styles.main}>
 
-      <motion.div variants={fadeInUp} className="card">
-        <div className={styles.icon}>
-          <div className={styles.svg}>
-          <img
-            src={svg.figma}
-            alt="Figma logo"
-          />
+      {data.map(data => (
+        <motion.div variants={fadeInUp} className="card">
+          <div className={styles.icon}>
+            <div className={styles.svg}>
+            <img
+              src={data.svg}
+              alt={data.alt}
+            />
+            </div>
+            <h3 className={styles.text}>
+              {data.title}
+            </h3>
           </div>
-          <h3 className={styles.text}>
-            Figma
-          </h3>
-        </div>
-      </motion.div>
-
-      <motion.div variants={fadeInUp} className="card">
-        <div className={styles.icon}>
-          <div className={styles.svg}>
-          <img
-            src={svg.nextjs}
-            alt="NextJS logo"
-          />
-          </div>
-          <h3 className={styles.text}>
-            NextJS
-          </h3>
-        </div>
-      </motion.div>
-
-      <motion.div variants={fadeInUp} className="card">
-        <div className={styles.icon}>
-          <div className={styles.svg}>
-          <img
-            src={svg.gatsby}
-            alt="Gatsby logo"
-          />
-          </div>
-          <h3 className={styles.text}>
-            Gatsby
-          </h3>
-        </div>
-      </motion.div>
-
-      <motion.div variants={fadeInUp} className="card">
-        <div className={styles.icon}>
-          <div className={styles.svg}>
-          <img
-            src={svg.datocms}
-            alt="Data CMS logo"
-          />
-          </div>
-          <h3 className={styles.text}>
-            Data CMS
-          </h3>
-        </div>
-      </motion.div>
-
-      <motion.div variants={fadeInUp} className="card">
-        <div className={styles.icon}>
-          <div className={styles.svg}>
-          <img
-            src={svg.shopify}
-            alt="Shopify logo"
-          />
-          </div>
-          <h3 className={styles.text}>
-            Shopify
-          </h3>
-        </div>
-      </motion.div>
-
-      <motion.div variants={fadeInUp} className="card">
-        <div className={styles.icon}>
-          <div className={styles.svg}>
-          <img
-            src={svg.webxr}
-            alt="WebXR logo"
-          />
-          </div>
-          <h3 className={styles.text}>
-            WebXR
-          </h3>
-        </div>
-      </motion.div>
-
-      <motion.div variants={fadeInUp} className="card">
-        <div className={styles.icon}>
-          <div className={styles.svg}>
-          <img
-            src={svg.pwa}
-            alt="PWA logo"
-          />
-          </div>
-          <h3 className={styles.text}>
-            PWA
-          </h3>
-        </div>
-      </motion.div>
+        </motion.div>
+      ))}
 
       </motion.div>
     </motion.div>

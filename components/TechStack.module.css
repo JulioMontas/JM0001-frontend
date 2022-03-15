@@ -6,7 +6,7 @@
   grid-area: firstCol;
 }
 .main  {
-  padding: 0 0 11vh 0;
+  /* padding: 0 0 11vh 0; */
   display: grid;
   text-align: center;
   width: 100%;
@@ -21,10 +21,8 @@
   align-items: center;
 }
 .text{
-  opacity: 0.8;
   font-size: 0.8em !important;
-  letter-spacing: 1px;
-  text-shadow: -1px 2px 4px rgba(0, 0, 0, 0.25);
+  letter-spacing: 2px !important;
 }
 /* Mobile 320px  */
 @media screen and (min-width: 30em) {}
@@ -41,10 +39,6 @@
     row-gap: 90px;
   }
   .icon{
-    opacity: 0.5;
-    transition: 0.3s;
-  }
-  .icon:hover{
     opacity: 1;
   }
 }

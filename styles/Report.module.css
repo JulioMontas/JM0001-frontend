@@ -12,10 +12,12 @@
   .mainIndex img{
     border-radius: 0 0.8em 0.8em 0.8em;
   }
-  .mainIndex h2{
+  .mainIndex h2,
+  .mainIndex h3{
     margin-bottom: 5px;
-    width: 92%;
+    width: 92%;;
   }
+  .mainIndex h2,
   .mainIndex h3{
     font-family: var(--fonts-title);
     font-weight: bold;

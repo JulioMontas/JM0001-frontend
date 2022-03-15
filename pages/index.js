@@ -6,7 +6,7 @@ import CaseStudiesWrap from '../components/CaseStudiesWrap'
 import SideProjectWrap from '../components/SideProjectWrap'
 import TechStack from '../components/TechStack'
 import Container from '../components/Container'
-import Script from 'next/script'
+import ContactForm from '../components/ContactForm'
 
 export default function Homepage({ data }) {
   return (
@@ -44,8 +44,10 @@ export default function Homepage({ data }) {
             title="Side Projects"
           />
         </div>
-        <div className={stylesHome.spacePadding} style={{padding:`10px`}}>
-          <div data-tf-widget="IBnyOp" data-tf-iframe-props="title=JulioMontas.com" data-tf-medium="snippet" style={{width:`100%`,height:`750px`}}></div><script src="//embed.typeform.com/next/embed.js" strategy="beforeInteractive"></script>
+        <div className={stylesHome.spacePadding}>
+          <ContactForm
+            title="Contact Form"
+          />
         </div>
       </Container>
       </div>

@@ -8,6 +8,7 @@ import Container from '../../components/Container'
 import ExitButton from '../../components/ExitButton'
 import RelatedCTA from '../../components/RelatedCTA'
 import CaseStudiesWrap from '../../components/CaseStudiesWrap'
+import ContactForm from '../../components/ContactForm'
 import styles from '../../styles/Report.module.css'
 
 const easing = [.6, -.05, .01, .99];
@@ -274,6 +275,10 @@ function ProjectIndex() {
 
                 <CaseStudiesWrap
                   title="Case Studies"
+                />
+
+                <ContactForm
+                  title="Contact Form"
                 />
 
           </div>

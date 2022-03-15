@@ -15,6 +15,7 @@ import styles from '../../styles/Report.module.css'
 import { request } from "../../lib/datocms"
 import { StructuredText } from "react-datocms"
 import NavBar from '../../components/NavBar'
+import ContactForm from '../../components/ContactForm'
 
 
 const easing = [.6, -.05, .01, .99];
@@ -559,6 +560,10 @@ export default function CaseStudyIndex({ data: {site} }) {
 
           <SideProjectWrap
             title="Side Projects"
+          />
+
+          <ContactForm
+            title="Contact Form"
           />
 
         </div>

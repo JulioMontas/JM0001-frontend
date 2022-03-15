@@ -37,7 +37,7 @@ const ContactForm = (props) => {
             </h2>
             <div data-tf-widget="IBnyOp" data-tf-iframe-props="title=JulioMontas.com" data-tf-medium="snippet" style={{width:`100%`,height:`800px`}}>
             </div>
-            <script src="//embed.typeform.com/next/embed.js" strategy="beforeInteractive"></script>
+            <script src="//embed.typeform.com/next/embed.js"></script>
           </div>
         </motion.div>
       </motion.div>

@@ -342,12 +342,12 @@ function ProjectIndex() {
             content={t('content_01')}
           />
           <RelatedCTA
-            url="/side-project/width"
+            url="/side-project/width-take-over-the-screen"
             title={t('title_03')}
             content={t('content_03')}
           />
           <RelatedCTA
-            url="/side-project/colors"
+            url="/side-project/basic-color-fundamentals"
             title={t('title_05')}
             content={t('content_05')}
           />

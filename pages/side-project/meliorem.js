@@ -126,22 +126,22 @@ function ProjectIndex() {
             <h3>More Projects</h3>
             <ul>
             <RelatedCTA
-              url="/side-project/hellocode"
+              url="/side-project/hellocode-the-home-for-programming-languages"
               title={t('title_01')}
               content={t('content_01')}
             />
             <RelatedCTA
-              url="/side-project/surveillance"
+              url="/side-project/surveillance-culture"
               title={t('title_02')}
               content={t('content_02')}
             />
             <RelatedCTA
-              url="/side-project/width"
+              url="/side-project/width-take-over-the-screen"
               title={t('title_03')}
               content={t('content_03')}
             />
             <RelatedCTA
-              url="/side-project/colors"
+              url="/side-project/basic-color-fundamentals"
               title={t('title_05')}
               content={t('content_05')}
             />

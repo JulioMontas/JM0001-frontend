@@ -335,7 +335,7 @@ function ProjectIndex() {
         <h3>More Projects</h3>
         <ul>
           <RelatedCTA
-            url="/side-project/hellocode"
+            url="/side-project/hellocode-the-home-for-programming-languages"
             title={t('title_01')}
             content={t('content_01')}
           />

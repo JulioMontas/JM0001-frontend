@@ -58,7 +58,7 @@ function sideProject({ posts }) {
 
            <motion.div variants={fadeInUp} className='card'>
            <section>
-               <Link href={`/side-project/hellocode`}>
+               <Link href={`/side-project/hellocode-the-home-for-programming-languages`}>
                  <a alt={t('title_01')}>
                    <h1 className={styles.blgTitle}>{t('title_01')}</h1>
                    <h3 className={styles.blgSummery}>{t('content_01')}</h3>

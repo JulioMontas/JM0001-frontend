@@ -32,7 +32,7 @@ const stagger = {
 };
 
 const data = {
-  title_01: "HelloCo.de",
+  title_01: "HelloCo.de - The Home For Programming Languages",
   content_01: "Collective Memory, Education",
   title_02: "Surveillance Culture",
   content_02: "Misinformation, Data Collection",
@@ -76,7 +76,7 @@ const SideProjectWrap = (props) => {
            <SwiperSlide>
             <motion.div variants={fadeInUp} className='card'>
             <section>
-            <Link href={`/side-project/hellocode`}>
+            <Link href={`/side-project/hellocode-the-home-for-programming-languages`}>
               <a alt={data.title_01} rel="alternate" hreflang="en">
                 <h3 className={styles.title}>{data.title_01}</h3>
                 <h4 className={styles.description}>{data.content_01}</h4>
@@ -97,7 +97,7 @@ const SideProjectWrap = (props) => {
             <SwiperSlide>
             <motion.div variants={fadeInUp} className='card'>
             <section>
-              <Link href={`/side-project/surveillance`}>
+              <Link href={`/side-project/surveillance-culture`}>
                 <a alt={data.title_02} rel="alternate" hreflang="en">
                   <h3 className={styles.title}>{data.title_02}</h3>
                   <h4 className={styles.description}>{data.content_02}</h4>
@@ -120,7 +120,7 @@ const SideProjectWrap = (props) => {
             <SwiperSlide>
             <motion.div variants={fadeInUp} className='card'>
             <section>
-              <Link href={`/side-project/width`}>
+              <Link href={`/side-project/width-take-over-the-screen`}>
                 <a alt={data.title_03} rel="alternate" hreflang="en">
                   <h3 className={styles.title}>{data.title_03}</h3>
                   <h4 className={styles.description}>{data.content_03}</h4>
@@ -143,7 +143,7 @@ const SideProjectWrap = (props) => {
             <SwiperSlide>
             <motion.div variants={fadeInUp} className='card'>
             <section>
-              <Link href={`/side-project/colors`}>
+              <Link href={`/side-project/basic-color-fundamentals`}>
                 <a alt={data.title_05} rel="alternate" hreflang="en">
                   <h3 className={styles.title}>{data.title_05}</h3>
                   <h4 className={styles.description}>{data.content_05}</h4>

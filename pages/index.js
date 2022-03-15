@@ -6,6 +6,7 @@ import CaseStudiesWrap from '../components/CaseStudiesWrap'
 import SideProjectWrap from '../components/SideProjectWrap'
 import TechStack from '../components/TechStack'
 import Container from '../components/Container'
+import Script from 'next/script'
 
 export default function Homepage({ data }) {
   return (
@@ -33,7 +34,6 @@ export default function Homepage({ data }) {
         <div className={stylesHome.spacePadding}>
           <CaseStudiesWrap
             title="Case Studies"
-            className={stylesHome.spacePadding}
           />
         </div>
         <div className={stylesHome.spacePadding}>
@@ -42,8 +42,10 @@ export default function Homepage({ data }) {
         <div className={stylesHome.spacePadding}>
           <SideProjectWrap
             title="Side Projects"
-            className={stylesHome.spacePadding}
           />
+        </div>
+        <div className={stylesHome.spacePadding}>
+          <div data-tf-widget="IBnyOp" data-tf-iframe-props="title=JulioMontas.com" data-tf-medium="snippet" style={{width:`100%`,height:`750px`}}></div><script src="//embed.typeform.com/next/embed.js"></script>
         </div>
       </Container>
       </div>

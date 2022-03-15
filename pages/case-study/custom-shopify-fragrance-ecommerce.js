@@ -9,6 +9,7 @@ import ExitButton from '../../components/ExitButton'
 import PaletteList from '../../components/PaletteList'
 import RelatedCTA from '../../components/RelatedCTA'
 import NavBar from '../../components/NavBar'
+import SideProjectWrap from '../../components/SideProjectWrap'
 import styles from '../../styles/Report.module.css'
 
 const easing = [.6, -.05, .01, .99];
@@ -1149,6 +1150,10 @@ function CaseStudyIndex() {
             </ul>
           </div>
           </motion.div>
+
+          <SideProjectWrap
+            title="Side Projects"
+          />
 
           </div>
           </div>

@@ -10,10 +10,12 @@ import ExitButton from '../../components/ExitButton'
 import Moodboard from '../../components/Moodboard'
 import PaletteList from '../../components/PaletteList'
 import RelatedCTA from '../../components/RelatedCTA'
+import SideProjectWrap from '../../components/SideProjectWrap'
 import styles from '../../styles/Report.module.css'
 import { request } from "../../lib/datocms"
 import { StructuredText } from "react-datocms"
 import NavBar from '../../components/NavBar'
+
 
 const easing = [.6, -.05, .01, .99];
 const fadeInUp = {
@@ -554,6 +556,10 @@ export default function CaseStudyIndex({ data: {site} }) {
             </ul>
           </div>
           </motion.div>
+
+          <SideProjectWrap
+            title="Side Projects"
+          />
 
         </div>
         </div>

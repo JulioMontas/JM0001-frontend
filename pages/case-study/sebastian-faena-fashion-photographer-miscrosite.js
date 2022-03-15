@@ -8,6 +8,7 @@ import useTranslation from 'next-translate/useTranslation'
 import Container from '../../components/Container'
 import ExitButton from '../../components/ExitButton'
 import RelatedCTA from '../../components/RelatedCTA'
+import SideProjectWrap from '../../components/SideProjectWrap'
 import styles from '../../styles/Report.module.css'
 
 const easing = [.6, -.05, .01, .99];
@@ -183,6 +184,10 @@ function CaseStudyIndex() {
             </ul>
           </div>
           </motion.div>
+
+          <SideProjectWrap
+            title="Side Projects"
+          />
 
           </div>
           </div>

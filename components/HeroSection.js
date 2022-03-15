@@ -60,7 +60,7 @@ const HeroSection = (props) => {
             <p>Designing and developing an entire project from scratch can be overwhelming. That's why our company is your one stop shop for all your design and development needs.</p>
             <p>From the early design concept stage to final project execution, we will work with you every step of the way to ensure success on your website, eCommerce store, CMS or Mobile App Prototype</p>
             <p>
-              <Link href={`/contact-us`}>
+              <Link href={`/contact`}>
                 <a>Contact us</a>
               </Link> for a free consultation!
             </p>

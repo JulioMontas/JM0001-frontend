@@ -36,7 +36,7 @@ const stagger = {
 
 function ProjectIndex() {
   const { t } = useTranslation('sideProject')
-  return(
+  return( <div className={styles.backgroundColor}>
   <Container>
     <Head>
       <title>Side Project | {t('title_05')} | Julio Montás</title>
@@ -65,7 +65,6 @@ function ProjectIndex() {
                         <h1>{t('title_05')}</h1>
                         <p>{t('content_05')}</p>
                     </div>
-                    <ExitButton url="/" />
                 </div>
                 </motion.div>
 
@@ -278,6 +277,7 @@ function ProjectIndex() {
     </motion.div>
     </motion.div>
   </Container>
+  </div>
   )
 }
 

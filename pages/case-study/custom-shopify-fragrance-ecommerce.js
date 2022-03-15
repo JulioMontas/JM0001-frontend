@@ -38,7 +38,8 @@ const stagger = {
 
 function CaseStudyIndex() {
   const { t } = useTranslation('caseStudy')
-  return <Container>
+  return <div className={styles.backgroundColor}>
+  <Container>
     <Head>
       <title>{t('title_02')} | Julio Montás</title>
       <meta name='twitter:url' content='https://juliomontas.com/case-study/custom-shopify-fragrance-ecommerce/' />
@@ -63,8 +64,10 @@ function CaseStudyIndex() {
 
           <motion.div variants={fadeInUp}>
           <div className={styles.flipSwitch}>
-            <h1>{t('title_02')}</h1>
-            <ExitButton url="/" />
+            <div>
+              <h1>{t('title_02')}</h1>
+              <p>{t('content_02')}</p>
+            </div>
           </div>
           </motion.div>
 
@@ -1153,6 +1156,7 @@ function CaseStudyIndex() {
     </motion.div>
     </motion.div>
   </Container>
+  </div>
 }
 
 export async function getServerSideProps(context) {

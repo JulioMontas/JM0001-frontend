@@ -32,7 +32,7 @@
     line-height: 22px;
     margin: -5px 0 0 0;
   }
-  .mainIndex{
+  .backgroundColor {
     background: var(--background-color-dark);
     animation: MoveBG 60s ease infinite;
     transition: all 1s ease;
@@ -258,9 +258,6 @@
     .mainIndex h2{
       width: 84%;
     }
-    .mainIndex{
-      background: none;
-    }
     .main a{
       opacity: 0.6;
       filter: none;
@@ -288,10 +285,6 @@
     .secColorPalette span{
       border: 3px solid #FFF;
     }
-    /* .mainCenterCont{
-      width: 1024px;
-      margin: 0 auto;
-    } */
     .mainIndex p {
       font-size: 16px;
       line-height: 25px;
@@ -319,8 +312,6 @@
        grid-template-areas:
        "title title title title";
     }
-
-
     .dosFotos h3{
       grid-area: title;
     }
@@ -332,9 +323,6 @@
       grid-template-areas:
       "title title";
     }
-
-
-
   }
   /* Desktop 1920px */
   @media screen and (min-width: 120em) { }

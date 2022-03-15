@@ -38,7 +38,8 @@ const stagger = {
 
 function CaseStudyIndex() {
   const { t } = useTranslation('caseStudy')
-  return <Container>
+  return <div className={styles.backgroundColor}>
+  <Container>
     <Head>
       <title>{t('title_03')} | Julio Montás</title>
       <meta name='twitter:url' content='https://juliomontas.com/case-study/custom-wordpress-artist-theme/' />
@@ -63,8 +64,10 @@ function CaseStudyIndex() {
 
           <motion.div variants={fadeInUp}>
           <div className={styles.flipSwitch}>
-            <h1>{t('title_03')}</h1>
-            <ExitButton url="/" />
+            <div>
+              <h1>{t('title_03')}</h1>
+              <p>{t('content_03')}</p>
+            </div>
           </div>
           </motion.div>
 
@@ -987,6 +990,7 @@ function CaseStudyIndex() {
       </motion.div>
       </motion.div>
   </Container>
+  </div>
 }
 
 export default CaseStudyIndex

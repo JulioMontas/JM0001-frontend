@@ -37,7 +37,8 @@ const stagger = {
 
 function CaseStudyIndex() {
   const { t } = useTranslation('caseStudy')
-  return <Container>
+  return <div className={styles.backgroundColor}>
+  <Container>
     <Head>
       <title>{t('title_06')}</title>
       <meta name='twitter:url' content='https://juliomontas.com/case-study/kate-spade-shoppable-web-video-ui/' />
@@ -65,7 +66,6 @@ function CaseStudyIndex() {
               <h1>{t('title_06')}</h1>
               <p>{t('content_06')}</p>
             </div>
-            <ExitButton url="/" />
           </div>
           </motion.div>
 
@@ -225,6 +225,7 @@ function CaseStudyIndex() {
     </motion.div>
     </motion.div>
   </Container>
+  </div>
 }
 
 export async function getServerSideProps(context) {

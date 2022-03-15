@@ -97,7 +97,8 @@ export async function getStaticProps() {
 
 export default function CaseStudyIndex({ data: {site} }) {
   const { t } = useTranslation('caseStudy')
-  return <Container>
+  return <div className={styles.backgroundColor}>
+  <Container>
     <Head>
       <title>{t('title_01')} | Julio Montás</title>
       <meta name='twitter:url' content='https://juliomontas.com/case-study/vinyl-label-design/' />
@@ -123,8 +124,10 @@ export default function CaseStudyIndex({ data: {site} }) {
 
           <motion.div variants={fadeInUp}>
           <div className={styles.flipSwitch}>
-            <h1>{t('title_01')}</h1>
-            <ExitButton url="/" />
+            <div>
+              <h1>{t('title_01')}</h1>
+              <p>{t('content_01')}</p>
+            </div>
           </div>
           </motion.div>
 
@@ -558,4 +561,5 @@ export default function CaseStudyIndex({ data: {site} }) {
     </motion.div>
     </motion.div>
   </Container>
+  </div>
 }

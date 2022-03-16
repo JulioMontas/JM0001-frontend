@@ -1,12 +1,54 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import stylesHome from '../styles/Homepage.module.css'
 import useTranslation from 'next-translate/useTranslation'
+import { Image } from "react-datocms"
+import { request } from "../lib/datocms"
 import HeroSection from '../components/HeroSection'
 import CaseStudiesWrap from '../components/CaseStudiesWrap'
 import SideProjectWrap from '../components/SideProjectWrap'
 import TechStack from '../components/TechStack'
 import Container from '../components/Container'
 import ContactForm from '../components/ContactForm'
+
+const HOMEPAGE_QUERY = `query MyQuery {
+  allArticles {
+    createdAt
+    updatedAt
+    id
+    slug
+    title
+    summary(markdown: false)
+
+    tag {
+      title
+    }
+    coverImage {
+      responsiveImage(imgixParams: { fit: crop, w: 300, h: 300, auto: format }) {
+        srcSet
+        webpSrcSet
+        sizes
+        src
+        width
+        height
+        aspectRatio
+        alt
+        title
+        base64
+      }
+    }
+  }
+}`;
+
+export async function getStaticProps() {
+  const data = await request({
+    query: HOMEPAGE_QUERY,
+    variables: { limit: 5 }
+  });
+  return {
+    props: {data}
+  };
+}
 
 export default function Homepage({ data }) {
   return (
@@ -49,6 +91,32 @@ export default function Homepage({ data }) {
             title="Contact Form"
           />
         </div>
+
+        <div className={stylesHome.spacePadding}>
+          <ul className={stylesHome.blogSec}>
+            <h2>
+              Blog ( Under Construction )
+            </h2>
+            {data.allArticles.map(data => (
+              <li key={data.id}>
+                <Link href={`/blog/${encodeURIComponent(data.slug)}`}>
+                  <a>
+                    <h2 className={stylesHome.blogSec__title}>{data.title}</h2>
+                    <ul className={stylesHome.blogSec__tag}>
+                      {data.tag.map(data => (
+                        <li key={data.id}>
+                        {data.title}
+                        </li>
+                      ))}
+                    </ul>
+                    <p className={stylesHome.blogSec__summary}>{data.summary}</p>
+                  </a>
+                 </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
       </Container>
       </div>
     </>

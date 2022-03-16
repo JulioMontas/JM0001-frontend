@@ -3,34 +3,11 @@ import { StructuredText } from "react-datocms"
 import { Image } from "react-datocms"
 import Head from 'next/head'
 import Container from '../../components/Container'
+import CaseStudiesWrap from '../../components/CaseStudiesWrap'
+import SideProjectWrap from '../../components/SideProjectWrap'
+import ContactForm from '../../components/ContactForm'
 import { request } from "../../lib/datocms"
-
-export default function BlogPost(props) {
-  const { postData } = props;
-  return <Container>
-  <Head>
-    <title>Blog - UI Developer • Full Stack Designer | Julio Montás</title>
-    <meta name='twitter:url' content='https://juliomontas.com/blog/' />
-    <meta property='og:url' content='https://juliomontas.com/blog/' />
-    <meta property='og:image' content='https://juliomontas.com/me.png' />
-    <meta name='twitter:image' content='https://juliomontas.com/me.png' />
-    <meta property='og:title' content='Blog - UI Developer • Full Stack Designer | Julio Montás' />
-    <meta name='twitter:title' content='Blog - UI Developer • Full Stack Designer | Julio Montás' />
-    <meta name="description" content="Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC." key="description"/>
-    <meta property='og:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
-    <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
-    <link rel="canonical" href="https://juliomontas.com/blog/" />
-    <link rel="alternate" href="https://juliomontas.com/blog/" hreflang="en-us" />
-    <link rel="alternate" href="https://juliomontas.com/es-us/blog/" hreflang="es-us" />
-  </Head>
-   <h2>{postData.title}</h2>
-   <Image data={postData.coverImage.responsiveImage} />
-   <p>{postData.summary}</p>
-   <article>
-     <StructuredText data={postData.content} />
-   </article>
-  </Container>
-}
+import styles from '../../styles/Report.module.css'
 
 const PATHS_QUERY = `query MyQuery {
   allArticles {
@@ -96,3 +73,58 @@ export const getStaticProps = async ({ params }) => {
     },
   };
 };
+
+export default function BlogPost(props) {
+  const { postData } = props;
+  return <div className={styles.backgroundColor}>
+  <Container>
+  <Head>
+    <title>Blog - UI Developer • Full Stack Designer | Julio Montás</title>
+    <meta name='twitter:url' content='https://juliomontas.com/blog/' />
+    <meta property='og:url' content='https://juliomontas.com/blog/' />
+    <meta property='og:image' content='https://juliomontas.com/me.png' />
+    <meta name='twitter:image' content='https://juliomontas.com/me.png' />
+    <meta property='og:title' content='Blog - UI Developer • Full Stack Designer | Julio Montás' />
+    <meta name='twitter:title' content='Blog - UI Developer • Full Stack Designer | Julio Montás' />
+    <meta name="description" content="Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC." key="description"/>
+    <meta property='og:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
+    <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
+    <link rel="canonical" href="https://juliomontas.com/blog/" />
+    <link rel="alternate" href="https://juliomontas.com/blog/" hreflang="en-us" />
+    <link rel="alternate" href="https://juliomontas.com/es-us/blog/" hreflang="es-us" />
+  </Head>
+  <div className={styles.mainIndex}>
+    <div className={styles.mainCenterCont}>
+      <div className={styles.gridContainer}>
+
+      <div className={styles.flipSwitch}>
+        <div>
+          <h1>{postData.title}</h1>
+          <p>{postData.summary}</p>
+        </div>
+      </div>
+
+      <Image data={postData.coverImage.responsiveImage} />
+
+      <article>
+        <StructuredText data={postData.content} />
+      </article>
+
+      <ContactForm
+        title="Contact Form"
+      />
+
+      <CaseStudiesWrap
+        title="Case Studies"
+      />
+
+      <SideProjectWrap
+        title="Side Projects"
+      />
+
+    </div>
+  </div>
+ </div>
+  </Container>
+  </div>
+}

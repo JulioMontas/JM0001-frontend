@@ -77,6 +77,15 @@ export const getStaticProps = async ({ params }) => {
 export default function BlogPost(props) {
   const { postData } = props;
   return <div className={styles.backgroundColor}>
+  <div className={styles.blog__}>
+    <Image data={postData.coverImage.responsiveImage} />
+    <div className={styles.blog__text}>
+      <div>
+        <h1>{postData.title}</h1>
+        <p>{postData.summary}</p>
+      </div>
+    </div>
+  </div>
   <Container>
   <Head>
     <title>Blog - UI Developer • Full Stack Designer | Julio Montás</title>
@@ -96,15 +105,6 @@ export default function BlogPost(props) {
   <div className={styles.mainIndex}>
     <div className={styles.mainCenterCont}>
       <div className={styles.gridContainer}>
-
-      <div className={styles.flipSwitch}>
-        <div>
-          <h1>{postData.title}</h1>
-          <p>{postData.summary}</p>
-        </div>
-      </div>
-
-      <Image data={postData.coverImage.responsiveImage} />
 
       <article>
         <StructuredText data={postData.content} />

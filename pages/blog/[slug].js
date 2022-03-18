@@ -13,7 +13,7 @@ import styles from '../../styles/Report.module.css'
 import styled from "styled-components";
 
 const Hone = styled.h1`
-  font-size:3rem;
+  font-size:2rem;
   margin: 1em 0 0;
   @media screen and (min-width: 57em) {
     font-size:6.9rem;
@@ -24,12 +24,14 @@ const ArticleContainer = styled.article`
   width: 100%;
   h2 {
     font-size: 1.4rem;
+    line-height: 25px;
   }
   h3 {
     font-size: 1.2rem;
   }
   p {
     font-size: 1.1em;
+    line-height: 25px;
     margin-bottom: 1.8em;
     &:last-child{
       margin-bottom: 0;
@@ -39,10 +41,15 @@ const ArticleContainer = styled.article`
     margin: 30px 0;
   }
   pre code {
+    width: 100%;
     background-color: rgba(0,0,0,1);
     border: 1px solid rgba(255,255,255,0.2);
     display: block;
-    padding: 20px;
+    padding: 1em 0 1em 0.3em;
+    @media screen and (min-width: 57em) {
+          display:relative;
+      padding: 1.3em 0 1em 10px;
+    }
   }
   @media screen and (min-width: 57em) {
     width: 800px;

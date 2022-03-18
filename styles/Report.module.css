@@ -234,35 +234,6 @@
 .dosFotos{
   display: grid;
 }
-.blog__{
-  position: relative;
-}
-.blog__::after{
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 10px;
-  background: rgba(248,231,28,0.6);
-  top: 0;
-  height: 100%;
-}
-.blog__ img{
-  height: 35vh;
-}
-.blog__::after,
-.blog__ img{
-  border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
-}
-.blog__text{
-  width: 100%;
-  position: absolute;
-  text-align: center;
-  top: 15vh;
-  font-size: 1em;
-  z-index: 999;
-  filter: var(--box-shadow);
-}
   /* Mobile 320px  */
   @media screen and (min-width: 30em) {}
   /* Table */
@@ -351,13 +322,6 @@
       grid-column-gap: 1em;
       grid-template-areas:
       "title title";
-    }
-    .blog__ img{
-      height: 65vh;
-    }
-    .blog__text{
-      top: 30vh;
-      font-size: 1.3em;
     }
   }
   /* Desktop 1920px */

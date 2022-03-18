@@ -1,13 +1,55 @@
 import { useRouter } from 'next/router'
 import { StructuredText } from "react-datocms"
 import { Image } from "react-datocms"
+import Link from 'next/link'
 import Head from 'next/head'
 import Container from '../../components/Container'
 import CaseStudiesWrap from '../../components/CaseStudiesWrap'
 import SideProjectWrap from '../../components/SideProjectWrap'
 import ContactForm from '../../components/ContactForm'
+import NavBar from '../../components/NavBar'
 import { request } from "../../lib/datocms"
 import styles from '../../styles/Report.module.css'
+import styled from "styled-components";
+
+const ArticleContainer = styled.article`
+  width: 800px;
+  h2 {
+    font-size: 1.4rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  p {
+    margin-bottom: 1.5em;
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+  hr {
+    margin: 30px 0;
+  }
+  pre code {
+    background-color: rgba(0,0,0,1);
+    border: 1px solid rgba(255,255,255,0.2);
+    display: block;
+    padding: 20px;
+  }
+`;
+const TagsList = styled.ul`
+  display:flex;
+  gap: 10px;
+  a {
+    padding: 0.1em 2em;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    opacity: 0.6;
+    transition: all 1s ease;
+    :hover{
+      opacity: 1;
+    }
+  }
+`
 
 const PATHS_QUERY = `query MyQuery {
   allArticles {
@@ -77,51 +119,56 @@ export const getStaticProps = async ({ params }) => {
 export default function BlogPost(props) {
   const { postData } = props;
   return <div className={styles.backgroundColor}>
-  <div className={styles.blog__}>
-    <Image data={postData.coverImage.responsiveImage} />
-    <div className={styles.blog__text}>
-      <div>
-        <h1>{postData.title}</h1>
-        <p>{postData.summary}</p>
-      </div>
-    </div>
-  </div>
   <Container>
   <Head>
-    <title>Blog - UI Developer • Full Stack Designer | Julio Montás</title>
+    <title>{postData.title} - UI Developer • Full Stack Designer | Julio Montás</title>
     <meta name='twitter:url' content='https://juliomontas.com/blog/' />
     <meta property='og:url' content='https://juliomontas.com/blog/' />
     <meta property='og:image' content='https://juliomontas.com/me.png' />
     <meta name='twitter:image' content='https://juliomontas.com/me.png' />
-    <meta property='og:title' content='Blog - UI Developer • Full Stack Designer | Julio Montás' />
-    <meta name='twitter:title' content='Blog - UI Developer • Full Stack Designer | Julio Montás' />
-    <meta name="description" content="Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC." key="description"/>
-    <meta property='og:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
-    <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
-    <link rel="canonical" href="https://juliomontas.com/blog/" />
-    <link rel="alternate" href="https://juliomontas.com/blog/" hreflang="en-us" />
-    <link rel="alternate" href="https://juliomontas.com/es-us/blog/" hreflang="es-us" />
+    <meta property='og:title' content={postData.title} />
+    <meta name='twitter:title' content={postData.title} />
+    <meta name="description" content={postData.summary} key="description"/>
+    <meta property='og:description' content={postData.summary} />
+    <meta name='twitter:description' content={postData.summary} />
+    <link rel="canonical" href={'https://juliomontas.com/blog/' + postData.title} />
+    <link rel="alternate" href={'https://juliomontas.com/blog/' + postData.title} hreflang="en-us" />
+    <link rel="alternate" href={'https://juliomontas.com/es-us/blog/' + postData.title} hreflang="es-us" />
   </Head>
+  <NavBar />
   <div className={styles.mainIndex}>
     <div className={styles.mainCenterCont}>
       <div className={styles.gridContainer}>
 
-      <article>
+      <div>
+        <h1 style={{fontSize:`6.9rem`}}>{postData.title}</h1>
+        <TagsList>
+          {postData.tag.map(data => (
+            <li>
+              <Link href={'/blog/tags/' + data.title}>
+                <a alt={data.title}>
+                  <span>{data.title}</span>
+                </a>
+              </Link>
+            </li>
+          ))}
+        </TagsList>
+        <p style={{marginBottom:`0.8em`,marginTop:`0.8em`}}>Posted by Julio Montas on {postData._publishedAt}</p>
+      </div>
+
+      <ArticleContainer>
         <StructuredText data={postData.content} />
-      </article>
+      </ArticleContainer>
 
       <ContactForm
         title="Contact Form"
       />
-
       <CaseStudiesWrap
         title="Case Studies"
       />
-
       <SideProjectWrap
         title="Side Projects"
       />
-
     </div>
   </div>
  </div>

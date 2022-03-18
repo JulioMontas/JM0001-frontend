@@ -12,8 +12,16 @@ import { request } from "../../lib/datocms"
 import styles from '../../styles/Report.module.css'
 import styled from "styled-components";
 
+const Hone = styled.h1`
+  font-size:3rem;
+  margin: 1em 0 0;
+  @media screen and (min-width: 57em) {
+    font-size:6.9rem;
+    margin: 0;
+  }
+`
 const ArticleContainer = styled.article`
-  width: 800px;
+  width: 100%;
   h2 {
     font-size: 1.4rem;
   }
@@ -21,7 +29,8 @@ const ArticleContainer = styled.article`
     font-size: 1.2rem;
   }
   p {
-    margin-bottom: 1.5em;
+    font-size: 1.1em;
+    margin-bottom: 1.8em;
     &:last-child{
       margin-bottom: 0;
     }
@@ -35,19 +44,39 @@ const ArticleContainer = styled.article`
     display: block;
     padding: 20px;
   }
+  @media screen and (min-width: 57em) {
+    width: 800px;
+    margin: 3em auto 5em;
+  }
 `;
+
+const FlexSec = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  @media screen and (min-width: 57em) {
+    justify-content: space-between;
+    align-items: baseline;
+  }
+`
 const TagsList = styled.ul`
+  margin-top: 10px;
   display:flex;
+  justify-content: left;
+  flex-wrap: wrap;
   gap: 10px;
   a {
-    padding: 0.1em 2em;
+    font-size: 0.9em;
+    padding: 0.3em 2em;
     border: 1px solid yellow;
-    border-radius: 5px;
+    border-radius: 10% 20% 20% 70% / 90% 40% 80% 50%;
     opacity: 0.6;
     transition: all 1s ease;
     :hover{
       opacity: 1;
     }
+  }
+  @media screen and (min-width: 57em) {
+    justify-content: right;
   }
 `
 
@@ -81,6 +110,7 @@ const ALTICLE_QUERY = `
       summary
       tag {
         title
+        slug
       }
       coverImage {
         responsiveImage {
@@ -141,33 +171,37 @@ export default function BlogPost(props) {
       <div className={styles.gridContainer}>
 
       <div>
-        <h1 style={{fontSize:`6.9rem`}}>{postData.title}</h1>
-        <TagsList>
-          {postData.tag.map(data => (
-            <li>
-              <Link href={'/blog/tags/' + data.title}>
-                <a alt={data.title}>
-                  <span>{data.title}</span>
-                </a>
-              </Link>
-            </li>
-          ))}
-        </TagsList>
-        <p style={{marginBottom:`0.8em`,marginTop:`0.8em`}}>Posted by Julio Montas on {postData._publishedAt}</p>
+        <Hone>{postData.title}</Hone>
+
+        <FlexSec>
+          <p>Posted by Julio Montas on {postData._publishedAt}</p>
+          <TagsList>
+            {postData.tag.map(data => (
+              <li>
+                <Link href={'/blog/tags/' + data.slug}>
+                  <a alt={data.title}>
+                    <span>{data.title}</span>
+                  </a>
+                </Link>
+              </li>
+            ))}
+          </TagsList>
+        </FlexSec>
+
       </div>
 
       <ArticleContainer>
         <StructuredText data={postData.content} />
       </ArticleContainer>
 
-      <ContactForm
-        title="Contact Form"
-      />
       <CaseStudiesWrap
         title="Case Studies"
       />
       <SideProjectWrap
         title="Side Projects"
+      />
+      <ContactForm
+        title="Contact Form"
       />
     </div>
   </div>

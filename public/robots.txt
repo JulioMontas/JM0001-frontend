@@ -1,4 +1,9 @@
-User-agent: Twitterbot
-Disallow: *
+# *
+User-agent: *
+Allow: /
 
-Allow: /img
+# Host
+Host: https://juliomontas.com/
+
+# Sitemaps
+Sitemap: https://juliomontas.com/sitemap.xml

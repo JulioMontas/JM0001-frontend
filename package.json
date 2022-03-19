@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "next-sitemap",
     "start": "next start",
     "export": "next build && next export"
   },
@@ -28,6 +29,7 @@
   },
   "devDependencies": {
     "@netlify/plugin-nextjs": "^4.2.7",
-    "frontmatter-markdown-loader": "^3.6.2"
+    "frontmatter-markdown-loader": "^3.6.2",
+    "next-sitemap": "^2.5.10"
   }
 }

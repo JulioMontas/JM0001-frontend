@@ -9,11 +9,11 @@ class MyDocument extends Document {
           <meta name="robots" content="index,follow" />
           <meta name="googlebot" content="index,follow" />
           <meta name="author" content="Julio Montás"/>
-          <meta name='application-name' content='Julio Montás | UI Developer • Interaction Designer' />
+          <meta name='application-name' content='Interaction Designer' />
           <meta name='apple-mobile-web-app-capable' content='yes' />
           <meta name='apple-mobile-web-app-status-bar-style' content='default' />
-          <meta name='apple-mobile-web-app-title' content='Julio Montás | UI Developer • Interaction Designer' />
-          <meta name="keywords" content="Product Designer, UX Designer, Visual/UI Designer, UX Researcher, Graphic Designer, Art Direction, Typography, Advertising, Branding, Retail, and Creative Technologist"/>
+          <meta name='apple-mobile-web-app-title' content='Interaction Designer' />
+          <meta name="keywords" content="Product Designer, UX Designer, Visual/UI Designer, UX Researcher, Graphic Designer, Art Direction, Typography, Advertising, Branding, Retail, SEO, and Creative Technologist"/>
           {/* <meta name='description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' key="description" /> */}
           <meta name='format-detection' content='telephone=no' />
           <meta name='mobile-web-app-capable' content='yes' />

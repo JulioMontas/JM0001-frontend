@@ -9,6 +9,7 @@
     "landingPage": "Página De Aterrizaje",
     "sitemap": "Mapa De Sitio Web",
     "title": "Título",
+
     "title_00": "Adorama - eCommerce",
     "content_00": "Diseñador UI/UX y Desarrollador front-end, 2019",
     "overviewContent_00": "Minorista de productos electrónicos de propiedad y operación estadounidense fundado en 1975. Venden cámaras, lentes, audio, video, drones, instrumentos musicales y más, nuevos y usados, en una tienda de varios pisos en la ciudad de Nueva York en Chelsea.",
@@ -27,6 +28,7 @@
     "productList_00_b": "Equipo de campamento, senderismo, escalada, ciclismo y actividades al aire libre",
     "productList_00_c": "Alquile cámaras de cine digital, lentes, empuñaduras, iluminación, fotografía y equipo de video",
     "productList_00_d": "Buceo, esnórquel y equipo subacuático.",
+
     "title_01": "Diseño De Discos De Vinilo",
     "content_01": "Diseño de impresión, 2019",
     "overviewContent_01": "DJ, productor e ingeniero de sonido colombiano radicado en la ciudad de Nueva York. Su trabajo abarca numerosos géneros, produciendo música tanto para artistas consagrados como emergentes.",
@@ -36,8 +38,9 @@
     "photographyExploration": "Fotografía Exploratio",
     "titleContent_01": "Pasé días investigando y preguntando por una familia de fuentes sans serif minimalista que captura una abstracción que fusione pero que también que capture el estilo de las pinturas del artista Pablo Carpio.",
     "vinylCover": "Cubierta De Vinilo",
+
     "title_02": "Fragancia eCommerce Para Shopify",
-    "content_02": "Diseñador UI/UX y Desarrollador front-end, 2018",
+    "content_02": "Director Creativo (Arte + Diseño) y Desarrollador de Shopify, 2018",
     "overviewContent_02": "El Fragrances Group es un distribuidor estadounidense de líneas de fragancias europeas con socios minoristas como Bloomingdale's, Bergdorf Goodman y Barneys. También sirve como distribuidor exclusivo de las fragancias Christian Siriano, Thalia Sodi y Banana Republic.",
     "moodboard_02": "Panel De Tendencias: Etapas Profundas De Relajación",
     "backgroundContent_02":"Me uní al proyecto para rediseñar su página web de comercio electrónico que fue creado por su equipo de mercadeo. Presenté primero su Customer Journey pero debido al corto tiempo para el lanzamiento oficial, tuve que eliminar en el proceso de wireframe, desarrollé toda la interfaz de usuario (UI) para todas las páginas porque necesitaba asegurarme de que obtuviera lo que querían del proyecto.",
@@ -56,8 +59,9 @@
     "pressAndContactContent_02a": "La página contactos fue en realidad la primera versión de la página que regresa a los usuarios para futuras mejoras en caso de que haya algún abuso por parte de un usuario inteligente.",
     "pressAndContactContent_02b": "La página del comunicado de prensa se diseñó teniendo en cuenta un archivo. Componentes simples de un rectángulo horizontal con una altura mínima de 50px, que contiene el nombre de la publicación con cualquier información adicional en forma de un icono de enlace para facilitar la navegación si hay varios.",
     "resultsContent_02": "Su plataforma de comercio electrónico finalmente se integró en su sitio B2C, dándoles una segunda capa de capital que atraería a su nuevo consumidor digital.",
+
     "title_03": "Tema personalizado de Wordpress",
-    "content_03": "Diseñador UI/UX y Desarrollador front-end, 2017",
+    "content_03": "Director Creativo (Arte + Diseño) y Desarrollador de WordPress, 2017",
     "overviewContent_03": "Artista, compositor y productor de EDM / Pop con múltiples talentos con más de 50 lanzamientos. Buscando un espacio digital para conectarse con sus fans.",
     "moodboard_03": "Panel de tendencias",
     "backgroundContent_03": " Fui el único diseñador y líder en todo el proceso de diseño de UX / UI y también escribí todo el código para el sitio en PHP, con WordPress como CMS.",
@@ -74,5 +78,40 @@
     "developmentContentList_03b": "Ofrezca a los clientes la opción de descargar su álbum comprado o una sola pista como descarga digital.",
     "developmentContentList_03c": "El fondo en movimiento se creó utilizando la biblioteca 3D de JavaScript Three.js.",
     "developmentContentList_03d": "Capacidad de respuesta entre dispositivos",
-    "resultsContent_03": "Texto"
+    "resultsContent_03": "Texto",
+
+    "title_04": "Headless CMS Para Abogados",
+    "slug_04": "law-firm-headless-cms",
+    "content_04": "Director Creativo (Arte + Diseño) & Desarrollador de Headless CMS, 2021",
+    "overviewContent_04": "El rediseño del sitio web de BTG para mejorar la experiencia del usuario, la navegación del sitio, seguir las mejores prácticas de SEO e integrar un sistema de administración de contenido (CMS) sin encabezado para que los usuarios administradores realicen ediciones, eliminaciones e ingresen contenido nuevo en un tablero amigable y simple.",
+    "backgroundContent_04": "Texto",
+    "landingPageContent_04": "Texto",
+
+    "title_05": "Lancome: Visionnaire Video UI",
+    "slug_05": "lancome-visionnaire-video-ui",
+    "content_05": "Agencia / Diseñador UX/UI, 2013",
+    "overviewContent_05": "Reproductor de video interactivo que incluye íconos, botones, controles deslizantes y barra de reproducción de video.",
+    "backgroundContent_05": "Texto",
+    "landingPageContent_05": "Texto",
+
+    "title_06": "Kate Spade: Shoppable Web Video UI",
+    "slug_06": "kate-spade-shoppable-web-video-ui",
+    "content_06": "Agencia / Diseñador UX/UI, 2014",
+    "overviewContent_06": "El reproductor de video presenta una función interactiva que se puede comprar en cada cuadro.",
+    "backgroundContent_06": "Texto",
+    "landingPageContent_06": "Texto",
+
+    "title_07": "Sebastian Faena: Micro Pagina De un Fotógrafo De Moda",
+    "slug_07": "sebastian-faena-fashion-photographer-miscrosite",
+    "content_07": "Diseñador UX/UI Y Desarrollo Web, 2013",
+    "overviewContent_07": "La imagen de la página de destino cambia a una imagen aleatoria cada vez que se actualiza con un solo enlace para un contacto de correo electrónico",
+    "backgroundContent_07": "Texto",
+    "landingPageContent_07": "La imagen de la página de destino cambia a una imagen aleatoria cada vez que se actualiza.",
+
+    "title_08": "Nike: Venta Minorista iPad App",
+    "slug_08": "nike-retail-ipad-app",
+    "content_08": "Agencia / Diseñador UX/UI, 2014",
+    "overviewContent_08": "Rediseñar una aplicación existente en la tienda para que coincida con la apariencia de la marca Nike para una distribución más amplia en la tienda.",
+    "backgroundContent_08": "Texto",
+    "landingPageContent_08": "Texto"
 }

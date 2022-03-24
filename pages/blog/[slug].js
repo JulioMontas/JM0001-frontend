@@ -172,7 +172,6 @@ export default function BlogPost(props) {
     <link rel="alternate" href={'https://juliomontas.com/blog/' + postData.title} hreflang="en-us" />
     <link rel="alternate" href={'https://juliomontas.com/es-us/blog/' + postData.title} hreflang="es-us" />
   </Head>
-  <NavBar />
   <div className={styles.mainIndex}>
     <div className={styles.mainCenterCont}>
       <div className={styles.gridContainer}>

@@ -8,7 +8,7 @@ class MyDocument extends Document {
           <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
           <meta name="robots" content="index,follow" />
           <meta name="googlebot" content="index,follow" />
-          <meta name="author" content="Julio Montás"/>
+          <meta name="author" content="Julio montas"/>
           <meta name='application-name' content='Interaction Designer' />
           <meta name='apple-mobile-web-app-capable' content='yes' />
           <meta name='apple-mobile-web-app-status-bar-style' content='default' />
@@ -33,14 +33,14 @@ class MyDocument extends Document {
           {/* <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' /> */}
           <meta name='twitter:card' content='summary' />
           {/* <meta name='twitter:url' content='https://juliomontas.com' /> */}
-          {/* <meta name='twitter:title' content='Julio Montás | UI Developer • Interaction Designer' /> */}
+          {/* <meta name='twitter:title' content='Julio montas | UI Developer • Interaction Designer' /> */}
           {/* <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' /> */}
           {/* <meta name='twitter:image' content='https://juliomontas.com/static/icons/android-chrome-192x192.png' /> */}
           <meta name='twitter:creator' content='@juliomontas' />
           <meta property='og:type' content='website' />
-          {/* <meta property='og:title' content='Julio Montás | UI Developer • Interaction Designer' key="title"/> */}
+          {/* <meta property='og:title' content='Julio montas | UI Developer • Interaction Designer' key="title"/> */}
           {/* <meta property='og:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' /> */}
-          <meta property='og:site_name' content='Julio Montás' />
+          <meta property='og:site_name' content='Julio montas' />
           {/* <meta property='og:url' content='https://juliomontas.com' /> */}
           {/* <meta property='og:image' content='https://juliomontas.com/static/icons/apple-touch-icon.png' /> */}
           <link rel='manifest' href='/manifest.json' />

@@ -41,13 +41,13 @@ function ProjectIndex() {
   return <div className={styles.backgroundColor}>
   <Container>
   <Head>
-    <title>Side Project | {t('title_03')} | Julio Montás</title>
+    <title>Side Project: {t('title_03')}</title>
     <meta name='twitter:url' content='https://juliomontas.com/side-project/width/' />
     <meta property='og:url' content='https://juliomontas.com/side-project/width/' />
     <meta property='og:image' content='https://juliomontas.com/img/side-project/width/width_BothPlayer_1080.gif' />
     <meta name='twitter:image' content='https://juliomontas.com/img/side-project/width/width_BothPlayer_1080.gif' />
-    <meta property='og:title' content='Width Take Over the Screen | Julio Montás' />
-    <meta name='twitter:title' content='Width Take Over the Screen | Julio Montás' />
+    <meta property='og:title' content='Width Take Over the Screen | Julio montas' />
+    <meta name='twitter:title' content='Width Take Over the Screen | Julio montas' />
     <meta name="description" content="A two-player game in which you must defeat your opponents by clicking to take over the screen" key="description"/>
     <meta property='og:description' content='A two-player game in which you must defeat your opponents by clicking to take over the screen' />
     <meta name='twitter:description' content='A two-player game in which you must defeat your opponents by clicking to take over the screen' />
@@ -222,7 +222,7 @@ function ProjectIndex() {
 
                 <ContactForm
                   title="Contact Form"
-                /> 
+                />
 
       </div>
     </div>

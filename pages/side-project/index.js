@@ -36,13 +36,13 @@ function sideProject({ posts }) {
   const { t } = useTranslation('sideProject')
   return <Layout>
     <Head>
-      <title>Side Project - UI Developer • Interaction Designer | Julio Montás</title>
+      <title>Side Project - UI Developer • Interaction Designer | Julio montas</title>
       <meta name='twitter:url' content='https://juliomontas.com/side-project/' />
       <meta property='og:url' content='https://juliomontas.com/side-project/' />
       <meta property='og:image' content='https://juliomontas.com/me.png' />
       <meta name='twitter:image' content='https://juliomontas.com/me.png' />
-      <meta property='og:title' content='Projects - UI Developer • Interaction Designer | Julio Montás' />
-      <meta name='twitter:title' content='Projects - UI Developer • Interaction Designer | Julio Montás' />
+      <meta property='og:title' content='Projects - UI Developer • Interaction Designer | Julio montas' />
+      <meta name='twitter:title' content='Projects - UI Developer • Interaction Designer | Julio montas' />
       <meta name="description" content="Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC." key="description"/>
       <meta property='og:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
       <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />

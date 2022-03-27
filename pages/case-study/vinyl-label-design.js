@@ -103,7 +103,7 @@ export default function CaseStudyIndex({ data: {site} }) {
   return <div className={styles.backgroundColor}>
   <Container>
     <Head>
-      <title>{t('title_01')} | Julio Montás</title>
+      <title>{t('title_01')}</title>
       <meta name='twitter:url' content='https://juliomontas.com/case-study/vinyl-label-design/' />
       <meta property='og:url' content='https://juliomontas.com/case-study/vinyl-label-design/' />
       <meta property='og:image' content='https://juliomontas.com/img/pendulum/pendulum_instagram.jpg' />

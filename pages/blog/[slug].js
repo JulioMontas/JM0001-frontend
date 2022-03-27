@@ -158,7 +158,7 @@ export default function BlogPost(props) {
   return <div className={styles.backgroundColor}>
   <Container>
   <Head>
-    <title>{postData.title} - UI Developer • Full Stack Designer | Julio Montás</title>
+    <title>{postData.title} - UI Developer • Full Stack Designer | Julio Montas</title>
     <meta name='twitter:url' content='https://juliomontas.com/blog/' />
     <meta property='og:url' content='https://juliomontas.com/blog/' />
     <meta property='og:image' content='https://juliomontas.com/me.png' />

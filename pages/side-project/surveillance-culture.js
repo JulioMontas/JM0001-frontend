@@ -41,13 +41,13 @@ function ProjectIndex() {
   return <div className={styles.backgroundColor}>
   <Container>
   <Head>
-    <title>Side Project | {t('title_02')} | Julio Montás</title>
+    <title>Side Project: {t('title_02')}</title>
     <meta name='twitter:url' content='https://juliomontas.com/side-project/surveillance/' />
     <meta property='og:url' content='https://juliomontas.com/side-project/surveillance/' />
     <meta property='og:image' content='https://juliomontas.com/img/side-project/surveillance/jessieNguyen-Moodboard.jpg' />
     <meta name='twitter:image' content='https://juliomontas.com/img/side-project/surveillance/jessieNguyen-Moodboard.jpg' />
-    <meta property='og:title' content='Surveillance Culture - Modernity Identity and Security | Julio Montás' />
-    <meta name='twitter:title' content='Surveillance Culture - Modernity Identity and Security | Julio Montás' />
+    <meta property='og:title' content='Surveillance Culture - Modernity Identity and Security | Julio montas' />
+    <meta name='twitter:title' content='Surveillance Culture - Modernity Identity and Security | Julio montas' />
     <meta name="description" content="A social experiment using the top social media channels to farm users sensitive data" key="description"/>
     <meta property='og:description' content='A social experiment using the top social media channels to farm users sensitive data' />
     <meta name='twitter:description' content='A social experiment using the top social media channels to farm users sensitive data' />

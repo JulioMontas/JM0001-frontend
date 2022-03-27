@@ -43,7 +43,7 @@ function CaseStudyIndex() {
   return <div className={styles.backgroundColor}>
   <Container>
     <Head>
-      <title>{t('title_02')} | Julio Montás</title>
+      <title>{t('title_02')}</title>
       <meta name='twitter:url' content='https://juliomontas.com/case-study/custom-shopify-fragrance-ecommerce/' />
       <meta property='og:url' content='https://juliomontas.com/case-study/custom-shopify-fragrance-ecommerce/' />
       <meta property='og:image' content='https://juliomontas.com/img/ecommerce/mockupFragrance_A01.jpg' />

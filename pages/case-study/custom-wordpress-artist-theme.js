@@ -43,7 +43,7 @@ function CaseStudyIndex() {
   return <div className={styles.backgroundColor}>
   <Container>
     <Head>
-      <title>{t('title_03')} | Julio Montás</title>
+      <title>{t('title_03')}</title>
       <meta name='twitter:url' content='https://juliomontas.com/case-study/custom-wordpress-artist-theme/' />
       <meta property='og:url' content='https://juliomontas.com/case-study/custom-wordpress-artist-theme/' />
       <meta property='og:image' content='https://juliomontas.com/img/ecommerce/mockupFragrance_A01.jpg' />
@@ -989,7 +989,7 @@ function CaseStudyIndex() {
           <SideProjectWrap
             title="Side Projects"
           />
-          
+
           <ContactForm
             title="Contact Form"
           />

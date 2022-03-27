@@ -36,7 +36,7 @@ function caseStudy({ posts }) {
   const { t } = useTranslation('caseStudy')
   return <Layout>
   <Head>
-    <title>Case Study - UI Developer • Interaction Designer | Julio Montás</title>
+    <title>Case Study - UI Developer • Interaction Designer | Julio Montas</title>
     <meta name='twitter:url' content='https://juliomontas.com/case-study/' />
     <meta property='og:url' content='https://juliomontas.com/case-study/' />
     <meta property='og:image' content='https://juliomontas.com/me.png' />

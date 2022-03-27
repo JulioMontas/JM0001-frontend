@@ -43,13 +43,13 @@ export async function getStaticProps() {
 export default function Blog({ data }) {
   return <Container>
   <Head>
-    <title>Blog - UI Developer • Full Stack Designer | Julio Montás</title>
+    <title>Blog - UI Developer • Full Stack Designer | Julio Montas</title>
     <meta name='twitter:url' content='https://juliomontas.com/blog/' />
     <meta property='og:url' content='https://juliomontas.com/blog/' />
     <meta property='og:image' content='https://juliomontas.com/me.png' />
     <meta name='twitter:image' content='https://juliomontas.com/me.png' />
-    <meta property='og:title' content='Blog - UI Developer • Full Stack Designer | Julio Montás' />
-    <meta name='twitter:title' content='Blog - UI Developer • Full Stack Designer | Julio Montás' />
+    <meta property='og:title' content='Blog - UI Developer • Full Stack Designer | Julio montas' />
+    <meta name='twitter:title' content='Blog - UI Developer • Full Stack Designer | Julio montas' />
     <meta name="description" content="Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC." key="description"/>
     <meta property='og:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />
     <meta name='twitter:description' content='Building Custom Website, eCommerce, CMS and Mobile App Prototype. Experience with Startup, Private Companies and Creative Agency. NYC.' />

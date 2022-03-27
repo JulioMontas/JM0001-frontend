@@ -40,13 +40,13 @@ function ProjectIndex() {
   const { t } = useTranslation('sideProject')
   return <Container>
     <Head>
-      <title>Side Project | {t('title_04')} | Julio Montás</title>
+      <title>Side Project: {t('title_04')}</title>
       <meta name='twitter:url' content='https://juliomontas.com/side-project/meliorem/' />
       <meta property='og:url' content='https://juliomontas.com/side-project/meliorem/' />
       <meta property='og:image' content='https://juliomontas.com/img/side-project/meliorem/meliorem-02.png' />
       <meta name='twitter:image' content='https://juliomontas.com/img/side-project/meliorem/meliorem-02.png' />
-      <meta property='og:title' content='Meliorem - Cultivating Your Passion to Level Up | Julio Montás' />
-      <meta name='twitter:title' content='Meliorem - Cultivating Your Passion to Level Up | Julio Montás' />
+      <meta property='og:title' content='Meliorem - Cultivating Your Passion to Level Up | Julio montas' />
+      <meta name='twitter:title' content='Meliorem - Cultivating Your Passion to Level Up | Julio montas' />
       <meta name="description" content="Reward self task manager to stimulate your existence" key="description"/>
       <meta property='og:description' content='Reward self task manager to stimulate your existence' />
       <meta name='twitter:description' content='Reward self task manager to stimulate your existence' />

@@ -41,13 +41,13 @@ function ProjectIndex() {
   return <div className={styles.backgroundColor}>
   <Container>
   <Head>
-    <title>Side Project | {t('title_01')} | Julio Montás</title>
+    <title>Side Project: {t('title_01')}</title>
     <meta name='twitter:url' content='https://juliomontas.com/side-project/hellocode/' />
     <meta property='og:url' content='https://juliomontas.com/side-project/hellocode/' />
     <meta property='og:image' content='https://juliomontas.com/img/side-project/hc/hc01.gif' />
     <meta name='twitter:image' content='https://juliomontas.com/img/side-project/hc/hc01.gif' />
-    <meta property='og:title' content='Helloco.de The Home For Programming Languages | Julio Montás' />
-    <meta name='twitter:title' content='Helloco.de The Home For Programming Languages | Julio Montás' />
+    <meta property='og:title' content='Helloco.de The Home For Programming Languages | Julio montas' />
+    <meta name='twitter:title' content='Helloco.de The Home For Programming Languages | Julio montas' />
     <meta name="description" content="List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present" key="description"/>
     <meta property='og:description' content='List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present' />
     <meta name='twitter:description' content='List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present' />

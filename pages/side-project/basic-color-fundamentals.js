@@ -41,13 +41,13 @@ function ProjectIndex() {
   return( <div className={styles.backgroundColor}>
   <Container>
     <Head>
-      <title>Side Project | {t('title_05')} | Julio Montás</title>
+      <title>Side Project: {t('title_05')}</title>
       <meta name='twitter:url' content='https://juliomontas.com/side-project/colors/' />
       <meta property='og:url' content='https://juliomontas.com/side-project/colors/' />
       <meta property='og:image' content='https://juliomontas.com/img/side-project/colors/slide_03.png' />
       <meta name='twitter:image' content='https://juliomontas.com/img/side-project/colors/slide_03.png' />
-      <meta property='og:title' content='Basic Color Fundamentals - Simple Fun App for Toddlers | Julio Montás' />
-      <meta name='twitter:title' content='Basic Color Fundamentals - Simple Fun App for Toddlers | Julio Montás' />
+      <meta property='og:title' content='Basic Color Fundamentals - Simple Fun App for Toddlers | Julio montas' />
+      <meta name='twitter:title' content='Basic Color Fundamentals - Simple Fun App for Toddlers | Julio montas' />
       <meta name="description" content="Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory" key="description"/>
       <meta property='og:description' content='Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory' />
       <meta name='twitter:description' content='Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory' />

@@ -37,7 +37,7 @@ const data = [
     title: "Law Firm Headless CMS",
     content: "Product Designer & Developer, 2021",
     slug: "law-firm-headless-cms",
-    cover: ""
+    cover: "orange_box.png"
   },
   {
     title: "Adorama  eCommerce",

@@ -40,6 +40,12 @@ const data = [
     cover: ""
   },
   {
+    title: "Adorama  eCommerce",
+    content: "UI/UX Designer & Front-end Dev, 2019",
+    slug: "adorama-ecommerce",
+    cover: "blue_box.jpg"
+  },
+  {
     title: "Vinyl Label Design",
     content: "Art Direction, Print Design, 2019",
     slug: "vinyl-label-design",

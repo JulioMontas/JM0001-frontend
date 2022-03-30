@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from "framer-motion"
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import Head from 'next/head'
 import useTranslation from 'next-translate/useTranslation'
 import Container from '../../components/Container'
@@ -249,7 +250,7 @@ function CaseStudyIndex() {
 
           <motion.div variants={fadeInUp}>
           <div>
-            <h2>&#128248; Desktop UI Design</h2>
+            <h2>&#128248; Landing page UI design</h2>
             <Image
               src="/img/case-study/BTG_Desktop_Homepage.jpg"
               alt="In the night at the beach"
@@ -259,6 +260,56 @@ function CaseStudyIndex() {
               layout="responsive"
               loading="lazy"
             />
+          </div>
+          </motion.div>
+
+          <motion.div variants={fadeInUp}>
+          <div>
+            <h2>&#128065; Attorney and Practice Areas UI Design</h2>
+            <Swiper
+            style={{
+              "--swiper-navigation-color": "#FFFC00",
+              "--swiper-pagination-color": "#FFFC00",
+            }}
+             modules={[Navigation, Pagination, Scrollbar, A11y]}
+            pagination={{ clickable: true }}
+            speed={400}
+            breakpoints={{
+              320: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+                width: 300
+              },
+              1200: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+                width: 1024
+              }
+            }}
+            >
+          <SwiperSlide>
+                <Image
+                src="/img/case-study/btg_desktop_attorney_page.jpg"
+                alt="Mockups design 2"
+                width={1512}
+                height={2661}
+                quality={20}
+                layout="responsive"
+                loading="lazy"
+                />
+          </SwiperSlide>
+          <SwiperSlide>
+                <Image
+                src="/img/case-study/btg_desktop_practiceAreas_article.jpg"
+                alt="Mockups design 3"
+                width={1512}
+                height={2038}
+                quality={20}
+                layout="responsive"
+                loading="lazy"
+                />
+          </SwiperSlide>
+          </Swiper>
           </div>
           </motion.div>
 
@@ -279,6 +330,11 @@ function CaseStudyIndex() {
           <div className={styles.flipSwitch}>
             <h2>More Case Study</h2>
             <ul>
+              <RelatedCTA
+                url={"/case-study/" + t('slug_00')}
+                title={t('title_00')}
+                content={t('content_00')}
+              />
               <RelatedCTA
                 url={"/case-study/" + t('slug_01')}
                 title={t('title_01')}

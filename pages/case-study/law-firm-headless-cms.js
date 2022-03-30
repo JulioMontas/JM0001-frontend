@@ -229,8 +229,49 @@ function CaseStudyIndex() {
           </motion.div>
 
           <motion.div variants={fadeInUp}>
+          <div className={styles.flipSwitch}>
+            <h2>&#128736; {t('development')}</h2>
+            <ul className={styles.secTextList}>
+              <li>Design and prototype using Figma</li>
+              <li>Front-end development using Gatsby.js a React framework</li>
+              <li>Back-end CMS using DatoCMS with GraphQL for query data</li>
+              <li>Code watch in Gatbsy Cloud and Netlify</li>
+              <li>Code save in Github</li>
+            </ul>
+          </div>
+          </motion.div>
+
+          <motion.div variants={fadeInUp}>
           <div className={styles.SecBackground}>
             <h2>&#128736; {t('sitemap')}</h2>
+          </div>
+          </motion.div>
+
+          <motion.div variants={fadeInUp}>
+          <div>
+            <h2>&#128248; Desktop UI Design</h2>
+            <Image
+              src="/img/case-study/BTG_Desktop_Homepage.jpg"
+              alt="In the night at the beach"
+              width={1512}
+              height={5148}
+              quality={75}
+              layout="responsive"
+              loading="lazy"
+            />
+          </div>
+          </motion.div>
+
+          <motion.div variants={fadeInUp}>
+          <div className={styles.flipSwitch}>
+            <h2>Demo</h2>
+            <ul>
+              <RelatedCTA
+                url="https://btg-site.netlify.app/"
+                title="btg-site.netlify.app"
+                content="Demo Website"
+              />
+            </ul>
           </div>
           </motion.div>
 

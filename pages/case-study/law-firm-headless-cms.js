@@ -83,6 +83,21 @@ function CaseStudyIndex() {
           </motion.div>
 
           <motion.div variants={fadeInUp}>
+          <div className={styles.SecBackground}>
+            <h2>&#128444; {t('moodboard_03')}</h2>
+            <Image
+              src="/img/case-study/btg_moodboard.jpg"
+              alt="In the night at the beach"
+              width={1770}
+              height={1043}
+              quality={100}
+              layout="responsive"
+              loading="lazy"
+            />
+          </div>
+          </motion.div>
+
+          <motion.div variants={fadeInUp}>
           <div className={styles.flipSwitch}>
             <h2>&#9997; Oswald By Vernon Adams, Kalapi Gajjar, Cyreal</h2>
           </div>
@@ -103,7 +118,16 @@ function CaseStudyIndex() {
           <div className={styles.flipSwitch}>
             <h2>&#127853; {t('gradient')}</h2>
             <div className={styles.secColorGradient}>
-              <span style={{backgroundImage:'linear-gradient(#3d586b,rgba(29,56,81,.6))'}}></span>
+              <span style={{backgroundImage:'linear-gradient(#3d586b,rgba(29,56,81,.6))', marginBottom:`1em`}}></span>
+              <Image
+                src="/img/case-study/btg_color.png"
+                alt="In the night at the beach"
+                width={1770}
+                height={1043}
+                quality={100}
+                layout="responsive"
+                loading="lazy"
+              />
             </div>
           </div>
           </motion.div>
@@ -142,6 +166,15 @@ function CaseStudyIndex() {
           <motion.div variants={fadeInUp}>
           <div className={styles.SecBackground}>
             <h2>&#128736; {t('sitemap')}</h2>
+            <Image
+              src="/img/case-study/btg_sitemap.png"
+              alt="In the night at the beach"
+              width={3095}
+              height={917}
+              quality={100}
+              layout="responsive"
+              loading="lazy"
+            />
           </div>
           </motion.div>
 

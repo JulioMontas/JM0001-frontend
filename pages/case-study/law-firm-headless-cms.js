@@ -105,10 +105,18 @@ function CaseStudyIndex() {
 
           <motion.div variants={fadeInUp}>
           <PaletteList
-            title={t('palette')}
+            title={t('palette') + " 1"}
             first="3d586b"
             second="1d3851"
             third="bca360"
+            fourth="FFF"
+            last="eef0f2"
+          />
+          <PaletteList
+            title={t('palette') + " 2"}
+            first="3d586b"
+            second="1d3851"
+            third="FFAC4B"
             fourth="FFF"
             last="eef0f2"
           />
@@ -128,6 +136,7 @@ function CaseStudyIndex() {
                 layout="responsive"
                 loading="lazy"
               />
+              <p style={{marginTop:`0.3em`}}>Color exploration</p>
             </div>
           </div>
           </motion.div>

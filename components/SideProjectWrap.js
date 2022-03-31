@@ -162,6 +162,32 @@ const SideProjectWrap = (props) => {
             </section>
             </motion.div>
             </SwiperSlide>
+
+            <SwiperSlide>
+            <motion.div variants={fadeInUp} className='card'>
+            <section>
+              <Link href={`/side-project/meliorem-cultivating-your-passion-to-level-up`}>
+                <a alt={data.title_04} rel="alternate" hreflang="en">
+                  <h3 className={styles.title}>{data.title_04}</h3>
+                  <h4 className={styles.description}>{data.content_04}</h4>
+                  <span className={styles.fotos}>
+                    <Image
+                    src="/img/meliorem.png"
+                    alt={data.title_04}
+                    width={200}
+                    height={200}
+                    quality={15}
+                    loading="eager"
+                    />
+                  </span>
+                </a>
+              </Link>
+            </section>
+            </motion.div>
+            </SwiperSlide>
+
+
+
           </Swiper>
         </div>
       </motion.div>

@@ -85,7 +85,7 @@ function ProjectIndex() {
                     alt="Mockup of python page"
                     width={1421}
                     height={1897}
-                    quality={75}
+                    quality={100}
                     layout="responsive"
                     loading="eager"
                     />
@@ -118,7 +118,7 @@ function ProjectIndex() {
                         alt="Mockup of python page"
                         width={940}
                         height={718}
-                        quality={20}
+                        quality={100}
                         layout="responsive"
                         loading="lazy"
                         />
@@ -130,7 +130,7 @@ function ProjectIndex() {
                         alt="Mockup of python page"
                         width={1422}
                         height={768}
-                        quality={50}
+                        quality={100}
                         layout="responsive"
                         loading="lazy"
                         />

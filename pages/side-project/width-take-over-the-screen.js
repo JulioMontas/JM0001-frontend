@@ -85,7 +85,7 @@ function ProjectIndex() {
                     alt="Mockup of python page"
                     width={1280}
                     height={735}
-                    quality={70}
+                    quality={100}
                     layout="responsive"
                     loading="eager"
                   />
@@ -118,7 +118,7 @@ function ProjectIndex() {
                         alt="Wireframe level one design"
                         width={1280}
                         height={800}
-                        quality={20}
+                        quality={100}
                         layout="responsive"
                         loading="lazy"
                         />
@@ -130,7 +130,7 @@ function ProjectIndex() {
                         alt="Wireframe level three design"
                         width={1280}
                         height={800}
-                        quality={20}
+                        quality={100}
                         layout="responsive"
                         loading="lazy"
                         />
@@ -142,7 +142,7 @@ function ProjectIndex() {
                         alt="Wireframe level six design"
                         width={1280}
                         height={800}
-                        quality={20}
+                        quality={100}
                         layout="responsive"
                         loading="lazy"
                         />
@@ -154,7 +154,7 @@ function ProjectIndex() {
                         alt="Wireframe level twelve design"
                         width={1280}
                         height={800}
-                        quality={20}
+                        quality={100}
                         layout="responsive"
                         loading="lazy"
                         />
@@ -172,7 +172,7 @@ function ProjectIndex() {
                     alt="Main page for width"
                     width={1080}
                     height={629}
-                    quality={70}
+                    quality={100}
                     layout="responsive"
                     loading="lazy"
                     />

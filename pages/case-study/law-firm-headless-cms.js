@@ -121,6 +121,19 @@ function CaseStudyIndex() {
           </motion.div>
 
           <motion.div variants={fadeInUp}>
+          <div className={styles.flipSwitch}>
+            <h2>Demo</h2>
+            <ul>
+              <RelatedCTA
+                url="https://btg-site.netlify.app/"
+                title="btg-site.netlify.app"
+                content="Demo Website"
+              />
+            </ul>
+          </div>
+          </motion.div>
+
+          <motion.div variants={fadeInUp}>
           <div className={styles.SecBackground}>
             <h2>&#128736; {t('sitemap')}</h2>
           </div>
@@ -134,7 +147,7 @@ function CaseStudyIndex() {
               alt="In the night at the beach"
               width={1512}
               height={5148}
-              quality={75}
+              quality={100}
               layout="responsive"
               loading="lazy"
             />
@@ -171,7 +184,7 @@ function CaseStudyIndex() {
                 alt="Mockups design 2"
                 width={1512}
                 height={2661}
-                quality={20}
+                quality={100}
                 layout="responsive"
                 loading="lazy"
                 />
@@ -182,25 +195,12 @@ function CaseStudyIndex() {
                 alt="Mockups design 3"
                 width={1512}
                 height={2038}
-                quality={20}
+                quality={100}
                 layout="responsive"
                 loading="lazy"
                 />
           </SwiperSlide>
           </Swiper>
-          </div>
-          </motion.div>
-
-          <motion.div variants={fadeInUp}>
-          <div className={styles.flipSwitch}>
-            <h2>Demo</h2>
-            <ul>
-              <RelatedCTA
-                url="https://btg-site.netlify.app/"
-                title="btg-site.netlify.app"
-                content="Demo Website"
-              />
-            </ul>
           </div>
           </motion.div>
 

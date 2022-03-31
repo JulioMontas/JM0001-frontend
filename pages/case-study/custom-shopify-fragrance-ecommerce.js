@@ -1113,11 +1113,16 @@ function CaseStudyIndex() {
           <div className={styles.flipSwitch}>
             <h2>More Case Study</h2>
             <ul>
-            <RelatedCTA
-              url={"/case-study/" + t('slug_04')}
-              title={t('title_04')}
-              content={t('content_04')}
-            />
+              <RelatedCTA
+                url={"/case-study/" + t('slug_04')}
+                title={t('title_04')}
+                content={t('content_04')}
+              />
+              <RelatedCTA
+                url={"/case-study/" + t('slug_00')}
+                title={t('title_00')}
+                content={t('content_00')}
+              />
               <RelatedCTA
                 url={"/case-study/" + t('slug_01')}
                 title={t('title_01')}

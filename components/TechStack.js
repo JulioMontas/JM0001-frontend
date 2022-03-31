@@ -59,19 +59,24 @@ const svg = {
 
 const data = [
   {
+    svg:"svg/icon/invision.svg",
+    alt:"InVision logo",
+    title:"InVision"
+  },
+  {
+    svg:"svg/icon/sketch.svg",
+    alt:"Sketch logo",
+    title:"Sketch"
+  },
+  {
     svg:"svg/icon/figma.svg",
     alt:"Figma logo",
     title:"Figma"
   },
   {
-    svg:"svg/icon/datocms.svg",
-    alt:"datocms logo",
-    title:"DatoCMS"
-  },
-  {
-    svg:"svg/icon/nextjs.svg",
-    alt:"nextjs logo",
-    title:"NextJS"
+    svg:"svg/icon/github.svg",
+    alt:"Github logo",
+    title:"Github"
   },
   {
     svg:"svg/icon/css.svg",
@@ -94,9 +99,9 @@ const data = [
     title:"shopify"
   },
   {
-    svg:"svg/icon/webxr.svg",
-    alt:"webxr logo",
-    title:"webxr"
+    svg:"svg/icon/nextjs.svg",
+    alt:"nextjs logo",
+    title:"NextJS"
   },
   {
     svg:"svg/icon/gatsby.svg",
@@ -104,9 +109,24 @@ const data = [
     title:"gatsby"
   },
   {
+    svg:"svg/icon/datocms.svg",
+    alt:"datocms logo",
+    title:"Dato CMS"
+  },
+  {
+    svg:"svg/icon/webxr.svg",
+    alt:"webxr logo",
+    title:"webxr"
+  },
+  {
     svg:"svg/icon/Progressive_Web_Apps_Logo.svg",
     alt:"pwa logo",
     title:"PWA"
+  },
+  {
+    svg:"svg/icon/jira.svg",
+    alt:"jira logo",
+    title:"Jira"
   },
 ]
 

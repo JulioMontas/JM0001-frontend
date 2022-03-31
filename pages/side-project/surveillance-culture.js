@@ -103,7 +103,7 @@ function ProjectIndex() {
                   alt="Mockup of python page"
                   width={1080}
                   height={629}
-                  quality={20}
+                  quality={100}
                   layout="responsive"
                   loading="eager"
                   />
@@ -114,7 +114,7 @@ function ProjectIndex() {
                   alt="Mockup of python page"
                   width={1080}
                   height={629}
-                  quality={30}
+                  quality={100}
                   layout="responsive"
                   loading="eager"
                   />
@@ -125,7 +125,7 @@ function ProjectIndex() {
                   alt="Mockup of python page"
                   width={1080}
                   height={629}
-                  quality={50}
+                  quality={100}
                   layout="responsive"
                   loading="lazy"
                   />
@@ -136,7 +136,7 @@ function ProjectIndex() {
                   alt="Mockup of python page"
                   width={1080}
                   height={629}
-                  quality={50}
+                  quality={100}
                   layout="responsive"
                   loading="lazy"
                   />
@@ -299,7 +299,7 @@ function ProjectIndex() {
                   alt="Mockup of python page"
                   width={1080}
                   height={629}
-                  quality={20}
+                  quality={100}
                   layout="responsive"
                   loading="lazy"
                   />
@@ -310,7 +310,7 @@ function ProjectIndex() {
                   alt="Mockup of python page"
                   width={1080}
                   height={629}
-                  quality={20}
+                  quality={100}
                   layout="responsive"
                   loading="lazy"
                   />

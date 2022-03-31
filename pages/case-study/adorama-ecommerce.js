@@ -45,18 +45,18 @@ function CaseStudyIndex() {
   <Container>
     <Head>
       <title>Adorama - eCommerce</title>
-      <meta name='twitter:url' content='https://juliomontas.com/case-study/0/' />
-      <meta property='og:url' content='https://juliomontas.com/case-study/0/' />
+      <meta name='twitter:url' content='https://juliomontas.com/case-study/adorama-ecommerce/' />
+      <meta property='og:url' content='https://juliomontas.com/case-study/adorama-ecommerce/' />
       <meta property='og:image' content='https://juliomontas.com/img/pendulum/pendulum_instagram.jpg' />
       <meta name='twitter:image' content='https://juliomontas.com/img/pendulum/pendulum_instagram.jpg' />
-      <meta property='og:title' content='Adorama - eCommerce | Julio Montás' />
-      <meta name='twitter:title' content='Adorama - eCommerce | Julio Montás' />
+      <meta property='og:title' content='Adorama - eCommerce' />
+      <meta name='twitter:title' content='Adorama - eCommerce' />
       <meta name="description" content="Adorama - eCommerce" key="description"/>
       <meta property='og:description' content='Adorama - eCommerce' />
       <meta name='twitter:description' content='Adorama - eCommerce' />
-      <link rel="canonical" href="https://juliomontas.com/case-study/0/" />
-      <link rel="alternate" href="https://juliomontas.com/case-study/0/" hreflang="en-us" />
-      <link rel="alternate" href="https://juliomontas.com/es-us/case-study/0/" hreflang="es-us" />
+      <link rel="canonical" href="https://juliomontas.com/case-study/adorama-ecommerce/" />
+      <link rel="alternate" href="https://juliomontas.com/case-study/adorama-ecommerce/" hreflang="en-us" />
+      <link rel="alternate" href="https://juliomontas.com/es-us/case-study/adorama-ecommerce/" hreflang="es-us" />
     </Head>
       <motion.div exit={{y: -300, opacity: 0 }} initial='initial' animate='animate'>
       <motion.div variants={stagger}>
@@ -65,9 +65,12 @@ function CaseStudyIndex() {
             <div className={styles.gridContainer}>
 
             <motion.div variants={fadeInUp}>
-              <div className={styles.flipSwitch}>
-                <h2>Adorama - eCommerce</h2>
+            <div className={styles.flipSwitch}>
+              <div>
+                <h1>{t('title_00')}</h1>
+                <p>{t('content_00')}</p>
               </div>
+            </div>
             </motion.div>
 
             <motion.div variants={fadeInUp}>
@@ -84,7 +87,7 @@ function CaseStudyIndex() {
                 alt="Inventory management"
                 width={1917}
                 height={1056}
-                quality={25}
+                quality={80}
                 layout="responsive"
                 loading="lazy"
               />
@@ -93,13 +96,20 @@ function CaseStudyIndex() {
 
             <motion.div variants={fadeInUp}>
             <div className={styles.flipSwitch}>
-              <h3>&#128640; Background</h3>
-              <p>{t('backgroundContent_00')}
+                <h3>&#128466; Products</h3>
                 <ul className={styles.secTextList}>
-                  <li>{t('backgroundContent_00_a')}</li>
-                  <li>{t('backgroundContent_00_b')}</li>
+                  <li><b>Adorama.com</b> {t('productList_00_a')}</li>
+                  <li><b>SunnySports.com</b> {t('productList_00_b')}</li>
+                  <li><b>AdoramaRentals.com</b> {t('productList_00_c')}</li>
+                  <li><b>LeisurePro.com</b> {t('productList_00_d')}</li>
                 </ul>
-              </p>
+            </div>
+            </motion.div>
+
+            <motion.div variants={fadeInUp}>
+            <div className={styles.flipSwitch}>
+              <h3>&#128640; Background</h3>
+              <p>{t('backgroundContent_00')}</p>
             </div>
             </motion.div>
 
@@ -112,7 +122,7 @@ function CaseStudyIndex() {
                  alt="Mobile view of raw mockup"
                  width={320}
                  height={3003}
-                 quality={80}
+                 quality={100}
                  layout="responsive"
                  loading="lazy"
                 />
@@ -123,7 +133,7 @@ function CaseStudyIndex() {
                   alt="Desktop view of raw mockup"
                   width={1870}
                   height={3871}
-                  quality={80}
+                  quality={100}
                   layout="responsive"
                   loading="lazy"
                  />
@@ -133,9 +143,10 @@ function CaseStudyIndex() {
 
             <motion.div variants={fadeInUp}>
             <div className={styles.flipSwitch}>
-              <h3>&#128640; Customer Satisfaction</h3>
-              <p>{t('customerSatisfaction_00')}
+              <h3>&#128640; Responsibility</h3>
+              <p>
                 <ul className={styles.secTextList}>
+                  <li>{t('backgroundContent_00_a')}</li>
                   <li>{t('customerSatisfaction_00_a')}</li>
                   <li>{t('customerSatisfaction_00_b')}</li>
                   <li>{t('customerSatisfaction_00_c')}</li>
@@ -143,6 +154,7 @@ function CaseStudyIndex() {
                   <li>{t('customerSatisfaction_00_e')}</li>
                   <li>{t('customerSatisfaction_00_f')}</li>
                   <li>{t('customerSatisfaction_00_g')}</li>
+                  <li>{t('backgroundContent_00_b')}</li>
                 </ul>
               </p>
             </div>
@@ -159,18 +171,6 @@ function CaseStudyIndex() {
                   layout="responsive"
                   loading="lazy"
                  />
-            </div>
-            </motion.div>
-
-            <motion.div variants={fadeInUp}>
-            <div className={styles.flipSwitch}>
-                <h3>&#128466; Products</h3>
-                <ul className={styles.secTextList}>
-                  <li><b>Adorama.com</b> {t('productList_00_a')}</li>
-                  <li><b>SunnySports.com</b> {t('productList_00_b')}</li>
-                  <li><b>AdoramaRentals.com</b> {t('productList_00_c')}</li>
-                  <li><b>LeisurePro.com</b> {t('productList_00_d')}</li>
-                </ul>
             </div>
             </motion.div>
 

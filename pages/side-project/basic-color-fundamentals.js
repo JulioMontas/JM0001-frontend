@@ -122,7 +122,7 @@ function ProjectIndex() {
                       alt="Intro"
                       width={434}
                       height={867}
-                      quality={50}
+                      quality={100}
                       layout="responsive"
                       loading="lazy"
                     />
@@ -134,7 +134,7 @@ function ProjectIndex() {
                       alt="Mockup design of the green color"
                       width={434}
                       height={867}
-                      quality={50}
+                      quality={100}
                       layout="responsive"
                       loading="lazy"
                     />
@@ -146,7 +146,7 @@ function ProjectIndex() {
                       alt="Mockup design of the green color"
                       width={434}
                       height={867}
-                      quality={50}
+                      quality={100}
                       layout="responsive"
                       loading="lazy"
                     />
@@ -158,7 +158,7 @@ function ProjectIndex() {
                       alt="Mockup design of the green color"
                       width={434}
                       height={867}
-                      quality={50}
+                      quality={100}
                       layout="responsive"
                       loading="lazy"
                     />
@@ -194,7 +194,7 @@ function ProjectIndex() {
                     alt="Choose a color to learn"
                     width={1080}
                     height={1080}
-                    quality={20}
+                    quality={100}
                     layout="responsive"
                     loading="eager"
                     />
@@ -205,7 +205,7 @@ function ProjectIndex() {
                             alt="Mockup design of the green color"
                             width={1080}
                             height={1080}
-                            quality={20}
+                            quality={100}
                             layout="responsive"
                             loading="lazy"
                             />
@@ -216,7 +216,7 @@ function ProjectIndex() {
                             alt="Mockup design of the blue color"
                             width={1080}
                             height={1080}
-                            quality={20}
+                            quality={100}
                             layout="responsive"
                             loading="lazy"
                             />

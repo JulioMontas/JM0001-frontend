@@ -5,7 +5,6 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
 import useTranslation from 'next-translate/useTranslation'
 import Container from '../../components/Container'
-import ExitButton from '../../components/ExitButton'
 import RelatedCTA from '../../components/RelatedCTA'
 import CaseStudiesWrap from '../../components/CaseStudiesWrap'
 import ContactForm from '../../components/ContactForm'
@@ -38,7 +37,8 @@ const stagger = {
 
 function ProjectIndex() {
   const { t } = useTranslation('sideProject')
-  return <Container>
+  return <div className={styles.backgroundColor}>
+  <Container>
     <Head>
       <title>Side Project: {t('title_04')}</title>
       <meta name='twitter:url' content='https://juliomontas.com/side-project/meliorem/' />
@@ -66,7 +66,6 @@ function ProjectIndex() {
               <h1>{t('title_04')}</h1>
               <p>{t('content_04')}</p>
             </div>
-            <ExitButton url="/" />
           </div>
           </motion.div>
 
@@ -113,11 +112,35 @@ function ProjectIndex() {
                 alt="Mockup of python page"
                 width={1080}
                 height={1080}
-                quality={20}
+                quality={100}
                 layout="responsive"
                 loading="lazy"
                 />
                 <p className={styles.textUnderImg}>{t('uiDesignContent_04b')}</p>
+              </SwiperSlide>
+              <SwiperSlide>
+                <Image
+                src="/img/side-project/meliorem/meliorem-02.png"
+                alt="Mockup of python page"
+                width={1080}
+                height={1080}
+                quality={100}
+                layout="responsive"
+                loading="lazy"
+                />
+                <p className={styles.textUnderImg}>{t('uiDesignContent_04c')}</p>
+              </SwiperSlide>
+              <SwiperSlide>
+                <Image
+                src="/img/side-project/meliorem/meliorem-03.png"
+                alt="Mockup of python page"
+                width={1080}
+                height={1080}
+                quality={100}
+                layout="responsive"
+                loading="lazy"
+                />
+                <p className={styles.textUnderImg}>{t('uiDesignContent_04d')}</p>
               </SwiperSlide>
             </Swiper>
           </div>
@@ -131,11 +154,6 @@ function ProjectIndex() {
               url="/side-project/hellocode-the-home-for-programming-languages"
               title={t('title_01')}
               content={t('content_01')}
-            />
-            <RelatedCTA
-              url="/side-project/surveillance-culture"
-              title={t('title_02')}
-              content={t('content_02')}
             />
             <RelatedCTA
               url="/side-project/width-take-over-the-screen"
@@ -165,6 +183,7 @@ function ProjectIndex() {
     </motion.div>
     </motion.div>
   </Container>
+  </div>
 }
 
 export async function getServerSideProps(context) {

@@ -103,7 +103,7 @@ export default function CaseStudyIndex({ data: {site} }) {
   return <div className={styles.backgroundColor}>
   <Container>
     <Head>
-      <title>{t('title_01')}</title>
+      <title>{t('title_01')} | Case Study</title>
       <meta name='twitter:url' content='https://juliomontas.com/case-study/vinyl-label-design/' />
       <meta property='og:url' content='https://juliomontas.com/case-study/vinyl-label-design/' />
       <meta property='og:image' content='https://juliomontas.com/img/pendulum/pendulum_instagram.jpg' />
@@ -365,6 +365,13 @@ export default function CaseStudyIndex({ data: {site} }) {
           </motion.div>
 
           <motion.div variants={fadeInUp}>
+          <div className={styles.flipSwitch}>
+            <h2>&#127919; {t('results')}</h2>
+            <p>The Vinyl version of ERR002 can be found at <b><a href="https://www.discogs.com/Alexander-Gentil-Pendulum/release/14167116" target="_blank" alt="Discogs">Discogs</a></b> and <b><a href="https://www.deejay.de/Alexander_Gentil_Pendulum_ERR002_Vinyl__939197" target="_blank" alt="Deejay.de">Deejay.de</a></b> or the digital version at <b><a href="https://alexandergentil.bandcamp.com/album/pendulum" target="_blank" alt="Bandcamp">Bandcamp</a></b> and <b><a href="https://www.beatport.com/release/pendulum/2705824" target="_blank" alt="Beatport">Beatport</a></b>.</p>
+          </div>
+          </motion.div>
+
+          <motion.div variants={fadeInUp}>
           <div>
             <h2>&#128065; Mockups</h2>
             <Swiper
@@ -376,9 +383,9 @@ export default function CaseStudyIndex({ data: {site} }) {
                 width: 300
               },
               1200: {
-                slidesPerView: 6,
+                slidesPerView: 2,
                 spaceBetween: 10,
-                width: 1200
+                width: 1000
               }
             }}
             >
@@ -452,6 +459,7 @@ export default function CaseStudyIndex({ data: {site} }) {
           </div>
           </motion.div>
 
+
           <motion.div variants={fadeInUp}>
           <div>
             <h2>&#128065; {t('vinylCover')}</h2>
@@ -505,13 +513,6 @@ export default function CaseStudyIndex({ data: {site} }) {
               layout="responsive"
               loading="lazy"
             />
-          </div>
-          </motion.div>
-
-          <motion.div variants={fadeInUp}>
-          <div className={styles.flipSwitch}>
-            <h2>&#127919; {t('results')}</h2>
-            <p>The Vinyl version of ERR002 can be found at <b><a href="https://www.discogs.com/Alexander-Gentil-Pendulum/release/14167116" target="_blank" alt="Discogs">Discogs</a></b> and <b><a href="https://www.deejay.de/Alexander_Gentil_Pendulum_ERR002_Vinyl__939197" target="_blank" alt="Deejay.de">Deejay.de</a></b> or the digital version at <b><a href="https://alexandergentil.bandcamp.com/album/pendulum" target="_blank" alt="Bandcamp">Bandcamp</a></b> and <b><a href="https://www.beatport.com/release/pendulum/2705824" target="_blank" alt="Beatport">Beatport</a></b>.</p>
           </div>
           </motion.div>
 

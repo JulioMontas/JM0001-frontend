@@ -8,7 +8,7 @@ class MyDocument extends Document {
           <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
           <meta name="robots" content="index,follow" />
           <meta name="googlebot" content="index,follow" />
-          <meta name="author" content="Julio montas"/>
+          <meta name="author" content="Julio Montas"/>
           <meta name='application-name' content='Interaction Designer' />
           <meta name='apple-mobile-web-app-capable' content='yes' />
           <meta name='apple-mobile-web-app-status-bar-style' content='default' />

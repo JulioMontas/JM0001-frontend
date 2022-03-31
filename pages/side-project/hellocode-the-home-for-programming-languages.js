@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
 import useTranslation from 'next-translate/useTranslation'
 import Container from '../../components/Container'
-import ExitButton from '../../components/ExitButton'
+import NavBar from '../../components/NavBar'
 import RelatedCTA from '../../components/RelatedCTA'
 import CaseStudiesWrap from '../../components/CaseStudiesWrap'
 import ContactForm from '../../components/ContactForm'
@@ -39,9 +39,10 @@ const stagger = {
 function ProjectIndex() {
   const { t } = useTranslation('sideProject')
   return <div className={styles.backgroundColor}>
+  <NavBar />
   <Container>
   <Head>
-    <title>Side Project: {t('title_01')}</title>
+    <title>{t('title_01')} | Side Project</title>
     <meta name='twitter:url' content='https://juliomontas.com/side-project/hellocode/' />
     <meta property='og:url' content='https://juliomontas.com/side-project/hellocode/' />
     <meta property='og:image' content='https://juliomontas.com/img/side-project/hc/hc01.gif' />
@@ -60,136 +61,135 @@ function ProjectIndex() {
   <div className={styles.mainIndex}>
     <div className={styles.mainCenterCont}>
       <div className={styles.gridContainer}>
+        <motion.div variants={fadeInUp}>
+          <div className={styles.flipSwitch}>
+            <div>
+              <h1>{t('title_01')}</h1>
+              <p>{t('content_01')}</p>
+            </div>
+          </div>
+        </motion.div>
 
-                <motion.div variants={fadeInUp}>
-                <div className={styles.flipSwitch}>
-                    <div>
-                        <h1>{t('title_01')}</h1>
-                        <p>{t('content_01')}</p>
-                    </div>
-                </div>
-                </motion.div>
+        <motion.div variants={fadeInUp}>
+        <div className={styles.flipSwitch}>
+            <h2>Concept</h2>
+            <p>{t('conceptContent_01')}</p>
+        </div>
+        </motion.div>
 
-                <motion.div variants={fadeInUp}>
-                <div className={styles.flipSwitch}>
-                    <h3>Concept</h3>
-                    <p>{t('conceptContent_01')}</p>
-                </div>
-                </motion.div>
-
-                <motion.div variants={fadeInUp}>
-                <div>
-                    <h3>UI Design</h3>
-                    <Image
-                    src="/img/side-project/hc/CABulM1UwAAPf4a.png"
-                    alt="Mockup of python page"
-                    width={1421}
-                    height={1897}
-                    quality={100}
-                    layout="responsive"
-                    loading="eager"
-                    />
-                </div>
-                </motion.div>
-
-                <motion.div variants={fadeInUp}>
-                <div>
-                <p className={styles.textUnderImg}>{t('uiDesignContent_01a')}</p>
-                <Swiper
-                speed={400}
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
-                breakpoints={{
-                    320: {
-                        slidesPerView: 1,
-                        spaceBetween: 15,
-                        width: 300
-                    },
-                    1200: {
-                        slidesPerView: 1,
-                        spaceBetween: 20,
-                        width: 800
-                    }
-                }}
-                >
-                    <SwiperSlide>
-                        <Image
-                        src="/img/side-project/hc/hc02.gif"
-                        alt="Mockup of python page"
-                        width={940}
-                        height={718}
-                        quality={100}
-                        layout="responsive"
-                        loading="lazy"
-                        />
-                        <p className={styles.textUnderImg}>{t('uiDesignContent_01b')}</p>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <Image
-                        src="/img/side-project/hc/hc01.gif"
-                        alt="Mockup of python page"
-                        width={1422}
-                        height={768}
-                        quality={100}
-                        layout="responsive"
-                        loading="lazy"
-                        />
-                        <p className={styles.textUnderImg}>{t('uiDesignContent_01c')}</p>
-                    </SwiperSlide>
-                </Swiper>
-                </div>
-                </motion.div>
-
-                <motion.div variants={fadeInUp}>
-                <div className={styles.flipSwitch}>
-                <h3>URL</h3>
-                    <div>
-                        <ul className={styles.secTextList}>
-                        <RelatedCTA
-                          url="https://bfacd.parsons.edu/2013/helloco-de"
-                          title="The New School BFA Thesis 2013"
-                          content=""
-                        />
-                        <RelatedCTA
-                          url="https://twitter.com/msdev/status/485951332105195520"
-                          title="Microsoft Developer Tweet"
-                          content=""
-                        />
-                        </ul>
-                    </div>
-                </div>
-                </motion.div>
-
-                <motion.div variants={fadeInUp}>
-                <div className={styles.flipSwitch}>
-                  <h3>More Projects</h3>
-                  <ul>
-                    <RelatedCTA
-                      url="/side-project/surveillance-culture"
-                      title={t('title_02')}
-                      content={t('content_02')}
-                    />
-                    <RelatedCTA
-                      url="/side-project/width-take-over-the-screen"
-                      title={t('title_03')}
-                      content={t('content_03')}
-                    />
-                    <RelatedCTA
-                      url="/side-project/basic-color-fundamentals"
-                      title={t('title_05')}
-                      content={t('content_05')}
-                    />
-                  </ul>
-                </div>
-                </motion.div>
-
-                <CaseStudiesWrap
-                  title="Case Studies"
+        <motion.div variants={fadeInUp}>
+          <div className={styles.flipSwitch}>
+          <h2>URL</h2>
+            <div>
+                <ul className={styles.secTextList}>
+                <RelatedCTA
+                  url="https://bfacd.parsons.edu/2013/helloco-de"
+                  title="The New School BFA Thesis 2013"
+                  content=""
                 />
-
-                <ContactForm
-                  title="Contact Form"
+                <RelatedCTA
+                  url="https://twitter.com/msdev/status/485951332105195520"
+                  title="Microsoft Developer Tweet"
+                  content=""
                 />
+                </ul>
+            </div>
+          </div>
+        </motion.div>
+
+        <motion.div variants={fadeInUp}>
+        <div>
+            <h2>UI Design</h2>
+            <Image
+            src="/img/side-project/hc/CABulM1UwAAPf4a.png"
+            alt="Mockup of python page"
+            width={1421}
+            height={1897}
+            quality={100}
+            layout="responsive"
+            loading="eager"
+            />
+        </div>
+        </motion.div>
+
+        <motion.div variants={fadeInUp}>
+        <div>
+        <p className={styles.textUnderImg}>{t('uiDesignContent_01a')}</p>
+        <Swiper
+        speed={400}
+        onSlideChange={() => console.log('slide change')}
+        onSwiper={(swiper) => console.log(swiper)}
+        breakpoints={{
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 15,
+                width: 300
+            },
+            1200: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+                width: 800
+            }
+        }}
+        >
+            <SwiperSlide>
+                <Image
+                src="/img/side-project/hc/hc02.gif"
+                alt="Mockup of python page"
+                width={940}
+                height={718}
+                quality={100}
+                layout="responsive"
+                loading="lazy"
+                />
+                <p className={styles.textUnderImg}>{t('uiDesignContent_01b')}</p>
+            </SwiperSlide>
+            <SwiperSlide>
+                <Image
+                src="/img/side-project/hc/hc01.gif"
+                alt="Mockup of python page"
+                width={1422}
+                height={768}
+                quality={100}
+                layout="responsive"
+                loading="lazy"
+                />
+                <p className={styles.textUnderImg}>{t('uiDesignContent_01c')}</p>
+            </SwiperSlide>
+        </Swiper>
+        </div>
+        </motion.div>
+
+        <motion.div variants={fadeInUp}>
+        <div className={styles.flipSwitch}>
+          <h2>More Projects</h2>
+          <ul>
+            <RelatedCTA
+              url="/side-project/surveillance-culture"
+              title={t('title_02')}
+              content={t('content_02')}
+            />
+            <RelatedCTA
+              url="/side-project/width-take-over-the-screen"
+              title={t('title_03')}
+              content={t('content_03')}
+            />
+            <RelatedCTA
+              url="/side-project/basic-color-fundamentals"
+              title={t('title_05')}
+              content={t('content_05')}
+            />
+          </ul>
+        </div>
+        </motion.div>
+
+        <CaseStudiesWrap
+          title="Case Studies"
+        />
+
+       <ContactForm
+          title="Contact Form"
+        />
       </div>
     </div>
   </div>

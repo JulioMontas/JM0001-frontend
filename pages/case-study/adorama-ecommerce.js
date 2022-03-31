@@ -44,7 +44,7 @@ function CaseStudyIndex() {
   <NavBar />
   <Container>
     <Head>
-      <title>Adorama - eCommerce</title>
+      <title>Adorama - eCommerce | Case Study</title>
       <meta name='twitter:url' content='https://juliomontas.com/case-study/adorama-ecommerce/' />
       <meta property='og:url' content='https://juliomontas.com/case-study/adorama-ecommerce/' />
       <meta property='og:image' content='https://juliomontas.com/img/pendulum/pendulum_instagram.jpg' />

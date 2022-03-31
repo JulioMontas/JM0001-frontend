@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import Head from 'next/head'
 import useTranslation from 'next-translate/useTranslation'
+import NavBar from '../../components/NavBar'
 import Container from '../../components/Container'
 import ExitButton from '../../components/ExitButton'
 import RelatedCTA from '../../components/RelatedCTA'
@@ -40,9 +41,10 @@ const stagger = {
 function CaseStudyIndex() {
   const { t } = useTranslation('caseStudy')
   return <div className={styles.backgroundColor}>
+  <NavBar />
   <Container>
     <Head>
-      <title>{t('title_07')}</title>
+      <title>{t('title_07')} | Case Study</title>
       <meta name='twitter:url' content='https://juliomontas.com/case-study/sebastian-faena-fashion-photographer-miscrosite/' />
       <meta property='og:url' content='https://juliomontas.com/case-study/sebastian-faena-fashion-photographer-miscrosite/' />
       <meta property='og:image' content='https://juliomontas.com/img/ecommerce/mockupFragrance_A01.jpg' />
@@ -140,6 +142,19 @@ function CaseStudyIndex() {
                 />
           </SwiperSlide>
           </Swiper>
+          </div>
+          </motion.div>
+
+          <motion.div variants={fadeInUp}>
+          <div className={styles.flipSwitch}>
+            <h2>Demo</h2>
+            <ul className={styles.secTextList}>
+              <RelatedCTA
+                url="https://web.archive.org/web/20131225125314/https://www.sebastianfaena.com/"
+                title="Old Demo"
+                content="web.archive.org"
+              />
+            </ul>
           </div>
           </motion.div>
 

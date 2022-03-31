@@ -42,7 +42,7 @@ function CaseStudyIndex() {
   return <div className={styles.backgroundColor}>
   <Container>
     <Head>
-      <title>{t('title_08')}</title>
+      <title>{t('title_08')} | Case Study</title>
       <meta name='twitter:url' content='https://juliomontas.com/case-study/nike-retail-ipad-app/' />
       <meta property='og:url' content='https://juliomontas.com/case-study/nike-retail-ipad-app/' />
       <meta property='og:image' content='https://juliomontas.com/img/ecommerce/mockupFragrance_A01.jpg' />

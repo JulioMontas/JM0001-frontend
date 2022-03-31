@@ -6,6 +6,7 @@ import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import Head from 'next/head'
 import useTranslation from 'next-translate/useTranslation'
 import Container from '../../components/Container'
+import ThreeDimCube from '../../components/ThreeDimCube'
 import ExitButton from '../../components/ExitButton'
 import PaletteList from '../../components/PaletteList'
 import RelatedCTA from '../../components/RelatedCTA'
@@ -45,7 +46,7 @@ function CaseStudyIndex() {
   <NavBar />
   <Container>
     <Head>
-      <title>{t('title_04')}</title>
+      <title>{t('title_04')} | Case Study</title>
       <meta name='twitter:url' content='https://juliomontas.com/case-study/law-firm-headless-cms/' />
       <meta property='og:url' content='https://juliomontas.com/case-study/law-firm-headless-cms/' />
       <meta property='og:image' content='https://juliomontas.com/img/ecommerce/mockupFragrance_A01.jpg' />
@@ -122,12 +123,17 @@ function CaseStudyIndex() {
 
           <motion.div variants={fadeInUp}>
           <div className={styles.flipSwitch}>
-            <h2>Demo</h2>
+            <h2>Demo + Github</h2>
             <ul>
               <RelatedCTA
                 url="https://btg-site.netlify.app/"
                 title="btg-site.netlify.app"
                 content="Demo Website"
+              />
+              <RelatedCTA
+                url="https://github.com/JulioMontas/BTG-Site"
+                title="Github "
+                content="BTG-Site"
               />
             </ul>
           </div>

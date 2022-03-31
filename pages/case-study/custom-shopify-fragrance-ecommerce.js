@@ -43,7 +43,7 @@ function CaseStudyIndex() {
   return <div className={styles.backgroundColor}>
   <Container>
     <Head>
-      <title>{t('title_02')}</title>
+      <title>{t('title_02')} | Case Study</title>
       <meta name='twitter:url' content='https://juliomontas.com/case-study/custom-shopify-fragrance-ecommerce/' />
       <meta property='og:url' content='https://juliomontas.com/case-study/custom-shopify-fragrance-ecommerce/' />
       <meta property='og:image' content='https://juliomontas.com/img/ecommerce/mockupFragrance_A01.jpg' />
@@ -378,6 +378,24 @@ function CaseStudyIndex() {
                 <li>{t('developmentContentList_02d')}</li>
               </ul>
             </div>
+          </div>
+          </motion.div>
+
+          <motion.div variants={fadeInUp}>
+          <div className={styles.flipSwitch}>
+            <h2>Demo + Github</h2>
+            <ul className={styles.secTextList}>
+              <RelatedCTA
+                url="https://web.archive.org/web/20180827210641/https://so-avant-garde.com/"
+                title="Old Demo"
+                content="web.archive.org"
+              />
+              <RelatedCTA
+                url="https://github.com/JulioMontas/Shopify-Custom-Development"
+                title="Github"
+                content="Shopify Custom Development"
+              />
+            </ul>
           </div>
           </motion.div>
 
@@ -871,23 +889,11 @@ function CaseStudyIndex() {
                 alt="Mockup Landing Page H1"
                 width={1440}
                 height={3741}
-                quality={50}
+                quality={100}
                 layout="responsive"
                 loading="lazy"
                 />
-                <small>Version H01: Final design</small>
-              </SwiperSlide>
-              <SwiperSlide>
-                <Image
-                src="/img/ecommerce/mockup_LandingPage_A02.jpg"
-                alt="Mockup Landing Page A2"
-                width={1440}
-                height={3890}
-                quality={50}
-                layout="responsive"
-                loading="lazy"
-                />
-                <small>Version A02</small>
+                <p>UI Design version H01</p>
               </SwiperSlide>
               <SwiperSlide>
                 <Image
@@ -895,11 +901,11 @@ function CaseStudyIndex() {
                 alt="Mockup Landing Page H2"
                 width={1440}
                 height={3014}
-                quality={50}
+                quality={100}
                 layout="responsive"
                 loading="lazy"
                 />
-                <small>Version H02</small>
+                <p>UI Design version H02</p>
               </SwiperSlide>
             </Swiper>
           </div>
@@ -949,7 +955,7 @@ function CaseStudyIndex() {
               alt="Mockup Fragrance Finder A1"
               width={1440}
               height={2743}
-              quality={50}
+              quality={100}
               layout="responsive"
               loading="lazy"
               />
@@ -962,7 +968,7 @@ function CaseStudyIndex() {
               alt="Home Fragrance mockup"
               width={1440}
               height={2147}
-              quality={50}
+              quality={100}
               layout="responsive"
               loading="lazy"
               />
@@ -1001,7 +1007,7 @@ function CaseStudyIndex() {
               alt="Mockup PDP B1"
               width={1440}
               height={1857}
-              quality={50}
+              quality={100}
               layout="responsive"
               loading="lazy"
               />
@@ -1013,7 +1019,7 @@ function CaseStudyIndex() {
               alt="Mockup PDP first review"
               width={1440}
               height={2131}
-              quality={50}
+              quality={100}
               layout="responsive"
               loading="lazy"
               />
@@ -1025,7 +1031,7 @@ function CaseStudyIndex() {
               alt="Mockup PDP B1 with post review"
               width={1440}
               height={2157}
-              quality={50}
+              quality={100}
               layout="responsive"
               loading="lazy"
               />
@@ -1067,7 +1073,7 @@ function CaseStudyIndex() {
               alt="Mockup Contact Empty"
               width={3000}
               height={1975}
-              quality={50}
+              quality={100}
               layout="responsive"
               loading="lazy"
               />
@@ -1079,26 +1085,13 @@ function CaseStudyIndex() {
               alt="Mockup Press A2"
               width={1440}
               height={1610}
-              quality={50}
+              quality={100}
               layout="responsive"
               loading="lazy"
               />
               <small>Mockup: Press A02</small>
             </SwiperSlide>
             </Swiper>
-          </div>
-          </motion.div>
-
-          <motion.div variants={fadeInUp}>
-          <div className={styles.flipSwitch}>
-            <h2>URL</h2>
-            <ul className={styles.secTextList}>
-              <RelatedCTA
-                url="https://web.archive.org/web/20180827210641/https://so-avant-garde.com/"
-                title="Demo - web.archive.org"
-                content=""
-              />
-            </ul>
           </div>
           </motion.div>
 

@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
 import useTranslation from 'next-translate/useTranslation'
 import Container from '../../components/Container'
-import ExitButton from '../../components/ExitButton'
+import NavBar from '../../components/NavBar'
 import RelatedCTA from '../../components/RelatedCTA'
 import CaseStudiesWrap from '../../components/CaseStudiesWrap'
 import ContactForm from '../../components/ContactForm'
@@ -39,9 +39,10 @@ const stagger = {
 function ProjectIndex() {
   const { t } = useTranslation('sideProject')
   return( <div className={styles.backgroundColor}>
-  <Container>
+    <NavBar />
+    <Container>
     <Head>
-      <title>Side Project: {t('title_05')}</title>
+      <title>{t('title_05')} | Side Project</title>
       <meta name='twitter:url' content='https://juliomontas.com/side-project/colors/' />
       <meta property='og:url' content='https://juliomontas.com/side-project/colors/' />
       <meta property='og:image' content='https://juliomontas.com/img/side-project/colors/slide_03.png' />
@@ -64,27 +65,39 @@ function ProjectIndex() {
                 <motion.div variants={fadeInUp}>
                 <div className={styles.flipSwitch}>
                     <div>
-                        <h1>{t('title_05')}</h1>
-                        <p>{t('content_05')}</p>
+                      <h1>{t('title_05')}</h1>
+                      <p>{t('content_05')}</p>
                     </div>
                 </div>
                 </motion.div>
 
                 <motion.div variants={fadeInUp}>
                 <div className={styles.flipSwitch}>
-                    <h3>Overview</h3>
+                    <h2>Overview</h2>
                     <p>{t('conceptContent_05')}</p>
                 </div>
                 </motion.div>
 
                 <motion.div variants={fadeInUp}>
-                <div className={styles.changeColors}>
+                <div className={styles.flipSwitch}>
+                  <h2>Demo</h2>
+                  <ul>
+                    <RelatedCTA
+                      url="https://juliomontas.github.io/COLORS/"
+                      title="Prototype Demo"
+                      content=""
+                    />
+                  </ul>
                 </div>
                 </motion.div>
 
                 <motion.div variants={fadeInUp}>
+                  <div className={styles.changeColors}></div>
+                </motion.div>
+
+                <motion.div variants={fadeInUp}>
                 <div className={styles.flipSwitch}>
-                  <h3>User Flow</h3>
+                  <h2>User Flow</h2>
                   <svg width="293" height="278" viewBox="0 0 293 278" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M279.823 0H182.042C174.873 0 169.062 5.81126 169.062 12.9798V40.6701C169.062 47.8386 174.873 53.6499 182.042 53.6499H279.823C286.992 53.6499 292.803 47.8386 292.803 40.6701V12.9798C292.803 5.81126 286.992 0 279.823 0Z" fill="#EEF2F6"/>
 <path d="M222.203 31.5327H221.131V23.0015H222.203V31.5327ZM224.916 25.1929L224.945 25.8784C225.347 25.3433 225.861 25.0757 226.486 25.0757C227.607 25.0757 228.176 25.8237 228.191 27.3198V31.5327H227.16V27.3667C227.16 26.8706 227.076 26.519 226.908 26.312C226.744 26.1011 226.496 25.9956 226.164 25.9956C225.906 25.9956 225.674 26.0815 225.467 26.2534C225.263 26.4253 225.099 26.6499 224.974 26.9272V31.5327H223.937V25.1929H224.916ZM231.109 23.6577V25.1929H232.064V26.0308H231.109V29.9624C231.109 30.2124 231.15 30.4019 231.232 30.5308C231.314 30.6597 231.455 30.7241 231.654 30.7241C231.791 30.7241 231.929 30.7007 232.07 30.6538L232.058 31.5327C231.824 31.6108 231.584 31.6499 231.338 31.6499C230.928 31.6499 230.615 31.5034 230.4 31.2104C230.185 30.9175 230.078 30.5034 230.078 29.9683V26.0308H229.111V25.1929H230.078V23.6577H231.109ZM235.92 26.1655C235.775 26.1382 235.619 26.1245 235.451 26.1245C234.92 26.1245 234.549 26.4155 234.338 26.9976V31.5327H233.301V25.1929H234.308L234.326 25.8374C234.603 25.3296 234.996 25.0757 235.504 25.0757C235.668 25.0757 235.804 25.103 235.914 25.1577L235.92 26.1655ZM236.623 28.0698C236.623 27.1479 236.846 26.4194 237.291 25.8843C237.74 25.3452 238.332 25.0757 239.066 25.0757C239.801 25.0757 240.39 25.3374 240.836 25.8608C241.285 26.3843 241.515 27.0972 241.527 27.9995V28.6675C241.527 29.5854 241.304 30.312 240.859 30.8472C240.414 31.3823 239.82 31.6499 239.078 31.6499C238.344 31.6499 237.754 31.3901 237.308 30.8706C236.867 30.3511 236.638 29.6479 236.623 28.7612V28.0698ZM237.66 28.6675C237.66 29.3198 237.787 29.8335 238.041 30.2085C238.299 30.5796 238.644 30.7651 239.078 30.7651C239.992 30.7651 240.463 30.105 240.49 28.7847V28.0698C240.49 27.4214 240.361 26.9097 240.103 26.5347C239.846 26.1558 239.5 25.9663 239.066 25.9663C238.64 25.9663 238.299 26.1558 238.041 26.5347C237.787 26.9097 237.66 27.4194 237.66 28.064V28.6675Z" fill="#333333"/>
@@ -115,7 +128,7 @@ function ProjectIndex() {
 
                 <motion.div variants={fadeInUp}>
                 <div className={styles.sketchIphone}>
-                <h3>Wireframes</h3>
+                <h2>Wireframes</h2>
                   <section>
                     <Image
                       src="/img/side-project/colors/color_Intro.png"
@@ -169,7 +182,7 @@ function ProjectIndex() {
 
                 <motion.div variants={fadeInUp}>
                 <div>
-                   <h3>Concept UI Design</h3>
+                   <h2>Concept UI Design</h2>
                     <Swiper
                     speed={400}
                     onSlideChange={() => console.log('slide change')}
@@ -227,7 +240,7 @@ function ProjectIndex() {
 
                 <motion.div variants={fadeInUp}>
                 <div className={styles.flipSwitch}>
-                  <h3>&#128736; Features List</h3>
+                  <h2>&#128736; Features List</h2>
                   <div>
                     <ul className={styles.secTextList}>
                       <li>Voice over</li>
@@ -239,20 +252,7 @@ function ProjectIndex() {
 
                 <motion.div variants={fadeInUp}>
                 <div className={styles.flipSwitch}>
-                  <h3>URL</h3>
-                  <ul>
-                    <RelatedCTA
-                      url="https://juliomontas.github.io/COLORS/"
-                      title="Prototype Demo"
-                      content=""
-                    />
-                  </ul>
-                </div>
-                </motion.div>
-
-                <motion.div variants={fadeInUp}>
-                <div className={styles.flipSwitch}>
-                    <h3>More Projects</h3>
+                    <h2>More Projects</h2>
                     <ul>
                     <RelatedCTA
                       url="/side-project/hellocode-the-home-for-programming-languages"

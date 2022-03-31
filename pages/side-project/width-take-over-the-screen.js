@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import Head from 'next/head'
 import useTranslation from 'next-translate/useTranslation'
 import Container from '../../components/Container'
-import ExitButton from '../../components/ExitButton'
+import NavBar from '../../components/NavBar'
 import RelatedCTA from '../../components/RelatedCTA'
 import CaseStudiesWrap from '../../components/CaseStudiesWrap'
 import ContactForm from '../../components/ContactForm'
@@ -39,9 +39,10 @@ const stagger = {
 function ProjectIndex() {
   const { t } = useTranslation('sideProject')
   return <div className={styles.backgroundColor}>
+  <NavBar />
   <Container>
   <Head>
-    <title>Side Project: {t('title_03')}</title>
+    <title>{t('title_03')} | Side Project</title>
     <meta name='twitter:url' content='https://juliomontas.com/side-project/width/' />
     <meta property='og:url' content='https://juliomontas.com/side-project/width/' />
     <meta property='og:image' content='https://juliomontas.com/img/side-project/width/width_BothPlayer_1080.gif' />
@@ -72,14 +73,27 @@ function ProjectIndex() {
 
                 <motion.div variants={fadeInUp}>
                 <div className={styles.flipSwitch}>
-                    <h3>Concept</h3>
+                    <h2>Concept</h2>
                     <p>{t('conceptContent_03')}</p>
                 </div>
                 </motion.div>
 
                 <motion.div variants={fadeInUp}>
+                <div className={styles.flipSwitch}>
+                  <h2>Demo URL</h2>
+                  <ul>
+                    <RelatedCTA
+                      url="https://width.herokuapp.com"
+                      title="Prototype Demo"
+                      content=""
+                    />
+                  </ul>
+                </div>
+                </motion.div>
+
+                <motion.div variants={fadeInUp}>
                 <div>
-                  <h3>UI Design</h3>
+                  <h2>UI Design</h2>
                   <Image
                     src="/img/side-project/width/width_Sketch_Iphone.png"
                     alt="Mockup of python page"
@@ -182,20 +196,7 @@ function ProjectIndex() {
 
                 <motion.div variants={fadeInUp}>
                 <div className={styles.flipSwitch}>
-                  <h3>URL</h3>
-                  <ul>
-                    <RelatedCTA
-                      url="https://width.herokuapp.com"
-                      title="Prototype Demo"
-                      content=""
-                    />
-                  </ul>
-                </div>
-                </motion.div>
-
-                <motion.div variants={fadeInUp}>
-                <div className={styles.flipSwitch}>
-                    <h3>More Projects</h3>
+                    <h2>More Projects</h2>
                     <ul>
                     <RelatedCTA
                       url="/side-project/hellocode-the-home-for-programming-languages"

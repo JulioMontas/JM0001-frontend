@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
 import useTranslation from 'next-translate/useTranslation'
 import Container from '../../components/Container'
-import ExitButton from '../../components/ExitButton'
+import NavBar from '../../components/NavBar'
 import RelatedCTA from '../../components/RelatedCTA'
 import CaseStudiesWrap from '../../components/CaseStudiesWrap'
 import ContactForm from '../../components/ContactForm'
@@ -39,9 +39,10 @@ const stagger = {
 function ProjectIndex() {
   const { t } = useTranslation('sideProject')
   return <div className={styles.backgroundColor}>
+  <NavBar />
   <Container>
   <Head>
-    <title>Side Project: {t('title_02')}</title>
+    <title>{t('title_02')} | Side Project</title>
     <meta name='twitter:url' content='https://juliomontas.com/side-project/surveillance/' />
     <meta property='og:url' content='https://juliomontas.com/side-project/surveillance/' />
     <meta property='og:image' content='https://juliomontas.com/img/side-project/surveillance/jessieNguyen-Moodboard.jpg' />
@@ -72,14 +73,27 @@ function ProjectIndex() {
 
       <motion.div variants={fadeInUp}>
       <div className={styles.flipSwitch}>
-          <h3>{t('concept_02')}</h3>
+          <h2>{t('concept_02')}</h2>
           <p>{t('conceptContent_02')}</p>
       </div>
       </motion.div>
 
       <motion.div variants={fadeInUp}>
+      <div className={styles.flipSwitch}>
+          <h2>Video URL</h2>
+          <ul>
+          <RelatedCTA
+            url="https://www.youtube.com/watch?v=ZTbdu-VR59U"
+            title="Art-A-Hack 2015 - Surveillance Culture"
+            content="Final Presentations - Youtube"
+          />
+          </ul>
+      </div>
+      </motion.div>
+
+      <motion.div variants={fadeInUp}>
       <div>
-          <h3>The butterfly effect</h3>
+          <h2>The butterfly effect</h2>
           <Swiper
           speed={400}
           onSlideChange={() => console.log('slide change')}
@@ -147,7 +161,7 @@ function ProjectIndex() {
 
       <motion.div variants={fadeInUp}>
       <div className={styles.flipSwitch}>
-          <h3>{t('character_02')}</h3>
+          <h2>{t('character_02')}</h2>
           <div>
           <Swiper
           speed={400}
@@ -275,7 +289,7 @@ function ProjectIndex() {
 
       <motion.div variants={fadeInUp}>
       <div>
-      <h3>{t('userJourney_02')}</h3>
+      <h2>{t('userJourney_02')}</h2>
       <Swiper
           speed={400}
           onSlideChange={() => console.log('slide change')}
@@ -321,20 +335,7 @@ function ProjectIndex() {
 
       <motion.div variants={fadeInUp}>
       <div className={styles.flipSwitch}>
-          <h3>URL</h3>
-          <ul>
-          <RelatedCTA
-            url="https://www.youtube.com/watch?v=ZTbdu-VR59U"
-            title="Art-A-Hack 2015 - Surveillance Culture"
-            content="Final Presentations - Youtube"
-          />
-          </ul>
-      </div>
-      </motion.div>
-
-      <motion.div variants={fadeInUp}>
-      <div className={styles.flipSwitch}>
-        <h3>More Projects</h3>
+        <h2>More Projects</h2>
         <ul>
           <RelatedCTA
             url="/side-project/hellocode-the-home-for-programming-languages"

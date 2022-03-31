@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
 import useTranslation from 'next-translate/useTranslation'
 import Container from '../../components/Container'
+import NavBar from '../../components/NavBar'
 import RelatedCTA from '../../components/RelatedCTA'
 import CaseStudiesWrap from '../../components/CaseStudiesWrap'
 import ContactForm from '../../components/ContactForm'
@@ -38,9 +39,10 @@ const stagger = {
 function ProjectIndex() {
   const { t } = useTranslation('sideProject')
   return <div className={styles.backgroundColor}>
+  <NavBar />
   <Container>
     <Head>
-      <title>Side Project: {t('title_04')}</title>
+      <title>{t('title_04')} | Side Project</title>
       <meta name='twitter:url' content='https://juliomontas.com/side-project/meliorem/' />
       <meta property='og:url' content='https://juliomontas.com/side-project/meliorem/' />
       <meta property='og:image' content='https://juliomontas.com/img/side-project/meliorem/meliorem-02.png' />
@@ -71,14 +73,14 @@ function ProjectIndex() {
 
           <motion.div variants={fadeInUp}>
           <div className={styles.flipSwitch}>
-            <h3>Concept</h3>
+            <h2>Concept</h2>
             <p>{t('conceptContent_04')}</p>
           </div>
           </motion.div>
 
           <motion.div variants={fadeInUp}>
           <div>
-            <h3>UI Design</h3>
+            <h2>UI Design</h2>
             <Image
             src="/img/side-project/meliorem/projectManagementTracker-Mockup00A.jpg"
             alt="Mockup of python page"
@@ -148,7 +150,7 @@ function ProjectIndex() {
 
           <motion.div variants={fadeInUp}>
           <div className={styles.flipSwitch}>
-            <h3>More Projects</h3>
+            <h2>More Projects</h2>
             <ul>
             <RelatedCTA
               url="/side-project/hellocode-the-home-for-programming-languages"

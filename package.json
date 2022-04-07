@@ -7,7 +7,9 @@
     "build": "next build",
     "postbuild": "next-sitemap",
     "start": "next start",
-    "export": "next build && next export"
+    "export": "next build && next export",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "aframe": "^1.3.0",
@@ -30,7 +32,15 @@
     "swiper": "^6.7.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.17.9",
     "@netlify/plugin-nextjs": "^4.2.7",
+    "@storybook/addon-actions": "^6.4.20",
+    "@storybook/addon-essentials": "^6.4.20",
+    "@storybook/addon-interactions": "^6.4.20",
+    "@storybook/addon-links": "^6.4.20",
+    "@storybook/react": "^6.4.20",
+    "@storybook/testing-library": "^0.0.9",
+    "babel-loader": "^8.2.4",
     "frontmatter-markdown-loader": "^3.6.2",
     "next-sitemap": "^2.5.10"
   }

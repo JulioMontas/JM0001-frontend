@@ -3,9 +3,9 @@ A great **Product Designer** portfolio website that can last until the year 2025
 
 
 ## JAMstack
-Frontend | APIs | CMS | Hosting | CSS | eCommerce
----|---|---|---|---|---|
-NextJS 11 | GraphQL | DatoCMS | Vercel | HeadlessUI + Tailwind CSS | Commerce.js with Stripe
+Frontend | APIs | CMS | Hosting | CSS | eCommerce | UI Development
+---|---|---|---|---|---|---|
+NextJS 11 | GraphQL | DatoCMS | Vercel | Vanilla + HeadlessUI + Tailwind CSS + BlueprintJS | Stripe | StorybookJS + Chromatic
 
 
 ## Sitemap

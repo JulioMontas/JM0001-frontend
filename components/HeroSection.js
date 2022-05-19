@@ -57,48 +57,18 @@ const HeroSection = (props) => {
             <h1 className={styles.title}>
               {props.title}
             </h1>
-            <p>Designing and developing an entire project from scratch can be overwhelming. That's why our company is your one stop shop for all your design and development needs.</p>
-            <p>From the early design concept stage to final project execution, we will work with you every step of the way to ensure success on your website, eCommerce store, CMS or Mobile App Prototype</p>
+            <p>Hey, I'm Julio - UI/UX designer based in New York City. I help entrepreneur and small business grow their online sales with strategic website design and SEO.</p>
+            <p>Experience with early-stage startup, luxury fashion and beauty brands. Alumni from The New School and Chavón La Escuela de Diseño.</p>
+
             <p>
               <Link href={`https://julio62.typeform.com/to/IBnyOp`}>
-                <a>Contact us</a>
-              </Link> for a free consultation!
+                <a>Book A Consultation</a>
+              </Link>
             </p>
           </div>
-          <ul className={styles.socialLinks}>
-            <li>
-              <a href="https://github.com/JulioMontas" target="_blank">
-                <img
-                  src={svg.github}
-                  alt="Github logo"
-                />
-              </a>
-            </li>
-            <li>
-              <a href="https://dribbble.com/juliomontas" target="_blank">
-                <img
-                  src={svg.dribbble}
-                  alt="Dribbble logo"
-                />
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/juliomontas/" target="_blank">
-                <img
-                  src={svg.instagram}
-                  alt="Instagram logo"
-                />
-              </a>
-            </li>
-            <li>
-              <a href="https://ra.co/dj/montas" target="_blank">
-                <img
-                  src={svg.residentAdvisor}
-                  alt="Resident Advisor logo"
-                />
-              </a>
-            </li>
-          </ul>
+
+
+
         </section>
         </motion.div>
 

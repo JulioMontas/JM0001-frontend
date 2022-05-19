@@ -71,7 +71,7 @@ export default function Homepage({ data }) {
       <div className={stylesHome.main}>
       <Container>
         <HeroSection
-          title="Hi, I'm Julio - A freelance designer and developer"
+          title="e-Commerce design and development"
         />
         <div className={stylesHome.spacePadding}>
           <CaseStudiesWrap

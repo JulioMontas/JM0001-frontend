@@ -51,3 +51,4 @@ NextJS 11 | GraphQL | DatoCMS | Vercel | Vanilla + HeadlessUI + Tailwind CSS + B
 - [x] PWAs: Add to homescreen
 - [ ] PWAs: Reliability for Offline status
 - [ ] PWAs: Push notifications to engage more with mobile users
+- [ ] [Apple Font](https://developer.apple.com/fonts/)

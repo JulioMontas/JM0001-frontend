@@ -105,18 +105,10 @@ function CaseStudyIndex() {
 
           <motion.div variants={fadeInUp}>
           <PaletteList
-            title={t('palette') + " 1"}
+            title={t('palette')}
             first="3d586b"
             second="1d3851"
             third="bca360"
-            fourth="FFF"
-            last="eef0f2"
-          />
-          <PaletteList
-            title={t('palette') + " 2"}
-            first="3d586b"
-            second="1d3851"
-            third="FFAC4B"
             fourth="FFF"
             last="eef0f2"
           />
@@ -146,10 +138,10 @@ function CaseStudyIndex() {
             <h2>&#128736; {t('development')}</h2>
             <ul className={styles.secTextList}>
               <li>Design and prototype using Figma</li>
-              <li>Front-end development using Gatsby.js a React framework</li>
+              <li>Front-end development using GatsbyJS a React framework</li>
               <li>Back-end CMS using DatoCMS with GraphQL for query data</li>
               <li>Code watch in Gatbsy Cloud and Netlify</li>
-              <li>Code save in Github</li>
+              <li>Code stored in Github</li>
             </ul>
           </div>
           </motion.div>
@@ -161,12 +153,12 @@ function CaseStudyIndex() {
               <RelatedCTA
                 url="https://btg-site.netlify.app/"
                 title="btg-site.netlify.app"
-                content="Demo Website"
+                content="Website"
               />
               <RelatedCTA
                 url="https://github.com/JulioMontas/BTG-Site"
-                title="Github "
-                content="BTG-Site"
+                title="development code "
+                content="Github"
               />
             </ul>
           </div>

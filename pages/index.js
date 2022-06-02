@@ -11,6 +11,7 @@ import TechStack from '../components/TechStack'
 import Container from '../components/Container'
 import ContactForm from '../components/ContactForm'
 
+
 const HOMEPAGE_QUERY = `query MyQuery {
   allArticles {
     createdAt

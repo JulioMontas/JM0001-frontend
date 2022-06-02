@@ -25,8 +25,6 @@
 .spacePadding{
     padding: 4rem 0;
 }
-
-
 .blogSec{
   display: grid;
   grid-template-columns: 1fr;
@@ -52,9 +50,6 @@
 .blogSec__tag li:last-child{
   margin-right: 0px;
 }
-
-
-
 .blogSec__title{
   font-size: 1.25em !important;
   margin-bottom: 5px !important;
@@ -66,9 +61,6 @@
   letter-spacing: 0.8px;
   font-weight: normal !important;
 }
-
-
-
 /* Mobile 320px  */
 @media screen and (min-width: 30em) {}
 /* Table */

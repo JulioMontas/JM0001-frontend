@@ -6,12 +6,10 @@
   align-items: center;
   justify-content: space-between;
 }
-
 svg {
   display: inline-block;
   vertical-align: top;
 }
-
 h1 {
   font-weight: 900;
   font-size: 20px;
@@ -20,11 +18,9 @@ h1 {
   display: inline-block;
   vertical-align: top;
 }
-
 button + button {
   margin-left: 10px;
 }
-
 .welcome {
   color: #333;
   font-size: 14px;

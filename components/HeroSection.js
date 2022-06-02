@@ -61,7 +61,7 @@ const HeroSection = (props) => {
             <p>Experience with early-stage startup, luxury fashion and beauty brands. Alumni from The New School and Chavón La Escuela de Diseño.</p>
 
             <p>
-              <Link href={`https://julio62.typeform.com/to/IBnyOp`}>
+              <Link href={`https://forms.gle/9uVudBpW7YE6n2CNA`}>
                 <a>Book A Consultation</a>
               </Link>
             </p>

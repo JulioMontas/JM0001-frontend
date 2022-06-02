@@ -38,7 +38,6 @@ const BlogPage = ({data}) => (
       title= "Guide & Resources"
       summary= "Text"
     />
-
     <div
       style={{
         background: `#1d3851`,
@@ -83,7 +82,6 @@ const BlogPage = ({data}) => (
       </div>
     </div>
     </div>
-
 
     <GlobalContact />
   </Layout>

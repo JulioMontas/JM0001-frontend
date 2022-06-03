@@ -117,7 +117,6 @@ export default function Homepage({ data }) {
             ))}
           </ul>
         </div>
-
       </Container>
       </div>
     </>

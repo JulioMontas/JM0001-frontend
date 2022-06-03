@@ -12,7 +12,6 @@ import PaletteList from '../../components/PaletteList'
 import RelatedCTA from '../../components/RelatedCTA'
 import SideProjectWrap from '../../components/SideProjectWrap'
 import styles from '../../styles/Report.module.css'
-import { request } from "../../lib/datocms"
 import { StructuredText } from "react-datocms"
 import NavBar from '../../components/NavBar'
 import ContactForm from '../../components/ContactForm'
@@ -41,64 +40,7 @@ const stagger = {
   }
 };
 
-const ALL_CASE_STUDIES = `query MyQuery {
-  site: allCaseStudies(locale: en, fallbackLocales: en) {
-    id
-    slug
-    title
-    allTheData {
-      content {
-        value
-        blocks {
-          ... on ColorBlkRecord {
-            id
-            hexColor {
-              hex
-            }
-          }
-          ... on GalleryBlkRecord {
-            id
-            gallery {
-              responsiveImage {
-                alt
-                bgColor
-                title
-                src
-                srcSet
-                base64
-              }
-            }
-          }
-          ... on ImageBlkRecord {
-            id
-            image {
-              responsiveImage {
-                alt
-                bgColor
-                title
-                src
-                srcSet
-                base64
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}`;
-
-export async function getStaticProps() {
-  const data = await request({
-    query: ALL_CASE_STUDIES,
-    variables: { limit: 10 }
-  });
-  return {
-    props: { data }
-  };
-}
-
-export default function CaseStudyIndex({ data: {site} }) {
+export default function CaseStudyIndex() {
   const { t } = useTranslation('caseStudy')
   return <div className={styles.backgroundColor}>
   <Container>

@@ -64,11 +64,6 @@ const data = [
     title:"InVision"
   },
   {
-    svg:"svg/icon/sketch.svg",
-    alt:"Sketch logo",
-    title:"Sketch"
-  },
-  {
     svg:"svg/icon/figma.svg",
     alt:"Figma logo",
     title:"Figma"
@@ -114,16 +109,6 @@ const data = [
     title:"Dato CMS"
   },
   {
-    svg:"svg/icon/webxr.svg",
-    alt:"webxr logo",
-    title:"webxr"
-  },
-  {
-    svg:"svg/icon/Progressive_Web_Apps_Logo.svg",
-    alt:"pwa logo",
-    title:"PWA"
-  },
-  {
     svg:"svg/icon/jira.svg",
     alt:"jira logo",
     title:"Jira"
@@ -134,7 +119,7 @@ const TechStack = (props) => {
   return(
     <motion.div exit={{ opacity: 0 }} initial='initial' animate='animate'>
       <h2 className={styles.title}>
-        My Freelance Tech stack For fast and secure sites
+        Tech Stack
       </h2>
       <motion.div variants={stagger} className={styles.main}>
 

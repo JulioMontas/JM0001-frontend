@@ -33,25 +33,23 @@ export default function Homepage({ data }) {
         <HeroSection
           title="e-Commerce design and development"
         />
+
+        <div className={stylesHome.spacePadding}>
+          <TechStack />
+        </div>
+
         <div className={stylesHome.spacePadding}>
           <CaseStudiesWrap
             title="Case Studies"
           />
         </div>
-        <div className={stylesHome.spacePadding}>
-          <TechStack />
-        </div>
+
         <div className={stylesHome.spacePadding}>
           <SideProjectWrap
             title="Side Projects"
           />
         </div>
-        <div className={stylesHome.spacePadding}>
-          <ContactForm
-            title="Contact Form"
-          />
-        </div>
-      
+
       </Container>
       </div>
     </>

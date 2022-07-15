@@ -5,7 +5,7 @@ import useTranslation from 'next-translate/useTranslation'
 import { Image } from "react-datocms"
 import HeroSection from '../components/HeroSection'
 import CaseStudiesWrap from '../components/CaseStudiesWrap'
-import SideProjectWrap from '../components/SideProjectWrap'
+import LinkList from '../components/LinkList'
 import TechStack from '../components/TechStack'
 import Container from '../components/Container'
 import ContactForm from '../components/ContactForm'
@@ -31,12 +31,8 @@ export default function Homepage({ data }) {
       <div className={stylesHome.main}>
       <Container>
         <HeroSection
-          title="e-Commerce design and development"
+          title="Product Designer + Developer"
         />
-
-        <div className={stylesHome.spacePadding}>
-          <TechStack />
-        </div>
 
         <div className={stylesHome.spacePadding}>
           <CaseStudiesWrap
@@ -45,10 +41,23 @@ export default function Homepage({ data }) {
         </div>
 
         <div className={stylesHome.spacePadding}>
-          <SideProjectWrap
-            title="Side Projects"
-          />
+          <h2>Links & Projects</h2>
+          <LinkList />
         </div>
+
+        <div className={stylesHome.spacePadding}>
+          <TechStack />
+        </div>
+
+        <div className={stylesHome.spacePadding}>
+        <p>
+          <Link href={`https://forms.gle/9uVudBpW7YE6n2CNA`}>
+            <a>Let's Talk</a>
+          </Link>
+        </p>
+        </div>
+
+
 
       </Container>
       </div>

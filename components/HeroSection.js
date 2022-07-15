@@ -57,18 +57,8 @@ const HeroSection = (props) => {
             <h1 className={styles.title}>
               {props.title}
             </h1>
-            <p>Hey, I'm Julio - UI/UX designer based in New York City. I help entrepreneur and small business grow their online sales with strategic website design and SEO.</p>
-            <p>Experience with early-stage startup, luxury fashion and beauty brands. Alumni from The New School and Chavón La Escuela de Diseño.</p>
-
-            <p>
-              <Link href={`https://forms.gle/9uVudBpW7YE6n2CNA`}>
-                <a>Book A Consultation</a>
-              </Link>
-            </p>
+            <p>Hey, I'm Julio - full stack designer based in New York City. I help entrepreneur and business grow online. Experience with early-stage startup, luxury fashion and beauty brands. Alumni from The New School and Chavón La Escuela de Diseño.</p>
           </div>
-
-
-
         </section>
         </motion.div>
 

@@ -74,6 +74,7 @@
   .cubeWrapper{
     transform: scale(0.85);
     transition: all 1s ease-in-out;
+    padding: 9px 50px;
   }
   .main a:hover .cubeWrapper{
     transform: scale(1);

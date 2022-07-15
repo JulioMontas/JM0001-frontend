@@ -27,6 +27,7 @@ export default function LinkPage({ data }) {
       <Container>
 
         <div className={stylesHome.spacePadding}>
+          <h2>Links & Projects</h2>
           <LinkList />
         </div>
 

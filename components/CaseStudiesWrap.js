@@ -112,8 +112,8 @@ const CaseStudiesWrap = (props) => {
             width: 300
           },
           1200: {
-            slidesPerView: 4,
-            spaceBetween: 10,
+            slidesPerView: 10,
+            spaceBetween: 0,
             width: 1200
           }
         }}

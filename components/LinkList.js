@@ -41,7 +41,7 @@ const data = [
     alt:"",
     title:"Hello Code",
     summary:"Archive of programming languages that have been developed from past to present to improve how software architects choose their stack",
-    url:"",
+    url:"/side-project/hellocode-the-home-for-programming-languages",
     theme:"card-false"
   },
   {
@@ -57,7 +57,7 @@ const data = [
     alt:"",
     title:"Meliorem",
     summary:"Reward self task manager to stimulate your existence",
-    url:"",
+    url:"side-project/meliorem-cultivating-your-passion-to-level-up",
     theme:"card-false"
   },
   {
@@ -71,9 +71,9 @@ const data = [
   {
     png:"",
     alt:"",
-    title:"Verify My Number ",
-    summary:"Manage your phone number connected to your social media channels",
-    url:"",
+    title:"Surveillance Culture",
+    summary:"A social experiment using the top social media channels to farm users sensitive data",
+    url:"side-project/surveillance-culture",
     theme:"card-false"
   },
   {
@@ -87,9 +87,9 @@ const data = [
   {
     png:"",
     alt:"",
-    title:"Daddy List",
-    summary:"Keeping track of your subs",
-    url:"",
+    title:"Width - Take Over the Screen",
+    summary:"A two-player game in which you must defeat your opponents by clicking to take over the screen.",
+    url:"side-project/width-take-over-the-screen",
     theme:"card-false"
   },
   {
@@ -103,9 +103,9 @@ const data = [
   {
     png:"",
     alt:"",
-    title:"Sleeping Place",
-    summary:"Metaverse Cemetary",
-    url:"",
+    title:"COLOR",
+    summary:"Teaching toddler how to learn the basic of colors pronunciation and visual recognition memory.",
+    url:"side-project/basic-color-fundamentals",
     theme:"card-false"
   },
   {
@@ -115,6 +115,33 @@ const data = [
     summary:"Front-end Code Snippet ",
     url:"https://codepen.io/JulioMontas/",
     theme:"card-true"
+  }
+]
+
+const futureData = [
+  {
+    png:"",
+    alt:"",
+    title:"Verify My Number ",
+    summary:"Manage your phone number connected to your social media channels",
+    url:"",
+    theme:"card-false"
+  },
+  {
+    png:"",
+    alt:"",
+    title:"Daddy List",
+    summary:"Keeping track of your subs",
+    url:"https://daddylist.xyz",
+    theme:"card-false"
+  },
+  {
+    png:"",
+    alt:"",
+    title:"Sleeping Place",
+    summary:"Metaverse Cemetary",
+    url:"https://sleeping.place/",
+    theme:"card-false"
   }
 ]
 

@@ -40,8 +40,9 @@ const stagger = {
 
 function CaseStudyIndex() {
   const { t } = useTranslation('caseStudy')
-  return <div className={styles.backgroundColor}>
+  return <>
   <NavBar />
+  <div className={styles.backgroundColor}>
   <Container>
     <Head>
       <title>Adorama - eCommerce | Case Study</title>
@@ -229,6 +230,7 @@ function CaseStudyIndex() {
       </motion.div>
   </Container>
   </div>
+  </>
 }
 
 export default CaseStudyIndex

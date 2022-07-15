@@ -42,7 +42,9 @@ const stagger = {
 
 export default function CaseStudyIndex() {
   const { t } = useTranslation('caseStudy')
-  return <div className={styles.backgroundColor}>
+  return <>
+  <NavBar />
+  <div className={styles.backgroundColor}>
   <Container>
     <Head>
       <title>{t('title_01')} | Case Study</title>
@@ -62,7 +64,6 @@ export default function CaseStudyIndex() {
 
     <motion.div exit={{y: -300, opacity: 0 }} initial='initial' animate='animate'>
     <motion.div  variants={stagger}>
-    <NavBar />
       <div className={styles.mainIndex}>
         <div className={styles.mainCenterCont}>
           <div className={styles.gridContainer}>
@@ -513,4 +514,5 @@ export default function CaseStudyIndex() {
     </motion.div>
   </Container>
   </div>
+  </>
 }

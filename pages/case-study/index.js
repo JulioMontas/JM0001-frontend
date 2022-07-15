@@ -61,9 +61,6 @@ function caseStudy({ posts }) {
           <CaseStudiesWrap
             title="Case Studies"
           />
-          <ContactForm
-            title="Contact Form"
-          />
 
         </div>
       </motion.div>

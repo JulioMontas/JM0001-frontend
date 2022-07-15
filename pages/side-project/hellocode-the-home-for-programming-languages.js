@@ -38,8 +38,9 @@ const stagger = {
 
 function ProjectIndex() {
   const { t } = useTranslation('sideProject')
-  return <div className={styles.backgroundColor}>
+  return <>
   <NavBar />
+  <div className={styles.backgroundColor}>
   <Container>
   <Head>
     <title>{t('title_01')} | Side Project</title>
@@ -197,6 +198,7 @@ function ProjectIndex() {
   </motion.div>
   </Container>
   </div>
+</>
 }
 
 export async function getServerSideProps(context) {

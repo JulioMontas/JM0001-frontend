@@ -226,14 +226,6 @@ function CaseStudyIndex() {
           </div>
           </motion.div>
 
-          <SideProjectWrap
-            title="Side Projects"
-          />
-
-          <ContactForm
-            title="Contact Form"
-          />
-
           </div>
           </div>
       </div>

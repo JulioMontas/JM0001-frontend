@@ -8,6 +8,7 @@ import useTranslation from 'next-translate/useTranslation'
 import Container from '../../components/Container'
 import ExitButton from '../../components/ExitButton'
 import RelatedCTA from '../../components/RelatedCTA'
+import NavBar from '../../components/NavBar'
 import SideProjectWrap from '../../components/SideProjectWrap'
 import ContactForm from '../../components/ContactForm'
 import styles from '../../styles/Report.module.css'
@@ -40,6 +41,7 @@ const stagger = {
 function CaseStudyIndex() {
   const { t } = useTranslation('caseStudy')
   return <div className={styles.backgroundColor}>
+  <NavBar />
   <Container>
     <Head>
       <title>{t('title_05')} | Case Study</title>
@@ -238,14 +240,6 @@ function CaseStudyIndex() {
             </ul>
           </div>
           </motion.div>
-
-          <SideProjectWrap
-            title="Side Projects"
-          />
-
-          <ContactForm
-            title="Contact Form"
-          />
 
           </div>
           </div>

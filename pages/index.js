@@ -8,7 +8,7 @@ import CaseStudiesWrap from '../components/CaseStudiesWrap'
 import LinkList from '../components/LinkList'
 import TechStack from '../components/TechStack'
 import Container from '../components/Container'
-import ContactForm from '../components/ContactForm'
+import Accordion from '../components/Accordion'
 
 export default function Homepage({ data }) {
   return (
@@ -47,7 +47,9 @@ export default function Homepage({ data }) {
         </div>
 
         <div className={stylesHome.spacePadding}>
-          <TechStack />
+          <h2>Services</h2>
+          <Accordion title="Design" content="this is content 1" />
+          <Accordion title="Development" content="this is content 2" />
         </div>
 
         <div className={stylesHome.spacePadding}>

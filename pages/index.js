@@ -42,22 +42,59 @@ export default function Homepage({ data }) {
         </div>
 
         <div className={stylesHome.spacePadding}>
-          <h2>Links & Projects</h2>
-          <LinkList />
+          <h2 className={stylesHome.mobileHtwo}>
+            Services
+          </h2>
+          <Accordion
+            title="Sculpting Your Vision 🌱 "
+            quote="Your entrepreneur goals on the road to a visual solution"
+            contUnoTitle="Visual Designer"
+            contUno="Multi-disciplinary designer that care deeply about the users who use the product. Using user-centered design methods to craft industry-leading user experiences from concept to execution."
+            contDosTitle="User Experience Design"
+            contDos="Pleasing the eye for legibility and capture inspiration."
+            logoUno="Figma"
+            logoDos="CSS"
+            logoTres="InVision"
+            logoFour="Google"
+            logoFive="Sketch"
+            logoSix="Jira"
+          />
+          <Accordion
+            title="From Visual To Develoment 🍭 "
+            quote="Publish your product to the cloud"
+            contUnoTitle="Web and Mobile Development"
+            contUno="Expert level knowledge of HTML/CSS and JavaScript with hands on experience with Node.js, ReactJS cross-platform development and other component-based framework."
+            contDosTitle="eCommerce"
+            contDos="Building custom online experience combine with 5 year of retail store experience."
+            logoUno="NextJS"
+            logoDos="PWA"
+            logoTres="GatsbyJS"
+            logoFour="GitHub"
+            logoFive="Shopify"
+            logoSix="Docker"
+          />
+          <Accordion
+            title="Experimental 🚀 "
+            quote="The Creative Lab"
+            contUnoTitle="Creative Technologist"
+            contUno="Comfortable conceptually and technically with a variety of devices, from mobile to wearable to XR, communication through code."
+            contDosTitle="Prototype"
+            contDos="VR / AR experience"
+            logoUno="Terminal"
+            logoDos="Linux"
+            logoTres="RaspberryPi"
+            logoFour="MongoDB"
+            logoFive="WebXR"
+            logoSix="P5js"
+          />
         </div>
 
         <div className={stylesHome.spacePadding}>
-          <h2>Services</h2>
-          <Accordion title="Design" content="this is content 1" />
-          <Accordion title="Development" content="this is content 2" />
-        </div>
-
-        <div className={stylesHome.spacePadding}>
-          <h3>
+          <h2 className={stylesHome.mobileHtwo}>
             <Link href={`https://forms.gle/9uVudBpW7YE6n2CNA`}>
               <a>Let's Talk</a>
             </Link>
-          </h3>
+          </h2>
         </div>
 
       </Container>

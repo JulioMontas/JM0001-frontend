@@ -61,12 +61,18 @@
   letter-spacing: 0.8px;
   font-weight: normal !important;
 }
+.mobileHtwo{
+  padding-left: 1em;
+}
 /* Mobile 320px  */
 @media screen and (min-width: 30em) {}
 /* Table */
 @media screen and (min-width: 40em) {}
 /* Desktop 980px to 1280px  */
 @media screen and (min-width: 57em) {
+  .mobileHtwo{
+    padding-left: 0em;
+  }
   .main h2{
     opacity: 1;
   }

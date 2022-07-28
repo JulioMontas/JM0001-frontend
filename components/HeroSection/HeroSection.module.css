@@ -93,16 +93,16 @@
   }
   .main p {
     text-align: left;
-    font-size: 1.15rem;
+    font-size: 1.12rem;
     line-height: 35px;
   }
   .socialLinks{
     justify-content: left;
   }
   .title {
-    font-size: 2em;
+    font-size: 1.69em;
     text-align: left;
-    line-height: 10px;
+    line-height: 40px;
   }
   .uno img {
       transform: scale(1);

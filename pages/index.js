@@ -32,7 +32,7 @@ export default function Homepage({ data }) {
       <NavBar />
       <Container>
         <HeroSection
-          title="Product Designer + Developer"
+          title="Hey, I'm Julio, Building content management system (CMS) websites, eCommerce sites and apps, so you don't have to."
         />
 
         <div className={stylesHome.spacePadding}>
@@ -87,9 +87,6 @@ export default function Homepage({ data }) {
             logoFive="WebXR"
             logoSix="P5js"
           />
-        </div>
-
-        <div className={stylesHome.spacePadding}>
           <h2 className={stylesHome.mobileHtwo}>
             <Link href={`https://forms.gle/9uVudBpW7YE6n2CNA`}>
               <a>Let's Talk</a>

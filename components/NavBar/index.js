@@ -2,7 +2,7 @@ import styles from './NavBar.module.css'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { motion } from 'framer-motion'
-import Container from '../components/Container'
+import Container from '../../components/Container'
 
 const easing = [.6, -.05, .01, .99];
 

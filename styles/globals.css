@@ -137,16 +137,19 @@ li svg{
 
 /* Desktop 980px to 1280px  */
 @media screen and (min-width: 57em) {
-  .LinkList .container{
+  .LinkList{
     /* width: 1200px; */
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 5px;
+    /* grid-row: 10px; */
+    padding:0;
   }
   .card-true a,
   .card-false a{
-    width: 340px;
+    width: 362px;
     height: 280px;
-    margin-bottom: 0;
+    margin-bottom: 20px;
   }
 }

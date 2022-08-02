@@ -33,8 +33,8 @@ export default function LinkPage({ data }) {
           <div className="LinkList">
             <LinkCTA
               theme="card-true"
-              title="Freelance Portfolio"
-              summary="Building Custom Website, eCommerce, CMS and Mobile App Prototype."
+              title="Professional Portfolio"
+              summary="Building Website, eCommerce, CMS and Mobile App."
               url="/"
               alt="Office Table and Chair"
               png="png/office-table-and-chair.png"

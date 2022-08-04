@@ -1,13 +1,12 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import { useRouter } from 'next/router'
 import { motion } from "framer-motion"
-import { Swiper, SwiperSlide } from 'swiper/react'
+import { StructuredText } from "react-datocms"
+import { Image } from "react-datocms"
+import Link from 'next/link'
 import Head from 'next/head'
 import Container from '../../components/Container'
-import CaseStudiesWrap from '../../components/CaseStudiesWrap'
 import ContactForm from '../../components/ContactForm'
 import NavBar from '../../components/NavBar'
-import styles from '../../styles/CaseStudy.module.css'
 import { request } from "../../lib/datocms"
 
 const easing = [.6, -.05, .01, .99];
@@ -35,14 +34,24 @@ const stagger = {
   }
 };
 
-const HOMEPAGE_QUERY = `
-query allProducts($limit: IntType) {
-  allProducts(first: $limit) {
+export async function getStaticPaths() {
+  const data = await request({ query: `{ allProducts { slug } }` });
+
+  return {
+    paths: data.allProducts.map((post) => `/shop/${post.slug}`),
+    fallback: false,
+  };
+}
+
+const ALTICLE_QUERY = `
+query MyQuery($slug: String) {
+  product(filter: {slug: {eq: $slug}}) {
     id
     slug
     name
     price
     description(markdown: false)
+    _publishedAt
     heroImage {
       url
       width
@@ -51,17 +60,22 @@ query allProducts($limit: IntType) {
     }
   }
 }`;
-export async function getStaticProps() {
-  const data = await request({
-    query: HOMEPAGE_QUERY,
-    variables: { limit: 10 }
+
+export const getStaticProps = async ({ params }) => {
+  const post = await request({
+    query: ALTICLE_QUERY,
+    variables: { slug: params.slug,},
   });
   return {
-    props: { data }
+    props: {
+      postData: post.product,
+    },
   };
-}
+};
 
-export default function Shop({ data }) {
+
+export default function ShopPost(props) {
+  const { postData } = props;
   return <Container>
   <NavBar />
   <Head>
@@ -85,48 +99,13 @@ export default function Shop({ data }) {
           padding:'8em 0 0 0',
         }}>
 
-          <div>
-            {data.allProducts.map(data => (
-              <li key={data.id}>
+        <span>${postData.price}.00</span>
+        <h1>{postData.name}</h1>
+        <p>{postData.description}</p>
 
-              <Link href={`/shop/${encodeURIComponent(data.slug)}`}>
-              <a>
-                <div
-                  style={{
-                    width:"350px",
-                  }}
-                >
-                  <Image
-                    src={data.heroImage.url}
-                    alt={data.heroImage.alt}
-                    width={data.heroImage.width}
-                    height={data.heroImage.height}
-                    quality={75}
-                    layout="responsive"
-                    loading="eager"
-                  />
-                </div>
-                <h2>{data.name} | ${data.price}</h2>
-                <p>{data.description}</p>
-                </a>
-              </Link>
-
-                <button
-                  className="snipcart-add-item"
-                  data-item-id={data.id}
-                  data-item-name={data.name}
-                  data-item-price={data.price}
-                  data-item-url={'/shop/' + data.slug}
-                  data-item-description={data.description}
-                  data-item-image={data.heroImage.url}
-                  data-item-file-guid={data.guid}
-                  data-item-categories="develoment">
-                  Add to cart
-                </button>
-              </li>
-            ))}
-          </div>
-
+        {/*
+        <div style={{padding:"3em",}}>{JSON.stringify(postData, null, 2)}</div>
+        */}
 
         </div>
       </motion.div>

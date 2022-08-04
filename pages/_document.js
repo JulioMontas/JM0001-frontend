@@ -48,7 +48,7 @@ class MyDocument extends Document {
           <link rel="preconnect" href="https://cdn.snipcart.com" />
           <link
             rel="stylesheet"
-            href="https://cdn.snipcart.com/themes/v3.0.31/default/snipcart.css"
+            href="https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.css"
           />
         </Head>
         <body>
@@ -56,13 +56,13 @@ class MyDocument extends Document {
           <NextScript />
           <script
             async
-            src="https://cdn.snipcart.com/themes/v3.0.31/default/snipcart.js"
+            src="https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.js"
           ></script>
           <div
+            hidden
             id="snipcart"
             data-config-modal-style="side"
             data-api-key={process.env.NEXT_PUBLIC_SNIPCART_API_KEY}
-            hidden
           >
             <address-fields section="top">
               <div className="snipcart-form__field">

@@ -20,4 +20,7 @@ module.exports = {
      // your project has ESLint errors.
      ignoreDuringBuilds: true,
    },
+   images: {
+    domains: ['www.datocms-assets.com'],
+  },
 };

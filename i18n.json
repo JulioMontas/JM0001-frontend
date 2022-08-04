@@ -6,6 +6,7 @@
         "/": ["home"],
         "/contact-us":["ContactUs"],
         "rgx:^/side-project":["sideProject"],
-        "rgx:^/case-study":["caseStudy"]
+        "rgx:^/case-study":["caseStudy"],
+        "rgx:^/shop":["shop"]
     }
 }

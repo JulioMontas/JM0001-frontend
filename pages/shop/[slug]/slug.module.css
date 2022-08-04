@@ -1,0 +1,22 @@
+.twoColumn {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0 10px 0 10px;
+}
+/* Mobile 320px  */
+@media screen and (min-width: 30em) {}
+
+/* Table */
+@media screen and (min-width: 40em) {}
+
+/* Desktop 980px to 1280px  */
+@media screen and (min-width: 57em) {
+  .twoColumn {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 20px;
+    padding: 0;
+  }
+}
+/* Desktop 1920px */
+@media screen and (min-width: 120em) {}

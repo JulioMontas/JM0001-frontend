@@ -1,13 +1,12 @@
+import { request } from "../../../lib/datocms"
+import { Image } from "react-datocms"
 import { useRouter } from 'next/router'
 import { motion } from "framer-motion"
-import { StructuredText } from "react-datocms"
-import { Image } from "react-datocms"
 import Link from 'next/link'
 import Head from 'next/head'
-import Container from '../../components/Container'
-import ContactForm from '../../components/ContactForm'
-import NavBar from '../../components/NavBar'
-import { request } from "../../lib/datocms"
+import Container from '../../../components/Container'
+import NavBar from '../../../components/NavBar'
+import styles from './slug.module.css'
 
 const easing = [.6, -.05, .01, .99];
 
@@ -50,16 +49,27 @@ query MyQuery($slug: String) {
     slug
     name
     price
+    guid
     description(markdown: false)
     _publishedAt
     heroImage {
-      url
-      width
-      height
-      alt
+      responsiveImage(imgixParams: {fit: crop, w: "1200", h: "900", auto: format}) {
+        srcSet
+        webpSrcSet
+        sizes
+        src
+        width
+        height
+        aspectRatio
+        alt
+        title
+        base64
+        bgColor
+      }
     }
   }
-}`;
+}
+`;
 
 export const getStaticProps = async ({ params }) => {
   const post = await request({
@@ -99,13 +109,31 @@ export default function ShopPost(props) {
           padding:'8em 0 0 0',
         }}>
 
-        <span>${postData.price}.00</span>
-        <h1>{postData.name}</h1>
-        <p>{postData.description}</p>
+        <div className={styles.twoColumn}>
+          <div>
+            <Image data={postData.heroImage.responsiveImage} />
+          </div>
+          <div>
+            <h1>{postData.name}</h1>
+            <span>${postData.price}.00</span>
+            <p>{postData.description}</p>
 
-        {/*
-        <div style={{padding:"3em",}}>{JSON.stringify(postData, null, 2)}</div>
-        */}
+            <button
+              className="snipcart-add-item"
+              data-item-id={postData.id}
+              data-item-name={postData.name}
+              data-item-price={postData.price}
+              data-item-url={'/shop/' + postData.slug}
+              data-item-description={postData.description}
+              data-item-image={postData.heroImage.url}
+              data-item-file-guid={postData.guid}
+              data-item-categories="develoment">
+              Add to cart
+            </button>
+          </div>
+        </div>
+
+
 
         </div>
       </motion.div>

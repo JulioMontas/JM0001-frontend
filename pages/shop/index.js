@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from "framer-motion"
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -7,8 +6,9 @@ import Container from '../../components/Container'
 import CaseStudiesWrap from '../../components/CaseStudiesWrap'
 import ContactForm from '../../components/ContactForm'
 import NavBar from '../../components/NavBar'
-import styles from '../../styles/CaseStudy.module.css'
+import styles from './shop.module.css'
 import { request } from "../../lib/datocms"
+import { Image } from "react-datocms";
 
 const easing = [.6, -.05, .01, .99];
 
@@ -44,10 +44,19 @@ query allProducts($limit: IntType) {
     price
     description(markdown: false)
     heroImage {
-      url
-      width
-      height
-      alt
+      responsiveImage(imgixParams: {fit: crop, w: "375", h: "280", auto: format}) {
+        srcSet
+        webpSrcSet
+        sizes
+        src
+        width
+        height
+        aspectRatio
+        alt
+        title
+        base64
+        bgColor
+      }
     }
   }
 }`;
@@ -85,26 +94,14 @@ export default function Shop({ data }) {
           padding:'8em 0 0 0',
         }}>
 
-          <div>
+          <div className={styles.fourColumn}>
             {data.allProducts.map(data => (
               <li key={data.id}>
 
               <Link href={`/shop/${encodeURIComponent(data.slug)}`}>
               <a>
-                <div
-                  style={{
-                    width:"350px",
-                  }}
-                >
-                  <Image
-                    src={data.heroImage.url}
-                    alt={data.heroImage.alt}
-                    width={data.heroImage.width}
-                    height={data.heroImage.height}
-                    quality={75}
-                    layout="responsive"
-                    loading="eager"
-                  />
+                <div>
+                <Image data={data.heroImage.responsiveImage} />
                 </div>
                 <h2>{data.name} | ${data.price}</h2>
                 <p>{data.description}</p>
@@ -126,7 +123,6 @@ export default function Shop({ data }) {
               </li>
             ))}
           </div>
-
 
         </div>
       </motion.div>

@@ -1,0 +1,27 @@
+.fourColumn {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  padding: 0 10px 0 10px;
+}
+.fourColumn img{
+ border-radius: 10px;
+ height: 280px;
+}
+/* Mobile 320px  */
+@media screen and (min-width: 30em) {}
+
+/* Table */
+@media screen and (min-width: 40em) {}
+
+/* Desktop 980px to 1280px  */
+@media screen and (min-width: 57em) {
+  .fourColumn {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    padding: 0;
+  }
+
+}
+/* Desktop 1920px */
+@media screen and (min-width: 120em) {}

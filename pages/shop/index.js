@@ -1,3 +1,6 @@
+// Product Listing Pages (PLPs)
+// Read this list, https://www.dynamicyield.com/glossary/product-listing-pages-plps/
+
 import Link from 'next/link'
 import { motion } from "framer-motion"
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -44,7 +47,7 @@ query allProducts($limit: IntType) {
     price
     description(markdown: false)
     heroImage {
-      responsiveImage(imgixParams: {fit: crop, w: "375", h: "280", auto: format}) {
+      responsiveImage(imgixParams: {fit: crop, w: "375", h: "500", auto: format}) {
         srcSet
         webpSrcSet
         sizes
@@ -60,6 +63,7 @@ query allProducts($limit: IntType) {
     }
   }
 }`;
+
 export async function getStaticProps() {
   const data = await request({
     query: HOMEPAGE_QUERY,
@@ -96,31 +100,17 @@ export default function Shop({ data }) {
 
           <div className={styles.fourColumn}>
             {data.allProducts.map(data => (
-              <li key={data.id}>
-
+              <motion.li variants={fadeInUp} key={data.id}>
               <Link href={`/shop/${encodeURIComponent(data.slug)}`}>
-              <a>
-                <div>
-                <Image data={data.heroImage.responsiveImage} />
-                </div>
-                <h2>{data.name} | ${data.price}</h2>
-                <p>{data.description}</p>
+                <a>
+                  <Image data={data.heroImage.responsiveImage} />
+                  <div className={styles.productInfo}>
+                    <h2>{data.name}</h2>
+                    <span>${data.price}</span>
+                  </div>
                 </a>
               </Link>
-
-                <button
-                  className="snipcart-add-item"
-                  data-item-id={data.id}
-                  data-item-name={data.name}
-                  data-item-price={data.price}
-                  data-item-url={'/shop/' + data.slug}
-                  data-item-description={data.description}
-                  data-item-image={data.heroImage.url}
-                  data-item-file-guid={data.guid}
-                  data-item-categories="develoment">
-                  Add to cart
-                </button>
-              </li>
+              </motion.li>
             ))}
           </div>
 

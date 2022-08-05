@@ -3,8 +3,7 @@
 // https://www.gorgias.com/blog/ecommerce-launch-checklist
 
 import { request } from "../../../lib/datocms"
-import { Image } from "react-datocms"
-import { StructuredText } from "react-datocms";
+import { StructuredText, Image } from 'react-datocms';
 import { useRouter } from 'next/router'
 import { motion } from "framer-motion"
 import Link from 'next/link'
@@ -186,7 +185,7 @@ export default function ShopPost(props) {
               data-item-id={postData.id}
               data-item-name={postData.name}
               data-item-price={postData.price}
-              data-item-url={'/shop/' + postData.slug}
+              data-item-url={'https://juliomontas.com/shop/' + postData.slug}
               data-item-description={postData.description}
               data-item-image={postData.heroImage.url}
               data-item-file-guid={postData.guid}
@@ -198,23 +197,24 @@ export default function ShopPost(props) {
         </div>
 
         <motion.div variants={fadeInUp} className={styles.extraInfo}>
-        <div
+        <div>
+          <p
           style={{
             textAlign:"center",
           }}
-        >
-          <p>Architecture Website - UI Design - Develoment</p>
-          <hr
-          style={{
-            color:"#ffffff70",
-          }}
-          />
+          >
+            Architecture Website - UI Design - Develoment
+          </p>
+          <hr style={{color:"#ffffff70", margin:"1em 0 1.5em"}}/>
           <Image data={postData.heroImage.responsiveImage} />
           <p>{postData.extraInfo}</p>
         </div>
         </motion.div>
 
-        {/*  <pre>{JSON.stringify(postData, null, 2)}</pre> */}
+        {/*
+        <StructuredText data={postData.productDescription} />
+        <pre>{JSON.stringify(postData, null, 2)}</pre>
+        */}
 
         </div>
       </motion.div>

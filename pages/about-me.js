@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import { motion } from "framer-motion"
-import stylesHome from '../styles/Homepage.module.css'
+import styles from '../styles/Report.module.css'
 import useTranslation from 'next-translate/useTranslation'
 import NavBar from '../components/NavBar'
 import LinkList from '../components/LinkList'
@@ -51,8 +51,104 @@ export default function MePage({ data }) {
       <link rel="alternate" href="https://juliomontas.com/es-us/about-me" hreflang="es-us" />
       </Head>
       <NavBar />
-      <div className="backgroundColor">
+      <div className={styles.backgroundColor}>
         <Container>
+          <motion.div exit={{y: -300, opacity: 0 }} initial='initial' animate='animate'>
+            <motion.div variants={stagger}>
+              <div className={styles.mainIndex}>
+                <div className={styles.mainCenterCont}>
+                  <div className={styles.gridContainer}>
+
+                    <motion.div variants={fadeInUp} style={{marginTop:"2em"}}>
+                      <div className={styles.flipSwitch}>
+                        <div>
+                          <h1>About Me</h1>
+                          <p>UX/UI Designer • Product Designer • Creative Technologist</p>
+                        </div>
+                      </div>
+                    </motion.div>
+
+
+                    <motion.div variants={fadeInUp}>
+                      <div className={styles.flipSwitch}>
+                        <h2>&#128466; History</h2>
+                        <div>
+                          <p style={{marginBottom:"1.5em"}}>I’m a multi-talented experience designer that can also write lines of code in CSS, HTML, JavasScript and <s>PHP</s>. Originally from the Dominican Republic now based in New York City. I’ve created over a dozen website and app designed to streamline sales and marketing activities for startup, luxury fashion and beauty brands.</p>
+                          <p style={{marginBottom:"1.5em"}}>My design style is minimal, timeless and clean approach that look to combine functionality with elegance. To focus 💯 on the user experience navigation and speciation. Using modern design methodology and tools to later push to the cloud using the necessary development stack.</p>
+                          <p style={{marginBottom:"1.5em"}}>My favorite art movement are Swedish and Suprematism, if I’m not looking at a new media gallery I’m probably DJing Minimal House / Dub Techno / Afro House.</p>
+                        </div>
+                      </div>
+                    </motion.div>
+
+                    <motion.div variants={fadeInUp}>
+                      <div className={styles.flipSwitch}>
+                        <h2>&#128466; Education</h2>
+                        <ul className={styles.secTextList}>
+                          <li><p><b>AAS -</b> CHAVÓN La Escuela de Diseño</p></li>
+                          <li><p><b>BFA -</b> The New School (50% scholarships)</p></li>
+                        </ul>
+                      </div>
+                    </motion.div>
+
+                    <motion.div variants={fadeInUp}>
+                      <div className={styles.flipSwitch}>
+                        <h2>&#128466; Certification</h2>
+                        <ul className={styles.secTextList}>
+                          <li><p><b>JavaScript Full Stack -</b> General Assembly NYC (3 months bootcamp)</p></li>
+                          <li><p><b>AR/VR Engineer -</b> CUNY Lehman College</p></li>
+                        </ul>
+                      </div>
+                    </motion.div>
+
+                    <motion.div variants={fadeInUp}>
+                      <div className={styles.flipSwitch}>
+                        <h2>&#128466; New media art</h2>
+                        <ul className={styles.secTextList}>
+                          <li><p><b>ART-A-HACK Summer 2015 -</b> Surveillance Culture</p></li>
+                        </ul>
+                      </div>
+                    </motion.div>
+
+                    <motion.div variants={fadeInUp}>
+                      <div className={styles.flipSwitch}>
+                        <h2>&#128466; Design tools</h2>
+                        <ul className={styles.secTextList}>
+                          <li><p>Figma</p></li>
+                          <li><p>InVision</p></li>
+                          <li><p>Balsamiq</p></li>
+                          <li><p>Google Analytics + Hotjar</p></li>
+                        </ul>
+                      </div>
+                    </motion.div>
+
+                    <motion.div variants={fadeInUp}>
+                      <div className={styles.flipSwitch}>
+                        <h2>&#128466; Development Stack</h2>
+                        <ul className={styles.secTextList}>
+                          <li><p>CSS3 + HTML5</p></li>
+                          <li><p>GraphQL</p></li>
+                          <li><p>Github</p></li>
+                          <li><p>Agile</p></li>
+                          <li><p>JavaScript using Next.js or Gatsby.js</p></li>
+                        </ul>
+                      </div>
+                    </motion.div>
+
+                    <motion.div variants={fadeInUp}>
+                      <div className={styles.flipSwitch}>
+                        <h2>&#128466; Language</h2>
+                        <ul className={styles.secTextList}>
+                          <li><p>Spanish</p></li>
+                          <li><p>English</p></li>
+                        </ul>
+                      </div>
+                    </motion.div>
+
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          </motion.div>
         </Container>
       </div>
     </>

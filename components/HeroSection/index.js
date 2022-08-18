@@ -60,6 +60,14 @@ const HeroSection = (props) => {
             <p>
               {props.description}
             </p>
+            <p>
+              Learn more &nbsp;
+              <Link href="/about-me">
+                <a alt="About Me page">
+                  About Me
+                </a>
+              </Link>
+            </p>
           </div>
         </section>
         </motion.div>

@@ -71,7 +71,7 @@ export default function MePage({ data }) {
 
                     <motion.div variants={fadeInUp}>
                       <div className={styles.flipSwitch}>
-                        <h2>&#128466; History</h2>
+                        <h2>History</h2>
                         <div>
                           <p style={{marginBottom:"1.5em"}}>I’m a multi-talented experience designer that can also write lines of code in CSS, HTML, JavasScript and <s>PHP</s>. Originally from the Dominican Republic now based in New York City. I’ve created over a dozen website and app designed to streamline sales and marketing activities for startup, luxury fashion and beauty brands.</p>
                           <p style={{marginBottom:"1.5em"}}>My design style is minimal, timeless and clean approach that look to combine functionality with elegance. To focus 💯 on the user experience navigation and speciation. Using modern design methodology and tools to later push to the cloud using the necessary development stack.</p>
@@ -82,7 +82,7 @@ export default function MePage({ data }) {
 
                     <motion.div variants={fadeInUp}>
                       <div className={styles.flipSwitch}>
-                        <h2>&#128466; Education</h2>
+                        <h2>Education</h2>
                         <ul className={styles.secTextList}>
                           <li><p><b>AAS -</b> CHAVÓN La Escuela de Diseño</p></li>
                           <li><p><b>BFA -</b> The New School (50% scholarships)</p></li>
@@ -92,7 +92,7 @@ export default function MePage({ data }) {
 
                     <motion.div variants={fadeInUp}>
                       <div className={styles.flipSwitch}>
-                        <h2>&#128466; Certification</h2>
+                        <h2>Certification</h2>
                         <ul className={styles.secTextList}>
                           <li><p><b>JavaScript Full Stack -</b> General Assembly NYC (3 months bootcamp)</p></li>
                           <li><p><b>AR/VR Engineer -</b> CUNY Lehman College</p></li>
@@ -102,7 +102,7 @@ export default function MePage({ data }) {
 
                     <motion.div variants={fadeInUp}>
                       <div className={styles.flipSwitch}>
-                        <h2>&#128466; New media art</h2>
+                        <h2>New media art</h2>
                         <ul className={styles.secTextList}>
                           <li><p><b>ART-A-HACK Summer 2015 -</b> Surveillance Culture</p></li>
                         </ul>
@@ -111,11 +111,10 @@ export default function MePage({ data }) {
 
                     <motion.div variants={fadeInUp}>
                       <div className={styles.flipSwitch}>
-                        <h2>&#128466; Design tools</h2>
+                        <h2>Design tools</h2>
                         <ul className={styles.secTextList}>
-                          <li><p>Figma</p></li>
                           <li><p>InVision</p></li>
-                          <li><p>Balsamiq</p></li>
+                          <li><p>Figma or Sketch</p></li>
                           <li><p>Google Analytics + Hotjar</p></li>
                         </ul>
                       </div>
@@ -123,7 +122,7 @@ export default function MePage({ data }) {
 
                     <motion.div variants={fadeInUp}>
                       <div className={styles.flipSwitch}>
-                        <h2>&#128466; Development Stack</h2>
+                        <h2>Development Stack</h2>
                         <ul className={styles.secTextList}>
                           <li><p>CSS3 + HTML5</p></li>
                           <li><p>GraphQL</p></li>

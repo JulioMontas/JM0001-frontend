@@ -148,7 +148,7 @@ const futureData = [
 const LinkCTA = (props) => {
   return(
       <motion.div exit={{ opacity: 0 }} initial='initial' animate='animate' className="LinkList">
-        <motion.div variants={stagger} className="container">
+        <motion.div variants={stagger}>
 
           <motion.div variants={fadeInUp} className={props.theme}>
             <Link href={props.url}>

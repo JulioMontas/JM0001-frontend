@@ -72,8 +72,6 @@ li svg{
   padding: 0 5px 0 0;
   filter: var(--box-shadow);
 }
-
-
 .LinkList{
   padding-right: 2em;
   padding-left: 1em;
@@ -115,12 +113,25 @@ li svg{
   text-align: center;
   box-shadow: none;
 }
-.card-true:nth-child(1) a{background: linear-gradient(180deg, #F5A766 0%, #EA3752 100%);}
-.card-true:nth-child(3) a{background: linear-gradient(180deg, #EB5098 0%, #D742D6 100%);}
-.card-true:nth-child(5) a{background: linear-gradient(180deg, #5D7EEC 0%, #332B9C 100%);}
-.card-true:nth-child(7) a{background: linear-gradient(180deg, #2F2997 0%, #CC46D5 100%);}
-.card-true:nth-child(9) a{background: linear-gradient(180deg, #F8E71C 0%, #FF51B9 100%);}
-.card-true:nth-child(11) a{background: linear-gradient(180deg, #F5A666 0%, #EB4154 100%);}
+
+.LinkList:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1){
+  background: linear-gradient(180deg, #F5A766 0%, #EA3752 100%);
+}
+.LinkList:nth-child(4) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1){
+  background: linear-gradient(180deg, #EB5098 0%, #D742D6 100%);
+}
+.LinkList:nth-child(6) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1){
+  background: linear-gradient(180deg, #5D7EEC 0%, #332B9C 100%);
+}
+.LinkList:nth-child(8) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1){
+  background: linear-gradient(180deg, #2F2997 0%, #CC46D5 100%);
+}
+.LinkList:nth-child(10) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1){
+  background: linear-gradient(180deg, #F8E71C 0%, #FF51B9 100%);
+}
+.LinkList:nth-child(12) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1){
+  background: linear-gradient(180deg, #F5A666 0%, #EB4154 100%);
+}
 .card-false a{
   display: flex;
   border: 1px solid white;

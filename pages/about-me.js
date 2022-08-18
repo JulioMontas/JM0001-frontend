@@ -4,7 +4,6 @@ import { motion } from "framer-motion"
 import styles from '../styles/Report.module.css'
 import useTranslation from 'next-translate/useTranslation'
 import NavBar from '../components/NavBar'
-import LinkList from '../components/LinkList'
 import Container from '../components/Container'
 
 const easing = [.6, -.05, .01, .99];

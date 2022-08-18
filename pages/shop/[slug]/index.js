@@ -185,7 +185,7 @@ export default function ShopPost(props) {
               data-item-id={postData.id}
               data-item-name={postData.name}
               data-item-price={postData.price}
-              data-item-url={'https://juliomontas-git-shop-juliomontas.vercel.app/shop/' + postData.slug}
+              data-item-url={'/shop/' + postData.slug}
               data-item-description={postData.description}
               data-item-image={postData.heroImage.url}
               data-item-file-guid={postData.guid}

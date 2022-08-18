@@ -32,7 +32,8 @@ export default function Homepage({ data }) {
       <NavBar />
       <Container>
         <HeroSection
-          title="Hey, I'm Julio, Building content management system (CMS) websites, eCommerce sites and apps, so you don't have to."
+          title="✋🏾 I'm Julio, I ❤️ building and designing eCommerce shops, content management system (CMS) with a serverless architectures to boost your search engine optimization (SEO) results."
+          description="Experience with early-stage startup, luxury fashion and beauty brands. Providing an all-inclusive design and development service tailored specifically to meet your needs using design thinking strategy."
         />
 
         <div className={stylesHome.spacePadding}>

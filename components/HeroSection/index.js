@@ -57,8 +57,9 @@ const HeroSection = (props) => {
             <h1 className={styles.title}>
               {props.title}
             </h1>
-            <p>Experience with early-stage startup, luxury fashion and beauty brands. Providing an all-inclusive design and development service tailored specifically to meet your needs.</p>
-            <p>Helping entrepreneur and small business grow using design thinking strategy.  Alumni from The New School and Chavón La Escuela de Diseño.</p>
+            <p>
+              {props.description}
+            </p>
           </div>
         </section>
         </motion.div>

@@ -27,10 +27,17 @@ export default function LinkPage({ data }) {
       <div className={stylesHome.main}>
       <NavBar />
       <Container>
-
         <div className={stylesHome.spacePadding}>
-          <h2>Social Links & Projects</h2>
+          <h2 className={stylesHome.mobileHtwo}>
+            Social Links & Projects
+          </h2>
           <div className="LinkList">
+            <LinkCTA
+              theme="card-false"
+              title="Hello Code"
+              summary="Archive of programming languages that have been developed from past to present to improve how software architects choose their stack."
+              url="/side-project/hellocode-the-home-for-programming-languages"
+            />
             <LinkCTA
               theme="card-true"
               title="Professional Portfolio"
@@ -39,11 +46,12 @@ export default function LinkPage({ data }) {
               alt="Office Table and Chair"
               png="png/office-table-and-chair.png"
             />
+
             <LinkCTA
               theme="card-false"
-              title="Hello Code"
-              summary="Archive of programming languages that have been developed from past to present to improve how software architects choose their stack."
-              url="/side-project/hellocode-the-home-for-programming-languages"
+              title="Meliorem"
+              summary="Reward self task manager to stimulate your existence"
+              url="side-project/meliorem-cultivating-your-passion-to-level-up"
             />
             <LinkCTA
               theme="card-true"
@@ -55,9 +63,9 @@ export default function LinkPage({ data }) {
             />
             <LinkCTA
               theme="card-false"
-              title="Meliorem"
-              summary="Reward self task manager to stimulate your existence"
-              url="side-project/meliorem-cultivating-your-passion-to-level-up"
+              title="Surveillance Culture"
+              summary="A social experiment using the top social media channels to farm users sensitive data"
+              url="side-project/surveillance-culture"
             />
             <LinkCTA
               theme="card-true"
@@ -69,9 +77,9 @@ export default function LinkPage({ data }) {
             />
             <LinkCTA
               theme="card-false"
-              title="Surveillance Culture"
-              summary="A social experiment using the top social media channels to farm users sensitive data"
-              url="side-project/surveillance-culture"
+              title="Width - Take Over the Screen"
+              summary="A two-player game in which you must defeat your opponents by clicking to take over the screen."
+              url="side-project/width-take-over-the-screen"
             />
             <LinkCTA
               theme="card-true"
@@ -83,9 +91,9 @@ export default function LinkPage({ data }) {
             />
             <LinkCTA
               theme="card-false"
-              title="Width - Take Over the Screen"
-              summary="A two-player game in which you must defeat your opponents by clicking to take over the screen."
-              url="side-project/width-take-over-the-screen"
+              title="COLOR"
+              summary="Teaching toddler how to learn the basic of colors pronunciation and visual recognition memory."
+              url="side-project/basic-color-fundamentals"
             />
             <LinkCTA
               theme="card-true"
@@ -95,23 +103,8 @@ export default function LinkPage({ data }) {
               alt="House plant for decoration"
               png="png/house-plant-for-decoration.png"
             />
-            <LinkCTA
-              theme="card-false"
-              title="COLOR"
-              summary="Teaching toddler how to learn the basic of colors pronunciation and visual recognition memory."
-              url="side-project/basic-color-fundamentals"
-            />
-            <LinkCTA
-              theme="card-true"
-              title="CodePen"
-              summary="Front-end Code Snippet"
-              url="https://codepen.io/JulioMontas/"
-              alt="Blockchain Platform in Virtual Reality"
-              png="png/blockchain-platform-in-virtual-reality.png"
-            />
           </div>
         </div>
-
       </Container>
       </div>
     </>

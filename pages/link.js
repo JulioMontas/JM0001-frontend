@@ -46,7 +46,6 @@ export default function LinkPage({ data }) {
               alt="Office Table and Chair"
               png="png/office-table-and-chair.png"
             />
-
             <LinkCTA
               theme="card-false"
               title="Meliorem"

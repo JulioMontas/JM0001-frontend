@@ -60,7 +60,6 @@
 @media screen and (min-width: 57em) {
   .header{
     width: 1200px;
-    justify-content: space-between;
     padding-left: 0;
   }
   .header a:last-child{

@@ -1,10 +1,12 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 import { motion } from "framer-motion"
 import styles from '../styles/Report.module.css'
 import useTranslation from 'next-translate/useTranslation'
 import NavBar from '../components/NavBar'
 import Container from '../components/Container'
+import ReactPlayer from 'react-player/youtube'
 
 const easing = [.6, -.05, .01, .99];
 
@@ -67,6 +69,20 @@ export default function MePage({ data }) {
                       </div>
                     </motion.div>
 
+                    <motion.div variants={fadeInUp}>
+                      <div className={styles.flipSwitch}>
+                        <h2>Me</h2>
+                        <Image
+                          src="/menow.jpg"
+                          alt="Desktop view of raw mockup"
+                          width={2156}
+                          height={2814}
+                          quality={100}
+                          layout="responsive"
+                          loading="lazy"
+                         />
+                      </div>
+                    </motion.div>
 
                     <motion.div variants={fadeInUp}>
                       <div className={styles.flipSwitch}>
@@ -103,7 +119,12 @@ export default function MePage({ data }) {
                       <div className={styles.flipSwitch}>
                         <h2>New media art</h2>
                         <ul className={styles.secTextList}>
-                          <li><p><b>ART-A-HACK Summer 2015 -</b> Surveillance Culture</p></li>
+                          <li>
+                            <p>
+                              <b>ART-A-HACK Summer 2015 -</b> Surveillance Culture
+                            </p>
+                            <ReactPlayer width='410px' url='https://youtu.be/ZTbdu-VR59U' />
+                          </li>
                         </ul>
                       </div>
                     </motion.div>
@@ -115,6 +136,11 @@ export default function MePage({ data }) {
                           <li><p>InVision</p></li>
                           <li><p>Figma or Sketch</p></li>
                           <li><p>Google Analytics + Hotjar</p></li>
+                          <li>
+                            <Link href={`https://dribbble.com/juliomontas`}>
+                              <a>Dribbble</a>
+                            </Link>
+                          </li>
                         </ul>
                       </div>
                     </motion.div>
@@ -128,17 +154,40 @@ export default function MePage({ data }) {
                           <li><p>Github</p></li>
                           <li><p>Agile</p></li>
                           <li><p>JavaScript using Next.js or Gatsby.js</p></li>
+                          <li>
+                            <Link href={`https://github.com/JulioMontas`}>
+                              <a>Github</a>
+                            </Link>
+                          </li>
                         </ul>
                       </div>
                     </motion.div>
 
                     <motion.div variants={fadeInUp}>
                       <div className={styles.flipSwitch}>
-                        <h2>&#128466; Language</h2>
+                        <h2>Language</h2>
                         <ul className={styles.secTextList}>
                           <li><p>Spanish</p></li>
                           <li><p>English</p></li>
                         </ul>
+                      </div>
+                    </motion.div>
+
+                    <motion.div variants={fadeInUp}>
+                      <div className={styles.flipSwitch}>
+                        <h2></h2>
+                        <Link href={`https://forms.gle/jY13zQ6CcLoBfeMM9`}>
+                          <a>Contact Me</a>
+                        </Link>
+                      </div>
+                    </motion.div>
+
+                    <motion.div variants={fadeInUp}>
+                      <div className={styles.flipSwitch}>
+                        <h2></h2>
+                        <Link href={`https://calendly.com/vrplay/julio-montas-website-or-app?`}>
+                          <a>Book a consultation</a>
+                        </Link>
                       </div>
                     </motion.div>
 

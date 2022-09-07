@@ -72,10 +72,6 @@ li svg{
   padding: 0 5px 0 0;
   filter: var(--box-shadow);
 }
-/* .LinkList{
-  padding-right: 2em;
-  padding-left: 1em;
-} */
 .LinkList{
   padding-right: 1em;
   padding-left: 5px;
@@ -117,25 +113,12 @@ li svg{
   text-align: center;
   box-shadow: none;
 }
-
-.LinkList:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1){
-  background: linear-gradient(180deg, #F5A766 0%, #EA3752 100%);
-}
-.LinkList:nth-child(4) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1){
-  background: linear-gradient(180deg, #EB5098 0%, #D742D6 100%);
-}
-.LinkList:nth-child(6) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1){
-  background: linear-gradient(180deg, #5D7EEC 0%, #332B9C 100%);
-}
-.LinkList:nth-child(8) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1){
-  background: linear-gradient(180deg, #2F2997 0%, #CC46D5 100%);
-}
-.LinkList:nth-child(10) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1){
-  background: linear-gradient(180deg, #F8E71C 0%, #FF51B9 100%);
-}
-.LinkList:nth-child(12) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1){
-  background: linear-gradient(180deg, #F5A666 0%, #EB4154 100%);
-}
+.LinkList:nth-child(2) > div > div > a:nth-child(1){background: linear-gradient(180deg, #F5A766 0%, #EA3752 100%);}
+.LinkList:nth-child(4) > div > div > a:nth-child(1){background: linear-gradient(180deg, #EB5098 0%, #D742D6 100%);}
+.LinkList:nth-child(6) > div > div > a:nth-child(1){background: linear-gradient(180deg, #5D7EEC 0%, #332B9C 100%);}
+.LinkList:nth-child(8) > div > div > a:nth-child(1){background: linear-gradient(180deg, #2F2997 0%, #CC46D5 100%);}
+.LinkList:nth-child(10) > div > div > a:nth-child(1){background: linear-gradient(180deg, #F8E71C 0%, #FF51B9 100%);}
+.LinkList:nth-child(12) > div > div > a:nth-child(1){background: linear-gradient(180deg, #F5A666 0%, #EB4154 100%);}
 .card-false a{
   display: flex;
   border: 1px solid white;
@@ -153,12 +136,9 @@ li svg{
 /* Desktop 980px to 1280px  */
 @media screen and (min-width: 57em) {
   .LinkList{
-    /* width: 1200px; */
-    /* border: 1px solid red; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column: 5px;
-    /* grid-row: 10px; */
     padding:0;
   }
   .card-true a,

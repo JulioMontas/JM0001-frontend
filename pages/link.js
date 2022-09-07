@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Link from 'next/link'
 import stylesHome from '../styles/Homepage.module.css'
 import useTranslation from 'next-translate/useTranslation'
-import NavBar from '../components/NavBar'
 import Container from '../components/Container'
 import LinkCTA from '../components/LinkCTA'
 

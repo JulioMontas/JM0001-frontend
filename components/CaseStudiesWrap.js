@@ -33,54 +33,63 @@ const stagger = {
 
 const data = [
   {
+    id:'01',
     title: "Law Firm Headless CMS",
     content: "Product Designer & Developer, 2021",
     slug: "law-firm-headless-cms",
     cover: "orange_box.png"
   },
   {
+    id:'02',
     title: "Adorama  eCommerce",
     content: "UI/UX Designer & Front-end Dev, 2019",
     slug: "adorama-ecommerce",
     cover: "blue_box.jpg"
   },
   {
+    id:'03',
     title: "Vinyl Label Design",
     content: "Art Direction, Print Design, 2019",
     slug: "vinyl-label-design",
     cover: "Pendulum-3D-Box-Back-03.jpg"
   },
   {
+    id:'04',
     title: "Custom Shopify Fragrance eCommerce",
     content: "UI/UX Designer & Front-end Dev, 2018",
     slug: "custom-shopify-fragrance-ecommerce",
     cover: "ecommerce.png"
   },
   {
+    id:'05',
     title: "Custom Wordpress Theme For Musician",
     content: "UI/UX Designer & Front-end Dev, 2017",
     slug: "custom-wordpress-artist-theme",
     cover: "music_3D_Top.png"
   },
   {
+    id:'06',
     title: "Nike: Retail iPad App",
     content: "Agency / UX/UI Designer, 2014",
     slug: "nike-retail-ipad-app",
     cover: "Nike_3D_003.jpg"
   },
   {
+    id:'07',
     title: "Kate Spade: Shoppable Web Video UI",
     content: "Agency / UX/UI Designer, 2014",
     slug: "kate-spade-shoppable-web-video-ui",
     cover: "KateSpade_3D_01.gif"
   },
   {
+    id:'08',
     title: "Lancome: Visionnaire Video UI",
     content: "Agency / UX/UI Designer, 2013",
     slug: "lancome-visionnaire-video-ui",
     cover: "Lancome_3D_005.jpg"
   },
   {
+    id:'09',
     title: "Sebastian Faena: Fashion Photographer miscrosite",
     content: "UX/UI Designer & Develoment, 2013",
     slug: "sebastian-faena-fashion-photographer-miscrosite",
@@ -118,7 +127,7 @@ const CaseStudiesWrap = (props) => {
         }}
         >
         {data.map(data => (
-          <SwiperSlide>
+          <SwiperSlide key={data.id}>
             <motion.div variants={fadeInUp} className='card'>
               <ThreeDimCube
                 slug={data.slug}

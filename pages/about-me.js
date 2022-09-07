@@ -175,7 +175,7 @@ export default function MePage({ data }) {
 
                     <motion.div variants={fadeInUp}>
                       <div className={styles.flipSwitch}>
-                        <h2></h2>
+                        <h2>Form</h2>
                         <Link href={`https://forms.gle/jY13zQ6CcLoBfeMM9`}>
                           <a>Contact Me</a>
                         </Link>
@@ -184,7 +184,7 @@ export default function MePage({ data }) {
 
                     <motion.div variants={fadeInUp}>
                       <div className={styles.flipSwitch}>
-                        <h2></h2>
+                        <h2>Form</h2>
                         <Link href={`https://calendly.com/vrplay/julio-montas-website-or-app?`}>
                           <a>Book a consultation</a>
                         </Link>

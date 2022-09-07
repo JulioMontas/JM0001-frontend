@@ -14,11 +14,11 @@
   margin-right: -10px;
 }
 /* https://www.tutorialrepublic.com/faq/show-hide-dropdown-menu-on-mouse-hover-using-css.php */
-  .changeLang li {
+.changeLang li {
   display: inline-block;
   position: relative;
   line-height: 21px;
-  /* text-align: left; */
+  text-align: left;
 }
 .changeLang li a {
   font-weight: bold;
@@ -29,7 +29,7 @@
   transition: all 1s ease;
 }
 .changeLang li a:hover{
-    opacity: 1;
+  opacity: 1;
 }
 .dropdown {
   min-width: 100%;
@@ -58,12 +58,6 @@
     width: 1200px;
     padding-left: 0;
   }
-  /* .header a:last-child{
-    padding-right: 0;
-  }
-  .header ul{
-    padding-right: 0;
-  } */
   .title{
     font-size: 1em;
   }

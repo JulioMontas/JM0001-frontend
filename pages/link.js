@@ -25,7 +25,6 @@ export default function LinkPage({ data }) {
       <link rel="alternate" href="https://juliomontas.com/es-us/link" hreflang="es-us" />
     </Head>
       <div className={stylesHome.main}>
-      <NavBar />
       <Container>
         <div className={stylesHome.spacePadding}>
           <h2 className={stylesHome.mobileHtwo}>
@@ -102,6 +101,11 @@ export default function LinkPage({ data }) {
               alt="House plant for decoration"
               png="png/house-plant-for-decoration.png"
             />
+          </div>
+          <div className={stylesHome.mobileHtwo}>
+            <Link href={`/about-me`}>
+              <a>About Me</a>
+            </Link>
           </div>
         </div>
       </Container>

@@ -37,13 +37,13 @@ const NavBar = (props) => {
         <motion.div variants={stagger}>
 
           <motion.div variants={fadeInUp} className={styles.header}>
-          {/*
+
             <Link href="/">
               <a alt="homepage button">
                 Home
               </a>
             </Link>
-          */}
+
 
             <Link href="/">
               <a alt="homepage button">

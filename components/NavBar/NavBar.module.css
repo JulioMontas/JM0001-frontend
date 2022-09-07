@@ -1,28 +1,24 @@
 .header{
+  width: 95%;
   position: fixed;
   display: flex;
-  width: 100%;
   justify-content: space-between;
-  align-items: center;
   z-index: 99999;
   padding-left: 10px;
   padding-top: 15px;
 }
 .header a:last-child{
-  padding-right: 20px;
-}
-.header ul{
-  padding-right: 20px;
+  width: 20px;
 }
 .contact{
   margin-right: -10px;
 }
 /* https://www.tutorialrepublic.com/faq/show-hide-dropdown-menu-on-mouse-hover-using-css.php */
-.changeLang li {
+  .changeLang li {
   display: inline-block;
   position: relative;
   line-height: 21px;
-  text-align: left;
+  /* text-align: left; */
 }
 .changeLang li a {
   font-weight: bold;
@@ -62,12 +58,12 @@
     width: 1200px;
     padding-left: 0;
   }
-  .header a:last-child{
+  /* .header a:last-child{
     padding-right: 0;
   }
   .header ul{
     padding-right: 0;
-  }
+  } */
   .title{
     font-size: 1em;
   }

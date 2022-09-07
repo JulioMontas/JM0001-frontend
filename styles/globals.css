@@ -72,9 +72,13 @@ li svg{
   padding: 0 5px 0 0;
   filter: var(--box-shadow);
 }
-.LinkList{
+/* .LinkList{
   padding-right: 2em;
   padding-left: 1em;
+} */
+.LinkList{
+  padding-right: 1em;
+  padding-left: 5px;
 }
 .card-true a,
 .card-false a{

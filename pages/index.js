@@ -70,7 +70,7 @@ export default function Homepage({ data }) {
             logoUno="nextjs"
             logoDos="pwa"
             logoTres="gatsbyjs"
-            logoFour="gitHub"
+            logoFour="github"
             logoFive="shopify"
             logoSix="docker"
           />

@@ -97,15 +97,17 @@ export default function Homepage({ data }) {
 
         <div className={stylesHome.spacePadding}>
           <h2 className={stylesHome.mobileHtwo}>
-            Social Links & Projects
+            Social Links
           </h2>
           <div className="LinkList">
+            {/*
             <LinkCTA
               theme="card-false"
               title="Hello Code"
               summary="Archive of programming languages that have been developed from past to present to improve how software architects choose their stack."
               url="/side-project/hellocode-the-home-for-programming-languages"
             />
+            */}
             <LinkCTA
               theme="card-true"
               title="SoundCloud"
@@ -114,12 +116,14 @@ export default function Homepage({ data }) {
               alt="Dj playing music"
               png="png/dj-playing-music.png"
             />
+            {/*
             <LinkCTA
               theme="card-false"
               title="Meliorem"
               summary="Reward self task manager to stimulate your existence"
               url="side-project/meliorem-cultivating-your-passion-to-level-up"
             />
+            */}
             <LinkCTA
               theme="card-true"
               title="Unsplas"
@@ -128,12 +132,14 @@ export default function Homepage({ data }) {
               alt="camera"
               png="png/camera.png"
             />
+            {/*
             <LinkCTA
               theme="card-false"
               title="Surveillance Culture"
               summary="A social experiment using the top social media channels to farm users sensitive data"
               url="side-project/surveillance-culture"
             />
+            */}
             <LinkCTA
               theme="card-true"
               title="Github"
@@ -142,12 +148,14 @@ export default function Homepage({ data }) {
               alt="Creating new facility using VR technology"
               png="png/creating-new-facility-using-vr-technology.png"
             />
+            {/*
             <LinkCTA
               theme="card-false"
               title="Width - Take Over the Screen"
               summary="A two-player game in which you must defeat your opponents by clicking to take over the screen."
               url="side-project/width-take-over-the-screen"
             />
+            */}
             <LinkCTA
               theme="card-true"
               title="Dribbble"
@@ -156,12 +164,14 @@ export default function Homepage({ data }) {
               alt="House plant for decoration"
               png="png/house-plant-for-decoration.png"
             />
+            {/*
             <LinkCTA
               theme="card-false"
               title="COLOR"
               summary="Teaching toddler how to learn the basic of colors pronunciation and visual recognition memory."
               url="side-project/basic-color-fundamentals"
             />
+            */}
             <LinkCTA
               theme="card-true"
               title="CodePen"
@@ -170,9 +180,16 @@ export default function Homepage({ data }) {
               alt="Blockchain Platform in Virtual Reality"
               png="png/blockchain-platform-in-virtual-reality.png"
             />
+            {/*
+            <LinkCTA
+              theme="card-false"
+              title="COLOR"
+              summary="Teaching toddler how to learn the basic of colors pronunciation and visual recognition memory."
+              url="side-project/basic-color-fundamentals"
+            />
+            */}
           </div>
         </div>
-
       </Container>
       </div>
     </>

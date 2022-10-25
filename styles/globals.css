@@ -72,12 +72,19 @@ li svg{
   padding: 0 5px 0 0;
   filter: var(--box-shadow);
 }
+
+
+
+
+
+
 .LinkList{
   padding-right: 1em;
   padding-left: 5px;
 }
 .card-true a,
-.card-false a{
+.card-false a,
+.card-mvp a{
   width: 100%;
   height: 280px;
   border-radius: 10px;
@@ -113,20 +120,27 @@ li svg{
   text-align: center;
   box-shadow: none;
 }
-.LinkList:nth-child(2) > div > div > a:nth-child(1){background: linear-gradient(180deg, #F5A766 0%, #EA3752 100%);}
-.LinkList:nth-child(4) > div > div > a:nth-child(1){background: linear-gradient(180deg, #EB5098 0%, #D742D6 100%);}
-.LinkList:nth-child(6) > div > div > a:nth-child(1){background: linear-gradient(180deg, #5D7EEC 0%, #332B9C 100%);}
-.LinkList:nth-child(8) > div > div > a:nth-child(1){background: linear-gradient(180deg, #2F2997 0%, #CC46D5 100%);}
-.LinkList:nth-child(10) > div > div > a:nth-child(1){background: linear-gradient(180deg, #F8E71C 0%, #FF51B9 100%);}
-.LinkList:nth-child(12) > div > div > a:nth-child(1){background: linear-gradient(180deg, #F5A666 0%, #EB4154 100%);}
-.card-false a{
+.LinkList:nth-child(1) > div > div > a:nth-child(1){background: linear-gradient(180deg, #F5A766 0%, #EA3752 100%);}
+.LinkList:nth-child(2) > div > div > a:nth-child(1){background: linear-gradient(180deg, #EB5098 0%, #D742D6 100%);}
+.LinkList:nth-child(3) > div > div > a:nth-child(1){background: linear-gradient(180deg, #5D7EEC 0%, #332B9C 100%);}
+.LinkList:nth-child(4) > div > div > a:nth-child(1){background: linear-gradient(180deg, #2F2997 0%, #CC46D5 100%);}
+.LinkList:nth-child(5) > div > div > a:nth-child(1){background: linear-gradient(180deg, #F8E71C 0%, #FF51B9 100%);}
+.LinkList:nth-child(6) > div > div > a:nth-child(1){background: linear-gradient(180deg, #F5A666 0%, #EB4154 100%);}
+
+.card-false a,
+.card-mvp a{
   display: flex;
   border: 1px solid white;
   text-align: center;
   align-items: center;
   transition: all 1s ease;
 }
-.card-false a:hover{
+.card-mvp a{
+  flex-direction: column;
+}
+
+.card-false a:hover,
+.card-mvp a:hover{
   transform: scale(0.9);
   opacity: 0.9;
 }
@@ -142,7 +156,8 @@ li svg{
     padding:0;
   }
   .card-true a,
-  .card-false a{
+  .card-false a,
+  .card-mvp a{
     width: 362px;
     height: 280px;
     margin-bottom: 20px;

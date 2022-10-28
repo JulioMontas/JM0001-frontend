@@ -71,7 +71,7 @@ export default function MePage({ data }) {
 
                     <motion.div variants={fadeInUp}>
                       <div className={styles.flipSwitch}>
-                        <h2>Me</h2>
+                        <h2>Selfie</h2>
                         <Image
                           src="/menow.jpg"
                           alt="Desktop view of raw mockup"
@@ -88,29 +88,42 @@ export default function MePage({ data }) {
                       <div className={styles.flipSwitch}>
                         <h2>History</h2>
                         <div>
-                          <p style={{marginBottom:"1.5em"}}>I’m a multi-talented experience designer that can also write lines of code in CSS, HTML, JavasScript and <s>PHP</s>. Originally from the Dominican Republic now based in New York City. I’ve created over a dozen website and app designed to streamline sales and marketing activities for startup, luxury fashion and beauty brands.</p>
-                          <p style={{marginBottom:"1.5em"}}>My design style is minimal, timeless and clean approach that look to combine functionality with elegance. To focus 💯 on the user experience navigation and speciation. Using modern design methodology and tools to later push to the cloud using the necessary development stack.</p>
-                          <p style={{marginBottom:"1.5em"}}>My favorite art movement are Swedish and Suprematism, if I’m not looking at a new media gallery I’m probably DJing Minimal House / Dub Techno / Afro House.</p>
+                          <p style={{marginBottom:"1.5em"}}>I’m a multi-talented experience designer that can also can write lines of code in CSS, HTML, JavaScript and Processing. Originally from the Dominican Republic now based in New York City. I’ve created over a dozen website and apps designed to streamline sales and marketing activities for startup, luxury fashion and beauty brands.</p>
+                          <p style={{marginBottom:"1.5em"}}>My design style is minimal, timeless and clean approach that look to combine abstraction with functionalism. To focus 💯 on the user experience navigation and speciation. Using modern design methodology and tools while using the necessary development stack.</p>
+                          <p style={{marginBottom:"1.5em"}}>My favorite design style are Swiss design and Suprematism, When i'm not designing or coding, I'm trying to find a new a New Media gallery or I’m probably DJing minimal house, dub techno, afro house or Dominican dembow in Brooklyn or Washington Heights.</p>
                         </div>
                       </div>
                     </motion.div>
 
                     <motion.div variants={fadeInUp}>
                       <div className={styles.flipSwitch}>
-                        <h2>Education</h2>
+                        <h2>Visual Design tools</h2>
                         <ul className={styles.secTextList}>
-                          <li><p><b>AAS -</b> CHAVÓN La Escuela de Diseño</p></li>
-                          <li><p><b>BFA -</b> The New School (50% scholarships)</p></li>
+                          <li><p>InVision</p></li>
+                          <li><p>Figma or Sketch</p></li>
+                          <li><p>Google Analytics + Hotjar</p></li>
+                          <li>
+                            <Link href={`https://dribbble.com/juliomontas`}>
+                              <a>Dribbble</a>
+                            </Link>
+                          </li>
                         </ul>
                       </div>
                     </motion.div>
 
                     <motion.div variants={fadeInUp}>
                       <div className={styles.flipSwitch}>
-                        <h2>Certification</h2>
+                        <h2>Development Stack</h2>
                         <ul className={styles.secTextList}>
-                          <li><p><b>JavaScript Full Stack -</b> General Assembly NYC (3 months bootcamp)</p></li>
-                          <li><p><b>AR/VR Engineer -</b> CUNY Lehman College</p></li>
+                          <li><p>CSS3 + HTML5</p></li>
+                          <li><p>JavaScript using Gatsby.js</p></li>
+                          <li><p>Framer Motion</p></li>
+                          <li><p>GraphQL</p></li>
+                          <li>
+                            <Link href={`https://github.com/JulioMontas`}>
+                              <a>Github</a>
+                            </Link>
+                          </li>
                         </ul>
                       </div>
                     </motion.div>
@@ -131,63 +144,30 @@ export default function MePage({ data }) {
 
                     <motion.div variants={fadeInUp}>
                       <div className={styles.flipSwitch}>
-                        <h2>Design tools</h2>
-                        <ul className={styles.secTextList}>
-                          <li><p>InVision</p></li>
-                          <li><p>Figma or Sketch</p></li>
-                          <li><p>Google Analytics + Hotjar</p></li>
-                          <li>
-                            <Link href={`https://dribbble.com/juliomontas`}>
-                              <a>Dribbble</a>
-                            </Link>
-                          </li>
-                        </ul>
-                      </div>
-                    </motion.div>
-
-                    <motion.div variants={fadeInUp}>
-                      <div className={styles.flipSwitch}>
-                        <h2>Development Stack</h2>
-                        <ul className={styles.secTextList}>
-                          <li><p>CSS3 + HTML5</p></li>
-                          <li><p>GraphQL</p></li>
-                          <li><p>Github</p></li>
-                          <li><p>Agile</p></li>
-                          <li><p>JavaScript using Next.js or Gatsby.js</p></li>
-                          <li>
-                            <Link href={`https://github.com/JulioMontas`}>
-                              <a>Github</a>
-                            </Link>
-                          </li>
-                        </ul>
-                      </div>
-                    </motion.div>
-
-                    <motion.div variants={fadeInUp}>
-                      <div className={styles.flipSwitch}>
-                        <h2>Language</h2>
-                        <ul className={styles.secTextList}>
-                          <li><p>Spanish</p></li>
-                          <li><p>English</p></li>
-                        </ul>
-                      </div>
-                    </motion.div>
-
-                    <motion.div variants={fadeInUp}>
-                      <div className={styles.flipSwitch}>
                         <h2>Form</h2>
-                        <Link href={`https://forms.gle/jY13zQ6CcLoBfeMM9`}>
-                          <a>Contact Me</a>
-                        </Link>
+                        <div>
+                          <a href={`https://forms.gle/jY13zQ6CcLoBfeMM9`} target="_blank">Contact me</a> or <a href="https://calendly.com/vrplay/julio-montas-website-or-app?" target="_blank">book a consultation</a>
+                        </div>
                       </div>
                     </motion.div>
 
                     <motion.div variants={fadeInUp}>
                       <div className={styles.flipSwitch}>
-                        <h2>Form</h2>
-                        <Link href={`https://calendly.com/vrplay/julio-montas-website-or-app?`}>
-                          <a>Book a consultation</a>
-                        </Link>
+                        <h2>Certification</h2>
+                        <ul className={styles.secTextList}>
+                          <li><p><b>JavaScript Full Stack -</b> General Assembly NYC (3 months bootcamp)</p></li>
+                          <li><p><b>AR/VR Engineer -</b> CUNY Lehman College</p></li>
+                        </ul>
+                      </div>
+                    </motion.div>
+
+                    <motion.div variants={fadeInUp}>
+                      <div className={styles.flipSwitch}>
+                        <h2>Education</h2>
+                        <ul className={styles.secTextList}>
+                          <li><p><b>AAS -</b> CHAVÓN La Escuela de Diseño</p></li>
+                          <li><p><b>BFA -</b> The New School (50% scholarships)</p></li>
+                        </ul>
                       </div>
                     </motion.div>
 

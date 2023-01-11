@@ -88,9 +88,15 @@ export default function MePage({ data }) {
                       <div className={styles.flipSwitch}>
                         <h2>History</h2>
                         <div>
-                          <p style={{marginBottom:"1.5em"}}>I’m a multi-talented experience designer that can also can write lines of code in CSS, HTML, JavaScript and Processing. Originally from the Dominican Republic now based in New York City. I’ve created over a dozen website and apps designed to streamline sales and marketing activities for startup, luxury fashion and beauty brands.</p>
-                          <p style={{marginBottom:"1.5em"}}>My design style is minimal, timeless and clean approach that look to combine abstraction with functionalism. To focus 💯 on the user experience navigation and speciation. Using modern design methodology and tools while using the necessary development stack.</p>
-                          <p style={{marginBottom:"1.5em"}}>My favorite design style are Swiss design and Suprematism, When i'm not designing or coding, I'm trying to find a new a New Media gallery or I’m probably DJing minimal house, dub techno, afro house or Dominican dembow in Brooklyn or Washington Heights.</p>
+                          <p style={{marginBottom:"1.5em"}}>
+                            I’m a multi-talented visual designer that also code in CSS, HTML, JavaScript (React). I’ve created over a dozen website and apps designed to streamline sales and marketing activities for startup, luxury fashion and beauty brands.
+                          </p>
+                          <p style={{marginBottom:"1.5em"}}>
+                            My design style is minimal, timeless and clean approach that look to combine abstraction with functionalism. To focus on the user experience navigation and speciation. Using modern design methodology and tools while using the necessary development stack.
+                          </p>
+                          <p style={{marginBottom:"1.5em"}}>
+                            My favorite design style are Swiss design and Suprematism, When I'm not designing or coding, I'm visiting a new a new media gallery or DJing minimal house.
+                          </p>
                         </div>
                       </div>
                     </motion.div>
@@ -130,6 +136,15 @@ export default function MePage({ data }) {
 
                     <motion.div variants={fadeInUp}>
                       <div className={styles.flipSwitch}>
+                        <h2>Form</h2>
+                        <div>
+                          <a href={`https://forms.gle/jY13zQ6CcLoBfeMM9`} target="_blank">Contact me</a> or <a href="https://calendly.com/vrplay/julio-montas-website-or-app?" target="_blank">book a consultation</a>
+                        </div>
+                      </div>
+                    </motion.div>
+
+                    <motion.div variants={fadeInUp}>
+                      <div className={styles.flipSwitch}>
                         <h2>New media art</h2>
                         <ul className={styles.secTextList}>
                           <li>
@@ -139,15 +154,6 @@ export default function MePage({ data }) {
                             <ReactPlayer width='410px' url='https://youtu.be/ZTbdu-VR59U' />
                           </li>
                         </ul>
-                      </div>
-                    </motion.div>
-
-                    <motion.div variants={fadeInUp}>
-                      <div className={styles.flipSwitch}>
-                        <h2>Form</h2>
-                        <div>
-                          <a href={`https://forms.gle/jY13zQ6CcLoBfeMM9`} target="_blank">Contact me</a> or <a href="https://calendly.com/vrplay/julio-montas-website-or-app?" target="_blank">book a consultation</a>
-                        </div>
                       </div>
                     </motion.div>
 

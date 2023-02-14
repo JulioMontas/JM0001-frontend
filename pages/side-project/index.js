@@ -77,7 +77,7 @@ function sideProject({ posts }) {
 
           <motion.div variants={fadeInUp} className='card'>
            <section>
-            <Link href={`/side-project/surveillance`}>
+            <Link href={`/side-project/surveillance-culture`}>
               <a alt={t('title_02')}>
                 <h2 className={styles.blgTitle}>{t('title_02')}</h2>
                 <h3 className={styles.blgSummery}>{t('content_02')}</h3>
@@ -98,7 +98,7 @@ function sideProject({ posts }) {
 
             <motion.div variants={fadeInUp} className='card'>
             <section>
-              <Link href={`/side-project/width`}>
+              <Link href={`/side-project/width-take-over-the-screen`}>
                 <a alt={t('title_03')}>
                   <h2 className={styles.blgTitle}>{t('title_03')}</h2>
                   <h3 className={styles.blgSummery}>{t('content_03')}</h3>
@@ -119,7 +119,7 @@ function sideProject({ posts }) {
 
             <motion.div variants={fadeInUp} className='card'>
             <section>
-            <Link href={`/side-project/colors`}>
+            <Link href={`/side-project/basic-color-fundamentals`}>
               <a alt={t('title_05')}>
                 <h2 className={styles.blgTitle}>{t('title_05')}</h2>
                 <h3 className={styles.blgSummery}>{t('content_05')}</h3>

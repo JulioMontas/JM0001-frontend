@@ -1,3 +1,16 @@
+/* @font-face {
+  font-family: slabLine;
+  src: url(SlabLine-by-JulioMontas.woff);
+}
+
+.newFont{
+  font-family: slabLine;
+  font-weight: bold;
+  font-size: 10em !important;
+  height: 500px;
+  background: red;
+} */
+
 .gridContainer{
   display: grid;
   grid-template-columns: 100%;

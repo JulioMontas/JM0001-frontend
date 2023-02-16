@@ -58,16 +58,11 @@ const HeroSection = (props) => {
               {props.title}
             </h1>
             <p>
-              {props.description}
-            </p>
-            {/* <p>
-              Learn more &nbsp;
-              <Link href="/about-me">
-                <a alt="About Me page">
-                  About Me
-                </a>
+              {props.description} 
+              <Link href={`https://forms.gle/9uVudBpW7YE6n2CNA`}>
+                <a> Let's Talk</a>
               </Link>
-            </p> */}
+            </p>
           </div>
         </section>
         </motion.div>
@@ -76,5 +71,4 @@ const HeroSection = (props) => {
     </motion.div>
   )
 }
-
 export default HeroSection;

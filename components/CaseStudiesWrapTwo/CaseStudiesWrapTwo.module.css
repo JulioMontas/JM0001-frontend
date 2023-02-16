@@ -1,12 +1,10 @@
-.link{
-}
 .title{
     color:#FFFF00;
     font-size: 1.4em !important;
 }
-
-.description{
-    /* font-size: 13px; */
-    /* background: blue; */
-    margin: 0.5em 0 3.5em 0;
+.link{
+    margin: 0 0 2em 0;
+}
+.link:last-child{
+    margin:0;
 }

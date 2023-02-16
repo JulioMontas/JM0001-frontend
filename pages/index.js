@@ -5,6 +5,8 @@ import useTranslation from 'next-translate/useTranslation'
 import NavBar from '../components/NavBar'
 import HeroSection from '../components/HeroSection'
 import CaseStudiesWrap from '../components/CaseStudiesWrap'
+import CaseStudiesWrapTwo from '../components/CaseStudiesWrapTwo'
+import SideProjectWrap from '../components/SideProjectWrap'
 import LinkCTA from '../components/LinkCTA'
 import TechStack from '../components/TechStack'
 import Container from '../components/Container'
@@ -31,24 +33,23 @@ export default function Homepage({ data }) {
       <div className={stylesHome.main}>
       <NavBar />
       <Container>
+
         <HeroSection
           title="Envision a project that grows with you"
           description="Experience designer for Apps, Microsites, eCommerce, Augmented Reality to create memorable product that Increase engagement for your entrepreneur goals on the road to a visual solution."
         />
-
-        <div className={stylesHome.spacePadding}>
-          <CaseStudiesWrap
-            title="Case Studies"
-          />
-        </div>
+        
+        <SideProjectWrap 
+          title="Side Project"
+        />
 
         <div className={stylesHome.spacePadding}>
           <h2 className={stylesHome.mobileHtwo}>
             Services
           </h2>
           <Accordion
-            title="Sculpting Your Vision 🌱 "
-            quote="Your entrepreneur goals on the road to a visual solution"
+            title="🌱 Sculpting Your Vision"
+            quote="Digital Designer"
             contUnoTitle="Digital Designer"
             contUno="Multi-disciplinary designer that care deeply about the users who use the product. Using user-centered design methods to craft industry-leading user experiences from concept to execution."
             contDosTitle="User Experience Design"
@@ -61,8 +62,8 @@ export default function Homepage({ data }) {
             logoSix="jira"
           />
           <Accordion
-            title="From Visual To Develoment 🍭 "
-            quote="Publish your product to the cloud"
+            title="🍭 From Visual To Develoment"
+            quote="Web and Mobile Development"
             contUnoTitle="Web and Mobile Development"
             contUno="Expert level knowledge of HTML/CSS and JavaScript with hands on experience with Node.js, ReactJS cross-platform development and other component-based framework."
             contDosTitle="eCommerce"
@@ -75,8 +76,8 @@ export default function Homepage({ data }) {
             logoSix="docker"
           />
           <Accordion
-            title="Experimental 🚀 "
-            quote="The Creative Lab"
+            title="🚀 Experimental"
+            quote="Creative Technologist"
             contUnoTitle="Creative Technologist"
             contUno="Comfortable conceptually and technically with a variety of devices, from mobile to wearable to VR and AR, communication through code."
             contDosTitle="Prototype"
@@ -95,101 +96,20 @@ export default function Homepage({ data }) {
           </h2>
         </div>
 
+        <TechStack />
+
         <div className={stylesHome.spacePadding}>
-          <h2 className={stylesHome.mobileHtwo}>
-            Social Links
-          </h2>
-          <div className="LinkList">
-            {/*
-            <LinkCTA
-              theme="card-false"
-              title="Hello Code"
-              summary="Archive of programming languages that have been developed from past to present to improve how software architects choose their stack."
-              url="/side-project/hellocode-the-home-for-programming-languages"
-            />
-            */}
-            <LinkCTA
-              theme="card-true"
-              title="SoundCloud"
-              summary="Playing Minimal House / Techno"
-              url="https://soundcloud.com/juliomontas"
-              alt="Dj playing music"
-              png="png/dj-playing-music.png"
-            />
-            {/*
-            <LinkCTA
-              theme="card-false"
-              title="Meliorem"
-              summary="Reward self task manager to stimulate your existence"
-              url="side-project/meliorem-cultivating-your-passion-to-level-up"
-            />
-            */}
-            <LinkCTA
-              theme="card-true"
-              title="Unsplas"
-              summary="Open source photography"
-              url="https://unsplash.com/@juliomontas"
-              alt="camera"
-              png="png/camera.png"
-            />
-            {/*
-            <LinkCTA
-              theme="card-false"
-              title="Surveillance Culture"
-              summary="A social experiment using the top social media channels to farm users sensitive data"
-              url="side-project/surveillance-culture"
-            />
-            */}
-            <LinkCTA
-              theme="card-true"
-              title="Github"
-              summary="Code portfolio in JavaScript and other programming languages"
-              url="https://github.com/JulioMontas"
-              alt="Creating new facility using VR technology"
-              png="png/creating-new-facility-using-vr-technology.png"
-            />
-            {/*
-            <LinkCTA
-              theme="card-false"
-              title="Width - Take Over the Screen"
-              summary="A two-player game in which you must defeat your opponents by clicking to take over the screen."
-              url="side-project/width-take-over-the-screen"
-            />
-            */}
-            <LinkCTA
-              theme="card-true"
-              title="Dribbble"
-              summary="UI Design Portfolio"
-              url="https://dribbble.com/juliomontas"
-              alt="House plant for decoration"
-              png="png/house-plant-for-decoration.png"
-            />
-            {/*
-            <LinkCTA
-              theme="card-false"
-              title="COLOR"
-              summary="Teaching toddler how to learn the basic of colors pronunciation and visual recognition memory."
-              url="side-project/basic-color-fundamentals"
-            />
-            */}
-            <LinkCTA
-              theme="card-true"
-              title="CodePen"
-              summary="Front-end Code Snippet"
-              url="https://codepen.io/JulioMontas/"
-              alt="Blockchain Platform in Virtual Reality"
-              png="png/blockchain-platform-in-virtual-reality.png"
-            />
-            {/*
-            <LinkCTA
-              theme="card-false"
-              title="COLOR"
-              summary="Teaching toddler how to learn the basic of colors pronunciation and visual recognition memory."
-              url="side-project/basic-color-fundamentals"
-            />
-            */}
-          </div>
+          <CaseStudiesWrap
+            title="Case Studies"
+          />
         </div>
+
+        {/* <div className={stylesHome.spacePadding}>
+          <CaseStudiesWrapTwo
+            title="Blog"
+          />
+        </div> */}
+
       </Container>
       </div>
     </>

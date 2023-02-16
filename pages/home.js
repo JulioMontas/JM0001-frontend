@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import stylesHome from '../styles/Homepage.module.css'
+import stylesHome from '../styles/HomepageTwo.module.css'
 import useTranslation from 'next-translate/useTranslation'
 import NavBar from '../components/NavBar'
 import HeroSection from '../components/HeroSection'
-import CaseStudiesWrap from '../components/CaseStudiesWrap'
+import CaseStudiesWrapTwo from '../components/CaseStudiesWrapTwo'
 import LinkCTA from '../components/LinkCTA'
 import TechStack from '../components/TechStack'
 import Container from '../components/Container'
@@ -35,9 +35,12 @@ export default function Homepage({ data }) {
           title="Envision a project that grows with you"
           description="Experience designer for Apps, Microsites, eCommerce, Augmented Reality to create memorable product that Increase engagement for your entrepreneur goals on the road to a visual solution."
         />
-      <div className={stylesHome.spacePadding}>
-        
-      </div>
+        <div className={stylesHome.spacePadding}>
+          <CaseStudiesWrapTwo
+            title="Case Studies"
+          />
+        </div>
+
       </Container>
       </div>
     </>

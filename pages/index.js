@@ -32,8 +32,8 @@ export default function Homepage({ data }) {
       <NavBar />
       <Container>
         <HeroSection
-          title="✋🏾 I'm Julio, I ❤️ building and designing eCommerce shops, content management system (CMS) with a serverless architectures to boost your search engine optimization (SEO) results."
-          description="Experience with early-stage startup, luxury fashion and beauty brands. Providing an all-inclusive design and development service tailored specifically to meet your needs using design thinking strategy."
+          title="Envision a project that grows with you"
+          description="Experience designer for Apps, Microsites, eCommerce, Augmented Reality to create memorable product that Increase engagement for your entrepreneur goals on the road to a visual solution."
         />
 
         <div className={stylesHome.spacePadding}>

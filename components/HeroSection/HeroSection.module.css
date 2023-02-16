@@ -98,9 +98,10 @@
     justify-content: left;
   }
   .title {
-    font-size: 1.69em;
+    font-size: 4.2em;
     text-align: left;
-    line-height: 40px;
+    line-height: 78px;
+    margin-bottom: 0;
   }
   .uno img {
       transform: scale(1);

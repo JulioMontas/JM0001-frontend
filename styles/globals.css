@@ -8,7 +8,8 @@
   --text-secondary-hover:#FFFC00;
   --primary-color:;
   --line-height: 1.5;
-  --background-color: linear-gradient(45deg,#72c602 0,#1cafeb 50%,#f1551d);
+  --background-color: #1B1B1B;
+  --background-color-two: linear-gradient(45deg,#72c602 0,#1cafeb 50%,#f1551d);
   --background-color-light: ;
   --background-color-dark: linear-gradient(45deg,#333 0,#000 50%,#333);
   --fonts-title:'Roboto Condensed', Helvetica Neue, sans-serif;

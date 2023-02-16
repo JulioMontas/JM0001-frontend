@@ -161,7 +161,7 @@ function CaseStudyIndex() {
             </div>
             </motion.div>
 
-            <motion.div variants={fadeInUp}>
+            {/* <motion.div variants={fadeInUp}>
             <div>
                 <Image
                   src="/img/case-study/flow.png"
@@ -173,7 +173,7 @@ function CaseStudyIndex() {
                   loading="lazy"
                  />
             </div>
-            </motion.div>
+            </motion.div> */}
 
             <motion.div variants={fadeInUp}>
             <div className={styles.flipSwitch}>

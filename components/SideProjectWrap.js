@@ -54,8 +54,9 @@ const SideProjectWrap = (props) => {
         <div className={styles.boxes}>
         <Swiper
         style={{
-          "--swiper-navigation-color": "#FFFC00",
           "--swiper-pagination-color": "#FFFC00",
+          "--swiper-pagination-bullet-inactive-color": "#FFF",
+          "--swiper-pagination-bullet-inactive-opacity": "1",
         }}
         modules={[Navigation, Pagination, Scrollbar, A11y]}
        pagination={{ clickable: true }}
@@ -73,27 +74,6 @@ const SideProjectWrap = (props) => {
           }
         }}
         >
-           <SwiperSlide>
-            <motion.div variants={fadeInUp} className='card'>
-            <section>
-            <Link href={`/side-project/hellocode-the-home-for-programming-languages`}>
-              <a alt={data.title_01} rel="alternate" hreflang="en">
-                <h3 className={styles.title}>{data.title_01}</h3>
-                <h4 className={styles.description}>{data.content_01}</h4>
-                <span className={styles.fotos}>
-                  <Image
-                    src="/img/side-project/hc/hc02.gif"
-                    alt={data.title_01}
-                    width={1422}
-                    height={688}
-                   />
-                </span>
-              </a>
-            </Link>
-            </section>
-            </motion.div>
-            </SwiperSlide>
-
             <SwiperSlide>
             <motion.div variants={fadeInUp} className='card'>
             <section>
@@ -182,6 +162,27 @@ const SideProjectWrap = (props) => {
                   </span>
                 </a>
               </Link>
+            </section>
+            </motion.div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <motion.div variants={fadeInUp} className='card'>
+            <section>
+            <Link href={`/side-project/hellocode-the-home-for-programming-languages`}>
+              <a alt={data.title_01} rel="alternate" hreflang="en">
+                <h3 className={styles.title}>{data.title_01}</h3>
+                <h4 className={styles.description}>{data.content_01}</h4>
+                <span className={styles.fotos}>
+                  <Image
+                    src="/img/side-project/hc/hc02.gif"
+                    alt={data.title_01}
+                    width={1422}
+                    height={688}
+                   />
+                </span>
+              </a>
+            </Link>
             </section>
             </motion.div>
             </SwiperSlide>

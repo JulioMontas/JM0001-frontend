@@ -40,7 +40,7 @@ const NavBar = (props) => {
 
             <Link href="/">
               <a alt="homepage button">
-                Home
+                Julio Montás
               </a>
             </Link>
 

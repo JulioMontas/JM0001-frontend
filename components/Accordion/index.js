@@ -37,7 +37,7 @@ export default function Accordion(props) {
 
   return (
     <motion.div exit={{ opacity: 0 }} initial='initial' animate='animate' className={styles.wrappper}>
-    <motion.div variants={stagger} className={styles.accordion} style={{ opacity: isShowing ? "1" : "0.5" }}>
+    <motion.div variants={stagger} className={styles.accordion} style={{ opacity: isShowing ? "1" : "1" }}>
     <motion.div variants={fadeInUp}>
       <button
         className={styles.button}
@@ -66,7 +66,7 @@ export default function Accordion(props) {
           <div className={styles.image}></div>
           <ul>
             <li>
-              <h3 dangerouslySetInnerHTML={{__html: props.contUnoTitle}} />
+              {/* <h3 dangerouslySetInnerHTML={{__html: props.contUnoTitle}} /> */}
               <p dangerouslySetInnerHTML={{__html: props.contUno}} />
             </li>
             {/*

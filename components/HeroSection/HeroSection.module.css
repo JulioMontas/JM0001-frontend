@@ -1,19 +1,23 @@
 .uno{
     grid-area: uno;
+    display: none;
 }
 .dos{
     grid-area: dos;
+    margin-bottom: 30%;
 }
 .main {
   padding: 1vh 10px 10px 10px;
   display: grid;
   align-items: center;
-  text-align: center;
-  grid-template-columns: auto;
+  /* text-align: center; */
+  /* grid-template-columns: auto; */
   grid-template-rows: 1fr;
-  grid-row-gap: 1em;
+  row-gap: 4rem;
+  /* grid-row-start: 1rem; */
+  /* grid-row-end: 10rem; */
+  /* background:red; */
   grid-template-areas:
-      "dos"
       "uno";
 }
 .title,
@@ -22,14 +26,11 @@
     text-align: left;
 }
 .title {
-    color:#FFF;
-    font-size: 0.85rem;
-    line-height: 30px;
+    font-size: 2.5rem;
+    line-height: 50px;
     text-transform: uppercase;
     font-style: italic;
     letter-spacing: 1px;
-    margin-top: 10px;
-    margin-bottom: 2em;
 }
 .description p {
   font-size: 1rem;
@@ -38,7 +39,7 @@
   letter-spacing: 0.15em;
 }
 .uno img {
-    transform: scale(0.8);
+    transform: scale(0.5);
     border-radius: 70% 30% 30% 70% / 60% 40% 20% 40%;
     transition: all 1s ease;
     animation: movingBlob 25s ease-in-out alternate infinite;
@@ -77,6 +78,12 @@
 
 /* Desktop 980px to 1280px  */
 @media screen and (min-width: 57em) {
+  .uno{
+    display: block;
+  }
+  .dos{
+    margin-bottom: 0;
+  }
   .main {
     padding: 0;
     height: 75vh;

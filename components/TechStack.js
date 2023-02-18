@@ -47,7 +47,7 @@ const svg = {
   shopify:"svg/icon/shopify.svg",
   apple:"svg/icon/apple.svg",
   webxr:"svg/icon/webxr.svg",
-  gatsby:"svg/icon/gatsby.svg",
+  gatsby:"svg/icon/gatsbyjs.svg",
   nodejs:"svg/icon/nodejs.svg",
   p5js:"svg/icon/p5js.svg",
   invision:"svg/icon/invision.svg",
@@ -99,7 +99,7 @@ const data = [
     title:"NextJS"
   },
   {
-    svg:"svg/icon/gatsby.svg",
+    svg:"svg/icon/gatsbyjs.svg",
     alt:"gatsby logo",
     title:"gatsby"
   },

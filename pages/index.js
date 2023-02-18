@@ -39,9 +39,11 @@ export default function Homepage({ data }) {
           description="Experience designer for Apps, Microsites, eCommerce, Augmented Reality to create memorable product that Increase engagement for your entrepreneur goals on the road to a visual solution."
         />
         
+        <div className={stylesHome.spacePadding}>
         <SideProjectWrap 
           title="Side Project"
         />
+        </div>
 
         <div className={stylesHome.spacePadding}>
           <h2 className={stylesHome.mobileHtwo}>
@@ -96,7 +98,10 @@ export default function Homepage({ data }) {
           </h2>
         </div>
 
-        <TechStack />
+        <div className={stylesHome.spacePadding}>
+        <TechStack />  
+        </div>
+        
 
         <div className={stylesHome.spacePadding}>
           <CaseStudiesWrap

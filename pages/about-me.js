@@ -75,10 +75,10 @@ export default function MePage({ data }) {
                       <div className={styles.flipSwitch}>
                         <h2>Selfie</h2>
                         <Image
-                          src="/menow.jpg"
+                          src="/me-02.jpg"
                           alt="Desktop view of raw mockup"
-                          width={2156}
-                          height={2814}
+                          width={720}
+                          height={890}
                           quality={100}
                           layout="responsive"
                           loading="lazy"
@@ -97,7 +97,7 @@ export default function MePage({ data }) {
                             My design style is minimal, timeless and clean approach that look to combine abstraction with functionalism. To focus on the user experience navigation and speciation. Using modern design methodology and tools while using the necessary development stack.
                           </p>
                           <p style={{marginBottom:"1.5em"}}>
-                            My favorite design style are Swiss design and Suprematism, When I'm not designing or coding, I'm visiting a new a new media gallery or DJing minimal house.
+                            My favorite design style are Swiss design and Suprematism, When I'm not designing or coding, I'm visiting some art gallery or DJing minimal house music.
                           </p>
                         </div>
                       </div>

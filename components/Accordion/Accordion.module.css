@@ -105,6 +105,7 @@
 .svg span img{
   align-self: center;
   justify-self: center;
+  transform: scale(0.8);
 }
 
 /* Mobile 320px  */
@@ -129,6 +130,7 @@
   }
   .accordion .image{
     height: 325px;
+    margin-left: 23px;
   }
   .show{
     grid-row-gap: 3em;
@@ -137,6 +139,10 @@
     grid-column-gap: 2em;
     grid-row-gap: 2em;
     grid-template-columns: 1fr 1fr;
+  }
+  .accordion .image,
+  .show ul{
+    margin-left: 23px;
   }
   .content{
     padding: 0 2em 2em;

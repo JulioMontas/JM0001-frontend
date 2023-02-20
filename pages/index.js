@@ -98,10 +98,9 @@ export default function Homepage({ data }) {
           </h2>
         </div>
 
-        <div className={stylesHome.spacePadding}>
-        <TechStack />  
-        </div>
-        
+        {/* <div className={stylesHome.spacePadding}>
+          <TechStack />  
+        </div> */}
 
         <div className={stylesHome.spacePadding}>
           <CaseStudiesWrap

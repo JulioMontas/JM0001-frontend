@@ -161,10 +161,10 @@ export default function MePage({ data }) {
 
                     <motion.div variants={fadeInUp}>
                       <div className={styles.flipSwitch}>
-                        <h2>Certification</h2>
+                        <h2>Certification / Develoment</h2>
                         <ul className={styles.secTextList}>
-                          <li><p><b>JavaScript Full Stack -</b> General Assembly NYC (3 months bootcamp)</p></li>
-                          <li><p><b>AR/VR Engineer -</b> CUNY Lehman College</p></li>
+                          <li><p><b>JavaScript Full Stack -</b></p> <p>General Assembly NYC (3 months bootcamp)</p></li>
+                          <li><p><b>Augmented Reality (AR) & Virtual Reality (VR) Engineer</b></p> <p>CUNY Lehman College</p></li>
                         </ul>
                       </div>
                     </motion.div>

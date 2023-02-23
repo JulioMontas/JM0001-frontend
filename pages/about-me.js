@@ -163,7 +163,7 @@ export default function MePage({ data }) {
                       <div className={styles.flipSwitch}>
                         <h2>Certification / Develoment</h2>
                         <ul className={styles.secTextList}>
-                          <li><p><b>JavaScript Full Stack -</b></p> <p>General Assembly NYC (3 months bootcamp)</p></li>
+                          <li><p><b>JavaScript Full Stack</b></p> <p>General Assembly NYC (3 months bootcamp)</p></li>
                           <li><p><b>Augmented Reality (AR) & Virtual Reality (VR) Engineer</b></p> <p>CUNY Lehman College</p></li>
                         </ul>
                       </div>

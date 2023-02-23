@@ -59,6 +59,11 @@ const svg = {
 
 const data = [
   {
+    svg:"svg/icon/sketch.svg",
+    alt:"sketch logo",
+    title:"Sketch"
+  },
+  {
     svg:"svg/icon/invision.svg",
     alt:"InVision logo",
     title:"InVision"
@@ -94,6 +99,11 @@ const data = [
     title:"shopify"
   },
   {
+    svg:"svg/icon/react.svg",
+    alt:"React js logo",
+    title:"React JS"
+  },
+  {
     svg:"svg/icon/nextjs.svg",
     alt:"nextjs logo",
     title:"NextJS"
@@ -112,6 +122,46 @@ const data = [
     svg:"svg/icon/jira.svg",
     alt:"jira logo",
     title:"Jira"
+  },
+  {
+    svg:"svg/icon/wordpress.svg",
+    alt:"WordPress logo",
+    title:"WordPress"
+  },
+  {
+    svg:"svg/icon/docker.svg",
+    alt:"WordPress logo",
+    title:"Docker"
+  },
+  {
+    svg:"svg/icon/terminal.svg",
+    alt:"Unix logo",
+    title:"Unix"
+  },
+  {
+    svg:"svg/icon/webxr.svg",
+    alt:"Unix logo",
+    title:"webxr"
+  },
+  {
+    svg:"svg/icon/p5js.svg",
+    alt:"p5js logo",
+    title:"p5js"
+  },
+  {
+    svg:"svg/icon/mongodb.svg",
+    alt:"mongodb logo",
+    title:"mongodb"
+  },
+  {
+    svg:"svg/icon/raspberrypi.svg",
+    alt:"raspberryPi logo",
+    title:"Raspberry Pi"
+  },
+  {
+    svg:"svg/icon/pwa.svg",
+    alt:"pwa logo",
+    title:"PWA"
   },
 ]
 

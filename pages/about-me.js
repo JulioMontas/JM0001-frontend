@@ -97,7 +97,7 @@ export default function MePage({ data }) {
                             My design style is minimal, timeless and clean approach that look to combine abstraction with functionalism. To focus on the user experience navigation and speciation. Using modern design methodology and tools while using the necessary development stack.
                           </p>
                           <p style={{marginBottom:"1.5em"}}>
-                            My favorite design style are Swiss design and Suprematism, When I'm not designing or coding, I'm visiting some art gallery or DJing minimal house music.
+                            My favorite design style are Swiss design and Suprematism / Constructivism (Russian art), When I'm not designing or coding, I'm visiting some art gallery or DJing minimal style music.
                           </p>
                         </div>
                       </div>

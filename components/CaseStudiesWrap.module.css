@@ -20,8 +20,11 @@
   transform: rotateX(780deg) rotateY(780deg);
   animation: giro 50s infinite linear;
 }
+.cube:hover {
+  animation: giro 50s infinite linear;
+}
 @keyframes giro {
-	0% { transform: rotateX(0deg) rotateY(0deg);}
+	0% { transform: rotateX(780deg) rotateY(780deg);}
 	50% { transform: rotateX(380deg) rotateY(380deg);}
   100% { transform: rotateX(0deg) rotateY(0deg);}
 }

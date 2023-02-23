@@ -171,10 +171,10 @@ export default function MePage({ data }) {
 
                     <motion.div variants={fadeInUp}>
                       <div className={styles.flipSwitch}>
-                        <h2>Education</h2>
+                        <h2>Education / Fine Arts</h2>
                         <ul className={styles.secTextList}>
-                          <li><p><b>AAS -</b> CHAVÓN La Escuela de Diseño</p></li>
-                          <li><p><b>BFA -</b> The New School (50% scholarships)</p></li>
+                          <li><p><b>AAS -</b> CHAVÓN La Escuela de Diseño</p> <p>Communication Design</p></li>
+                          <li><p><b>BFA -</b> The New School (50% scholarships)</p> <p>Communication Design</p></li>
                         </ul>
                       </div>
                     </motion.div>

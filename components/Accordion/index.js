@@ -53,14 +53,17 @@ export default function Accordion(props) {
             }}
           />
           </div>
-          <span style={{ transform: isShowing ? "rotate(45deg)" : "rotate(0deg)" }}>+</span>
+          <span 
+            style={{ 
+              transform: isShowing ? "rotate(45deg)" : "rotate(0deg)" 
+            }}>+</span>
         </div>
       </button>
     </motion.div>
 
       <div
         className={styles.content}
-        style={{ display: isShowing ? "block" : "none" }}
+        style={{ display: isShowing ? "none" : "block" }}
       >
         <div className={styles.show}>
           <div className={styles.image}></div>

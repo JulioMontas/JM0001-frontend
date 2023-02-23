@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import styles from './CaseStudiesWrapTwo.module.css'
-import Container from '../../components/Container'
+import styles from './BlogSection.module.css'
+import Container from '../Container'
 import { motion } from 'framer-motion'
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -99,57 +99,81 @@ const stagger = {
 const data = [
   {
     id:'00',
-    title: "Creating Animated GIFs from Your Mac Terminal",
+    title: "What the fuck is the metaverse for non-tech users",
     skill:"#unix #javascript #blockchain #react",
     data:"Jan 24 2023",
     description:"A multi-talented EDM/Pop artist, songwriter and producer with over 50+ releases. Searching for a digital space to connect with her fans.",
+    cover:"marc-olivier-jodoin--TQUERQGUZ8-unsplash.jpg",
     slug: "sebastian-faena-fashion-photographer-miscrosite",
   },
   {
     id:'01',
-    title: "Custom Wordpress Theme For Musician",
-    skill:"Creative Director (Art + Design) & WordPress Developer",
-    data:"2017",
-    description:"Text text text text",
-    slug: "",
+    title: "Create GIFs on any Mac the right way",
+    skill:"#unix #javascript #blockchain #react",
+    data:"Jan 24 2023",
+    description:"A multi-talented EDM/Pop artist, songwriter and producer with over 50+ releases. Searching for a digital space to connect with her fans.",
+    cover:"rhythm-goyal-WNzvyowAsKg-unsplash.jpg",
+    slug: "sebastian-faena-fashion-photographer-miscrosite",
   },
   {
     id:'02',
-    title: "Shopify E-commerce Custom Theme Fragrance & Development",
-    skill:"Freelance | Creative Director (Art + Design) & Full Stack Developer",
-    data:"Dec 2016 - Mar 2017",
-    description:"I lead the design and development of a fragrance e-Commerce business. From initial design to final development, I handled every aspect of the process to ensure a seamless and successful project. Using Shopify I was able to create a fully responsive and intuitive shopping experience that met the unique needs of the business.",
+    title: "How to clone a bootable USB using unix?",
+    skill:"#terminal_(Unix)",
+    data:"Jan 24 2023",
+    description:"Text text text text",
+    cover:"sara-kurfess-9Eid2zc_Veo-unsplash.jpg",
     slug: "",
   },
   {
     id:'03',
-    title: "Vinyl Label Design",
-    skill:"Freelance | Creative Director",
-    data:"2019",
-    description:"World-class Colombian DJ, producer and sound engineer based in New York City. His work spans numerous genres, producing music for both established and breakout artists.",
+    title: "Convert your mp3 to wav in 8 seconds",
+    skill:"#terminal_(Unix)",
+    data:"Jan 24 2023",
+    description:"I lead the design and development of a fragrance e-Commerce business. From initial design to final development, I handled every aspect of the process to ensure a seamless and successful project. Using Shopify I was able to create a fully responsive and intuitive shopping experience that met the unique needs of the business.",
+    cover:"",
     slug: "",
-  },
+  }
 ]
 
-const CaseStudiesWrap = (props) => {
+const BlogSection = (props) => {
   return(
     <motion.div exit={{ opacity: 0 }} initial='initial' animate='animate'>
       <motion.div variants={stagger} className={styles.main}>
-
         <h2>
           {props.title}
         </h2>
-
         <div className={styles.boxes}>
           {data.map(data => (
             <div key={data.id} className={styles.link}>
-              <div className={styles.main}>
-                <h3 className={styles.title}>{data.title}</h3>
-                <p className={styles.skill}>{data.data} | {data.skill}</p>
-              </div>
-              {/* <p className={styles.description}>
+              
+              <motion.h3 variants={fadeInUp} className={styles.title}>
+                {data.title}
+              </motion.h3>
+
+              <motion.p variants={fadeInUp} className={styles.skill}>
+                {data.data}
+              </motion.p>
+
+              <motion.div variants={fadeInUp}>
+                  <Image
+                    src={"/img/blog/" + data.cover}
+                    alt="Mockup of python page"
+                    width={1280}
+                    height={450}
+                    quality={100}
+                    layout="responsive"
+                    loading="eager"
+                  />
+              </motion.div>
+
+              <motion.p variants={fadeInUp} className={styles.skill}>
+                {data.skill}
+              </motion.p>
+
+              {/* <motion.p variants={fadeInUp} className={styles.description}>
                 {data.description}
-              </p> */}
+              </motion.p> */}
+              
             </div>
           ))}
         </div>
@@ -159,4 +183,4 @@ const CaseStudiesWrap = (props) => {
   );
 }
 
-export default CaseStudiesWrap;
+export default BlogSection;

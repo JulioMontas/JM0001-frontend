@@ -74,28 +74,6 @@ const SideProjectWrap = (props) => {
           }
         }}
         >
-            <SwiperSlide>
-            <motion.div variants={fadeInUp} className='card'>
-            <section>
-              <Link href={`/side-project/surveillance-culture`}>
-                <a alt={data.title_02} rel="alternate" hreflang="en">
-                  <h3 className={styles.title}>{data.title_02}</h3>
-                  <h4 className={styles.description}>{data.content_02}</h4>
-                  <span className={styles.fotos}>
-                    <Image
-                    src="/img/side-project/surveillance/jessieNguyen-socialProof.jpg"
-                    alt={data.title_02}
-                    width={640}
-                    height={640}
-                    quality={1}
-                    loading="eager"
-                    />
-                  </span>
-                </a>
-              </Link>
-            </section>
-            </motion.div>
-            </SwiperSlide>
 
             <SwiperSlide>
             <motion.div variants={fadeInUp} className='card'>
@@ -157,6 +135,29 @@ const SideProjectWrap = (props) => {
                     width={200}
                     height={200}
                     quality={15}
+                    loading="eager"
+                    />
+                  </span>
+                </a>
+              </Link>
+            </section>
+            </motion.div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <motion.div variants={fadeInUp} className='card'>
+            <section>
+              <Link href={`/side-project/surveillance-culture`}>
+                <a alt={data.title_02} rel="alternate" hreflang="en">
+                  <h3 className={styles.title}>{data.title_02}</h3>
+                  <h4 className={styles.description}>{data.content_02}</h4>
+                  <span className={styles.fotos}>
+                    <Image
+                    src="/img/side-project/surveillance/jessieNguyen-socialProof.jpg"
+                    alt={data.title_02}
+                    width={640}
+                    height={640}
+                    quality={1}
                     loading="eager"
                     />
                   </span>

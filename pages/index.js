@@ -5,10 +5,8 @@ import useTranslation from 'next-translate/useTranslation'
 import NavBar from '../components/NavBar'
 import HeroSection from '../components/HeroSection'
 import CaseStudiesWrap from '../components/CaseStudiesWrap'
-import CaseStudiesWrapTwo from '../components/CaseStudiesWrapTwo'
+import BlogSection from '../components/BlogSection'
 import SideProjectWrap from '../components/SideProjectWrap'
-import LinkCTA from '../components/LinkCTA'
-import TechStack from '../components/TechStack'
 import Container from '../components/Container'
 import Accordion from '../components/Accordion'
 
@@ -36,13 +34,13 @@ export default function Homepage({ data }) {
 
         <HeroSection
           title="Envision a project that grows with you"
-          description="Experience designer for Apps, Microsites, eCommerce, Augmented Reality to create memorable product that Increase engagement for your entrepreneur goals on the road to a visual solution."
+          description="Digital designer for apps, marketing websites, eCommerce shop and augmented reality to create memorable product that Increase engagement for your entrepreneur goals on the road to a visual solution."
         />
         
         <div className={stylesHome.spacePadding}>
-        <SideProjectWrap 
-          title="Side Project"
-        />
+          <CaseStudiesWrap
+            title="Case Studies"
+          />
         </div>
 
         <div className={stylesHome.spacePadding}>
@@ -97,22 +95,34 @@ export default function Homepage({ data }) {
             </Link>
           </h2>
         </div>
-
-        {/* <div className={stylesHome.spacePadding}>
-          <TechStack />  
-        </div> */}
-
+        
         <div className={stylesHome.spacePadding}>
-          <CaseStudiesWrap
-            title="Case Studies"
+          <SideProjectWrap 
+            title="Side Project"
           />
         </div>
+        
+        <div className={stylesHome.spacePadding}>
+          <h2 className={stylesHome.mobileHtwo}>
+            New Media
+          </h2>
+        </div>
 
-        {/* <div className={stylesHome.spacePadding}>
-          <CaseStudiesWrapTwo
-            title="Blog"
-          />
-        </div> */}
+        <div className={stylesHome.spacePadding}>
+          <h2 className={stylesHome.mobileHtwo}>
+            Contact
+          </h2>
+        </div>
+
+        <div className={stylesHome.spacePadding}>
+          <BlogSection 
+           title="Blog"
+           />
+        </div>
+
+        <p className={stylesHome.spacePadding}>
+          © {new Date().getFullYear()} Julio Montás. All Rights Reserved.
+        </p>
 
       </Container>
       </div>

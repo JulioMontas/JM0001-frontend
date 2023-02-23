@@ -33,65 +33,79 @@ const stagger = {
 
 const data = [
   {
+    id:'00',
+    title: "Squarespace e-Commerce Theme and Development",
+    content: "Freelance, 2022",
+    slug: "squarespace-ecommerce-theme-development",
+    cover: ""
+  },
+  {
     id:'01',
+    title: "Webflow Custom Theme For SaaS Marketing Company",
+    content: "Freelance, 2022",
+    slug: "webflow-theme-saas-marketing",
+    cover: ""
+  },
+  {
+    id:'02',
     title: "Law Firm Headless CMS",
-    content: "Product Designer & Developer, 2021",
+    content: "Freelance, 2021",
     slug: "law-firm-headless-cms",
     cover: "orange_box.png"
   },
   {
-    id:'02',
+    id:'03',
     title: "Adorama  eCommerce",
-    content: "UI/UX Designer & Front-end Dev, 2019",
+    content: "Private Company, 2019",
     slug: "adorama-ecommerce",
     cover: "blue_box.jpg"
   },
   {
-    id:'03',
+    id:'04',
     title: "Vinyl Label Design",
-    content: "Art Direction, Print Design, 2019",
+    content: "Freelance, 2019",
     slug: "vinyl-label-design",
     cover: "Pendulum-3D-Box-Back-03.jpg"
   },
   {
-    id:'04',
+    id:'05',
     title: "Custom Shopify Fragrance eCommerce",
-    content: "UI/UX Designer & Front-end Dev, 2018",
+    content: "Freelance, 2018",
     slug: "custom-shopify-fragrance-ecommerce",
     cover: "ecommerce.png"
   },
   {
-    id:'05',
+    id:'06',
     title: "Custom Wordpress Theme For Musician",
-    content: "UI/UX Designer & Front-end Dev, 2017",
+    content: "Freelance, 2017",
     slug: "custom-wordpress-artist-theme",
     cover: "music_3D_Top.png"
   },
   {
-    id:'06',
+    id:'07',
     title: "Nike: Retail iPad App",
-    content: "Agency / UX/UI Designer, 2014",
+    content: "Agency, 2014",
     slug: "nike-retail-ipad-app",
     cover: "Nike_3D_003.jpg"
   },
   {
-    id:'07',
+    id:'08',
     title: "Kate Spade: Shoppable Web Video UI",
-    content: "Agency / UX/UI Designer, 2014",
+    content: "Agency, 2014",
     slug: "kate-spade-shoppable-web-video-ui",
     cover: "KateSpade_3D_01.gif"
   },
   {
-    id:'08',
+    id:'09',
     title: "Lancome: Visionnaire Video UI",
-    content: "Agency / UX/UI Designer, 2013",
+    content: "Agency, 2013",
     slug: "lancome-visionnaire-video-ui",
     cover: "Lancome_3D_005.jpg"
   },
   {
-    id:'09',
+    id:'10',
     title: "Sebastian Faena: Fashion Photographer miscrosite",
-    content: "UX/UI Designer & Develoment, 2013",
+    content: "Freelance, 2013",
     slug: "sebastian-faena-fashion-photographer-miscrosite",
     cover: "SebastianFaena_3D_01.gif"
   }
@@ -120,7 +134,7 @@ const CaseStudiesWrap = (props) => {
             width: 300
           },
           1200: {
-            slidesPerView: 10,
+            slidesPerView: 11,
             spaceBetween: 0,
             width: 1200
           }

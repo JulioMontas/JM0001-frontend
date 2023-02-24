@@ -125,6 +125,13 @@ function CaseStudyIndex() {
           </div>
           </motion.div>
 
+          <motion.div variants={fadeInUp}>
+            <div className={styles.flipSwitch}>
+              <h3>&#128466; {t('results')}</h3>
+              <p>{t('resultsContent_10')}</p>
+            </div>
+          </motion.div>
+
             </div>
           </div>
       </div>

@@ -102,23 +102,26 @@ export default function Homepage({ data }) {
           />
         </div>
         
-        <div className={stylesHome.spacePadding}>
+        {/* <div className={stylesHome.spacePadding}>
           <h2 className={stylesHome.mobileHtwo}>
             New Media
           </h2>
-        </div>
+        </div> */}
 
         <div className={stylesHome.spacePadding}>
           <h2 className={stylesHome.mobileHtwo}>
             Contact
           </h2>
+          <Link href={`/about-me`}>
+              <a>About Me</a>
+            </Link>
         </div>
 
-        <div className={stylesHome.spacePadding}>
+        {/* <div className={stylesHome.spacePadding}>
           <BlogSection 
            title="Blog"
            />
-        </div>
+        </div> */}
 
         <p className={stylesHome.spacePadding}>
           © {new Date().getFullYear()} Julio Montás. All Rights Reserved.

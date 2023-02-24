@@ -20,14 +20,6 @@ const fadeInUp = {
   }
 };
 
-const stagger = {
-  animate: {
-    transition: {
-      staggerChildren: 0.1
-    }
-  }
-};
-
 const svg = {
   google:"svg/icon/google-analytics.svg",
   github:"svg/icon/github.svg",
@@ -167,12 +159,11 @@ const data = [
 
 const TechStack = (props) => {
   return(
-    <motion.div exit={{ opacity: 0 }} initial='initial' animate='animate'>
-      <h2 className={styles.title}>
+    <div>
+      <motion.h2 variants={fadeInUp} className={styles.title}>
         Tech Stack
-      </h2>
-      <motion.div variants={stagger} className={styles.main}>
-
+      </motion.h2>
+      <div className={styles.main}>
       {data.map(data => (
         <motion.div variants={fadeInUp} className="card">
           <div className={styles.icon}>
@@ -187,10 +178,9 @@ const TechStack = (props) => {
             </h3>
           </div>
         </motion.div>
-      ))}
-
-      </motion.div>
-    </motion.div>
+       ))}
+      </div>
+    </div>
   );
 };
 

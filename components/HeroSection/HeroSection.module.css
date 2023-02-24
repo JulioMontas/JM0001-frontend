@@ -26,6 +26,25 @@
     text-transform: uppercase;
     font-style: italic;
     letter-spacing: 1px;
+    background: -webkit-linear-gradient(-45deg, #E163FF 0%, #72DFE8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* animation: MoveBG 1s ease infinite; */
+}
+@-webkit-keyframes MoveBG {
+  0%{background: -webkit-linear-gradient(-45deg, #E163FF 0%, #72DFE8 100%)}
+  50%{background: -webkit-linear-gradient(-0deg, #E163FF 0%, #72DFE8 0%)}
+  100%{background: -webkit-linear-gradient(-45deg, #E163FF 0%, #72DFE8 100%)}
+}
+@-moz-keyframes MoveBG {
+  0%{background: -webkit-linear-gradient(-45deg, #E163FF 0%, #72DFE8 100%)}
+  50%{background: -webkit-linear-gradient(-0deg, #E163FF 0%, #72DFE8 0%)}
+  100%{background: -webkit-linear-gradient(-45deg, #E163FF 0%, #72DFE8 100%)}
+}
+@keyframes MoveBG {
+  0%{background: -webkit-linear-gradient(-45deg, #E163FF 0%, #72DFE8 100%)}
+  50%{background: -webkit-linear-gradient(-0deg, #E163FF 0%, #72DFE8 0%)}
+  100%{background: -webkit-linear-gradient(-45deg, #E163FF 0%, #72DFE8 100%)}
 }
 .description p {
   font-size: 1rem;

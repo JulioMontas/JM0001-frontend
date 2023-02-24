@@ -170,7 +170,7 @@ function CaseStudyIndex() {
           <div>
             <div className={styles.flipSwitch}>
               <h2>&#128065; {t('productDetailPage_02')}</h2>
-              <p>{t('productDetailPageContent_02')}</p>
+              <p className={styles.textAbove}>Text</p>
             </div>
             <Swiper
             speed={400}
@@ -209,7 +209,7 @@ function CaseStudyIndex() {
           <div>
             <div className={styles.flipSwitch}>
               <h2>&#128065; Checkout</h2>
-              <p>{t('productDetailPageContent_02')}</p>
+              <p className={styles.textAbove}>Text</p>
             </div>
             <Swiper
             speed={400}
@@ -238,11 +238,18 @@ function CaseStudyIndex() {
               layout="responsive"
               loading="lazy"
               />
-              <small> v</small>
+              <small>Text</small>
             </SwiperSlide>
             </Swiper>
           </div>
           </motion.div>
+
+          <motion.div variants={fadeInUp}>
+            <div className={styles.flipSwitch}>
+              <h3>&#128466; {t('results')}</h3>
+              <p>{t('resultsContent_09')}</p>
+            </div>
+            </motion.div>
 
             </div>
           </div>

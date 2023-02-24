@@ -181,8 +181,10 @@ export default function MePage({ data }) {
 
                     <TechStack />
                     
-                    <motion.div>
-                      <h2>Social Links</h2>
+                    <div>
+                      <motion.h2 variants={fadeInUp}>
+                        Social Links
+                      </motion.h2>
                       <div className="LinkList">
             {/*
             <LinkCTA
@@ -273,7 +275,7 @@ export default function MePage({ data }) {
             />
             */}
           </div>
-          </motion.div>
+          </div>
 
 
 

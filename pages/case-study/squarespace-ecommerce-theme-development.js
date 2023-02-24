@@ -82,12 +82,12 @@ function CaseStudyIndex() {
             </div>
             </motion.div>
 
-          <motion.div variants={fadeInUp}>
+          {/* <motion.div variants={fadeInUp}>
           <div className={styles.flipSwitch}>
             <h2>&#128640; {t('background')}</h2>
             <p>{t('backgroundContent_09')}</p>
           </div>
-          </motion.div>
+          </motion.div> */}
 
           <motion.div variants={fadeInUp}>
           <PaletteList
@@ -102,7 +102,7 @@ function CaseStudyIndex() {
 
             <motion.div variants={fadeInUp}>
               <div className={styles.flipSwitch}>
-                <h2>&#128736; {t('development')}</h2>
+                <h2>&#128736; {t('development')} + UI Design</h2>
                 <ul className={styles.secTextList}>
                   <li>Product Listing Pages (PLPs)</li>
                   <li>Product Detail Page (PDP)</li>
@@ -113,24 +113,11 @@ function CaseStudyIndex() {
             </motion.div>
 
           <motion.div variants={fadeInUp}>
-          <div className={styles.flipSwitch}>
-            <h2>Official Website</h2>
-            <ul className={styles.secTextList}>
-              <RelatedCTA
-                url="https://www.eresyou.com/store"
-                title="eresyou.com/store"
-                content="https://www.eresyou.com/store"
-              />
-            </ul>
-          </div>
-          </motion.div>
-
-          <motion.div variants={fadeInUp}>
           <div>
             <div className={styles.flipSwitch}>
               <h2>&#128065; {t('productListingPages_02')}</h2>
               <div>
-                <p className={styles.textAbove}>Text</p>
+                {/* <p className={styles.textAbove}>Text</p> */}
               </div>
             </div>
             <Swiper
@@ -160,7 +147,7 @@ function CaseStudyIndex() {
               layout="responsive"
               loading="lazy"
               />
-              <small>Text </small>
+              {/* <small>Text </small> */}
             </SwiperSlide>
           </Swiper>
           </div>
@@ -170,7 +157,7 @@ function CaseStudyIndex() {
           <div>
             <div className={styles.flipSwitch}>
               <h2>&#128065; {t('productDetailPage_02')}</h2>
-              <p className={styles.textAbove}>Text</p>
+              {/* <p className={styles.textAbove}>Text</p> */}
             </div>
             <Swiper
             speed={400}
@@ -199,7 +186,7 @@ function CaseStudyIndex() {
               layout="responsive"
               loading="lazy"
               />
-              <small>Text</small>
+              {/* <small>Text</small> */}
             </SwiperSlide>
             </Swiper>
           </div>
@@ -209,7 +196,7 @@ function CaseStudyIndex() {
           <div>
             <div className={styles.flipSwitch}>
               <h2>&#128065; Checkout</h2>
-              <p className={styles.textAbove}>Text</p>
+              {/* <p className={styles.textAbove}>Text</p> */}
             </div>
             <Swiper
             speed={400}
@@ -238,7 +225,7 @@ function CaseStudyIndex() {
               layout="responsive"
               loading="lazy"
               />
-              <small>Text</small>
+              {/* <small>Text</small> */}
             </SwiperSlide>
             </Swiper>
           </div>
@@ -246,10 +233,26 @@ function CaseStudyIndex() {
 
           <motion.div variants={fadeInUp}>
             <div className={styles.flipSwitch}>
-              <h3>&#128466; {t('results')}</h3>
+              <h2>&#127919; {t('results')}</h2>
               <p>{t('resultsContent_09')}</p>
             </div>
             </motion.div>
+            <motion.div variants={fadeInUp}>
+              <div className={styles.flipSwitch}>
+                <h2>Official Website</h2>
+                <ul className={styles.secTextList}>
+                  <RelatedCTA
+                    url="https://www.eresyou.com/store"
+                    title="eresyou.com/store"
+                    content="https://www.eresyou.com/store"
+                  />
+                </ul>
+              </div>
+            </motion.div>
+
+            <motion.p variants={fadeInUp}>
+              © {new Date().getFullYear()} Julio Montás. All Rights Reserved.
+            </motion.p>
 
             </div>
           </div>

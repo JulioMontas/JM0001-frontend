@@ -55,7 +55,7 @@ export default function Accordion(props) {
           </div>
           <span 
             style={{ 
-              transform: isShowing ? "rotate(45deg)" : "rotate(0deg)" 
+              transform: isShowing ? "rotate(0deg)" : "rotate(45deg)" 
             }}>+</span>
         </div>
       </button>

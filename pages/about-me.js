@@ -277,6 +277,10 @@ export default function MePage({ data }) {
           </div>
           </div>
 
+        <p>
+          © {new Date().getFullYear()} Julio Montás. All Rights Reserved.
+        </p>
+
 
 
                   </div>

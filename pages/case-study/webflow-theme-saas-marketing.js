@@ -105,11 +105,108 @@ function CaseStudyIndex() {
           />
           </motion.div>
 
-          <motion.div variants={fadeInUp}>
+          {/* <motion.div variants={fadeInUp}>
           <div className={styles.flipSwitch}>
             <h2>&#128640; {t('background')}</h2>
             <p>{t('backgroundContent_10')}</p>
           </div>
+          </motion.div> */}
+
+          <motion.div variants={fadeInUp}>
+          <div>
+            <div className={styles.flipSwitch}>
+              <h2>&#128065; Sitemap</h2>
+              {/* <p className={styles.textAbove}>Text</p> */}
+            </div>
+            <Swiper
+            speed={400}
+            onSlideChange={() => console.log('slide change')}
+            onSwiper={(swiper) => console.log(swiper)}
+            breakpoints={{
+              320: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+                width: 310
+              },
+              1200: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+                width: 1200
+              }
+            }}
+            >
+            <SwiperSlide>
+              <Image
+              src="/img/case-study/TRMA0A-Sitemap-A02.jpg"
+              alt="Mockup PDP B1 with post review"
+              width={1600}
+              height={800}
+              quality={100}
+              layout="responsive"
+              loading="lazy"
+              />
+              {/* <small>Text</small> */}
+            </SwiperSlide>
+            </Swiper>
+          </div>
+          </motion.div>
+
+          <motion.div variants={fadeInUp}>
+          <div>
+            <div className={styles.flipSwitch}>
+              <h2>&#128065; Homepage</h2>
+              {/* <p className={styles.textAbove}>Text</p> */}
+            </div>
+            <Swiper
+            speed={400}
+            onSlideChange={() => console.log('slide change')}
+            onSwiper={(swiper) => console.log(swiper)}
+            breakpoints={{
+              320: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+                width: 310
+              },
+              1200: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+                width: 1100
+              }
+            }}
+            >
+            <SwiperSlide>
+              <Image
+              src="/img/case-study/TRMA0A-homepage-wireframe.jpg"
+              alt="Mockup PDP B1 with post review"
+              width={1440}
+              height={4910}
+              quality={100}
+              layout="responsive"
+              loading="lazy"
+              />
+              {/* <small>Text</small> */}
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+              src="/img/case-study/TRMA0A-homepage-mockup.jpg"
+              alt="Mockup PDP B1 with post review"
+              width={1440}
+              height={4910}
+              quality={100}
+              layout="responsive"
+              loading="lazy"
+              />
+              {/* <small>Text</small> */}
+            </SwiperSlide>
+            </Swiper>
+          </div>
+          </motion.div>
+
+          <motion.div variants={fadeInUp}>
+            <div className={styles.flipSwitch}>
+              <h2>&#127919; {t('results')}</h2>
+              <p>{t('resultsContent_10')}</p>
+            </div>
           </motion.div>
 
           <motion.div variants={fadeInUp}>
@@ -125,13 +222,10 @@ function CaseStudyIndex() {
           </div>
           </motion.div>
 
-          <motion.div variants={fadeInUp}>
-            <div className={styles.flipSwitch}>
-              <h3>&#128466; {t('results')}</h3>
-              <p>{t('resultsContent_10')}</p>
-            </div>
-          </motion.div>
-
+          <motion.p variants={fadeInUp}>
+              © {new Date().getFullYear()} Julio Montás. All Rights Reserved.
+          </motion.p>
+          
             </div>
           </div>
       </div>

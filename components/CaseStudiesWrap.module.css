@@ -18,7 +18,7 @@
   margin: 2.5em auto 2em auto;
   transform-style: preserve-3d;
   transform: rotateX(780deg) rotateY(780deg);
-  animation: giro 50s infinite linear;
+  /* animation: giro 50s infinite linear; */
 }
 .cube:hover {
   animation: giro 50s infinite linear;
@@ -61,6 +61,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 8em 0;
+    align-items: center;
   }
   .cube{
     padding: 10px 20px;

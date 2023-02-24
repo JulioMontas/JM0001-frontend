@@ -37,14 +37,14 @@ const data = [
     title: "Squarespace e-Commerce Theme and Development",
     content: "Freelance, 2022",
     slug: "squarespace-ecommerce-theme-development",
-    cover: ""
+    cover: "eresYou_box.png"
   },
   {
     id:'01',
     title: "Webflow Custom Theme For SaaS Marketing Company",
     content: "Freelance, 2022",
     slug: "webflow-theme-saas-marketing",
-    cover: ""
+    cover: "TRMA0A-box.png"
   },
   {
     id:'02',

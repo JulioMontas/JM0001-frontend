@@ -388,7 +388,7 @@ function CaseStudyIndex() {
             <ul className={styles.secTextList}>
               <RelatedCTA
                 url="https://web.archive.org/web/20180827210641/https://so-avant-garde.com/"
-                title="Old Demo"
+                title="Old Page"
                 content="web.archive.org"
               />
               <RelatedCTA

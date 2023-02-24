@@ -134,8 +134,11 @@
   .button{
     padding: 1em;
   }
+  .card img{
+    border-radius: 10px;
+  }
   .accordion .image{
-    height: 325px;
+    height: 375px;
     margin-left: 23px;
   }
   .show{

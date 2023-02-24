@@ -100,8 +100,8 @@ const data = [
   {
     id:'00',
     title: "What the fuck is the metaverse for non-tech users",
-    skill:"#unix #javascript #blockchain #react",
-    data:"Jan 24 2023",
+    skill:"#internet #blockchain",
+    dia:"Jan 24, 2023",
     description:"A multi-talented EDM/Pop artist, songwriter and producer with over 50+ releases. Searching for a digital space to connect with her fans.",
     cover:"marc-olivier-jodoin--TQUERQGUZ8-unsplash.jpg",
     slug: "sebastian-faena-fashion-photographer-miscrosite",
@@ -109,8 +109,8 @@ const data = [
   {
     id:'01',
     title: "Create GIFs on any Mac the right way",
-    skill:"#unix #javascript #blockchain #react",
-    data:"Jan 24 2023",
+    skill:"#blockchain",
+    dia:"Jan 24, 2023",
     description:"A multi-talented EDM/Pop artist, songwriter and producer with over 50+ releases. Searching for a digital space to connect with her fans.",
     cover:"rhythm-goyal-WNzvyowAsKg-unsplash.jpg",
     slug: "sebastian-faena-fashion-photographer-miscrosite",
@@ -118,8 +118,8 @@ const data = [
   {
     id:'02',
     title: "How to clone a bootable USB using unix?",
-    skill:"#terminal_(Unix)",
-    data:"Jan 24 2023",
+    skill:"#unix",
+    dia:"Jan 24, 2023",
     description:"Text text text text",
     cover:"sara-kurfess-9Eid2zc_Veo-unsplash.jpg",
     slug: "",
@@ -127,8 +127,8 @@ const data = [
   {
     id:'03',
     title: "Convert your mp3 to wav in 8 seconds",
-    skill:"#terminal_(Unix)",
-    data:"Jan 24 2023",
+    skill:"#terminal",
+    dia:"Jan 24, 2023",
     description:"I lead the design and development of a fragrance e-Commerce business. From initial design to final development, I handled every aspect of the process to ensure a seamless and successful project. Using Shopify I was able to create a fully responsive and intuitive shopping experience that met the unique needs of the business.",
     cover:"",
     slug: "",
@@ -145,39 +145,16 @@ const BlogSection = (props) => {
         <div className={styles.boxes}>
           {data.map(data => (
             <div key={data.id} className={styles.link}>
-              
               <motion.h3 variants={fadeInUp} className={styles.title}>
-                {data.title}
+              <span className={styles.dia}>{data.dia} - </span>{data.title}
               </motion.h3>
-
-              <motion.p variants={fadeInUp} className={styles.skill}>
-                {data.data}
-              </motion.p>
-
-              <motion.div variants={fadeInUp}>
-                  <Image
-                    src={"/img/blog/" + data.cover}
-                    alt="Mockup of python page"
-                    width={1280}
-                    height={450}
-                    quality={100}
-                    layout="responsive"
-                    loading="eager"
-                  />
-              </motion.div>
 
               <motion.p variants={fadeInUp} className={styles.skill}>
                 {data.skill}
               </motion.p>
-
-              {/* <motion.p variants={fadeInUp} className={styles.description}>
-                {data.description}
-              </motion.p> */}
-              
             </div>
           ))}
         </div>
-
       </motion.div>
     </motion.div>
   );

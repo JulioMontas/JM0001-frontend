@@ -13,6 +13,7 @@ import SideProjectWrap from '../../components/SideProjectWrap'
 import ContactForm from '../../components/ContactForm'
 import styles from '../../styles/Report.module.css'
 import PaletteList from '../../components/PaletteList'
+import CaseStudiesWrap from '../../components/CaseStudiesWrap'
 
 const easing = [.6, -.05, .01, .99];
 
@@ -220,6 +221,12 @@ function CaseStudyIndex() {
               />
             </ul>
           </div>
+          </motion.div>
+
+          <motion.div>
+            <CaseStudiesWrap
+              title="Case Studies"
+            />
           </motion.div>
 
           <motion.p variants={fadeInUp}>

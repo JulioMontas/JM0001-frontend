@@ -2,6 +2,8 @@ import { useState } from "react"
 import Image from 'next/image'
 import styles from './Accordion.module.css'
 import { motion } from 'framer-motion'
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react'
 
 const easing = [.6, -.05, .01, .99];
 
@@ -66,7 +68,25 @@ export default function Accordion(props) {
         style={{ display: isShowing ? "none" : "block" }}
       >
         <div className={styles.show}>
-          <div className={styles.image}></div>
+
+
+
+          <div className={styles.image}>
+            <motion.div variants={fadeInUp} className={styles.card}>
+            <Image
+              src={"/img/services/" + props.imgsrc}
+              alt={props.imgalt}
+              width={1100}
+              height={375}
+              quality={100}
+              layout="responsive"
+              loading="lazy"
+              />
+            </motion.div>
+          </div>
+
+
+
           <ul>
             <li>
               {/* <h3 dangerouslySetInnerHTML={{__html: props.contUnoTitle}} /> */}

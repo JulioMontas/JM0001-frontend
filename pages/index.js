@@ -9,6 +9,7 @@ import BlogSection from '../components/BlogSection'
 import SideProjectWrap from '../components/SideProjectWrap'
 import Container from '../components/Container'
 import Accordion from '../components/Accordion'
+import NewMedia from '../components/NewMedia'
 
 export default function Homepage({ data }) {
   return (
@@ -60,6 +61,8 @@ export default function Homepage({ data }) {
             logoFour="google"
             logoFive="sketch"
             logoSix="jira"
+            imgsrc=""
+            imgalt="text"
           />
           <Accordion
             title="🍭 From Visual To Develoment"
@@ -74,6 +77,8 @@ export default function Homepage({ data }) {
             logoFour="github"
             logoFive="shopify"
             logoSix="docker"
+            imgsrc=""
+            imgalt="text"
           />
           <Accordion
             title="🚀 Experimental"
@@ -88,6 +93,8 @@ export default function Homepage({ data }) {
             logoFour="mongodb"
             logoFive="webxr"
             logoSix="p5js"
+            imgsrc=""
+            imgalt="text"
           />
           <h2 className={stylesHome.mobileHtwo}>
             <Link href={`https://forms.gle/9uVudBpW7YE6n2CNA`}>
@@ -104,7 +111,9 @@ export default function Homepage({ data }) {
         
         {/* <div className={stylesHome.spacePadding}>
           <h2 className={stylesHome.mobileHtwo}>
-            New Media
+            <NewMedia
+              title="New Media"
+             />
           </h2>
         </div> */}
 

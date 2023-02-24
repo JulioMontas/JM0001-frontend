@@ -1,6 +1,4 @@
-import Image from 'next/image'
 import styles from './CaseStudiesWrap.module.css'
-import Container from '../components/Container'
 import ThreeDimCube from '../components/ThreeDimCube'
 import { motion } from 'framer-motion'
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';

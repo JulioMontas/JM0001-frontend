@@ -35,7 +35,7 @@ export default function Homepage({ data }) {
 
         <HeroSection
           title="Envision a project that grows with you"
-          description="Digital designer for apps, marketing websites, eCommerce shop and augmented reality to create memorable product that Increase engagement for your entrepreneur goals on the road to a visual solution."
+          description="Digital designer for apps, marketing websites, eCommerce shops and augmented reality to create memorable product that Increase engagement for your entrepreneur goals on the road to a visual solution."
         />
         
         <div className={stylesHome.spacePadding}>
@@ -122,7 +122,7 @@ export default function Homepage({ data }) {
             Contact
           </h2>
           <Link href={`/about-me`}>
-              <a>About Me</a>
+              <a className={stylesHome.mobileHtwo}>About Me</a>
             </Link>
         </div>
 
@@ -131,10 +131,12 @@ export default function Homepage({ data }) {
            title="Blog"
            />
         </div> */}
-
-        <p className={stylesHome.spacePadding}>
-          © {new Date().getFullYear()} Julio Montás. All Rights Reserved.
-        </p>
+        
+        <div className={stylesHome.spacePadding}>
+          <p className={stylesHome.mobileHtwo}>
+            © {new Date().getFullYear()} Julio Montás. All Rights Reserved.
+          </p>
+        </div>
 
       </Container>
       </div>

@@ -23,18 +23,21 @@
   transition: all 0.5s ease-in-out;
 }
 .title h2{
-  font-size: 0.43em ;
+  font-size: 17px;
   color:var(--text-secondary);
+  letter-spacing: 0.1em;
   
   /* background: -webkit-linear-gradient(-45deg, #E163FF 0%, #72DFE8 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
 }
 .title p{
-  font-Size: 0.5em;
+  font-Size: 0.45em;
   color:rgb(236, 236, 236);
   filter: var(--box-shadow);
-  padding-left: 1.6em;
+  padding-left: 2.05em;
+  padding-top: 0.1em;
+  letter-spacing: 0.1em;
 }
 .button{
   width: 100%;
@@ -111,7 +114,7 @@
 .svg span img{
   align-self: center;
   justify-self: center;
-  transform: scale(0.8);
+  transform: scale(0.6);
 }
 
 /* Mobile 320px  */
@@ -129,7 +132,7 @@
     font-size: 0.65em;
   }
   .title p{
-    padding-left: 1.95em;
+    padding-left: 2.4em;
   }
   .button{
     padding: 1em;

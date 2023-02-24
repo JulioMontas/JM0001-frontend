@@ -11,7 +11,7 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   margin-bottom: 10px;
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 .main h3{
   font-family: var(--fonts-title);

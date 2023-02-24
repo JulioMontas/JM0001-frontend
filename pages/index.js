@@ -62,7 +62,7 @@ export default function Homepage({ data }) {
             logoFive="sketch"
             logoSix="jira"
             imgsrc=""
-            imgalt="text"
+            imgalt=""
           />
           <Accordion
             title="🍭 From Visual To Develoment"
@@ -78,7 +78,7 @@ export default function Homepage({ data }) {
             logoFive="shopify"
             logoSix="docker"
             imgsrc=""
-            imgalt="text"
+            imgalt=""
           />
           <Accordion
             title="🚀 Experimental"
@@ -94,7 +94,7 @@ export default function Homepage({ data }) {
             logoFive="webxr"
             logoSix="p5js"
             imgsrc=""
-            imgalt="text"
+            imgalt=""
           />
           <h2 className={stylesHome.mobileHtwo}>
             <Link href={`https://forms.gle/9uVudBpW7YE6n2CNA`}>

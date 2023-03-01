@@ -23,7 +23,8 @@
     background: rgba(255, 0, 0, 0.475);
   }
   .mainIndex img{
-    border-radius: 0 0.8em 0.8em 0.8em;
+    /* Was affecting the /side-project/typeface-slab-lines */
+    /* border-radius: 0 0.8em 0.8em 0.8em; */
   }
   .mainIndex h1{
       background: -webkit-linear-gradient(-45deg, #E163FF 0%, #72DFE8 100%);

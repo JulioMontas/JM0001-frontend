@@ -66,7 +66,6 @@ function ProjectIndex() {
           <div className={styles.flipSwitch}>
             <div>
               <h1>{t('title_06')}</h1>
-              <p>{t('content_06')}</p>
             </div>
           </div>
         </motion.div>
@@ -74,7 +73,9 @@ function ProjectIndex() {
         <motion.div variants={fadeInUp}>
         <div className={styles.flipSwitch}>
             <h2>Concept</h2>
-            <p>FontLap Studio 5, Design a slab serif with light and strong stroke. A mix of a sans serif geometric + serif modern look, to get a elegance design yet with a strong male touch</p>
+            <p>Introducing a sleek and modern typeface designed specifically for typography aficionados. Our geometric sans and slab serif typeface features a heavy bold weight that exudes confidence and power, while also effortlessly resting on the baseline. Created with FontLap Studio 5, this typeface seamlessly blends form and function to deliver a beautiful and impactful design. Elevate your next project with this versatile and stunning typeface.</p>
+            {/* <p>A geometric sans and slab serif typeface with a heavy bold to carry their weight of resting on the baseline. Desing using FontLap Studio 5.</p> */}
+            {/* <p>FontLap Studio 5, Design a slab serif with light and strong stroke. A mix of a sans serif geometric + serif modern look, to get a elegance design yet with a strong male touch</p> */}
         </div>
         </motion.div>
 
@@ -757,23 +758,7 @@ function ProjectIndex() {
         </div>
         </motion.div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <motion.div variants={fadeInUp}>
+        {/* <motion.div variants={fadeInUp}>
           <div className={styles.flipSwitch}>
             <h2>URL</h2>
             <RelatedCTA
@@ -782,6 +767,15 @@ function ProjectIndex() {
               content="Text"
             />
           </div>
+        </motion.div> */}
+        
+        <motion.div>
+          <h2>
+            Contact
+          </h2>
+          <Link href={`/about-me`}>
+              <a>About Me</a>
+            </Link>
         </motion.div>
 
         <motion.div variants={fadeInUp}>
@@ -803,6 +797,16 @@ function ProjectIndex() {
               title={t('title_05')}
               content={t('content_05')}
             />
+            <RelatedCTA
+              url="/side-project/hellocode-the-home-for-programming-languages"
+              title={t('title_01')}
+              content={t('content_01')}
+            />
+            <RelatedCTA
+              url="/side-project/meliorem-cultivating-your-passion-to-level-up"
+              title={t('title_04')}
+              content={t('content_04')}
+            />
           </ul>
         </div>
         </motion.div>
@@ -810,6 +814,12 @@ function ProjectIndex() {
         <CaseStudiesWrap
           title="Case Studies"
         />
+        
+        <motion.div>
+          <p>
+            © {new Date().getFullYear()} Julio Montás. All Rights Reserved.
+          </p>
+        </motion.div>
 
 
       </div>

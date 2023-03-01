@@ -42,6 +42,8 @@ const data = {
   content_04: "Productivity App, Dopamine Stimulator",
   title_05: "Basic Color Fundamentals",
   content_05: "eLearning, New Memories",
+  title_06: "Slab Lines",
+  content_06: "Typeface",
 }
 
 const SideProjectWrap = (props) => {
@@ -135,6 +137,29 @@ const SideProjectWrap = (props) => {
                     width={200}
                     height={200}
                     quality={15}
+                    loading="eager"
+                    />
+                  </span>
+                </a>
+              </Link>
+            </section>
+            </motion.div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <motion.div variants={fadeInUp} className='card'>
+            <section>
+              <Link href={`/side-project/typeface-slab-lines`}>
+                <a alt={data.title_06} rel="alternate" hreflang="en">
+                  <h3 className={styles.title}>{data.title_06}</h3>
+                  <h4 className={styles.description}>{data.content_06}</h4>
+                  <span className={styles.fotos}>
+                    <Image
+                    src="/img/side-project/"
+                    alt={data.title_06}
+                    width={640}
+                    height={640}
+                    quality={1}
                     loading="eager"
                     />
                   </span>

@@ -44,6 +44,8 @@ export default function Homepage({ data }) {
           />
         </div>
 
+        {/* Services One: Headless CMS for [Marketing, Musians, Entrepreneur, Shops] that wants to modify or extend the website template back and forth to reduce engineering help. */}
+        {/*  https://www.netlify.com/resources/webinars/modular-web-design/ */}
         <div className={stylesHome.spacePadding}>
           <h2 className={stylesHome.mobileHtwo}>
             Services

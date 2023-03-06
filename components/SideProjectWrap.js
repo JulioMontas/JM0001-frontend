@@ -44,6 +44,10 @@ const data = {
   content_05: "eLearning, New Memories",
   title_06: "Slab Lines",
   content_06: "Typeface",
+  title_07: "Web Code Editor",
+  content_07: "Creative coding tool",
+  title_08: " Virtual Reality Music Festival",
+  content_08: "WebVR",
 }
 
 const SideProjectWrap = (props) => {

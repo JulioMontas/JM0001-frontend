@@ -26,7 +26,7 @@
 @keyframes giro {
 	0% { transform: rotateX(780deg) rotateY(780deg);}
 	50% { transform: rotateX(380deg) rotateY(380deg);}
-  100% { transform: rotateX(0deg) rotateY(0deg);}
+  100% { transform: rotateX(780deg) rotateY(780deg);}
 }
 .cube div {
   background: #0000001A;

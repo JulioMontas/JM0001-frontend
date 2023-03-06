@@ -35,17 +35,75 @@ const stagger = {
 const data = [
   {
     id:'00',
-    title: "Surveillance Culture",
-    content: "Misinformation, Data Collection",
-    slug: "squarespace-ecommerce-theme-development",
-    cover: "TRMA0A-box.png"
+    title: "Sleeping Place",
+    content: "WebVR, 2023",
+    slug: "sleeping-place",
+    cover: ""
   },
   {
     id:'01',
-    title: "Webflow Custom Theme For SaaS Marketing Company",
-    content: "Freelance, 2022",
-    slug: "webflow-theme-saas-marketing",
-    cover: "TRMA0A-box.png"
+    title: "Simulacrum | Simulacrum",
+    content: "Visual App, 2019",
+    slug: "simulacrum-simulacrum",
+    cover: ""
+  },
+  {
+    id:'03',
+    title: "Baby Square",
+    content: "Visual App, 2019",
+    slug: "baby-square",
+    cover: ""
+  },
+  {
+    id:'04',
+    title: "We Can't Breathe NYC",
+    content: "Net art, 2015",
+    slug: "we-cant-breathe-nyc",
+    cover: ""
+  },
+  {
+    id:'05',
+    title: "Surveillance Culture",
+    content: "Data Collection, 2015",
+    slug: "surveillance-culture",
+    cover: ""
+  },
+  {
+    id:'06',
+    title: "CURRENTS: TRANSLATIONS",
+    content: "Print, 2013",
+    slug: "currents-translations",
+    cover: ""
+  },
+  {
+    id:'07',
+    title: "Emotional Meltdown",
+    content: "Print, 2013",
+    slug: "im-melting",
+    cover: ""
+  },
+  {
+    id:'08',
+    title: "White Canvas",
+    content: "Visual App, 2013",
+    slug: "white-canvas",
+    cover: ""
+  },
+  {
+    id:'09',
+    title: "Catch Superman",
+    // content:"Interactive prank experience of your computer mouse speed",
+    content: "Net art, 2013",
+    slug: "catch-superman",
+    cover: ""
+  },
+  {
+    id:'10',
+    title: "Pixel X Pixel",
+    // content: "A mock-phishing website to promote awareness to internet security",
+    content: "Net art, 2013",
+    slug: "pixel-x-pixel",
+    cover: ""
   },
 ]
 
@@ -82,7 +140,7 @@ const NewMedia = (props) => {
           <SwiperSlide key={data.id}>
             <motion.div variants={fadeInUp} className='card'>
               <ThreeDimCube
-                slug={data.slug}
+                slug={"newmedia/" + data.slug}
                 title={data.title}
                 content={data.content}
                 cover={data.cover}

@@ -1,14 +1,8 @@
-import Image from 'next/image'
-import Link from 'next/link'
 import { motion } from "framer-motion"
-import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
 import useTranslation from 'next-translate/useTranslation'
 import Container from '../../components/Container'
-import CaseStudiesWrap from '../../components/CaseStudiesWrap'
-import ContactForm from '../../components/ContactForm'
 import NavBar from '../../components/NavBar'
-import styles from '../../styles/CaseStudy.module.css'
 
 const easing = [.6, -.05, .01, .99];
 

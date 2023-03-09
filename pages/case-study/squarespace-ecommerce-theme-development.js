@@ -78,7 +78,7 @@ function CaseStudyIndex() {
 
             <motion.div variants={fadeInUp}>
             <div className={styles.flipSwitch}>
-              <h3>&#128466; {t('overview')}</h3>
+              <h2>&#128466; {t('overview')}</h2>
               <p>{t('overviewContent_09')}</p>
             </div>
             </motion.div>
@@ -91,14 +91,14 @@ function CaseStudyIndex() {
           </motion.div> */}
 
           <motion.div variants={fadeInUp}>
-          <PaletteList
-            title={t('palette')}
-            first="534488"
-            second="9b8dc3"
-            third="ed969e"
-            fourth="C43737"
-            last="fbc941"
-          />
+            <PaletteList
+              title={t('palette')}
+              first="534488"
+              second="9b8dc3"
+              third="ed969e"
+              fourth="C43737"
+              last="fbc941"
+            />
           </motion.div>
 
             <motion.div variants={fadeInUp}>
@@ -253,7 +253,7 @@ function CaseStudyIndex() {
 
             <motion.div>
               <CaseStudiesWrap
-                title="Case Studies"
+                title="More Case Studies"
               />
             </motion.div>
 

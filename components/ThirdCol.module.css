@@ -1,64 +1,70 @@
 .title{
-  grid-area: title;
+  font-family: var(--fonts-title);
+  font-size: 0.8em ;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
 }
-.secondCol{
-  grid-area: secondCol;
+.title,
+.description{
+  padding-left: 10px;
 }
-.firstCol{
-  grid-area: firstCol;
-  margin: 15px 0;
+.description{
+  color: #FFF;
+  font-size: 13px;
+  transition: all 1s ease;
 }
-.lastCol{
-  grid-area: lastCol;
-  display: none;
+.cube,
+.cube div,
+.cube div img {
+  height: 200px;
+  width: 200px;
 }
-.main {
-  padding: 0 10px 11vh 10px;
-  display: grid;
-  grid-template-rows: auto auto auto;
-  grid-template-areas:
-  'title'
-  'secondCol';
+.cube {
+  position: relative;
+  margin: 2.5em auto 2em auto;
+  transform-style: preserve-3d;
+  transform: rotateX(780deg) rotateY(780deg);
+  /* animation: giro 50s infinite linear; */
 }
-.main img{
-  width: 100%;
+.cube:hover {
+  animation: giro 50s infinite linear;
 }
-.main li {
-    margin-bottom: 25px;
-    line-height: 25px;
-    font-size: 1.1em;
-    filter: var(--box-shadow);
+@keyframes giro {
+	0% { transform: rotateX(780deg) rotateY(780deg);}
+	50% { transform: rotateX(380deg) rotateY(380deg);}
+  100% { transform: rotateX(780deg) rotateY(780deg);}
 }
+.cube div {
+  background: #0000001A;
+  position: absolute;
+  opacity: 0.8;
+  color: #FFF;
+}
+.cube div.cara1 {transform:translateZ(100px);}
+.cube div.cara2 {transform:rotateY(90deg) translateZ(100px);}
+.cube div.cara3 {transform:rotateY(180deg) translateZ(100px);}
+.cube div.cara4 {transform:rotateY(-90deg) translateZ(100px);}
+.cube div.cara5 {transform:rotateX(-90deg) translateZ(100px) rotate(180deg);}
+.cube div.cara6 {transform:rotateX(90deg) translateZ(100px);}
 /* Mobile 320px  */
 @media screen and (min-width: 30em) {}
-
 /* Table */
 @media screen and (min-width: 40em) {}
-
 /* Desktop 980px to 1280px  */
 @media screen and (min-width: 57em) {
-  .firstCol,
-  .lastCol{
-    display: block;
+  .title,
+  .description{
+      padding-left: 0;
   }
-  .firstCol{
-    margin: 0;
+  .cubeWrapper{
+    transform: scale(0.85);
+    transition: all 1s ease-in-out;
   }
-  .main {
-    padding: 0 0 200px 0;
-    display: grid;
-    grid-template-columns: 2fr 2fr 1fr;
-    column-gap: 2em;
-    grid-template-areas:
-        "title title title"
-        "firstCol secondCol lastCol";
-  }
-  .main li {
-      margin-bottom: 25px;
-      line-height: 25px;
-      font-size: 0.9em;
+  .cube{
+    padding: 10px 20px;
   }
 }
-
 /* Desktop 1920px */
 @media screen and (min-width: 120em) {}
+

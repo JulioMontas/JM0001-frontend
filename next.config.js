@@ -12,6 +12,7 @@ module.exports = {
        '/blog': { page: '/blog' },
        '/case-study': { page: '/case-study' },
        '/side-project': { page: '/side-project' },
+       '/new-media': { page: '/new-media' },
      }
    },
    eslint: {

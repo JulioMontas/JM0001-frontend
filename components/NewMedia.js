@@ -35,29 +35,29 @@ const stagger = {
 const data = [
   {
     id:'00',
-    title: "Sleeping Place",
+    title: "Sleeping.Place",
     content: "WebVR, 2023",
     slug: "sleeping-place",
-    cover: ""
+    cover: "sleepingPlace_3D.png"
   },
   {
     id:'01',
     title: "Simulacrum | Simulacrum",
     content: "Visual App, 2019",
     slug: "simulacrum-simulacrum",
-    cover: ""
+    cover: "simulacrum_3D.jpg"
   },
   {
     id:'03',
     title: "Baby Square",
     content: "Visual App, 2019",
     slug: "baby-square",
-    cover: ""
+    cover: "babySquare_3D.png"
   },
   {
     id:'04',
     title: "We Can't Breathe NYC",
-    content: "Net art, 2015",
+    content: "Web Art, 2015",
     slug: "we-cant-breathe-nyc",
     cover: ""
   },
@@ -66,44 +66,42 @@ const data = [
     title: "Surveillance Culture",
     content: "Data Collection, 2015",
     slug: "surveillance-culture",
-    cover: ""
+    cover: "RecyclingCode_3D_01.gif"
+  },
+  {
+    id:'09',
+    title: "Catch Superman",
+    content: "Web Art, 2014",
+    slug: "catch-superman",
+    cover: "CatchSuperman_3D_01.gif"
+  },
+  {
+    id:'10',
+    title: "Pixel X Pixel",
+    content: "Web Art, 2014",
+    slug: "pixel-x-pixel",
+    cover: "PixelXPixel_3D_01.gif"
   },
   {
     id:'06',
     title: "CURRENTS: TRANSLATIONS",
     content: "Print, 2013",
     slug: "currents-translations",
-    cover: ""
+    cover: "RecyclingCode_3D_02.gif"
   },
   {
     id:'07',
     title: "Emotional Meltdown",
     content: "Print, 2013",
-    slug: "im-melting",
-    cover: ""
+    slug: "emotional-meltdown",
+    cover: "SlitScan_3D_05.jpg"
   },
   {
     id:'08',
     title: "White Canvas",
     content: "Visual App, 2013",
     slug: "white-canvas",
-    cover: ""
-  },
-  {
-    id:'09',
-    title: "Catch Superman",
-    // content:"Interactive prank experience of your computer mouse speed",
-    content: "Net art, 2013",
-    slug: "catch-superman",
-    cover: ""
-  },
-  {
-    id:'10',
-    title: "Pixel X Pixel",
-    // content: "A mock-phishing website to promote awareness to internet security",
-    content: "Net art, 2013",
-    slug: "pixel-x-pixel",
-    cover: ""
+    cover: "whiteCanvas-3D.png"
   },
 ]
 
@@ -140,7 +138,7 @@ const NewMedia = (props) => {
           <SwiperSlide key={data.id}>
             <motion.div variants={fadeInUp} className='card'>
               <ThreeDimCube
-                slug={"newmedia/" + data.slug}
+                slug={`/new-media/` + data.slug}
                 title={data.title}
                 content={data.content}
                 cover={data.cover}

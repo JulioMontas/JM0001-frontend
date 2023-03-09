@@ -147,7 +147,7 @@ const futureData = [
 
 const LinkList = (props) => {
   return(
-      <motion.div exit={{ opacity: 0 }} initial='initial' animate='animate' className="LinkList">
+      <motion.div exit={{ opacity: 0 }} initial='initial' animate='animate' className={styles.LinkList}>
         <motion.div variants={stagger} >
 
         {data.map(data => (

@@ -1,15 +1,15 @@
 /* @font-face {
   font-family: slabLine;
   src: url(SlabLine-by-JulioMontas.woff);
-}
+} */
 
-.newFont{
+/* .newFont{
   font-family: slabLine;
   font-weight: bold;
   font-size: 10em !important;
   height: 500px;
   background: red;
-} */
+}  */
 
 .gridContainer{
   display: grid;
@@ -37,14 +37,16 @@
     margin-bottom: 5px;
     width: 92%;;
   }
-  .mainIndex h2,
-  .mainIndex h3{
+  .mainIndex h2{
     font-family: var(--fonts-title);
     font-weight: bold;
-    font-size: 12px;
+    font-size: 0.8em;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     margin-bottom: 10px;
+  }
+  .mainIndex h3{
+    font-size: 16px;
   }
   .mainIndex p {
     font-family: var(--fonts-summary);

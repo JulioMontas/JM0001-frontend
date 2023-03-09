@@ -1,14 +1,9 @@
-import Image from 'next/image'
-import Link from 'next/link'
 import { motion } from "framer-motion"
-import { Swiper, SwiperSlide } from 'swiper/react'
 import Head from 'next/head'
-import useTranslation from 'next-translate/useTranslation'
 import Container from '../../components/Container'
-import CaseStudiesWrap from '../../components/CaseStudiesWrap'
-import ContactForm from '../../components/ContactForm'
 import NavBar from '../../components/NavBar'
-import styles from '../../styles/CaseStudy.module.css'
+import CaseStudiesWrap from '../../components/CaseStudiesWrap'
+import Styles from '../../styles/NewMedia.module.css'
 
 const easing = [.6, -.05, .01, .99];
 
@@ -36,11 +31,10 @@ const stagger = {
 };
 
 function caseStudy({ posts }) {
-  const { t } = useTranslation('caseStudy')
   return <Container>
   <NavBar />
   <Head>
-    <title>Case Study - UI Developer • Interaction Designer | Julio Montas</title>
+    <title>Case Study - Julio Montás</title>
     <meta name='twitter:url' content='https://juliomontas.com/case-study/' />
     <meta property='og:url' content='https://juliomontas.com/case-study/' />
     <meta property='og:image' content='https://juliomontas.com/me.png' />
@@ -56,13 +50,13 @@ function caseStudy({ posts }) {
   </Head>
     <motion.div exit={{ opacity: 0 }} initial='initial' animate='animate'>
       <motion.div  variants={stagger}>
-        <div>
-
+        
+        <div className={Styles.newMediaIndex}>
           <CaseStudiesWrap
             title="Case Studies"
           />
-
         </div>
+
       </motion.div>
     </motion.div>
   </Container>

@@ -12,9 +12,9 @@ const PaletteList = (props) => {
   }
   return(
     <div className={styles.flipSwitch}>
-      <h3 className={styles.title}>
+      <h2 className={styles.title}>
         &#127852; {props.title}
-      </h3>
+      </h2>
       <div className={styles.secColorPalette}>
         <span style={{background:'#' + data.first}}></span>
         <span style={{background:'#' + data.second}}></span>

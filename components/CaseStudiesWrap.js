@@ -116,7 +116,8 @@ const CaseStudiesWrap = (props) => {
         <h2 className={styles.title}>
           {props.title}
         </h2>
-        <div className={styles.boxes}>
+
+        <div className={styles.boxes} >
         <Swiper
         style={{
           "--swiper-navigation-color": "#FFFC00",
@@ -142,7 +143,7 @@ const CaseStudiesWrap = (props) => {
           <SwiperSlide key={data.id}>
             <motion.div variants={fadeInUp} className='card'>
               <ThreeDimCube
-                slug={data.slug}
+                slug={`/case-study/` + data.slug}
                 title={data.title}
                 content={data.content}
                 cover={data.cover}
@@ -152,6 +153,7 @@ const CaseStudiesWrap = (props) => {
         ))}
         </Swiper>
         </div>
+
       </motion.div>
     </motion.div>
   );

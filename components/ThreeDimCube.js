@@ -1,11 +1,11 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from './CaseStudiesWrap.module.css'
+import styles from './ThirdCol.module.css'
 
 const ThreeDimCube = (props) => {
   return(
     <section>
-      <Link href={`/case-study/` + props.slug}>
+      <Link href={props.slug}>
         <a alt={props.alt}>
           <h3 className={styles.title}>{props.title}</h3>
           <h4 className={styles.description}>{props.content}</h4>

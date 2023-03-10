@@ -75,6 +75,13 @@ function NewMediaIndex() {
                                 </div>
                               </motion.div>
 
+                              <motion.div variants={fadeInUp}>
+                                <div className={styles.flipSwitch}>
+                                  <h2>Programming language used</h2>
+                                  <p>Processing a graphical library and integrated development environment (IDE).</p>
+                                </div>
+                              </motion.div>
+
 
                               <motion.div variants={fadeInUp}>
                                 <div>

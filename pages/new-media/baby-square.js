@@ -77,6 +77,13 @@ function NewMediaIndex() {
                               </motion.div>
 
                               <motion.div variants={fadeInUp}>
+                                <div className={styles.flipSwitch}>
+                                  <h2>Programming language used</h2>
+                                  <p>Processing a graphical library and integrated development environment (IDE).</p>
+                                </div>
+                              </motion.div>
+
+                              <motion.div variants={fadeInUp}>
                                 <ReactPlayer 
                                   url='https://vimeo.com/805396158' 
                                   controls

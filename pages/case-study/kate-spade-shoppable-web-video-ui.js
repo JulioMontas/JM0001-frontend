@@ -1,15 +1,11 @@
 import Image from 'next/image'
-import Link from 'next/link'
 import { motion } from "framer-motion"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import Head from 'next/head'
 import useTranslation from 'next-translate/useTranslation'
 import Container from '../../components/Container'
-import ExitButton from '../../components/ExitButton'
 import RelatedCTA from '../../components/RelatedCTA'
-import SideProjectWrap from '../../components/SideProjectWrap'
-import ContactForm from '../../components/ContactForm'
 import styles from '../../styles/Report.module.css'
 
 const easing = [.6, -.05, .01, .99];

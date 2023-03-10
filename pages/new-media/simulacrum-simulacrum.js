@@ -6,6 +6,7 @@ import NavBar from '../../components/NavBar'
 import styles from '../../styles/Report.module.css'
 import ReactPlayer from 'react-player/vimeo'
 import NewMedia from '../../components/NewMedia'
+import RelatedCTA from '../../components/RelatedCTA'
 
 const easing = [.6, -.05, .01, .99];
 
@@ -76,6 +77,14 @@ function NewMediaIndex() {
                               </motion.div>
 
                               <motion.div variants={fadeInUp}>
+                                <div className={styles.flipSwitch}>
+                                  <h2>Programming language used</h2>
+                                  <p>Processing a graphical library and integrated development environment (IDE).</p>
+                                </div>
+                              </motion.div>
+
+
+                              <motion.div variants={fadeInUp}>
                                 <ReactPlayer 
                                   url='https://player.vimeo.com/video/805627314' 
                                   controls
@@ -106,6 +115,10 @@ function NewMediaIndex() {
                                   width={1200}
                                   height={675}
                                 />
+                              </motion.div>
+
+                              <motion.div variants={fadeInUp}>
+                                <p>"The media represents world that is more real than reality that we can experience. People lose the ability to distinguish between reality and fantasy. They also begin to engage with the fantasy without realizing what it really is. They seek happiness and fulfilment through the simulacra of reality, e.g. media and avoid the contact/interaction with the real world."</p>
                               </motion.div>
 
                               <motion.div variants={fadeInUp}>

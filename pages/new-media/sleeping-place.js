@@ -6,6 +6,7 @@ import Container from '../../components/Container'
 import NavBar from '../../components/NavBar'
 import styles from '../../styles/Report.module.css'
 import NewMedia from '../../components/NewMedia'
+import RelatedCTA from '../../components/RelatedCTA'
 
 const easing = [.6, -.05, .01, .99];
 
@@ -76,6 +77,14 @@ function NewMediaIndex() {
                               </motion.div>
 
                               <motion.div variants={fadeInUp}>
+                                <div className={styles.flipSwitch}>
+                                  <h2>Research</h2>
+                                  <p>Through the use of cutting-edge technology, I have created a space that allows individuals to interact with the memory of their loved ones in a way that is both meaningful and cathartic. Whether it's through exploring a beautifully rendered environment or engaging with interactive elements, this virtual world offers a unique opportunity for individuals to connect with the memories of those they have lost.</p>
+                                </div>
+                              </motion.div>
+
+
+                              <motion.div variants={fadeInUp}>
                                 <div>
                                   <h2>Visual</h2>
                                   <Image
@@ -90,6 +99,23 @@ function NewMediaIndex() {
                                 </div>
                                 <p>2D view for navigation</p>
                               </motion.div>
+
+                              <motion.p variants={fadeInUp}>
+                                The project is still under develoment. If you are interested in learning more about my work in this space or would like to explore the virtual world I have created, please do not hesitate to reach out. I am always excited to connect with others who are passionate about exploring the possibilities of new media art.
+                              </motion.p>
+
+                              <motion.div variants={fadeInUp}>
+      <div className={styles.flipSwitch}>
+          <h2>Website</h2>
+          <ul>
+          <RelatedCTA
+            url="https://sleeping.place"
+            title="Sleeping.Place"
+            content="https://sleeping.place"
+          />
+          </ul>
+      </div>
+      </motion.div>
 
                               <motion.div variants={fadeInUp}>
                                 <div className={styles.flipSwitch}>

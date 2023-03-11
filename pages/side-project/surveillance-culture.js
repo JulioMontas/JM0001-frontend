@@ -43,18 +43,18 @@ function ProjectIndex() {
   <Container>
   <Head>
     <title>{t('title_02')} | Side Project</title>
-    <meta name='twitter:url' content='https://juliomontas.com/side-project/surveillance/' />
-    <meta property='og:url' content='https://juliomontas.com/side-project/surveillance/' />
+    <meta name='twitter:url' content='https://juliomontas.com/side-project/surveillance-culture/' />
+    <meta property='og:url' content='https://juliomontas.com/side-project/surveillance-culture/' />
     <meta property='og:image' content='https://juliomontas.com/img/side-project/surveillance/jessieNguyen-Moodboard.jpg' />
     <meta name='twitter:image' content='https://juliomontas.com/img/side-project/surveillance/jessieNguyen-Moodboard.jpg' />
-    <meta property='og:title' content='Surveillance Culture - Modernity Identity and Security | Julio montas' />
-    <meta name='twitter:title' content='Surveillance Culture - Modernity Identity and Security | Julio montas' />
+    <meta property='og:title' content='Surveillance Culture - Modernity Identity and Security | Julio Montás' />
+    <meta name='twitter:title' content='Surveillance Culture - Modernity Identity and Security | Julio Montás' />
     <meta name="description" content="A social experiment using the top social media channels to farm users sensitive data" key="description"/>
     <meta property='og:description' content='A social experiment using the top social media channels to farm users sensitive data' />
     <meta name='twitter:description' content='A social experiment using the top social media channels to farm users sensitive data' />
-    <link rel="canonical" href="https://juliomontas.com/side-project/surveillance/" />
-    <link rel="alternate" href="https://juliomontas.com/side-project/surveillance/" hreflang="en-us" />
-    <link rel="alternate" href="https://juliomontas.com/es-us/side-project/surveillance/" hreflang="es-us" />
+    <link rel="canonical" href="https://juliomontas.com/side-project/surveillance-culture/" />
+    <link rel="alternate" href="https://juliomontas.com/side-project/surveillance-culture/" hreflang="en-us" />
+    <link rel="alternate" href="https://juliomontas.com/es-us/side-project/surveillance-culture/" hreflang="es-us" />
   </Head>
   <motion.div exit={{y: -300, opacity: 0 }} initial='initial' animate='animate'>
   <motion.div variants={stagger}>

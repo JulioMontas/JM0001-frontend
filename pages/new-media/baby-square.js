@@ -40,13 +40,13 @@ function NewMediaIndex() {
     <div className={styles.backgroundColor}>
         <Container>
             <Head>
-                <title>{t('title_02')} - Julio Montas</title>
+                <title>{t('title_02')} - Julio Montás</title>
                 <meta name='twitter:url' content='https://juliomontas.com/new-media/baby-square/' />
                 <meta property='og:url' content='https://juliomontas.com/new-media/baby-square/' />
                 <meta property='og:image' content='https://juliomontas.com/me.png' />
                 <meta name='twitter:image' content='https://juliomontas.com/me.png' />
-                <meta property='og:title' content='Baby Square - New Media' />
-                <meta name='twitter:title' content='Baby Square - New Media' />
+                <meta property='og:title' content='Baby Square - New Media - Julio Montás' />
+                <meta name='twitter:title' content='Baby Square - New Media - Julio Montás' />
                 <meta name="description" content="" key="description"/>
                 <meta property='og:description' content='' />
                 <meta name='twitter:description' content='' />
@@ -84,6 +84,7 @@ function NewMediaIndex() {
                               </motion.div>
 
                               <motion.div variants={fadeInUp}>
+                                <h2>* Audio in muted</h2>
                                 <ReactPlayer 
                                   url='https://vimeo.com/805396158' 
                                   controls
@@ -96,12 +97,11 @@ function NewMediaIndex() {
                                   // width='100%'
                                   // height='100%'
                                 />
-                                <p>* Audio in muted</p>
                               </motion.div>
 
                               <motion.div variants={fadeInUp}>
                                 <div>
-                                  <h2>Visual</h2>
+                                  <h2>Controller prototype using the Arduino Uno</h2>
                                   <Image
                                     src="/img/new-media/IMG_9439.jpg"
                                     alt="Mockup of python page"
@@ -111,7 +111,6 @@ function NewMediaIndex() {
                                     layout="responsive"
                                     loading="eager"
                                   />
-                                  <p>Controller prototype using the open-source Arduino Uno microcontroller board</p>
                                 </div>
                               </motion.div>
 

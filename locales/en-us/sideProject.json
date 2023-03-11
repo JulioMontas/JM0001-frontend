@@ -1,7 +1,7 @@
 {
     "title_01": "HelloCo.de - The Home For Programming Languages",
     "content_01": "Collective Memory, Education",
-    "conceptContent_01": "List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present.",
+    "conceptContent_01": "Helloco.de is a archive of several old and new programming languages, where the focus is to learn the most simplest programming languages phrases and history. Made for non-programmers, newbies, and visual designers.",
     "uiDesignContent_01a": "Language Page",
     "uiDesignContent_01b": "List of programming languages",
     "uiDesignContent_01c": "The background was animated using Processing.js of how languages are distance but still connected.",
@@ -34,5 +34,8 @@
     "conceptContent_05": "Teaching toddler how to learn the basic of colors pronunciation and visual recognition memory.",
     "uiDesign_05": "Mobile App Concept Designs",
     "title_06": "Slab Lines",
-    "content_06": "Text"
+    "content_06": "Text",
+    "title_07": "Montas.nyc",
+    "content_07": "Text",
+    "conceptContent_07": "text"
 }

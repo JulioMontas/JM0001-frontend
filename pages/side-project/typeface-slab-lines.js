@@ -44,8 +44,8 @@ function ProjectIndex() {
   <Container>
   <Head>
     <title>{t('title_06')} | Side Project</title>
-    <meta name='twitter:url' content='https://juliomontas.com/side-project/font/' />
-    <meta property='og:url' content='https://juliomontas.com/side-project/font/' />
+    <meta name='twitter:url' content='https://juliomontas.com/side-project/typeface-slab-lines/' />
+    <meta property='og:url' content='https://juliomontas.com/side-project/typeface-slab-lines/' />
     <meta property='og:image' content='https://juliomontas.com/img/side-project/hc/hc01.gif' />
     <meta name='twitter:image' content='https://juliomontas.com/img/side-project/hc/hc01.gif' />
     <meta property='og:title' content='Font | Julio Montas' />
@@ -53,9 +53,9 @@ function ProjectIndex() {
     <meta name="description" content="List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present" key="description"/>
     <meta property='og:description' content='List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present' />
     <meta name='twitter:description' content='List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present' />
-    <link rel="canonical" href="https://juliomontas.com/side-project/font/" />
-    <link rel="alternate" href="https://juliomontas.com/side-project/font/" hreflang="en-us" />
-    <link rel="alternate" href="https://juliomontas.com/es-us/side-project/font/" hreflang="es-us" />
+    <link rel="canonical" href="https://juliomontas.com/side-project/typeface-slab-lines/" />
+    <link rel="alternate" href="https://juliomontas.com/side-project/typeface-slab-lines/" hreflang="en-us" />
+    <link rel="alternate" href="https://juliomontas.com/es-us/side-project/typeface-slab-lines/" hreflang="es-us" />
   </Head>
   <motion.div exit={{y: -300, opacity: 0 }} initial='initial' animate='animate'>
   <motion.div variants={stagger}>

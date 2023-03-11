@@ -9,6 +9,7 @@ import NavBar from '../../components/NavBar'
 import RelatedCTA from '../../components/RelatedCTA'
 import CaseStudiesWrap from '../../components/CaseStudiesWrap'
 import styles from '../../styles/Report.module.css'
+import ReactPlayer from 'react-player/vimeo'
 
 const easing = [.6, -.05, .01, .99];
 
@@ -43,18 +44,18 @@ function ProjectIndex() {
   <Container>
   <Head>
     <title>{t('title_01')} | Side Project</title>
-    <meta name='twitter:url' content='https://juliomontas.com/side-project/hellocode/' />
-    <meta property='og:url' content='https://juliomontas.com/side-project/hellocode/' />
+    <meta name='twitter:url' content='https://juliomontas.com/side-project/hellocode-the-home-for-programming-languages/' />
+    <meta property='og:url' content='https://juliomontas.com/side-project/hellocode-the-home-for-programming-languages/' />
     <meta property='og:image' content='https://juliomontas.com/img/side-project/hc/hc01.gif' />
     <meta name='twitter:image' content='https://juliomontas.com/img/side-project/hc/hc01.gif' />
-    <meta property='og:title' content='Helloco.de The Home For Programming Languages | Julio montas' />
-    <meta name='twitter:title' content='Helloco.de The Home For Programming Languages | Julio montas' />
+    <meta property='og:title' content='Helloco.de The Home For Programming Languages | Julio Montás' />
+    <meta name='twitter:title' content='Helloco.de The Home For Programming Languages | Julio Montás' />
     <meta name="description" content="List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present" key="description"/>
     <meta property='og:description' content='List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present' />
     <meta name='twitter:description' content='List of programming languages that have been developed from 1950–1979, 1980–1999, and 2000 to the present' />
-    <link rel="canonical" href="https://juliomontas.com/side-project/hellocode/" />
-    <link rel="alternate" href="https://juliomontas.com/side-project/hellocode/" hreflang="en-us" />
-    <link rel="alternate" href="https://juliomontas.com/es-us/side-project/hellocode/" hreflang="es-us" />
+    <link rel="canonical" href="https://juliomontas.com/side-project/hellocode-the-home-for-programming-languages/" />
+    <link rel="alternate" href="https://juliomontas.com/side-project/hellocode-the-home-for-programming-languages/" hreflang="en-us" />
+    <link rel="alternate" href="https://juliomontas.com/es-us/side-project/hellocode-the-home-for-programming-languages/" hreflang="es-us" />
   </Head>
   <motion.div exit={{y: -300, opacity: 0 }} initial='initial' animate='animate'>
   <motion.div variants={stagger}>
@@ -71,45 +72,37 @@ function ProjectIndex() {
         </motion.div>
 
         <motion.div variants={fadeInUp}>
-        <div className={styles.flipSwitch}>
+          <div className={styles.flipSwitch}>
             <h2>Concept</h2>
             <p>{t('conceptContent_01')}</p>
-        </div>
-        </motion.div>
-
-        <motion.div variants={fadeInUp}>
-          <div className={styles.flipSwitch}>
-          <h2>URL</h2>
-            <div>
-                <ul className={styles.secTextList}>
-                <RelatedCTA
-                  url="https://bfacd.parsons.edu/2013/helloco-de"
-                  title="The New School BFA Thesis 2013"
-                  content=""
-                />
-                <RelatedCTA
-                  url="https://twitter.com/msdev/status/485951332105195520"
-                  title="Microsoft Developer Tweet"
-                  content=""
-                />
-                </ul>
-            </div>
           </div>
         </motion.div>
 
         <motion.div variants={fadeInUp}>
-        <div>
+          <ReactPlayer 
+            url='https://vimeo.com/806972854' 
+            controls
+            loop='true'
+            playing='true'
+            muted='true'
+            width={1200}
+            height={681}
+          />
+        </motion.div>
+
+        <motion.div variants={fadeInUp}>
+          <div>
             <h2>UI Design</h2>
             <Image
-            src="/img/side-project/hc/CABulM1UwAAPf4a.png"
-            alt="Mockup of python page"
-            width={1421}
-            height={1897}
-            quality={100}
-            layout="responsive"
-            loading="eager"
+              src="/img/side-project/hc/CABulM1UwAAPf4a.png"
+              alt="Mockup of python page"
+              width={1421}
+              height={1897}
+              quality={100}
+              layout="responsive"
+              loading="eager"
             />
-        </div>
+          </div>
         </motion.div>
 
         <motion.div variants={fadeInUp}>
@@ -161,6 +154,26 @@ function ProjectIndex() {
         </motion.div>
 
         <motion.div variants={fadeInUp}>
+          <div className={styles.flipSwitch}>
+          <h2>URL</h2>
+            <div>
+                <ul className={styles.secTextList}>
+                <RelatedCTA
+                  title="The New School BFA Thesis 2013"
+                  url="https://bfacd.parsons.edu/2013/helloco-de"
+                  content="https://bfacd.parsons.edu/2013/helloco-de"
+                />
+                <RelatedCTA
+                  title="Helloco.de Twitter"
+                  url="https://twitter.com/helloco_de"
+                  content="https://twitter.com/helloco_de"
+                />
+                </ul>
+            </div>
+          </div>
+        </motion.div>
+
+        {/* <motion.div variants={fadeInUp}>
         <div className={styles.flipSwitch}>
           <h2>More Projects</h2>
           <ul>
@@ -181,13 +194,12 @@ function ProjectIndex() {
             />
           </ul>
         </div>
-        </motion.div>
+        </motion.div> */}
 
         <CaseStudiesWrap
           title="Case Studies"
         />
 
-  
       </div>
     </div>
   </div>

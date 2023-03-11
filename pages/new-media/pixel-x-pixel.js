@@ -45,8 +45,8 @@ function NewMediaIndex() {
                 <meta property='og:url' content='https://juliomontas.com/new-media/pixel-x-pixel/' />
                 <meta property='og:image' content='https://juliomontas.com/me.png' />
                 <meta name='twitter:image' content='https://juliomontas.com/me.png' />
-                <meta property='og:title' content='Pixel X Pixel - New Media from Julio Montás' />
-                <meta name='twitter:title' content='Pixel X Pixel - New Media from Julio Montás' />
+                <meta property='og:title' content='Pixel X Pixel - New Media - Julio Montás' />
+                <meta name='twitter:title' content='Pixel X Pixel - New Media - Julio Montás' />
                 <meta name="description" content="" key="description"/>
                 <meta property='og:description' content='' />
                 <meta name='twitter:description' content='' />
@@ -78,7 +78,7 @@ function NewMediaIndex() {
 
                               <motion.div variants={fadeInUp}>
                                 <div>
-                                  <h2>Visual</h2>
+                                  <h2>The first version's concept was to have just one still pixel on the screen</h2>
                                   <Image
                                     src="/img/new-media/pixelXPixel01.gif"
                                     alt="Mockup of python page"
@@ -88,13 +88,12 @@ function NewMediaIndex() {
                                     layout="responsive"
                                     loading="eager"
                                   />
-                                  <p>The first version's concept was to have just one still pixel on the screen</p>
                                 </div>
                               </motion.div>
 
                               <motion.div variants={fadeInUp}>
                                 <div>
-                                  <h2>Visual</h2>
+                                  <h2>One click prompts an alarming reaction</h2>
                                   <Image
                                     src="/img/new-media/Pixel_X_Pixel_V02_Click.gif"
                                     alt="Mockup of python page"
@@ -104,13 +103,12 @@ function NewMediaIndex() {
                                     layout="responsive"
                                     loading="eager"
                                   />
-                                  <p>One click prompts an alarming reaction</p>
                                 </div>
                               </motion.div>
 
                               <motion.div variants={fadeInUp}>
                                 <div>
-                                  <h2>Visual</h2>
+                                  <h2>The mock-phishing website is meant to make users think twice before clicking any suspicious links</h2>
                                   <Image
                                     src="/img/new-media/Pixel_X_Pixel_V02_Menu.gif"
                                     alt="Mockup of python page"
@@ -120,13 +118,12 @@ function NewMediaIndex() {
                                     layout="responsive"
                                     loading="eager"
                                   />
-                                  <p>The mock-phishing website is meant to make users think twice before clicking any suspicious links</p>
                                 </div>
                               </motion.div>
                               
                               <motion.div variants={fadeInUp}>
                                 <div>
-                                  <h2>Visual</h2>
+                                  <h2>Menu UI</h2>
                                   <Image
                                     src="/img/new-media/Pixel_X_Pixel_V02_Menu.gif"
                                     alt="Mockup of python page"
@@ -136,7 +133,6 @@ function NewMediaIndex() {
                                     layout="responsive"
                                     loading="eager"
                                   />
-                                  <p>Menu UI</p>
                                 </div>
                               </motion.div>
 
@@ -158,28 +154,24 @@ function NewMediaIndex() {
                                   <h2>More New Media</h2>
                                 </div>
                               </motion.div>
-
                             </div>
-                          </div>
-                     </div>
-
-                     <NewMedia />
-
-                     <motion.p 
-                       variants={fadeInUp} 
-                       style={{ 
-                        marginTop: '6em',
-                        marginBottom: '2em' 
-                      }}>
-                       © {new Date().getFullYear()} Julio Montás. All Rights Reserved.
-                     </motion.p>
+                        </div>
+                    </div>
+                    <NewMedia />
+                    
+                    <motion.p 
+                      variants={fadeInUp} 
+                      style={{ 
+                      marginTop: '6em',
+                      marginBottom: '2em' 
+                    }}>
+                      © {new Date().getFullYear()} Julio Montás. All Rights Reserved.
+                    </motion.p>
 
                  </motion.div>
               </motion.div>
           </Container>
-          
       </div>
   </>
 }
-
 export default NewMediaIndex

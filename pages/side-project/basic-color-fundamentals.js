@@ -43,18 +43,18 @@ function ProjectIndex() {
     <Container>
     <Head>
       <title>{t('title_05')} | Side Project</title>
-      <meta name='twitter:url' content='https://juliomontas.com/side-project/colors/' />
-      <meta property='og:url' content='https://juliomontas.com/side-project/colors/' />
+      <meta name='twitter:url' content='https://juliomontas.com/side-project/basic-color-fundamentals/' />
+      <meta property='og:url' content='https://juliomontas.com/side-project/basic-color-fundamentals/' />
       <meta property='og:image' content='https://juliomontas.com/img/side-project/colors/slide_03.png' />
       <meta name='twitter:image' content='https://juliomontas.com/img/side-project/colors/slide_03.png' />
-      <meta property='og:title' content='Basic Color Fundamentals - Simple Fun App for Toddlers | Julio montas' />
-      <meta name='twitter:title' content='Basic Color Fundamentals - Simple Fun App for Toddlers | Julio montas' />
+      <meta property='og:title' content='Basic Color Fundamentals - Simple Fun App for Toddlers | Julio Montás' />
+      <meta name='twitter:title' content='Basic Color Fundamentals - Simple Fun App for Toddlers | Julio Montás' />
       <meta name="description" content="Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory" key="description"/>
       <meta property='og:description' content='Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory' />
       <meta name='twitter:description' content='Figure out a device for toddler to learn the basic of colors pronunciation and visual recognition memory' />
-      <link rel="canonical" href="https://juliomontas.com/side-project/colors/" />
-      <link rel="alternate" href="https://juliomontas.com/side-project/colors/" hreflang="en-us" />
-      <link rel="alternate" href="https://juliomontas.com/es-us/side-project/colors/" hreflang="es-us" />
+      <link rel="canonical" href="https://juliomontas.com/side-project/basic-color-fundamentals/" />
+      <link rel="alternate" href="https://juliomontas.com/side-project/basic-color-fundamentals/" hreflang="en-us" />
+      <link rel="alternate" href="https://juliomontas.com/es-us/side-project/basic-color-fundamentals/" hreflang="es-us" />
     </Head>
     <motion.div exit={{y: -300, opacity: 0 }} initial='initial' animate='animate'>
     <motion.div variants={stagger}>

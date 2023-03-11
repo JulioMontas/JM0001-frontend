@@ -43,18 +43,18 @@ function ProjectIndex() {
   <Container>
   <Head>
     <title>{t('title_03')} | Side Project</title>
-    <meta name='twitter:url' content='https://juliomontas.com/side-project/width/' />
-    <meta property='og:url' content='https://juliomontas.com/side-project/width/' />
+    <meta name='twitter:url' content='https://juliomontas.com/side-project/width-take-over-the-screen/' />
+    <meta property='og:url' content='https://juliomontas.com/side-project/width-take-over-the-screen/' />
     <meta property='og:image' content='https://juliomontas.com/img/side-project/width/width_BothPlayer_1080.gif' />
     <meta name='twitter:image' content='https://juliomontas.com/img/side-project/width/width_BothPlayer_1080.gif' />
-    <meta property='og:title' content='Width Take Over the Screen | Julio montas' />
-    <meta name='twitter:title' content='Width Take Over the Screen | Julio montas' />
+    <meta property='og:title' content='Width Take Over the Screen | Julio Montás' />
+    <meta name='twitter:title' content='Width Take Over the Screen | Julio Montás' />
     <meta name="description" content="A two-player game in which you must defeat your opponents by clicking to take over the screen" key="description"/>
     <meta property='og:description' content='A two-player game in which you must defeat your opponents by clicking to take over the screen' />
     <meta name='twitter:description' content='A two-player game in which you must defeat your opponents by clicking to take over the screen' />
-    <link rel="canonical" href="https://juliomontas.com/side-project/width/" />
-    <link rel="alternate" href="https://juliomontas.com/side-project/width/" hreflang="en-us" />
-    <link rel="alternate" href="https://juliomontas.com/es-us/side-project/width/" hreflang="es-us" />
+    <link rel="canonical" href="https://juliomontas.com/side-project/width-take-over-the-screen/" />
+    <link rel="alternate" href="https://juliomontas.com/side-project/width-take-over-the-screen/" hreflang="en-us" />
+    <link rel="alternate" href="https://juliomontas.com/es-us/side-project/width-take-over-the-screen/" hreflang="es-us" />
   </Head>
   <motion.div exit={{y: -300, opacity: 0 }} initial='initial' animate='animate'>
   <motion.div variants={stagger}>

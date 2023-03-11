@@ -48,6 +48,8 @@ const data = {
   content_07: "Creative coding tool",
   title_08: " Virtual Reality Music Festival",
   content_08: "WebVR",
+  title_09: " Montas.nyc",
+  content_09: "Electronic Press Kit",
 }
 
 const SideProjectWrap = (props) => {
@@ -80,6 +82,28 @@ const SideProjectWrap = (props) => {
           }
         }}
         >
+          <SwiperSlide>
+            <motion.div variants={fadeInUp} className='card'>
+            <section>
+              <Link href={`/side-project/montas-nyc`}>
+                <a alt={data.title_03} rel="alternate" hreflang="en">
+                  <h3 className={styles.title}>{data.title_09}</h3>
+                  <h4 className={styles.description}>{data.content_09}</h4>
+                  <span className={styles.fotos}>
+                    <Image
+                    src="/img/side-project/"
+                    alt={data.title_09}
+                    width={360}
+                    height={210}
+                    quality={25}
+                    loading="eager"
+                    />
+                  </span>
+                </a>
+              </Link>
+            </section>
+            </motion.div>
+            </SwiperSlide>
 
             <SwiperSlide>
             <motion.div variants={fadeInUp} className='card'>

@@ -43,18 +43,18 @@ function ProjectIndex() {
   <Container>
     <Head>
       <title>{t('title_04')} | Side Project</title>
-      <meta name='twitter:url' content='https://juliomontas.com/side-project/meliorem/' />
-      <meta property='og:url' content='https://juliomontas.com/side-project/meliorem/' />
+      <meta name='twitter:url' content='https://juliomontas.com/side-project/meliorem-cultivating-your-passion-to-level-up/' />
+      <meta property='og:url' content='https://juliomontas.com/side-project/meliorem-cultivating-your-passion-to-level-up/' />
       <meta property='og:image' content='https://juliomontas.com/img/side-project/meliorem/meliorem-02.png' />
       <meta name='twitter:image' content='https://juliomontas.com/img/side-project/meliorem/meliorem-02.png' />
-      <meta property='og:title' content='Meliorem - Cultivating Your Passion to Level Up | Julio montas' />
-      <meta name='twitter:title' content='Meliorem - Cultivating Your Passion to Level Up | Julio montas' />
+      <meta property='og:title' content='Meliorem - Cultivating Your Passion to Level Up | Julio Montás' />
+      <meta name='twitter:title' content='Meliorem - Cultivating Your Passion to Level Up | Julio Montás' />
       <meta name="description" content="Reward self task manager to stimulate your existence" key="description"/>
       <meta property='og:description' content='Reward self task manager to stimulate your existence' />
       <meta name='twitter:description' content='Reward self task manager to stimulate your existence' />
-      <link rel="canonical" href="https://juliomontas.com/side-project/meliorem/" />
-      <link rel="alternate" href="https://juliomontas.com/side-project/meliorem/" hreflang="en-us" />
-      <link rel="alternate" href="https://juliomontas.com/es-us/side-project/meliorem/" hreflang="es-us" />
+      <link rel="canonical" href="https://juliomontas.com/side-project/meliorem-cultivating-your-passion-to-level-up/" />
+      <link rel="alternate" href="https://juliomontas.com/side-project/meliorem-cultivating-your-passion-to-level-up/" hreflang="en-us" />
+      <link rel="alternate" href="https://juliomontas.com/es-us/side-project/meliorem-cultivating-your-passion-to-level-up/" hreflang="es-us" />
     </Head>
     <motion.div exit={{y: -300, opacity: 0 }} initial='initial' animate='animate'>
     <motion.div variants={stagger}>

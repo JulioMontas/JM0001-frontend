@@ -39,13 +39,13 @@ function NewMediaIndex() {
     <div className={styles.backgroundColor}>
         <Container>
             <Head>
-                <title>{t('title_06')} - Julio Montas</title>
+                <title>{t('title_06')} - Julio Montás</title>
                 <meta name='twitter:url' content='https://juliomontas.com/new-media/emotional-meltdown/' />
                 <meta property='og:url' content='https://juliomontas.com/new-media/emotional-meltdown/' />
                 <meta property='og:image' content='https://juliomontas.com/me.png' />
                 <meta name='twitter:image' content='https://juliomontas.com/me.png' />
-                <meta property='og:title' content='Emotional Meltdown - New Media' />
-                <meta name='twitter:title' content='Emotional Meltdown - New Media' />
+                <meta property='og:title' content='Emotional Meltdown - New Media - Julio Montás' />
+                <meta name='twitter:title' content='Emotional Meltdown - New Media - Julio Montás' />
                 <meta name="description" content="" key="description"/>
                 <meta property='og:description' content='' />
                 <meta name='twitter:description' content='' />

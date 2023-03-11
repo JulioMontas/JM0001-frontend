@@ -45,8 +45,8 @@ function NewMediaIndex() {
                 <meta property='og:url' content='https://juliomontas.com/new-media/catch-superman/' />
                 <meta property='og:image' content='https://juliomontas.com/me.png' />
                 <meta name='twitter:image' content='https://juliomontas.com/me.png' />
-                <meta property='og:title' content='Catch Superman - New Media from Julio Montás' />
-                <meta name='twitter:title' content='Catch Superman - New Media from Julio Montás' />
+                <meta property='og:title' content='Catch Superman - New Media - Julio Montás' />
+                <meta name='twitter:title' content='Catch Superman - New Media - Julio Montás' />
                 <meta name="description" content="" key="description"/>
                 <meta property='og:description' content='' />
                 <meta name='twitter:description' content='' />
@@ -78,7 +78,7 @@ function NewMediaIndex() {
 
                               <motion.div variants={fadeInUp}>
                                 <div>
-                                  <h2>Visual</h2>
+                                  <h2>Visual: Gif instructions on how to play the undefeatable game</h2>
                                   <Image
                                     src="/img/new-media/cs02.gif"
                                     alt="Mockup of python page"
@@ -88,13 +88,12 @@ function NewMediaIndex() {
                                     layout="responsive"
                                     loading="eager"
                                   />
-                                  <p>Gif instructions on how to play the undefeatable game</p>
                                 </div>
                               </motion.div>
 
                               <motion.div variants={fadeInUp}>
                                 <div>
-                                  <h2>Visual</h2>
+                                  <h2>Visual: Once the mouse enters the browser screen, superman speeds up</h2>
                                   <Image
                                     src="/img/new-media/cs01.gif"
                                     alt="Mockup of python page"
@@ -104,11 +103,10 @@ function NewMediaIndex() {
                                     layout="responsive"
                                     loading="eager"
                                   />
-                                  <p>Once the mouse enters the browser screen, superman speeds up</p>
                                 </div>
                               </motion.div>
 
-                              <motion.div variants={fadeInUp}>
+                              {/* <motion.div variants={fadeInUp}>
                                 <div className={styles.flipSwitch}>
                                   <h2>Demo URL</h2>
                                   <ul>
@@ -119,7 +117,7 @@ function NewMediaIndex() {
                                     />
                                   </ul>
                                 </div>
-                              </motion.div>
+                              </motion.div> */}
 
                               <motion.div variants={fadeInUp}>
                                 <div className={styles.flipSwitch}>

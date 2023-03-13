@@ -36,7 +36,7 @@ function sideProject({ posts }) {
   const { t } = useTranslation('sideProject')
   return <Layout>
     <Head>
-      <title>Side Project - UI Developer • Interaction Designer | Julio montas</title>
+      <title>Side Project - UI Developer • Interaction Designer | Julio Montás</title>
       <meta name='twitter:url' content='https://juliomontas.com/side-project/' />
       <meta property='og:url' content='https://juliomontas.com/side-project/' />
       <meta property='og:image' content='https://juliomontas.com/me.png' />

@@ -34,7 +34,7 @@ function Services({ posts }) {
   return <Container>
   <NavBar />
   <Head>
-    <title>Services - UI Developer • Interaction Designer | Julio Montas</title>
+    <title>Services - UI Developer • Interaction Designer | Julio Montás</title>
     <meta name='twitter:url' content='https://juliomontas.com/services/' />
     <meta property='og:url' content='https://juliomontas.com/services/' />
     <meta property='og:image' content='https://juliomontas.com/me.png' />

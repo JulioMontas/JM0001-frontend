@@ -9,7 +9,7 @@ export default function LinkPage({ data }) {
   return (
     <>
     <Head>
-      <title>Julio Montas - UI Developer • Full Stack Designer</title>
+      <title>Julio Montás - UI Developer • Full Stack Designer</title>
       <meta name='twitter:url' content='https://juliomontas.com/link' />
       <meta property='og:url' content='https://juliomontas.com/link' />
       <meta property='og:image' content='https://juliomontas.com/me.png' />

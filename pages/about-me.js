@@ -39,7 +39,7 @@ export default function MePage({ data }) {
   return (
     <>
       <Head>
-      <title>Julio Montas - About Me</title>
+      <title>Julio Montás - About Me</title>
       <meta name='twitter:url' content='https://juliomontas.com/about-me' />
       <meta property='og:url' content='https://juliomontas.com/about-me' />
       <meta property='og:image' content='https://juliomontas.com/me.png' />
@@ -89,7 +89,7 @@ export default function MePage({ data }) {
                     <motion.div variants={fadeInUp}>
                       <div className={styles.flipSwitch}>
                         <h2>History</h2>
-                        <div>
+                        {/* <div>
                           <p style={{marginBottom:"1.5em"}}>
                             I’m a multi-talented visual designer that also code in CSS, HTML, JavaScript (React). I’ve created over a dozen website and apps designed to streamline sales and marketing activities for startup, luxury fashion and beauty brands.
                           </p>
@@ -98,6 +98,25 @@ export default function MePage({ data }) {
                           </p>
                           <p style={{marginBottom:"1.5em"}}>
                             My favorite design style are Swiss design and Suprematism / Constructivism (Russian art), When I'm not designing or coding, I'm visiting some art gallery or DJing minimal style music.
+                          </p>
+                        </div> */}
+                        <div>
+                          <p style={{marginBottom:"1.5em"}}>
+                            With over 8 years of experience in the industry, I am a seasoned designer and developer who has honed my skills in creating innovative and impactful solutions. Through my work, I have developed a deep understanding of both design and development, I am able to bridge the gap between the two and create seamless, user-friendly experiences.
+                          </p>
+                          <p style={{marginBottom:"1.5em"}}>
+                            As a designer, I possess a keen eye for aesthetics and a mastery of various design tools such as Adobe Lightroom, Sketch, and Figma. With experience working on a diverse array of projects, including website, app design, email templates, branding, e-Commerce, and marketing materials in digital or in print.
+                          </p>
+                          <p style={{marginBottom:"1.5em"}}>
+                            In addition to my design expertise, I possess a strong background in UI development. I am proficient in HTML, CSS, and JavaScript, and have a deep understanding of several frameworks including React, Gatsby, Next, and Shopify. I am also experienced in integrating with Strapi or DatoCMS for headless CMS and back-end data management using GraphQL. With this comprehensive skill set, I am able to create seamless, user-friendly experiences that engage and delight users. 
+                          </p>
+
+                          <p style={{marginBottom:"1.5em"}}>
+                            Whether you're looking to build a custom website, develop an e-commerce platform, or create an engaging mobile application, I have the skills and knowledge to bring your vision to life. Don't hesitate to reach out if you're interested in working together - I would love to help take your project to the next level.
+                          </p>
+
+                          <p style={{marginBottom:"1.5em"}}>
+                            Currently in New York.
                           </p>
                         </div>
                       </div>
